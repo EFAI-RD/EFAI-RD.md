@@ -17,6 +17,7 @@ refs:
     title: "How Far Have Medical Vision-Language Models Come? A Comprehensive Benchmarking Study"
     url: "https://arxiv.org/html/2507.11200v2"
 related_articles:
+  - "2026-09-15-conch-pathology-vlm.md"
   - "2026-09-15-maira-2-grounded-reporting.md"
   - "2026-09-15-medical-vlm-benchmark.md"
 figures:
@@ -151,6 +152,8 @@ RL 階段使用群組相對策略最佳化（Group Relative Policy Optimization,
 本書庫另提出三個判讀邊界：第一，Table 6、9、10 沒有提供逐項信賴區間，細小分差需要重複實驗；第二，開放題採模型裁判，應抽查裁判與醫師判斷是否一致；第三，§6 的示例不足以估計臨床漏診率或病人效益，仍需依預定用途另設評估。[(ref: main Table 6)](https://arxiv.org/html/2506.07044v4#S5.T6) [(ref: main Table 9)](https://arxiv.org/html/2506.07044v4#S5.T9) [(ref: main Table 10)](https://arxiv.org/html/2506.07044v4#S5.T10) [(ref: main §4.2)](https://arxiv.org/html/2506.07044v4#S4.SS2) [(ref: main §6)](https://arxiv.org/html/2506.07044v4#S6)
 
 ## 與書庫其他文章的關係
+
+病理專科的 CONCH 導讀可接續比較圖文配對與訓練目標，並檢查零樣本切片分類中提示及彙整設定的影響: [CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？](2026-09-15-conch-pathology-vlm.md)
 
 若要接續閱讀胸腔報告的逐句與定位評估，可對照 MAIRA-2 導讀中的輸入消融與 RadFact 分母，跨研究分數仍須先對齊計分版本: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md)
 
