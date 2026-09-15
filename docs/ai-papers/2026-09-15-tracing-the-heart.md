@@ -34,13 +34,13 @@ refs:
       s6: "#S6"
 figures:
   - path: "assets/nmas-pipeline-overview.png"
-    caption: "nMAS 特徵工程流程摘要（EFAI-RD 重繪，PNG）"
+    caption: "nMAS 特徵工程流程摘要（EFAI-RD 重繪）"
     origin: efai
   - path: "assets/2608.06366-architecture.png"
     caption: "原文架構圖（arXiv HTML：architecture.png）"
     origin: paper
 status: published
-skill_version: "write-ai-paper@1.2"
+skill_version: "write-ai-paper@1.3"
 evidence_reviewed: true
 ---
 
@@ -48,21 +48,21 @@ evidence_reviewed: true
 
 ## 來源
 
-- **單位／團隊**：**Nimblemind** 主導，並與 Singapore University of Technology and Design、UIUC、FIU、UCLA、Rutgers 等機構合作（見原文作者單位）
+- **單位／團隊**：**Nimblemind** 主導，並與 Singapore University of Technology and Design、UIUC、FIU、UCLA、Rutgers 等機構合作
 - **論文**：*Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering*
 - **識別**：[arXiv:2608.06366](https://arxiv.org/abs/2608.06366) · [HTML 全文](https://arxiv.org/html/2608.06366) · 投稿 ML4H 2026
 
 一句話：作者提出 **nMAS**（Nimblemind Multi-Agent System），用「臨床 rubric + 可追溯證據鏈」自動做心衰竭（heart failure, HF）EHR 特徵工程，並在 500 筆 dummy 資料上示範可審計、可提升表型分型預測。
 
-## 圖／流程
+## 流程
 
-![nMAS 流程摘要（EFAI-RD 重繪 PNG）](assets/nmas-pipeline-overview.png)
+![nMAS 流程摘要（EFAI-RD 重繪）](assets/nmas-pipeline-overview.png)
 
-*圖 1：nMAS 特徵工程流程摘要（EFAI-RD 重繪，PNG；供快速對照）。*
+*圖 1：nMAS 特徵工程流程摘要（EFAI-RD 重繪）。*
 
 ![原文 nMAS 架構圖](assets/2608.06366-architecture.png)
 
-*圖 2：原文架構圖，取自 arXiv HTML [`architecture.png`](https://arxiv.org/html/2608.06366v1/architecture.png)；方法段落見 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)／[(圖錨點)](https://arxiv.org/html/2608.06366#S4.fig1)。*
+*圖 2：原文架構圖，取自 arXiv HTML [`architecture.png`](https://arxiv.org/html/2608.06366v1/architecture.png)；方法見 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。*
 
 ## 背景／問題
 
@@ -132,16 +132,14 @@ Rubric 定義條件、給分與證據階層，把 Stage 1 變數收成可解釋�
 
 目前書庫尚無直接相關文章。
 
-（若日後撰寫 evidence-linked 特徵工程或 multi-agent 臨床稽核等 `ai-basics`，應在**雙方**本章節以「一句話敘述關係: [標題](連結)」互鏈。）
+## 實務的啟發
 
-## 對 EFAI／實務的啟發
-
-1. 特徵輸出要能指回來源欄與評分規則——對齊本庫「可點 ref → 原文段落」。
+1. 特徵輸出應能指回來源欄與評分規則，方便稽核與複現。
 2. LLM 宜框在 rubric 起草／有界稽核；執行評分可偏 deterministic。
 3. 誠實標示 dummy／單中心；落地仍需外部驗證。
 
 ## References
 
 - **main** — Shimgekar et al. *Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering*.  
-  [HTML（可深鏈）](https://arxiv.org/html/2608.06366) · [abs](https://arxiv.org/abs/2608.06366)  
-  Anchors：[`#abstract1`](https://arxiv.org/html/2608.06366#abstract1) · [`#S1`](https://arxiv.org/html/2608.06366#S1) · [`#S3`](https://arxiv.org/html/2608.06366#S3) · [`#S4`](https://arxiv.org/html/2608.06366#S4) · [`#S4.fig1`](https://arxiv.org/html/2608.06366#S4.fig1) · [`#S5`](https://arxiv.org/html/2608.06366#S5) · [`#S6`](https://arxiv.org/html/2608.06366#S6)
+  [HTML](https://arxiv.org/html/2608.06366) · [abs](https://arxiv.org/abs/2608.06366)  
+  [`#abstract1`](https://arxiv.org/html/2608.06366#abstract1) · [`#S1`](https://arxiv.org/html/2608.06366#S1) · [`#S3`](https://arxiv.org/html/2608.06366#S3) · [`#S4`](https://arxiv.org/html/2608.06366#S4) · [`#S4.fig1`](https://arxiv.org/html/2608.06366#S4.fig1) · [`#S5`](https://arxiv.org/html/2608.06366#S5) · [`#S6`](https://arxiv.org/html/2608.06366#S6)
