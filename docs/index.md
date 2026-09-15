@@ -7,13 +7,14 @@
 | 分類 | 說明 |
 |------|------|
 | [AI Papers](ai-papers/) | 最新 medical AI paper 筆記 |
-| [AI Basics](ai-basics/) | 論文中需展開的技術底層與歷史脈絡 |
+| [AI Basics](ai-basics/) | 大方向概念：發展由來與 landmark papers |
 | [Industry Watch](industry-watch/) | 國際大廠與台灣同業動向 |
 
 ## 怎麼讀
 
-- 每篇定稿文末有 **References**：`(ref: xxx)` 可對到原始連結
-- 文章之間會互相連結；可從任一分類的 index 逛起
+- 每篇文章文首／文末可回 **Home** 或該分類列表
+- 文內有 **編輯** 署名；分類列表也可看到編輯欄
+- 定稿文末 **References** 可點回原文（盡量深鏈段落）
 
 ## 貢獻
 
