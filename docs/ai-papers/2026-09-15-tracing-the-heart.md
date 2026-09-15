@@ -5,7 +5,8 @@ date: 2026-09-15
 updated: 2026-09-15
 tags: [LLM, multi-agent, EHR, heart-failure, feature-engineering, evidence-linked]
 catalog_id: "arxiv:2608.06366"
-editors: []
+editors:
+  - "Curitis"
 source:
   orgs:
     - "Nimblemind"
@@ -40,9 +41,9 @@ figures:
   - path: "assets/2608.06366-architecture.png"
     caption: "原文架構圖（arXiv HTML：architecture.png）"
     origin: paper
-status: draft
+status: published
 skill_version: "write-ai-paper@1.4"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 **導覽：** [Home](../) · [AI Papers](./)
@@ -55,7 +56,7 @@ evidence_reviewed: false
 - **論文**：*Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering*
 - **識別**：[arXiv:2608.06366](https://arxiv.org/abs/2608.06366) · [HTML 全文](https://arxiv.org/html/2608.06366) · 投稿 ML4H 2026
 
-**編輯：** （待指定）
+**編輯：** Curitis
 
 一句話：作者提出 **nMAS**（Nimblemind Multi-Agent System），用「臨床 rubric + 可追溯證據鏈」自動做心衰竭（heart failure, HF）EHR 特徵工程，並在 500 筆 dummy 資料上示範可審計、可提升表型分型預測。
 
