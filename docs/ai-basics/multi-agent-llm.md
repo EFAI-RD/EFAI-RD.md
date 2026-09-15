@@ -21,6 +21,8 @@ source:
 related_articles:
   - path: "../ai-papers/2026-09-15-tracing-the-heart.md"
     relation: "medical multi-agent pipeline example"
+  - path: "../industry-watch/2026-09-15-arxiv-ai-content-policy.md"
+    relation: "arXiv penalty for unchecked LLM content"
 refs:
   react:
     title: "ReAct: Synergizing Reasoning and Acting in Language Models"
@@ -99,6 +101,8 @@ evidence_reviewed: true
 ## 與書庫其他文章的關係
 
 一句話敘述關係: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](../ai-papers/2026-09-15-tracing-the-heart.md) 是多代理「專責＋有界稽核」在心衰竭 EHR 特徵工程上的實例。
+
+一句話敘述關係: [arXiv 收緊 AI 生成內容政策：幻覺引用等可致一年禁投](../industry-watch/2026-09-15-arxiv-ai-content-policy.md) 從預印本平台端說明未核對 LLM 生成內容（含幻覺引用）的投稿後果。
 
 ## 實務的啟發
 
