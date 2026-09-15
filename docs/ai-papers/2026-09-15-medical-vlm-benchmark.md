@@ -16,7 +16,8 @@ source:
   venue: "arXiv technical report (2025)"
   url: "https://arxiv.org/abs/2507.11200"
   html_url: "https://arxiv.org/html/2507.11200"
-related_articles: []
+related_articles:
+  - "2026-09-15-lingshu-medical-vlm.md"
 refs:
   main:
     title: "How Far Have Medical Vision-Language Models Come? A Comprehensive Benchmarking Study"
@@ -178,7 +179,7 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-目前書庫尚無直接相關文章。
+本篇比較 Lingshu 與其他醫療 VLM 的表現，模型原始報告則補充其資料整理、分階段訓練與 RL 消融結果: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
 
 ## 實務的啟發
 
