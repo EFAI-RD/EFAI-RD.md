@@ -91,12 +91,6 @@ evidence_reviewed: true
 2. 若使用生成式 AI 改寫或整理文獻，依領域慣例在方法／致謝揭露，且人為終審。
 3. 共同作者掛名即共擔責任；掛名前確認自己核過引用與圖表數字。
 
-## 後續追蹤
-
-- [ ] 官網 moderation／政策頁是否把「1-year ban」條文正式併入常設文件  
-- [ ] 其他預印本（bioRxiv／medRxiv 等）是否跟進類似硬證據門檻  
-- [ ] 醫療 AI 投稿社群的實務檢查清單是否出現共識範本  
-
 ## References
 
 - **arxiv_moderation_ai** — [arXiv Content Moderation（generative AI 條款）](https://info.arxiv.org/help/moderation/index.html)
