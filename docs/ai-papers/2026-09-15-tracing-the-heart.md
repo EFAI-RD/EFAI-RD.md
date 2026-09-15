@@ -19,7 +19,9 @@ source:
   venue: "arXiv preprint；投稿 ML4H 2026"
   url: "https://arxiv.org/abs/2608.06366"
   html_url: "https://arxiv.org/html/2608.06366"
-related_articles: []
+related_articles:
+  - path: "../ai-basics/multi-agent-llm.md"
+    relation: "multi-agent lineage background"
 refs:
   main:
     title: "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering"
@@ -192,7 +194,7 @@ Rubric 定義條件、給分與證據階層；七類分數加總後上限 100，
 
 ## 與書庫其他文章的關係
 
-目前書庫尚無直接相關文章。
+一句話敘述關係: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md) 提供閱讀 nMAS「專責代理＋有界稽核」時所需的多代理譜系背景。
 
 ## 實務的啟發
 
