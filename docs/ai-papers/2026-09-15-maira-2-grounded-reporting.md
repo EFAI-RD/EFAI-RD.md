@@ -20,6 +20,7 @@ refs:
     url: "https://arxiv.org/html/2506.07044v4"
 related_articles:
   - "2026-09-15-lingshu-medical-vlm.md"
+  - "2026-09-15-medrax-chest-xray-agent.md"
 figures:
   - path: "assets/maira2-generation-radfact-pipeline.png"
     caption: "MAIRA-2 的生成流程，以及 RadFact 三組指標的不同分母"
@@ -169,6 +170,8 @@ MIMIC-CXR Findings 任務，保留五個模型與下列八項指標。方括號�
 **小規模人工審查尚不足以推論臨床效益。** Appendix F 聚焦文字，不評估定位框；作者說明這 20 例較不複雜，且單一醫師的觀察無法泛化。Microsoft 官方模型卡也將模型限定為研究用途，成人 CXR、英文報告之外的用途不在其預期範圍。[(ref: main Appendix F.1)](https://arxiv.org/pdf/2406.04449v2#page=54) [(ref: main Appendix F.3)](https://arxiv.org/pdf/2406.04449v2#page=58) [(ref: model Uses)](https://huggingface.co/microsoft/maira-2#uses)
 
 ## 與書庫其他文章的關係
+
+MedRAX 把 MAIRA-2 納入影像定位工具，可接續閱讀代理如何選用模型輸出，以及多工具問答仍有哪些評估落差: [MedRAX：工具代理如何改善胸腔 X 光問答？](2026-09-15-medrax-chest-xray-agent.md)
 
 Lingshu 導讀著重通用醫療 VLM 的資料與訓練，本篇則可接續閱讀胸腔報告的輸入條件、逐句評估與位置標註: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
 
