@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-15 | [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](2026-09-15-fda-cardio-ml-notification.md) | Curitis | 21 CFR 870.2380 |
 | 2026-09-15 | [arXiv 收緊 AI 生成內容政策：幻覺引用等可致一年禁投](2026-09-15-arxiv-ai-content-policy.md) | Curitis | 2026-05 處罰澄清 |
 
 **導覽：** [Home](../) · [Industry Watch](./)
