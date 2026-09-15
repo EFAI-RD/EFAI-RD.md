@@ -22,6 +22,8 @@ source:
 related_articles:
   - path: "../ai-basics/multi-agent-llm.md"
     relation: "multi-agent lineage background"
+  - path: "../industry-watch/2026-09-15-fda-cardio-ml-notification.md"
+    relation: "FDA Class II cardio ML notification vs research HF pipelines"
 refs:
   main:
     title: "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering"
@@ -195,6 +197,8 @@ Rubric 定義條件、給分與證據階層；七類分數加總後上限 100，
 ## 與書庫其他文章的關係
 
 一句話敘述關係: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md) 提供閱讀 nMAS「專責代理＋有界稽核」時所需的多代理譜系背景。
+
+一句話敘述關係: [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](../industry-watch/2026-09-15-fda-cardio-ml-notification.md) 說明美國對「心血管 ML 通知軟體」的成文分類與通報／診斷邊界，可對照研究管線的落地距離。
 
 ## 實務的啟發
 
