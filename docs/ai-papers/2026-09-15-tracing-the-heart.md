@@ -33,14 +33,14 @@ refs:
       s5: "#S5"
       s6: "#S6"
 figures:
-  - path: "assets/nmas-pipeline-overview.svg"
-    caption: "nMAS 特徵工程流程摘要（EFAI-RD 重繪）"
+  - path: "assets/nmas-pipeline-overview.png"
+    caption: "nMAS 特徵工程流程摘要（EFAI-RD 重繪，PNG）"
     origin: efai
   - path: "assets/2608.06366-architecture.png"
     caption: "原文架構圖（arXiv HTML：architecture.png）"
     origin: paper
 status: published
-skill_version: "write-ai-paper@1.1"
+skill_version: "write-ai-paper@1.2"
 evidence_reviewed: true
 ---
 
@@ -48,7 +48,7 @@ evidence_reviewed: true
 
 ## 來源
 
-- **單位／團隊**：**Nimblemind** 主導、與 Singapore University of Technology and Design、UIUC、FIU、UCLA、Rutgers 等機構合作（見原文作者單位）
+- **單位／團隊**：**Nimblemind** 主導，並與 Singapore University of Technology and Design、UIUC、FIU、UCLA、Rutgers 等機構合作（見原文作者單位）
 - **論文**：*Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering*
 - **識別**：[arXiv:2608.06366](https://arxiv.org/abs/2608.06366) · [HTML 全文](https://arxiv.org/html/2608.06366) · 投稿 ML4H 2026
 
@@ -56,13 +56,13 @@ evidence_reviewed: true
 
 ## 圖／流程
 
-![nMAS 流程摘要（EFAI-RD 重繪）](assets/nmas-pipeline-overview.svg)
+![nMAS 流程摘要（EFAI-RD 重繪 PNG）](assets/nmas-pipeline-overview.png)
 
-*圖 1：nMAS 特徵工程流程摘要（EFAI-RD 重繪；細節以原文為準）。*
+*圖 1：nMAS 特徵工程流程摘要（EFAI-RD 重繪，PNG；供快速對照）。*
 
 ![原文 nMAS 架構圖](assets/2608.06366-architecture.png)
 
-*圖 2：原文架構圖，取自 arXiv HTML [`architecture.png`](https://arxiv.org/html/2608.06366v1/architecture.png)；對應方法流程見 [(ref: main §4 圖)](https://arxiv.org/html/2608.06366#S4.fig1)。*
+*圖 2：原文架構圖，取自 arXiv HTML [`architecture.png`](https://arxiv.org/html/2608.06366v1/architecture.png)；方法段落見 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)／[(圖錨點)](https://arxiv.org/html/2608.06366#S4.fig1)。*
 
 ## 背景／問題
 
@@ -72,41 +72,73 @@ evidence_reviewed: true
 
 nMAS 是 **evidence-linked、rubric-grounded** 的多代理管線 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)：
 
-1. **Achievability Agent**：先檢查來源資料是否撐得起目標特徵；缺輸入則標 unsupported，不硬猜 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
-2. **Stage 1**：九張 EHR 表標準化、去重、時間彙總後併成「一病人一列」結構化表 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
-3. **Stage 2**：依版本化臨床評分 rubric 產生高階複合特徵；每項附 **structured evidence trace**（成分、分數、來源欄、輸入是否存在）[(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
-4. **LLM auditor**（文中為 Qwen 2.5-1.5B-Instruct）：在白名單欄位內做有界校正，保護證據軌跡欄位 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
-5. Rubric 由小型 LLM 彙整指引文獻草案，再經**心臟專科醫師全份審核**；定稿含 **2023 年起 22 篇**參考文獻 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+1. **Achievability Agent**：檢查來源是否撐得起目標特徵；缺輸入則標 unsupported [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+2. **Stage 1**：九表標準化 → 去重 → 時間彙總 → 一病人一列 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+3. **Stage 2**：版本化臨床 rubric 產出複合特徵 + structured evidence trace [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+4. **LLM auditor**（Qwen 2.5-1.5B-Instruct）：白名單內有界校正 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+5. Rubric 由小型 LLM 草案 + **心臟專科醫師全份審核**（2023 年起 22 篇文獻）[(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
 
-重點設計：缺失值保持缺失（不把缺 EF 填 0）；表型優先用數值 EF，否則用 ICD／診斷碼，**不插補 EF** [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+## 方法詳解
+
+以下對照圖 1／圖 2，展開 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4) 的特徵**工程**管線（本文焦點；另有特徵擷取管線僅作對照）。
+
+### 請求進入與可行性
+
+流程以「EHR 匯出 + 版本化 rubric 目標特徵」為請求。**Achievability Agent** 先對每個目標特徵檢查必要輸入是否存在；撐不起來的特徵標成 unsupported，而不是用模型臆測補值 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。通過後，Query Parser 路由到對應 nMAS 管線。
+
+### Stage 1：從九表到病人層級寬表
+
+1. **標準化**：空白壓縮、空字串／`"nan"`→ null、病人 ID 大寫、EHR 時間轉 ISO，以便排序與 first/latest 統計 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。  
+2. **去重**：各表用臨床有意義的事件鍵去重，避免重送用藥／重傳檢驗灌水計數 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。  
+3. **時間彙總**：每張來源表先壓到病人層（計數、首末時間戳、臨床旗標），再 merge 成唯一病人列 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。  
+4. **EF 解析**：區間字串（如 `20–25%`）拆成低／高／中點，再算最低、最高、最近 EF，並標記衝突 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。  
+5. **缺失策略**：連續測量保留 missing、**不填 0**（避免「EF=0」被讀成極重度收縮功能障礙而灌高嚴重度分數）[(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+
+臨床推理層會把文字／代碼轉成可解釋旗標；菸酒等暴露保留有序類別而非單純二元；HF 表型以 ICD 衍生值為主，並在與診斷名衝突時掛 conflict flag [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+
+### Stage 2：Rubric 複合特徵與證據軌跡
+
+Rubric 定義條件、給分與證據階層，把 Stage 1 變數收成可解釋分數／計數／指數，並保留貢獻證據 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。權重區分：直接 vs 支持證據、當前 vs 歷史、獨立 vs 重疊測量等；分數是「文獻知情的工程設計」，不是直接從某篇論文抄一個係數 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+
+七類（疾病嚴重度、心血管風險、五系統共病負擔、人口脆弱性等）採相同邏輯：成分加總、**上限 100**，再映到 high（≥55）／medium（25–54）／low（&lt;25），並回傳成分、分數、白話說明、來源欄、輸入是否存在 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+
+**HF 表型**另走門檻邏輯：有數值 EF 時，中點 ≤40 → HFrEF、&lt;50 → HFmrEF、否則 HFpEF；無數值 EF 則用 ICD／診斷路徑，**不插補 EF**，且同一病人不會同時被標成 reduced 與 preserved [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。此邏輯也約束 HFrEF 相關 care-gap 檢查的適用對象 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+
+### LLM Auditor 與品管
+
+每個候選列由本機 Qwen 2.5-1.5B-Instruct 稽核：只允許改白名單數值／類別欄；`_json`／`_explanation` 等證據軌跡欄受保護；無法解析的回應記 audit failure 並保留原分數 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。另有自動化 harness 查唯一 ID、表型互斥、缺失保留、rubric 合規、單調性（如現吸菸分數應高於既往）、成分可追溯與 provenance [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+
+共病「發現」階段並不發明新病名：候選條件固定在 rubric（13 項），模型只在既有欄位中指出可當證據的欄，並經校驗／deterministic fallback [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
 
 ## 資料與實驗
 
-- **500** 筆 dummy HF 病人紀錄，來自九張結構化 EHR 表 [(ref: main §3)](https://arxiv.org/html/2608.06366#S3)。
-- 數值 EF 僅 **3.0%**（15/500）病人有，多數表型需診斷名／碼後援 [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
-- 下游次要評估：XGBoost 做 HFrEF vs phenotype-unknown、HFpEF vs phenotype-unknown；比較 baseline vs 加入複合特徵；5-fold × 10 shuffle [(ref: main §4)](https://arxiv.org/html/2608.06366#S4) [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
+- **500** 筆 dummy HF 病人、九張結構化 EHR 表 [(ref: main §3)](https://arxiv.org/html/2608.06366#S3)。
+- 數值 EF 僅 **3.0%**（15/500）有紀錄 [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
+- 次要評估：XGBoost，HFrEF／HFpEF 各自 vs phenotype-unknown；baseline（清洗合併變數）vs 加複合特徵；5-fold × 10 shuffle [(ref: main §4)](https://arxiv.org/html/2608.06366#S4) [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
 
 ## 結果
 
-- Stage 1：正好 **500** 列、**132** 個結構化欄位 [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
-- Stage 2：**70** 個 rubric 評分／彙總欄位，全部列經 LLM auditor [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
-- 加入彙總特徵後，平均 AUROC：HFrEF **0.895 → 0.963**；HFpEF **0.870 → 0.910** [(ref: main Abstract)](https://arxiv.org/html/2608.06366#abstract1) [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
-- 獨立 LLM（Claude Opus 4.8）建構效度：整體約 **81.5%** 滿分 [(ref: main Abstract)](https://arxiv.org/html/2608.06366#abstract1) [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
-- Ablation：等權／隨機權重明顯變差，支持 rubric 權重而非只靠特徵數量 [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
+- Stage 1：**500** 列、**132** 結構化欄 [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
+- Stage 2：**70** 個 rubric 欄，列皆經 auditor [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
+- AUROC：HFrEF **0.895 → 0.963**；HFpEF **0.870 → 0.910** [(ref: main Abstract)](https://arxiv.org/html/2608.06366#abstract1) [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
+- LLM 建構效度約 **81.5%** 滿分 [(ref: main Abstract)](https://arxiv.org/html/2608.06366#abstract1) [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
+- 等權／隨機權重 ablation 變差，支持 rubric 權重 [(ref: main §5)](https://arxiv.org/html/2608.06366#S5)。
 
 ## 限制
 
-單機構、**dummy** 世代、樣本 500；任務是 HF **表型分型**（對 phenotype-unknown），不是對非 HF 對照的疾病偵測；部分特徵可能與標籤證據重疊；未做前瞻臨床效益等 [(ref: main §6)](https://arxiv.org/html/2608.06366#S6)。
+單機構、**dummy**、n=500；任務是 HF 表型分型（非 vs 非 HF 對照）；可能有特徵—標籤證據重疊；未做前瞻臨床效益等 [(ref: main §6)](https://arxiv.org/html/2608.06366#S6)。
 
-## 與書庫舊文的關係
+## 與書庫其他文章的關係
 
-書庫目前尚無直接相關定稿文章；本篇可觸發後續 `ai-basics`（evidence-linked feature engineering、rubric-grounded agent）。
+目前書庫尚無直接相關文章。
+
+（若日後撰寫 evidence-linked 特徵工程或 multi-agent 臨床稽核等 `ai-basics`，應在**雙方**本章節以「一句話敘述關係: [標題](連結)」互鏈。）
 
 ## 對 EFAI／實務的啟發
 
-1. **Evidence-linked** 要能指回來源欄與評分規則——與本庫「可點 ref → 原文段落」同一精神。
-2. LLM 角色框在 **rubric 起草／有界稽核**，執行評分偏 deterministic。
-3. 評估誠實標示 dummy／單中心；落地仍需外部驗證。
+1. 特徵輸出要能指回來源欄與評分規則——對齊本庫「可點 ref → 原文段落」。
+2. LLM 宜框在 rubric 起草／有界稽核；執行評分可偏 deterministic。
+3. 誠實標示 dummy／單中心；落地仍需外部驗證。
 
 ## References
 
