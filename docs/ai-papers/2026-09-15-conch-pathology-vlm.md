@@ -195,6 +195,8 @@ MI-Zero 的 top-K 平均較適合不同類別形態互斥的任務。作者指�
 
 CONCH 的病理圖文配對與對比／生成目標，可對照 Lingshu 的醫療資料整理、分階段對齊與指令訓練，兩篇的任務與分數應各自解讀: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
 
+REG 2025 的多個參賽系統把 CONCH 當作 WSI encoder，並進一步比較完整結構化病理報告生成、跨院泛化與數值幻覺: [REG 2025：病理全切片到報告生成，榜單分數抓得到數值幻覺嗎？](2026-09-16-reg-2025-pathology-report-generation.md)
+
 上述比較依兩篇各自的訓練設計。[(ref: main 圖文預訓練)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11384335/#S10) [(ref: lingshu §2–3)](https://arxiv.org/html/2506.07044v4#S2) [(ref: lingshu §3)](https://arxiv.org/html/2506.07044v4#S3)
 
 ## 實務的啟發
