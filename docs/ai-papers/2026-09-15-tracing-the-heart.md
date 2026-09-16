@@ -20,6 +20,8 @@ source:
   url: "https://arxiv.org/abs/2608.06366"
   html_url: "https://arxiv.org/html/2608.06366"
 related_articles:
+  - path: "2026-09-17-medicalbench-concept-extraction.md"
+    relation: "evidence-grounded medical concept extraction"
   - path: "../ai-basics/multi-agent-llm.md"
     relation: "multi-agent lineage background"
   - path: "../industry-watch/2026-09-15-fda-cardio-ml-notification.md"
@@ -195,6 +197,8 @@ Rubric 定義條件、給分與證據階層；七類分數加總後上限 100，
 單機構、**dummy**、n=500；任務是 HF 表型分型（非 vs 非 HF 對照）；可能有特徵—標籤證據重疊；未做前瞻臨床效益等 [(ref: main §6)](https://arxiv.org/html/2608.06366#S6)。
 
 ## 與書庫其他文章的關係
+
+一句話敘述關係: [MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？](2026-09-17-medicalbench-concept-extraction.md) 測試模型能否從病歷定位支撐概念的句子，可對照 nMAS 以規則與來源欄維持特徵 provenance 的做法。
 
 一句話敘述關係: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md) 提供閱讀 nMAS「專責代理＋有界稽核」時所需的多代理譜系背景。
 
