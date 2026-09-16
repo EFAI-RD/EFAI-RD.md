@@ -21,6 +21,8 @@ source:
 related_articles:
   - path: "../ai-papers/2026-09-15-tracing-the-heart.md"
     relation: "medical multi-agent pipeline example"
+  - path: "../ai-papers/2026-09-16-careconnect-healthcare-agent.md"
+    relation: "single-agent healthcare tool orchestration contrast"
   - path: "../industry-watch/2026-09-15-arxiv-ai-content-policy.md"
     relation: "arXiv penalty for unchecked LLM content"
 refs:
@@ -101,6 +103,8 @@ evidence_reviewed: true
 ## 與書庫其他文章的關係
 
 一句話敘述關係: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](../ai-papers/2026-09-15-tracing-the-heart.md) 是多代理「專責＋有界稽核」在心衰竭 EHR 特徵工程上的實例。
+
+一句話敘述關係: [CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？](../ai-papers/2026-09-16-careconnect-healthcare-agent.md) 以單一 LLM router、確定性安全閘門與結構化工具，提供「代理不一定是多代理」的醫療行政對照案例。
 
 一句話敘述關係: [arXiv 收緊 AI 生成內容政策：幻覺引用等可致一年禁投](../industry-watch/2026-09-15-arxiv-ai-content-policy.md) 從預印本平台端說明未核對 LLM 生成內容（含幻覺引用）的投稿後果。
 

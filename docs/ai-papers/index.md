@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-16 | [CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？](2026-09-16-careconnect-healthcare-agent.md) | Colbert | arXiv:2607.05055v1 |
 | 2026-09-16 | [REG 2025：病理全切片到報告生成，榜單分數抓得到數值幻覺嗎？](2026-09-16-reg-2025-pathology-report-generation.md) | Colbert | arXiv:2609.00866v1 |
 | 2026-09-16 | [MedGPT-oss：20B 模型能靠簡單架構與三階段資料配方追上更大的醫療 VLM 嗎？](2026-09-16-medgpt-oss.md) | Colbert | arXiv:2603.00842v1 |
 | 2026-09-16 | [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md) | Colbert | arXiv:2604.05081v2 |
