@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-16 | [REG 2025：病理全切片到報告生成，榜單分數抓得到數值幻覺嗎？](2026-09-16-reg-2025-pathology-report-generation.md) | Colbert | arXiv:2609.00866v1 |
 | 2026-09-16 | [MedGPT-oss：20B 模型能靠簡單架構與三階段資料配方追上更大的醫療 VLM 嗎？](2026-09-16-medgpt-oss.md) | Colbert | arXiv:2603.00842v1 |
 | 2026-09-16 | [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md) | Colbert | arXiv:2604.05081v2 |
 | 2026-09-15 | [CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？](2026-09-15-conch-pathology-vlm.md) | Colbert | arXiv:2307.12914；Nature Medicine 2024 |
