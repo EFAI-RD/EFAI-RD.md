@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-17 | [BrainVLM：從多序列 MRI 到前瞻收案，信心分數能讓腦瘤診斷更可靠嗎？](2026-09-17-brainvlm-brain-tumor-diagnosis.md) | Colbert | arXiv:2609.16597v1；多中心與前瞻驗證 |
 | 2026-09-17 | [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](2026-09-17-agentrx-multimodal-clinical-prediction.md) | Colbert | arXiv:2605.10286v1；CHIL 2026 |
 | 2026-09-17 | [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](2026-09-17-medsight-grounded-medical-vlm.md) | Colbert | arXiv:2606.06760v1；ICML 2026 |
 | 2026-09-17 | [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？](2026-09-17-modalens-image-sensitivity.md) | Colbert | arXiv:2609.15635v1 |
