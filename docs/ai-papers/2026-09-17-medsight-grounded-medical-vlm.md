@@ -18,6 +18,7 @@ refs:
     url: "https://github.com/Aofei-Chang/MedSIGHT"
 related_articles:
   - "2026-09-15-lingshu-medical-vlm.md"
+  - "2026-09-17-coral-concept-grounded-report-generation.md"
 figures:
   - path: "assets/medsight-grounded-visual-comprehension.png"
     caption: "MedSIGHT 從醫療影像、區域表徵與離散 region codes，到診斷文字及像素級 mask 的概念流程"
@@ -151,6 +152,8 @@ MeCoVQA-G 的 4,142 與 4,126 不是兩個互斥版本：前者是原始 samples
 ## 與書庫其他文章的關係
 
 一句話敘述關係: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md) 是 MedSIGHT Table 2 的醫療 VLM baseline，可用來對照通用多模態問答與像素級 grounding 兩種訓練目標，但跨研究分數仍須依資料重疊與評分設定分開解讀。
+
+模型內生 grounding 與外部分割器輔助生成的對照: [CORAL：先找病灶、再說臨床概念，能讓醫療影像報告更可檢視嗎？](2026-09-17-coral-concept-grounded-report-generation.md) 以外部分割器提供 mask，再用概念瓶頸引導結構化報告，可與 MedSIGHT 的聯合文字及像素輸出比較。
 
 ## 實務的啟發
 
