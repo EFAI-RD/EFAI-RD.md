@@ -9,6 +9,8 @@
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
 | 2026-09-17 | [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](2026-09-17-medsight-grounded-medical-vlm.md) | Colbert | arXiv:2606.06760v1；ICML 2026 |
+| 2026-09-17 | [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？](2026-09-17-modalens-image-sensitivity.md) | Colbert | arXiv:2609.15635v1 |
+| 2026-09-17 | [EviGen：從長期病歷挑證據、寫理由，再逐步驗證，能讓臨床 LLM 更可稽核嗎？](2026-09-17-evigen-clinical-rationale.md) | Colbert | arXiv:2609.18852v1 |
 | 2026-09-17 | [MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？](2026-09-17-medicalbench-concept-extraction.md) | Colbert | arXiv:2605.20197v1 |
 | 2026-09-16 | [CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？](2026-09-16-careconnect-healthcare-agent.md) | Colbert | arXiv:2607.05055v1 |
 | 2026-09-16 | [REG 2025：病理全切片到報告生成，榜單分數抓得到數值幻覺嗎？](2026-09-16-reg-2025-pathology-report-generation.md) | Colbert | arXiv:2609.00866v1 |
