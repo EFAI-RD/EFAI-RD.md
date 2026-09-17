@@ -2,7 +2,7 @@
 title: "LLM 多代理系統：從 ReAct 到可對話協作"
 category: ai-basics
 date: 2026-09-15
-updated: 2026-09-15
+updated: 2026-09-17
 tags: [LLM, multi-agent, ReAct, AutoGen, CAMEL, agents]
 catalog_id: "topic:multi-agent-llm"
 editors:
@@ -19,12 +19,16 @@ source:
     - title: "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"
       url: "https://arxiv.org/abs/2308.08155"
 related_articles:
+  - path: "../ai-papers/2026-09-17-agentrx-multimodal-clinical-prediction.md"
+    relation: "single-agent versus multi-agent multimodal clinical prediction benchmark"
   - path: "../ai-papers/2026-09-15-tracing-the-heart.md"
     relation: "medical multi-agent pipeline example"
   - path: "../ai-papers/2026-09-16-careconnect-healthcare-agent.md"
     relation: "single-agent healthcare tool orchestration contrast"
   - path: "../industry-watch/2026-09-15-arxiv-ai-content-policy.md"
     relation: "arXiv penalty for unchecked LLM content"
+  - path: "../industry-watch/2026-09-15-amodei-pace-the-frontier.md"
+    relation: "industry governance response to a reported multi-agent loss-of-control incident"
 refs:
   react:
     title: "ReAct: Synergizing Reasoning and Acting in Language Models"
@@ -101,6 +105,8 @@ evidence_reviewed: true
 - **「醫療多代理已等於臨床可用」**：領域管線論文的離線／dummy 評估，不能外推成已驗證的臨床效益；需看該文限制與外部驗證設計 [(ref: nmas §6)](https://arxiv.org/html/2608.06366#S6)。
 
 ## 與書庫其他文章的關係
+
+一句話敘述關係: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](../ai-papers/2026-09-17-agentrx-multimodal-clinical-prediction.md) 把角色分工落到 ICU 四模態風險預測，顯示多數決、辯論與 meta-prompting 若只交換壓縮後判斷，未必比單一代理整合完整上下文更可靠。
 
 一句話敘述關係: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](../ai-papers/2026-09-15-tracing-the-heart.md) 是多代理「專責＋有界稽核」在心衰竭 EHR 特徵工程上的實例。
 
