@@ -156,6 +156,8 @@ RL 階段使用群組相對策略最佳化（Group Relative Policy Optimization,
 
 ## 與書庫其他文章的關係
 
+一句話敘述關係: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md) 說明通才醫療 VLM 如何接在對齊／指令微調／領域基礎之後；本篇是該分岔的資料與訓練細節筆記。
+
 一句話敘述關係: [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](2026-09-17-medsight-grounded-medical-vlm.md) 把 Lingshu 納入視覺理解比較，並進一步要求診斷文字對回像素級 mask，可用來檢查通用 VLM 分數與 spatial grounding 能力是否一致。
 
 一句話敘述關係: [MedGPT-oss：20B 模型能靠簡單架構與三階段資料配方追上更大的醫療 VLM 嗎？](2026-09-16-medgpt-oss.md) 將 Lingshu-32B 納入同一推論框架重跑，提供另一組可比較資料配方、參數規模與 out-of-distribution 表現的證據，但分數只能在該研究的提示與計分條件內解讀。
