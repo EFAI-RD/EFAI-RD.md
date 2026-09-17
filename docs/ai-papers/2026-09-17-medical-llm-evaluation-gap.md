@@ -22,6 +22,7 @@ refs:
 related_articles:
   - "2026-09-17-agentrx-multimodal-clinical-prediction.md"
   - "../ai-basics/multi-agent-llm.md"
+  - "../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md"
 figures:
   - path: "assets/medical-llm-evidence-map-workflow.png"
     caption: "從 PubMed 紀錄經確定性規則得到衍生變數，再計算成長、評估時差、漂移抵銷、集中度與注意力—證據落差"
@@ -153,6 +154,8 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 一句話敘述關係: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](2026-09-17-agentrx-multimodal-clinical-prediction.md) 提供單中心 retrospective benchmark 的具體案例；本篇則顯示 agentic／multi-agent 醫療文獻雖成長最快，trial-grade evidence 的相對供給仍低。
 
 一句話敘述關係: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md) 解釋角色分工與協作機制；本篇補上研究治理視角，提醒 capability、safety 與 prospective evaluation 經常分屬不同文獻群。
+
+一句話敘述關係: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md) 對應監管端把代理式 GenAI 賦能裝置與上市後監測寫進討論框架；本篇則顯示 agentic／multi-agent 醫療文獻成長快、trial-grade 證據相對稀少。
 
 ## 實務的啟發
 
