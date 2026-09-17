@@ -29,6 +29,8 @@ related_articles:
     relation: "arXiv penalty for unchecked LLM content"
   - path: "../industry-watch/2026-09-15-amodei-pace-the-frontier.md"
     relation: "industry governance response to a reported multi-agent loss-of-control incident"
+  - path: "../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md"
+    relation: "FDA discussion paper seeks extra considerations for agentic GenAI-enabled devices"
 refs:
   react:
     title: "ReAct: Synergizing Reasoning and Acting in Language Models"
@@ -117,6 +119,8 @@ evidence_reviewed: true
 一句話敘述關係: [arXiv 收緊 AI 生成內容政策：幻覺引用等可致一年禁投](../industry-watch/2026-09-15-arxiv-ai-content-policy.md) 從預印本平台端說明未核對 LLM 生成內容（含幻覺引用）的投稿後果。
 
 一句話敘述關係: [AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持](../industry-watch/2026-09-15-amodei-pace-the-frontier.md) 記錄多代理群體失控的真實事件（OpenAI–Hugging Face）如何促成產業層級的調速倡議。
+
+一句話敘述關係: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md) 從監管端點名 agentic GenAI 賦能裝置的額外評估考量；本篇則說明多代理／工具編排的概念基礎。
 
 ## 實務的啟發
 
