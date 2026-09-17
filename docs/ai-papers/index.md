@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-17 | [PrecepTron：把醫師評分學成 LLM 評審，能讓醫療 AI 評估更可重現嗎？](2026-09-17-preceptron-clinical-ai-evaluation.md) | Colbert | arXiv:2609.12822v1；GRAND-ROUNDS |
 | 2026-09-17 | [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md) | Colbert | arXiv:2609.11770v1；2023–2026 evidence map |
 | 2026-09-17 | [CORAL：先找病灶、再說臨床概念，能讓醫療影像報告更可檢視嗎？](2026-09-17-coral-concept-grounded-report-generation.md) | Colbert | arXiv:2609.15334v1；乳房超音波與胸腔 X 光 |
 | 2026-09-17 | [BrainVLM：從多序列 MRI 到前瞻收案，信心分數能讓腦瘤診斷更可靠嗎？](2026-09-17-brainvlm-brain-tumor-diagnosis.md) | Colbert | arXiv:2609.16597v1；多中心與前瞻驗證 |

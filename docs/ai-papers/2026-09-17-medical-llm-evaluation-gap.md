@@ -20,6 +20,7 @@ refs:
     title: "raadbintareaf/evaluation-gap-npj"
     url: "https://github.com/raadbintareaf/evaluation-gap-npj"
 related_articles:
+  - "2026-09-17-preceptron-clinical-ai-evaluation.md"
   - "2026-09-17-agentrx-multimodal-clinical-prediction.md"
   - "../ai-basics/multi-agent-llm.md"
   - "../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md"
@@ -150,6 +151,8 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 6. **bibliometric gap 不是臨床效果。** 研究沒有測量任何模型的診斷準確度、病人結果、安全性或公平性；attention–evidence gap 高，也不代表傷害已被證實。[(ref: main §3)](https://arxiv.org/html/2609.11770v1#S3)
 
 ## 與書庫其他文章的關係
+
+一句話敘述關係: [PrecepTron：把醫師評分學成 LLM 評審，能讓醫療 AI 評估更可重現嗎？](2026-09-17-preceptron-clinical-ai-evaluation.md) 把本文指出的評估設計缺口具體化為 physician-calibrated judge；它能提高同一量表下的評分可重現性，但不解決模型新鮮度、臨床效益或跨 panel 外推。
 
 一句話敘述關係: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](2026-09-17-agentrx-multimodal-clinical-prediction.md) 提供單中心 retrospective benchmark 的具體案例；本篇則顯示 agentic／multi-agent 醫療文獻雖成長最快，trial-grade evidence 的相對供給仍低。
 
