@@ -83,6 +83,8 @@ Anthropic 執行長 Dario Amodei 在 2026 年 9 月 12 日發表約 3,800 字的
 
 一句話敘述關係: [LLM Multi-Agent Systems（ReAct → CAMEL → AutoGen）](../ai-basics/multi-agent-llm.md) 解釋多代理系統的機制；本則記錄多代理群體失控的真實事件（OAI-HF）如何促成產業層級的調速倡議。
 
+一句話敘述關係: [Google 發布 Gemini 3.8 Live 系列：Extended Thinking 登上語音對語音評測榜首](2026-09-17-gemini-3-8-live-launch.md) 是本倡議之後第一個大廠前沿模型發布實例，可對照觀察治理承諾與發布行為。
+
 ## 實務的啟發
 
 1. 選用前沿模型供應商時，可把「是否接受常駐第三方評估、其報告是否公開」列入盡職調查清單——這正在從不可問變成可問的問題。
