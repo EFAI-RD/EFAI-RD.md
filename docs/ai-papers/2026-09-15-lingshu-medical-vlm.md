@@ -17,9 +17,12 @@ refs:
     title: "How Far Have Medical Vision-Language Models Come? A Comprehensive Benchmarking Study"
     url: "https://arxiv.org/html/2507.11200v2"
 related_articles:
+  - "2026-09-16-medgpt-oss.md"
+  - "2026-09-16-medgemma-1-5.md"
   - "2026-09-15-conch-pathology-vlm.md"
   - "2026-09-15-maira-2-grounded-reporting.md"
   - "2026-09-15-medical-vlm-benchmark.md"
+  - "2026-09-17-medsight-grounded-medical-vlm.md"
 figures:
   - path: "assets/lingshu-data-training-pipeline.png"
     caption: "Lingshu 的資料、三階段監督訓練與額外 RL 實驗"
@@ -153,15 +156,17 @@ RL 階段使用群組相對策略最佳化（Group Relative Policy Optimization,
 
 ## 與書庫其他文章的關係
 
-MedGPT-oss 將 Lingshu-32B 納入同一推論框架重跑，提供另一組可比較資料配方、參數規模與 out-of-distribution 表現的證據，但分數只能在該研究的提示與計分條件內解讀: [MedGPT-oss：20B 模型能靠簡單架構與三階段資料配方追上更大的醫療 VLM 嗎？](2026-09-16-medgpt-oss.md)
+一句話敘述關係: [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](2026-09-17-medsight-grounded-medical-vlm.md) 把 Lingshu 納入視覺理解比較，並進一步要求診斷文字對回像素級 mask，可用來檢查通用 VLM 分數與 spatial grounding 能力是否一致。
 
-MedGemma 1.5 同樣把多種醫療影像與文字任務放進單一通用模型，但更聚焦 3D 體積、全切片與縱向影像，可用來比較兩種通用化路線的資料揭露與評估邊界: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md)
+一句話敘述關係: [MedGPT-oss：20B 模型能靠簡單架構與三階段資料配方追上更大的醫療 VLM 嗎？](2026-09-16-medgpt-oss.md) 將 Lingshu-32B 納入同一推論框架重跑，提供另一組可比較資料配方、參數規模與 out-of-distribution 表現的證據，但分數只能在該研究的提示與計分條件內解讀。
 
-病理專科的 CONCH 導讀可接續比較圖文配對與訓練目標，並檢查零樣本切片分類中提示及彙整設定的影響: [CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？](2026-09-15-conch-pathology-vlm.md)
+一句話敘述關係: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md) 同樣把多種醫療影像與文字任務放進單一通用模型，但更聚焦 3D 體積、全切片與縱向影像，可用來比較兩種通用化路線的資料揭露與評估邊界。
 
-若要接續閱讀胸腔報告的逐句與定位評估，可對照 MAIRA-2 導讀中的輸入消融與 RadFact 分母，跨研究分數仍須先對齊計分版本: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md)
+一句話敘述關係: [CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？](2026-09-15-conch-pathology-vlm.md) 可接續比較病理專科的圖文配對與訓練目標，並檢查零樣本切片分類中提示及彙整設定的影響。
 
-本文說明 Lingshu 的資料與訓練來源，另一篇則將同系列模型放入不同評估流程比較，兩篇分數應各自依其提示、題型與計分條件解讀: [醫療 VLM 走了多遠？七套基準下的模型規模、領域微調與推理落差](2026-09-15-medical-vlm-benchmark.md)
+一句話敘述關係: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md) 可接續閱讀胸腔報告的逐句與定位評估，並對照輸入消融與 RadFact 分母；跨研究分數仍須先對齊計分版本。
+
+一句話敘述關係: [醫療 VLM 走了多遠？七套基準下的模型規模、領域微調與推理落差](2026-09-15-medical-vlm-benchmark.md) 將同系列模型放入另一套評估流程比較，與本文的資料及訓練來源互補，兩篇分數應各自依提示、題型與計分條件解讀。
 
 兩份研究的評分流程可分別核對 Lingshu 的 MedEvalKit 與基準研究的固定提示及方框答案擷取。[(ref: main §4.2)](https://arxiv.org/html/2506.07044v4#S4.SS2) [(ref: benchmark §2.3)](https://arxiv.org/html/2507.11200v2#S2.SS3)
 
