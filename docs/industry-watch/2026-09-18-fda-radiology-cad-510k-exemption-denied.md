@@ -36,7 +36,7 @@ refs:
     title: "Radiology Business: FDA denies petition to exempt certain radiology AI devices from premarket review (2026-04-10)"
     url: "https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/fda-denies-petition-exempt-certain-radiology-ai-devices-pre-market-review"
 status: published
-skill_version: "write-industry-watch@2.7"
+skill_version: "write-industry-watch@2.8"
 evidence_reviewed: true
 ---
 
@@ -55,7 +55,7 @@ evidence_reviewed: true
 
 放射科 AI 是美國 AI 醫材數量最大的一塊。Harrison.ai 向 FDA 請願：**已有同類 510(k) clearance 的廠商**，其後續 CAD／CADt 產品在配套上市後監測與透明度措施下，應可免再逐項送審。FDA 在 2026-04-01 正式說「不」，並於 2026-09-17 依法定程序把這個決定刊登為最終命令——四類放射 AI 裝置**維持逐項 510(k)**。
 
-## 流程
+## 背景
 
 1. **2025-10-22**：FDA **收到** Rubrum Advising 代表 **Harrison.ai** 提出的請願（Docket FDA-2025-P-5560），請求對四類放射 AI 裝置**部分豁免** 510(k)：疑癌病灶電腦輔助診斷軟體（21 CFR 892.2060，產品碼 POK）、醫學影像分析器（892.2070，MYN）、放射電腦輔助分診與通知軟體（892.2080，QAS／QFM）、放射電腦輔助偵測與診斷軟體（892.2090，QBS／QDQ）。此請願是本則最終命令的**觸發案件**——後續的公告、徵求意見與駁回都針對它展開 [(ref: fr_order)](https://www.federalregister.gov/documents/2026/09/17/2026-19074/medical-devices-exemption-from-premarket-notification-radiology-computer-aided-detection-andor)。
 2. **2025-12-29**：FDA 依《聯邦食品藥物化妝品法》（FD&C Act）第 510(m)(2) 條的程序，在 **Federal Register（美國聯邦公報）**刊登請願公告（90 FR 60730）並開放 60 天公眾意見，至 **2026-02-27** 截止。這一步是法定必經：FDA 對任何 Class II 裝置豁免 510(k) 前，必須先公告並徵求意見 [(ref: fr_order)](https://www.federalregister.gov/documents/2026/09/17/2026-19074/medical-devices-exemption-from-premarket-notification-radiology-computer-aided-detection-andor) [(ref: fr_notice)](https://www.federalregister.gov/documents/2025/12/29/2025-23901/medical-devices-exemption-from-premarket-notification-radiology-computer-aided-detection-andor)。
