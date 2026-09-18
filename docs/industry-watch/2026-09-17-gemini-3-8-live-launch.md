@@ -46,7 +46,7 @@ evidence_reviewed: true
 
 Google 在 2026 年 9 月 15 日發布兩款「即時語音對話」（live dialogue）模型：Gemini 3.8 Live 與 Gemini 3.8 Live Extended Thinking。兩者的共同賣點是**邊說邊做**——在對話持續進行的同時於背景執行工具與 API 呼叫，以及跨 97 種語言的對話中自動偵測與切換。Extended Thinking 版本並以 82.6 分登上 Artificial Analysis 的語音對語音品質指標榜首，領先 OpenAI 與 xAI 的旗艦語音模型。值得注意的時間點是：就在三天前，包括 Google DeepMind 執行長在內的多位 AI 領袖才公開表態支持「調速前沿」。
 
-## 流程
+## 背景
 
 1. **2026-09-12（背景）**：Anthropic 執行長 Dario Amodei 發表〈We Must Pace the Frontier〉，OpenAI、Google DeepMind、xAI 負責人表態支持放緩前沿 AI 開發（本庫已有專文：[AI 龍頭罕見同調](2026-09-15-amodei-pace-the-frontier.md)）。這是本次發布落地時的治理輿論環境——「調速」主張明言不等於停止發布，本則正是檢驗這句話的第一個實例。
 2. **2026-09-15**：Google 於官方部落格發布兩款模型，公布各項評測成績、97 語言自動切換、背景工具執行、SynthID 浮水印與各通路上線時程 [(ref: goog)](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/)。
