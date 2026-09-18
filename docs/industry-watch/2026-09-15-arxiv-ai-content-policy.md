@@ -56,7 +56,7 @@ evidence_reviewed: true
 
 2026 年 5 月，arXiv 方面公開澄清：若投稿出現「作者未檢查 LLM 生成結果」的硬證據（例如幻覺引用、未刪的模型對話殘句），作者可能面臨 **一年禁止投稿**，且之後須先經可靠同儕審查場域接受，才能再上 arXiv。
 
-## 流程
+## 背景
 
 1. **既有底線（官網）**：作者須對全文負責；生成式 AI 不得掛名作者；重大使用應依領域慣例揭露 [(ref: arxiv_moderation_ai)](https://info.arxiv.org/help/moderation/index.html) [(ref: arxiv_blog_2023)](https://blog.arxiv.org/2023/01/31/arxiv-announces-new-policy-on-chatgpt-and-similar-tools/)。
 2. **處罰澄清（2026-05）**：CS 領域編輯負責人 Thomas Dietterich 於社群說明「無可辯駁證據 → 一年禁投 + 後續須先 peer-reviewed 接受」；多家媒體轉述同一組例證與流程 [(ref: techcrunch_2026)](https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/) [(ref: verge_2026)](https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers) [(ref: nature_2026)](https://www.nature.com/articles/d41586-026-01595-5)。

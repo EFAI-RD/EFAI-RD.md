@@ -51,7 +51,7 @@ evidence_reviewed: true
 
 FDA 在 2026 年 9 月把「用機器學習提示單一心血管疾患可能性、供後續轉介／檢查」的軟體類型正式寫進 Class II；重點是**通知／分流**，不是診斷級輸出。這份最終命令並非憑空新設類別，而是把 **2023 年以 Viz HCM 為首案走完的 De Novo 分類結果**編進成文法。
 
-## 流程
+## 背景
 
 1. **2023-01-10**：FDA **收到** Viz.ai, Inc. 就產品 **Viz HCM**（以 12 導程心電圖提示肥厚型心肌病／HCM 相關徵象、供後續評估的通知軟體）提出的 **De Novo** 分類請求（**DEN230003**）。此請求是本則分類的**觸發案件**——後面的通用裝置類型與 21 CFR 870.2380，都由此案展開 [(ref: fr_order)](https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based) [(ref: denovo)](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230003)。
 2. **2023-08-03**：FDA 以書面命令**准予**該 De Novo，並將通用裝置類型定名為 *cardiovascular machine learning-based notification software*，列為 Class II（特別管制／special controls）。亦即：先批准 Viz HCM，同時為後續同類型產品立下分類骨架 [(ref: fr_order)](https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based) [(ref: denovo)](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230003)。
