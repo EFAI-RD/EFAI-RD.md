@@ -96,6 +96,8 @@ FDA 在 2026 年 8 月就「生成式 AI（GenAI）賦能的醫療器材」公�
 
 一句話敘述關係: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md) 從文獻地圖顯示 agentic／multi-agent 醫療研究成長快、trial-grade 證據相對稀少；本則對應監管端開始把代理式能力與上市後監測寫進討論框架。
 
+一句話敘述關係: [FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md) 本則徵求 GenAI 醫材監管意見、探索未來框架，該則則是 FDA 在具體請願上守住現行 510(k) 關卡的定案。
+
 ## 實務的啟發
 
 1. 先確認產品是否落入**裝置定義**與哪一類軟體功能；文件一再強調 FDA 不監管「GenAI 技術本身」。

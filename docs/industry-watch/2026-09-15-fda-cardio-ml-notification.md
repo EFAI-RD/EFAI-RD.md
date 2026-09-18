@@ -81,6 +81,8 @@ FDA 在 2026 年 9 月把「用機器學習提示單一心血管疾患可能性�
 
 一句話敘述關係: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](./2026-09-17-fda-genai-devices-discussion-paper.md) 同屬 CDRH 對 AI／ML 醫材的監管脈絡；該則是 GenAI 裝置的討論文件／徵求意見，本則是已編入 21 CFR 的 Class II 最終命令。
 
+一句話敘述關係: [FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md) 同屬 FDA 對 AI／ML 醫材的監管動作；本則確立 Class II 成文分類與 predicate 路徑，該則顯示 FDA 拒絕把彈性推進到免除 510(k)。
+
 ## 實務的啟發
 
 1. 寫 intended use 時先問：輸出是「建議再查」還是「診斷結論」——本類型明文排除後者。

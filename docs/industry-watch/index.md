@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-18 | [FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證](2026-09-18-fda-radiology-cad-510k-exemption-denied.md) | Clare | 09-17 最終命令；Harrison.ai 請願遭駁回 |
 | 2026-09-17 | [Google 發布 Gemini 3.8 Live 系列：Extended Thinking 登上語音對語音評測榜首](2026-09-17-gemini-3-8-live-launch.md) | Clare | 09-15 官方公告；AA Index 82.6 |
 | 2026-09-17 | [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](2026-09-17-fda-genai-devices-discussion-paper.md) | Curitis | 2026-08-18 討論文件；意見至 10-19 |
 | 2026-09-15 | [AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持](2026-09-15-amodei-pace-the-frontier.md) | Clare | 09-12 原文；各方回應至 09-14 |
