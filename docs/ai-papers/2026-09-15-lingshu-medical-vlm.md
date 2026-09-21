@@ -156,6 +156,8 @@ RL 階段使用群組相對策略最佳化（Group Relative Policy Optimization,
 
 ## 與書庫其他文章的關係
 
+RADAR 的跨族群評估把 Lingshu 列為未微調的比較對象（in-scope 21 項 AUC 0.581），可用來檢視通用醫療 VLM 在 3D 腹部 CT 上的零樣本邊界，以及器官層級對齊帶來的差距: [RADAR：把腹部 CT 拆成 18 個器官再對齊報告，通才模型能到專家水準嗎？](2026-09-21-radar-abdominal-ct-generalist.md)
+
 一句話敘述關係: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md) 說明通才醫療 VLM 如何接在對齊／指令微調／領域基礎之後；本篇是該分岔的資料與訓練細節筆記。
 
 一句話敘述關係: [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](2026-09-17-medsight-grounded-medical-vlm.md) 把 Lingshu 納入視覺理解比較，並進一步要求診斷文字對回像素級 mask，可用來檢查通用 VLM 分數與 spatial grounding 能力是否一致。
