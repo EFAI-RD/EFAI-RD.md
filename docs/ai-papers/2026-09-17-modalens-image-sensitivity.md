@@ -134,6 +134,8 @@ attention knockout 從 layer 0 開始時，flip rate 由 report-present baseline
 
 MedGemma 1.5 技術報告展示同一基礎模型擴充到多種醫療模態，ModaLens 則直接稽核其 27B／4B 版本在胸片加報告時是否仍對影像交換敏感: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md)
 
+同樣是拆解「一個分數到底在測什麼」，胸片結核篩檢稽核固定影像而改換提示詞、負類與閾值，與本篇固定文字、只換影像的設計互補: [稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？](2026-09-21-cxr-tb-vlm-portability-audit.md)
+
 ## 實務的啟發
 
 第一，多模態系統不能只報 joint-input accuracy。至少應加入單模態消融、影像交換、文字交換與矛盾案例，分別量測輸出對每一模態的敏感度；如果 ground truth 來自其中一個模態，還要另外取得不依附該模態的標註。
