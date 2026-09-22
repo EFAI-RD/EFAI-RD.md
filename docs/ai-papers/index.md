@@ -9,6 +9,7 @@
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
 | 2026-09-22 | [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md) | Clare | DOI 10.3389/fdgth.2026.1882716；Open-I 3,000 筆分節評估 |
+| 2026-09-21 | [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](2026-09-21-mllm-cystoscopy-bladder-triage.md) | Clare | World J Urol 44:670；1,754 張膀胱鏡影像、棄答分流 |
 | 2026-09-21 | [稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？](2026-09-21-cxr-tb-vlm-portability-audit.md) | Clare | arXiv:2609.21763v1；四資料集、五提示詞家族稽核 |
 | 2026-09-21 | [RADAR：把腹部 CT 拆成 18 個器官再對齊報告，通才模型能到專家水準嗎？](2026-09-21-radar-abdominal-ct-generalist.md) | Clare | Science 393, eaec6129；RAD-CT 424,911 例 |
 | 2026-09-17 | [PrecepTron：把醫師評分學成 LLM 評審，能讓醫療 AI 評估更可重現嗎？](2026-09-17-preceptron-clinical-ai-evaluation.md) | Colbert | arXiv:2609.12822v1；GRAND-ROUNDS |
