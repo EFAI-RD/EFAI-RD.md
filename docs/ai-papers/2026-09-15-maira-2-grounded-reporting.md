@@ -179,6 +179,8 @@ Lingshu 導讀著重通用醫療 VLM 的資料與訓練，本篇則可接續閱�
 
 兩篇可比較方法設計，但跨論文的報告分數需先對齊版本、輸入與計分；例如 Lingshu Table 8 使用 RadCliQ-v1 的倒數，MAIRA-2 此處使用 RadCliQ version 0。[(ref: lingshu Table 8)](https://arxiv.org/html/2506.07044v4#S5.T8) [(ref: main Appendix D.1)](https://arxiv.org/pdf/2406.04449v2#page=30)
 
+本篇提出有定位的報告生成與事實層級評分，該研究則檢驗在沒有這類約束時，Impression 的語意相似度能否代表 Findings 的結構保真度: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
+
 ## 實務的啟發
 
 以下是本書庫提出的研究與工程建議：
