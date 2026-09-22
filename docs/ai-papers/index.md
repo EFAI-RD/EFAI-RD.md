@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-22 | [中文放射科報告的真實錯誤：八個 LLM 與八位人類讀者，誰抓得出來？](2026-09-22-llm-chinese-radiology-report-error-detection.md) | Clare | JMIR 28:e94689；1,363 份中文報告、1,551 個真實臨床錯誤 |
 | 2026-09-22 | [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md) | Clare | Front Digit Health 8:1919939；1,500 筆序列報告配對、35 組 model–prompt 設定 |
 | 2026-09-22 | [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md) | Clare | DOI 10.3389/fdgth.2026.1882716；Open-I 3,000 筆分節評估 |
 | 2026-09-21 | [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](2026-09-21-mllm-cystoscopy-bladder-triage.md) | Clare | World J Urol 44:670；1,754 張膀胱鏡影像、棄答分流 |
