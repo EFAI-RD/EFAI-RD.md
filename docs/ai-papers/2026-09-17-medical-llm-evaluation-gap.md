@@ -160,6 +160,8 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 一句話敘述關係: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md) 對應監管端把代理式 GenAI 賦能裝置與上市後監測寫進討論框架；本篇則顯示 agentic／multi-agent 醫療文獻成長快、trial-grade 證據相對稀少。
 
+一句話敘述關係: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md) 把評估落差縮到指標層級——自動指標彼此高度相關，卻不必然指向同一個臨床事實。
+
 ## 實務的啟發
 
 1. **把模型當可替換元件。** protocol 可以預先定義替換條件、版本鎖定點與等效性檢查，避免一個停止更新的 model endpoint 把整個臨床問題一起凍結。

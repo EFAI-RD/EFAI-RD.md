@@ -162,6 +162,8 @@ IU X-Ray 的診斷 accuracy 已超過 0.96，作者也因此沒有在該資料�
 
 外部分割器加概念瓶頸與模型內生 grounding 的對照: [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](2026-09-17-medsight-grounded-medical-vlm.md) 把診斷文字與像素級 mask 放進同一模型輸出，可與 CORAL 的模組化空間先驗及結構化概念路線比較。
 
+CORAL 用概念與空間先驗約束每一句的依據，該研究則量到在缺少這類約束時，流暢的 Impression 與正確的 Findings 會相當程度脫鉤: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
+
 ## 實務的啟發
 
 CORAL 最值得帶走的不是單一榜單分數，而是將生成式醫療 AI 拆成可監測介面：定位品質、概念品質、報告品質與診斷品質應分開記錄。若要進一步驗證，實務上至少應補上三層測試：
