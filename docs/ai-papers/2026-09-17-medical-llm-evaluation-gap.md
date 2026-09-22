@@ -164,6 +164,8 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 一句話敘述關係: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md) 提供一個臨床相關性被整體分數蓋住的具體案例——accuracy 0.8369 的同一組設定，最不能漏的 new 類 recall 只有 0.5385。
 
+一項分配決策的稽核顯示，即使研究設計嚴謹，強制二選一這類實驗室條件仍會量到與部署行為不同的東西: [臨床條件一模一樣時，LLM 先給誰？30,618 次強制二選一的分配稽核](2026-09-22-llm-social-status-resource-allocation.md)
+
 ## 實務的啟發
 
 1. **把模型當可替換元件。** protocol 可以預先定義替換條件、版本鎖定點與等效性檢查，避免一個停止更新的 model endpoint 把整個臨床問題一起凍結。
