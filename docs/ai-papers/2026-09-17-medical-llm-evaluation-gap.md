@@ -162,6 +162,8 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 一句話敘述關係: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md) 把評估落差縮到指標層級——自動指標彼此高度相關，卻不必然指向同一個臨床事實。
 
+一句話敘述關係: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md) 提供一個臨床相關性被整體分數蓋住的具體案例——accuracy 0.8369 的同一組設定，最不能漏的 new 類 recall 只有 0.5385。
+
 ## 實務的啟發
 
 1. **把模型當可替換元件。** protocol 可以預先定義替換條件、版本鎖定點與等效性檢查，避免一個停止更新的 model endpoint 把整個臨床問題一起凍結。
