@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-23 | [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md) | Clare | Front. Imaging 5:1885292；BreaKHis 1,187 張、六種歸因法忠實度對比 |
 | 2026-09-22 | [中文放射科報告的真實錯誤：八個 LLM 與八位人類讀者，誰抓得出來？](2026-09-22-llm-chinese-radiology-report-error-detection.md) | Colbert | JMIR 28:e94689；1,363 份中文報告、1,551 個真實臨床錯誤 |
 | 2026-09-22 | [把超音波描述交給 ChatGPT 判良惡性：300 顆附件腫塊，和 IOTA 規則、ADNEX 與專家差多少？](2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md) | Clare | J Imaging 12(9):462；300 顆附件腫塊、五條判讀路徑 |
 | 2026-09-22 | [臨床條件一模一樣時，LLM 先給誰？30,618 次強制二選一的分配稽核](2026-09-22-llm-social-status-resource-allocation.md) | Clare | J Pers Med 16(9):448；七個情境、30,618 次強制二選一 |

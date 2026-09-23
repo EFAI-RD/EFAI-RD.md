@@ -157,6 +157,8 @@ MeCoVQA-G 的 4,142 與 4,126 不是兩個互斥版本：前者是原始 samples
 
 模型內生 grounding 與外部分割器輔助生成的對照: [CORAL：先找病灶、再說臨床概念，能讓醫療影像報告更可檢視嗎？](2026-09-17-coral-concept-grounded-report-generation.md) 以外部分割器提供 mask，再用概念瓶頸引導結構化報告，可與 MedSIGHT 的聯合文字及像素輸出比較。
 
+MedSIGHT 讓同一個模型同時輸出診斷文字與像素級分割，該研究則刻意不做跨模態融合，改由超像素層級的歸因單獨支撐文字端的依據: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
+
 ## 實務的啟發
 
 1. **把答案與位置拆成兩個驗收欄位。** 對需定位的用途，同時保存 diagnosis text、region codes、decoded mask 與人工修正；答對病名但定位錯誤，不能算成同一種成功。
