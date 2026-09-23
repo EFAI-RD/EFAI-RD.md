@@ -164,6 +164,8 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 一句話敘述關係: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md) 提供一個臨床相關性被整體分數蓋住的具體案例——accuracy 0.8369 的同一組設定，最不能漏的 new 類 recall 只有 0.5385。
 
+該研究在錯誤來源這一項補上本文所指的臨床條件——用的是放射科醫師真的改過的 1,551 個錯誤而非人工植入，但仍是單中心回溯設計: [中文放射科報告的真實錯誤：八個 LLM 與八位人類讀者，誰抓得出來？](2026-09-22-llm-chinese-radiology-report-error-detection.md)
+
 一項分配決策的稽核顯示，即使研究設計嚴謹，強制二選一這類實驗室條件仍會量到與部署行為不同的東西: [臨床條件一模一樣時，LLM 先給誰？30,618 次強制二選一的分配稽核](2026-09-22-llm-social-status-resource-allocation.md)
 
 ## 實務的啟發
