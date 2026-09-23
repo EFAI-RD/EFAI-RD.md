@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-23 | [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md) | Clare | arXiv:2609.19730v1；EchoNet-Dynamic 10,030 部心臟超音波影片、四種分割注入做法 |
 | 2026-09-23 | [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md) | Clare | Bioengineering 13(8):912；69 眼內部＋100 眼外部、22 格 rationale-conditioned 影像對比 |
 | 2026-09-23 | [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md) | Clare | Front. Imaging 5:1885292；BreaKHis 1,187 張、六種歸因法忠實度對比 |
 | 2026-09-22 | [中文放射科報告的真實錯誤：八個 LLM 與八位人類讀者，誰抓得出來？](2026-09-22-llm-chinese-radiology-report-error-detection.md) | Colbert | JMIR 28:e94689；1,363 份中文報告、1,551 個真實臨床錯誤 |

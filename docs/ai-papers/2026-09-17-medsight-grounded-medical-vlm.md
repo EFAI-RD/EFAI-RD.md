@@ -159,6 +159,8 @@ MeCoVQA-G 的 4,142 與 4,126 不是兩個互斥版本：前者是原始 samples
 
 MedSIGHT 讓同一個模型同時輸出診斷文字與像素級分割，該研究則刻意不做跨模態融合，改由超像素層級的歸因單獨支撐文字端的依據: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
 
+MedSIGHT 主張像素級 grounding 能提升診斷品質，該研究則給出一條判斷這種輔助監督何時劃算的定量門檻: [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
+
 ## 實務的啟發
 
 1. **把答案與位置拆成兩個驗收欄位。** 對需定位的用途，同時保存 diagnosis text、region codes、decoded mask 與人工修正；答對病名但定位錯誤，不能算成同一種成功。
