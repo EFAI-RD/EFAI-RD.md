@@ -1,7 +1,7 @@
 ---
 catalog_id: "doi:10.2196/94689"
 editors:
-  - "Clare"
+  - "Colbert"
 refs:
   main:
     title: "Error Detection and Correction in Chinese Radiology Reports Using Large Language Models: Real-World Clinical Validation Study"
@@ -22,7 +22,7 @@ evidence_reviewed: true
 - 識別碼：[DOI: 10.2196/94689](https://doi.org/10.2196/94689)；PMID 42627684；PMCID PMC13495996。無 arXiv 預印本。
 - 全文：[JMIR 出版社頁面](https://www.jmir.org/2026/1/e94689)；[PubMed Central 開放取用全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/)。本文所引內容取自 PMC 版全文。
 
-**編輯：** Clare
+**編輯：** Colbert
 
 這項研究沒有讓大型語言模型（large language model，LLM）去寫報告，而是讓它去讀已經寫好的報告：用 1,363 份帶著真實修改紀錄的中文放射科報告、1,551 個放射科醫師在日常工作中留下的錯誤，比較八個通用 LLM 與八位不同背景的人類讀者，誰能把這些錯誤挑出來，又能不能改對。[(ref: main Abstract)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/)
 
@@ -158,9 +158,10 @@ evidence_reviewed: true
 
 作者在結論另外聲明，投入常規使用前仍需前瞻性多中心驗證與流程層級的安全評估。[(ref: main Conclusions)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/)
 
-以下六點是本書庫在核對正文與表格時的觀察，不是論文的陳述。
+以下七點是本書庫在核對正文與表格時的觀察，不是論文的陳述。
 
 - **提示詞是在測試集上調出來的** — 作者從測試集隨機抽 100 份報告做多輪提示詞迭代，論文未說明這 100 份是否在計分時排除。論文提出的「無資料外洩」論證針對的是模型參數不更新，並未涵蓋提示詞選擇；因此測試集上的分數包含了在同一批資料的一部分上調過的提示詞。[(ref: main Methods)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/)
+- **主結果的信賴區間有兩種印法** — DeepSeek-R1 在測試集的偵測率同為 89 百分比，但 Abstract 與 Results 給出的 Wilson 95 百分比 CI 是 87-90，Table 1 則是 86-91。本文結果段依正文保留前者，重製 Table 1 時依原表保留後者，不自行選一個校正。[(ref: main Results)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/) [(ref: main Table 1)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/)
 - **外部驗證的偽陽性率敘述與數字相反** — 正文寫 DeepSeek-R1 的偽陽性率低於 Claude-3.5-Sonnet，但同句印出的是 5 百分比對 4 百分比，Table 2 也是這兩個值。[(ref: main Results)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/) [(ref: main Table 2)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/)
 - **兩處正文數值與表格不一致** — 正文引用非醫師在 semantic error 的平均偵測率為 49 百分比，Table 4 該格印的是 44 百分比（兩者信賴區間同為 28-63）；分影像模態的比較句把「CT 與 X 光或 MRI」對應到「22 百分比與 41 百分比」，Table 3 則是 CT 41 百分比、X 光或 MRI 22 百分比，順序相反。[(ref: main Table 3)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/) [(ref: main Table 4)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/)
 - **Table 5 的組別標籤與全文用語不一致** — 該表以 Nonradiology physician 指稱全文其他處所稱的 nonradiologists，並以 Nonradiologists 指稱全文其他處所稱的 nonphysicians；兩組的數值須靠正文才能對回正確族群。[(ref: main Table 5)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13495996/)
