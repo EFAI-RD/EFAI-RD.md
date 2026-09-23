@@ -168,6 +168,8 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 一項分配決策的稽核顯示，即使研究設計嚴謹，強制二選一這類實驗室條件仍會量到與部署行為不同的東西: [臨床條件一模一樣時，LLM 先給誰？30,618 次強制二選一的分配稽核](2026-09-22-llm-social-status-resource-allocation.md)
 
+該研究提供一個具體案例：一個看起來合格的端到端 AUC，加上一層以理由為條件的受控影像對比之後就不再能支持原來的結論: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
+
 ## 實務的啟發
 
 1. **把模型當可替換元件。** protocol 可以預先定義替換條件、版本鎖定點與等效性檢查，避免一個停止更新的 model endpoint 把整個臨床問題一起凍結。
