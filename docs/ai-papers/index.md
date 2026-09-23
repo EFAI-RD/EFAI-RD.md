@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-22 | [把超音波描述交給 ChatGPT 判良惡性：300 顆附件腫塊，和 IOTA 規則、ADNEX 與專家差多少？](2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md) | Clare | J Imaging 12(9):462；300 顆附件腫塊、五條判讀路徑 |
 | 2026-09-22 | [臨床條件一模一樣時，LLM 先給誰？30,618 次強制二選一的分配稽核](2026-09-22-llm-social-status-resource-allocation.md) | Clare | J Pers Med 16(9):448；七個情境、30,618 次強制二選一 |
 | 2026-09-22 | [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md) | Clare | Front Digit Health 8:1919939；1,500 筆序列報告配對、35 組 model–prompt 設定 |
 | 2026-09-22 | [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md) | Clare | DOI 10.3389/fdgth.2026.1882716；Open-I 3,000 筆分節評估 |
