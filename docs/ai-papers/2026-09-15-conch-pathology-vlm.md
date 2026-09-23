@@ -199,6 +199,8 @@ CONCH 的病理圖文配對與對比／生成目標，可對照 Lingshu 的醫�
 
 REG 2025 的多個參賽系統把 CONCH 當作 WSI encoder，並進一步比較完整結構化病理報告生成、跨院泛化與數值幻覺: [REG 2025：病理全切片到報告生成，榜單分數抓得到數值幻覺嗎？](2026-09-16-reg-2025-pathology-report-generation.md)
 
+CONCH 以病理圖文預訓練換取零樣本遷移能力，該研究則在凍結主幹的遷移設定下顯示歸因方法的名次會隨影像塊尺度整個翻轉，兩篇一起說明病理模型的「可遷移」要分成表現與解釋兩層來談: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
+
 上述比較依兩篇各自的訓練設計。[(ref: main 圖文預訓練)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11384335/#S10) [(ref: lingshu §2–3)](https://arxiv.org/html/2506.07044v4#S2) [(ref: lingshu §3)](https://arxiv.org/html/2506.07044v4#S3)
 
 ## 實務的啟發
