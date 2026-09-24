@@ -170,6 +170,8 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 該研究提供一個具體案例：一個看起來合格的端到端 AUC，加上一層以理由為條件的受控影像對比之後就不再能支持原來的結論: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
 
+該研究提供一個乾淨的示範：同一批模型在 micro 與 macro 兩種平均下，可用性結論可以相差 0.36 個 F1: [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
+
 ## 實務的啟發
 
 1. **把模型當可替換元件。** protocol 可以預先定義替換條件、版本鎖定點與等效性檢查，避免一個停止更新的 model endpoint 把整個臨床問題一起凍結。
