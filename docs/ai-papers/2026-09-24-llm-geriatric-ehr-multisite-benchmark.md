@@ -17,7 +17,7 @@ evidence_reviewed: true
 
 ## 來源
 
-- 團隊：UTHealth Houston McWilliams School of Biomedical Informatics 主導，聯合 Mayo Clinic、Memorial Hermann Health System、UTMB、University of Pittsburgh、Beth Israel Deaconess Medical Center、Hebrew SeniorLife／Harvard Medical School、MD Anderson 等機構；共二十六位作者，第一作者 Sunyang Fu，通訊作者 Hongfang Liu。[(ref: main)](https://www.nature.com/articles/s44401-026-00114-y)
+- 團隊：UTHealth Houston McWilliams School of Biomedical Informatics 主導，聯合 Mayo Clinic、Memorial Hermann Health System、UTMB、University of Pittsburgh、Beth Israel Deaconess Medical Center、Hebrew SeniorLife／Harvard Medical School、MD Anderson 等機構；共二十六位作者，第一作者 Sunyang Fu，最後一位作者 Hongfang Liu；論文頁未標示通訊作者。[(ref: main)](https://www.nature.com/articles/s44401-026-00114-y)
 - 論文：*A multi-site benchmarking framework for scalable extraction of geriatric care constructs from electronic health records*，刊於 *npj Health Systems* 3(1):93，2026-09-16 出版。[(ref: main)](https://www.nature.com/articles/s44401-026-00114-y)
 - 識別碼：[DOI: 10.1038/s44401-026-00114-y](https://doi.org/10.1038/s44401-026-00114-y)；PMID 42749862；PMCID PMC13582951。
 - 全文：[npj Health Systems 官方 HTML 全文](https://www.nature.com/articles/s44401-026-00114-y)，開放取用，授權為 CC BY。
@@ -35,7 +35,7 @@ evidence_reviewed: true
 
 ## 背景／問題
 
-老年醫學的照護規劃高度依賴一組結構化評估：Comprehensive Geriatric Assessment（CGA，全面性老年評估）以及以 Mentation、Mobility、Medication、What Matters 為軸的 4Ms 框架。這些構念在臨床上決定了照護方向，但在電子病歷（electronic health record，EHR）裡多半只存在於敘事式的自由文字中，沒有對應的結構化欄位可以直接查詢。[(ref: main)](https://www.nature.com/articles/s44401-026-00114-y)
+老年醫學的照護規劃高度依賴一組結構化評估：Comprehensive Geriatric Assessment（CGA，全面性老年評估）以及論文所稱「Four Ms」框架——What Matters、Medication、Mentation 與 Mobility。這些構念在臨床上決定了照護方向，但在電子病歷（electronic health record，EHR）裡多半只存在於敘事式的自由文字中，沒有對應的結構化欄位可以直接查詢。[(ref: main)](https://www.nature.com/articles/s44401-026-00114-y)
 
 因此要把這些構念拿來做族群層級的研究或品質監測，就得先做資訊抽取。問題是，過去的抽取工作多半綁在單一機構的資料與單一方法上，既難以判斷方法之間的高下，也難以判斷結論換一家醫院還成不成立。[(ref: main)](https://www.nature.com/articles/s44401-026-00114-y)
 
@@ -51,7 +51,7 @@ evidence_reviewed: true
 
 ## 方法詳解
 
-**四個站點的取樣。** UTPhysicians（UTP）代表門診與專科紀錄，Memorial Hermann Health System（MHHS）代表住院紀錄，Harris County Psychiatric Center（HCPC）代表精神科住院紀錄，Beth Israel Deaconess Medical Center 則以公開的 MIMIC 重症紀錄代表。前兩者同時供訓練與測試，後兩者僅供測試。取樣刻意偏向較長、概念密度較高的紀錄，以提高罕見構念的覆蓋率。[(ref: main Table 1)](https://www.nature.com/articles/s44401-026-00114-y#Tab1)
+**四個站點的取樣。** UTPhysicians（UTP）代表門診與專科紀錄，Memorial Hermann Health System（MHHS）代表住院紀錄，Harris County Psychiatric Center（HCPC）代表精神科住院紀錄，Beth Israel Deaconess Medical Center 的病歷則是貢獻至 MIMIC 資料庫的那一批，屬加護與住院紀錄，為四者中唯一的公開資料。前兩者同時供訓練與測試，後兩者僅供測試。取樣刻意偏向較長、概念密度較高的紀錄，以提高罕見構念的覆蓋率。[(ref: main Table 1)](https://www.nature.com/articles/s44401-026-00114-y#Tab1)
 
 **標註與一致性。** 標註團隊由一位老年科醫師、一位資深臨床資料摘錄員與兩位醫學生組成，由資深老年科醫師與臨床資訊學者督導，流程以 TRUST 框架為基礎分階段精修 schema。第一階段以 25 份隨機文件衡量偽陽性與偽陰性，第二階段以 120 份分層抽樣文件確保每個概念至少出現三次。以各標註者對多數決的 F1 衡量標註者間一致性（inter-annotator agreement，IAA），兩階段平均分別為 0.845 與 0.919；歧異由督導者共識裁決。[(ref: main)](https://www.nature.com/articles/s44401-026-00114-y)
 
@@ -118,7 +118,7 @@ evidence_reviewed: true
 - **百分比與分母對不起來** — 論文寫「41 個概念中有 20 個（44.4%）在四站皆現、39 個（86.7%）至少出現在兩站」。以 41 為分母，20 應為 48.8%、39 應為 95.1%；而 44.4% 與 86.7% 恰好都對應分母 45。引用這兩個比例前值得先回頭確認分母。[(ref: main Fig. 1)](https://www.nature.com/articles/s44401-026-00114-y#Fig1)
 - **macro F1 才是這個任務該看的數字** — micro F1 0.92 讀起來像可以上線，macro F1 0.55 讀起來像還早。差別來自加權：老年照護真正想抓的往往就是低頻但高風險的那幾個（譫妄、躁動、用藥管理），而它們正是被 micro 平均稀釋掉、也正是各方法表現最弱的一群。
 - **precision 與 recall 的反向配置意味著這是一個選擇題，不是排名題** — 若用途是族群層級的篩選與後續人工複核，GPT-4o 的高召回比較合用；若用途是直接進入報表或品質指標，MedAgingIE 的高精確比較安全。把兩者用單一 F1 排名，會掩蓋掉這個實際上更重要的分歧。
-- **公開資料成績較高這件事，作者已經自己點名了資料洩漏的可能** — 這在方法論上比多零點幾的 F1 更值得記住：只在 MIMIC 上驗證的抽取模型，其報告數字可能同時受惠於去識別化的同質性與語料的高曝光度。本書庫認為這支持一個實務原則——院內導入前務必在院內資料重測。
+- **公開資料成績較高這件事，作者已經自己點名了資料洩漏的可能** — 這在方法論上比多零點幾的 F1 更值得記住：只在公開語料上驗證的抽取模型，其報告數字可能同時受惠於去識別化的同質性與語料的高曝光度。本書庫認為這支持一個實務原則——院內導入前務必在院內資料重測。
 - **混合式系統的「可稽核」是一個容易被低估的規格** — MedAgingIE 的最終判斷來自決定性規則引擎，規則與本體是人類可讀的。當抽取結果要支撐品質指標或研究族群定義時，能逐條指出「為什麼這句被判為譫妄」的價值，通常高於幾個百分點的 F1。
 - **微調小模型落後，但條件並不對等** — Qwen2-7B-Instruct 的訓練標註來自 distant supervision 的銀標準，而非黃金標準。它的 0.30 macro F1 說明的是「這個資料條件下的 LoRA 微調」表現，不足以推論「7B 級開源模型做不到這個任務」。
 
@@ -138,7 +138,7 @@ nMAS 把心衰竭特徵從病歷抽出來供下游使用，本篇則回答上游
 
 第二，把 precision 與 recall 的配置當成需求規格來寫，而不是等模型交付後再看。高召回配置適合「先撈出來再人工複核」的族群篩選，高精確配置適合「直接進報表」的品質指標。本篇兩個領先方法的 macro F1 只差 0.01，但一個是 0.47／0.83、另一個是 0.75／0.49，選錯邊的成本遠大於那 0.01。
 
-第三，公開資料上的成績不要當成院內成績的預估值。本篇四個站點裡表現最好的正是公開的 MIMIC，而作者自己把資料洩漏列為可能原因之一。院內導入的驗收基準應該建立在院內自己的標註資料上，哪怕規模小很多。
+第三，公開資料上的成績不要當成院內成績的預估值。論文的陳述是「所有方法在公開資料集上的表現都顯著高於私有 EHR 資料」，而該公開資料集正是四個站點中唯一的那一個；作者自己把資料洩漏列為可能原因之一。院內導入的驗收基準應該建立在院內自己的標註資料上，哪怕規模小很多。
 
 第四，別預設規則式方法已經被淘汰。本篇的混合式系統在整體 micro F1 上領先兩個生成式對手，跨院變異也較小，而且保有逐條可稽核的性質。比較務實的讀法是：用 LLM 來加速建規則與做錯誤分析，把最終判斷留給可檢查的引擎。
 
