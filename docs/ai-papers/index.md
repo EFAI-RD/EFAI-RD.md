@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-09-24 | [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md) | Clare | npj Health Systems 3:93；四院所 400 份病歷、49,195 標註句、41 個 CGA／4Ms 構念 |
 | 2026-09-24 | [報告在病人下檢查台前就寫好：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀](2026-09-24-orion-cmr-on-scanner-reporting.md) | Clare | arXiv:2609.23950v1；CMR 基礎模型，掃描儀端 90 秒產出報告，臨床測試 68 人 |
 | 2026-09-23 | [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md) | Clare | arXiv:2609.19730v1；EchoNet-Dynamic 10,030 部心臟超音波影片、四種分割注入做法 |
 | 2026-09-23 | [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md) | Clare | Bioengineering 13(8):912；69 眼內部＋100 眼外部、22 格 rationale-conditioned 影像對比 |
