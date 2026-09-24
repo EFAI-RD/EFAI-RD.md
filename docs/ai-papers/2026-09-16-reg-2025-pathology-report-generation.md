@@ -100,6 +100,8 @@ CONCH 提供病理圖文表徵並被多個 REG 2025 團隊用作 encoder；REG 2
 
 REG 2025 顯示病理報告生成的榜單分數抓不到數值幻覺，該研究則用規則式報告與「語言模型讀不到影像」把這類幻覺的來源直接移除，代價是文字表達力: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
 
+REG 2025 檢驗既有管線把全切片寫成完整結構化報告的能力與評分盲點，該研究則顯示同一條路能在單次前向傳遞的 composite 上走通，但也暴露 BERTScore 精確率與召回率反向移動的問題: [把一個病例壓成一張圖：WILSON 用 composite 取代數千個 tile，診斷資訊還剩多少？](2026-09-24-wilson-composite-pathology-foundation-model.md)
+
 ## 實務的啟發
 
 第一，病理報告生成的驗收表不應只列整體文字分數。本書庫建議把器官、處置、組織型態、分級、腫瘤比例、否定與不確定性拆成 slots，逐欄量測正確、漏報、過度確診與數值誤差；這延伸了作者對 ontology-aware 與 slot-level 指標的建議。[(ref: main §5 metrics)](https://arxiv.org/html/2609.00866v1#S5.p2)

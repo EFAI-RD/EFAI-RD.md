@@ -201,6 +201,8 @@ REG 2025 的多個參賽系統把 CONCH 當作 WSI encoder，並進一步比較�
 
 CONCH 以病理圖文預訓練換取零樣本遷移能力，該研究則在凍結主幹的遷移設定下顯示歸因方法的名次會隨影像塊尺度整個翻轉，兩篇一起說明病理模型的「可遷移」要分成表現與解釋兩層來談: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
 
+CONCH 代表病理圖文預訓練在 tile 層級的作法，該研究則把爭論點移到送進編碼器的視覺單位本身，兩篇合起來構成病理基礎模型的兩條獨立設計軸: [把一個病例壓成一張圖：WILSON 用 composite 取代數千個 tile，診斷資訊還剩多少？](2026-09-24-wilson-composite-pathology-foundation-model.md)
+
 上述比較依兩篇各自的訓練設計。[(ref: main 圖文預訓練)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11384335/#S10) [(ref: lingshu §2–3)](https://arxiv.org/html/2506.07044v4#S2) [(ref: lingshu §3)](https://arxiv.org/html/2506.07044v4#S3)
 
 ## 實務的啟發
