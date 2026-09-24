@@ -21,7 +21,7 @@ evidence_reviewed: true
 - 論文：*A Rationale-Conditioned Image-Contrast Audit of OCT Dependence in Vision-Language Models for Anti-VEGF Treatment-Response Prediction*，*Bioengineering* 13(8): 912；2026-07-13 投稿、2026-08-03 修訂、2026-08-11 接受、2026-08-12 刊出；MDPI 開放取用（CC BY）。[(ref: main front matter)](https://www.mdpi.com/2306-5354/13/8/912)
 - 識別碼：[DOI: 10.3390/bioengineering13080912](https://doi.org/10.3390/bioengineering13080912)。
 - 全文：[MDPI 開放取用全文](https://www.mdpi.com/2306-5354/13/8/912)；[PDF 版](https://www.mdpi.com/2306-5354/13/8/912/pdf)。
-- 沒有 arXiv 預印本；本文的章節敘述取自 MDPI 全文頁，各表格數值另以 PDF 版逐格核對。
+- 本文無 arXiv 預印本；章節 ref 指向 MDPI 全文頁，表格數值以 PDF 版為準。
 
 **編輯：** Clare
 

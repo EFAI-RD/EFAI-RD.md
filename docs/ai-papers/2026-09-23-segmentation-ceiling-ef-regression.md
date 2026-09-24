@@ -21,7 +21,7 @@ evidence_reviewed: true
 - 論文：*The segmentation ceiling: why explicit left-ventricular masks do not improve learned ejection-fraction regression*；arXiv v1 於 2026-09-17 投稿，分類 eess.IV 與 cs.CV；作者註記 15 頁、4 張圖，已投稿 *Computers in Biology and Medicine*。[(ref: abs)](https://arxiv.org/abs/2609.19730)
 - 識別碼：[arXiv:2609.19730](https://arxiv.org/abs/2609.19730)；[DOI: 10.48550/arXiv.2609.19730](https://doi.org/10.48550/arXiv.2609.19730)。
 - 全文：[arXiv HTML 版](https://arxiv.org/html/2609.19730v1)；[PDF 版](https://arxiv.org/pdf/2609.19730v1)。授權為 arXiv 非專屬散布授權。
-- HTML 版提供逐節與逐表錨點（`#S3.SS4`、`#S4.T1` 等），因此章節層級的 ref 以 HTML 為主；本次取用時 HTML 渲染在 Table 3 之後截斷，所以 4.6 節以後的內文與各表格數值改由 PDF 版逐格核對。
+- 本文的章節 ref 指向 HTML 版；Table 3 之後的內文與表格數值以 PDF 版為準。
 
 **編輯：** Clare
 
