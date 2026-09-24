@@ -21,7 +21,7 @@ evidence_reviewed: true
 - 論文：*ORION-CMR: On-scanner Reporting with Integrated Foundation Model for End-to-End Cardiac MRI Analysis and Interpretation*。
 - 識別碼：[arXiv:2609.23950](https://arxiv.org/abs/2609.23950)；[DOI: 10.48550/arXiv.2609.23950](https://doi.org/10.48550/arXiv.2609.23950)。
 - 全文：[arXiv HTML v1 版](https://arxiv.org/html/2609.23950v1)；[PDF 版](https://arxiv.org/pdf/2609.23950v1)。
-- HTML 版提供逐節與逐表錨點（`#S2.SS1`、`#S2.T1`、`#S3.T4` 等），本文的章節層級 ref 以此為主。本次取用時 `arxiv.org/abs` 與 `doi.org` 皆持續回傳 HTTP 429，因此投稿日期、分類代碼與授權條款未經核對，本文不引述這些欄位；上列 DOI 為 arXiv 制式配發的形式，本回合未能實際解析。
+- 本文的章節 ref 指向 HTML 版的節與表錨點；投稿日期、分類代碼與授權條款未納入本文引述，上列 DOI 為 arXiv 制式配發的形式。
 
 **編輯：** Clare
 

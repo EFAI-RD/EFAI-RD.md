@@ -20,7 +20,7 @@ evidence_reviewed: true
 - 團隊：Mayo Clinic（Rochester, MN）KIMIA Lab／Department of AI & Informatics 主導，合作單位包含 Department of Laboratory Medicine and Pathology、Department of Quantitative Health Sciences、Mayo Clinic Comprehensive Cancer Center、Division of Breast and Melanoma Surgical Oncology 與 Department of Oncology；共十六位作者，第一作者 Saghir Alfasly；最後一位作者 H. R. Tizhoosh 是唯一列出聯絡信箱者，也是 arXiv 的投稿者，論文頁未另標示通訊作者。[(ref: main author block)](https://arxiv.org/html/2609.25123v1)
 - 論文：*WILSON - a pathology foundation model framework for patient-level analysis and diagnostic text generation*；arXiv 預印本，2026-09-20 送件（v1），全文 56 頁、6 張主圖，附錄另有 11 張圖與 28 張表。[(ref: main)](https://arxiv.org/html/2609.25123v1)
 - 識別碼：[arXiv:2609.25123](https://arxiv.org/abs/2609.25123)；[DOI: 10.48550/arXiv.2609.25123](https://doi.org/10.48550/arXiv.2609.25123)。
-- 全文：[arXiv HTML 版](https://arxiv.org/html/2609.25123v1)（含章節與表格錨點）；[arXiv 摘要頁](https://arxiv.org/abs/2609.25123)。
+- 全文：[arXiv HTML 版](https://arxiv.org/html/2609.25123v1)；[arXiv 摘要頁](https://arxiv.org/abs/2609.25123)。
 - 本文為預印本，尚未經同儕審查。
 
 **編輯：** Clare
