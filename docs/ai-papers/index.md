@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-01 | [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 用失敗軌跡演化出的技能補上「怎麼用」](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md) | Clare | arXiv:2609.31789v1；凍結 Qwen3.5-35B-A3B＋九個確定性工具，KAU-BCMD 448 例 BI-RADS、DMID 108 例密度 |
 | 2026-09-30 | [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md) | Clare | arXiv:2609.31985v1；固定 CLIP ViT-L/14 與 MIMIC-CXR 100,000 筆，九種預訓練目標 × 五項胸片任務 |
 | 2026-09-24 | [把一個病例壓成一張圖：WILSON 用 composite 取代數千個 tile，診斷資訊還剩多少？](2026-09-24-wilson-composite-pathology-foundation-model.md) | Clare | arXiv:2609.25123v1；Mayo189K 189,291 張全切片，8×8 多倍率 composite 取代 tile 聚合 |
 | 2026-09-24 | [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md) | Clare | npj Health Systems 3:93；四院所 400 份病歷、49,195 標註句、41 個 CGA／4Ms 構念 |

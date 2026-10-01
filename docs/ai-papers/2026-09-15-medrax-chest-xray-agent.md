@@ -181,6 +181,8 @@ MAIRA-2 在 MedRAX 中提供文字發現的影像定位，兩篇可接續比較�
 
 上述工具關係由 MedRAX §3.2 與 §5.1 記載；本書庫建議先對齊輸入與指標設定，再比較兩篇的報告生成表格。[(ref: main §3.2)](https://arxiv.org/html/2502.02673v2#S3.SS2) [(ref: main §5.1)](https://arxiv.org/html/2502.02673v2#S5.SS1)
 
+MammoClaw 刻意只給代理不含學習模組的確定性工具，結果光給工具並不會提升乳房攝影 BI-RADS 的 macro-F1，與本篇把既有影像模型包成工具的做法對照，可看出工具代理的效益同時取決於工具本身與代理怎麼用它: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 用失敗軌跡演化出的技能補上「怎麼用」](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
+
 ## 實務的啟發
 
 以下是本書庫提出的研究與工程建議：
