@@ -156,6 +156,8 @@ CXR 只取前 48 小時內的 AP view；同一病人若有多張，取最後一�
 
 一句話敘述關係: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md) 把 AgentRx 這類 retrospective agent benchmark 放回整體證據版圖，顯示 agentic／multi-agent 醫療文獻成長很快，但 prospective／controlled evidence 的相對供給仍低。
 
+MammoClaw 在乳房攝影上得到與本篇相近的訊號：替凍結的代理加上工具本身不會改善 macro-F1，有差別的是從失敗軌跡蒸餾出的使用指引: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 用失敗軌跡演化出的技能補上「怎麼用」](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
+
 ## 實務的啟發
 
 1. **先比較同資料、同模型的單一代理 baseline。** 多代理若沒有在同一骨幹、同一模態與同一 test split 上勝過 single-agent，就不應以「可協作」取代實際增益。
