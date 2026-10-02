@@ -140,7 +140,7 @@ MedGemma 1.5 技術報告展示同一基礎模型擴充到多種醫療模態，M
 
 ModaLens 以交換影像量測影像敏感度，該研究則把「輔助資訊到底有沒有幫助」寫成一條可以事前計算的準確度門檻: [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
 
-ModaLens 量測有報告可讀時模型還看不看影像，該研究則在 RAG 情境下給出同一問題的答案：檢索報告一進 prompt，95% 的生成報告含有從證據逐字抄來的片段: [檢索來的前例報告，是證據還是抄本？胸片報告生成的 retrieval-induced hallucination](2026-10-02-rag-induced-hallucination-cxr-report.md)
+ModaLens 量測有報告可讀時模型還看不看影像，該研究則在 RAG 情境下給出同一問題的答案：檢索報告一進 prompt，95% 的生成報告含有從證據逐字抄來的片段: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
 ## 實務的啟發
 

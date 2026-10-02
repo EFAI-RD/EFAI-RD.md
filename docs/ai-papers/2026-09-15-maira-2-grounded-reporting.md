@@ -185,7 +185,7 @@ Lingshu 導讀著重通用醫療 VLM 的資料與訓練，本篇則可接續閱�
 
 本篇把區域定位寫進報告生成的輸出與評分，該研究則把定位訊號放到上游的預訓練目標，量測它對凍結編碼器的各項下游任務有多少幫助: [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md)
 
-本篇把同一病人的前次報告當成受控的輸入，該研究則顯示把「別的病人」的相似前例報告塞進 prompt 時，通用 VLM 會把對方的發現甚至整段原文抄進報告: [檢索來的前例報告，是證據還是抄本？胸片報告生成的 retrieval-induced hallucination](2026-10-02-rag-induced-hallucination-cxr-report.md)
+本篇把同一病人的前次報告當成受控的輸入，該研究則顯示把「別的病人」的相似前例報告塞進 prompt 時，通用 VLM 會把對方的發現甚至整段原文抄進報告: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
 ## 實務的啟發
 
