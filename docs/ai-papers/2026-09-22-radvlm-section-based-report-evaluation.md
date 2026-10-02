@@ -176,7 +176,7 @@ ORION-CMR 以整份報告層級的 81.4% 相符率作為評估結果，與本篇
 
 該研究比較九種預訓練目標時，BLEU／ROUGE 與 RadGraph-F1 的排序並不一致，是本篇「語意相似度不能代替臨床保真度」在編碼器比較上的另一個實例: [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md)
 
-本篇顯示流暢不等於臨床忠實，該研究則指出一種更難從流暢度察覺的失真：句子出自真實放射科報告，只是屬於另一位病人: [檢索來的前例報告，是證據還是抄本？胸片報告生成的 retrieval-induced hallucination](2026-10-02-rag-induced-hallucination-cxr-report.md)
+本篇顯示流暢不等於臨床忠實，該研究則指出一種更難從流暢度察覺的失真：句子出自真實放射科報告，只是屬於另一位病人: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
 ## 實務的啟發
 
