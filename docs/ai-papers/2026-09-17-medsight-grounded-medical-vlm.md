@@ -161,6 +161,8 @@ MedSIGHT 讓同一個模型同時輸出診斷文字與像素級分割，該研�
 
 MedSIGHT 主張像素級 grounding 能提升診斷品質，該研究則給出一條判斷這種輔助監督何時劃算的定量門檻: [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
 
+CARA-VL 同樣在醫療 VLM 中引入分割監督，但只把預測的解剖佔位圖用來導引注意力、不作為輸出，可與 MedSIGHT 的輸出端 grounding 對照: [先教 VLM 看對地方：CARA-VL 用解剖結構導引注意力，心臟 MRI 問答能走多遠？](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md)
+
 ## 實務的啟發
 
 1. **把答案與位置拆成兩個驗收欄位。** 對需定位的用途，同時保存 diagnosis text、region codes、decoded mask 與人工修正；答對病名但定位錯誤，不能算成同一種成功。
