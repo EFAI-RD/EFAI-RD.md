@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-02 | [檢索來的前例報告，是證據還是抄本？胸片報告生成的 retrieval-induced hallucination](2026-10-02-rag-induced-hallucination-cxr-report.md) | Clare | arXiv:2609.31733v1；MIMIC-CXR 100 筆評估、400 筆檢索池，凍結 LLaVA-1.5-7B × 三種檢索條件 |
 | 2026-10-02 | [先教 VLM 看對地方：CARA-VL 用解剖結構導引注意力，心臟 MRI 問答能走多遠？](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md) | Clare | arXiv:2609.39899v1；Qwen2.5-VL-3B＋CARA，128,915 筆解剖定位問答＋42,799 筆臨床問答、14 項 CMR 任務與院外 In-house B |
 | 2026-10-01 | [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 用失敗軌跡演化出的技能補上「怎麼用」](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md) | Clare | arXiv:2609.31789v1；凍結 Qwen3.5-35B-A3B＋九個確定性工具，KAU-BCMD 448 例 BI-RADS、DMID 108 例密度 |
 | 2026-09-30 | [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md) | Clare | arXiv:2609.31985v1；固定 CLIP ViT-L/14 與 MIMIC-CXR 100,000 筆，九種預訓練目標 × 五項胸片任務 |
