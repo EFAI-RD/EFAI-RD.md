@@ -193,7 +193,7 @@ MI-Zero 的 top-K 平均較適合不同類別形態互斥的任務。作者指�
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md) 提供 CLIP→LLaVA→領域基礎→grounded reporting 的譜系語言；本篇是病理領域基礎模型階段的實例與評估邊界。
+提供 CLIP→LLaVA→領域基礎→grounded reporting 的譜系語言，本篇是病理領域基礎模型階段的實例與評估邊界: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md)
 
 CONCH 的病理圖文配對與對比／生成目標，可對照 Lingshu 的醫療資料整理、分階段對齊與指令訓練，兩篇的任務與分數應各自解讀: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
 

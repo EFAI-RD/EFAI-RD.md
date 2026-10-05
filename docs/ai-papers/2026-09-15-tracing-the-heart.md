@@ -110,7 +110,7 @@ nMAS 是 **evidence-linked、rubric-grounded** 的多代理管線 [(ref: main §
 
 ### Stage 2：Rubric 複合特徵與證據軌跡
 
-Rubric 定義條件、給分與證據階層；七類分數加總後上限 100，再映到 high（≥55）／medium（25–54）／low（&lt;25）[(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。**HF 表型**採 EF 門檻或 ICD 路徑，**不插補 EF** [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
+Rubric 定義條件、給分與證據階層；八類特徵各自在類別內把構成項目加總，單類上限 100，再映到 high（≥55）／medium（25–54）／low（&lt;25）[(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。**HF 表型**採 EF 門檻或 ICD 路徑，**不插補 EF** [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)。
 
 ### LLM Auditor 與品管
 
@@ -183,7 +183,7 @@ Rubric 定義條件、給分與證據階層；七類分數加總後上限 100，
 | Care Recommendations | 38.5 |
 | Overall | 81.5 |
 
-完整八類 rubric 給分表見原文附錄 Table 1 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)；去重鍵與彙總量見附錄來源表說明。
+完整八類 rubric 給分表見原文附錄 Table 3 [(ref: main §4)](https://arxiv.org/html/2608.06366#S4)；去重鍵與彙總量見附錄來源表說明。
 
 ## 結果
 
@@ -198,13 +198,13 @@ Rubric 定義條件、給分與證據階層；七類分數加總後上限 100，
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？](2026-09-17-medicalbench-concept-extraction.md) 測試模型能否從病歷定位支撐概念的句子，可對照 nMAS 以規則與來源欄維持特徵 provenance 的做法。
+測試模型能否從病歷定位支撐概念的句子，可對照 nMAS 以規則與來源欄維持特徵 provenance 的做法: [MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？](2026-09-17-medicalbench-concept-extraction.md)
 
-一句話敘述關係: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md) 提供閱讀 nMAS「專責代理＋有界稽核」時所需的多代理譜系背景。
+提供閱讀 nMAS「專責代理＋有界稽核」時所需的多代理譜系背景: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
-一句話敘述關係: [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](../industry-watch/2026-09-15-fda-cardio-ml-notification.md) 說明美國對「心血管 ML 通知軟體」的成文分類與通報／診斷邊界，可對照研究管線的落地距離。
+說明美國對「心血管 ML 通知軟體」的成文分類與通報／診斷邊界，可對照研究管線的落地距離: [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](../industry-watch/2026-09-15-fda-cardio-ml-notification.md)
 
-nMAS 把射出分率當成心衆竭特徵的上游欄位，該研究則處理那個欄位如何從心臟超音波自動量測及其誤差結構: [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
+nMAS 把射出分率當成心衰竭特徵的上游欄位，該研究則處理那個欄位如何從心臟超音波自動量測及其誤差結構: [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
 
 ORION-CMR 處理的是射出分率這類欄位在心臟 MRI 端如何被自動量測與寫進報告，正好接在本篇把這些欄位當成上游輸入的位置之前: [報告在病人下檢查台前就寫好：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀](2026-09-24-orion-cmr-on-scanner-reporting.md)
 
