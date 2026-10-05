@@ -171,7 +171,7 @@ MIMIC-CXR Findings 任務，保留五個模型與下列八項指標。方括號�
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md) 把本篇放在「有定位報告」階段；上游是對齊與指令微調，下游則接通才醫療 VLM 與 grounding 分岔。
+把本篇放在「有定位報告」階段，上游是對齊與指令微調，下游則接通才醫療 VLM 與 grounding 分岔: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md)
 
 MedRAX 把 MAIRA-2 納入影像定位工具，可接續閱讀代理如何選用模型輸出，以及多工具問答仍有哪些評估落差: [MedRAX：工具代理如何改善胸腔 X 光問答？](2026-09-15-medrax-chest-xray-agent.md)
 
