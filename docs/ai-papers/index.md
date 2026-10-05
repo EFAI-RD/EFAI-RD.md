@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-05 | [皮膚病灶良惡性分類：零樣本 VLM、微調 CNN 與凍結特徵，在十個資料設定下差多少？](2026-10-05-derm-generalist-vs-specific-benchmark.md) | Clare | arXiv:2610.03193v1；MICCAI 2026；七個皮膚鏡／臨床照片資料集＋三個合併集，零樣本 VLM、微調 CNN／ViT 與凍結特徵三類模型的 Macro F1 對照 |
 | 2026-10-05 | [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md) | Clare | arXiv:2610.02829v1；MIMIC-IV 8,617 份出院摘要 × 17 個 ICD-9 章節、11 個開源 Qwen／Gemma 模型的 SAE 方向與注入實驗；醫師盲評 2 人 × 38 案 |
 | 2026-10-02 | [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md) | Clare | arXiv:2609.31733v1；作者自稱 pilot：MIMIC-CXR 100 筆評估、凍結 LLaVA-1.5-7B × 三種檢索條件；防護模組未實作 |
 | 2026-10-02 | [先教 VLM 看對地方：CARA-VL 用解剖結構導引注意力，心臟 MRI 問答能走多遠？](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md) | Clare | arXiv:2609.39899v1；Qwen2.5-VL-3B＋CARA，128,915 筆解剖定位問答＋42,799 筆臨床問答、14 項 CMR 任務與院外 In-house B |
