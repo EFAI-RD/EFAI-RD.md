@@ -172,6 +172,8 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 該研究提供一個乾淨的示範：同一批模型在 micro 與 macro 兩種平均下，可用性結論可以相差 0.36 個 F1: [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
 
+該研究提出在輸出之外讀取模型內部概念活化的評估面向，但其醫師驗證僅 2 位評分者、38 案，屬於本文所說評估設計需要再補強的一例: [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
+
 ## 實務的啟發
 
 1. **把模型當可替換元件。** protocol 可以預先定義替換條件、版本鎖定點與等效性檢查，避免一個停止更新的 model endpoint 把整個臨床問題一起凍結。

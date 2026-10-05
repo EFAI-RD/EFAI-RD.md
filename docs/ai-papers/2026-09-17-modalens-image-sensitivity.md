@@ -142,6 +142,8 @@ ModaLens 以交換影像量測影像敏感度，該研究則把「輔助資訊�
 
 ModaLens 量測有報告可讀時模型還看不看影像，該研究則在 RAG 情境下給出同一問題的答案：檢索報告一進 prompt，95% 的生成報告含有從證據逐字抄來的片段: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
+ModaLens 以交換輸入觀察答案變化來推斷模型用了什麼，該研究則直接在 residual stream 注入臨床概念方向，並以隨機方向與 unembedding 對照排除捷徑: [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
+
 ## 實務的啟發
 
 第一，多模態系統不能只報 joint-input accuracy。至少應加入單模態消融、影像交換、文字交換與矛盾案例，分別量測輸出對每一模態的敏感度；如果 ground truth 來自其中一個模態，還要另外取得不依附該模態的標註。

@@ -106,6 +106,8 @@ MedicalBench 因此把概念抽取改寫為「驗證加定位」：輸入一份�
 
 該研究把同一件事放大到四家院所與 41 個老年照護構念，並加入規則式與 LoRA 微調的對照組，顯示 micro 與 macro 平均會給出截然不同的可用性判斷: [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
 
+MedicalBench 在輸出端要 LLM 指出 ICD 概念的證據句，該研究則用 MIMIC-IV 出院摘要的主要 ICD-9 代碼在模型內部找章節表徵，並以注入實驗檢驗模型是否真的用到它: [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
+
 ## 實務的啟發
 
 第一，評估單位應從「答對代碼」擴成「答對、找對證據、保留時間與否定語境」。MedicalBench 的舊心肌梗塞案例顯示，詞面命中若忽略「未確診」與新舊時間狀態，可能把看似合理的答案變成錯誤標記。[(ref: main case 2)](https://arxiv.org/html/2605.20197v1#S4.SS6.SSS2)
