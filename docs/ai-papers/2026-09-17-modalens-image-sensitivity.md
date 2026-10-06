@@ -144,6 +144,8 @@ ModaLens 量測有報告可讀時模型還看不看影像，該研究則在 RAG 
 
 ModaLens 以交換輸入觀察答案變化來推斷模型用了什麼，該研究則直接在 residual stream 注入臨床概念方向，並以隨機方向與 unembedding 對照排除捷徑: [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
 
+ModaLens 交換影像量測醫療 VLM 是否仍看影像，該研究以模態遮罩消融與配對 bootstrap 顯示：輸入含認知分數時，T1w MRI 對三分類診斷的增益無法與零區分: [阿茲海默症分期的 VLM：caption 拿掉診斷欄位後，MEMOIR-VLM 的 LLM 還贏得過 k-NN 嗎？](2026-10-06-memoir-vlm-alzheimers-rag-vqa.md)
+
 ## 實務的啟發
 
 第一，多模態系統不能只報 joint-input accuracy。至少應加入單模態消融、影像交換、文字交換與矛盾案例，分別量測輸出對每一模態的敏感度；如果 ground truth 來自其中一個模態，還要另外取得不依附該模態的標註。
