@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-06 | [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md) | Clare | arXiv:2609.37648v1；技術報告：LLM 調度＋八個確定性 CT 技能，3 例公開 CRLM 功能測試、63 例參考遮罩問答、256 個二維模擬場景的切除順序規劃；無臨床評估 |
 | 2026-10-06 | [阿茲海默症分期的 VLM：caption 拿掉診斷欄位後，MEMOIR-VLM 的 LLM 還贏得過 k-NN 嗎？](2026-10-06-memoir-vlm-alzheimers-rag-vqa.md) | Clare | Front. Comput. Neurosci. 20:1902258；ADNI 2,363 人（T1w＋DTI-FA＋臨床分數）缺模態編碼器與檢索增強 VQA，CDR-SB 輸入洩漏修正、caption 標籤遮罩對照，OASIS-3 1,048 人外部測試 |
 | 2026-10-05 | [皮膚病灶良惡性分類：零樣本 VLM、微調 CNN 與凍結特徵，在十個資料設定下差多少？](2026-10-05-derm-generalist-vs-specific-benchmark.md) | Clare | arXiv:2610.03193v1；MICCAI 2026；七個皮膚鏡／臨床照片資料集＋三個合併集，零樣本 VLM、微調 CNN／ViT 與凍結特徵三類模型的 Macro F1 對照 |
 | 2026-10-05 | [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md) | Clare | arXiv:2610.02829v1；MIMIC-IV 8,617 份出院摘要 × 17 個 ICD-9 章節、11 個開源 Qwen／Gemma 模型的 SAE 方向與注入實驗；醫師盲評 2 人 × 38 案 |

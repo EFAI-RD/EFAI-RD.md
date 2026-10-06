@@ -155,6 +155,8 @@ MedRAX 把分類、分割、定位等既有的影像模型包成工具交給代�
 
 AgentRx 顯示增加代理角色與對話不會自動改善 ICU 預測，MammoClaw 在乳房攝影上得到相近的訊號：增加工具本身不會改善 macro-F1，有差別的是從失敗軌跡蒸餾出的使用指引: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](2026-09-17-agentrx-multimodal-clinical-prediction.md)
 
+VoxelSage 同樣只給代理確定性工具，但沒有做「不給工具」的對照，本篇的 no-tools／tools-only／tools + skills 三組設計正好說明它缺了哪一組實驗: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
+
 ## 實務的啟發
 
 第一，評估工具代理時，「加工具」與「教代理用工具」要拆成兩個實驗。本研究的 tools-only 設定改變了逐例預測（McNemar 顯著），卻沒有改變 macro-F1；如果只比較「有代理」與「沒代理」兩組，會看不出效益究竟來自哪一層。本書庫的解讀是，任何宣稱 agent 提升影像判讀的研究，都值得先找 tools-only 這一組對照。
