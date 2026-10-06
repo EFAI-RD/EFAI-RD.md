@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-06 | [阿茲海默症分期的 VLM：caption 拿掉診斷欄位後，MEMOIR-VLM 的 LLM 還贏得過 k-NN 嗎？](2026-10-06-memoir-vlm-alzheimers-rag-vqa.md) | Clare | Front. Comput. Neurosci. 20:1902258；ADNI 2,363 人（T1w＋DTI-FA＋臨床分數）缺模態編碼器與檢索增強 VQA，CDR-SB 輸入洩漏修正、caption 標籤遮罩對照，OASIS-3 1,048 人外部測試 |
 | 2026-10-05 | [皮膚病灶良惡性分類：零樣本 VLM、微調 CNN 與凍結特徵，在十個資料設定下差多少？](2026-10-05-derm-generalist-vs-specific-benchmark.md) | Clare | arXiv:2610.03193v1；MICCAI 2026；七個皮膚鏡／臨床照片資料集＋三個合併集，零樣本 VLM、微調 CNN／ViT 與凍結特徵三類模型的 Macro F1 對照 |
 | 2026-10-05 | [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md) | Clare | arXiv:2610.02829v1；MIMIC-IV 8,617 份出院摘要 × 17 個 ICD-9 章節、11 個開源 Qwen／Gemma 模型的 SAE 方向與注入實驗；醫師盲評 2 人 × 38 案 |
 | 2026-10-02 | [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md) | Clare | arXiv:2609.31733v1；作者自稱 pilot：MIMIC-CXR 100 筆評估、凍結 LLaVA-1.5-7B × 三種檢索條件；防護模組未實作 |
