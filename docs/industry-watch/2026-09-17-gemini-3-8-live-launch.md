@@ -77,6 +77,8 @@ Google 在 2026 年 9 月 15 日發布兩款「即時語音對話」（live dial
 
 ## 與書庫其他文章的關係
 
+同為大廠前沿模型發布，但本則的榜首成績可在第三方榜單獨立對照，OpenAI 那則的五組評測則全為廠商自報且多數未給絕對分數，兩者適合並讀以比較發布敘事的可核對程度: [OpenAI 發布 GPT-6.1 Sol：五分之一價格逼近 Astra，但科學研究那一欄仍由 Astra 領先](2026-10-07-openai-gpt-6-1-sol-launch.md)
+
 一句話敘述關係: [AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持](2026-09-15-amodei-pace-the-frontier.md) 記錄 9/12 的調速倡議；本則是倡議之後第一個大廠前沿模型發布的實例，可作治理承諾與發布行為的對照觀察。
 
 ## 實務的啟發

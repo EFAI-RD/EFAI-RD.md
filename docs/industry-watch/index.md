@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-07 | [OpenAI 發布 GPT-6.1 Sol：五分之一價格逼近 Astra，但科學研究那一欄仍由 Astra 領先](2026-10-07-openai-gpt-6-1-sol-launch.md) | Clarence | 官方公告未標日期；$2／$10 per M token |
 | 2026-09-18 | [FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證](2026-09-18-fda-radiology-cad-510k-exemption-denied.md) | Clare | 09-17 最終命令；Harrison.ai 請願遭駁回 |
 | 2026-09-17 | [Google 發布 Gemini 3.8 Live 系列：Extended Thinking 登上語音對語音評測榜首](2026-09-17-gemini-3-8-live-launch.md) | Clare | 09-15 官方公告；AA Index 82.6 |
 | 2026-09-17 | [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](2026-09-17-fda-genai-devices-discussion-paper.md) | Curitis | 2026-08-18 討論文件；意見至 10-19 |
