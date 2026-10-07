@@ -81,6 +81,8 @@ Anthropic 執行長 Dario Amodei 在 2026 年 9 月 12 日發表約 3,800 字的
 
 ## 與書庫其他文章的關係
 
+調速倡議之後的又一次大廠前沿發布，可延續治理承諾與發布行為的對照觀察，觀察點落在自報評測的揭露程度與 system card 的查核痕跡: [OpenAI 發布 GPT-6.1 Sol：五分之一價格逼近 Astra，但科學研究那一欄仍由 Astra 領先](2026-10-07-openai-gpt-6-1-sol-launch.md)
+
 一句話敘述關係: [LLM Multi-Agent Systems（ReAct → CAMEL → AutoGen）](../ai-basics/multi-agent-llm.md) 解釋多代理系統的機制；本則記錄多代理群體失控的真實事件（OAI-HF）如何促成產業層級的調速倡議。
 
 一句話敘述關係: [Google 發布 Gemini 3.8 Live 系列：Extended Thinking 登上語音對語音評測榜首](2026-09-17-gemini-3-8-live-launch.md) 是本倡議之後第一個大廠前沿模型發布實例，可對照觀察治理承諾與發布行為。
