@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-07 | [把病灶從乳房攝影上抹掉，VLM 會改口說「無法判斷」嗎？CARE-MVLM 用反事實三聯組訓練棄答與證據框](2026-10-07-care-mvlm-mammography-counterfactual-abstention.md) | Clare | medRxiv DOI 10.64898/2026.09.23.26363835（v1 預印本）；凍結 Qwen2.5-VL-7B-Instruct＋答案頭／證據框 LoRA／棄答 selector，CBIS-DDSM／MIAS／VinDr-Mammo 7,358 個原始／random removal／target removal 三聯組，與同骨幹基線、GPT-5.6、Gemini-3.5-flash 比較 |
 | 2026-10-07 | [影像上多一行字，VLM 就改口說「沒有異常」：四個模型在牙科全景片上的 prompt injection 攻防評估](2026-10-07-dental-vlm-image-prompt-injection.md) | Clare | Sci Rep 16:30690；DenTeX 270 張全景片 × 4 類影像內嵌攻擊 × 2 種 payload，GPT-4o／Gemini 2.5 Flash／Claude Sonnet 4.5／MedGemma 4B 共 58,320 次推論，ROI crop、spotlighting、OCR sanitize、ProvDent 四種防禦 |
 | 2026-10-07 | [病歷不出院，只放出一個打分器：LLM 代理靠它找血球計數生物標記，外部驗證只在部分世代站得住](2026-10-07-gat-scorer-cbc-biomarker-agent.md) | Clare | arXiv:2610.04749v1；Clalit 5,437,870 人病歷蒸餾成 13 個免疫疾病的 GAT 打分器（只釋出權重），LLM 代理搜尋與三個前沿工具重排序，MIMIC-IV／EHRShot／NHANES 外部驗證與隨機打分對照 |
 | 2026-10-06 | [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md) | Clare | arXiv:2609.37648v1；技術報告：LLM 調度＋八個確定性 CT 技能，3 例公開 CRLM 功能測試、63 例參考遮罩問答、256 個二維模擬場景的切除順序規劃；無臨床評估 |

@@ -157,6 +157,8 @@ AgentRx 顯示增加代理角色與對話不會自動改善 ICU 預測，MammoCl
 
 VoxelSage 同樣只給代理確定性工具，但沒有做「不給工具」的對照，本篇的 no-tools／tools-only／tools + skills 三組設計正好說明它缺了哪一組實驗: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
 
+CARE-MVLM 在同一個影像領域另外檢查答案有沒有依據：它量測證據框是否對應病灶、病灶被抹除後會不會棄答，補上 MammoClaw 只評估 macro-F1 時沒有涵蓋的面向: [把病灶從乳房攝影上抹掉，VLM 會改口說「無法判斷」嗎？CARE-MVLM 用反事實三聯組訓練棄答與證據框](2026-10-07-care-mvlm-mammography-counterfactual-abstention.md)
+
 ## 實務的啟發
 
 第一，評估工具代理時，「加工具」與「教代理用工具」要拆成兩個實驗。本研究的 tools-only 設定改變了逐例預測（McNemar 顯著），卻沒有改變 macro-F1；如果只比較「有代理」與「沒代理」兩組，會看不出效益究竟來自哪一層。本書庫的解讀是，任何宣稱 agent 提升影像判讀的研究，都值得先找 tools-only 這一組對照。
