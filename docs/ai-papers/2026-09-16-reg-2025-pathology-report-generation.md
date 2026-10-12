@@ -84,7 +84,7 @@ Phase 1 最高分是 ICGI 的 0.8098，該階段平均 0.5915；Phase 2 最高�
 
 前三名都先把報告資訊分成器官、診斷等類別：ICGI 以標籤對齊 tile 特徵，ICL_PathReport 建立階層標註樹，IMAGINE Lab 用 GPT 產生概念 prompts。論文報告這三隊在 Phase 2 的平均 ROUGE 為 0.8572、BLEU 為 0.6853；採 category-aware 方法的隊伍，從 Phase 1 到 Phase 2 平均增加 0.09 BLEU 與 0.13 KEY，而一般 tokenization 路線約增加 0.01 與 0.02。這是競賽內觀察，不能單獨證明結構化表示造成泛化提升。[(ref: main §4.1)](https://arxiv.org/html/2609.00866v1#S4.SS1)
 
-質化案例揭露榜單不易看見的錯誤。前列腺病例的 ground truth 腫瘤量為 5%，多個模型雖抓到腺癌、Gleason score 與 grade group，卻生成 15% 到 90% 的腫瘤量；有些模型也把應保留較寬泛分類的病灶，過度指定成確定亞型。作者把這些問題分別歸為數值不穩定與未保留診斷不確定性。[(ref: main Table 4)](https://arxiv.org/html/2609.00866v1#S3.T4) [(ref: main §3.2.2)](https://arxiv.org/html/2609.00866v1#S3.SS2.SSS2)
+質化案例揭露榜單不易看見的錯誤。前列腺病例的 ground truth 腫瘤量為 5%，多個模型雖抓到腺癌、Gleason score 與 grade group，卻生成 10% 到 90% 的腫瘤量；有些模型也把應保留較寬泛分類的病灶，過度指定成確定亞型。作者把這些問題分別歸為數值不穩定與未保留診斷不確定性。[(ref: main Table 4)](https://arxiv.org/html/2609.00866v1#S3.T4) [(ref: main §3.2.2)](https://arxiv.org/html/2609.00866v1#S3.SS2.SSS2)
 
 ## 限制
 

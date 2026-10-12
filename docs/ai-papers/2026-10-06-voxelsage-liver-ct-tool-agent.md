@@ -32,7 +32,7 @@ VoxelSage 把肝腫瘤 CT 的分割、體積與距離量測、影像證據和切
 
 ![左欄為瀏覽器工作區（上傳 CT、提出問題、檢視與確認）；中欄為 Port A，由 LLM 依病例脈絡決定直接回答或呼叫技能，並檢查回傳結果；右欄為 Port B，負責病例前處理、八個確定性技能與實驗性的切除順序規劃](assets/voxelsage-dual-port-workflow.png)
 
-圖：本書庫依論文 Figure 1、Figure 3、Section 5、Section 6 與 Table 5 重繪的編輯示意圖，不含成效數值。Port A 與 Port B 分開部署：凡涉及影像幾何的數字都在 Port B 計算，LLM 拿到的是附帶遮罩與座標資訊的結構化結果；切除規劃以虛線框標示，因為它的學習元件只在二維模擬器中評估。[(ref: main Figure 1)](https://arxiv.org/pdf/2609.37648v1#page=2) [(ref: main Figure 3)](https://arxiv.org/pdf/2609.37648v1#page=6) [(ref: main Table 5)](https://arxiv.org/pdf/2609.37648v1#page=19)
+圖：本書庫依論文 Figure 1、Figure 3、Section 5、Section 6 與 Table 5 重繪的編輯示意圖，不含成效數值。Port A 與 Port B 分開部署：凡涉及影像幾何的數字都在 Port B 計算，LLM 拿到的是附帶遮罩與座標資訊的結構化結果；切除規劃另以橘色方塊標示並註明 experimental，因為它的學習元件只在二維模擬器中評估。[(ref: main Figure 1)](https://arxiv.org/pdf/2609.37648v1#page=2) [(ref: main Figure 3)](https://arxiv.org/pdf/2609.37648v1#page=6) [(ref: main Table 5)](https://arxiv.org/pdf/2609.37648v1#page=19)
 
 ## 背景／問題
 

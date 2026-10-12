@@ -152,9 +152,9 @@ CXR 只取前 48 小時內的 AP view；同一病人若有多張，取最後一�
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md) 提供角色分工、通訊與驗收的通用框架；AgentRx 則用 ICU 多模態預測顯示，若代理只交換壓縮後判斷，增加角色與對話不會自動改善辨識或校準。
+該文提供多代理的角色分工、通訊與驗收通用框架，AgentRx 則用 ICU 多模態預測顯示，若代理只交換壓縮後判斷，增加角色與對話不會自動改善辨識或校準: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
-一句話敘述關係: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md) 把 AgentRx 這類 retrospective agent benchmark 放回整體證據版圖，顯示 agentic／multi-agent 醫療文獻成長很快，但 prospective／controlled evidence 的相對供給仍低。
+該文把 AgentRx 這類 retrospective agent benchmark 放回整體證據版圖，顯示 agentic／multi-agent 醫療文獻成長很快，但 prospective／controlled evidence 的相對供給仍低: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md)
 
 MammoClaw 在乳房攝影上得到與本篇相近的訊號：替凍結的代理加上工具本身不會改善 macro-F1，有差別的是從失敗軌跡蒸餾出的使用指引: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 用失敗軌跡演化出的技能補上「怎麼用」](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
 
