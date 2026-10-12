@@ -44,7 +44,7 @@ skill_version: "write-industry-watch@2.8"
 evidence_reviewed: true
 ---
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)
 
 # FDA 徵求 GenAI 醫材監管意見：討論文件≠指引
 
@@ -120,4 +120,4 @@ FDA 在 2026 年 8 月就 generative AI（GenAI）-enabled medical devices 公�
 - **dhac_meeting** — [2024-11-20～21 DHAC 會議公告](https://www.fda.gov/advisory-committees/advisory-committee-calendar/november-20-21-2024-digital-health-advisory-committee-meeting-announcement-11202024)
 - **pccp** — [FDA guidance：PCCP for AI-Enabled Device Software Functions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence)
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)

@@ -36,7 +36,7 @@ skill_version: "write-industry-watch@2.4"
 evidence_reviewed: true
 ---
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)
 
 # FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷
 
@@ -96,4 +96,4 @@ FDA 在 2026 年 9 月把「用機器學習提示單一心血管疾患可能性�
 - **denovo** — [FDA De Novo：Viz HCM（DEN230003）](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230003)
 - **ecfr** — [21 CFR 870.2380](https://www.ecfr.gov/current/title-21/section-870.2380)
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)

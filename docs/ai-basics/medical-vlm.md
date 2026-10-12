@@ -67,7 +67,7 @@ skill_version: "write-ai-basic@2.7"
 evidence_reviewed: true
 ---
 
-**導覽：** [Home](../) · [AI Basics](./)
+[Home](../) · [AI Basics](./)
 
 # 醫療視覺語言模型：從 CLIP 對齊到有定位報告
 
@@ -162,4 +162,4 @@ CLIP 展示：用大量圖文對，以對比學習把影像與自然語言拉進
 - **lingshu** — *Lingshu…*. [arXiv:2506.07044](https://arxiv.org/abs/2506.07044)
 - **medsight** — *MedSIGHT…*. [arXiv:2606.06760](https://arxiv.org/abs/2606.06760)
 
-**導覽：** [Home](../) · [AI Basics](./)
+[Home](../) · [AI Basics](./)

@@ -52,7 +52,7 @@ skill_version: "write-ai-paper@1.4"
 evidence_reviewed: true
 ---
 
-**導覽：** [Home](../) · [AI Papers](./)
+[Home](../) · [AI Papers](./)
 
 # Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）
 
@@ -224,4 +224,4 @@ nMAS 把病歷欄位抽出來供下游使用，該研究則量測上游那一步
   [HTML](https://arxiv.org/html/2608.06366) · [abs](https://arxiv.org/abs/2608.06366)  
   [`#abstract1`](https://arxiv.org/html/2608.06366#abstract1) · [`#S1`](https://arxiv.org/html/2608.06366#S1) · [`#S3`](https://arxiv.org/html/2608.06366#S3) · [`#S4`](https://arxiv.org/html/2608.06366#S4) · [`#S4.fig1`](https://arxiv.org/html/2608.06366#S4.fig1) · [`#S5`](https://arxiv.org/html/2608.06366#S5) · [`#S6`](https://arxiv.org/html/2608.06366#S6)
 
-**導覽：** [Home](../) · [AI Papers](./)
+[Home](../) · [AI Papers](./)
