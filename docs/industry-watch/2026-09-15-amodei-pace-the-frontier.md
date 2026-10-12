@@ -32,7 +32,7 @@ skill_version: "write-industry-watch@2.4"
 evidence_reviewed: true
 ---
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)
 
 # AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持
 
@@ -106,4 +106,4 @@ Anthropic 執行長 Dario Amodei 在 2026 年 9 月 12 日發表約 3,800 字的
 - **npr** — [NPR：Anthropic and OpenAI CEOs call for AI development to slow down, OpenAI to delay IPO（2026-09-12）](https://www.npr.org/2026/09/12/nx-s1-5950588/openai-anthropic-ai-safety-researchers-hacks)
 - **guardian** — [The Guardian：AI CEOs say they need to slow the pace of development. But will they?（2026-09-14）](https://www.theguardian.com/technology/2026/sep/14/ai-ceo-safety-slowdown)
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)

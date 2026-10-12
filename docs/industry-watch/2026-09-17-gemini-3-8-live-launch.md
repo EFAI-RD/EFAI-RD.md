@@ -31,7 +31,7 @@ skill_version: "write-industry-watch@2.7"
 evidence_reviewed: true
 ---
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)
 
 # Google 發布 Gemini 3.8 Live 系列：Extended Thinking 登上語音對語音評測榜首
 
@@ -100,4 +100,4 @@ Google 在 2026 年 9 月 15 日發布兩款「即時語音對話」（live dial
 - **aa** — [Artificial Analysis：Speech to Speech Leaderboard](https://artificialanalysis.ai/speech-to-speech)
 - **sa** — [SiliconANGLE：Google's new speech model Gemini 3.8 Live supports real-time reasoning（2026-09-15）](https://siliconangle.com/2026/09/15/googles-new-speech-model-gemini-3-8-live-supports-real-time-reasoning/)
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)

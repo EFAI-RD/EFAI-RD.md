@@ -50,7 +50,7 @@ skill_version: "write-ai-basic@2.2"
 evidence_reviewed: true
 ---
 
-**導覽：** [Home](../) · [AI Basics](./)
+[Home](../) · [AI Basics](./)
 
 # LLM 多代理系統：從 ReAct 到可對話協作
 
@@ -135,4 +135,4 @@ evidence_reviewed: true
 - **autogen** — Wu et al. *AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation*. [arXiv:2308.08155](https://arxiv.org/abs/2308.08155)
 - **nmas** — Shimgekar et al. *Tracing the Heart…*. [HTML](https://arxiv.org/html/2608.06366) · [`#S4`](https://arxiv.org/html/2608.06366#S4) · [`#S6`](https://arxiv.org/html/2608.06366#S6)
 
-**導覽：** [Home](../) · [AI Basics](./)
+[Home](../) · [AI Basics](./)

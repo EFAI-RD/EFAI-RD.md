@@ -40,7 +40,7 @@ skill_version: "write-industry-watch@2.2"
 evidence_reviewed: true
 ---
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)
 
 # arXiv 收緊 AI 生成內容政策：幻覺引用等可致一年禁投
 
@@ -100,4 +100,4 @@ evidence_reviewed: true
 - **verge_2026** — [The Verge 報導](https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers)
 - **ars_2026** — [Ars Technica 報導](https://arstechnica.com/science/2026/05/preprint-server-arxiv-will-ban-submitters-of-ai-generated-hallucinations/)
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)

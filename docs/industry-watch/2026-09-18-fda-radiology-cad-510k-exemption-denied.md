@@ -40,7 +40,7 @@ skill_version: "write-industry-watch@2.8"
 evidence_reviewed: true
 ---
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)
 
 # FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證
 
@@ -108,4 +108,4 @@ evidence_reviewed: true
 - **docket** — [Regulations.gov Docket FDA-2025-P-5560](https://www.regulations.gov/docket/FDA-2025-P-5560)
 - **rb** — [Radiology Business：FDA denies petition to exempt certain radiology AI devices from premarket review（2026-04-10）](https://radiologybusiness.com/topics/healthcare-management/healthcare-policy/fda-denies-petition-exempt-certain-radiology-ai-devices-pre-market-review)
 
-**導覽：** [Home](../) · [Industry Watch](./)
+[Home](../) · [Industry Watch](./)
