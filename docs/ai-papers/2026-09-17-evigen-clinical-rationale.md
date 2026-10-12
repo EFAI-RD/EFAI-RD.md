@@ -123,7 +123,7 @@ EviGen 的 mortality accuracy 為 0.800，最高 baseline 是 Qwen3-32B RAG 的 
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？](2026-09-17-medicalbench-concept-extraction.md) 評估模型能否找回支撐醫療概念的句子，EviGen 則把預測性證據選取、帶引文理由與逐步驗證接成一條可稽核管線。
+該文評估模型能否找回支撐醫療概念的句子，EviGen 則把預測性證據選取、帶引文理由與逐步驗證接成一條可稽核管線: [MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？](2026-09-17-medicalbench-concept-extraction.md)
 
 ## 實務的啟發
 
