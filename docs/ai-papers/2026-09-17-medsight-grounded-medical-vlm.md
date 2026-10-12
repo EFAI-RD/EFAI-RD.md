@@ -151,11 +151,11 @@ MeCoVQA-G 的 4,142 與 4,126 不是兩個互斥版本：前者是原始 samples
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md) 把 grounding 標成報告／理解路線的後續分岔；本篇進一步要求診斷文字對回像素級分割。
+該文把 grounding 標成報告／理解路線的後續分岔；本篇進一步要求診斷文字對回像素級分割: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md)
 
-一句話敘述關係: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md) 是 MedSIGHT Table 2 的醫療 VLM baseline，可用來對照通用多模態問答與像素級 grounding 兩種訓練目標，但跨研究分數仍須依資料重疊與評分設定分開解讀。
+該文是 MedSIGHT Table 2 的醫療 VLM baseline，可用來對照通用多模態問答與像素級 grounding 兩種訓練目標，但跨研究分數仍須依資料重疊與評分設定分開解讀: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
 
-模型內生 grounding 與外部分割器輔助生成的對照: [CORAL：先找病灶、再說臨床概念，能讓醫療影像報告更可檢視嗎？](2026-09-17-coral-concept-grounded-report-generation.md) 以外部分割器提供 mask，再用概念瓶頸引導結構化報告，可與 MedSIGHT 的聯合文字及像素輸出比較。
+該文以外部分割器提供 mask，再用概念瓶頸引導結構化報告，與 MedSIGHT 的聯合文字及像素輸出形成「外部分割器輔助生成」與「模型內生 grounding」的對照: [CORAL：先找病灶、再說臨床概念，能讓醫療影像報告更可檢視嗎？](2026-09-17-coral-concept-grounded-report-generation.md)
 
 MedSIGHT 讓同一個模型同時輸出診斷文字與像素級分割，該研究則刻意不做跨模態融合，改由超像素層級的歸因單獨支撐文字端的依據: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
 

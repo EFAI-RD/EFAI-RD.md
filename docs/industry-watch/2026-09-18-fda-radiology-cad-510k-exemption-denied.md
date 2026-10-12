@@ -84,9 +84,9 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](./2026-09-15-fda-cardio-ml-notification.md) 同屬 FDA 對 AI／ML 醫材的監管動作；該則把 De Novo 結果編入 Class II 成文分類、為 510(k) 開 predicate 之門，本則顯示 FDA 不願把門再開大到免除 510(k) 本身。
+兩則同屬 FDA 對 AI／ML 醫材的監管動作；該則把 De Novo 結果編入 Class II 成文分類、為 510(k) 開 predicate 之門，本則顯示 FDA 不願把門再開大到免除 510(k) 本身: [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](./2026-09-15-fda-cardio-ml-notification.md)
 
-一句話敘述關係: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](./2026-09-17-fda-genai-devices-discussion-paper.md) 該則是徵求意見的討論文件，本則是具體請願的駁回定案；兩則對照可見 FDA「探索新框架」與「守住現行關卡」並行。
+該則是徵求意見的討論文件，本則是具體請願的駁回定案；兩則對照可見 FDA「探索新框架」與「守住現行關卡」並行: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](./2026-09-17-fda-genai-devices-discussion-paper.md)
 
 ## 實務的啟發
 

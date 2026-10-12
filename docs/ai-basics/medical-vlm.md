@@ -129,21 +129,21 @@ CLIP 展示：用大量圖文對，以對比學習把影像與自然語言拉進
 
 把譜系中的 CLIP 式圖文對齊從整卷影像下推到單一器官的 3D 實例，並附多中心真實世界與讀者研究證據: [RADAR：把腹部 CT 拆成 18 個器官再對齊報告，通才模型能到專家水準嗎？](../ai-papers/2026-09-21-radar-abdominal-ct-generalist.md)
 
-一句話敘述關係: [CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？](../ai-papers/2026-09-15-conch-pathology-vlm.md) 是本譜系「領域基礎模型」階段的病理實例與評估邊界筆記。
+該文是本譜系「領域基礎模型」階段的病理實例與評估邊界筆記: [CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？](../ai-papers/2026-09-15-conch-pathology-vlm.md)
 
-一句話敘述關係: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](../ai-papers/2026-09-15-maira-2-grounded-reporting.md) 對應「有定位報告」階段，示範如何把 grounding 與文字正確性分開看。
+該文對應「有定位報告」階段，示範如何把 grounding 與文字正確性分開看: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](../ai-papers/2026-09-15-maira-2-grounded-reporting.md)
 
-一句話敘述關係: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](../ai-papers/2026-09-15-lingshu-medical-vlm.md) 屬通才醫療 VLM 分岔，可對照本篇對齊→指令微調→領域專精的上游語言。
+該文屬通才醫療 VLM 分岔，可對照本篇對齊→指令微調→領域專精的上游語言: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](../ai-papers/2026-09-15-lingshu-medical-vlm.md)
 
-一句話敘述關係: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](../ai-papers/2026-09-16-medgemma-1-5.md) 提供另一條通才多模態基礎模型路線，與 Lingshu 同屬後續分岔而非 CLIP 替代品。
+該文提供另一條通才多模態基礎模型路線，與 Lingshu 同屬後續分岔而非 CLIP 替代品: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](../ai-papers/2026-09-16-medgemma-1-5.md)
 
-一句話敘述關係: [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](../ai-papers/2026-09-17-medsight-grounded-medical-vlm.md) 延伸 grounding 問題：不只報告生成，也要求診斷文字對回像素級區域。
+該文延伸 grounding 問題：不只報告生成，也要求診斷文字對回像素級區域: [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](../ai-papers/2026-09-17-medsight-grounded-medical-vlm.md)
 
-一句話敘述關係: [醫療 VLM 走了多遠？七套基準下的模型規模、領域微調與推理落差](../ai-papers/2026-09-15-medical-vlm-benchmark.md) 用基準地圖檢驗「模型宣稱的能力」與跨任務表現是否對得上。
+該文用基準地圖檢驗「模型宣稱的能力」與跨任務表現是否對得上: [醫療 VLM 走了多遠？七套基準下的模型規模、領域微調與推理落差](../ai-papers/2026-09-15-medical-vlm-benchmark.md)
 
-一句話敘述關係: [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](../ai-papers/2026-09-21-mllm-cystoscopy-bladder-triage.md) 提供譜系外的對照：不經醫療對齊的通用模型，靠指令與棄答層在單一任務上也能取得可用操作點。
+該文提供譜系外的對照：不經醫療對齊的通用模型，靠指令與棄答層在單一任務上也能取得可用操作點: [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](../ai-papers/2026-09-21-mllm-cystoscopy-bladder-triage.md)
 
-一句話敘述關係: [把一個病例壓成一張圖：WILSON 用 composite 取代數千個 tile，診斷資訊還剩多少？](../ai-papers/2026-09-24-wilson-composite-pathology-foundation-model.md) 提供譜系之外的變數：不改對齊目標，只改視覺輸入的組織方式，也會改變模型的能力與成本曲線。
+該文提供譜系之外的變數：不改對齊目標，只改視覺輸入的組織方式，也會改變模型的能力與成本曲線: [把一個病例壓成一張圖：WILSON 用 composite 取代數千個 tile，診斷資訊還剩多少？](../ai-papers/2026-09-24-wilson-composite-pathology-foundation-model.md)
 
 
 本譜系的通才醫療多模態路線走進公共衛生場域後，決定成敗的變項從對齊目標換成了下游的驗證能力: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)

@@ -90,15 +90,13 @@ FDA 在 2026 年 8 月就 generative AI（GenAI）-enabled medical devices 公�
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](./2026-09-15-fda-cardio-ml-notification.md) 同屬 CDRH 對 AI／ML 醫材的成文或準則脈絡；該則是已編入 21 CFR 的 Class II **最終命令**，本則是 GenAI 裝置的 **discussion paper／徵求意見**，尚未成為指引或規則。
+兩則同屬 CDRH 對 AI／ML 醫材的成文或準則脈絡；該則是已編入 21 CFR 的 Class II **最終命令**，本則是 GenAI 裝置的 **discussion paper／徵求意見**，尚未成為指引或規則: [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](./2026-09-15-fda-cardio-ml-notification.md)
 
-一句話敘述關係: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md) 說明多代理／工具編排概念；本則補上 FDA 對 agentic GenAI-enabled devices 是否需額外評估的官方徵求問題。
+該文說明多代理／工具編排概念；本則補上 FDA 對 agentic GenAI-enabled devices 是否需額外評估的官方徵求問題: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
-一句話敘述關係: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md) 從文獻地圖顯示 agentic／multi-agent 醫療研究成長快、trial-grade 證據相對稀少；本則對應監管端開始把 agentic 能力與 postmarket monitoring 寫進討論框架。
+該文從文獻地圖顯示 agentic／multi-agent 醫療研究成長快、trial-grade 證據相對稀少；本則對應監管端開始把 agentic 能力與 postmarket monitoring 寫進討論框架: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md)
 
-一句話敘述關係: [FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md) 本則徵求 GenAI 醫材監管意見、探索未來框架，該則則是 FDA 在具體請願上守住現行 510(k) 關卡的定案。
-
-一句話敘述關係: [FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md) 本則徵求 GenAI 醫材監管意見、探索未來框架，該則則是 FDA 在具體請願上守住現行 510(k) 關卡的定案。
+本則徵求 GenAI 醫材監管意見、探索未來框架，該則則是 FDA 在具體請願上守住現行 510(k) 關卡的定案: [FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
 
 ## 實務的啟發
 

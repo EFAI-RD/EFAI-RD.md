@@ -83,7 +83,7 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md) 討論 LLM 工具鏈與角色分工；本則補充預印本端對「未核對生成內容」的平台級後果。
+該文討論 LLM 工具鏈與角色分工；本則補充預印本端對「未核對生成內容」的平台級後果: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
 ## 實務的啟發
 

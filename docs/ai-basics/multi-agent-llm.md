@@ -108,19 +108,19 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](../ai-papers/2026-09-17-agentrx-multimodal-clinical-prediction.md) 把角色分工落到 ICU 四模態風險預測，顯示多數決、辯論與 meta-prompting 若只交換壓縮後判斷，未必比單一代理整合完整上下文更可靠。
+該文把角色分工落到 ICU 四模態風險預測，顯示多數決、辯論與 meta-prompting 若只交換壓縮後判斷，未必比單一代理整合完整上下文更可靠: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](../ai-papers/2026-09-17-agentrx-multimodal-clinical-prediction.md)
 
-一句話敘述關係: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md) 從 PubMed evidence map 補上治理視角：agentic／multi-agent 醫療研究成長最快，但 capability、safety 與 trial-grade evaluation 仍常落在分離的文獻群。
+該文從 PubMed evidence map 補上治理視角：agentic／multi-agent 醫療研究成長最快，但 capability、safety 與 trial-grade evaluation 仍常落在分離的文獻群: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md)
 
-一句話敘述關係: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](../ai-papers/2026-09-15-tracing-the-heart.md) 是多代理「專責＋有界稽核」在心衰竭 EHR 特徵工程上的實例。
+該文是多代理「專責＋有界稽核」在心衰竭 EHR 特徵工程上的實例: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](../ai-papers/2026-09-15-tracing-the-heart.md)
 
-一句話敘述關係: [CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？](../ai-papers/2026-09-16-careconnect-healthcare-agent.md) 以單一 LLM router、確定性安全閘門與結構化工具，提供「代理不一定是多代理」的醫療行政對照案例。
+該文以單一 LLM router、確定性安全閘門與結構化工具，提供「代理不一定是多代理」的醫療行政對照案例: [CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？](../ai-papers/2026-09-16-careconnect-healthcare-agent.md)
 
-一句話敘述關係: [arXiv 收緊 AI 生成內容政策：幻覺引用等可致一年禁投](../industry-watch/2026-09-15-arxiv-ai-content-policy.md) 從預印本平台端說明未核對 LLM 生成內容（含幻覺引用）的投稿後果。
+該則從預印本平台端說明未核對 LLM 生成內容（含幻覺引用）的投稿後果: [arXiv 收緊 AI 生成內容政策：幻覺引用等可致一年禁投](../industry-watch/2026-09-15-arxiv-ai-content-policy.md)
 
-一句話敘述關係: [AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持](../industry-watch/2026-09-15-amodei-pace-the-frontier.md) 記錄多代理群體失控的真實事件（OpenAI–Hugging Face）如何促成產業層級的調速倡議。
+該則記錄多代理群體失控的真實事件（OpenAI–Hugging Face）如何促成產業層級的調速倡議: [AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持](../industry-watch/2026-09-15-amodei-pace-the-frontier.md)
 
-一句話敘述關係: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md) 從監管端點名 agentic GenAI 賦能裝置的額外評估考量；本篇則說明多代理／工具編排的概念基礎。
+該則從監管端點名 agentic GenAI 賦能裝置的額外評估考量；本篇則說明多代理／工具編排的概念基礎: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md)
 
 ## 實務的啟發
 

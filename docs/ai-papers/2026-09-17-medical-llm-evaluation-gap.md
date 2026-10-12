@@ -152,17 +152,17 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 ## 與書庫其他文章的關係
 
-一句話敘述關係: [PrecepTron：把醫師評分學成 LLM 評審，能讓醫療 AI 評估更可重現嗎？](2026-09-17-preceptron-clinical-ai-evaluation.md) 把本文指出的評估設計缺口具體化為 physician-calibrated judge；它能提高同一量表下的評分可重現性，但不解決模型新鮮度、臨床效益或跨 panel 外推。
+該文把本文指出的評估設計缺口具體化為 physician-calibrated judge；它能提高同一量表下的評分可重現性，但不解決模型新鮮度、臨床效益或跨 panel 外推: [PrecepTron：把醫師評分學成 LLM 評審，能讓醫療 AI 評估更可重現嗎？](2026-09-17-preceptron-clinical-ai-evaluation.md)
 
-一句話敘述關係: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](2026-09-17-agentrx-multimodal-clinical-prediction.md) 提供單中心 retrospective benchmark 的具體案例；本篇則顯示 agentic／multi-agent 醫療文獻雖成長最快，trial-grade evidence 的相對供給仍低。
+該文提供單中心 retrospective benchmark 的具體案例；本篇則顯示 agentic／multi-agent 醫療文獻雖成長最快，trial-grade evidence 的相對供給仍低: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](2026-09-17-agentrx-multimodal-clinical-prediction.md)
 
-一句話敘述關係: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md) 解釋角色分工與協作機制；本篇補上研究治理視角，提醒 capability、safety 與 prospective evaluation 經常分屬不同文獻群。
+該文解釋角色分工與協作機制；本篇補上研究治理視角，提醒 capability、safety 與 prospective evaluation 經常分屬不同文獻群: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
-一句話敘述關係: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md) 對應監管端把代理式 GenAI 賦能裝置與上市後監測寫進討論框架；本篇則顯示 agentic／multi-agent 醫療文獻成長快、trial-grade 證據相對稀少。
+該則對應監管端把代理式 GenAI 賦能裝置與上市後監測寫進討論框架；本篇則顯示 agentic／multi-agent 醫療文獻成長快、trial-grade 證據相對稀少: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md)
 
-一句話敘述關係: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md) 把評估落差縮到指標層級——自動指標彼此高度相關，卻不必然指向同一個臨床事實。
+該文把評估落差縮到指標層級——自動指標彼此高度相關，卻不必然指向同一個臨床事實: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
 
-一句話敘述關係: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md) 提供一個臨床相關性被整體分數蓋住的具體案例——accuracy 0.8369 的同一組設定，最不能漏的 new 類 recall 只有 0.5385。
+該文提供一個臨床相關性被整體分數蓋住的具體案例——accuracy 0.8369 的同一組設定，最不能漏的 new 類 recall 只有 0.5385: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md)
 
 該研究在錯誤來源這一項補上本文所指的臨床條件——用的是放射科醫師真的改過的 1,551 個錯誤而非人工植入，但仍是單中心回溯設計: [中文放射科報告的真實錯誤：八個 LLM 與八位人類讀者，誰抓得出來？](2026-09-22-llm-chinese-radiology-report-error-detection.md)
 
