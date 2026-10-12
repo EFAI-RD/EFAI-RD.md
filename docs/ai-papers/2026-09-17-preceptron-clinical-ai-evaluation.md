@@ -135,6 +135,8 @@ LoRA 套在 Qwen3-32B 每個 transformer block 的 query、key、value、output�
 
 一句話敘述關係: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md) 從文獻層級指出評估設計與模型新鮮度的落差；本篇則在單一研究內展示如何用醫師校準 judge 提高評分可重現性，同時保留 panel bias 與臨床效益未驗證的邊界。
 
+PrecepTron 學醫師怎麼評，EntQA 則刻意不用評審與參考答案、只數回答保留了多少題目實體，而且它的驗證同樣缺少醫師判斷這一層: [答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md)
+
 ## 實務的啟發
 
 1. **先固定量表，再選 judge。** 量表、模型版本、prompt、校準資料、judge–physician 一致度與 physician–physician 一致度應同時寫進方法；只報「用了某個強模型評分」不足以重現。[(ref: main Box 1)](https://arxiv.org/pdf/2609.12822v1#page=31)

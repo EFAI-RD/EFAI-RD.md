@@ -174,6 +174,8 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 該研究提出在輸出之外讀取模型內部概念活化的評估面向，但其醫師驗證僅 2 位評分者、38 案，屬於本文所說評估設計需要再補強的一例: [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
 
+該研究提出一個新的醫療問答指標，但驗證只對選擇題準確率與模型規模做相關、沒有人工判斷參照，正是本文所說評估設計需要補強的一例: [答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md)
+
 ## 實務的啟發
 
 1. **把模型當可替換元件。** protocol 可以預先定義替換條件、版本鎖定點與等效性檢查，避免一個停止更新的 model endpoint 把整個臨床問題一起凍結。

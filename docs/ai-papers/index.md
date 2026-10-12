@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-11 | [答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md) | Clare | PLOS Digit Health 5(10):e0001752；BioEN NER＋Linq-embed-mistral 比對的無參考實體覆蓋率，七個 Qwen 2.5 模型（0.5B–72B）× 五個醫療選擇題庫，與 BLEU／ROUGE／METEOR／BERTScore 對照；無人工評分 |
 | 2026-10-07 | [把病灶從乳房攝影上抹掉，VLM 會改口說「無法判斷」嗎？CARE-MVLM 用反事實三聯組訓練棄答與證據框](2026-10-07-care-mvlm-mammography-counterfactual-abstention.md) | Clare | medRxiv DOI 10.64898/2026.09.23.26363835（v1 預印本）；凍結 Qwen2.5-VL-7B-Instruct＋答案頭／證據框 LoRA／棄答 selector，CBIS-DDSM／MIAS／VinDr-Mammo 7,358 個原始／random removal／target removal 三聯組，與同骨幹基線、GPT-5.6、Gemini-3.5-flash 比較 |
 | 2026-10-07 | [影像上多一行字，VLM 就改口說「沒有異常」：四個模型在牙科全景片上的 prompt injection 攻防評估](2026-10-07-dental-vlm-image-prompt-injection.md) | Clare | Sci Rep 16:30690；DenTeX 270 張全景片 × 4 類影像內嵌攻擊 × 2 種 payload，GPT-4o／Gemini 2.5 Flash／Claude Sonnet 4.5／MedGemma 4B 共 58,320 次推論，ROI crop、spotlighting、OCR sanitize、ProvDent 四種防禦 |
 | 2026-10-07 | [病歷不出院，只放出一個打分器：LLM 代理靠它找血球計數生物標記，外部驗證只在部分世代站得住](2026-10-07-gat-scorer-cbc-biomarker-agent.md) | Clare | arXiv:2610.04749v1；Clalit 5,437,870 人病歷蒸餾成 13 個免疫疾病的 GAT 打分器（只釋出權重），LLM 代理搜尋與三個前沿工具重排序，MIMIC-IV／EHRShot／NHANES 外部驗證與隨機打分對照 |
