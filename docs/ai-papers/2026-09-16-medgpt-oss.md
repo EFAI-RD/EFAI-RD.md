@@ -62,6 +62,8 @@ Mid-training 加入 MIMIC-CXR、MedTrinity 開放子集與 PubMedVision Alignmen
 | Mid-training | MIMIC-CXR、MedTrinity 開放子集、PubMedVision Alignment | 約 19M samples | 全參數 |
 | Instruction tuning | 醫療 VQA、病理 VQA、醫療／一般文字指令、推理資料 | 約 7M pairs | 全參數 |
 
+原文對視覺編碼器何時可訓練有兩種說法：§3.2 寫預訓練階段「保持視覺編碼器與投影模組可訓練」、mid-training 階段「放寬所有架構限制，對視覺編碼器、投影模組與 LLM 做全參數更新」；但 Table 2 的 Vision encoder 欄寫的是 `Frozen in stage 0–1; jointly trained in stage 2`，即前兩階段凍結、只有第三階段共同訓練。兩者不相容。上表採 §3.2 的敘述，本文不自行判斷何者為準。[(ref: main §3.2)](https://arxiv.org/html/2603.00842v1#S3.SS2) [(ref: main Table 2)](https://arxiv.org/html/2603.00842v1#S3.T2)
+
 評估涵蓋六組 VQA 設定、六組文字問答、MIMIC-CXR 多視角／縱向報告生成，以及 patient–trial matching 與胸片 impression generation 的 0-shot／1-shot 測試。除 SLAKE 與標準文字資料集外，作者把多個新任務標成 out-of-distribution；其中 Impression 任務刻意排除於訓練資料。[(ref: main Table 3)](https://arxiv.org/html/2603.00842v1#S4.T3) [(ref: main §4.1)](https://arxiv.org/html/2603.00842v1#S4.SS1)
 
 下表完整重製論文 Table 4；所有數值都是 accuracy（%）。粗體僅標示該列最高值。Lingshu 曾使用 MMMU-Med dev 訓練，因此該列不是完全獨立的外部測試。[(ref: main Table 4)](https://arxiv.org/html/2603.00842v1#S4.T4)
@@ -90,7 +92,7 @@ Mid-training 加入 MIMIC-CXR、MedTrinity 開放子集與 PubMedVision Alignmen
 
 在多模態選擇題中，MedGPT-oss 於 MedXQA、MedFrameQA 與 MMMU-Med dev 取得表中最高 accuracy；但 SLAKE、MMMU-Med-Pro 4-option 與 10-option 皆由 Lingshu 較高。最突出的差距出現在 MedXQA：49.23%，相較次高 Hulu-Med 的 34.35% 高 14.88 個百分點。[(ref: main Table 4)](https://arxiv.org/html/2603.00842v1#S4.T4)
 
-文字問答並非全面領先。MedGPT-oss 在 MedXQA text（25.38%）與 Medbullets（68.71%）為表中最高；但在 MMLU-Med 為 72.59%，低於 Hulu-Med 的 87.10%、Lingshu 的 82.68% 與 MedGemma 的 80.65%。這組結果較適合解讀成任務間能力分布不同，而不是單一總排名。[(ref: main Table 5)](https://arxiv.org/html/2603.00842v1#S4.T5)
+文字問答並非全面領先。MedGPT-oss 在 MedXQA text（25.38%）與 Medbullets（68.71%）為表中最高；但在 MMLU-Med 為 72.59%，低於 Hulu-Med 的 87.10%、Lingshu 的 82.68%、MedGemma 的 80.65% 與 QoQ-Med 的 74.98%，在六個模型中排倒數第二。這組結果較適合解讀成任務間能力分布不同，而不是單一總排名。[(ref: main Table 5)](https://arxiv.org/html/2603.00842v1#S4.T5)
 
 MIMIC-CXR 多視角與縱向報告生成中，MedGPT-oss 的 RadGraph-F1、RaTEScore 與 1/RadCliQ-v1 分別為 0.189、0.522 與 0.803，三項都位於兩個 32B 模型之後。這支持它能生成具一定臨床實體一致性的報告，但自動指標不能直接等同於放射科醫師判讀或臨床可用性。[(ref: main report results)](https://arxiv.org/html/2603.00842v1#S4.SS4.SSS0.Px3)
 
