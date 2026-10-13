@@ -22,6 +22,8 @@ related_articles:
     relation: "同為大廠自報成果的發布敘事，兩則可對照標題句的涵蓋範圍與可核對數字之間的距離"
   - path: "../ai-basics/medical-vlm.md"
     relation: "概念文整理醫療視覺語言模型的技術譜系，本則是同一譜系走進公共衛生場域後的落地盤點"
+  - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
+    relation: "同一種閱讀問題的另一種形狀：標題句的涵蓋範圍大於同一頁的限定，兩則可對照標題與註腳並排閱讀的方法"
 refs:
   blog:
     title: "Google：MedGemma is helping global healthcare providers deliver better care（官方公告）"
@@ -109,6 +111,8 @@ Google 這篇公告把 MedGemma 的全球使用寫成現在進行式：標題是
 同為大廠自報成果的發布敘事：該則的落差在標題句只涵蓋四項評測中的三項，本則的落差在標題用現在進行式概括了四個尚未完成的案例，兩則可對照同一種閱讀方法: [OpenAI 發布 GPT-6.1 Sol：五分之一價格逼近 Astra，但科學研究那一欄仍由 Astra 領先](2026-10-07-openai-gpt-6-1-sol-launch.md)
 
 概念文整理醫療視覺語言模型從 CLIP 對齊到有定位報告的技術譜系，本則補上譜系末端的另一個維度：同一條技術路線進入公共衛生場域後，決定成敗的變項從對齊目標換成了下游驗證能力: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md)
+
+同一種閱讀問題的另一種形狀：本則的標題用現在進行式概括了四個尚未完成的案例，該則的標題宣告未來已到來而同頁註腳寫著 510(k) 審查中、尚未在任何市場銷售，兩則都適合用「把標題句與同一頁的限定並排讀」這個方法處理: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
 ## 實務的啟發
 

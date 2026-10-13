@@ -19,6 +19,8 @@ related_articles:
     relation: "same FDA AI/ML SaMD regulatory track; Class II codification vs 510(k) exemption denial"
   - path: "./2026-09-17-fda-genai-devices-discussion-paper.md"
     relation: "FDA exploring future AI device framework while holding the current 510(k) line"
+  - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
+    relation: "本則確認 510(k) 這道關卡未被放寬，該則是一個仍在審查中卻已對外發表的放射治療系統，可對照發表時點與可用時點的距離"
 refs:
   fr_order:
     title: "Federal Register final order 2026-19074 (91 FR 58817)"
@@ -87,6 +89,8 @@ evidence_reviewed: true
 兩則同屬 FDA 對 AI／ML 醫材的監管動作；該則把 De Novo 結果編入 Class II 成文分類、為 510(k) 開 predicate 之門，本則顯示 FDA 不願把門再開大到免除 510(k) 本身: [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](./2026-09-15-fda-cardio-ml-notification.md)
 
 該則是徵求意見的討論文件，本則是具體請願的駁回定案；兩則對照可見 FDA「探索新框架」與「守住現行關卡」並行: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](./2026-09-17-fda-genai-devices-discussion-paper.md)
+
+本則確認既有 clearance 不會自動延伸到後續產品、510(k) 這道關卡並未放寬，該則則是一個仍在 510(k) 審查中、卻已用「未來已到來」對外發表的放射治療系統，兩則合看可以看出「發表時點」與「可用時點」之間的制度性距離: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
 ## 實務的啟發
 
