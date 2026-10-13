@@ -174,6 +174,8 @@ RADAR 的跨族群評估把 Lingshu 列為未微調的比較對象（in-scope 21
 
 兩份研究的評分流程可分別核對 Lingshu 的 MedEvalKit 與基準研究的固定提示及方框答案擷取。[(ref: main §4.2)](https://arxiv.org/html/2506.07044v4#S4.SS2) [(ref: benchmark §2.3)](https://arxiv.org/html/2507.11200v2#S2.SS3)
 
+CASE 把 Lingshu-32B 與 7B 放進需要自己調閱影像與量測的縱向 MRI 任務，兩者在相同工具條件下的 Micro 準確率為 49.9% 與 45.5%，低於多數通用前沿模型: [不把影像餵給模型，讓它自己去調：CASE 在 UK Biobank 縱向 MRI 上訓練 8B 證據蒐集代理，問題是標籤不一定看得見](2026-10-13-case-longitudinal-mri-evidence-agent.md)
+
 ## 實務的啟發
 
 以下是本書庫依上述結果提出的工程建議：
