@@ -110,6 +110,8 @@ Google 這篇公告把 MedGemma 的全球使用寫成現在進行式：標題是
 
 概念文整理醫療視覺語言模型從 CLIP 對齊到有定位報告的技術譜系，本則補上譜系末端的另一個維度：同一條技術路線進入公共衛生場域後，決定成敗的變項從對齊目標換成了下游驗證能力: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md)
 
+同為大廠公告的逐項核對，兩則的落差出現在同一個位置：本則的標題用現在進行式概括了四個尚未完成的案例，該則的副標題以 `pan-cancer` 概括了兩項只涵蓋胃食道癌與胰臟管腺癌的註冊試驗: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+
 ## 實務的啟發
 
 1. **讀落地公告先把動詞抄下來。** `is using ... to build`、`hopes to`、`are piloting`、`is developing`、`has been used to` 是五種不同的成熟度。把每個案例的動詞列成一欄，公告的真實進度就會自己浮出來。
