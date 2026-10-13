@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-13 | [臨床人員實際拿 LLM 做什麼？12.8 萬筆提問對照 58 個公開基準：文件工作占最多、診斷只占 3.7%，基準的題目組成對不上](2026-10-13-clinician-llm-use-vs-benchmarks.md) | Clare | arXiv:2610.11069v1；NYU Langone 院內 LLM 助理 8 個月 127,833 則對話（6,342 位臨床人員）以 RCQ-Map＋GPT-5.6 sol 標註任務、潛在傷害與可回答程度，100 筆臨床人員盲評驗證，對照 58 個公開醫療基準的任務組成；未評估助理回答 |
 | 2026-10-11 | [答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md) | Clare | PLOS Digit Health 5(10):e0001752；BioEN NER＋Linq-embed-mistral 比對的無參考實體覆蓋率，七個 Qwen 2.5 模型（0.5B–72B）× 五個醫療選擇題庫，與 BLEU／ROUGE／METEOR／BERTScore 對照；無人工評分 |
 | 2026-10-07 | [把病灶從乳房攝影上抹掉，VLM 會改口說「無法判斷」嗎？CARE-MVLM 用反事實三聯組訓練棄答與證據框](2026-10-07-care-mvlm-mammography-counterfactual-abstention.md) | Clare | medRxiv DOI 10.64898/2026.09.23.26363835（v1 預印本）；凍結 Qwen2.5-VL-7B-Instruct＋答案頭／證據框 LoRA／棄答 selector，CBIS-DDSM／MIAS／VinDr-Mammo 7,358 個原始／random removal／target removal 三聯組，與同骨幹基線、GPT-5.6、Gemini-3.5-flash 比較 |
 | 2026-10-07 | [影像上多一行字，VLM 就改口說「沒有異常」：四個模型在牙科全景片上的 prompt injection 攻防評估](2026-10-07-dental-vlm-image-prompt-injection.md) | Clare | Sci Rep 16:30690；DenTeX 270 張全景片 × 4 類影像內嵌攻擊 × 2 種 payload，GPT-4o／Gemini 2.5 Flash／Claude Sonnet 4.5／MedGemma 4B 共 58,320 次推論，ROI crop、spotlighting、OCR sanitize、ProvDent 四種防禦 |

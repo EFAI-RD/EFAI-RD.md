@@ -137,6 +137,8 @@ LoRA 套在 Qwen3-32B 每個 transformer block 的 query、key、value、output�
 
 PrecepTron 學醫師怎麼評，EntQA 則刻意不用評審與參考答案、只數回答保留了多少題目實體，而且它的驗證同樣缺少醫師判斷這一層: [答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md)
 
+PrecepTron 解決的是怎麼評一個回答，該研究則問該拿哪些題目來評，並估計超過三分之一的真實臨床提問照原樣就答不好，單看正確性的評分抓不到這一層: [臨床人員實際拿 LLM 做什麼？12.8 萬筆提問對照 58 個公開基準：文件工作占最多、診斷只占 3.7%，基準的題目組成對不上](2026-10-13-clinician-llm-use-vs-benchmarks.md)
+
 ## 實務的啟發
 
 1. **先固定量表，再選 judge。** 量表、模型版本、prompt、校準資料、judge–physician 一致度與 physician–physician 一致度應同時寫進方法；只報「用了某個強模型評分」不足以重現。[(ref: main Box 1)](https://arxiv.org/pdf/2609.12822v1#page=31)
