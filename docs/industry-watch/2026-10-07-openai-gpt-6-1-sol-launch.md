@@ -126,6 +126,7 @@ OpenAI 發布 GPT-6.1 Sol，把「接近旗艦的能力」與「五分之一的�
 
 同為大廠自報成果的發布敘事：本則的落差在標題句只涵蓋四項評測中的三項，該則的落差在標題用現在進行式概括了四個尚未完成的案例，兩則屬同一種閱讀問題: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量](2026-10-08-medgemma-global-deployment-claims.md)
 
+兩則都以相對數字呈現成果：本則的五組評測除一個絕對分數外只公布百分點差距與成本倍數，該則只公布「低雙位數成長」與非 GAAP 指標的增益方向而未揭露被收購方的營收，外部同樣無法判斷基準線落在哪裡: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 兩則都缺少可用的比較基準，但缺法相反：本則只公布相對倍數與百分點差距而不給絕對分數，該則給了絕對規格卻沒有任何對照機型，外部因此同樣無法設定驗收門檻: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
 ## 實務的啟發
