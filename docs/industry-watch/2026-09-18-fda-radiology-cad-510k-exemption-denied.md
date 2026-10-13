@@ -19,6 +19,8 @@ related_articles:
     relation: "same FDA AI/ML SaMD regulatory track; Class II codification vs 510(k) exemption denial"
   - path: "./2026-09-17-fda-genai-devices-discussion-paper.md"
     relation: "FDA exploring future AI device framework while holding the current 510(k) line"
+  - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
+    relation: "本則確認 510(k) 這道關卡未被放寬，該則是一個仍在審查中卻已對外發表的放射治療系統，可對照發表時點與可用時點的距離"
 refs:
   fr_order:
     title: "Federal Register final order 2026-19074 (91 FR 58817)"
@@ -89,6 +91,7 @@ evidence_reviewed: true
 該則是徵求意見的討論文件，本則是具體請願的駁回定案；兩則對照可見 FDA「探索新框架」與「守住現行關卡」並行: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](./2026-09-17-fda-genai-devices-discussion-paper.md)
 
 影像產品能不能到病人身上，同時卡在法規與供應鏈兩道關卡：本則處理前者（美國主管機關對放射科影像產品上市路徑的最終命令），該則處理後者（PET 放射性藥物的半衰期、運送半徑與代工網絡），兩則合看才是完整的可及性圖像: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](./2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+本則確認既有 clearance 不會自動延伸到後續產品、510(k) 這道關卡並未放寬，該則則是一個仍在 510(k) 審查中、卻已用「未來已到來」對外發表的放射治療系統，兩則合看可以看出「發表時點」與「可用時點」之間的制度性距離: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
 ## 實務的啟發
 
