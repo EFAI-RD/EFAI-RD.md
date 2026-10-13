@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-13 | [說是專科醫師的意見，LLM 就跟著改診斷？五個模型在 200 個口腔顎顏面放射情境下的 sycophancy 測試](2026-10-13-llm-sycophancy-oral-maxillofacial-radiology.md) | Clare | Diagnostics 16(20):3296；100 影像題＋100 文字題（土耳其文）× neutral／misleading／authoritative 三種提示 × ChatGPT-5.3、Gemini 3、Grok 4、Claude Sonnet 4.6、DeepSeek V3.2 網頁版共 3,000 筆回應，GEE 分析準確率、sycophancy 子類與自評信心校準；教學情境、非真實病例 |
 | 2026-10-13 | [臨床人員實際拿 LLM 做什麼？12.8 萬筆提問對照 58 個公開基準：文件工作占最多、診斷只占 3.7%，基準的題目組成對不上](2026-10-13-clinician-llm-use-vs-benchmarks.md) | Clare | arXiv:2610.11069v1；NYU Langone 院內 LLM 助理 8 個月 127,833 則對話（6,342 位臨床人員）以 RCQ-Map＋GPT-5.6 sol 標註任務、潛在傷害與可回答程度，100 筆臨床人員盲評驗證，對照 58 個公開醫療基準的任務組成；未評估助理回答 |
 | 2026-10-11 | [答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md) | Clare | PLOS Digit Health 5(10):e0001752；BioEN NER＋Linq-embed-mistral 比對的無參考實體覆蓋率，七個 Qwen 2.5 模型（0.5B–72B）× 五個醫療選擇題庫，與 BLEU／ROUGE／METEOR／BERTScore 對照；無人工評分 |
 | 2026-10-07 | [把病灶從乳房攝影上抹掉，VLM 會改口說「無法判斷」嗎？CARE-MVLM 用反事實三聯組訓練棄答與證據框](2026-10-07-care-mvlm-mammography-counterfactual-abstention.md) | Clare | medRxiv DOI 10.64898/2026.09.23.26363835（v1 預印本）；凍結 Qwen2.5-VL-7B-Instruct＋答案頭／證據框 LoRA／棄答 selector，CBIS-DDSM／MIAS／VinDr-Mammo 7,358 個原始／random removal／target removal 三聯組，與同骨幹基線、GPT-5.6、Gemini-3.5-flash 比較 |
