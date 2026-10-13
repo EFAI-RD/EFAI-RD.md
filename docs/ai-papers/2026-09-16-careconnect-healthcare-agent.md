@@ -76,15 +76,15 @@ CareConnect 有三層。第一層是英文與阿拉伯文的規則式 intent cla
 | Edge Case Handling | 110 | 100/110 | 90.9% |
 | **Overall** | **680** | **624/680** | **91.8%** |
 
-論文也把單次掛號對話的估算成本拆成 Table II。價格基準是作者採用的 GPT-4o 輸入每百萬 tokens 2.50 美元、輸出 10.00 美元；它是特定時間與假設下的成本模型，不是帳單實測或真實醫院總持有成本。[(ref: main Table II)](https://arxiv.org/html/2607.05055v1#S5.T2)
+論文也把單次掛號對話的估算成本拆成 Table II。價格基準是作者採用的 GPT-4o 輸入每百萬 tokens 2.50 美元、輸出 10.00 美元；它是特定時間與假設下的成本模型，不是帳單實測或真實醫院總持有成本。小數位數照原表保留（原表 `$0.0020`、`$0.008`、`$0.002` 並存）。[(ref: main Table II)](https://arxiv.org/html/2607.05055v1#S5.T2)
 
 | 成本項目 | 作者估算（USD／次掛號） |
 |---|---:|
 | GPT-4o input（800 tokens） | $0.0020 |
 | GPT-4o output（2,000 tokens） | $0.0200 |
-| ChromaDB vector search | $0.0080 |
+| ChromaDB vector search | $0.008 |
 | SendGrid Email | $0.0004 |
-| 攤提基礎設施 | $0.0020 |
+| 攤提基礎設施 | $0.002 |
 | **合計** | **$0.0324** |
 
 ## 結果
