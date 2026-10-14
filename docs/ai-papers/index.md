@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-14 | [把喉咽 CT 拆成七個器官節點，再讓放射報告逐器官補證據：喉咽癌 T 分期多模態模型在三個外部中心的表現](2026-10-14-laryngopharyngeal-ct-report-t-staging.md) | Clare | arXiv:2610.06837v1；四中心 656 位喉咽癌病人（FUZH 439 人 5-fold 交叉驗證、CGMH／EENT／TCGA 外部 217 人），CT＋放射報告的器官圖多模態模型（Continual Segment 器官節點、BioBERT 逐器官 cross-attention、Claude 3.5 Haiku 抽取侵犯器官），對照 8 個影像／多模態方法與 2 位放射科醫師（80 例）；病理 T 分期為標準，TCGA 報告為本研究另寫 |
 | 2026-10-13 | [不把影像餵給模型，讓它自己去調：CASE 在 UK Biobank 縱向 MRI 上訓練 8B 證據蒐集代理，問題是標籤不一定看得見](2026-10-13-case-longitudinal-mri-evidence-agent.md) | Clare | arXiv:2609.39566v1；UK Biobank 4,739 人前後兩次 MRI、50,401 題（保留集 455 人 4,850 題），Qwen3-VL-8B 以 RSFT＋GRPO／RLAIF／OPSD 後訓練成三角色共用的證據蒐集代理，同工具條件下對照 12 個模型；答案取自診斷與 ICD-10 紀錄，無臨床人員審核 |
 | 2026-10-13 | [說是專科醫師的意見，LLM 就跟著改診斷？五個模型在 200 個口腔顎顏面放射情境下的 sycophancy 測試](2026-10-13-llm-sycophancy-oral-maxillofacial-radiology.md) | Clare | Diagnostics 16(20):3296；100 影像題＋100 文字題（土耳其文）× neutral／misleading／authoritative 三種提示 × ChatGPT-5.3、Gemini 3、Grok 4、Claude Sonnet 4.6、DeepSeek V3.2 網頁版共 3,000 筆回應，GEE 分析準確率、sycophancy 子類與自評信心校準；教學情境、非真實病例 |
 | 2026-10-13 | [臨床人員實際拿 LLM 做什麼？12.8 萬筆提問對照 58 個公開基準：文件工作占最多、診斷只占 3.7%，基準的題目組成對不上](2026-10-13-clinician-llm-use-vs-benchmarks.md) | Clare | arXiv:2610.11069v1；NYU Langone 院內 LLM 助理 8 個月 127,833 則對話（6,342 位臨床人員）以 RCQ-Map＋GPT-5.6 sol 標註任務、潛在傷害與可回答程度，100 筆臨床人員盲評驗證，對照 58 個公開醫療基準的任務組成；未評估助理回答 |
