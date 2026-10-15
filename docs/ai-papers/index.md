@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-15 | [三個 LLM 都同意才自動貼標：6,718 份腦 MRI 報告分正常／異常，參考集零錯誤的代價是約一半報告退回人工](2026-10-15-llm-consensus-brain-mri-report-cohort.md) | Clare | medRxiv DOI 10.64898/2026.10.06.26364312（v1 預印本）；NYU Langone 6,718 份腦 MRI 報告（5,856 人），Qwen3-32B、Kimi-Linear-48B-A3B 搭配 GPT-5 或 DeepSeek-R1-Distill-Qwen-32B 的三模型一致規則分 normal／WMH-only／abnormal，680 份專家參考集對照單一 LLM、majority voting 與 ICD-10；只依報告文字 |
 | 2026-10-14 | [把喉咽 CT 拆成七個器官節點，再讓放射報告逐器官補證據：喉咽癌 T 分期多模態模型在三個外部中心的表現](2026-10-14-laryngopharyngeal-ct-report-t-staging.md) | Clare | arXiv:2610.06837v1；四中心 656 位喉咽癌病人（FUZH 439 人 5-fold 交叉驗證、CGMH／EENT／TCGA 外部 217 人），CT＋放射報告的器官圖多模態模型（Continual Segment 器官節點、BioBERT 逐器官 cross-attention、Claude 3.5 Haiku 抽取侵犯器官），對照 8 個影像／多模態方法與 2 位放射科醫師（80 例）；病理 T 分期為標準，TCGA 報告為本研究另寫 |
 | 2026-10-13 | [不把影像餵給模型，讓它自己去調：CASE 在 UK Biobank 縱向 MRI 上訓練 8B 證據蒐集代理，問題是標籤不一定看得見](2026-10-13-case-longitudinal-mri-evidence-agent.md) | Clare | arXiv:2609.39566v1；UK Biobank 4,739 人前後兩次 MRI、50,401 題（保留集 455 人 4,850 題），Qwen3-VL-8B 以 RSFT＋GRPO／RLAIF／OPSD 後訓練成三角色共用的證據蒐集代理，同工具條件下對照 12 個模型；答案取自診斷與 ICD-10 紀錄，無臨床人員審核 |
 | 2026-10-13 | [說是專科醫師的意見，LLM 就跟著改診斷？五個模型在 200 個口腔顎顏面放射情境下的 sycophancy 測試](2026-10-13-llm-sycophancy-oral-maxillofacial-radiology.md) | Clare | Diagnostics 16(20):3296；100 影像題＋100 文字題（土耳其文）× neutral／misleading／authoritative 三種提示 × ChatGPT-5.3、Gemini 3、Grok 4、Claude Sonnet 4.6、DeepSeek V3.2 網頁版共 3,000 筆回應，GEE 分析準確率、sycophancy 子類與自評信心校準；教學情境、非真實病例 |
