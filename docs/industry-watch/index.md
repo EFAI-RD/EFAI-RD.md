@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-15 | [GE HealthCare 探索放射治療生成式 AI：公告裡唯一的成效數字屬於合作之前的既有軟體，而被引來證明「流程高度分歧」的那篇研究，同一句話寫著前四種路徑涵蓋約八成病例](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md) | Clarence | 2026-09-23 官方新聞稿；生成式 AI 部分無任何數字 |
 | 2026-10-14 | [Siemens Healthineers 即日停售四款一般影像超音波系統：標題寫的是「聚焦」，公告未給被退出業務的任何數字，售後支援也沒有結束日期](2026-10-14-siemens-ultrasound-general-imaging-exit.md) | Clarence | 2026-10-12 官方公告；公告日即停售日，未給被退出業務的任何數字 |
 | 2026-10-13 | [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md) | Clarence | 2026-10-05 官方新聞稿；交易預計 2027 上半年完成 |
 | 2026-10-13 | [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md) | Clarence | 2026-09-27 ASTRO 2026 發表；九個數值全為上下限 |

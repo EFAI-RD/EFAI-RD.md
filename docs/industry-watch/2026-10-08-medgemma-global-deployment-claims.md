@@ -115,6 +115,9 @@ Google 這篇公告把 MedGemma 的全球使用寫成現在進行式：標題是
 同為大廠公告的逐項核對，兩則的落差出現在同一個位置：本則的標題用現在進行式概括了四個尚未完成的案例，該則的副標題以 `pan-cancer` 概括了兩項只涵蓋胃食道癌與胰臟管腺癌的註冊試驗: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 同一種閱讀問題的另一種形狀：本則的標題用現在進行式概括了四個尚未完成的案例，該則的標題宣告未來已到來而同頁註腳寫著 510(k) 審查中、尚未在任何市場銷售，兩則都適合用「把標題句與同一頁的限定並排讀」這個方法處理: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
+
+兩則都是標題的效益語氣涵蓋範圍大於內文可核對的數字，差別在於程度：本則五個合作案至少各有一個可指認的進行階段與一個報出的篩檢量，該則的生成式 AI 部分則連一個數字都沒有，唯一的數字屬於合作之前的既有軟體: [GE HealthCare 探索放射治療生成式 AI：公告裡唯一的成效數字屬於合作之前的既有軟體，而被引來證明「流程高度分歧」的那篇研究，同一句話寫著前四種路徑涵蓋約八成病例](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
+
 ## 實務的啟發
 
 1. **讀落地公告先把動詞抄下來。** `is using ... to build`、`hopes to`、`are piloting`、`is developing`、`has been used to` 是五種不同的成熟度。把每個案例的動詞列成一欄，公告的真實進度就會自己浮出來。
