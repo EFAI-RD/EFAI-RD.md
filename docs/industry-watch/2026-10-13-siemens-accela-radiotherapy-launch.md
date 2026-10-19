@@ -21,6 +21,8 @@ related_articles:
     relation: "同一種閱讀問題：標題句的涵蓋範圍大於同一頁可核對的內容，兩則可對照「標題寫到哪裡、頁面撐得住哪裡」"
   - path: "2026-10-07-openai-gpt-6-1-sol-launch.md"
     relation: "兩則都缺少可用的比較基準，該則是只給相對倍數而無絕對分數，本則是給了絕對規格卻沒有對照機型"
+  - path: "2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md"
+    relation: "兩則都缺少讀者自行設定驗收門檻所需的那個數字，但缺法相反：本則給了九個全為上下限、沒有典型值也沒有對照機型的規格，該則給的 62.3% 恰恰就是論文算出來的典型值，只是新聞稿沒說它是模型對一位虛構病人的推算，而真正能對照臨床門檻的絕對值留在論文裡"
 refs:
   pr:
     title: "Siemens Healthineers：The Future of Radiotherapy is Here — Siemens Healthineers Launches Accela（官方新聞稿）"
@@ -141,6 +143,8 @@ Siemens Healthineers 在 ASTRO 2026 發表 Accela，官方標題直接寫「放�
 
 
 同一個治療場域、相隔四天的兩則公告來自互為競爭的兩家大廠，而 Mass General Brigham 同時是本則七家顧問機構之一與該則的合作對象；兩則並讀可以看出同一家醫學中心的名字如何分別出現在兩種強度不同的宣稱裡 —— 本則把它列為尚未產出結果的顧問機構，該則則以它過去的自研軟體成效作為提要中唯一的數字: [GE HealthCare 探索放射治療生成式 AI：公告裡唯一的成效數字屬於合作之前的既有軟體，而被引來證明「流程高度分歧」的那篇研究，同一句話寫著前四種路徑涵蓋約八成病例](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
+
+兩則都缺少讀者自行設定驗收門檻所需的那個數字，但缺法相反：本則給了九個全為上下限、沒有典型值也沒有對照機型的規格，該則給的 62.3% 恰恰就是論文算出來的典型值，只是新聞稿沒說它是模型對一位虛構病人的推算，而真正能對照臨床門檻的絕對值留在論文裡: [GE HealthCare 發布密西根大學 End-tidal Control 研究：新聞稿裡的 62.3% 是論文為「典型病人」建構的模型推算值，而出面肯定這項研究的 GE 高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
 
 ## 實務的啟發
 

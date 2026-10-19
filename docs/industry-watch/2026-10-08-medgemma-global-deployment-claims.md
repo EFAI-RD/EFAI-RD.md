@@ -24,6 +24,8 @@ related_articles:
     relation: "概念文整理醫療視覺語言模型的技術譜系，本則是同一譜系走進公共衛生場域後的落地盤點"
   - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
     relation: "同一種閱讀問題的另一種形狀：標題句的涵蓋範圍大於同一頁的限定，兩則可對照標題與註腳並排閱讀的方法"
+  - path: "2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md"
+    relation: "兩則並讀可以看出醫療場域的「落地」這件事能被量到什麼程度：本則五個合作案裡只有一個報得出已完成的篩檢量，該則則把採用率、逐位臨床人員的使用分布與變異來源拆解到可被外部檢驗的程度，差別不在技術難度而在有沒有做這種評估"
 refs:
   blog:
     title: "Google：MedGemma is helping global healthcare providers deliver better care（官方公告）"
@@ -117,6 +119,8 @@ Google 這篇公告把 MedGemma 的全球使用寫成現在進行式：標題是
 
 
 兩則都是標題的效益語氣涵蓋範圍大於內文可核對的數字，差別在於程度：本則五個合作案至少各有一個可指認的進行階段與一個報出的篩檢量，該則的生成式 AI 部分則連一個數字都沒有，唯一的數字屬於合作之前的既有軟體: [GE HealthCare 探索放射治療生成式 AI：公告裡唯一的成效數字屬於合作之前的既有軟體，而被引來證明「流程高度分歧」的那篇研究，同一句話寫著前四種路徑涵蓋約八成病例](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
+
+兩則並讀可以看出醫療場域的「落地」這件事能被量到什麼程度：本則五個合作案裡只有一個報得出已完成的篩檢量，該則則把採用率、逐位臨床人員的使用分布與變異來源拆解到可被外部檢驗的程度，差別不在技術難度而在有沒有做這種評估: [GE HealthCare 發布密西根大學 End-tidal Control 研究：新聞稿裡的 62.3% 是論文為「典型病人」建構的模型推算值，而出面肯定這項研究的 GE 高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
 
 ## 實務的啟發
 
