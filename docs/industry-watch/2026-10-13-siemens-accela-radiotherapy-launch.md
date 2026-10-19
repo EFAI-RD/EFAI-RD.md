@@ -146,6 +146,8 @@ Siemens Healthineers 在 ASTRO 2026 發表 Accela，官方標題直接寫「放�
 
 兩則都缺少讀者自行設定驗收門檻所需的那個數字，但缺法相反：本則給了九個全為上下限、沒有典型值也沒有對照機型的規格，該則給的 62.3% 恰恰就是論文算出來的典型值，只是新聞稿沒說它是模型對一位虛構病人的推算，而真正能對照臨床門檻的絕對值留在論文裡: [GE HealthCare 發布密西根大學 End-tidal Control 研究：新聞稿裡的 62.3% 是論文為「典型病人」建構的模型推算值，而出面肯定這項研究的 GE 高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
 
+兩則都是「標題宣告法規里程碑、限定條件寫在別處」的案例，但限定條件的位置相反：本則的 `510(k) pending` 與「尚未在任何市場銷售」就寫在同一頁的註腳裡，讀者往下捲就看得到；該則的公告頁一條註腳都沒有，`Not CE marked` 寫在公司自己的產品頁上，必須換一個頁面才會發現: [GE HealthCare 宣布 MINItrace Magni 取得 CE Mark：公告發出四天後，自家產品頁仍寫著 Not CE marked，而標題並列的 Copper-64 是另一條產線的能力](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
+
 ## 實務的啟發
 
 1. **讀產品發表先找註腳，再讀標題。** 這一則的法規狀態、遠端操作限制與效益用詞（potential）全部寫在註腳或段末限定句裡。建立一個固定動作：拿到任何醫材發表，先搜尋 `pending`、`not available`、`investigational`、`potential to`，再回頭讀標題。標題與註腳之間的差距，就是這份資料真正的不確定區間。
