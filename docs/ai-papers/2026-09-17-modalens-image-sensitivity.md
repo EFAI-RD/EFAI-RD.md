@@ -146,6 +146,8 @@ ModaLens 以交換輸入觀察答案變化來推斷模型用了什麼，該研�
 
 ModaLens 交換影像量測醫療 VLM 是否仍看影像，該研究以模態遮罩消融與配對 bootstrap 顯示：輸入含認知分數時，T1w MRI 對三分類診斷的增益無法與零區分: [阿茲海默症分期的 VLM：caption 拿掉診斷欄位後，MEMOIR-VLM 的 LLM 還贏得過 k-NN 嗎？](2026-10-06-memoir-vlm-alzheimers-rag-vqa.md)
 
+ModaLens 交換影像量測醫療 VLM 在有報告時是否仍看影像，該研究則在取栓後血管攝影的 mTICI 分級上，以只有報告、只有影像、兩者皆有三種條件並對照醫師讀者，顯示 GPT-5 與 MedGemma-1.5（4B）加入影像後一致性幾乎不變: [有手術報告時，GPT-5 的 mTICI 分級追得上醫師；只給 DSA 影像，一致性從 0.87 掉到 0.35：取栓後再灌流分級的多模態模型比較](2026-10-19-lmm-mtici-thrombectomy-dsa-grading.md)
+
 ## 實務的啟發
 
 第一，多模態系統不能只報 joint-input accuracy。至少應加入單模態消融、影像交換、文字交換與矛盾案例，分別量測輸出對每一模態的敏感度；如果 ground truth 來自其中一個模態，還要另外取得不依附該模態的標註。
