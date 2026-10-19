@@ -124,6 +124,8 @@ evidence_reviewed: true
 
 RadKev 以單一 decision model 的答案機率做 coverage at 5% error，本篇則以三個 LLM 是否一致決定自動貼標或退回人工，兩篇處理的是同一種覆蓋率與錯誤率的取捨: [不生成文字、直接給每個選項機率：RadKev 把 decision model 專科化到放射科，15 項任務平均多 4.9 點，換到外院報告卻沒有進步](2026-10-15-radkev-radiology-decision-model.md)
 
+NSCLC 轉移擷取那篇比較單一模型從病歷判斷轉移的準確度，本篇則用三個 LLM 是否一致決定自動貼標或退回人工，兩篇處理的都是用 LLM 從自由文字建立研究隊列時的標籤可靠度: [癌症登記缺了 54% 的轉移欄位，病歷補得回來嗎？NSCLC 病歷上，零樣本 MedGemma、Llama 3.1 與微調 GatorTron 的比較](2026-10-19-llm-nsclc-metastasis-extraction-clinical-notes.md)
+
 ## 實務的啟發
 
 - **可借用的設計** — 建研究隊列時，把「多個 LLM 全數一致才自動貼標、其餘退回人工」當成篩選第一關，並把定義上本來就模稜兩可的類別（本篇的 WMH-only）明確設計成一律退回，而不是逼模型二選一。論文的參考集結果支持這種做法在這組資料上能把自動貼標錯誤壓到零，代價是覆蓋率下降。
