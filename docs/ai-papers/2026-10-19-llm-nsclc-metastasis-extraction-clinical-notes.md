@@ -156,6 +156,8 @@ evidence_reviewed: true
 
 假釋／緩刑偵測那篇完全不用真實病歷標註、只用 LLM 合成資料訓練或提供範例，本篇則比較零樣本模型與以真實病歷標註微調的 GatorTron，兩篇對照可以看出「省掉標註」的兩種做法在真實病歷上各自付出的代價: [一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句訓練資料，換到 293 份 VA 病歷偵測假釋／緩刑，Llama 守在 81–87% macro-F1，encoder 跌到 30%](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
 
+時間關係抽取那篇在 i2b2 出院摘要上把 GatorTron 與 LLaMA3.1-8B、MeLLaMA-13B 放進同一組微調與 PEFT 策略比較，本篇則在真實腫瘤病歷上比較微調 GatorTron-base 與零樣本 LLM，兩篇合起來看可以區分「模型選擇」與「調適方式」各自對病歷抽取表現的影響: [病歷時間關係抽取該怎麼調模型？i2b2 2012 上只調 query／value 的 QLoRA 讓 LLaMA3.1-8B 達 89.15% micro-F1，但每類只給一例時沒有一種做法超過 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
+
 ## 實務的啟發
 
 - **可借用的設計** — 用病歷判斷轉移這類已有結構化欄位的變項時，把錯誤拆成「模型錯」「文字模稜兩可」「病歷沒寫」「參考標準錯」四類來報告，比只報 F1 更能看出瓶頸在模型還是在資料；本篇的零樣本模型錯誤大多不屬於第一類。
