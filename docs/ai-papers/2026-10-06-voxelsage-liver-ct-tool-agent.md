@@ -172,6 +172,8 @@ MammoClaw 同樣只給代理確定性工具，並做了「不給工具」的對�
 
 CASE 同樣把 VISTA3D 分割後的量測交給代理調用，並在 UK Biobank 縱向 MRI 的 4,850 題保留集上與十二個模型比較，補上 VoxelSage 缺少的模型間對照，但同樣沒有臨床人員參與的評估: [不把影像餵給模型，讓它自己去調：CASE 在 UK Biobank 縱向 MRI 上訓練 8B 證據蒐集代理，問題是標籤不一定看得見](2026-10-13-case-longitudinal-mri-evidence-agent.md)
 
+該研究同樣讓 LLM 不碰計算，但工具是由 LLM 依擷取到的規則生成、再以訓練例驗證修復的 Python 計算器，並做了拿掉工具改由模型直接作答的消融（最終準確率從 86.73% 降到 69.46%），補上本篇缺少的「工具本身貢獻多少」那組對照: [算分交給程式、LLM 只抽參數：GPT-5.5 先把 55 個醫療計算器寫成驗證過的 Python 工具，Qwen3-8B 負責從病歷填表，MedCalc-Bench Verified 上 86.73%，剩下的錯多半出在讀病歷](2026-10-20-tool-augmented-llm-medical-calculation.md)
+
 ## 實務的啟發
 
 本篇的定位是可借用的系統設計與量測方法，不是已驗證的術前規劃工具。
