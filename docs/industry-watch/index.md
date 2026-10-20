@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-20 | [Google 宣傳 AMIE 的 Lancet 研究：「鑑別診斷與醫師最終診斷相符 90%」是前七名清單的命中率，同一天更新的自家研究部落格寫著排第一名的只有 56%](2026-10-20-google-amie-lancet-primary-care-feasibility.md) | Clarence | 2026-10-08 官方部落格；同日 The Lancet 線上刊出，試驗登錄 NCT06911398 |
 | 2026-10-19 | [GE HealthCare 宣布 MINItrace Magni 取得 CE Mark：公告發出四天後，自家產品頁仍寫著 Not CE marked，而標題並列的 Copper-64 是另一條產線的能力](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md) | Clarence | 2026-10-15 官方新聞稿；全頁無百分比、無註腳 |
 | 2026-10-19 | [GE HealthCare 發布密西根大學 End-tidal Control 研究：新聞稿裡的 62.3% 是論文為「典型病人」建構的模型推算值，而出面肯定這項研究的 GE 高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md) | Clarence | 2026-10-16 官方新聞稿；論文開放取用，62.3% 為範例病人推算值 |
 | 2026-10-15 | [GE HealthCare 探索放射治療生成式 AI：公告裡唯一的成效數字屬於合作之前的既有軟體，而被引來證明「流程高度分歧」的那篇研究，同一句話寫著前四種路徑涵蓋約八成病例](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md) | Clarence | 2026-09-23 官方新聞稿；生成式 AI 部分無任何數字 |
