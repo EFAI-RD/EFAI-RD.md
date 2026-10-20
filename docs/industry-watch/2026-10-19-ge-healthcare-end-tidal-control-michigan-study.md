@@ -21,6 +21,8 @@ related_articles:
     relation: "兩則都缺少讀者自行設定驗收門檻所需的那個數字，但缺法相反，該則給了九個全為上下限、沒有典型值也沒有對照機型的規格，本則給的 62.3% 恰恰就是論文算出來的典型值，只是新聞稿沒說它是模型對一位虛構病人的推算"
   - path: "2026-10-08-medgemma-global-deployment-claims.md"
     relation: "兩則並讀可以看出醫療場域「落地」這件事能被量到什麼程度，該則五個合作案裡只有一個報得出已完成的篩檢量，本則則把採用率、逐位臨床人員的使用差異與變異來源拆解到可被外部檢驗的程度，差別不在技術而在有沒有做這種評估"
+  - path: "2026-10-20-google-amie-lancet-primary-care-feasibility.md"
+    relation: "兩則都是廠商宣傳一篇數值本身正確的論文，而被省略的限定條件種類不同，本則省略的是「這兩個百分比是論文為一位虛構典型病人以調整後模型推算的差異」，該則省略的是「90% 指的是七項鑑別診斷清單之內命中、排第一名只有 56%」"
 refs:
   pr:
     title: "GE HealthCare：Research conducted at University of Michigan published in Anesthesia & Analgesia Practice demonstrates GE HealthCare End-tidal Control software may help to reduce fresh gas flow（官方新聞稿）"
@@ -116,6 +118,8 @@ GE HealthCare 在 2026-10-16 發布新聞稿，宣傳一篇密西根大學主持
 兩則並讀可以看出醫療場域的「落地」這件事能被量到什麼程度：該則五個合作案裡只有一個報得出已完成的篩檢量，本則則把採用率、逐位臨床人員的使用分布與變異來源拆解到可被外部檢驗的程度，差別不在技術難度而在有沒有做這種評估 —— 本則用的只是電子病歷與麻醉機既有的使用紀錄: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量](2026-10-08-medgemma-global-deployment-claims.md)
 
 同一家公司四天內的兩則公告，對證據的處理方式差距極大：本則整篇建立在一篇開放取用的同儕審查論文上，每個數字都能回到原文確認，落差只在轉述時遺落了限定條件；該則全頁沒有任何百分比、沒有任何註腳，也沒有一條可以打開的佐證，兩則合看可以看出「公告有沒有給出可查核物」這件事在同一家公司內部也不一致: [GE HealthCare 宣布 MINItrace Magni 取得 CE Mark：公告發出四天後，自家產品頁仍寫著 Not CE marked，而標題並列的 Copper-64 是另一條產線的能力](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
+
+兩則都是廠商宣傳一篇數值本身正確的論文，落差都出在限定條件被留在原處，而被省略的東西種類不同：本則省略的是「這兩個百分比是論文為一位虛構典型病人以調整後模型推算的差異」，該則省略的是「90% 指的是七項鑑別診斷清單之內命中，排第一名的只有 56%」；一個換掉了受測對象，一個換掉了清單長度，兩則並讀可以看出同一種改寫手法在不同量綱上的樣子: [Google 宣傳 AMIE 的 Lancet 研究：「鑑別診斷與醫師最終診斷相符 90%」是前七名清單的命中率，同一天更新的自家研究部落格寫著排第一名的只有 56%](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
 
 ## 實務的啟發
 
