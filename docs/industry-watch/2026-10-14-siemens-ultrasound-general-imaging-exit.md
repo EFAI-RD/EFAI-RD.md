@@ -14,6 +14,8 @@ source:
   event_date: "2026-10-12"
   official_url: "https://www.siemens-healthineers.com/press/releases/ultrasound"
 related_articles:
+  - path: "2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md"
+    relation: "相隔七天，兩家影像大廠對同一個市場區隔做出方向完全相反的決定，而雙方的公告都沒有提到對方"
   - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
     relation: "同一家公司相隔十五天的兩則公告，標題動詞與同頁可核對內容之間的落差出現在相反方向：該則用「未來已到來」描述尚未取得許可的產品，本則用「聚焦」描述當天即生效的停售"
   - path: "../ai-papers/2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md"
@@ -148,6 +150,8 @@ ACUSON Origin 產品頁提供的是硬體與組態規格，不是效能指標：
 同一週內兩家影像大廠的相反方向組合調整：該則是買進一個模態的供應鏈最後一哩，本則是退出一個模態的通用影像市場，兩則合看可以看出大廠正把資源從「診斷端的廣度」移向「治療端的整合深度」: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
 該研究稽核的婦科骨盆腔超音波判讀正屬於本則停售的 general imaging 範疇，兩篇合看說明演算法與其賴以取像的硬體分屬兩個市場：演算法端的評估問題不會因廠商組合變動而改變，但可用的取像平台會: [把超音波描述交給 ChatGPT 判良惡性：300 顆附件腫塊，和 IOTA 規則、ADNEX 與專家差多少？](../ai-papers/2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md)
+
+相隔七天，兩家影像大廠對同一個市場區隔做出方向完全相反的決定：本則是 Siemens Healthineers 公告日即停售四款通用影像超音波，理由寫著這個市場「供給充足、有多家既有廠商」；該則是 GE HealthCare 以「擴充通用影像超音波產品線」為標題發表新機 LOGIQ Focus。兩份公告都沒有提到對方，而同一個市場事實同時支持了退出與進入兩種決策 —— 兩則並讀可以看出，大廠公告裡的市場描述是策略的結果而不是策略的理由: [GE HealthCare 發表 LOGIQ Focus 通用影像超音波系統，並在三個官方頁面引用同一項 Use-Lab 比較研究](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
 ## 實務的啟發
 
