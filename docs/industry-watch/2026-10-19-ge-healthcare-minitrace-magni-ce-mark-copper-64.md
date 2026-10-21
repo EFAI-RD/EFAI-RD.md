@@ -14,6 +14,8 @@ source:
   event_date: "2026-10-15"
   official_url: "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-s-minitrace-magni-achieves-ce-mark-copper-64-expands-pettrace-solid-target-platform-beyond-gallium-68-"
 related_articles:
+  - path: "2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md"
+    relation: "同一家公司四天內的兩則公告，自家產品頁與新聞稿的關係一次是互相牴觸、一次是互相補足"
   - path: "2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md"
     relation: "同一家公司相隔十天，對同一個問題給出方向相反的兩個答案，該則是花 9.45 億美元買下別人的代工配送網絡把放射性藥物送到院方手上，本則是賣給院方一台自己生產的機器，兩則並讀才看得出 GE HealthCare 在短半衰期供應這件事上同時押了外包與自產兩邊"
   - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
@@ -108,6 +110,8 @@ GE HealthCare 在 2026-10-15 發布新聞稿，標題把兩件事並列：MINItr
 兩則都是「標題宣告法規里程碑、限定條件寫在別處」的案例，但限定條件的位置相反：該則的 `510(k) pending` 與「尚未在任何市場銷售」就寫在同一頁的註腳裡，讀者往下捲就看得到；本則的公告頁一條註腳都沒有，`Not CE marked` 寫在公司自己的產品頁上，必須換一個頁面才會發現: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
 同一家公司四天內的兩則公告，對證據的處理方式差距極大：該則整篇建立在一篇開放取用的同儕審查論文上，每個數字都能回到原文確認，落差只在轉述時遺落了限定條件；本則全頁沒有任何百分比、沒有任何註腳，也沒有一條可以打開的佐證，兩則合看可以看出「公告有沒有給出可查核物」這件事在同一家公司內部也不一致: [GE HealthCare 發布密西根大學 End-tidal Control 研究：新聞稿裡的 62.3% 是論文為「典型病人」建構的模型推算值，而出面肯定這項研究的 GE 高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
+
+四天後同一家公司的另一則發表，把「產品頁」這個角色翻到了另一面：本則的產品頁在公告發出四天後仍寫著 `Not CE marked`，與新聞稿的 CE Mark 宣稱互相牴觸；該則的產品頁與白皮書則補上了新聞稿省略的比較對象與對競品的無差異結果，是互相補足。兩則合看得到同一個操作結論 —— 要知道一則公告實際涵蓋到哪裡，必須離開公告頁去讀同一家公司的其他頁面，而離開之後會看到什麼並不固定: [GE HealthCare 發表 LOGIQ Focus 通用影像超音波系統，並在三個官方頁面引用同一項 Use-Lab 比較研究](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
 ## 實務的啟發
 
