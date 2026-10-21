@@ -31,6 +31,8 @@ related_articles:
     relation: "industry governance response to a reported multi-agent loss-of-control incident"
   - path: "../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md"
     relation: "FDA discussion paper seeks extra considerations for agentic GenAI-enabled devices"
+  - path: "../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md"
+    relation: "該則預測每個 agentic workflow 的推論成本到 2028 年增加逾五倍，理由是複雜工作流程的 token 用量遠高於聊天機器人；本篇說明的 ReAct 迴圈、工具呼叫與多代理協作正是那些 token 的去處"
 refs:
   react:
     title: "ReAct: Synergizing Reasoning and Acting in Language Models"
@@ -121,6 +123,8 @@ evidence_reviewed: true
 該則記錄多代理群體失控的真實事件（OpenAI–Hugging Face）如何促成產業層級的調速倡議: [AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持](../industry-watch/2026-09-15-amodei-pace-the-frontier.md)
 
 該則從監管端點名 agentic GenAI 賦能裝置的額外評估考量；本篇則說明多代理／工具編排的概念基礎: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md)
+
+該則預測每個 agentic workflow 的推論成本到 2028 年將增加逾五倍，給的理由是更複雜的工作流程用掉遠多於聊天機器人的 token；而本篇說明的 ReAct 迴圈、工具呼叫與多代理協作，正是那些 token 的去處 —— 兩篇並讀可以把一句成本預測還原成一組可指認的架構選擇：要不要讓模型自我質詢、要跑幾輪、要讓幾個代理互相對話: [Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍：新聞稿沒有給起算基準，而全文兩個「五倍」量的是完全不同的兩件事](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
 ## 實務的啟發
 
