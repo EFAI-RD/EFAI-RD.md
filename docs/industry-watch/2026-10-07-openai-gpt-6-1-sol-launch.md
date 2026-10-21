@@ -131,7 +131,7 @@ OpenAI 發布 GPT-6.1 Sol，把「接近旗艦的能力」與「五分之一的�
 兩則都以相對數字呈現成果：本則的五組評測除一個絕對分數外只公布百分點差距與成本倍數，該則只公布「低雙位數成長」與非 GAAP 指標的增益方向而未揭露被收購方的營收，外部同樣無法判斷基準線落在哪裡: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 兩則都缺少可用的比較基準，但缺法相反：本則只公布相對倍數與百分點差距而不給絕對分數，該則給了絕對規格卻沒有任何對照機型，外部因此同樣無法設定驗收門檻: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-兩則合起來正好是同一個現象的兩端：本則是供給側的樣本，掛牌價降到五分之一，但每任務成本比依評測落在 1/5 到 1/7 不等，顯示單價與單位工作成本從來不是同一條曲線；該則則從需求側主張，單價下降反而會讓更貴的工作流程變得可行，使每個 agentic workflow 的推論成本不降反升，而該則同樣只給了倍數、沒有給起算基準: [Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍：新聞稿沒有給起算基準，而全文兩個「五倍」量的是完全不同的兩件事](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
+兩則合起來正好是同一個現象的兩端：本則是供給側的樣本，掛牌價降到五分之一，但每任務成本比依評測落在 1/5 到 1/7 不等，顯示單價與單位工作成本從來不是同一條曲線；該則則從需求側主張，單價下降反而會讓更貴的工作流程變得可行，使每個 agentic workflow 的推論成本不降反升，而該則同樣只給了倍數、沒有給起算基準: [Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
 ## 實務的啟發
 

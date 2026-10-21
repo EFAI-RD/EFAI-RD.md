@@ -1,5 +1,5 @@
 ---
-title: "Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍：新聞稿沒有給起算基準，而全文兩個「五倍」量的是完全不同的兩件事"
+title: "Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox"
 category: industry-watch
 date: 2026-10-21
 updated: 2026-10-21
@@ -37,7 +37,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍：新聞稿沒有給起算基準，而全文兩個「五倍」量的是完全不同的兩件事
+# Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox
 
 ## 來源
 
@@ -134,6 +134,7 @@ Gartner 在本則開出的處方是 inference-tiering、routing 與 orchestratio
 - 支撐本則的研究 `The Inference Paradox: Inference Tiering Is Critical to Protect Margins` 為客戶付費內容，本文未取得。若日後有公開摘要或方法說明，可補充核對其樣本與估算方式。
 - `by 2027, organizations that prioritize semantics in AI-ready data will increase agentic AI accuracy by up to 80% and reduce costs by up to 60%` [(ref: trends)](https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-identifies-the-top-strategic-technology-trends-for-2027) 這組上限值是否會出現典型值或對照基準，是觀察 Gartner 公開材料可驗收性的另一個指標。
 - 醫療端值得追蹤的是：是否開始出現把「每份檢查的推論成本」與準確率並列報告的醫療 AI 研究。目前本書庫收錄的論文幾乎都只報準確率。
+- **引用本則時的提醒** — 這則預測的機制可以用，數字不行。新聞稿全文沒有給起算基準 —— 沒有基準年、沒有單一 workflow 的現行成本、全頁 `$` 出現 0 次 —— 因此「逾五倍」是一個只有倍數、沒有被乘數的數字，無法進財務模型，也無法在 2028 年回頭判定它對了還是錯了；而全文的兩個「五倍」量的是完全不同的兩件事，標題那個是跨時間的（到 2028 年為止），後段那個是跨架構的（今天把聊天機器人換成代理式推論模型）。引用本則時請連同這兩點一起帶，不要單獨引用「五倍」 [(ref: pr)](https://www.gartner.com/en/newsroom/press-releases/2026-08-17-gartner-predicts-ai-inference-costs-per-agentic-workflow-will-increase-more-than-fivefold-through-2028)。
 
 ## References
 
