@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-22 | [OpenAI 公布以 AI 代理群解讀全腦 Perturb-seq 圖譜：公告寫「引用逾 700 篇」，它所連結的論文寫的是「711 倍」](2026-10-22-openai-distributed-agents-perturb-seq-atlas.md) | Clarence | 2026-10-21 官方公告；所依據的 bioRxiv 預印本未經同儕審查，75% 的分母是 20 組配對共 60 次判斷 |
 | 2026-10-21 | [GE HealthCare 發表 LOGIQ Focus 通用影像超音波系統，並在三個官方頁面引用同一項 Use-Lab 比較研究](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md) | Clarence | 2026-10-19 官方新聞稿；「快 26%」比的是自家前代機，同一研究對競品無時間差異 |
 | 2026-10-21 | [Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md) | Clarence | 2026-08-17 官方新聞稿；全文無金額、無基準年，正文無百分比 |
 | 2026-10-20 | [Google 宣傳 AMIE 的 Lancet 研究：「鑑別診斷與醫師最終診斷相符 90%」是前七名清單的命中率，同一天更新的自家研究部落格寫著排第一名的只有 56%](2026-10-20-google-amie-lancet-primary-care-feasibility.md) | Clarence | 2026-10-08 官方部落格；同日 The Lancet 線上刊出，試驗登錄 NCT06911398 |
