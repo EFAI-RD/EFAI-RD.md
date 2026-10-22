@@ -139,6 +139,8 @@ modified AHA 分型依斑塊的組成與表面完整性把頸動脈斑塊分成�
 
 本篇把 AHA 分型規則寫進 prompt、仍由 LLM 自己套規則，該研究則把醫療計算器的規則寫成程式、LLM 只負責從病歷填入參數，兩篇並讀可對照「規則放在 prompt」與「規則放在程式」兩種把臨床規則交給 LLM 的做法: [算分交給程式、LLM 只抽參數：GPT-5.5 先把 55 個醫療計算器寫成驗證過的 Python 工具，Qwen3-8B 負責從病歷填表，MedCalc-Bench Verified 上 86.73%，剩下的錯多半出在讀病歷](2026-10-20-tool-augmented-llm-medical-calculation.md)
 
+兩篇都讓 LLM 從放射報告文字套用分型規則、參考標準也都是醫師依同一份文字判定；本篇把 AHA 準則寫進 prompt 並與只下指令的 prompt 對照，該研究只用不含規則的零樣本 prompt 比較三種網頁版模型設定，錯誤集中在 CAD-RADS 4B 與 5 這類需要組合多條規則的類別，正好是本篇 criteria-guided prompting 可以檢驗的情境: [三個聊天介面零樣本讀 CCTA 報告分 CAD-RADS：DeepSeek-R1 與 ChatGPT-5 約八成、ChatGPT-4o 54%，900 份高風險報告被降到 3 以下的比例 2.6%–14.1%](2026-10-22-llm-cad-rads-ccta-report-classification.md)
+
 ## 實務的啟發
 
 - **可借用的量測方法** — 把「準則寫進 prompt」與「只下指令」並列比較，再加一個 rule-based 基線，可以分開估計 prompt 設計與模型規模各自的貢獻。本篇 Qwen3-8B 在 NP 下低於規則基線、CGP 下高出 30 個百分點，若只報 CGP 的結果，就看不出這個落差。
