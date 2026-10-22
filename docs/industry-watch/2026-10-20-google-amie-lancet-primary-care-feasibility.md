@@ -2,7 +2,7 @@
 title: "Google 宣傳 AMIE 的 Lancet 研究：「鑑別診斷與醫師最終診斷相符 90%」是前七名清單的命中率，同一天更新的自家研究部落格寫著排第一名的只有 56%"
 category: industry-watch
 date: 2026-10-20
-updated: 2026-10-20
+updated: 2026-10-22
 tags: [Google, Google-DeepMind, AMIE, conversational-AI, primary-care, differential-diagnosis, The-Lancet, feasibility-study, clinical-workflow, triage, Beth-Israel-Deaconess, top-k-accuracy]
 catalog_id: "google:amie-lancet-primary-care-feasibility-2026-10-08"
 editors:
@@ -21,6 +21,8 @@ related_articles:
     relation: "同一家公司相隔十五天的兩則健康部落格，對證據的處理方向相反，該則是五個合作案裡只有一個報得出已完成的篩檢量、其餘用進行式帶過，本則有一份同儕審查論文與完整試驗登錄可逐項回查，問題反而出在同一組數字在自家兩個頁面上被寫成兩種強度"
   - path: "../ai-papers/2026-10-13-clinician-llm-use-vs-benchmarks.md"
     relation: "該篇用 12.8 萬筆真實提問指出臨床人員實際拿大型語言模型做的多半是文件工作、診斷只占 3.7%，本則正是少數真的把對話式模型放進真實門診流程並前瞻收案的研究，兩篇並讀可以看出「離開基準、進到流程」之後要量的是哪些東西"
+  - path: "2026-10-22-openai-distributed-agents-perturb-seq-atlas.md"
+    relation: "兩則都是官方部落格給出一個百分比而分母只存在於被連結的論文裡，本則的 90% 是前七名清單命中率，該則的 75% 是 20 組配對報告共 60 次判斷中的 45 次"
 refs:
   blog:
     title: "Google：Study in The Lancet suggests AI could improve patient-physician relationships.（面向一般讀者的官方部落格）"
@@ -134,6 +136,8 @@ Google 在 2026-10-08 以一篇 288 個英文字的部落格，向一般讀者�
 同一家公司相隔十五天的兩則健康部落格，可查核程度差距很大：該則五個合作案裡只有一個報得出已完成的篩檢量，其餘用進行式帶過且無任何敏感度與特異度；本則有同儕審查論文、開放預印本與完整試驗登錄可以逐項回查，問題反而出在同一組數字在自家兩個頁面上被寫成兩種強度 —— 這說明「有沒有可查核物」與「傳播時有沒有保留限定條件」是兩道各自獨立的關卡: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量](2026-10-08-medgemma-global-deployment-claims.md)
 
 該篇以 12.8 萬筆真實提問對照 58 個公開基準，指出臨床人員實際拿大型語言模型做的多半是文件工作、診斷只占 3.7%，而基準的題目組成對不上實際用途；本則正是少數真的把對話式模型放進門診流程、前瞻收案並事先登錄終點的研究，而它交給醫師的也恰好是病史摘要這類文件產出，AI 的診斷清單並未進入診間，兩篇並讀可以看出「離開基準、進到流程」之後真正被量到的是什麼: [臨床人員實際拿 LLM 做什麼？12.8 萬筆提問對照 58 個公開基準：文件工作占最多、診斷只占 3.7%，基準的題目組成對不上](../ai-papers/2026-10-13-clinician-llm-use-vs-benchmarks.md)
+
+兩則是同一種改寫手法的兩個樣本：官方部落格給出一個百分比，而它的分母只存在於被連結的論文裡；本則的 90% 實為前七名清單命中率，該則的 75% 實為 20 組配對報告、每組三位評審共 60 次判斷中的 45 次，兩則並讀可以看出「官方頁有連結到論文」與「官方頁保留了限定條件」是兩回事: [OpenAI 公布以 AI 代理群解讀全腦 Perturb-seq 圖譜：公告寫「引用逾 700 篇」，它所連結的論文寫的是「711 倍」](2026-10-22-openai-distributed-agents-perturb-seq-atlas.md)
 
 ## 實務的啟發
 

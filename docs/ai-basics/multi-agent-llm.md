@@ -2,7 +2,7 @@
 title: "LLM 多代理系統：從 ReAct 到可對話協作"
 category: ai-basics
 date: 2026-09-15
-updated: 2026-09-17
+updated: 2026-10-22
 tags: [LLM, multi-agent, ReAct, AutoGen, CAMEL, agents]
 catalog_id: "topic:multi-agent-llm"
 editors:
@@ -33,6 +33,8 @@ related_articles:
     relation: "FDA discussion paper seeks extra considerations for agentic GenAI-enabled devices"
   - path: "../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md"
     relation: "該則預測每個 agentic workflow 的推論成本到 2028 年增加逾五倍，理由是複雜工作流程的 token 用量遠高於聊天機器人；本篇說明的 ReAct 迴圈、工具呼叫與多代理協作正是那些 token 的去處"
+  - path: "../industry-watch/2026-10-22-openai-distributed-agents-perturb-seq-atlas.md"
+    relation: "該則是本篇所述拓撲中最單純的一種：一個基因擾動配一個代理、代理之間不對話，效益主要來自不讓單一上下文被塞爆"
 refs:
   react:
     title: "ReAct: Synergizing Reasoning and Acting in Language Models"
@@ -125,6 +127,8 @@ evidence_reviewed: true
 該則從監管端點名 agentic GenAI 賦能裝置的額外評估考量；本篇則說明多代理／工具編排的概念基礎: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md)
 
 該則預測每個 agentic workflow 的推論成本到 2028 年將增加逾五倍，給的理由是更複雜的工作流程用掉遠多於聊天機器人的 token；而本篇說明的 ReAct 迴圈、工具呼叫與多代理協作，正是那些 token 的去處 —— 兩篇並讀可以把一句成本預測還原成一組可指認的架構選擇：要不要讓模型自我質詢、要跑幾輪、要讓幾個代理互相對話: [Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
+
+該則的架構是本篇所述拓撲中最單純的一種 —— 一個基因擾動配一個代理、代理之間完全不對話，合成留到最後一層 —— 而它量到的效益主要來自不讓單一上下文被塞爆：同一個模型在單一代理模式下處理 893 個擾動時只引了 11 筆文獻，分散模式則多出 711 倍，可以當作「多代理未必靠辯論取勝」的對照案例: [OpenAI 公布以 AI 代理群解讀全腦 Perturb-seq 圖譜：公告寫「引用逾 700 篇」，它所連結的論文寫的是「711 倍」](../industry-watch/2026-10-22-openai-distributed-agents-perturb-seq-atlas.md)
 
 ## 實務的啟發
 
