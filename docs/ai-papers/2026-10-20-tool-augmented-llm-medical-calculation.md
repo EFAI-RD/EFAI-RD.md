@@ -158,6 +158,8 @@ VoxelSage 把肝腫瘤的幾何量測寫成確定性技能、讓 LLM 只負責�
 
 頸動脈斑塊那篇把 AHA 分型規則寫進 prompt、仍由 LLM 自己套規則，本篇則把計算規則寫成程式、LLM 只填輸入，兩篇並讀可對照「規則放在 prompt」與「規則放在程式」兩種把臨床規則交給 LLM 的做法: [把 AHA 分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%：頸動脈斑塊 MRI 報告的 LLM 輔助判讀，四位放射科醫師對文字參考標準的一致率從 69% 升到 90%](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
 
+該研究的作者在 Discussion 提議讓 LLM 只抽冠狀動脈的血管層級發現、再由規則引擎決定 CAD-RADS 類別，與本篇「規則寫成程式、LLM 只抽參數」的做法相同，但該研究本身只測了零樣本直接分類: [三個聊天介面零樣本讀 CCTA 報告分 CAD-RADS：DeepSeek-R1 與 ChatGPT-5 約八成、ChatGPT-4o 54%，900 份高風險報告被降到 3 以下的比例 2.6%–14.1%](2026-10-22-llm-cad-rads-ccta-report-classification.md)
+
 ## 實務的啟發
 
 - **把「讀病歷」與「算分數」拆開來量** — 論文用 PMR、tool-level accuracy 與 final-answer accuracy 三個指標分別衡量抽取、工具與整體，146 題錯誤也能歸到抽取或工具其中一邊；評估任何從病歷算臨床分數的系統時，這種拆法可以直接借用，至少能知道錯誤該回頭修哪一段。
