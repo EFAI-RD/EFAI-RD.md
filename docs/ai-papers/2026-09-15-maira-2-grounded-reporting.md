@@ -187,6 +187,8 @@ Lingshu 導讀著重通用醫療 VLM 的資料與訓練，本篇則可接續閱�
 
 本篇把同一病人的前次報告當成受控的輸入，該研究則顯示把「別的病人」的相似前例報告塞進 prompt 時，通用 VLM 會把對方的發現甚至整段原文抄進報告: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
+本篇把前次影像與前次報告一起交給 LLM，CPVB-RG 則只用同一病人的前次影像與臨床文字、以 82M 解碼器生成報告，並在 ReXrank Findings 評估中把本篇列為 7B 對照: [CPVB-RG：把前後兩張胸片的「變化」與「共同結構」分開處理再寫報告，82M 解碼器對最接近的 prior-aware 基線 PriorRG 在 F1RadGraph 多 0.0090、VLScore 多 0.0582](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
+
 ## 實務的啟發
 
 以下是本書庫提出的研究與工程建議：
