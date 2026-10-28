@@ -201,6 +201,8 @@ ModaLens 固定文字、只換影像來量測模態依賴，本研究則固定�
 
 本研究說明換一個評估條件，現成醫療視覺語言模型的結論就可能改寫；該則指出若 FAPI-74 上市，PET 判讀面對的是既有以 FDG 為主的模型從未見過的影像分布，兩篇是同一個可攜性問題的兩端: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](../industry-watch/2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
+本研究逐項替換評估條件來檢驗醫療 VLM 的結論，該研究則固定盲化 checklist、只替換 LLM 查核模型與 checklist 格式，同樣看到量到的增益隨評估約定移動: [「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6%，但換一個查核模型或格式，量到的增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
+
 ## 實務的啟發
 
 第一，把「可攜性宣稱」寫成一句可檢查的句子。論文 Table 21 把失效模式翻成六個必答問題：哪一組權重、處理器、計分映射與文字構成分類器；哪個場域與參考標籤支持結果；控制組是健康人、廣義異常還是指名的競爭疾病；用哪個盛行率與可靠度指標；原樣移植的閾值是否同時保住敏感度與可用的 specificity；以及什麼被重抽樣、什麼被固定、已知的資料暴露是什麼。作者說明這不是驗證過的 checklist，也不能取代前瞻臨床評估。[(ref: main Table 21)](https://arxiv.org/html/2609.21763v1#S4.T21)
