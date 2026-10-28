@@ -33,7 +33,7 @@ evidence_reviewed: true
 
 - **團隊／單位：** Xinyue Xu、Hongbin Lin、Juangui Xu、Hualiang Wang、Lehan Wang、Lijie Hu、Weiyang Liu、Adrian Weller、Xiaomeng Li；香港科技大學、香港中文大學、香港科技大學（廣州）、薩爾蘭大學、穆罕默德・本・扎耶德人工智慧大學與劍橋大學 [(ref: main title)](https://arxiv.org/html/2609.15334v1)
 - **論文：** *Concept-Grounded Reasoning with Prompt-Driven Localization for Interpretable Structured Report Generation*，arXiv:2609.15334v1，2026-09-14 提交 [(ref: abs)](https://arxiv.org/abs/2609.15334)
-- **原文：** [HTML](https://arxiv.org/html/2609.15334v1) · [PDF](https://arxiv.org/pdf/2609.15334v1) · [arXiv DOI（頁面標示尚待註冊）](https://doi.org/10.48550/arXiv.2609.15334)
+- **原文：** [HTML](https://arxiv.org/html/2609.15334v1) · [PDF](https://arxiv.org/pdf/2609.15334v1) · [arXiv DOI](https://doi.org/10.48550/arXiv.2609.15334)
 
 **編輯：** Colbert
 
