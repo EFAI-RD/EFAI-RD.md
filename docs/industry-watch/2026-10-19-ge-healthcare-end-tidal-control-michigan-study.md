@@ -23,6 +23,8 @@ related_articles:
     relation: "兩則並讀可以看出醫療場域「落地」這件事能被量到什麼程度，該則五個合作案裡只有一個報得出已完成的篩檢量，本則則把採用率、逐位臨床人員的使用差異與變異來源拆解到可被外部檢驗的程度，差別不在技術而在有沒有做這種評估"
   - path: "2026-10-20-google-amie-lancet-primary-care-feasibility.md"
     relation: "兩則都是廠商宣傳一篇數值本身正確的論文，而被省略的限定條件種類不同，本則省略的是「這兩個百分比是論文為一位虛構典型病人以調整後模型推算的差異」，該則省略的是「90% 指的是七項鑑別診斷清單之內命中、排第一名只有 56%」"
+  - path: "2026-10-28-anthropic-drug-development-case-studies.md"
+    relation: "本則是本書庫目前最接近完整部署評估的樣本，事先寫明三個假設、並在其中一個未達自訂門檻時照實報出；該則恰好是相反的作法，技術報告自述最終規格是在看過結果之後才設定的，而按原規格最後一輪 113 個 scFv 設計沒有一個以實測解離常數通過，兩則並讀可以看出「終點什麼時候定」這件事如何決定一份成果該被當成驗證還是當成探索"
 refs:
   pr:
     title: "GE HealthCare：Research conducted at University of Michigan published in Anesthesia & Analgesia Practice demonstrates GE HealthCare End-tidal Control software may help to reduce fresh gas flow（官方新聞稿）"
@@ -120,6 +122,8 @@ GE HealthCare 在 2026-10-16 發布新聞稿，宣傳一篇密西根大學主持
 同一家公司四天內的兩則公告，對證據的處理方式差距極大：本則整篇建立在一篇開放取用的同儕審查論文上，每個數字都能回到原文確認，落差只在轉述時遺落了限定條件；該則全頁沒有任何百分比、沒有任何註腳，也沒有一條可以打開的佐證，兩則合看可以看出「公告有沒有給出可查核物」這件事在同一家公司內部也不一致: [GE HealthCare 宣布 MINItrace Magni 取得 CE Mark：公告發出四天後，自家產品頁仍寫著 Not CE marked，而標題並列的 Copper-64 是另一條產線的能力](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
 
 兩則都是廠商宣傳一篇數值本身正確的論文，落差都出在限定條件被留在原處，而被省略的東西種類不同：本則省略的是「這兩個百分比是論文為一位虛構典型病人以調整後模型推算的差異」，該則省略的是「90% 指的是七項鑑別診斷清單之內命中，排第一名的只有 56%」；一個換掉了受測對象，一個換掉了清單長度，兩則並讀可以看出同一種改寫手法在不同量綱上的樣子: [Google 宣傳 AMIE 的 Lancet 研究：「鑑別診斷與醫師最終診斷相符 90%」是前七名清單的命中率，同一天更新的自家研究部落格寫著排第一名的只有 56%](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
+
+本則是本書庫目前最接近完整部署評估的樣本，事先寫明三個假設、並在其中一個未達自訂門檻時照實報出；該則恰好是相反的作法，技術報告自述最終規格是在看過結果之後才設定的，而按原規格最後一輪 113 個 scFv 設計沒有一個以實測解離常數通過，兩則並讀可以看出「終點什麼時候定」這件事如何決定一份成果該被當成驗證還是當成探索: [Anthropic 公布 Claude 參與的六個藥物開發合作案：公告說抗體「結塊慢 100 倍以上」，技術報告寫明那是單一個孔的讀數，而判定成功的規格是看過結果之後才定的](2026-10-28-anthropic-drug-development-case-studies.md)
 
 ## 實務的啟發
 
