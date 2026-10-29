@@ -120,7 +120,7 @@ evidence_reviewed: true
 
 該文以單一 LLM router、確定性安全閘門與結構化工具，提供「代理不一定是多代理」的醫療行政對照案例: [CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？](../ai-papers/2026-09-16-careconnect-healthcare-agent.md)
 
-該則從預印本平台端說明未核對 LLM 生成內容（含幻覺引用）的投稿後果: [arXiv 編輯負責人澄清未核對 LLM 內容的處罰：幻覺引用等可致一年禁投，而官網條款仍只寫作者責任與揭露](../industry-watch/2026-09-15-arxiv-ai-content-policy.md)
+該則從預印本平台端說明未核對 LLM 生成內容（含幻覺引用）的投稿後果: [arXiv CS 領域編輯負責人澄清未核對 LLM 內容的處罰：幻覺引用等可致一年禁投；官網條款本身寫的是作者責任、揭露與不得掛名 AI](../industry-watch/2026-09-15-arxiv-ai-content-policy.md)
 
 該則記錄多代理群體失控的真實事件（OpenAI–Hugging Face）如何促成產業層級的調速倡議: [Amodei 發表〈We Must Pace the Frontier〉：OpenAI 承諾跟進常駐評估者制度，DeepMind 與 xAI 的支持目前僅見單一媒體報導](../industry-watch/2026-09-15-amodei-pace-the-frontier.md)
 

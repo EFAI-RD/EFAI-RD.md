@@ -13,7 +13,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，仍低於全猜第一類的基準
+# 工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準
 
 ## 來源
 
@@ -145,7 +145,7 @@ MammoClaw 由三個部分組成。第一是遵循 ReAct 的代理迴圈：凍結
 - 作者列出的限制：每項任務只用一個資料集、一個凍結主幹；Qwen3.5-35B-A3B 在 no-tools 設定下表現就不高，可能限制了能觀察到的代理增益。[(ref: main Appendix A)](https://arxiv.org/pdf/2609.31789v1#page=11)
 - 作者列出的限制：技能由有標註的參考集產生，沒有經臨床專家獨立驗證；其臨床相關性、穩健性與跨資料集可遷移性都未知。[(ref: main Appendix A)](https://arxiv.org/pdf/2609.31789v1#page=11)
 - 作者列出的限制：系統提示詞、工具描述、失敗軌跡數量、teacher LLM、技能驗證與檢索機制都沒有做消融，因此無法區分改善是來自技能內容，還是來自提示詞或工具互動模式的改變；技能演化也只做一輪、參考集只有 100 例。[(ref: main Appendix A)](https://arxiv.org/pdf/2609.31789v1#page=11)
-- 本書庫補充：絕對分數可能低於「全部猜最常見類別」的簡單基準。論文沒有說明 macro-F1 是對哪些類別取平均；本書庫依附錄 B.1 的評估集分布試算，若對評估集出現的四個類別平均，永遠回答 BI-RADS 1 的分類器 macro-F1 約為 0.225，若對候選答案的七個類別（0 至 6）平均約為 0.129，兩者都高於 tools + skills 的 0.148。這只是依類別分布的推算，不是論文報告的數字，但足以說明本研究比較的是三種設定之間的相對變化，而不是可用的判讀能力。[(ref: main Appendix B.1)](https://arxiv.org/pdf/2609.31789v1#page=12) [(ref: main Table 1)](https://arxiv.org/pdf/2609.31789v1#page=6)
+- 本書庫補充：絕對分數可能低於「全部猜最常見類別」的簡單基準。論文沒有說明 macro-F1 是對哪些類別取平均；本書庫依附錄 B.1 的評估集分布試算，若對評估集出現的四個類別平均，永遠回答 BI-RADS 1 的分類器 macro-F1 約為 0.225，若對候選答案的七個類別（0 至 6）平均約為 0.129 —— 前者高於 tools + skills 的 0.148，後者低於。這只是依類別分布的推算，不是論文報告的數字，而平均方式本身就能決定「是否贏過簡單基準」，這足以說明本研究比較的是三種設定之間的相對變化，而不是可用的判讀能力。[(ref: main Appendix B.1)](https://arxiv.org/pdf/2609.31789v1#page=12) [(ref: main Table 1)](https://arxiv.org/pdf/2609.31789v1#page=6)
 - 本書庫補充：BI-RADS 參考集只有 1、3、5 類，沒有任何 4 類病例，但評估集有 18 例 4 類，演化出的技能也多處描述 4 類的判定條件；這些內容較可能來自 teacher 模型的既有知識，而不是參考集中的失敗。論文沒有報告各類別的 F1 或混淆矩陣，無法判斷改善集中在哪些類別。[(ref: main Appendix B.1)](https://arxiv.org/pdf/2609.31789v1#page=12) [(ref: main Appendix G, p.23)](https://arxiv.org/pdf/2609.31789v1#page=23)
 - 本書庫補充：PDF 內有幾處前後不一致。Table 1 只有標為「(a) BI-RADS」的部分，乳房密度的絕對 macro-F1 沒有出現；正文說 Figure 3 涵蓋 BI-RADS 與乳房密度兩項任務，圖說卻只寫 BI-RADS；Figure 2 出現 Breast mask、Geometry、Density w/ mask 等標籤，Appendix D 的九個工具中沒有對應說明；Figure 1 把代理標為「Frozen Medical MLLM」，實驗使用的 Qwen3.5-35B-A3B 則是通用模型。本文依實驗節與附錄的描述處理。[(ref: main Table 1)](https://arxiv.org/pdf/2609.31789v1#page=6) [(ref: main Figure 3)](https://arxiv.org/pdf/2609.31789v1#page=7) [(ref: main Figure 1)](https://arxiv.org/pdf/2609.31789v1#page=3)
 

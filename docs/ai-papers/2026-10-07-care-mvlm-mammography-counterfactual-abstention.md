@@ -133,7 +133,7 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-MammoClaw 讓凍結的 MLLM 透過確定性工具與演化出的技能讀乳房攝影，只評估答案的 macro-F1；本篇在同一個影像領域另外量測證據框是否對應病灶、以及病灶被移除後會不會棄答，補上 MammoClaw 沒有檢查的「答案有沒有依據」: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，仍低於全猜第一類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
+MammoClaw 讓凍結的 MLLM 透過確定性工具與演化出的技能讀乳房攝影，只評估答案的 macro-F1；本篇在同一個影像領域另外量測證據框是否對應病灶、以及病灶被移除後會不會棄答，補上 MammoClaw 沒有檢查的「答案有沒有依據」: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
 
 OCT 影像依賴稽核在推論端固定理由、替換影像，量測影像對決策的實際貢獻；本篇則把「移除影像證據」做成訓練與評估用的反事實視圖，並以 random removal 對照排除「只是對編輯起反應」，兩篇從稽核端與訓練端處理同一個「答案是否真的依賴影像證據」的問題: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
 

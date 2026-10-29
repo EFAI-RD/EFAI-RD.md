@@ -181,7 +181,7 @@ MAIRA-2 在 MedRAX 中提供文字發現的影像定位，兩篇可接續比較�
 
 上述工具關係由 MedRAX §3.2 與 §5.1 記載；本書庫建議先對齊輸入與指標設定，再比較兩篇的報告生成表格。[(ref: main §3.2)](https://arxiv.org/html/2502.02673v2#S3.SS2) [(ref: main §5.1)](https://arxiv.org/html/2502.02673v2#S5.SS1)
 
-MammoClaw 刻意只給代理不含學習模組的確定性工具，結果光給工具並不會提升乳房攝影 BI-RADS 的 macro-F1，與本篇把既有影像模型包成工具的做法對照，可看出工具代理的效益同時取決於工具本身與代理怎麼用它: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，仍低於全猜第一類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
+MammoClaw 刻意只給代理不含學習模組的確定性工具，結果光給工具並不會提升乳房攝影 BI-RADS 的 macro-F1，與本篇把既有影像模型包成工具的做法對照，可看出工具代理的效益同時取決於工具本身與代理怎麼用它: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
 
 VoxelSage 把肝腫瘤 CT 的體積、直徑與距離量測寫成確定性程式技能，並與 LLM 部署在不同服務，和本篇把學習模型包成工具的做法對照，可看出「工具是模型」與「工具是程式」兩種工具代理的設計取捨: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
 

@@ -154,7 +154,7 @@ evidence_reviewed: true
 
 老年照護構念基準在四家院所比較規則引擎、GPT-4o 與微調小模型的病歷抽取，本篇則在單一機構的腫瘤病歷上比較微調 encoder 與兩個零樣本開放權重模型，兩篇都顯示參考標準與資料來源會左右「哪種方法較好」的結論: [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
 
-假釋／緩刑偵測那篇完全不用真實病歷標註、只用 LLM 合成資料訓練或提供範例，本篇則比較零樣本模型與以真實病歷標註微調的 GatorTron，兩篇對照可以看出「省掉標註」的兩種做法在真實病歷上各自付出的代價: [一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句合成資料（訓練集 5,305 句），換到 293 份 VA 病歷偵測假釋／緩刑，Llama 守在 81–87% macro-F1，encoder 跌到 30%](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
+假釋／緩刑偵測那篇完全不用真實病歷標註、只用 LLM 合成資料訓練或提供範例，本篇則比較零樣本模型與以真實病歷標註微調的 GatorTron，兩篇對照可以看出「省掉標註」的兩種做法在真實病歷上各自付出的代價: [一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句合成資料（訓練集 5,305 句），換到 293 份 VA 病歷偵測假釋／緩刑，Llama 3.3-70B 以合成範例 few-shot 達 87% macro-F1、微調的 Llama 3.1-8B 達 81%，encoder 跌到 30%](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
 
 時間關係抽取那篇在 i2b2 出院摘要上把 GatorTron 與 LLaMA3.1-8B、MeLLaMA-13B 放進同一組微調與 PEFT 策略比較，本篇則在真實腫瘤病歷上比較微調 GatorTron-base 與零樣本 LLM，兩篇合起來看可以區分「模型選擇」與「調適方式」各自對病歷抽取表現的影響: [病歷時間關係抽取該怎麼調模型？i2b2 2012 上只調 query／value 的 QLoRA 讓 LLaMA3.1-8B 達 89.15% micro-F1，但每類只給一例時沒有一種做法超過 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
 
