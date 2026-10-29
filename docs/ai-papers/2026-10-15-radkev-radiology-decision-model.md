@@ -132,6 +132,8 @@ evidence_reviewed: true
 
 ASA 分級那篇在麻醉術前資料上比較同一種「讀選項機率」的 readout、生成式提示與 LoRA，並發現少量在地標籤調門檻就能讓 κ 接近 LoRA，但換成 OpenJev 實作就不成立，可與本篇的延遲與外院結果對照，看 decision model 的優勢哪些可以跨任務延續: [不生成理由、只讀 A–D 選項的機率：Qwen3.5-9B 分 ASA 身體狀態，比生成式提示快約 64 倍，再用 1,000 個在地標籤調三個門檻，κ 只比 LoRA 低約 0.02，標籤再多 LoRA 仍會拉開](2026-10-28-asa-ps-llm-readout-vs-lora.md)
 
+NIHSS 逐字稿那篇把本篇作為比較對象之一的託管 decision model Jev，拿去與 LLM 正面對照從床邊檢查對話逐項打分，Jev 延遲約為 LLM 的四十分之一、準確率較低，且錯誤集中在少數可命名的項目型態: [從床邊檢查逐字稿直接打 NIHSS：112 個合成中風案例上，LLM 項目準確率 99.0%、decision model Jev 94.4% 但快約 40 倍；病例、逐字稿與答案卷都由 LLM 產生，人工審查尚未完成](2026-10-29-nihss-transcript-decision-model-vs-llm.md)
+
 ## 實務的啟發
 
 - **可借用的量測方法** — 評估選擇題形式的放射 AI 時，加一組 options-only 對照（拿掉病例、只給選項），並分開報告「訓練過的來源」與「只用於評估的來源」；本篇這兩項分析讓 4.9 點的平均增益能被拆開解讀。

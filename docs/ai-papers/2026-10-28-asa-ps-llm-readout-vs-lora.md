@@ -159,6 +159,8 @@ RadKev 把「一次前向傳遞給出每個選項機率」的 decision model 拿
 
 病歷時間關係抽取那篇比較 prompting 與 QLoRA 等調適方式在資料充足與每類一例時的差距，本篇則把同一個問題延伸到「需要多少在地標籤 LoRA 才划算」，在 ASA 分級上找到約 270 個標籤的交叉點: [病歷時間關係抽取該怎麼調模型？i2b2 2012 上只調 query／value 的 QLoRA 讓 LLaMA3.1-8B 達 89.15% micro-F1，但每類只給一例時沒有一種做法超過 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
 
+NIHSS 逐字稿那篇同樣比較選項式 decision model 與生成式 LLM 的準確率、延遲與成本，但資料是 LLM 生成的合成檢查對話，並以 confidence 分流做 hybrid 模擬；本篇則在真實術前資料上加入少量標籤校準與 LoRA 的比較: [從床邊檢查逐字稿直接打 NIHSS：112 個合成中風案例上，LLM 項目準確率 99.0%、decision model Jev 94.4% 但快約 40 倍；病例、逐字稿與答案卷都由 LLM 產生，人工審查尚未完成](2026-10-29-nihss-transcript-decision-model-vs-llm.md)
+
 ## 實務的啟發
 
 - **可借用的做法** — 答案可以列舉的病歷分類任務，先試「讀選項字母機率＋少量在地標籤調門檻」作為不需訓練的起點；本篇在院內只用 100 個標籤就從 0.443 升到 0.526，且不必為每家院所訓練與保存 adapter。這是單一基礎模型、三個資料來源的結果，換任務或換模型前需要複驗。
