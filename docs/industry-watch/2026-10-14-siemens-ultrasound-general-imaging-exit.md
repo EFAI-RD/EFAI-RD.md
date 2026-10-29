@@ -24,6 +24,8 @@ related_articles:
     relation: "同一週內兩家影像大廠的相反方向組合調整：該則是買進一個模態的供應鏈，本則是退出一個模態的通用市場"
   - path: "2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md"
     relation: "相隔八天的同一家公司兩則公告剛好互為說明：本則宣布退出通用影像超音波、把超音波業務收攏到 procedural imaging 與 image-guided therapy，該則就是同一個方向在另一條產線上的具體產品"
+  - path: "2026-10-29-ge-healthcare-q3-2026-results.md"
+    relation: "本則因為公告未揭露被退出業務的規模，把「想要量級就必須等財報或投資人說明會」寫進後續追蹤；該則就是同產業另一家公司的那一份財報，而結果是這個期待只被部分滿足 —— 財報補上了分部層級的營收與利潤率，卻同樣沒有任何單一產品線的數字"
 refs:
   pr:
     title: "Siemens Healthineers：Siemens Healthineers Sharpens Ultrasound to Focus on the Future of Procedural Imaging（官方新聞稿）"
@@ -156,6 +158,8 @@ ACUSON Origin 產品頁提供的是硬體與組態規格，不是效能指標：
 相隔七天，兩家影像大廠對同一個市場區隔做出方向完全相反的決定：本則是 Siemens Healthineers 公告日即停售四款通用影像超音波，理由寫著這個市場「供給充足、有多家既有廠商」；該則是 GE HealthCare 以「擴充通用影像超音波產品線」為標題發表新機 LOGIQ Focus。兩份公告都沒有提到對方，而同一個市場事實同時支持了退出與進入兩種決策 —— 兩則並讀可以看出，大廠公告裡的市場描述是策略的結果而不是策略的理由: [GE HealthCare 發表 LOGIQ Focus 通用影像超音波系統，並在三個官方頁面引用同一項 Use-Lab 比較研究](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
 相隔八天的同一家公司兩則公告剛好互為說明：本則宣布停售四款通用影像超音波、把超音波業務收攏到 procedural imaging 與 image-guided therapy，該則就是同一個方向在另一條產線上的具體產品，而該則具名發言人的職稱正是 `head of Image-Guided Surgery and Robotics`，兩則並讀可以把一則「退出」與一則「發表」看成同一項組合調整的兩端: [Siemens Healthineers 在 DKOU 2026 發表行動式 C 臂 Cios Go ID：兩位醫院人員以現在式描述使用經驗，同一頁三行沒有編號的小字寫著這項產品尚未符合 MDR 2017/745 的全部要求、也尚未商業化供應](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
+
+本則因為公告未揭露被退出業務的規模，把「想要量級就必須等財報或投資人說明會」寫進後續追蹤；該則就是同產業另一家公司的那一份財報，而結果是這個期待只被部分滿足 —— 財報補上了分部層級的營收與利潤率，卻同樣沒有任何單一產品線的數字: [GE HealthCare 公布 2026 年第三季財報：「各部門都成長、利潤率都擴張」成立於這一季，而同一份文件的前九個月欄位寫著淨利率 −20 個基點、調整後 EBIT 利潤率零變動，Patient Care Solutions 的九個月營收是 −4.0%](2026-10-29-ge-healthcare-q3-2026-results.md)
 
 ## 實務的啟發
 

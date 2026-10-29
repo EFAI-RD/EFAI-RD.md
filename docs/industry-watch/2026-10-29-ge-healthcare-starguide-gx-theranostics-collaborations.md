@@ -24,6 +24,8 @@ related_articles:
     relation: "兩則都必須離開公告頁去讀同一家公司的其他頁面才能確定法規與供應狀態，但矛盾出現的位置不同"
   - path: "2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md"
     relation: "同一家公司 theranostics 布局的治療端與造影端兩則公告，共同點是標題涵蓋面大於公告內可核對的範圍"
+  - path: "2026-10-29-ge-healthcare-q3-2026-results.md"
+    relation: "本則逐字比對了兩份相隔六週的 StarGuide GX 公告，而同一台機器在該則的季度財報裡只剩一條沒有任何數字的項目符號（`now 510(k) pending with the U.S. FDA`）；兩則並讀是同一件事的兩種揭露密度，而該則的分部表顯示 StarGuide GX 所屬的 Advanced Imaging Solutions 是三個分部中 Organic 成長最慢的一個"
 refs:
   pr:
     title: "GE HealthCare：GE HealthCare announces five new global clinical collaborations to advance the next generation of theranostics imaging（官方新聞稿，2026-10-20）"
@@ -146,6 +148,8 @@ GE HealthCare 在 2026-10-20 的新聞稿宣布，Hadassah Medical Center（以�
 兩則都必須離開公告頁、去讀同一家公司的其他頁面才能確定法規與供應狀態，但矛盾出現的位置不同：該則是公司的產品頁與新聞稿對 CE Mark 直接互相牴觸，本則的產品目錄與公告並不牴觸（美國目錄沒有這台機器，正與公告一致），不一致出現在同一家公司前後兩篇新聞稿之間，對同一條感度宣稱的量測方法與同一台機器的可販售範圍給出不同寫法: [GE HealthCare 宣布 MINItrace Magni 取得 CE Mark：公告發出四天後，自家產品頁仍寫著 Not CE marked，而標題並列的 Copper-64 是另一條產線的能力](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
 
 同屬 GE HealthCare 的 theranostics 布局，該則是治療端 —— 花 9.45 億美元買下放射性藥物配送的最後一哩，本則是造影端 —— 把評估鋪到三大洲五家機構；兩則的共同特徵是標題涵蓋面都大於公告內可核對的範圍，該則的 pan-cancer 實際只有兩種癌別的第三期試驗，本則的 next generation of theranostics imaging 實際只有一條倍數宣稱: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+
+本則逐字比對了兩份相隔六週的 StarGuide GX 公告，而同一台機器在該則的季度財報裡只剩一條沒有任何數字的項目符號（`now 510(k) pending with the U.S. FDA`）；兩則並讀是同一件事的兩種揭露密度，而該則的分部表顯示 StarGuide GX 所屬的 Advanced Imaging Solutions 是三個分部中 Organic 成長最慢的一個: [GE HealthCare 公布 2026 年第三季財報：「各部門都成長、利潤率都擴張」成立於這一季，而同一份文件的前九個月欄位寫著淨利率 −20 個基點、調整後 EBIT 利潤率零變動，Patient Care Solutions 的九個月營收是 −4.0%](2026-10-29-ge-healthcare-q3-2026-results.md)
 
 ## 實務的啟發
 
