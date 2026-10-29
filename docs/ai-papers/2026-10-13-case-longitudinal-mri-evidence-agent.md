@@ -154,7 +154,7 @@ Qwen3.8-Max 是產生 SFT 示範的 teacher；Kimi K2.6 同時是 RSFT 篩選與
 
 ## 與書庫其他文章的關係
 
-MammoClaw 讓凍結的 MLLM 從失敗軌跡歸納文字技能、不更新模型權重，CASE 則把 recall_skills／write_skill 當成代理的工具之一，並改用 RSFT 加 agentic RL 直接更新 8B 模型，兩篇對照了「改提示詞」與「改權重」兩種讓代理學會用工具的路線: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，仍低於全猜第一類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
+MammoClaw 讓凍結的 MLLM 從失敗軌跡歸納文字技能、不更新模型權重，CASE 則把 recall_skills／write_skill 當成代理的工具之一，並改用 RSFT 加 agentic RL 直接更新 8B 模型，兩篇對照了「改提示詞」與「改權重」兩種讓代理學會用工具的路線: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
 
 VoxelSage 與 CASE 都把 VISTA3D 分割後的量測交給代理調用，VoxelSage 停在系統測試與模擬器，CASE 則在 4,850 題保留集上與十二個模型比較，但兩篇都沒有臨床人員參與的評估: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
 

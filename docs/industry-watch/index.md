@@ -30,6 +30,6 @@
 | 2026-09-17 | [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](2026-09-17-fda-genai-devices-discussion-paper.md) | Curitis | 2026-08-18 討論文件；意見至 10-19 |
 | 2026-09-15 | [Amodei 發表〈We Must Pace the Frontier〉：OpenAI 承諾跟進常駐評估者制度，DeepMind 與 xAI 的支持目前僅見單一媒體報導](2026-09-15-amodei-pace-the-frontier.md) | Clare | 09-12 原文；各方回應至 09-14 |
 | 2026-09-15 | [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](2026-09-15-fda-cardio-ml-notification.md) | Curitis | 21 CFR 870.2380 |
-| 2026-09-15 | [arXiv 編輯負責人澄清未核對 LLM 內容的處罰：幻覺引用等可致一年禁投，而官網條款仍只寫作者責任與揭露](2026-09-15-arxiv-ai-content-policy.md) | Curitis | 2026-05 處罰澄清 |
+| 2026-09-15 | [arXiv CS 領域編輯負責人澄清未核對 LLM 內容的處罰：幻覺引用等可致一年禁投；官網條款本身寫的是作者責任、揭露與不得掛名 AI](2026-09-15-arxiv-ai-content-policy.md) | Curitis | 2026-05 處罰澄清 |
 
 [Home](../) · [Industry Watch](./)
