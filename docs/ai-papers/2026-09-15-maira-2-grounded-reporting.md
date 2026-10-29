@@ -189,6 +189,8 @@ Lingshu 導讀著重通用醫療 VLM 的資料與訓練，本篇則可接續閱�
 
 本篇把前次影像與前次報告一起交給 LLM，CPVB-RG 則只用同一病人的前次影像與臨床文字、以 82M 解碼器生成報告，並在 ReXrank Findings 評估中把本篇列為 7B 對照: [CPVB-RG：把前後兩張胸片的「變化」與「共同結構」分開處理再寫報告，82M 解碼器對最接近的 prior-aware 基線 PriorRG 在 F1RadGraph 多 0.0090、VLScore 多 0.0582](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
 
+本篇的影像編碼器 RAD-DINO-MAIRA-2 被 CoRE 當作 linear probing 與 full fine-tuning 的骨幹之一，兩篇也都用 MS-CXR 評估定位；本篇把定位寫進生成的報告，CoRE 則把部位直接放進分類標籤: [CoRE：把胸片標籤拆成 252 個「部位－發現」配對，以共現分組的 prompt 與區域證據調整凍結的 EVA-X，2.09M 可訓練參數下 macro AUROC 比 ML-VPT 高 0.0147](2026-10-29-core-cxr-region-finding-cooccurrence.md)
+
 ## 實務的啟發
 
 以下是本書庫提出的研究與工程建議：
