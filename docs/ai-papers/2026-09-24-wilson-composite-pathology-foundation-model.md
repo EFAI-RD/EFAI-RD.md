@@ -13,7 +13,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 把一個病例壓成一張圖：WILSON 用 composite 取代數千個 tile，診斷資訊還剩多少？
+# 每次前向傳遞只看一張圖：WILSON 用多倍率 composite 取代數千個 tile，但每張切片會生成 10 張 composite，診斷資訊還剩多少？
 
 ## 來源
 
@@ -31,7 +31,7 @@ evidence_reviewed: true
 
 ![左側為既有的 tile 編碼加特徵聚合管線，右側為 WILSON 以區域挑選組成單張 8×8 多倍率 composite 後一次前向傳遞的管線](assets/wilson-composite-representation.png)
 
-圖：本書庫依論文 Method 章節繪製的編輯示意圖，不含論文數值、病理影像或成效宣稱。左右兩側的差別在於「送進視覺編碼器的是什麼」：既有做法送進數千個各自獨立的 tile，再由一個聚合器把特徵合起來；WILSON 送進一張已經包含多個位置、多種倍率的 composite 影像。[(ref: main §4 Multi-magnification composite generation)](https://arxiv.org/html/2609.25123v1#S4.SSx4) [(ref: main Fig. 6)](https://arxiv.org/html/2609.25123v1#S4.F6)
+圖：本書庫依論文 Method 章節繪製的編輯示意圖，不含論文數值、病理影像或成效宣稱。左右兩側的差別在於「送進視覺編碼器的是什麼」：既有做法送進數千個各自獨立的 tile，再由一個聚合器把特徵合起來；WILSON 送進一張已經包含多個位置、多種倍率的 composite 影像。圖面畫的是單次前向傳遞的輸入；每張切片實際會生成 10 張這樣的 composite。[(ref: main §4 Multi-magnification composite generation)](https://arxiv.org/html/2609.25123v1#S4.SSx4) [(ref: main Fig. 6)](https://arxiv.org/html/2609.25123v1#S4.F6)
 
 ## 背景／問題
 
@@ -47,7 +47,7 @@ evidence_reviewed: true
 
 ## 方法摘要
 
-WILSON 把每張 WSI 表示成一張 2048×2048 的 composite 影像：8×8 排列的 256×256 tile，每一列是一個組織位置、每一行是該位置的不同倍率。病例層級分析時，同一病例多張切片的區域會被放進同一張 composite。[(ref: main §4 Multi-magnification composite generation)](https://arxiv.org/html/2609.25123v1#S4.SSx4)
+WILSON 把一張 WSI（病例層級分析時則是同一病例的多張切片）表示成 2048×2048 的 composite 影像：8×8 排列的 256×256 tile，每一列是一個組織位置、每一行是該位置的不同倍率。要注意的是「一張圖」描述的是**編碼器單次前向傳遞的輸入**，不是每張切片只產生一張：同一張切片（或病例）會生成 **10 張** composite [(ref: main §4 Multi-magnification composite generation)](https://arxiv.org/html/2609.25123v1#S4.SSx4)，訓練語料共 1,759,787 張 composite、平均約 9.9 張／WSI [(ref: main Fig. 1d)](https://arxiv.org/html/2609.25123v1#S0.F1)，檢索與下游評估因此都在這 10 張上重複執行並報標準差 [(ref: main §4 Zero-shot retrieval evaluation)](https://arxiv.org/html/2609.25123v1#S4.SSx9)。
 
 訓練資料來自 Mayo Clinic 臨床檔案，經過刻意壓平分布的取樣後得到 189,291 張 WSI（Mayo189K），涵蓋 42 個器官類別；監督訊號來自病理報告本身，由大型語言模型清理並改寫成多個語意相同、用字不同的 caption。[(ref: main §4 Case selection)](https://arxiv.org/html/2609.25123v1#S4.SSx2) [(ref: main §4 Report-derived supervision)](https://arxiv.org/html/2609.25123v1#S4.SSx3)
 
@@ -57,7 +57,7 @@ WILSON 把每張 WSI 表示成一張 2048×2048 的 composite 影像：8×8 排�
 
 ## 方法詳解
 
-**Composite 怎麼組出來。** 論文把這條管線稱為 COMPOSITE，分三個階段。第一階段每個器官執行一次，從健康切片抽 tile、用 DINO 預訓練的 Vision Transformer 取 CLS embedding，以 MiniBatch k-means 分成 200 群並把群心換成 medoid，建立該器官的正常組織參考。第二階段對病變切片的每個 tile 計算「到 200 個正常原型的最小歐氏距離」作為異常度分數，同時用品質 logits 丟掉 artifact。第三階段不直接取分數最高的前 k 個（那會全部集中在同一處病灶），而是把組織外框切成空間格、每格取分數最高者，再用全域次高者補空格，最後得到每張切片 60 個位置，依異常度輪流分配到 10 張 composite。[(ref: main Fig. 6)](https://arxiv.org/html/2609.25123v1#S4.F6)
+**Composite 怎麼組出來。** 論文把這條管線稱為 COMPOSITE，分三個階段。第一階段每個器官執行一次，從健康切片抽 tile、用 DINO 預訓練的 Vision Transformer 取 CLS embedding，以 MiniBatch k-means 分成 200 群並把群心換成 medoid，建立該器官的正常組織參考。第二階段對病變切片的每個 tile 計算「到 200 個正常原型的最小歐氏距離」作為異常度分數，同時用品質 logits 丟掉 artifact。第三階段不直接取分數最高的前 k 個（那會全部集中在同一處病灶），而是把組織外框切成空間格、每格取分數最高者，再用全域次高者補空格，再把選出的位置依異常度輪流分配到 **10 張** composite，使每張 composite 都橫跨整個異常度範圍與全部空間區域，而不是把最不正常的位置集中在同一張。每張 composite 的位置數是可設定參數：論文示意圖畫的是六位置版本（6×6 網格，對應每張切片 60 個位置），而**所有實驗都採八位置的 8×8 版本**。[(ref: main Fig. 6)](https://arxiv.org/html/2609.25123v1#S4.F6)
 
 同一張 composite 內部，列是依異常度排序的組織位置，行是由 1.25× 情境視野往 5× 與 20× 逐步推進的多尺度細節。論文給的 8×8 範例是八個低倍區域（8 μm/pixel）各自搭配三個中倍（2 μm/pixel）與四個高倍（0.5 μm/pixel）區域。[(ref: main Fig. 6)](https://arxiv.org/html/2609.25123v1#S4.F6)
 
