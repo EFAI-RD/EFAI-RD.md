@@ -23,6 +23,8 @@ related_articles:
     relation: "兩則都缺少可用的比較基準，該則是只給相對倍數而無絕對分數，本則是給了絕對規格卻沒有對照機型"
   - path: "2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md"
     relation: "兩則都缺少讀者自行設定驗收門檻所需的那個數字，但缺法相反：本則給了九個全為上下限、沒有典型值也沒有對照機型的規格，該則給的 62.3% 恰恰就是論文算出來的典型值，只是新聞稿沒說它是模型對一位虛構病人的推算，而真正能對照臨床門檻的絕對值留在論文裡"
+  - path: "2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md"
+    relation: "同一家公司、同一種發表方式，而本則的限定條件可見度較高：本則的 `510(k) pending` 與「尚未在任何市場銷售」寫在有編號的註腳裡，該則的三行限定在頁面原始碼中的上標只放了一個空白字元，正文沒有任何可對應的錨點"
 refs:
   pr:
     title: "Siemens Healthineers：The Future of Radiotherapy is Here — Siemens Healthineers Launches Accela（官方新聞稿）"
@@ -147,6 +149,8 @@ Siemens Healthineers 在 ASTRO 2026 發表 Accela，官方標題直接寫「放�
 兩則都缺少讀者自行設定驗收門檻所需的那個數字，但缺法相反：本則給了九個全為上下限、沒有典型值也沒有對照機型的規格，該則給的 62.3% 恰恰就是論文算出來的典型值，只是新聞稿沒說它是模型對一位虛構病人的推算，而真正能對照臨床門檻的絕對值留在論文裡: [GE HealthCare 發布密西根大學 End-tidal Control 研究：新聞稿裡的 62.3% 是論文為「典型病人」建構的模型推算值，而出面肯定這項研究的 GE 高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
 
 兩則都是「標題宣告法規里程碑、限定條件寫在別處」的案例，但限定條件的位置相反：本則的 `510(k) pending` 與「尚未在任何市場銷售」就寫在同一頁的註腳裡，讀者往下捲就看得到；該則的公告頁一條註腳都沒有，`Not CE marked` 寫在公司自己的產品頁上，必須換一個頁面才會發現: [GE HealthCare 宣布 MINItrace Magni 取得 CE Mark：公告發出四天後，自家產品頁仍寫著 Not CE marked，而標題並列的 Copper-64 是另一條產線的能力](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
+
+同一家公司、同一種發表方式，而兩則的限定條件可見度不同：本則的 `510(k) pending` 與「尚未在任何市場銷售」寫在有編號的註腳裡，讀者順著編號就找得到；該則的三行限定在頁面原始碼中的上標只放了一個空白字元，正文連一個可對應的錨點都沒有，兩則並讀可以看出「限定條件寫在哪裡」這件事有連續的層級，而不是有或沒有的二分: [Siemens Healthineers 在 DKOU 2026 發表行動式 C 臂 Cios Go ID：兩位醫院人員以現在式描述使用經驗，同一頁三行沒有編號的小字寫著這項產品尚未符合 MDR 2017/745 的全部要求、也尚未商業化供應](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
 
 ## 實務的啟發
 

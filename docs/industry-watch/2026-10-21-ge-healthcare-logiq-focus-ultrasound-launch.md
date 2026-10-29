@@ -20,6 +20,8 @@ related_articles:
     relation: "同一家公司四天內的兩則公告，自家產品頁與新聞稿的關係一次是互相牴觸、一次是互相補足"
   - path: "../ai-papers/2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md"
     relation: "該研究稽核的是讀影像的演算法，本則記錄的是產生影像的機器，兩者對「AI 要附什麼證據」的標準落差極大"
+  - path: "2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md"
+    relation: "兩則都是取像端機台的發表，但廠商替自己設定的證據門檻差距很大：本則委託第三方做了 21 位醫師的比較研究並公開四頁白皮書，該則的產品頁雖有一個標示為 Evidence 的區塊，裡面放的是一張假體影像與兩段使用者證言"
 refs:
   pr:
     title: "GE HealthCare：GE HealthCare expands general imaging ultrasound portfolio with LOGIQ Focus, elevating everyday ultrasound performance（官方新聞稿，2026-10-19）"
@@ -147,6 +149,8 @@ GE HealthCare 在 2026-10-19 發表 LOGIQ Focus，定位是把高階機種的影
 同一家公司四天內的兩則公告，自家產品頁與新聞稿的關係正好相反：該則的產品頁在公告發出四天後仍寫著 `Not CE marked`，與新聞稿的 CE Mark 宣稱**互相牴觸**；本則的產品頁與白皮書則補上了新聞稿**省略**的比較對象與對競品的無差異結果，是互相補足。兩則合看得到同一個操作結論 —— 要知道一則公告實際涵蓋到哪裡，必須離開公告頁去讀同一家公司的其他頁面，而離開之後會看到什麼並不固定: [GE HealthCare 宣布 MINItrace Magni 取得 CE Mark：公告發出四天後，自家產品頁仍寫著 Not CE marked，而標題並列的 Copper-64 是另一條產線的能力](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
 
 該研究稽核的是讀超音波的演算法，本則記錄的是產生超音波影像的機器，而兩者的證據標準落差極大：該研究必須報出 300 顆腫塊的敏感度、特異度與對照方法才能下結論，本則的自動射出分率量測工具在兩個官方頁面上連一個一致性數字都沒有。兩篇並讀說明醫療 AI 的證據要求目前集中在判讀端，而取像端的變異同樣會進到病人的報告裡: [把超音波描述交給 ChatGPT 判良惡性：300 顆附件腫塊，和 IOTA 規則、ADNEX 與專家差多少？](../ai-papers/2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md)
+
+兩則都是取像端機台的發表，但廠商替自己設定的證據門檻差距很大：本則委託第三方執行了 21 位醫師參與的比較研究並公開四頁白皮書，缺陷在於對競品無時間差異的那一組結果沒有進新聞稿；該則的產品頁雖然設了一個標示為 `Evidence` 的區塊，裡面放的是一張假體影像與兩段使用者證言，全頁的 `study` 與 `trial` 命中數為 0，兩則並讀可以看出取像端設備的證據形態目前完全由各廠商自訂: [Siemens Healthineers 在 DKOU 2026 發表行動式 C 臂 Cios Go ID：兩位醫院人員以現在式描述使用經驗，同一頁三行沒有編號的小字寫著這項產品尚未符合 MDR 2017/745 的全部要求、也尚未商業化供應](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
 
 ## 實務的啟發
 
