@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-29 | [Siemens Healthineers 在 DKOU 2026 發表行動式 C 臂 Cios Go ID：兩位醫院人員以現在式描述使用經驗，同一頁三行沒有編號的小字寫著這項產品尚未符合 MDR 2017/745 的全部要求、也尚未商業化供應](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md) | Clarence | 2026-10-20 官方新聞稿；產品頁 17 個上標中 16 個是「選配」，Evidence 區塊內容為假體影像與兩段證言 |
 | 2026-10-28 | [Anthropic 公布 Claude 參與的六個藥物開發合作案：公告說抗體「結塊慢 100 倍以上」，技術報告寫明那是單一個孔的讀數，而判定成功的規格是看過結果之後才定的](2026-10-28-anthropic-drug-development-case-studies.md) | Clarence | 2026-10-27 官方公告；樣本數與六段利益揭露只存在於同頁可展開面板 |
 | 2026-10-22 | [OpenAI 公布以 AI 代理群解讀全腦 Perturb-seq 圖譜：公告寫「引用逾 700 篇」，它所連結的論文寫的是「711 倍」](2026-10-22-openai-distributed-agents-perturb-seq-atlas.md) | Clarence | 2026-10-21 官方公告；所依據的 bioRxiv 預印本未經同儕審查，75% 的分母是 20 組配對共 60 次判斷 |
 | 2026-10-21 | [GE HealthCare 發表 LOGIQ Focus 通用影像超音波系統，並在三個官方頁面引用同一項 Use-Lab 比較研究](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md) | Clarence | 2026-10-19 官方新聞稿；「快 26%」比的是自家前代機，同一研究對競品無時間差異 |
