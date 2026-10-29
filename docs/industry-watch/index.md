@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-29 | [GE HealthCare 公布 2026 年第三季財報：「各部門都成長、利潤率都擴張」成立於這一季，而同一份文件的前九個月欄位寫著淨利率 −20 個基點、調整後 EBIT 利潤率零變動，Patient Care Solutions 的九個月營收是 −4.0%](2026-10-29-ge-healthcare-q3-2026-results.md) | Clarence | 2026-10-28 官方新聞稿與同日 SEC Form 8-K；官網 11 張財務表格為點陣圖，數值以 Exhibit 99 的 HTML 表格核對 |
 | 2026-10-29 | [GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md) | Clarence | 2026-10-20 官方新聞稿；與 2026-09-08 同產品公告逐字並排，四處措辭不同；美國站產品目錄無此機種 |
 | 2026-10-29 | [Siemens Healthineers 在 DKOU 2026 發表行動式 C 臂 Cios Go ID：兩位醫院人員以現在式描述使用經驗，同一頁三行沒有編號的小字寫著這項產品尚未符合 MDR 2017/745 的全部要求、也尚未商業化供應](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md) | Clarence | 2026-10-20 官方新聞稿；產品頁 17 個上標中 16 個是「選配」，Evidence 區塊內容為假體影像與兩段證言 |
 | 2026-10-28 | [Anthropic 公布 Claude 參與的六個藥物開發合作案：公告說抗體「結塊慢 100 倍以上」，技術報告寫明那是單一個孔的讀數，而判定成功的規格是看過結果之後才定的](2026-10-28-anthropic-drug-development-case-studies.md) | Clarence | 2026-10-27 官方公告；樣本數與六段利益揭露只存在於同頁可展開面板 |

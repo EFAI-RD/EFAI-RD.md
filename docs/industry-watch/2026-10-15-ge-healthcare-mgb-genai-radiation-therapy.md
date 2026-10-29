@@ -23,6 +23,8 @@ related_articles:
     relation: "兩則都是標題的完成式或效益語氣涵蓋範圍大於內文可核對的數字，差別在於該則的五個案例至少各有一個可指認的進行階段，本則的生成式 AI 部分則連一個數字都沒有"
   - path: "2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md"
     relation: "同一家公司相隔三天的兩則公告剛好是同一個問題的兩端：本則的生成式 AI 部分連一個數字都沒有，該則則有一篇開放取用的同儕審查論文可供逐項回查；但兩則出現了同一個動作 —— 把論文裡帶限定條件的數字抽出來，限定條件留在原處，本則是略去讓步子句的後半段，該則是略去「這是模型對一位虛構病人的推算」"
+  - path: "2026-10-29-ge-healthcare-q3-2026-results.md"
+    relation: "本則的放射治療生成式 AI 合作，在該則的季度財報裡被列為八條 innovation and commercial highlights 之一，而那是整份 5,251 字文件中唯一一條帶有 AI 字樣的項目；兩則並讀可以看出同一項合作在不同文件體裁裡的密度差距 —— 本則至少給出「前置期 30 天降到 8 天」這個可追問的數字，該則的季報連一個數字都沒有，而 `artificial intelligence` 在該文件裡只出現一次且位於風險因子清單"
 refs:
   pr:
     title: "GE HealthCare：GE HealthCare Expands Research Collaboration to Explore Using Generative AI for More Personalized Radiation Therapy（官方新聞稿）"
@@ -133,6 +135,8 @@ GE HealthCare 在 2026-09-23 宣布與 Mass General Brigham 擴大研究合作�
 兩則都是標題的效益語氣涵蓋範圍大於內文可核對的數字，差別在於程度：該則五個合作案至少各有一個可指認的進行階段與一個報出的篩檢量，本則的生成式 AI 部分則連一個數字都沒有，唯一的數字屬於合作之前的既有軟體: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量](2026-10-08-medgemma-global-deployment-claims.md)
 
 同一家公司相隔三天的兩則公告剛好是同一個問題的兩端：本則的生成式 AI 部分連一個數字都沒有，該則則有一篇開放取用的同儕審查論文可供逐項回查；但兩則出現了同一個動作 —— 把論文裡帶限定條件的數字抽出來，限定條件留在原處，本則是略去讓步子句的後半段，該則是略去「這是模型對一位虛構病人的推算」: [GE HealthCare 發布密西根大學 End-tidal Control 研究：新聞稿裡的 62.3% 是論文為「典型病人」建構的模型推算值，而出面肯定這項研究的 GE 高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
+
+本則的放射治療生成式 AI 合作，在該則的季度財報裡被列為八條 innovation and commercial highlights 之一，而那是整份 5,251 字文件中唯一一條帶有 AI 字樣的項目；兩則並讀可以看出同一項合作在不同文件體裁裡的密度差距 —— 本則至少給出「前置期 30 天降到 8 天」這個可追問的數字，該則的季報連一個數字都沒有，而 `artificial intelligence` 在該文件裡只出現一次且位於風險因子清單: [GE HealthCare 公布 2026 年第三季財報：「各部門都成長、利潤率都擴張」成立於這一季，而同一份文件的前九個月欄位寫著淨利率 −20 個基點、調整後 EBIT 利潤率零變動，Patient Care Solutions 的九個月營收是 −4.0%](2026-10-29-ge-healthcare-q3-2026-results.md)
 
 ## 實務的啟發
 
