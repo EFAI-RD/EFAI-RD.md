@@ -22,6 +22,8 @@ related_articles:
     relation: "Gartner 在本則開出的處方是 inference-tiering、routing 與 orchestration，而該篇的醫療代理正是這個處方的具體樣貌，量測交給確定性程式、大型語言模型只負責調度"
   - path: "2026-10-22-openai-distributed-agents-perturb-seq-atlas.md"
     relation: "該則提供了本則缺少的絕對量 —— 1,946 個代理、39,185 次論文閱讀、16,445 筆保留引用 —— 並把單一代理與分散代理在同樣模型、提示與工具下直接對跑，是少見把 token 用量與產出品質放在同一張表上的公開材料"
+  - path: "2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md"
+    relation: "本則預測 agentic workflow 的推論成本到 2028 年增加逾五倍，卻沒有給任何絕對量、也沒有基準年；該則是同一種寫法出現在效益側 —— 三個官方位置給出三種加速說法，而被壓縮前後的實測值一律缺席。兩則並讀可以看出成本與效益在缺少絕對值時的對稱性：都無法被否證，也都無法進入任何採購試算"
 refs:
   pr:
     title: "Gartner：Gartner Predicts AI Inference Costs Per Agentic Workflow Will Increase More Than Fivefold Through 2028（官方新聞稿）"
@@ -121,6 +123,8 @@ Gartner 在 2026-08-17 發布新聞稿，給出一個很容易被轉述成一句
 Gartner 在本則開出的處方是 inference-tiering、routing 與 orchestration，而該篇的醫療工具代理正是這個處方在醫療影像上的具體樣貌：量測交給確定性程式、大型語言模型只負責調度，從成本角度看這正是把最貴的那一段從推論移出去；該篇同時提醒這種設計的證據仍停在系統測試與模擬器，亦即成本與效益都還沒有在真實科室被量過: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](../ai-papers/2026-10-06-voxelsage-liver-ct-tool-agent.md)
 
 本則主張 agentic workflow 的推論成本將隨工作流程複雜度上升，卻沒有給任何絕對量；該則提供了一組被量出來的絕對量 —— 1,946 個代理、39,185 次論文閱讀、16,445 筆保留引用 —— 並把單一代理與分散代理在同樣模型、提示與工具下直接對跑，是少見把 token 用量與產出品質放在同一張表上的公開材料，可以當作本則那句預測的具體下界: [OpenAI 公布以 AI 代理群解讀全腦 Perturb-seq 圖譜：公告寫「引用逾 700 篇」，它所連結的論文寫的是「711 倍」](2026-10-22-openai-distributed-agents-perturb-seq-atlas.md)
+
+本則預測 agentic workflow 的推論成本到 2028 年增加逾五倍，卻沒有給任何絕對量、也沒有基準年；該則是同一種寫法出現在效益側 —— 三個官方位置給出三種加速說法，而被壓縮前後的實測值一律缺席。兩則並讀可以看出成本與效益在缺少絕對值時的對稱性：都無法被否證，也都無法進入任何採購試算: [Google DeepMind 示範用 Antigravity 搜尋抗菌胜肽：「數天變成一次對話」「in hours」「數小時變成數分鐘」三種加速說法分屬三個官方位置，沒有一個附得出絕對數值；而那個候選分子在 UniProt 的名稱，證據欄寫的是 Google:ProtNLM](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
 
 ## 實務的啟發
 
