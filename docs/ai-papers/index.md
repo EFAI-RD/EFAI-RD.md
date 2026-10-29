@@ -42,7 +42,7 @@
 | 2026-10-02 | [先教 VLM 看對地方：CARA-VL 用解剖結構導引注意力，心臟 MRI 問答能走多遠？](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md) | Clare | arXiv:2609.39899v1；Qwen2.5-VL-3B＋CARA，128,915 筆解剖定位問答＋42,799 筆臨床問答、14 項 CMR 任務與院外 In-house B |
 | 2026-10-01 | [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 用失敗軌跡演化出的技能補上「怎麼用」](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md) | Clare | arXiv:2609.31789v1；凍結 Qwen3.5-35B-A3B＋九個確定性工具，KAU-BCMD 448 例 BI-RADS、DMID 108 例密度 |
 | 2026-09-30 | [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md) | Clare | arXiv:2609.31985v1；固定 CLIP ViT-L/14 與 MIMIC-CXR 100,000 筆，九種預訓練目標 × 五項胸片任務 |
-| 2026-09-24 | [把一個病例壓成一張圖：WILSON 用 composite 取代數千個 tile，診斷資訊還剩多少？](2026-09-24-wilson-composite-pathology-foundation-model.md) | Clare | arXiv:2609.25123v1；Mayo189K 189,291 張全切片，8×8 多倍率 composite 取代 tile 聚合 |
+| 2026-09-24 | [每次前向傳遞只看一張圖：WILSON 用多倍率 composite 取代數千個 tile，但每張切片會生成 10 張 composite，診斷資訊還剩多少？](2026-09-24-wilson-composite-pathology-foundation-model.md) | Clare | arXiv:2609.25123v1；Mayo189K 189,291 張全切片，8×8 多倍率 composite 取代 tile 聚合 |
 | 2026-09-24 | [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md) | Clare | npj Health Systems 3:93；四院所 400 份病歷、49,195 標註句、41 個 CGA／4Ms 構念 |
 | 2026-09-24 | [報告在病人下檢查台前就寫好：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀](2026-09-24-orion-cmr-on-scanner-reporting.md) | Clare | arXiv:2609.23950v1；CMR 基礎模型，掃描儀端 90 秒產出報告，臨床測試 68 人 |
 | 2026-09-23 | [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md) | Clare | arXiv:2609.19730v1；EchoNet-Dynamic 10,030 部心臟超音波影片、四種分割注入做法 |
