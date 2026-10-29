@@ -23,6 +23,8 @@ related_articles:
     relation: "影像產品的可及性同時卡在供應鏈與法規兩道關卡，本則是前者、該則是後者"
   - path: "../ai-papers/2026-09-21-cxr-tb-vlm-portability-audit.md"
     relation: "新 tracer 上市等於為影像判讀引入既有模型沒見過的分布，與換評估條件就改寫結論是同一個可攜性問題的兩端"
+  - path: "2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md"
+    relation: "同一家公司 theranostics 布局的治療端與造影端兩則公告，共同點是標題涵蓋面大於公告內可核對的範圍"
 refs:
   gehc:
     title: "GE HealthCare：GE HealthCare to acquire SOFIE Biosciences, establishing a 'final mile' footprint for PET radiopharmaceutical supply in the U.S.（官方新聞稿）"
@@ -168,6 +170,8 @@ SOFIE 自己公告的兩項第三期試驗如下：
 同一家公司相隔十二天的另一則公告指向同一條治療端路線：該則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而本則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [GE HealthCare 探索放射治療生成式 AI：公告裡唯一的成效數字屬於合作之前的既有軟體，而被引來證明「流程高度分歧」的那篇研究，同一句話寫著前四種路徑涵蓋約八成病例](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
 
 同一家公司相隔十天的兩則公告，是同一個短半衰期供應問題的兩種相反解法：本則花 9.45 億美元買下美國的受託製造與配送網絡，把藥送到院方手上；該則宣布一台小型迴旋加速器取得歐洲法規許可，讓院方自己生產。兩則並讀可以看出 GE HealthCare 同時押了外包與自產兩邊，而兩則對自家計畫的規模揭露同樣稀薄: [GE HealthCare 宣布 MINItrace Magni 取得 CE Mark：公告發出四天後，自家產品頁仍寫著 Not CE marked，而標題並列的 Copper-64 是另一條產線的能力](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
+
+同屬 GE HealthCare 的 theranostics 布局，本則是治療端 —— 花 9.45 億美元買下放射性藥物配送的最後一哩，該則是造影端 —— 把評估鋪到三大洲五家機構；兩則的共同特徵是標題涵蓋面都大於公告內可核對的範圍，本則的 pan-cancer 實際只有兩種癌別的第三期試驗，該則的 next generation of theranostics imaging 實際只有一條倍數宣稱: [GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
 ## 實務的啟發
 
