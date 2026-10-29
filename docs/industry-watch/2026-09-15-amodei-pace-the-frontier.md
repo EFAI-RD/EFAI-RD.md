@@ -1,5 +1,5 @@
 ---
-title: "AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持"
+title: "Amodei 發表〈We Must Pace the Frontier〉：OpenAI 承諾跟進常駐評估者制度，DeepMind 與 xAI 的支持目前僅見單一媒體報導"
 category: industry-watch
 date: 2026-09-15
 updated: 2026-09-15
@@ -34,7 +34,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持
+# Amodei 發表〈We Must Pace the Frontier〉：OpenAI 承諾跟進常駐評估者制度，DeepMind 與 xAI 的支持目前僅見單一媒體報導
 
 ## 來源
 

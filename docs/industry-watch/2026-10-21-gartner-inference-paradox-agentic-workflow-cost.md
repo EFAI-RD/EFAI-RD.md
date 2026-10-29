@@ -1,5 +1,5 @@
 ---
-title: "Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox"
+title: "Gartner 預測「每個」agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox；新聞稿全文沒有起算基準"
 category: industry-watch
 date: 2026-10-21
 updated: 2026-10-22
@@ -41,7 +41,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox
+# Gartner 預測「每個」agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox；新聞稿全文沒有起算基準
 
 ## 來源
 

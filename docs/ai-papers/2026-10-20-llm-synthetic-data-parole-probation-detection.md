@@ -13,7 +13,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句訓練資料，換到 293 份 VA 病歷偵測假釋／緩刑，Llama 守在 81–87% macro-F1，encoder 跌到 30%
+# 一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句合成資料（訓練集 5,305 句），換到 293 份 VA 病歷偵測假釋／緩刑，Llama 守在 81–87% macro-F1，encoder 跌到 30%
 
 ## 來源
 

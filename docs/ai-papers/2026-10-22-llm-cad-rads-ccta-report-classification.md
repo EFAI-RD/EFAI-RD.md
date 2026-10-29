@@ -136,7 +136,7 @@ CCTA 可非侵入性地評估冠狀動脈狹窄與動脈粥狀硬化負擔，CAD
 
 ## 與書庫其他文章的關係
 
-兩篇都讓 LLM 從放射報告文字套用分型規則、參考標準也都是醫師依同一份文字判定；頸動脈那篇把 AHA 準則寫進 prompt 並與只下指令的 prompt 對照，本篇只用不含規則的零樣本 prompt、沒有 prompt 對照，因此本篇在 4B／5 的錯誤能否靠寫入規則改善仍未經測試: [把 AHA 分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%：頸動脈斑塊 MRI 報告的 LLM 輔助判讀，四位放射科醫師對文字參考標準的一致率從 69% 升到 90%](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
+兩篇都讓 LLM 從放射報告文字套用分型規則、參考標準也都是醫師依同一份文字判定；頸動脈那篇把 AHA 準則寫進 prompt 並與只下指令的 prompt 對照，本篇只用不含規則的零樣本 prompt、沒有 prompt 對照，因此本篇在 4B／5 的錯誤能否靠寫入規則改善仍未經測試: [把 AHA 分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%：頸動脈斑塊 MRI 報告的 LLM 輔助判讀，四位放射科醫師對文字參考標準的一致率從 69% 升到 85%（8B）與 90%（671B DeepSeek-R1）](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
 
 本篇作者在 Discussion 提議讓 LLM 只抽血管層級發現、再由規則引擎決定最終類別，該研究正是「規則寫成程式、LLM 只抽參數」的實作，並有拿掉工具的消融可以參考這種拆法的效果: [算分交給程式、LLM 只抽參數：GPT-5.5 先把 55 個醫療計算器寫成驗證過的 Python 工具，Qwen3-8B 負責從病歷填表，MedCalc-Bench Verified 上 86.73%，剩下的錯多半出在讀病歷](2026-10-20-tool-augmented-llm-medical-calculation.md)
 

@@ -143,9 +143,9 @@ ModaLens 用交換影像來量測報告條件下的影像敏感度，本篇則�
 
 MedSIGHT 讓同一個模型同時輸出診斷文字與像素級分割，本篇則提醒分割輔助何時划算：兩篇合起來看，grounding 的價值要看任務對分割誤差的放大倍率: [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](2026-09-17-medsight-grounded-medical-vlm.md)
 
-nMAS 的心衰竭特徵工程把射出分率當成上游欄位使用，本篇則處理那個欄位本身的自動量測與其誤差結構: [Tracing the Heart：用多代理管線追蹤心衰竭特徵的證據來源](2026-09-15-tracing-the-heart.md)
+nMAS 的心衰竭特徵工程把射出分率當成上游欄位使用，本篇則處理那個欄位本身的自動量測與其誤差結構: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](2026-09-15-tracing-the-heart.md)
 
-ORION-CMR 也用到心室分割，但把它放在產生報告量測值的位置而非回歸模型的輔助輸入，正好是本篇結論的另一面: [報告在病人下檢查台前就寫好：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀](2026-09-24-orion-cmr-on-scanner-reporting.md)
+ORION-CMR 也用到心室分割，但把它放在產生報告量測值的位置而非回歸模型的輔助輸入，正好是本篇結論的另一面: [掃完約 90 秒就吐出結構化報告：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀，臨床驗證只在單一中心](2026-09-24-orion-cmr-on-scanner-reporting.md)
 
 CARA-VL 把預測的解剖佔位圖改放在 VLM 的注意力偏置上，消融顯示移除後 SAX 平均 BA 只少 1.6 個百分點，與本篇「分割輔助增益有限」的結論方向一致: [先教 VLM 看對地方：CARA-VL 用解剖結構導引注意力，心臟 MRI 問答能走多遠？](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md)
 

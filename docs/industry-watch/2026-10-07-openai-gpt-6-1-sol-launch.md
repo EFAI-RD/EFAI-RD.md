@@ -123,15 +123,15 @@ OpenAI 發布 GPT-6.1 Sol，把「接近旗艦的能力」與「五分之一的�
 
 同為大廠前沿模型發布，但兩則的可核對程度不同：Gemini 3.8 Live 的榜首成績可在第三方 Artificial Analysis 榜單獨立對照，本則的五組評測則全部是廠商自報且多數未給絕對分數: [Google 發布 Gemini 3.8 Live 系列：Extended Thinking 登上語音對語音評測榜首](2026-09-17-gemini-3-8-live-launch.md)
 
-調速倡議之後又一次前沿發布，可延續「治理承諾與發布行為是否一致」的對照觀察，本則的觀察點落在 system card addendum 與自報評測的揭露程度: [AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持](2026-09-15-amodei-pace-the-frontier.md)
+調速倡議之後又一次前沿發布，可延續「治理承諾與發布行為是否一致」的對照觀察，本則的觀察點落在 system card addendum 與自報評測的揭露程度: [Amodei 發表〈We Must Pace the Frontier〉：OpenAI 承諾跟進常駐評估者制度，DeepMind 與 xAI 的支持目前僅見單一媒體報導](2026-09-15-amodei-pace-the-frontier.md)
 
 
-同為大廠自報成果的發布敘事：本則的落差在標題句只涵蓋四項評測中的三項，該則的落差在標題用現在進行式概括了四個尚未完成的案例，兩則屬同一種閱讀問題: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量](2026-10-08-medgemma-global-deployment-claims.md)
+同為大廠自報成果的發布敘事：本則的落差在標題句只涵蓋四項評測中的三項，該則的落差在標題用現在進行式概括了四個尚未完成的案例，兩則屬同一種閱讀問題: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出 MedGemma 已完成的使用量](2026-10-08-medgemma-global-deployment-claims.md)
 
 兩則都以相對數字呈現成果：本則的五組評測除一個絕對分數外只公布百分點差距與成本倍數，該則只公布「低雙位數成長」與非 GAAP 指標的增益方向而未揭露被收購方的營收，外部同樣無法判斷基準線落在哪裡: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 兩則都缺少可用的比較基準，但缺法相反：本則只公布相對倍數與百分點差距而不給絕對分數，該則給了絕對規格卻沒有任何對照機型，外部因此同樣無法設定驗收門檻: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-兩則合起來正好是同一個現象的兩端：本則是供給側的樣本，掛牌價降到五分之一，但每任務成本比依評測落在 1/5 到 1/7 不等，顯示單價與單位工作成本從來不是同一條曲線；該則則從需求側主張，單價下降反而會讓更貴的工作流程變得可行，使每個 agentic workflow 的推論成本不降反升，而該則同樣只給了倍數、沒有給起算基準: [Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
+兩則合起來正好是同一個現象的兩端：本則是供給側的樣本，掛牌價降到五分之一，但每任務成本比依評測落在 1/5 到 1/7 不等，顯示單價與單位工作成本從來不是同一條曲線；該則則從需求側主張，單價下降反而會讓更貴的工作流程變得可行，使每個 agentic workflow 的推論成本不降反升，而該則同樣只給了倍數、沒有給起算基準: [Gartner 預測「每個」agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox；新聞稿全文沒有起算基準](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
 ## 實務的啟發
 
