@@ -22,6 +22,8 @@ related_articles:
     relation: "該研究稽核的是讀影像的演算法，本則記錄的是產生影像的機器，兩者對「AI 要附什麼證據」的標準落差極大"
   - path: "2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md"
     relation: "兩則都是取像端機台的發表，但廠商替自己設定的證據門檻差距很大：本則委託第三方做了 21 位醫師的比較研究並公開四頁白皮書，該則的產品頁雖有一個標示為 Evidence 的區塊，裡面放的是一張假體影像與兩段使用者證言"
+  - path: "2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md"
+    relation: "同一家公司把比較級數字放進公告、比較對象都是自家前代機的兩個案例，差別在比較對象揭露在正文還是只寫在註腳"
 refs:
   pr:
     title: "GE HealthCare：GE HealthCare expands general imaging ultrasound portfolio with LOGIQ Focus, elevating everyday ultrasound performance（官方新聞稿，2026-10-19）"
@@ -151,6 +153,8 @@ GE HealthCare 在 2026-10-19 發表 LOGIQ Focus，定位是把高階機種的影
 該研究稽核的是讀超音波的演算法，本則記錄的是產生超音波影像的機器，而兩者的證據標準落差極大：該研究必須報出 300 顆腫塊的敏感度、特異度與對照方法才能下結論，本則的自動射出分率量測工具在兩個官方頁面上連一個一致性數字都沒有。兩篇並讀說明醫療 AI 的證據要求目前集中在判讀端，而取像端的變異同樣會進到病人的報告裡: [把超音波描述交給 ChatGPT 判良惡性：300 顆附件腫塊，和 IOTA 規則、ADNEX 與專家差多少？](../ai-papers/2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md)
 
 兩則都是取像端機台的發表，但廠商替自己設定的證據門檻差距很大：本則委託第三方執行了 21 位醫師參與的比較研究並公開四頁白皮書，缺陷在於對競品無時間差異的那一組結果沒有進新聞稿；該則的產品頁雖然設了一個標示為 `Evidence` 的區塊，裡面放的是一張假體影像與兩段使用者證言，全頁的 `study` 與 `trial` 命中數為 0，兩則並讀可以看出取像端設備的證據形態目前完全由各廠商自訂: [Siemens Healthineers 在 DKOU 2026 發表行動式 C 臂 Cios Go ID：兩位醫院人員以現在式描述使用經驗，同一頁三行沒有編號的小字寫著這項產品尚未符合 MDR 2017/745 的全部要求、也尚未商業化供應](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
+
+同一家公司把一個比較級數字放進公告，而比較對象都是自家前代機的兩個案例，差別在揭露位置：本則的「快 26 percent」在新聞稿正文就寫出比的是自家 LOGIQ P8，讀者在同一段就看得到比較對象；該則正文只寫「2.67 倍」，必須翻到註腳才知道比的是 NM/CT 870 DR 搭 LEHRS collimator，而該機種的產品頁又沒有公布絕對值，倍數因此無法還原: [GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
 ## 實務的啟發
 

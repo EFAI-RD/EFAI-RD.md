@@ -23,6 +23,8 @@ related_articles:
     relation: "相隔八天的同一家公司兩則公告剛好互為說明：該則宣布退出通用影像超音波、把超音波業務收攏到 procedural imaging 與 image-guided therapy，本則就是同一個方向在另一條產線上的具體產品"
   - path: "2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md"
     relation: "兩則都是取像端機台的發表，但廠商替自己設定的證據門檻差距很大：該則至少委託第三方做了 21 位醫師的比較研究並公開四頁白皮書，本則的產品頁雖然有一個標示為 Evidence 的區塊，裡面放的是一張假體影像與兩段使用者證言"
+  - path: "2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md"
+    relation: "兩則都在醫學會議現場以臨床人員的使用經驗描述產品，而同一頁的小字寫明它在相關市場尚不能商業供應"
 refs:
   pr:
     title: "Siemens Healthineers：Siemens Healthineers Presents Mobile C-Arm Cios Go ID with Integrated Display for Streamlined Imaging Workflows in the Operating Room（官方新聞稿，2026-10-20）"
@@ -125,6 +127,8 @@ refs:
 相隔八天的同一家公司兩則公告剛好互為說明：該則宣布停售四款通用影像超音波、把超音波業務收攏到 procedural imaging 與 image-guided therapy，本則就是同一個方向在另一條產線上的具體產品，而本則具名發言人的職稱正是 `head of Image-Guided Surgery and Robotics`，兩則並讀可以把一則「退出」與一則「發表」看成同一項組合調整的兩端: [Siemens Healthineers 即日停售四款一般影像超音波系統：標題寫的是「聚焦」，公告未給被退出業務的任何數字，售後支援也沒有結束日期](2026-10-14-siemens-ultrasound-general-imaging-exit.md)
 
 兩則都是取像端機台的發表，但廠商替自己設定的證據門檻差距很大：該則委託第三方執行了 21 位醫師參與的比較研究並公開四頁白皮書，缺陷在於對競品無時間差異的那一組結果沒有進新聞稿；本則的產品頁雖然設了一個標示為 `Evidence` 的區塊，裡面放的是一張假體影像與兩段使用者證言，全頁的 `study` 與 `trial` 命中數為 0，兩則並讀可以看出取像端設備的證據形態目前完全由各廠商自訂: [GE HealthCare 發表 LOGIQ Focus 通用影像超音波系統，並在三個官方頁面引用同一項 Use-Lab 比較研究](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
+
+兩則都是在醫學會議現場以臨床人員的使用經驗描述一台產品，而同一頁的小字寫明它在相關市場尚不能商業供應：本則的限制是產品尚未符合 MDR 2017/745 的全部要求、未商業化供應，該則的限制是公告所稱可販售範圍為「部分歐盟成員國」，而受邀評估的五家機構中只有法國一家在歐盟境內。兩則合看可以看出「現場證言」與「法規小字」在同一頁並存已經是常態: [GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
 ## 實務的啟發
 

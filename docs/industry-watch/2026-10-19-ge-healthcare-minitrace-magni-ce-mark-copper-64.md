@@ -22,6 +22,8 @@ related_articles:
     relation: "兩則都是標題宣告法規里程碑、細節寫在別處的案例，但位置相反，該則的 510(k) pending 與尚未在任何市場銷售寫在同一頁的註腳裡，本則的 Not CE marked 寫在公司自己的產品頁上而公告頁完全沒有註腳"
   - path: "2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md"
     relation: "同一家公司四天內的兩則公告對證據的處理方式差距極大，該則整篇建立在一篇開放取用的同儕審查論文上而可以逐項回查，本則全頁沒有任何百分比、沒有任何註腳，也沒有一條可以打開的佐證"
+  - path: "2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md"
+    relation: "兩則都必須離開公告頁去讀同一家公司的其他頁面才能確定法規與供應狀態，但矛盾出現的位置不同"
 refs:
   pr:
     title: "GE HealthCare：GE HealthCare's MINItrace™ Magni achieves CE Mark; Copper-64 expands PETtrace™ Solid Target Platform beyond Gallium-68（官方新聞稿）"
@@ -112,6 +114,8 @@ GE HealthCare 在 2026-10-15 發布新聞稿，標題把兩件事並列：MINItr
 同一家公司四天內的兩則公告，對證據的處理方式差距極大：該則整篇建立在一篇開放取用的同儕審查論文上，每個數字都能回到原文確認，落差只在轉述時遺落了限定條件；本則全頁沒有任何百分比、沒有任何註腳，也沒有一條可以打開的佐證，兩則合看可以看出「公告有沒有給出可查核物」這件事在同一家公司內部也不一致: [GE HealthCare 發布密西根大學 End-tidal Control 研究：新聞稿裡的 62.3% 是論文為「典型病人」建構的模型推算值，而出面肯定這項研究的 GE 高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
 
 四天後同一家公司的另一則發表，把「產品頁」這個角色翻到了另一面：本則的產品頁在公告發出四天後仍寫著 `Not CE marked`，與新聞稿的 CE Mark 宣稱互相牴觸；該則的產品頁與白皮書則補上了新聞稿省略的比較對象與對競品的無差異結果，是互相補足。兩則合看得到同一個操作結論 —— 要知道一則公告實際涵蓋到哪裡，必須離開公告頁去讀同一家公司的其他頁面，而離開之後會看到什麼並不固定: [GE HealthCare 發表 LOGIQ Focus 通用影像超音波系統，並在三個官方頁面引用同一項 Use-Lab 比較研究](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
+
+兩則都必須離開公告頁、去讀同一家公司的其他頁面才能確定法規與供應狀態，但矛盾出現的位置不同：本則是公司的產品頁與新聞稿對 CE Mark 直接互相牴觸，該則的產品目錄與公告並不牴觸（美國目錄沒有那台機器，正與公告自述一致），不一致出現在同一家公司前後兩篇新聞稿之間，對同一條感度宣稱的量測方法與同一台機器的可販售範圍給出不同寫法: [GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
 ## 實務的啟發
 
