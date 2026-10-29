@@ -139,14 +139,14 @@ CLIP 展示：用大量圖文對，以對比學習把影像與自然語言拉進
 
 該文延伸 grounding 問題：不只報告生成，也要求診斷文字對回像素級區域: [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](../ai-papers/2026-09-17-medsight-grounded-medical-vlm.md)
 
-該文用基準地圖檢驗「模型宣稱的能力」與跨任務表現是否對得上: [醫療 VLM 走了多遠？七套基準下的模型規模、領域微調與推理落差](../ai-papers/2026-09-15-medical-vlm-benchmark.md)
+該文用基準地圖檢驗「模型宣稱的能力」與跨任務表現是否對得上: [醫療 VLM 走了多遠？七套基準下沒有單一贏家，而原文宣稱的「推理弱於理解」在表中並不成立](../ai-papers/2026-09-15-medical-vlm-benchmark.md)
 
 該文提供譜系外的對照：不經醫療對齊的通用模型，靠指令與棄答層在單一任務上也能取得可用操作點: [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](../ai-papers/2026-09-21-mllm-cystoscopy-bladder-triage.md)
 
 該文提供譜系之外的變數：不改對齊目標，只改視覺輸入的組織方式，也會改變模型的能力與成本曲線: [把一個病例壓成一張圖：WILSON 用 composite 取代數千個 tile，診斷資訊還剩多少？](../ai-papers/2026-09-24-wilson-composite-pathology-foundation-model.md)
 
 
-本譜系的通才醫療多模態路線走進公共衛生場域後，決定成敗的變項從對齊目標換成了下游的驗證能力: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
+本譜系的通才醫療多模態路線走進公共衛生場域後，決定成敗的變項從對齊目標換成了下游的驗證能力: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出 MedGemma 已完成的使用量](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
 ## 實務的啟發
 
 1. 先寫清任務輸出：嵌入／分類、開放問答，還是必須附定位的報告——再決定要對齊模型、指令 VLM，還是 grounded 系統。

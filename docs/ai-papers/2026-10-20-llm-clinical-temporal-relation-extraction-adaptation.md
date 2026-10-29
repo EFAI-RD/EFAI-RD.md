@@ -178,7 +178,7 @@ evidence_reviewed: true
 
 NSCLC 轉移擷取在真實腫瘤病歷上比較微調 GatorTron-base 與兩個零樣本 LLM，本篇則在 i2b2 時間關係任務上把 GatorTron 與 decoder 放進同一組微調與 PEFT 策略比較，兩篇合起來看可以區分「模型選擇」與「調適方式」各自對病歷抽取表現的影響: [癌症登記缺了 54% 的轉移欄位，病歷補得回來嗎？NSCLC 病歷上，零樣本 MedGemma、Llama 3.1 與微調 GatorTron 的比較](2026-10-19-llm-nsclc-metastasis-extraction-clinical-notes.md)
 
-假釋／緩刑偵測那篇顯示在合成資料上分數很高的 encoder 換到真實病歷會大幅崩落，本篇在 MACCROBAT 外部驗證上也看到各設定從 i2b2 上約 86%–89% 掉到 48%–62%，兩篇都提醒病歷抽取模型的內部測試分數不能直接當成跨資料來源的表現: [一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句訓練資料，換到 293 份 VA 病歷偵測假釋／緩刑，Llama 守在 81–87% macro-F1，encoder 跌到 30%](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
+假釋／緩刑偵測那篇顯示在合成資料上分數很高的 encoder 換到真實病歷會大幅崩落，本篇在 MACCROBAT 外部驗證上也看到各設定從 i2b2 上約 86%–89% 掉到 48%–62%，兩篇都提醒病歷抽取模型的內部測試分數不能直接當成跨資料來源的表現: [一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句合成資料（訓練集 5,305 句），換到 293 份 VA 病歷偵測假釋／緩刑，Llama 守在 81–87% macro-F1，encoder 跌到 30%](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
 
 ASA 分級那篇同樣比較 prompting 與 QLoRA，但把問題改成「需要多少在地標籤 LoRA 才划算」，並加入不訓練、只用標籤調門檻的做法，在院內資料上找到約 270 個標籤的交叉點，可補上本篇 data-rich 與 1-shot 兩端之間的中間地帶: [不生成理由、只讀 A–D 選項的機率：Qwen3.5-9B 分 ASA 身體狀態，比生成式提示快約 64 倍，再用 1,000 個在地標籤調三個門檻，κ 只比 LoRA 低約 0.02，標籤再多 LoRA 仍會拉開](2026-10-28-asa-ps-llm-readout-vs-lora.md)
 

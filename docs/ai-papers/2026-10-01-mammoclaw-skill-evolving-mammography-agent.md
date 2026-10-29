@@ -13,7 +13,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 用失敗軌跡演化出的技能補上「怎麼用」
+# 工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，仍低於全猜第一類的基準
 
 ## 來源
 

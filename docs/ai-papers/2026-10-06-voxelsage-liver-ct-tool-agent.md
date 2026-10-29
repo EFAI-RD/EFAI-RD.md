@@ -166,7 +166,7 @@ Port A 實驗的評分規則：病灶有無與數量要求完全一致；肝臟�
 
 MedRAX 把分類、分割、定位等學習模型包成工具交給胸片代理呼叫，VoxelSage 則把幾何量測寫成確定性技能並與 LLM 部署在不同服務，兩篇可對照「工具是模型」與「工具是程式」兩種工具代理的設計取捨: [MedRAX：工具代理如何改善胸腔 X 光問答？](2026-09-15-medrax-chest-xray-agent.md)
 
-MammoClaw 同樣只給代理確定性工具，並做了「不給工具」的對照、發現光給工具不會提升 macro-F1，VoxelSage 缺少這一組對照，兩篇並讀可看出評估工具代理時應該拆開哪些實驗: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 用失敗軌跡演化出的技能補上「怎麼用」](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
+MammoClaw 同樣只給代理確定性工具，並做了「不給工具」的對照、發現光給工具不會提升 macro-F1，VoxelSage 缺少這一組對照，兩篇並讀可看出評估工具代理時應該拆開哪些實驗: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，仍低於全猜第一類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
 
 本篇的工具是回傳實際量測的確定性程式且缺少不給工具的對照，該研究的工具則是回傳預測值的學習模型，並以隨機打分工具做了對照，兩篇並讀可看出「工具本身貢獻多少」該怎麼拆: [病歷不出院，只放出一個打分器：LLM 代理靠它找血球計數生物標記，外部驗證只在部分世代站得住](2026-10-07-gat-scorer-cbc-biomarker-agent.md)
 
@@ -174,7 +174,7 @@ CASE 同樣把 VISTA3D 分割後的量測交給代理調用，並在 UK Biobank 
 
 該研究同樣讓 LLM 不碰計算，但工具是由 LLM 依擷取到的規則生成、再以訓練例驗證修復的 Python 計算器，並做了拿掉工具改由模型直接作答的消融（最終準確率從 86.73% 降到 69.46%），補上本篇缺少的「工具本身貢獻多少」那組對照: [算分交給程式、LLM 只抽參數：GPT-5.5 先把 55 個醫療計算器寫成驗證過的 Python 工具，Qwen3-8B 負責從病歷填表，MedCalc-Bench Verified 上 86.73%，剩下的錯多半出在讀病歷](2026-10-20-tool-augmented-llm-medical-calculation.md)
 
-該則記錄 Gartner 對 agentic workflow 推論成本的預測，並把 inference-tiering、routing 與 orchestration 列為控制成本的處方；本篇的工具代理正是這個處方在醫療影像上的具體樣貌 —— 量測交給確定性程式、LLM 只負責調度，從成本角度看就是把最貴的那一段移出推論，而本篇的證據仍停在系統測試與模擬器，成本與效益都尚未在真實科室被量過: [Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
+該則記錄 Gartner 對 agentic workflow 推論成本的預測，並把 inference-tiering、routing 與 orchestration 列為控制成本的處方；本篇的工具代理正是這個處方在醫療影像上的具體樣貌 —— 量測交給確定性程式、LLM 只負責調度，從成本角度看就是把最貴的那一段移出推論，而本篇的證據仍停在系統測試與模擬器，成本與效益都尚未在真實科室被量過: [Gartner 預測「每個」agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox；新聞稿全文沒有起算基準](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
 ## 實務的啟發
 

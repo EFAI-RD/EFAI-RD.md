@@ -130,7 +130,7 @@ GE HealthCare 在 2026-09-23 宣布與 Mass General Brigham 擴大研究合作�
 
 同一家公司相隔十二天的兩則公告指向同一條治療端路線：本則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而該則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-兩則都是標題的效益語氣涵蓋範圍大於內文可核對的數字，差別在於程度：該則五個合作案至少各有一個可指認的進行階段與一個報出的篩檢量，本則的生成式 AI 部分則連一個數字都沒有，唯一的數字屬於合作之前的既有軟體: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量](2026-10-08-medgemma-global-deployment-claims.md)
+兩則都是標題的效益語氣涵蓋範圍大於內文可核對的數字，差別在於程度：該則五個合作案至少各有一個可指認的進行階段與一個報出的篩檢量，本則的生成式 AI 部分則連一個數字都沒有，唯一的數字屬於合作之前的既有軟體: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出 MedGemma 已完成的使用量](2026-10-08-medgemma-global-deployment-claims.md)
 
 同一家公司相隔三天的兩則公告剛好是同一個問題的兩端：本則的生成式 AI 部分連一個數字都沒有，該則則有一篇開放取用的同儕審查論文可供逐項回查；但兩則出現了同一個動作 —— 把論文裡帶限定條件的數字抽出來，限定條件留在原處，本則是略去讓步子句的後半段，該則是略去「這是模型對一位虛構病人的推算」: [GE HealthCare 發布密西根大學 End-tidal Control 研究：新聞稿裡的 62.3% 是論文為「典型病人」建構的模型推算值，而出面肯定這項研究的 GE 高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
 

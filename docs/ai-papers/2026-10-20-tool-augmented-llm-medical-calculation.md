@@ -156,7 +156,7 @@ evidence_reviewed: true
 
 VoxelSage 把肝腫瘤的幾何量測寫成確定性技能、讓 LLM 只負責調度，本篇則把醫療計算器的公式寫成由 LLM 生成並驗證的 Python 工具、讓 LLM 只負責抽參數，兩篇都是「算的部分交給程式」，但本篇有拿掉工具的消融與 1,100 題基準，VoxelSage 缺少這組對照: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
 
-頸動脈斑塊那篇把 AHA 分型規則寫進 prompt、仍由 LLM 自己套規則，本篇則把計算規則寫成程式、LLM 只填輸入，兩篇並讀可對照「規則放在 prompt」與「規則放在程式」兩種把臨床規則交給 LLM 的做法: [把 AHA 分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%：頸動脈斑塊 MRI 報告的 LLM 輔助判讀，四位放射科醫師對文字參考標準的一致率從 69% 升到 90%](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
+頸動脈斑塊那篇把 AHA 分型規則寫進 prompt、仍由 LLM 自己套規則，本篇則把計算規則寫成程式、LLM 只填輸入，兩篇並讀可對照「規則放在 prompt」與「規則放在程式」兩種把臨床規則交給 LLM 的做法: [把 AHA 分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%：頸動脈斑塊 MRI 報告的 LLM 輔助判讀，四位放射科醫師對文字參考標準的一致率從 69% 升到 85%（8B）與 90%（671B DeepSeek-R1）](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
 
 該研究的作者在 Discussion 提議讓 LLM 只抽冠狀動脈的血管層級發現、再由規則引擎決定 CAD-RADS 類別，與本篇「規則寫成程式、LLM 只抽參數」的做法相同，但該研究本身只測了零樣本直接分類: [三個聊天介面零樣本讀 CCTA 報告分 CAD-RADS：DeepSeek-R1 與 ChatGPT-5 約八成、ChatGPT-4o 54%，900 份高風險報告被降到 3 以下的比例 2.6%–14.1%](2026-10-22-llm-cad-rads-ccta-report-classification.md)
 

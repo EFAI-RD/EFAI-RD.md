@@ -1,5 +1,5 @@
 ---
-title: "arXiv 收緊 AI 生成內容政策：幻覺引用等可致一年禁投"
+title: "arXiv 編輯負責人澄清未核對 LLM 內容的處罰：幻覺引用等可致一年禁投，而官網條款仍只寫作者責任與揭露"
 category: industry-watch
 date: 2026-09-15
 updated: 2026-09-15
@@ -42,7 +42,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# arXiv 收緊 AI 生成內容政策：幻覺引用等可致一年禁投
+# arXiv 編輯負責人澄清未核對 LLM 內容的處罰：幻覺引用等可致一年禁投，而官網條款仍只寫作者責任與揭露
 
 ## 來源
 

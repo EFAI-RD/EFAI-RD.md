@@ -13,7 +13,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 報告在病人下檢查台前就寫好：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀
+# 掃完約 90 秒就吐出結構化報告：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀，臨床驗證只在單一中心
 
 ## 來源
 

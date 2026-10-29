@@ -172,7 +172,7 @@ CORAL 用概念瓶頸與空間先驗讓報告的每一句都能回推依據，�
 
 本篇顯示語意相似度不能代理結構保真度，該研究則顯示影像敏感的 biomarker 輸出不能代理影像對最終治療決策的貢獻，兩篇都在拆穿「一個高分代理了另一件事」的假設: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
 
-ORION-CMR 以整份報告層級的 81.4% 相符率作為評估結果，與本篇的分節粒度形成對照: [報告在病人下檢查台前就寫好：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀](2026-09-24-orion-cmr-on-scanner-reporting.md)
+ORION-CMR 以整份報告層級的 81.4% 相符率作為評估結果，與本篇的分節粒度形成對照: [掃完約 90 秒就吐出結構化報告：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀，臨床驗證只在單一中心](2026-09-24-orion-cmr-on-scanner-reporting.md)
 
 該研究比較九種預訓練目標時，BLEU／ROUGE 與 RadGraph-F1 的排序並不一致，是本篇「語意相似度不能代替臨床保真度」在編碼器比較上的另一個實例: [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md)
 
@@ -180,7 +180,7 @@ ORION-CMR 以整份報告層級的 81.4% 相符率作為評估結果，與本篇
 
 本篇顯示語意相似度不能代理臨床保真度，該研究在醫療問答上也看到 BERTScore 等指標與準確率反向，並改用實體覆蓋率作為替代: [答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md)
 
-本篇顯示語意相似度不能代理結構保真度，該研究改用結構化 checklist 加 LLM 查核來判定胸片報告句是否成立，發現「checklist 未提到的發現」如何解讀仍會改變量到的分數: [「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6%，但換一個查核模型或格式，量到的增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
+本篇顯示語意相似度不能代理結構保真度，該研究改用結構化 checklist 加 LLM 查核來判定胸片報告句是否成立，發現「checklist 未提到的發現」如何解讀仍會改變量到的分數: [「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6 個百分點（rule-based 查核；換成 MedGemma-4B 是 11.8），但換一個查核模型或格式，量到的增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
 
 ## 實務的啟發
 

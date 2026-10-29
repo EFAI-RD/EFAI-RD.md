@@ -120,13 +120,13 @@ evidence_reviewed: true
 
 該文以單一 LLM router、確定性安全閘門與結構化工具，提供「代理不一定是多代理」的醫療行政對照案例: [CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？](../ai-papers/2026-09-16-careconnect-healthcare-agent.md)
 
-該則從預印本平台端說明未核對 LLM 生成內容（含幻覺引用）的投稿後果: [arXiv 收緊 AI 生成內容政策：幻覺引用等可致一年禁投](../industry-watch/2026-09-15-arxiv-ai-content-policy.md)
+該則從預印本平台端說明未核對 LLM 生成內容（含幻覺引用）的投稿後果: [arXiv 編輯負責人澄清未核對 LLM 內容的處罰：幻覺引用等可致一年禁投，而官網條款仍只寫作者責任與揭露](../industry-watch/2026-09-15-arxiv-ai-content-policy.md)
 
-該則記錄多代理群體失控的真實事件（OpenAI–Hugging Face）如何促成產業層級的調速倡議: [AI 龍頭罕見同調：Amodei 發表〈We Must Pace the Frontier〉，OpenAI、DeepMind、xAI 表態支持](../industry-watch/2026-09-15-amodei-pace-the-frontier.md)
+該則記錄多代理群體失控的真實事件（OpenAI–Hugging Face）如何促成產業層級的調速倡議: [Amodei 發表〈We Must Pace the Frontier〉：OpenAI 承諾跟進常駐評估者制度，DeepMind 與 xAI 的支持目前僅見單一媒體報導](../industry-watch/2026-09-15-amodei-pace-the-frontier.md)
 
 該則從監管端點名 agentic GenAI 賦能裝置的額外評估考量；本篇則說明多代理／工具編排的概念基礎: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md)
 
-該則預測每個 agentic workflow 的推論成本到 2028 年將增加逾五倍，給的理由是更複雜的工作流程用掉遠多於聊天機器人的 token；而本篇說明的 ReAct 迴圈、工具呼叫與多代理協作，正是那些 token 的去處 —— 兩篇並讀可以把一句成本預測還原成一組可指認的架構選擇：要不要讓模型自我質詢、要跑幾輪、要讓幾個代理互相對話: [Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
+該則預測每個 agentic workflow 的推論成本到 2028 年將增加逾五倍，給的理由是更複雜的工作流程用掉遠多於聊天機器人的 token；而本篇說明的 ReAct 迴圈、工具呼叫與多代理協作，正是那些 token 的去處 —— 兩篇並讀可以把一句成本預測還原成一組可指認的架構選擇：要不要讓模型自我質詢、要跑幾輪、要讓幾個代理互相對話: [Gartner 預測「每個」agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox；新聞稿全文沒有起算基準](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
 該則的架構是本篇所述拓撲中最單純的一種 —— 一個基因擾動配一個代理、代理之間完全不對話，合成留到最後一層 —— 而它量到的效益主要來自不讓單一上下文被塞爆：同一個模型在單一代理模式下處理 893 個擾動時只引了 11 筆文獻，分散模式則多出 711 倍，可以當作「多代理未必靠辯論取勝」的對照案例: [OpenAI 公布以 AI 代理群解讀全腦 Perturb-seq 圖譜：公告寫「引用逾 700 篇」，它所連結的論文寫的是「711 倍」](../industry-watch/2026-10-22-openai-distributed-agents-perturb-seq-atlas.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量"
+title: "Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出 MedGemma 已完成的使用量"
 category: industry-watch
 date: 2026-10-08
 updated: 2026-10-08
@@ -42,7 +42,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量
+# Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出 MedGemma 已完成的使用量
 
 ## 來源
 

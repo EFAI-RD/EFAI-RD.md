@@ -178,7 +178,7 @@ VinDr-CXR 把替代診斷指名出來後落差更明顯。CheXficient 對 no-fin
 
 ModaLens 固定文字、只換影像來量測模態依賴，本研究則固定影像、改換提示詞與負類，兩者從不同方向拆解「一個分數到底在測什麼」: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？](2026-09-17-modalens-image-sensitivity.md)
 
-跨基準的能力盤點回答醫療 VLM 目前走到哪裡，本研究則指出同一批分數換個評估條件後排名與操作點都可能改寫: [醫療 VLM 走了多遠？七套基準下的模型規模、領域微調與推理落差](2026-09-15-medical-vlm-benchmark.md)
+跨基準的能力盤點回答醫療 VLM 目前走到哪裡，本研究則指出同一批分數換個評估條件後排名與操作點都可能改寫: [醫療 VLM 走了多遠？七套基準下沒有單一贏家，而原文宣稱的「推理弱於理解」在表中並不成立](2026-09-15-medical-vlm-benchmark.md)
 
 膀胱鏡研究把同一組關注點（提示詞、校準、操作門檻）移到通用多模態 LLM 與內視鏡影像上，並加入棄答層來交換覆蓋率: [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](2026-09-21-mllm-cystoscopy-bladder-triage.md)
 
@@ -197,11 +197,11 @@ ModaLens 固定文字、只換影像來量測模態依賴，本研究則固定�
 該研究同樣評估了 MedSigLIP，但比較的是皮膚科資料集內零樣本 VLM 與有訓練模型的分數，摘要提到的跨資料集測試並未回報，正好對照本研究換評估條件的稽核做法: [皮膚病灶良惡性分類：零樣本 VLM、微調 CNN 與凍結特徵，在十個資料設定下差多少？](2026-10-05-derm-generalist-vs-specific-benchmark.md)
 
 
-印尼衛生部正以本地胸片資料訓練結合 MedGemma 與 MedSigLIP 的結核偵測模型，對應每年 5,000 萬人的篩檢目標；本研究的換條件稽核正好說明這種全國規模部署前應先確認哪些條件: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出已完成的篩檢量](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
+印尼衛生部正以本地胸片資料訓練結合 MedGemma 與 MedSigLIP 的結核偵測模型，對應每年 5,000 萬人的篩檢目標；本研究的換條件稽核正好說明這種全國規模部署前應先確認哪些條件: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出 MedGemma 已完成的使用量](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
 
 本研究說明換一個評估條件，現成醫療視覺語言模型的結論就可能改寫；該則指出若 FAPI-74 上市，PET 判讀面對的是既有以 FDG 為主的模型從未見過的影像分布，兩篇是同一個可攜性問題的兩端: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](../industry-watch/2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-本研究逐項替換評估條件來檢驗醫療 VLM 的結論，該研究則固定盲化 checklist、只替換 LLM 查核模型與 checklist 格式，同樣看到量到的增益隨評估約定移動: [「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6%，但換一個查核模型或格式，量到的增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
+本研究逐項替換評估條件來檢驗醫療 VLM 的結論，該研究則固定盲化 checklist、只替換 LLM 查核模型與 checklist 格式，同樣看到量到的增益隨評估約定移動: [「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6 個百分點（rule-based 查核；換成 MedGemma-4B 是 11.8），但換一個查核模型或格式，量到的增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
 
 ## 實務的啟發
 

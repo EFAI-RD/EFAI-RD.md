@@ -166,7 +166,7 @@ UniProt 在同一頁也寫著：`machine learning AI models do make errors. We i
 
 兩則是前沿模型供應商相隔十二天發布的生命科學成果公告，而本則比該則更早一步 —— 該則至少有六份技術報告可以把公告裡的每一個數字逐項回查，本則除了一個資料庫編號之外沒有任何可回查的量測，所有成果都停在 wet-lab validation 之前；兩則並讀可以看出同一類公告在「可查核物存不存在」這一軸上的兩個位置: [Anthropic 公布 Claude 參與的六個藥物開發合作案：公告說抗體「結塊慢 100 倍以上」，技術報告寫明那是單一個孔的讀數，而判定成功的規格是看過結果之後才定的](2026-10-28-anthropic-drug-development-case-studies.md)
 
-該則預測 agentic workflow 的推論成本到 2028 年增加逾五倍，卻沒有給任何絕對量、也沒有基準年；本則是同一種寫法出現在效益側 —— 三個官方位置給出三種加速說法，而被壓縮前後的實測值一律缺席。兩則並讀可以看出成本與效益在缺少絕對值時的對稱性：都無法被否證，也都無法進入任何採購試算: [Gartner 預測 agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
+該則預測 agentic workflow 的推論成本到 2028 年增加逾五倍，卻沒有給任何絕對量、也沒有基準年；本則是同一種寫法出現在效益側 —— 三個官方位置給出三種加速說法，而被壓縮前後的實測值一律缺席。兩則並讀可以看出成本與效益在缺少絕對值時的對稱性：都無法被否證，也都無法進入任何採購試算: [Gartner 預測「每個」agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox；新聞稿全文沒有起算基準](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
 同一家公司相隔七天的兩則發布，可回查程度相差一整個層級：該則有同儕審查論文、開放預印本與試驗登錄可以逐項對照，爭點只在哪一個百分比被挑進標題；本則的正文裡 `peer`、`paper`、`arXiv`、`DOI` 命中數全部為零，唯一能回查的對象是一個公開資料庫條目。把兩則並讀可以看出「同一家公司的官方發布」不是一種均質的證據等級: [Google 宣傳 AMIE 的 Lancet 研究：「鑑別診斷與醫師最終診斷相符 90%」是前七名清單的命中率，同一天更新的自家研究部落格寫著排第一名的只有 56%](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
 
