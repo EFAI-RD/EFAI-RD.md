@@ -191,6 +191,8 @@ Lingshu 導讀著重通用醫療 VLM 的資料與訓練，本篇則可接續閱�
 
 本篇的影像編碼器 RAD-DINO-MAIRA-2 被 CoRE 當作 linear probing 與 full fine-tuning 的骨幹之一，兩篇也都用 MS-CXR 評估定位；本篇把定位寫進生成的報告，CoRE 則把部位直接放進分類標籤: [CoRE：把胸片標籤拆成 252 個「部位－發現」配對，以共現分組的 prompt 與區域證據調整凍結的 EVA-X，2.09M 可訓練參數下 macro AUROC 比 ML-VPT 高 0.0147](2026-10-29-core-cxr-region-finding-cooccurrence.md)
 
+本篇在生成胸片報告時就把每個發現連同定位框一起輸出，EviGround-CT 則在胸部 CT 報告寫完之後，另用一個以整句為查詢的 3D 驗證器替每個陽性發現找證據遮罩，兩篇代表「生成時定位」與「生成後查核」兩種把報告句連回影像的做法: [EviGround-CT：LLM 寫的胸部 CT 報告逐句送去 3D 定位查核，整句當查詢讓 137 個生成發現中有標註支持的比例從 0.263 升到 0.365，但參考遮罩不完整、評估只有 100 例](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
+
 ## 實務的啟發
 
 以下是本書庫提出的研究與工程建議：
