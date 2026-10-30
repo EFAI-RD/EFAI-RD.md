@@ -23,6 +23,8 @@ related_articles:
     relation: "該則預測 agentic workflow 的推論成本到 2028 年增加逾五倍卻沒有給任何絕對量，本則則是同一種寫法出現在效益側 —— 三個官方位置給了三種加速說法，分母與基準全部缺席，兩則並讀可以看出成本與效益在缺少絕對值時同樣無法進入任何採購試算"
   - path: "2026-10-20-google-amie-lancet-primary-care-feasibility.md"
     relation: "同一家公司相隔七天的兩則發布，可回查程度相差一整個層級 —— 該則有同儕審查論文、開放預印本與試驗登錄可以逐項對照，問題只出在哪個百分比被挑出來放進標題；本則連一篇預印本都沒有，正文的 peer、paper、arXiv、DOI 命中數皆為零"
+  - path: "2026-10-30-anthropic-ai-for-science-foundations-expansion.md"
+    relation: "本則的三種加速說法分屬三個官方位置、沒有一個附得出絕對數值，該則的「數月變數小時」與「數週變數小時」是同一種寫法，差別在該則連被加速的工作是哪一項都沒有指明"
 refs:
   pr:
     title: "Google DeepMind：Accelerating the search for antimicrobial peptides with Google Antigravity（官方部落格，2026-10-15）"
@@ -169,6 +171,8 @@ UniProt 在同一頁也寫著：`machine learning AI models do make errors. We i
 該則預測 agentic workflow 的推論成本到 2028 年增加逾五倍，卻沒有給任何絕對量、也沒有基準年；本則是同一種寫法出現在效益側 —— 三個官方位置給出三種加速說法，而被壓縮前後的實測值一律缺席。兩則並讀可以看出成本與效益在缺少絕對值時的對稱性：都無法被否證，也都無法進入任何採購試算: [Gartner 預測「每個」agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox；新聞稿全文沒有起算基準](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
 同一家公司相隔七天的兩則發布，可回查程度相差一整個層級：該則有同儕審查論文、開放預印本與試驗登錄可以逐項對照，爭點只在哪一個百分比被挑進標題；本則的正文裡 `peer`、`paper`、`arXiv`、`DOI` 命中數全部為零，唯一能回查的對象是一個公開資料庫條目。把兩則並讀可以看出「同一家公司的官方發布」不是一種均質的證據等級: [Google 宣傳 AMIE 的 Lancet 研究：「鑑別診斷與醫師最終診斷相符 90%」是前七名清單的命中率，同一天更新的自家研究部落格寫著排第一名的只有 56%](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
+
+本則的三種加速說法分屬三個官方位置、沒有一個附得出絕對數值；該則的「數月變數小時」與「數週變數小時」是同一種寫法，差別在該則連被加速的工作是哪一項都沒有指明。兩則並讀可以看出相對倍數在缺少分母時，不論出現在效益側或成本側都同樣無法使用: [Anthropic 擴大 AI for Science 至基金會與研究機構：公告開頭寫「20 個」夥伴，三份名單逐條數出來是 18 個；而生物與化學研究者仍限用 Opus-class 模型這件事，寫在同一計畫兩個月前的另一頁](2026-10-30-anthropic-ai-for-science-foundations-expansion.md)
 
 ## 實務的啟發
 
