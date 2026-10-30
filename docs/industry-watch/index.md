@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-10-30 | [Anthropic 擴大 AI for Science 至基金會與研究機構：公告開頭寫「20 個」夥伴，三份名單逐條數出來是 18 個；而生物與化學研究者仍限用 Opus-class 模型這件事，寫在同一計畫兩個月前的另一頁](2026-10-30-anthropic-ai-for-science-foundations-expansion.md) | Clarence | 2026-10-28 官方公告；三份名單的 li 元素逐一計數為 6+6+6=18，而正文、meta description 與 JSON-LD 三處都寫 20 |
 | 2026-10-29 | [GE HealthCare 公布 2026 年第三季財報：「各部門都成長、利潤率都擴張」成立於這一季，而同一份文件的前九個月欄位寫著淨利率 −20 個基點、調整後 EBIT 利潤率零變動，Patient Care Solutions 的九個月營收是 −4.0%](2026-10-29-ge-healthcare-q3-2026-results.md) | Clarence | 2026-10-28 官方新聞稿與同日 SEC Form 8-K；官網 11 張財務表格為點陣圖，數值以 Exhibit 99 的 HTML 表格核對 |
 | 2026-10-29 | [Google DeepMind 示範用 Antigravity 搜尋抗菌胜肽：「數天變成一次對話」「in hours」「數小時變成數分鐘」三種加速說法分屬三個官方位置，沒有一個附得出絕對數值；而那個候選分子在 UniProt 的名稱，證據欄寫的是 Google:ProtNLM](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md) | Clarence | 2026-10-15 官方部落格；正文 peer／paper／arXiv／DOI 命中皆為 0，候選分子名稱的 UniProt 證據標籤為 Automatic Annotation (ECO:0008006) Google:ProtNLM |
 | 2026-10-29 | [GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md) | Clarence | 2026-10-20 官方新聞稿；與 2026-09-08 同產品公告逐字並排，四處措辭不同；美國站產品目錄無此機種 |
