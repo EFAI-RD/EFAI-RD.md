@@ -160,6 +160,8 @@ VoxelSage 把肝腫瘤的幾何量測寫成確定性技能、讓 LLM 只負責�
 
 該研究的作者在 Discussion 提議讓 LLM 只抽冠狀動脈的血管層級發現、再由規則引擎決定 CAD-RADS 類別，與本篇「規則寫成程式、LLM 只抽參數」的做法相同，但該研究本身只測了零樣本直接分類: [三個聊天介面零樣本讀 CCTA 報告分 CAD-RADS：DeepSeek-R1 與 ChatGPT-5 約八成、ChatGPT-4o 54%，900 份高風險報告被降到 3 以下的比例 2.6%–14.1%](2026-10-22-llm-cad-rads-ccta-report-classification.md)
 
+兩篇都把臨床規則從 LLM 的自由生成裡抽出來交給程式執行：本篇由 LLM 為 55 個醫療計算器各寫一支 Python 工具、小模型只抽參數，該研究由 LLM 把整份放射指引編成決策圖、System One 模型只回答節點問題；本篇有拿掉工具的消融，該研究則沒有拆解各編譯步驟的貢獻: [放射指引先由 LLM 編成決策圖、再讓小模型逐節點作答：GDGraph 在 347 個病例文字上把 Jev 從 57.3% 拉到 90.8%，高於 RAG＋GPT-4o 的 80.1%；但病例取自已發表的病例報告並經 LLM 改寫，結果沒有信賴區間](2026-11-02-gdgraph-radiology-guideline-decision-graph.md)
+
 ## 實務的啟發
 
 - **把「讀病歷」與「算分數」拆開來量** — 論文用 PMR、tool-level accuracy 與 final-answer accuracy 三個指標分別衡量抽取、工具與整體，146 題錯誤也能歸到抽取或工具其中一邊；評估任何從病歷算臨床分數的系統時，這種拆法可以直接借用，至少能知道錯誤該回頭修哪一段。
