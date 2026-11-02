@@ -35,6 +35,8 @@ related_articles:
     relation: "該則預測每個 agentic workflow 的推論成本到 2028 年增加逾五倍，理由是複雜工作流程的 token 用量遠高於聊天機器人；本篇說明的 ReAct 迴圈、工具呼叫與多代理協作正是那些 token 的去處"
   - path: "../industry-watch/2026-10-22-openai-distributed-agents-perturb-seq-atlas.md"
     relation: "該則是本篇所述拓撲中最單純的一種：一個基因擾動配一個代理、代理之間不對話，效益主要來自不讓單一上下文被塞爆"
+  - path: "../industry-watch/2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md"
+    relation: "該則是本篇所述「模擬專家小組互相質疑」這一型拓撲在診斷場景的一組有分母的量測：論文自述跨各家受測模型，該編排讓 NEJM CPC 案例的準確率比同一模型的最小提示基線平均高 7.9 個百分點、急診案例高 4.4 個百分點，可以當作「編排本身值多少」的參考量"
 refs:
   react:
     title: "ReAct: Synergizing Reasoning and Acting in Language Models"
@@ -129,6 +131,8 @@ evidence_reviewed: true
 該則預測每個 agentic workflow 的推論成本到 2028 年將增加逾五倍，給的理由是更複雜的工作流程用掉遠多於聊天機器人的 token；而本篇說明的 ReAct 迴圈、工具呼叫與多代理協作，正是那些 token 的去處 —— 兩篇並讀可以把一句成本預測還原成一組可指認的架構選擇：要不要讓模型自我質詢、要跑幾輪、要讓幾個代理互相對話: [Gartner 預測「每個」agentic workflow 的推論成本到 2028 年增加逾五倍，並提出 Inference Paradox；新聞稿全文沒有起算基準](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
 該則的架構是本篇所述拓撲中最單純的一種 —— 一個基因擾動配一個代理、代理之間完全不對話，合成留到最後一層 —— 而它量到的效益主要來自不讓單一上下文被塞爆：同一個模型在單一代理模式下處理 893 個擾動時只引了 11 筆文獻，分散模式則多出 711 倍，可以當作「多代理未必靠辯論取勝」的對照案例: [OpenAI 公布以 AI 代理群解讀全腦 Perturb-seq 圖譜：公告寫「引用逾 700 篇」，它所連結的論文寫的是「711 倍」](../industry-watch/2026-10-22-openai-distributed-agents-perturb-seq-atlas.md)
+
+該則是本篇所述「模擬專家小組互相質疑」這一型拓撲在診斷場景的一組有分母的量測：論文自述跨各家受測模型，該編排讓 NEJM CPC 案例的準確率比同一模型的最小提示基線平均高 7.9 個百分點、急診案例高 4.4 個百分點，可以當作「編排本身值多少」的參考量: [Microsoft 發表 MAI-DxO 與 SDBench：公告說開源是為了「讓研究者重現評估」，但支撐已發表數值的兩個資料集都要另外向 NEJM 或 PhysioNet 申請，repo 裡唯一附上的五個案例，README 自己寫著不適合用來報告診斷效能](../industry-watch/2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
 
 ## 實務的啟發
 
