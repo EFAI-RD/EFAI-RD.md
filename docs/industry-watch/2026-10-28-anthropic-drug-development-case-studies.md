@@ -32,6 +32,8 @@ related_articles:
     relation: "兩則是前沿模型供應商相隔十二天發布的生命科學成果公告，而該則比本則更早一步 —— 本則至少有六份技術報告可以把公告裡的每一個數字逐項回查，該則除了一個資料庫編號之外沒有任何可回查的量測，所有成果都停在 wet-lab validation 之前；兩則並讀可以看出同一類公告在「可查核物存不存在」這一軸上的兩個位置"
   - path: "2026-10-30-anthropic-ai-for-science-foundations-expansion.md"
     relation: "同一家公司相隔一天的兩則公告，分屬成果側與取用側，而兩則的可核對物都不在正文：本則的樣本數與利益揭露藏在同頁面板裡，該則的夥伴總數與正文三份名單對不起來，模型層級限制則寫在兩個月前的另一頁"
+  - path: "2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md"
+    relation: "兩則的核心都是「訂標準的人與被評分的系統出自同一方」：本則的成功規格依技術報告自述是在看過結果之後才定下的；該則則是 benchmark、Gatekeeper、Judge 與受測系統 MAI-DxO 由同一個團隊設計，論文的利益揭露列出全體作者皆為 Microsoft 員工並持有股權。差別在於該則把整套評分程式碼開源了，讓外部至少能檢視那把尺怎麼刻"
 refs:
   pr:
     title: "Anthropic：Early progress on accelerating drug development with Claude（官方公告；六段案例詳述為同頁可展開面板）"
@@ -130,6 +132,8 @@ Anthropic 在 2026-10-27 公布其生命科學團隊過去數月的合作成果�
 兩則是前沿模型供應商相隔十二天發布的生命科學成果公告，而該則比本則更早一步 —— 本則至少有六份技術報告可以把公告裡的每一個數字逐項回查，該則除了一個資料庫編號之外沒有任何可回查的量測，所有成果都停在 wet-lab validation 之前；兩則並讀可以看出同一類公告在「可查核物存不存在」這一軸上的兩個位置: [Google DeepMind 示範用 Antigravity 搜尋抗菌胜肽：「數天變成一次對話」「in hours」「數小時變成數分鐘」三種加速說法分屬三個官方位置，沒有一個附得出絕對數值；而那個候選分子在 UniProt 的名稱，證據欄寫的是 Google:ProtNLM](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
 
 同一家公司相隔一天的兩則公告，分屬成果側與取用側，而兩則的可核對物都不在正文：本則的樣本數與六段利益揭露藏在同頁要點開的面板裡，該則的夥伴總數與正文三份名單對不起來，決定研究者實際能用到哪一級模型的那段限制則寫在兩個月前的另一頁；兩則並讀可以看出同一家公司在同一週內，把關鍵限定條件放在正文以外的兩種不同作法: [Anthropic 擴大 AI for Science 至基金會與研究機構：公告開頭寫「20 個」夥伴，三份名單逐條數出來是 18 個；而生物與化學研究者仍限用 Opus-class 模型這件事，寫在同一計畫兩個月前的另一頁](2026-10-30-anthropic-ai-for-science-foundations-expansion.md)
+
+兩則的核心都是「訂標準的人與被評分的系統出自同一方」：本則的成功規格依技術報告自述是在看過結果之後才定下的；該則則是 benchmark、Gatekeeper、Judge 與受測系統 MAI-DxO 由同一個團隊設計，論文的利益揭露列出全體作者皆為 Microsoft 員工並持有股權。差別在於該則把整套評分程式碼開源了，讓外部至少能檢視那把尺怎麼刻: [Microsoft 發表 MAI-DxO 與 SDBench：公告說開源是為了「讓研究者重現評估」，但支撐已發表數值的兩個資料集都要另外向 NEJM 或 PhysioNet 申請，repo 裡唯一附上的五個案例，README 自己寫著不適合用來報告診斷效能](2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
 
 ## 實務的啟發
 
