@@ -127,7 +127,7 @@ attention knockout 從 layer 0 開始時，flip rate 由 report-present baseline
 - 影像與文字的先後順序會改變 effect size：image-first headline 是 +12.4 個百分點，text-first 是 +7.8；因此不能把單一 flip rate 當成與 prompt 無關的模型屬性。[(ref: main Table 2)](https://arxiv.org/html/2609.15635v1#S2.T2)
 - composite question 的 wording 與 target 不完全一致；排除後方向仍在，但 pooled 結果也掩蓋 atelectasis 與 support devices 兩個反向 findings。[(ref: main §4.1)](https://arxiv.org/html/2609.15635v1#S4.SS1) [(ref: main Table 22)](https://arxiv.org/html/2609.15635v1#A10.T22)
 - 原始 headline readout 使用機率極低的小寫 first-token logits，且 prompt 沒要求 yes/no；明確 instruction 與 generated answer 驗證保留方向，卻也改變無報告條件的數值。[(ref: main Appendix I)](https://arxiv.org/html/2609.15635v1#A9)
-- arXiv 摘要宣稱程式碼、提示與逐次執行紀錄位於 companion repository，但該連結在 2026-09-17 evidence review 時回傳 404；因此本文不能用該 repository 獨立核對重現材料。[(ref: abstract)](https://arxiv.org/abs/2609.15635)
+- arXiv 摘要宣稱程式碼、提示與逐次執行紀錄位於 companion repository，但該連結自本文發布時起即無法開啟；因此本文不能用該 repository 獨立核對重現材料。[(ref: abstract)](https://arxiv.org/abs/2609.15635)
 - 研究是離線反事實稽核，沒有前瞻臨床流程、病人結局、公平性或錯誤嚴重度驗證；不能由本結果推論模型可安全部署。
 
 ## 與書庫其他文章的關係
