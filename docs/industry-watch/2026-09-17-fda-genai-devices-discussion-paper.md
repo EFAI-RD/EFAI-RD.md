@@ -98,6 +98,8 @@ FDA 在 2026 年 8 月就 generative AI（GenAI）-enabled medical devices 公�
 
 本則徵求 GenAI 醫材監管意見、探索未來框架，該則則是 FDA 在具體請願上守住現行 510(k) 關卡的定案: [FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
 
+本則整理 FDA 對生成式 AI 醫材提出的監管問題，其中一項是上市後變更要如何追溯；該則示範的修改方式剛好把那個問題推到極端 —— 改動 0.016% 的權重、沒有訓練迴圈、沒有資料集、沒有梯度，傳統上用來證明一次變更做了什麼的那些紀錄全都不存在: [MIT CSAIL 提出 Weight-Space Programming：標題說 LLM 能原生讀寫神經網路權重，而唯一一個行為稽核實驗在「只看權重」時四次全敗；Qwen3.5-0.8B 的 MATH-500 從 7.9% 升到 48.1%，同一張表裡命中 token 上限的比例從 93% 降到 33%，作者自己在附帶實驗寫明這是移除障礙、不是增加能力](2026-11-03-weight-space-programming-llm-reads-writes-weights.md)
+
 ## 實務的啟發
 
 1. 先確認產品是否落入 **device** 定義與哪一類 software function；文件一再強調 FDA 不監管「GenAI 技術本身」。

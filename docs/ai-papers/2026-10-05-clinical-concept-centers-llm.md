@@ -146,6 +146,8 @@ ModaLens 以交換影像、觀察答案變不變來推斷模型實際用了哪�
 
 醫療 LLM 評估落差那篇從文獻層級指出評估多停在輸出與舊模型，本篇提出另一個評估面向：讀模型內部的概念活化，但它的醫師驗證只有 2 位評分者與 38 案，還不足以支撐取代輸出端評估: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md)
 
+兩者對神經網路做的是同一類手術，而誰拿刀不同：本研究以 sparse autoencoder 解出 ICD 章節的概念方向並在 11 個開源模型上做因果介入，方向由既定演算法算出；該則的 Experiment 8 是讓一個通用語言模型自己讀權重、自己指認那條造成迴圈的方向，再從兩層 MLP 的各 64 個輸出欄位把它減掉: [MIT CSAIL 提出 Weight-Space Programming：標題說 LLM 能原生讀寫神經網路權重，而唯一一個行為稽核實驗在「只看權重」時四次全敗；Qwen3.5-0.8B 的 MATH-500 從 7.9% 升到 48.1%，同一張表裡命中 token 上限的比例從 93% 降到 33%，作者自己在附帶實驗寫明這是移除障礙、不是增加能力](../industry-watch/2026-11-03-weight-space-programming-llm-reads-writes-weights.md)
+
 ## 實務的啟發
 
 - **可借用的量測設計** — 用 EHR 現成的專家編碼當可解釋性標籤，以及「selection half 選設定、held-out 報數字、再配 permuted-label／wrong-chapter／random／unembedding 四組對照」的介入流程，可以直接拿來檢查自家模型對某類臨床概念是否有可定位、可介入的內部表徵。
