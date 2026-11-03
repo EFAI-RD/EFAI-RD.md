@@ -8,6 +8,7 @@
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-11-03 | [GE HealthCare 發表 Allia Celeo 介入影像系統：公告標題寫 AI-powered precision imaging，正文 15 處是「designed to／aim to／with the goal of」，study、trial、evidence 與百分比的命中數都是 0，而唯一具名的 AI 工具落在沒有寫 cleared 的那一句](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md) | Clarence | 2026-11-01 官方新聞稿（單源，待交叉驗證）；文章區 6,005 字元內 %／percent、study、trial、data、evidence 命中數皆為 0，`cleared` 全文兩次都在冠狀動脈與結構性心臟病那一句 |
 | 2026-11-02 | [Microsoft 發表 MAI-DxO 與 SDBench：公告說開源是為了「讓研究者重現評估」，但支撐已發表數值的兩個資料集都要另外向 NEJM 或 PhysioNet 申請，repo 裡唯一附上的五個案例，README 自己寫著不適合用來報告診斷效能](2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md) | Clarence | 2026-10-22 官方公告，同日論文刊於 Science（FREE ACCESS）；「近四倍準確率」與「一半甚至三分之一成本」分屬四個運作點中的不同者，急診案例組沒有任何運作點符合後者 |
 | 2026-10-30 | [Anthropic 擴大 AI for Science 至基金會與研究機構：公告開頭寫「20 個」夥伴，三份名單逐條數出來是 18 個；而生物與化學研究者仍限用 Opus-class 模型這件事，寫在同一計畫兩個月前的另一頁](2026-10-30-anthropic-ai-for-science-foundations-expansion.md) | Clarence | 2026-10-28 官方公告；三份名單的 li 元素逐一計數為 6+6+6=18，而正文、meta description 與 JSON-LD 三處都寫 20 |
 | 2026-10-29 | [GE HealthCare 公布 2026 年第三季財報：「各部門都成長、利潤率都擴張」成立於這一季，而同一份文件的前九個月欄位寫著淨利率 −20 個基點、調整後 EBIT 利潤率零變動，Patient Care Solutions 的九個月營收是 −4.0%](2026-10-29-ge-healthcare-q3-2026-results.md) | Clarence | 2026-10-28 官方新聞稿與同日 SEC Form 8-K；官網 11 張財務表格為點陣圖，數值以 Exhibit 99 的 HTML 表格核對 |

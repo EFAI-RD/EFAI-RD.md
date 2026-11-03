@@ -130,6 +130,8 @@ refs:
 
 兩則都是在醫學會議現場以臨床人員的使用經驗描述一台產品，而同一頁的小字寫明它在相關市場尚不能商業供應：本則的限制是產品尚未符合 MDR 2017/745 的全部要求、未商業化供應，該則的限制是公告所稱可販售範圍為「部分歐盟成員國」，而受邀評估的五家機構中只有法國一家在歐盟境內。兩則合看可以看出「現場證言」與「法規小字」在同一頁並存已經是常態: [GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
+兩則都是 C 臂類取像設備在年會現場的發表，而兩家公司把「證據」放在不同位置又都沒有放進研究：本則的產品頁設了一個標示為 `Evidence` 的區塊，裡面是假體影像與兩段使用者證言，該則連這樣一個區塊都沒有，整篇公告的 `study` 與 `trial` 命中數都是 0，兩則並讀可以看出取像端設備的證據形態仍由各廠商自訂: [GE HealthCare 發表 Allia Celeo 介入影像系統：公告標題寫 AI-powered precision imaging，正文 15 處是「designed to／aim to／with the goal of」，study、trial、evidence 與百分比的命中數都是 0，而唯一具名的 AI 工具落在沒有寫 cleared 的那一句](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
+
 ## 實務的啟發
 
 - **引用這則公告的規格時，把「選配」一起帶。** 新聞稿的 `The systems come with` 涵蓋 3.5 或 5 kW、20 × 20 或 31 × 31 cm 兩組規格，而產品頁把其中較高的那一個都標為 `Option`。綠色雷射定位器、Target Pointer 與 Live Graphical Overlay 三項在新聞稿裡是直述句、在產品頁上是選配。實務上這決定了報價與實際到院組態之間的差距，因此規格比較表應該註記每一項的標配／選配狀態，而不是逕行抄錄新聞稿。

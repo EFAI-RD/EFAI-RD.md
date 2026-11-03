@@ -156,6 +156,8 @@ Siemens Healthineers 在 ASTRO 2026 發表 Accela，官方標題直接寫「放�
 
 兩則都是在國際醫學年會發表、而同頁註腳寫明美國 510(k) 仍在審查中的系統，差別在歐洲端的狀態：本則的註腳寫的是尚未在任何市場銷售，該則已取得 CE Mark 並在部分歐盟成員國販售。把兩則放在一起可以看出「發表早於許可」這個做法在不同法規進度下會長成不同的樣子，而註腳的位置與密度則幾乎一致: [GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
+兩則都是在國際醫學年會上發表、而同一頁註腳寫著美國 510(k) 仍在審查中的系統，差別在限定條件被放進哪一個層級：本則的註腳同時擋住美國與其他所有市場（尚未在任何市場銷售），該則的註腳只擋美國，歐盟端已有 CE 標章，於是同一句「不能賣」在兩則裡涵蓋的範圍相差一整個歐洲: [GE HealthCare 發表 Allia Celeo 介入影像系統：公告標題寫 AI-powered precision imaging，正文 15 處是「designed to／aim to／with the goal of」，study、trial、evidence 與百分比的命中數都是 0，而唯一具名的 AI 工具落在沒有寫 cleared 的那一句](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
+
 ## 實務的啟發
 
 1. **讀產品發表先找註腳，再讀標題。** 這一則的法規狀態、遠端操作限制與效益用詞（potential）全部寫在註腳或段末限定句裡。建立一個固定動作：拿到任何醫材發表，先搜尋 `pending`、`not available`、`investigational`、`potential to`，再回頭讀標題。標題與註腳之間的差距，就是這份資料真正的不確定區間。
