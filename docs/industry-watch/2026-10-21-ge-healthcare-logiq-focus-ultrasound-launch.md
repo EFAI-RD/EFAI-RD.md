@@ -156,6 +156,8 @@ GE HealthCare 在 2026-10-19 發表 LOGIQ Focus，定位是把高階機種的影
 
 同一家公司把一個比較級數字放進公告，而比較對象都是自家前代機的兩個案例，差別在揭露位置：本則的「快 26 percent」在新聞稿正文就寫出比的是自家 LOGIQ P8，讀者在同一段就看得到比較對象；該則正文只寫「2.67 倍」，必須翻到註腳才知道比的是 NM/CT 870 DR 搭 LEHRS collimator，而該機種的產品頁又沒有公布絕對值，倍數因此無法還原: [GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
+同一家公司相隔十三天的兩次產品發表，自訂的證據門檻卻落在光譜的兩端：本則委託第三方做了有醫師參與的比較研究、公開白皮書並在三個官方頁面引用同一個數字，缺陷在於選擇了哪一組結果進新聞稿；該則連一個可被挑選的數字都不存在，於是連「選擇性報導」這個批評都無從成立: [GE HealthCare 發表 Allia Celeo 介入影像系統：公告標題寫 AI-powered precision imaging，正文 15 處是「designed to／aim to／with the goal of」，study、trial、evidence 與百分比的命中數都是 0，而唯一具名的 AI 工具落在沒有寫 cleared 的那一句](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
+
 ## 實務的啟發
 
 - **看到「快 X%」，先問「比什麼快」** — 本則提供了最乾淨的練習：新聞稿的 `predicate system` 聽起來像法規或市場基準，實際是同一家公司的前代機。比較對象沒寫出來的效能宣稱，不能進採購評比表的數字欄。
