@@ -203,6 +203,8 @@ CONCH 以病理圖文預訓練換取零樣本遷移能力，該研究則在凍�
 
 CONCH 代表病理圖文預訓練在 tile 層級的作法，該研究則把爭論點移到送進編碼器的視覺單位本身，兩篇合起來構成病理基礎模型的兩條獨立設計軸: [每次前向傳遞只看一張圖：WILSON 用多倍率 composite 取代數千個 tile，但每張切片會生成 10 張 composite，診斷資訊還剩多少？](2026-09-24-wilson-composite-pathology-foundation-model.md)
 
+CONCH 以 zero-shot 分類展示病理圖文預訓練的遷移能力，該研究在 CONCH v1 的同一組特徵與相同 pooling 下比較 zero-shot 與監督式線性探測，差距不顯著，顯示語言的價值主要留在預訓練特徵、而非推論時的 prompt: [語言到底替病理 VLM 加了什麼？四個控制實驗：去掉分期的報告文字讓存活 C-index 多 0.016–0.019，zero-shot prompt 沒有勝過線性探測，SlideChat 拿掉切片後答對率只從 74.82% 掉到 74.41%](2026-11-04-pathology-vlm-language-controlled-probes.md)
+
 上述比較依兩篇各自的訓練設計。[(ref: main 圖文預訓練)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11384335/#S10) [(ref: lingshu §2–3)](https://arxiv.org/html/2506.07044v4#S2) [(ref: lingshu §3)](https://arxiv.org/html/2506.07044v4#S3)
 
 ## 實務的啟發

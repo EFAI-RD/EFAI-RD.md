@@ -152,6 +152,8 @@ ModaLens 在推論端交換影像來量測醫療 VLM 的影像敏感度，ECDD �
 
 ModaLens 固定文字、只交換影像，該研究則固定影像、只把轉診文字從明顯感染逐級改寫到明顯腫瘤，量到四個多模態 LLM 的答案主要隨文字改變，確診診斷造成的差異平均只有 0.01–0.25: [轉診單上一句話，就決定多模態 LLM 怎麼讀 MRI？膠質瘤 vs 腦膿瘍：四個模型的 text-driven span 0.79–1.00，叫它忽略文字也只有一個模型降到 0.04](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
 
+ModaLens 在胸片加報告的情境下交換影像量測醫療 VLM 是否仍看影像，該研究把拿掉切片、換錯切片的對照搬到病理全切片問答，並加上選項位移、NOTA 與改寫三種格式對照: [語言到底替病理 VLM 加了什麼？四個控制實驗：去掉分期的報告文字讓存活 C-index 多 0.016–0.019，zero-shot prompt 沒有勝過線性探測，SlideChat 拿掉切片後答對率只從 74.82% 掉到 74.41%](2026-11-04-pathology-vlm-language-controlled-probes.md)
+
 ## 實務的啟發
 
 第一，多模態系統不能只報 joint-input accuracy。至少應加入單模態消融、影像交換、文字交換與矛盾案例，分別量測輸出對每一模態的敏感度；如果 ground truth 來自其中一個模態，還要另外取得不依附該模態的標註。

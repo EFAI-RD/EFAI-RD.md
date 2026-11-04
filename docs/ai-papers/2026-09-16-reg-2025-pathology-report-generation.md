@@ -102,6 +102,8 @@ REG 2025 顯示病理報告生成的榜單分數抓不到數值幻覺，該研�
 
 REG 2025 檢驗既有管線把全切片寫成完整結構化報告的能力與評分盲點，該研究則顯示同一條路能在單次前向傳遞的 composite 上走通，但也暴露 BERTScore 精確率與召回率反向移動的問題: [每次前向傳遞只看一張圖：WILSON 用多倍率 composite 取代數千個 tile，但每張切片會生成 10 張 composite，診斷資訊還剩多少？](2026-09-24-wilson-composite-pathology-foundation-model.md)
 
+REG 2025 從報告生成端指出榜單分數抓不到數值幻覺，該研究則從問答端顯示另一個評估盲點：SlideChat 在 SlideBench-VQA(TCGA) 上拿掉切片後答對率幾乎不變，並把 REG2025 列入病理 VLM 常用公開基準的整理: [語言到底替病理 VLM 加了什麼？四個控制實驗：去掉分期的報告文字讓存活 C-index 多 0.016–0.019，zero-shot prompt 沒有勝過線性探測，SlideChat 拿掉切片後答對率只從 74.82% 掉到 74.41%](2026-11-04-pathology-vlm-language-controlled-probes.md)
+
 ## 實務的啟發
 
 第一，病理報告生成的驗收表不應只列整體文字分數。本書庫建議把器官、處置、組織型態、分級、腫瘤比例、否定與不確定性拆成 slots，逐欄量測正確、漏報、過度確診與數值誤差；這延伸了作者對 ontology-aware 與 slot-level 指標的建議。[(ref: main §5 metrics)](https://arxiv.org/html/2609.00866v1#S5.p2)
