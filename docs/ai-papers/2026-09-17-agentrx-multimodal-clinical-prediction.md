@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？"
+title: "AgentRx：ICU 預測多加模態有用，多代理協作沒穩定勝出"
 category: ai-papers
 date: 2026-09-17
 updated: 2026-09-17
@@ -31,7 +31,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？
+# AgentRx：ICU 預測多加模態有用，多代理協作沒穩定勝出
 
 ## 來源
 
@@ -156,9 +156,9 @@ CXR 只取前 48 小時內的 AP view；同一病人若有多張，取最後一�
 
 該文提供多代理的角色分工、通訊與驗收通用框架，AgentRx 則用 ICU 多模態預測顯示，若代理只交換壓縮後判斷，增加角色與對話不會自動改善辨識或校準: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
-該文把 AgentRx 這類 retrospective agent benchmark 放回整體證據版圖，顯示 agentic／multi-agent 醫療文獻成長很快，但 prospective／controlled evidence 的相對供給仍低: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md)
+該文把 AgentRx 這類 retrospective agent benchmark 放回整體證據版圖，顯示 agentic／multi-agent 醫療文獻成長很快，但 prospective／controlled evidence 的相對供給仍低: [醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊](2026-09-17-medical-llm-evaluation-gap.md)
 
-MammoClaw 在乳房攝影上得到與本篇相近的訊號：替凍結的代理加上工具本身不會改善 macro-F1，有差別的是從失敗軌跡蒸餾出的使用指引: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
+MammoClaw 在乳房攝影上得到與本篇相近的訊號：替凍結的代理加上工具本身不會改善 macro-F1，有差別的是從失敗軌跡蒸餾出的使用指引: [MammoClaw：給工具沒用，技能演化後仍可能輸給全猜一類](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
 
 ## 實務的啟發
 

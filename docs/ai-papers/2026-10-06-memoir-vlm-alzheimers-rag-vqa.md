@@ -1,7 +1,7 @@
 ---
-title: "阿茲海默症分期的 VLM：caption 拿掉診斷欄位後，MEMOIR-VLM 的 LLM 還贏得過 k-NN 嗎？"
 parent: AI Papers
 nav_exclude: true
+title: "阿茲海默症分期：caption 遮掉診斷欄位後，LLM 輸給 k-NN"
 catalog_id: "doi:10.3389/fncom.2026.1902258"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 阿茲海默症分期的 VLM：caption 拿掉診斷欄位後，MEMOIR-VLM 的 LLM 還贏得過 k-NN 嗎？
+# 阿茲海默症分期：caption 遮掉診斷欄位後，LLM 輸給 k-NN
 
 ## 來源
 
@@ -139,11 +139,11 @@ ADNI 以受試者為單位、依診斷分層切成 80/20，每人只取最近一
 
 ## 與書庫其他文章的關係
 
-胸片 RAG 的 pilot 觀察到檢索來的前例報告會被 VLM 抄進生成內容，本篇在阿茲海默症 VQA 上量到同一類問題的完整版本：檢索 caption 帶著診斷欄位時，cross-encoder 與 LLM 都會直接沿用標籤，遮住之後 LLM 就不再超過 k-NN: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
+胸片 RAG 的 pilot 觀察到檢索來的前例報告會被 VLM 抄進生成內容，本篇在阿茲海默症 VQA 上量到同一類問題的完整版本：檢索 caption 帶著診斷欄位時，cross-encoder 與 LLM 都會直接沿用標籤，遮住之後 LLM 就不再超過 k-NN: [相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
-ModaLens 以交換影像量測醫療 VLM 在有報告可讀時還看不看影像，本篇用模態遮罩消融回答類似的問題：輸入含認知分數時，T1w MRI 對三分類診斷的增益在統計上無法與零區分: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？](2026-09-17-modalens-image-sensitivity.md)
+ModaLens 以交換影像量測醫療 VLM 在有報告可讀時還看不看影像，本篇用模態遮罩消融回答類似的問題：輸入含認知分數時，T1w MRI 對三分類診斷的增益在統計上無法與零區分: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎](2026-09-17-modalens-image-sensitivity.md)
 
-OCT 稽核在固定理由後替換影像，量 VLM 決策裡影像還剩多少直接貢獻，本篇則在多模態編碼器內以遮罩與配對 bootstrap 量影像對診斷與年齡的增益，兩者都顯示影像的貢獻要用受控對照才看得清楚: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
+OCT 稽核在固定理由後替換影像，量 VLM 決策裡影像還剩多少直接貢獻，本篇則在多模態編碼器內以遮罩與配對 bootstrap 量影像對診斷與年齡的增益，兩者都顯示影像的貢獻要用受控對照才看得清楚: [抽掉 OCT 影像，VLM 的 anti-VEGF 建議還剩多少依據](2026-09-23-vlm-oct-image-dependence-audit.md)
 
 ## 實務的啟發
 

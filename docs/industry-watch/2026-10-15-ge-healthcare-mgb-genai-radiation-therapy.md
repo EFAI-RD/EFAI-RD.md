@@ -132,7 +132,7 @@ GE HealthCare 在 2026-09-23 宣布與 Mass General Brigham 擴大研究合作�
 
 兩則相隔四天的放射腫瘤科公告來自互為競爭的兩家大廠，而 Mass General Brigham 同時是該則 Accela 七家顧問機構之一與本則的合作對象；兩則並讀可以看出同一家醫學中心的名字如何分別出現在兩種強度不同的宣稱裡 —— 該則把它列為尚未產出結果的顧問機構，本則則以它過去的自研軟體成效作為提要中唯一的數字: [Accela 宣告「放射治療的未來已到來」，註腳說還不能賣](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-同一家公司相隔十二天的兩則公告指向同一條治療端路線：本則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而該則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [GE HealthCare 9.45 億買下自家代工廠，pan-cancer 只做兩種癌](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+同一家公司相隔十二天的兩則公告指向同一條治療端路線：本則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而該則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
 兩則都是標題的效益語氣涵蓋範圍大於內文可核對的數字，差別在於程度：該則五個合作案至少各有一個可指認的進行階段與一個報出的篩檢量，本則的生成式 AI 部分則連一個數字都沒有，唯一的數字屬於合作之前的既有軟體: [MedGemma 的五個落地案例，只有一個報得出用過幾次](2026-10-08-medgemma-global-deployment-claims.md)
 

@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）"
+title: "nMAS：心衰竭特徵工程全程留證據鏈，但只跑了 500 筆假資料"
 category: ai-papers
 date: 2026-09-15
 updated: 2026-09-15
@@ -56,7 +56,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）
+# nMAS：心衰竭特徵工程全程留證據鏈，但只跑了 500 筆假資料
 
 ## 來源
 
@@ -200,19 +200,19 @@ Rubric 定義條件、給分與證據階層；八類特徵各自在類別內把�
 
 ## 與書庫其他文章的關係
 
-測試模型能否從病歷定位支撐概念的句子，可對照 nMAS 以規則與來源欄維持特徵 provenance 的做法: [MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？](2026-09-17-medicalbench-concept-extraction.md)
+測試模型能否從病歷定位支撐概念的句子，可對照 nMAS 以規則與來源欄維持特徵 provenance 的做法: [MedicalBench：要 LLM 指出病歷裡那一句，隱性概念就難了](2026-09-17-medicalbench-concept-extraction.md)
 
 提供閱讀 nMAS「專責代理＋有界稽核」時所需的多代理譜系背景: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
 說明美國對「心血管 ML 通知軟體」的成文分類與通報／診斷邊界，可對照研究管線的落地距離: [FDA 給心血管 ML 軟體一個條號：通報，不是診斷](../industry-watch/2026-09-15-fda-cardio-ml-notification.md)
 
-nMAS 把射出分率當成心衰竭特徵的上游欄位，該研究則處理那個欄位如何從心臟超音波自動量測及其誤差結構: [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
+nMAS 把射出分率當成心衰竭特徵的上游欄位，該研究則處理那個欄位如何從心臟超音波自動量測及其誤差結構: [先分割左心室再估射出分率？一條 10.5% 的天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
 
-ORION-CMR 處理的是射出分率這類欄位在心臟 MRI 端如何被自動量測與寫進報告，正好接在本篇把這些欄位當成上游輸入的位置之前: [掃完約 90 秒就吐出結構化報告：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀，臨床驗證只在單一中心](2026-09-24-orion-cmr-on-scanner-reporting.md)
+ORION-CMR 處理的是射出分率這類欄位在心臟 MRI 端如何被自動量測與寫進報告，正好接在本篇把這些欄位當成上游輸入的位置之前: [ORION-CMR：掃完約 90 秒出結構化報告，驗證只在單一中心](2026-09-24-orion-cmr-on-scanner-reporting.md)
 
-nMAS 把病歷欄位抽出來供下游使用，該研究則量測上游那一步在不同院所能做到多準，以及三種技術路線各自的錯誤型態: [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
+nMAS 把病歷欄位抽出來供下游使用，該研究則量測上游那一步在不同院所能做到多準，以及三種技術路線各自的錯誤型態: [病歷裡的老年照護構念：規則引擎、GPT-4o 與微調小模型各有破法](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
 
-本篇讓多代理在病歷內做可追溯的特徵工程，該研究則把病歷留在院內、只把「哪個血球計數算式有訊號」蒸餾成打分器交給院外代理，兩篇可對照病歷特徵發現的兩種資料治理設計: [病歷不出院，只放出一個打分器：LLM 代理靠它找血球計數生物標記，外部驗證只在部分世代站得住](2026-10-07-gat-scorer-cbc-biomarker-agent.md)
+本篇讓多代理在病歷內做可追溯的特徵工程，該研究則把病歷留在院內、只把「哪個血球計數算式有訊號」蒸餾成打分器交給院外代理，兩篇可對照病歷特徵發現的兩種資料治理設計: [病歷不出院，只放出一個打分器：CBC 標記的外部驗證時好時壞](2026-10-07-gat-scorer-cbc-biomarker-agent.md)
 
 ## 實務的啟發
 

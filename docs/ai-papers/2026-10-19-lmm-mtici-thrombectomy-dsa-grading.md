@@ -1,7 +1,7 @@
 ---
-title: "有手術報告時，GPT-5 的 mTICI 分級追得上醫師；只給 DSA 影像，一致性從 0.87 掉到 0.35：取栓後再灌流分級的多模態模型比較"
 parent: AI Papers
 nav_exclude: true
+title: "有報告時 GPT-5 的 mTICI 追得上醫師，只給影像掉到 0.35"
 catalog_id: "doi:10.21203/rs.3.rs-11013237/v1"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 有手術報告時，GPT-5 的 mTICI 分級追得上醫師；只給 DSA 影像，一致性從 0.87 掉到 0.35：取栓後再灌流分級的多模態模型比較
+# 有報告時 GPT-5 的 mTICI 追得上醫師，只給影像掉到 0.35
 
 ## 來源
 
@@ -144,11 +144,11 @@ mTICI（modified Thrombolysis in Cerebral Infarction）是取栓手術後評估�
 
 ## 與書庫其他文章的關係
 
-ModaLens 以交換影像量測有報告可讀時醫療 VLM 是否仍看影像，主要模型是 MedGemma-27B、也在 MedGemma-4B 上重現；本篇用 report increment 與 imaging increment 在血管攝影的 mTICI 分級上得到同一個方向的答案：報告在時，加影像幾乎不改變模型的一致性: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？](2026-09-17-modalens-image-sensitivity.md)
+ModaLens 以交換影像量測有報告可讀時醫療 VLM 是否仍看影像，主要模型是 MedGemma-27B、也在 MedGemma-4B 上重現；本篇用 report increment 與 imaging increment 在血管攝影的 mTICI 分級上得到同一個方向的答案：報告在時，加影像幾乎不改變模型的一致性: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎](2026-09-17-modalens-image-sensitivity.md)
 
-OCT 稽核把模型自己寫出的理由固定住再替換影像，量影像對治療決策的直接貢獻；本篇以三種輸入條件與醫師讀者的同條件對照拆出同一件事，兩篇都顯示端到端分數高不代表影像有出力: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
+OCT 稽核把模型自己寫出的理由固定住再替換影像，量影像對治療決策的直接貢獻；本篇以三種輸入條件與醫師讀者的同條件對照拆出同一件事，兩篇都顯示端到端分數高不代表影像有出力: [抽掉 OCT 影像，VLM 的 anti-VEGF 建議還剩多少依據](2026-09-23-vlm-oct-image-dependence-audit.md)
 
-本篇以三種輸入條件顯示 GPT-5 的一致性主要來自手術報告，該研究則固定同一張腦部 MRI 切面、逐級改寫轉診文字，顯示文字能直接決定多模態 LLM 的鑑別診斷，且「忽略文字」的指令只在一個模型上有效: [轉診單上一句話，就決定多模態 LLM 怎麼讀 MRI？膠質瘤 vs 腦膿瘍：四個模型的 text-driven span 0.79–1.00，叫它忽略文字也只有一個模型降到 0.04](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
+本篇以三種輸入條件顯示 GPT-5 的一致性主要來自手術報告，該研究則固定同一張腦部 MRI 切面、逐級改寫轉診文字，顯示文字能直接決定多模態 LLM 的鑑別診斷，且「忽略文字」的指令只在一個模型上有效: [轉診單一句話就改變 MRI 判讀，叫模型忽略只有一個做得到](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
 
 ## 實務的啟發
 

@@ -1,7 +1,7 @@
 ---
-title: "三個 LLM 都同意才自動貼標：6,718 份腦 MRI 報告分正常／異常，參考集零錯誤的代價是約一半報告退回人工"
 parent: AI Papers
 nav_exclude: true
+title: "三個 LLM 都同意才自動貼標：零錯誤的代價是一半退回人工"
 catalog_id: "doi:10.64898/2026.10.06.26364312"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 三個 LLM 都同意才自動貼標：6,718 份腦 MRI 報告分正常／異常，參考集零錯誤的代價是約一半報告退回人工
+# 三個 LLM 都同意才自動貼標：零錯誤的代價是一半退回人工
 
 ## 來源
 
@@ -121,13 +121,13 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-序列胸片報告研究把七個 LLM 逐一當成獨立判讀者比較準確率，本篇則把三個 LLM 是否一致本身當成自動貼標與退回人工的訊號，兩篇都只給模型報告文字、不給影像: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md)
+序列胸片報告研究把七個 LLM 逐一當成獨立判讀者比較準確率，本篇則把三個 LLM 是否一致本身當成自動貼標與退回人工的訊號，兩篇都只給模型報告文字、不給影像: [序列胸片報告的時序判讀：七個 LLM 分得出「新出現」嗎](2026-09-22-llm-temporal-change-cxr-reports.md)
 
-膀胱鏡研究以棄答門檻在覆蓋率與可靠度之間選操作點，本篇用三模型一致與 WMH-only 一律退回做同一種取捨，換到參考集零錯誤、代價是約三成參考報告留給人工: [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](2026-09-21-mllm-cystoscopy-bladder-triage.md)
+膀胱鏡研究以棄答門檻在覆蓋率與可靠度之間選操作點，本篇用三模型一致與 WMH-only 一律退回做同一種取捨，換到參考集零錯誤、代價是約三成參考報告留給人工: [膀胱鏡交給通用 MLLM：加一層棄答門檻換到多少可靠度](2026-09-21-mllm-cystoscopy-bladder-triage.md)
 
-RadKev 以單一 decision model 的答案機率做 coverage at 5% error，本篇則以三個 LLM 是否一致決定自動貼標或退回人工，兩篇處理的是同一種覆蓋率與錯誤率的取捨: [不生成文字、直接給每個選項機率：RadKev 把 decision model 專科化到放射科，15 項任務平均多 4.9 點，換到外院報告卻沒有進步](2026-10-15-radkev-radiology-decision-model.md)
+RadKev 以單一 decision model 的答案機率做 coverage at 5% error，本篇則以三個 LLM 是否一致決定自動貼標或退回人工，兩篇處理的是同一種覆蓋率與錯誤率的取捨: [RadKev：放射專科化後平均多 4.9 點，換一家醫院就沒了](2026-10-15-radkev-radiology-decision-model.md)
 
-NSCLC 轉移擷取那篇比較單一模型從病歷判斷轉移的準確度，本篇則用三個 LLM 是否一致決定自動貼標或退回人工，兩篇處理的都是用 LLM 從自由文字建立研究隊列時的標籤可靠度: [癌症登記缺了 54% 的轉移欄位，病歷補得回來嗎？NSCLC 病歷上，零樣本 MedGemma、Llama 3.1 與微調 GatorTron 的比較](2026-10-19-llm-nsclc-metastasis-extraction-clinical-notes.md)
+NSCLC 轉移擷取那篇比較單一模型從病歷判斷轉移的準確度，本篇則用三個 LLM 是否一致決定自動貼標或退回人工，兩篇處理的都是用 LLM 從自由文字建立研究隊列時的標籤可靠度: [癌症登記缺了 54% 轉移欄位，三種 LLM 從病歷補得回來嗎](2026-10-19-llm-nsclc-metastasis-extraction-clinical-notes.md)
 
 ## 實務的啟發
 

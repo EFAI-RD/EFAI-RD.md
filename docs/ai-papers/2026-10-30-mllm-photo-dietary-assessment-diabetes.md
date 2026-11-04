@@ -1,7 +1,7 @@
 ---
-title: "拍一張餐點照片就能算碳水嗎？八個多模態 LLM 在 SNAPMe 1,680 張餐前照片上：最好的 GPT-4o mini 碳水 MAE 13.3 g、只有 57% 的餐落在 ±10 g 內，作者判定還不能拿來算胰島素"
 parent: AI Papers
 nav_exclude: true
+title: "拍張餐點照就能算碳水嗎？MAE 13.3 g，還不能拿來算胰島素"
 catalog_id: "doi:10.64898/2026.10.21.26365949"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 拍一張餐點照片就能算碳水嗎？八個多模態 LLM 在 SNAPMe 1,680 張餐前照片上：最好的 GPT-4o mini 碳水 MAE 13.3 g、只有 57% 的餐落在 ±10 g 內，作者判定還不能拿來算胰島素
+# 拍張餐點照就能算碳水嗎？MAE 13.3 g，還不能拿來算胰島素
 
 ## 來源
 
@@ -132,7 +132,7 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-膀胱鏡那篇同樣把未經醫療訓練的通用多模態 LLM 經 API 套在臨床照片上，並比較不同 prompt 策略與棄答門檻；本篇把場景換到參與者自己拍的餐點照片，比較 8 個模型與 CoT／no-CoT 兩種 prompt，並發現較新的 GPT-5.2 不如 GPT-4o mini: [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](2026-09-21-mllm-cystoscopy-bladder-triage.md)
+膀胱鏡那篇同樣把未經醫療訓練的通用多模態 LLM 經 API 套在臨床照片上，並比較不同 prompt 策略與棄答門檻；本篇把場景換到參與者自己拍的餐點照片，比較 8 個模型與 CoT／no-CoT 兩種 prompt，並發現較新的 GPT-5.2 不如 GPT-4o mini: [膀胱鏡交給通用 MLLM：加一層棄答門檻換到多少可靠度](2026-09-21-mllm-cystoscopy-bladder-triage.md)
 
 ## 實務的啟發
 

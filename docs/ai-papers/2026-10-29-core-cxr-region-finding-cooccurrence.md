@@ -1,7 +1,7 @@
 ---
-title: "CoRE：把胸片標籤拆成 252 個「部位－發現」配對，以共現分組的 prompt 與區域證據調整凍結的 EVA-X，2.09M 可訓練參數下 macro AUROC 比 ML-VPT 高 0.0147"
 parent: AI Papers
 nav_exclude: true
+title: "CoRE：胸片標籤拆成 252 個部位－發現配對，2.09M 參數調贏基線"
 catalog_id: "arxiv:2610.30584"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# CoRE：把胸片標籤拆成 252 個「部位－發現」配對，以共現分組的 prompt 與區域證據調整凍結的 EVA-X，2.09M 可訓練參數下 macro AUROC 比 ML-VPT 高 0.0147
+# CoRE：胸片標籤拆成 252 個部位－發現配對，2.09M 參數調贏基線
 
 ## 來源
 
@@ -161,9 +161,9 @@ Region-Evidence Stream 為每個解剖區域設一個可學習 query，對 patch
 
 ## 與書庫其他文章的關係
 
-該研究把區域監督放在預訓練目標，量測凍結編碼器在各粒度任務的表現；CoRE 則固定一個凍結的胸片編碼器，在下游用 Chest ImaGenome 的區域框與 region–finding 標籤做 prompt tuning，兩篇從上下游兩端回答「區域層級監督值不值得」: [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md)
+該研究把區域監督放在預訓練目標，量測凍結編碼器在各粒度任務的表現；CoRE 則固定一個凍結的胸片編碼器，在下游用 Chest ImaGenome 的區域框與 region–finding 標籤做 prompt tuning，兩篇從上下游兩端回答「區域層級監督值不值得」: [胸片編碼器該學全域還是局部？九種預訓練目標、五項任務](2026-09-30-cxr-vlp-granularity-controlled-study.md)
 
-MAIRA-2 的影像編碼器 RAD-DINO-MAIRA-2 是本篇 Table 1 的 LP／FFT 骨幹之一，兩篇也都用 MS-CXR 評估定位；MAIRA-2 把定位寫進生成的報告，CoRE 則把部位直接放進分類標籤，只用影像就在 P. Hit 上高於需要文字查詢的 grounding 模型: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md)
+MAIRA-2 的影像編碼器 RAD-DINO-MAIRA-2 是本篇 Table 1 的 LP／FFT 骨幹之一，兩篇也都用 MS-CXR 評估定位；MAIRA-2 把定位寫進生成的報告，CoRE 則把部位直接放進分類標籤，只用影像就在 P. Hit 上高於需要文字查詢的 grounding 模型: [MAIRA-2：胸片報告文字對了，定位不一定對](2026-09-15-maira-2-grounded-reporting.md)
 
 ## 實務的啟發
 

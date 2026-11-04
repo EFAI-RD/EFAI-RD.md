@@ -1,7 +1,7 @@
 ---
-title: "規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準"
 parent: AI Papers
 nav_exclude: true
+title: "病歷裡的老年照護構念：規則引擎、GPT-4o 與微調小模型各有破法"
 catalog_id: "doi:10.1038/s44401-026-00114-y"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準
+# 病歷裡的老年照護構念：規則引擎、GPT-4o 與微調小模型各有破法
 
 ## 來源
 
@@ -127,19 +127,19 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-MedicalBench 量的是 LLM 在病歷裡抽取隱性醫學概念的能力，本篇則把同一件事放到四家院所、41 個老年照護構念上，並加上規則式與微調式的對照組: [MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？](2026-09-17-medicalbench-concept-extraction.md)
+MedicalBench 量的是 LLM 在病歷裡抽取隱性醫學概念的能力，本篇則把同一件事放到四家院所、41 個老年照護構念上，並加上規則式與微調式的對照組: [MedicalBench：要 LLM 指出病歷裡那一句，隱性概念就難了](2026-09-17-medicalbench-concept-extraction.md)
 
-nMAS 把心衰竭特徵從病歷抽出來供下游使用，本篇則回答上游那一步能做到多準，以及不同技術路線的誤差型態差在哪裡: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](2026-09-15-tracing-the-heart.md)
+nMAS 把心衰竭特徵從病歷抽出來供下游使用，本篇則回答上游那一步能做到多準，以及不同技術路線的誤差型態差在哪裡: [nMAS：心衰竭特徵工程全程留證據鏈，但只跑了 500 筆假資料](2026-09-15-tracing-the-heart.md)
 
-胸片結核篩檢的稽核顯示換一個評估條件結論就未必成立，本篇則在四家院所之間看到同一件事的文字版本，且作者明確點名公開資料可能高估泛化: [稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？](2026-09-21-cxr-tb-vlm-portability-audit.md)
+胸片結核篩檢的稽核顯示換一個評估條件結論就未必成立，本篇則在四家院所之間看到同一件事的文字版本，且作者明確點名公開資料可能高估泛化: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](2026-09-21-cxr-tb-vlm-portability-audit.md)
 
-醫療 LLM 評估落差那篇談的是研究設計層面的嚴謹度，本篇則提供一個具體示範：同一批模型在 micro 與 macro 兩種平均下，可以得到截然不同的可用性判斷: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md)
+醫療 LLM 評估落差那篇談的是研究設計層面的嚴謹度，本篇則提供一個具體示範：同一批模型在 micro 與 macro 兩種平均下，可以得到截然不同的可用性判斷: [醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊](2026-09-17-medical-llm-evaluation-gap.md)
 
-NSCLC 轉移擷取那篇在單一機構的腫瘤病歷上比較微調 encoder 與兩個零樣本開放權重模型，本篇則在四家院所比較規則引擎、GPT-4o 與微調小模型，兩篇都顯示參考標準與資料來源會左右「哪種方法較好」的結論: [癌症登記缺了 54% 的轉移欄位，病歷補得回來嗎？NSCLC 病歷上，零樣本 MedGemma、Llama 3.1 與微調 GatorTron 的比較](2026-10-19-llm-nsclc-metastasis-extraction-clinical-notes.md)
+NSCLC 轉移擷取那篇在單一機構的腫瘤病歷上比較微調 encoder 與兩個零樣本開放權重模型，本篇則在四家院所比較規則引擎、GPT-4o 與微調小模型，兩篇都顯示參考標準與資料來源會左右「哪種方法較好」的結論: [癌症登記缺了 54% 轉移欄位，三種 LLM 從病歷補得回來嗎](2026-10-19-llm-nsclc-metastasis-extraction-clinical-notes.md)
 
-假釋／緩刑偵測那篇在單一醫療體系上比較規則、encoder 與 LLM 從合成資料轉移到真實病歷的能力，本篇則在四家院所以真實標註句比較規則引擎、GPT-4o 與微調小模型，兩篇都顯示病歷抽取的方法排名會隨資料來源改變: [一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句合成資料（訓練集 5,305 句），換到 293 份 VA 病歷偵測假釋／緩刑，Llama 3.3-70B 以合成範例 few-shot 達 87% macro-F1、微調的 Llama 3.1-8B 達 81%，encoder 跌到 30%](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
+假釋／緩刑偵測那篇在單一醫療體系上比較規則、encoder 與 LLM 從合成資料轉移到真實病歷的能力，本篇則在四家院所以真實標註句比較規則引擎、GPT-4o 與微調小模型，兩篇都顯示病歷抽取的方法排名會隨資料來源改變: [一筆真實標註都不用：合成資料訓練到 87% macro-F1](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
 
-神經外科病歷那篇在單一中心把 GPT-4o 等零樣本模型放到人工稽核者旁邊比較，本篇則在四家院所比較規則引擎、GPT-4o 與微調小模型，兩篇合起來看，本篇回答「換院所之後哪種方法還站得住」，對方回答「和實際做摘錄的人相比差在哪裡」: [零樣本 LLM 讀德文神經外科病歷：最好的雲端模型在術前症狀與病程 F1 高過兩位初階稽核者，46 個術後併發症標籤上最好也只有 0.68](2026-10-21-llm-neurosurgical-notes-extraction-vs-human-auditors.md)
+神經外科病歷那篇在單一中心把 GPT-4o 等零樣本模型放到人工稽核者旁邊比較，本篇則在四家院所比較規則引擎、GPT-4o 與微調小模型，兩篇合起來看，本篇回答「換院所之後哪種方法還站得住」，對方回答「和實際做摘錄的人相比差在哪裡」: [零樣本 LLM 讀德文病歷勝過初階稽核者，併發症那欄只有 0.68](2026-10-21-llm-neurosurgical-notes-extraction-vs-human-auditors.md)
 
 ## 實務的啟發
 

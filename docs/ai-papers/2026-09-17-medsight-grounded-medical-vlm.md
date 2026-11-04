@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？"
+title: "MedSIGHT：一邊寫診斷，一邊把病灶分割出來"
 category: ai-papers
 date: 2026-09-17
 updated: 2026-09-17
@@ -32,7 +32,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？
+# MedSIGHT：一邊寫診斷，一邊把病灶分割出來
 
 ## 來源
 
@@ -155,15 +155,15 @@ MeCoVQA-G 的 4,142 與 4,126 不是兩個互斥版本：前者是原始 samples
 
 該文把 grounding 標成報告／理解路線的後續分岔；本篇進一步要求診斷文字對回像素級分割: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md)
 
-該文是 MedSIGHT Table 2 的醫療 VLM baseline，可用來對照通用多模態問答與像素級 grounding 兩種訓練目標，但跨研究分數仍須依資料重疊與評分設定分開解讀: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
+該文是 MedSIGHT Table 2 的醫療 VLM baseline，可用來對照通用多模態問答與像素級 grounding 兩種訓練目標，但跨研究分數仍須依資料重疊與評分設定分開解讀: [Lingshu 靠合成資料拉高醫療 VQA，強化學習那一步沒加分](2026-09-15-lingshu-medical-vlm.md)
 
-該文以外部分割器提供 mask，再用概念瓶頸引導結構化報告，與 MedSIGHT 的聯合文字及像素輸出形成「外部分割器輔助生成」與「模型內生 grounding」的對照: [CORAL：先找病灶、再說臨床概念，能讓醫療影像報告更可檢視嗎？](2026-09-17-coral-concept-grounded-report-generation.md)
+該文以外部分割器提供 mask，再用概念瓶頸引導結構化報告，與 MedSIGHT 的聯合文字及像素輸出形成「外部分割器輔助生成」與「模型內生 grounding」的對照: [CORAL：先定位病灶再寫報告，讓影像報告可被檢視](2026-09-17-coral-concept-grounded-report-generation.md)
 
-MedSIGHT 讓同一個模型同時輸出診斷文字與像素級分割，該研究則刻意不做跨模態融合，改由超像素層級的歸因單獨支撐文字端的依據: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
+MedSIGHT 讓同一個模型同時輸出診斷文字與像素級分割，該研究則刻意不做跨模態融合，改由超像素層級的歸因單獨支撐文字端的依據: [乳癌病理報告的區域級歸因：影像該在哪一步被擋下來](2026-09-23-gralis-report-histology-attribution.md)
 
-MedSIGHT 主張像素級 grounding 能提升診斷品質，該研究則給出一條判斷這種輔助監督何時劃算的定量門檻: [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
+MedSIGHT 主張像素級 grounding 能提升診斷品質，該研究則給出一條判斷這種輔助監督何時劃算的定量門檻: [先分割左心室再估射出分率？一條 10.5% 的天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
 
-CARA-VL 同樣在醫療 VLM 中引入分割監督，但只把預測的解剖佔位圖用來導引注意力、不作為輸出，可與 MedSIGHT 的輸出端 grounding 對照: [先教 VLM 看對地方：CARA-VL 用解剖結構導引注意力，心臟 MRI 問答能走多遠？](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md)
+CARA-VL 同樣在醫療 VLM 中引入分割監督，但只把預測的解剖佔位圖用來導引注意力、不作為輸出，可與 MedSIGHT 的輸出端 grounding 對照: [CARA-VL：用解剖結構導引注意力，3B 模型讀心臟 MRI](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md)
 
 ## 實務的啟發
 

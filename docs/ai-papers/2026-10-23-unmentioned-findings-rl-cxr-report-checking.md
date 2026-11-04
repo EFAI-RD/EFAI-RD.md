@@ -1,7 +1,7 @@
 ---
-title: "「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6 個百分點（rule-based 查核；換成 MedGemma-4B 是 11.8），但換一個查核模型或格式，量到的增益就跟著變"
 parent: AI Papers
 nav_exclude: true
+title: "「沒提到」算不算「沒有」？換一個查核模型，增益就跟著變"
 catalog_id: "arxiv:2610.05425"
 editors:
   - "Clare"
@@ -19,7 +19,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6 個百分點（rule-based 查核；換成 MedGemma-4B 是 11.8），但換一個查核模型或格式，量到的增益就跟著變
+# 「沒提到」算不算「沒有」？換一個查核模型，增益就跟著變
 
 ## 來源
 
@@ -141,11 +141,11 @@ Phi-4-mini 在驗證集為 97.0%（見正文，未列於 Table 4）。[(ref: mai
 
 ## 與書庫其他文章的關係
 
-兩篇都在檢驗「換一個評估條件，結論還剩多少」：該稽核在胸片結核篩檢上逐項替換提示詞、負類與閾值，本篇則固定 checklist、只替換查核模型與格式，結果同樣是排名與增益隨評估約定移動: [稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？](2026-09-21-cxr-tb-vlm-portability-audit.md)
+兩篇都在檢驗「換一個評估條件，結論還剩多少」：該稽核在胸片結核篩檢上逐項替換提示詞、負類與閾值，本篇則固定 checklist、只替換查核模型與格式，結果同樣是排名與增益隨評估約定移動: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](2026-09-21-cxr-tb-vlm-portability-audit.md)
 
-該研究顯示胸片報告的語意相似度不能代理 Findings 的結構保真度，本篇則顯示即使改用結構化 checklist，以 LLM 判定句子是否成立時，「未提到」的解讀約定仍會改變量到的分數，兩篇都在拆解胸片報告評估指標本身的假設: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
+該研究顯示胸片報告的語意相似度不能代理 Findings 的結構保真度，本篇則顯示即使改用結構化 checklist，以 LLM 判定句子是否成立時，「未提到」的解讀約定仍會改變量到的分數，兩篇都在拆解胸片報告評估指標本身的假設: [報告讀起來愈順，就寫得愈對嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
 
-本篇用 LLM 查核胸片報告句是否成立，並顯示「未提到」的解讀約定會改變量到的分數；EviGround-CT 則用 3D 遮罩對參考標註查核 CT 報告句，同樣面對參考不完整的問題，作者明說 UPR 不能讀成幻覺率，兩篇都提醒報告查核的分數受參考約定左右: [EviGround-CT：LLM 寫的胸部 CT 報告逐句送去 3D 定位查核，整句當查詢讓 137 個生成發現中有標註支持的比例從 0.263 升到 0.365，但參考遮罩不完整、評估只有 100 例](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
+本篇用 LLM 查核胸片報告句是否成立，並顯示「未提到」的解讀約定會改變量到的分數；EviGround-CT 則用 3D 遮罩對參考標註查核 CT 報告句，同樣面對參考不完整的問題，作者明說 UPR 不能讀成幻覺率，兩篇都提醒報告查核的分數受參考約定左右: [EviGround-CT：CT 報告逐句送去定位查核，參考遮罩並不完整](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
 
 ## 實務的啟發
 

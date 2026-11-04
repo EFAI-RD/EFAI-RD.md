@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "GE HealthCare 9.45 億買下自家代工廠，pan-cancer 只做兩種癌"
+title: "GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌"
 category: industry-watch
 date: 2026-10-13
 updated: 2026-10-13
@@ -49,7 +49,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# GE HealthCare 9.45 億買下自家代工廠，pan-cancer 只做兩種癌
+# GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌
 
 ## 來源
 
@@ -166,7 +166,7 @@ SOFIE 自己公告的兩項第三期試驗如下：
 
 影像產品能不能到病人身上，同時卡在供應鏈與法規兩道關卡：本則處理前者（半衰期、運送半徑與代工網絡），該則處理後者（美國主管機關對放射科影像產品上市路徑的最終命令），兩則合看才是完整的可及性圖像: [放射科 AI 想免審，FDA 說不：舊許可不是通行證](2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
 
-該研究說明換一個評估條件，現成醫療視覺語言模型的結論就可能改寫；本則指出若 FAPI-74 上市，PET 判讀面對的是既有以 FDG 為主的模型從未見過的影像分布，兩篇是同一個可攜性問題的兩端: [稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？](../ai-papers/2026-09-21-cxr-tb-vlm-portability-audit.md)
+該研究說明換一個評估條件，現成醫療視覺語言模型的結論就可能改寫；本則指出若 FAPI-74 上市，PET 判讀面對的是既有以 FDG 為主的模型從未見過的影像分布，兩篇是同一個可攜性問題的兩端: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](../ai-papers/2026-09-21-cxr-tb-vlm-portability-audit.md)
 
 同一週內兩家影像大廠的相反方向組合調整：本則是買進一個模態的供應鏈最後一哩，該則是退出一個模態的通用影像市場，兩則合看可以看出大廠正把資源從診斷端的廣度移向治療端的整合深度: [Siemens 當天停售四款超音波，公告標題寫的是「聚焦」](2026-10-14-siemens-ultrasound-general-imaging-exit.md)
 

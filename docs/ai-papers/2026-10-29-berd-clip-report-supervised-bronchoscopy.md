@@ -1,7 +1,7 @@
 ---
-title: "支氣管鏡報告的一句描述能當監督嗎？用 BERD 影像描述微調 BiomedCLIP：零樣本 macro AUPRC 從 0.184 升到 0.255–0.292，5% 病人標籤的線性探測就高過全標籤的 DINOv2 與 Swin-T"
 parent: AI Papers
 nav_exclude: true
+title: "支氣管鏡報告當監督：5% 標籤就贏過全標籤的 DINOv2"
 catalog_id: "doi:10.20944/preprints202610.2687.v1"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 支氣管鏡報告的一句描述能當監督嗎？用 BERD 影像描述微調 BiomedCLIP：零樣本 macro AUPRC 從 0.184 升到 0.255–0.292，5% 病人標籤的線性探測就高過全標籤的 DINOv2 與 Swin-T
+# 支氣管鏡報告當監督：5% 標籤就贏過全標籤的 DINOv2
 
 ## 來源
 
@@ -145,9 +145,9 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-兩篇都在固定資料與評估條件下檢驗圖文對比學習目標本身的影響：該研究在胸片上比較九種不同粒度的預訓練目標，本篇在支氣管鏡上比較三種正例定義，結果是只依描述合併正例的 caption-aware 目標與標準 CLIP 目標沒有差別: [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md)
+兩篇都在固定資料與評估條件下檢驗圖文對比學習目標本身的影響：該研究在胸片上比較九種不同粒度的預訓練目標，本篇在支氣管鏡上比較三種正例定義，結果是只依描述合併正例的 caption-aware 目標與標準 CLIP 目標沒有差別: [胸片編碼器該學全域還是局部？九種預訓練目標、五項任務](2026-09-30-cxr-vlp-granularity-controlled-study.md)
 
-該研究顯示 BiomedCLIP 等零樣本 dual-encoder 未經任務調整時在皮膚病灶分類上落後有訓練的模型；本篇示範另一條路，不加影像標註、只用支氣管鏡報告描述對 BiomedCLIP 做領域對齊，再量零樣本與少標籤線性探測能提高多少: [皮膚病灶良惡性分類：零樣本 VLM、微調 CNN 與凍結特徵，在十個資料設定下差多少？](2026-10-05-derm-generalist-vs-specific-benchmark.md)
+該研究顯示 BiomedCLIP 等零樣本 dual-encoder 未經任務調整時在皮膚病灶分類上落後有訓練的模型；本篇示範另一條路，不加影像標註、只用支氣管鏡報告描述對 BiomedCLIP 做領域對齊，再量零樣本與少標籤線性探測能提高多少: [皮膚病灶良惡性：零樣本 VLM 0.66，微調與凍結特徵 0.87 以上](2026-10-05-derm-generalist-vs-specific-benchmark.md)
 
 ## 實務的啟發
 

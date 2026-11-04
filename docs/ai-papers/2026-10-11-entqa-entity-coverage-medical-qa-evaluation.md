@@ -1,7 +1,7 @@
 ---
-title: "答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱"
 parent: AI Papers
 nav_exclude: true
+title: "EntQA：實體覆蓋率排得出模型好壞，逐題訊號幾乎沒有"
 catalog_id: "doi:10.1371/journal.pdig.0001752"
 editors:
   - "Clare"
@@ -19,7 +19,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱
+# EntQA：實體覆蓋率排得出模型好壞，逐題訊號幾乎沒有
 
 ## 來源
 
@@ -130,13 +130,13 @@ EntQA 把每一道題拆成病人背景（patient background）與診斷問題�
 
 ## 與書庫其他文章的關係
 
-PrecepTron 用醫師評分訓練 LLM 評審來評醫療回答，EntQA 則刻意不用評審與參考答案、只數實體覆蓋，兩篇代表「學人類怎麼評」與「定義一個可機械計算的代理量」兩條路線: [PrecepTron：把醫師評分學成 LLM 評審，能讓醫療 AI 評估更可重現嗎？](2026-09-17-preceptron-clinical-ai-evaluation.md)
+PrecepTron 用醫師評分訓練 LLM 評審來評醫療回答，EntQA 則刻意不用評審與參考答案、只數實體覆蓋，兩篇代表「學人類怎麼評」與「定義一個可機械計算的代理量」兩條路線: [PrecepTron：把醫師評分學成院內跑得動的 LLM 評審](2026-09-17-preceptron-clinical-ai-evaluation.md)
 
-醫療 LLM 評估落差那篇指出臨床級驗證的供給偏低，EntQA 是一個具體例子：新指標的驗證只對選擇題準確率與模型規模做相關，沒有任何人工判斷作為參照: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md)
+醫療 LLM 評估落差那篇指出臨床級驗證的供給偏低，EntQA 是一個具體例子：新指標的驗證只對選擇題準確率與模型規模做相關，沒有任何人工判斷作為參照: [醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊](2026-09-17-medical-llm-evaluation-gap.md)
 
-RadVLM 的分節評估顯示語意相似度不能代理臨床保真度，EntQA 在醫療問答上也看到 BERTScore 等指標與準確率反向，兩篇都在檢查一個常用自動指標到底量到了什麼: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
+RadVLM 的分節評估顯示語意相似度不能代理臨床保真度，EntQA 在醫療問答上也看到 BERTScore 等指標與準確率反向，兩篇都在檢查一個常用自動指標到底量到了什麼: [報告讀起來愈順，就寫得愈對嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
 
-EntQA 的驗證建立在 MedQA 等選擇題庫上，該研究則顯示 MedQA 有 48.0% 是診斷題，與真實臨床使用中診斷只占 3.7% 的組成相差很遠: [臨床人員實際拿 LLM 做什麼？12.8 萬筆提問對照 58 個公開基準：文件工作占最多、診斷只占 3.7%，基準的題目組成對不上](2026-10-13-clinician-llm-use-vs-benchmarks.md)
+EntQA 的驗證建立在 MedQA 等選擇題庫上，該研究則顯示 MedQA 有 48.0% 是診斷題，與真實臨床使用中診斷只占 3.7% 的組成相差很遠: [臨床人員實際用 LLM 做什麼？文件工作 36%，診斷只有 3.7%](2026-10-13-clinician-llm-use-vs-benchmarks.md)
 
 ## 實務的啟發
 

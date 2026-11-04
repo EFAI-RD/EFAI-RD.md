@@ -96,7 +96,7 @@ FDA 在 2026 年 8 月就 generative AI（GenAI）-enabled medical devices 公�
 
 該文說明多代理／工具編排概念；本則補上 FDA 對 agentic GenAI-enabled devices 是否需額外評估的官方徵求問題: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
-該文從文獻地圖顯示 agentic／multi-agent 醫療研究成長快、trial-grade 證據相對稀少；本則對應監管端開始把 agentic 能力與 postmarket monitoring 寫進討論框架: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md)
+該文從文獻地圖顯示 agentic／multi-agent 醫療研究成長快、trial-grade 證據相對稀少；本則對應監管端開始把 agentic 能力與 postmarket monitoring 寫進討論框架: [醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md)
 
 本則徵求 GenAI 醫材監管意見、探索未來框架，該則則是 FDA 在具體請願上守住現行 510(k) 關卡的定案: [放射科 AI 想免審，FDA 說不：舊許可不是通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
 

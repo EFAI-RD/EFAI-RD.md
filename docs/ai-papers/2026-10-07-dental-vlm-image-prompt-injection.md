@@ -1,7 +1,7 @@
 ---
-title: "影像上多一行字，VLM 就改口說「沒有異常」：四個模型在牙科全景片上的 prompt injection 攻防評估"
 parent: AI Papers
 nav_exclude: true
+title: "影像上多一行字，四個 VLM 都改口說「沒有異常」"
 catalog_id: "doi:10.1038/s41598-026-74077-3"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 影像上多一行字，VLM 就改口說「沒有異常」：四個模型在牙科全景片上的 prompt injection 攻防評估
+# 影像上多一行字，四個 VLM 都改口說「沒有異常」
 
 ## 來源
 
@@ -143,13 +143,13 @@ prompt injection 指的是把指令藏在模型會讀到的資料裡，讓模型
 
 ## 與書庫其他文章的關係
 
-MedGemma 1.5 技術報告介紹的是同一家族 4B 模型的能力擴張，本篇則從安全角度補上一個技術報告沒有涵蓋的面向：MedGemma 4B 在影像內嵌指令下的平均 ASR 為 23.8%，且 spotlighting 對它幾乎無效: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md)
+MedGemma 1.5 技術報告介紹的是同一家族 4B 模型的能力擴張，本篇則從安全角度補上一個技術報告沒有涵蓋的面向：MedGemma 4B 在影像內嵌指令下的平均 ASR 為 23.8%，且 spotlighting 對它幾乎無效: [MedGemma 1.5：4B 吃下 3D 影像與全切片，代價一併公開](2026-09-16-medgemma-1-5.md)
 
-RAG 誘發幻覺的 pilot 顯示放進 prompt 的他人報告會被 VLM 抄進輸出，本篇則顯示連影像像素裡的文字都會蓋過模型原本的判讀，兩篇都指向同一個風險：VLM 容易讓文字來源壓過影像證據: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
+RAG 誘發幻覺的 pilot 顯示放進 prompt 的他人報告會被 VLM 抄進輸出，本篇則顯示連影像像素裡的文字都會蓋過模型原本的判讀，兩篇都指向同一個風險：VLM 容易讓文字來源壓過影像證據: [相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
-口腔顎顏面放射的 sycophancy 測試把錯誤診斷直接寫進提問、並改稱是專科醫師的意見，本篇的攻擊則藏在影像像素裡；兩篇都在牙科放射情境中顯示，影像以外的文字會蓋過模型原本的判讀，而權威框架下模型的自評信心也分不出對錯: [說是專科醫師的意見，LLM 就跟著改診斷？五個模型在 200 個口腔顎顏面放射情境下的 sycophancy 測試](2026-10-13-llm-sycophancy-oral-maxillofacial-radiology.md)
+口腔顎顏面放射的 sycophancy 測試把錯誤診斷直接寫進提問、並改稱是專科醫師的意見，本篇的攻擊則藏在影像像素裡；兩篇都在牙科放射情境中顯示，影像以外的文字會蓋過模型原本的判讀，而權威框架下模型的自評信心也分不出對錯: [說是專科醫師的意見，五個 LLM 準確率從 58.8% 掉到 35.5%](2026-10-13-llm-sycophancy-oral-maxillofacial-radiology.md)
 
-本篇量的是影像內嵌指令讓單一 VLM 翻轉判讀的比例，皮膚科代理稽核則把同一類 typographic injection 放進「分割＋檢索＋VLM」的代理，顯示先裁切病灶再檢索時，檢索工具與 VLM 會一起被帶偏且答案一致，使交叉比對失效: [工具與推理兩條路看的是同一張照片，交叉比對還查得到錯嗎？皮膚科 VLM 代理遇到照片上的注入文字時，先裁切病灶再檢索，讓錯誤中兩條路「錯得一樣」的比例從 43% 升到 71%](2026-11-03-agentic-derm-vlm-fault-coupling.md)
+本篇量的是影像內嵌指令讓單一 VLM 翻轉判讀的比例，皮膚科代理稽核則把同一類 typographic injection 放進「分割＋檢索＋VLM」的代理，顯示先裁切病灶再檢索時，檢索工具與 VLM 會一起被帶偏且答案一致，使交叉比對失效: [先裁切再檢索，兩條路「錯得一樣」：交叉比對只抓得到 29%](2026-11-03-agentic-derm-vlm-fault-coupling.md)
 
 ## 實務的啟發
 

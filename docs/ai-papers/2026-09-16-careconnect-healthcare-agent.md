@@ -1,7 +1,7 @@
 ---
-title: "CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？"
 parent: AI Papers
 nav_exclude: true
+title: "CareConnect：把 LLM 擋在診斷之外，只讓它做掛號"
 catalog_id: "arxiv:2607.05055"
 editors:
   - "Colbert"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？
+# CareConnect：把 LLM 擋在診斷之外，只讓它做掛號
 
 ## 來源
 
@@ -112,7 +112,7 @@ CareConnect 有三層。第一層是英文與阿拉伯文的規則式 intent cla
 
 CareConnect 不是多代理協作，而是單一 LLM router 搭配確定性閘門與八個工具；可與概念文對讀，辨別「代理」不等於「多代理」: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
-該研究顯示即使是非診斷的分配決策，模型也會納入與臨床無關的描述，替本篇的確定性閘門設計提供了另一個理由: [臨床條件一模一樣時，LLM 先給誰？30,618 次強制二選一的分配稽核](2026-09-22-llm-social-status-resource-allocation.md)
+該研究顯示即使是非診斷的分配決策，模型也會納入與臨床無關的描述，替本篇的確定性閘門設計提供了另一個理由: [臨床條件完全一樣時 LLM 先給誰？30,618 次強制二選一](2026-09-22-llm-social-status-resource-allocation.md)
 
 ## 實務的啟發
 

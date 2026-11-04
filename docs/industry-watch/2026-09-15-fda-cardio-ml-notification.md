@@ -79,7 +79,7 @@ FDA 在 2026 年 9 月把「用機器學習提示單一心血管疾患可能性�
 
 ## 與書庫其他文章的關係
 
-該文同屬心血管／心衰竭 AI 脈絡；本則補上美國對「ML 通知軟體」的成文分類與「通報≠診斷」邊界: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](../ai-papers/2026-09-15-tracing-the-heart.md)
+該文同屬心血管／心衰竭 AI 脈絡；本則補上美國對「ML 通知軟體」的成文分類與「通報≠診斷」邊界: [nMAS：心衰竭特徵工程全程留證據鏈，但只跑了 500 筆假資料](../ai-papers/2026-09-15-tracing-the-heart.md)
 
 兩則同屬 CDRH 對 AI／ML 醫材的監管脈絡；該則是 GenAI 裝置的討論文件／徵求意見，本則是已編入 21 CFR 的 Class II 最終命令: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](./2026-09-17-fda-genai-devices-discussion-paper.md)
 

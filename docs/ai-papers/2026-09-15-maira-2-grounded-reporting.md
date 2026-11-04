@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？"
+title: "MAIRA-2：胸片報告文字對了，定位不一定對"
 category: ai-papers
 date: 2026-09-15
 updated: 2026-09-15
@@ -34,7 +34,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？
+# MAIRA-2：胸片報告文字對了，定位不一定對
 
 ## 來源
 
@@ -175,25 +175,25 @@ MIMIC-CXR Findings 任務，保留五個模型與下列八項指標。方括號�
 
 把本篇放在「有定位報告」階段，上游是對齊與指令微調，下游則接通才醫療 VLM 與 grounding 分岔: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md)
 
-MedRAX 把 MAIRA-2 納入影像定位工具，可接續閱讀代理如何選用模型輸出，以及多工具問答仍有哪些評估落差: [MedRAX：工具代理如何改善胸腔 X 光問答？](2026-09-15-medrax-chest-xray-agent.md)
+MedRAX 把 MAIRA-2 納入影像定位工具，可接續閱讀代理如何選用模型輸出，以及多工具問答仍有哪些評估落差: [MedRAX：工具代理拉高胸片問答總分，細項落差還在](2026-09-15-medrax-chest-xray-agent.md)
 
-Lingshu 導讀著重通用醫療 VLM 的資料與訓練，本篇則可接續閱讀胸腔報告的輸入條件、逐句評估與位置標註: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
+Lingshu 導讀著重通用醫療 VLM 的資料與訓練，本篇則可接續閱讀胸腔報告的輸入條件、逐句評估與位置標註: [Lingshu 靠合成資料拉高醫療 VQA，強化學習那一步沒加分](2026-09-15-lingshu-medical-vlm.md)
 
 兩篇可比較方法設計，但跨論文的報告分數需先對齊版本、輸入與計分；例如 Lingshu Table 8 使用 RadCliQ-v1 的倒數，MAIRA-2 此處使用 RadCliQ version 0。[(ref: lingshu Table 8)](https://arxiv.org/html/2506.07044v4#S5.T8) [(ref: main Appendix D.1)](https://arxiv.org/pdf/2406.04449v2#page=30)
 
-本篇提出有定位的報告生成與事實層級評分，該研究則檢驗在沒有這類約束時，Impression 的語意相似度能否代表 Findings 的結構保真度: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
+本篇提出有定位的報告生成與事實層級評分，該研究則檢驗在沒有這類約束時，Impression 的語意相似度能否代表 Findings 的結構保真度: [報告讀起來愈順，就寫得愈對嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
 
-本篇把前次影像與前次報告當成生成報告的輸入，該研究則只用文字，把前後兩份報告的比較本身當成被評分的任務: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md)
+本篇把前次影像與前次報告當成生成報告的輸入，該研究則只用文字，把前後兩份報告的比較本身當成被評分的任務: [序列胸片報告的時序判讀：七個 LLM 分得出「新出現」嗎](2026-09-22-llm-temporal-change-cxr-reports.md)
 
-本篇把區域定位寫進報告生成的輸出與評分，該研究則把定位訊號放到上游的預訓練目標，量測它對凍結編碼器的各項下游任務有多少幫助: [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md)
+本篇把區域定位寫進報告生成的輸出與評分，該研究則把定位訊號放到上游的預訓練目標，量測它對凍結編碼器的各項下游任務有多少幫助: [胸片編碼器該學全域還是局部？九種預訓練目標、五項任務](2026-09-30-cxr-vlp-granularity-controlled-study.md)
 
-本篇把同一病人的前次報告當成受控的輸入，該研究則顯示把「別的病人」的相似前例報告塞進 prompt 時，通用 VLM 會把對方的發現甚至整段原文抄進報告: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
+本篇把同一病人的前次報告當成受控的輸入，該研究則顯示把「別的病人」的相似前例報告塞進 prompt 時，通用 VLM 會把對方的發現甚至整段原文抄進報告: [相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
-本篇把前次影像與前次報告一起交給 LLM，CPVB-RG 則只用同一病人的前次影像與臨床文字、以 82M 解碼器生成報告，並在 ReXrank Findings 評估中把本篇列為 7B 對照: [CPVB-RG：把前後兩張胸片的「變化」與「共同結構」分開處理再寫報告，82M 解碼器對最接近的 prior-aware 基線 PriorRG 在 F1RadGraph 多 0.0090、VLScore 多 0.0582](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
+本篇把前次影像與前次報告一起交給 LLM，CPVB-RG 則只用同一病人的前次影像與臨床文字、以 82M 解碼器生成報告，並在 ReXrank Findings 評估中把本篇列為 7B 對照: [CPVB-RG：把胸片的「變化」與「共同結構」分開處理再寫報告](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
 
-本篇的影像編碼器 RAD-DINO-MAIRA-2 被 CoRE 當作 linear probing 與 full fine-tuning 的骨幹之一，兩篇也都用 MS-CXR 評估定位；本篇把定位寫進生成的報告，CoRE 則把部位直接放進分類標籤: [CoRE：把胸片標籤拆成 252 個「部位－發現」配對，以共現分組的 prompt 與區域證據調整凍結的 EVA-X，2.09M 可訓練參數下 macro AUROC 比 ML-VPT 高 0.0147](2026-10-29-core-cxr-region-finding-cooccurrence.md)
+本篇的影像編碼器 RAD-DINO-MAIRA-2 被 CoRE 當作 linear probing 與 full fine-tuning 的骨幹之一，兩篇也都用 MS-CXR 評估定位；本篇把定位寫進生成的報告，CoRE 則把部位直接放進分類標籤: [CoRE：胸片標籤拆成 252 個部位－發現配對，2.09M 參數調贏基線](2026-10-29-core-cxr-region-finding-cooccurrence.md)
 
-本篇在生成胸片報告時就把每個發現連同定位框一起輸出，EviGround-CT 則在胸部 CT 報告寫完之後，另用一個以整句為查詢的 3D 驗證器替每個陽性發現找證據遮罩，兩篇代表「生成時定位」與「生成後查核」兩種把報告句連回影像的做法: [EviGround-CT：LLM 寫的胸部 CT 報告逐句送去 3D 定位查核，整句當查詢讓 137 個生成發現中有標註支持的比例從 0.263 升到 0.365，但參考遮罩不完整、評估只有 100 例](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
+本篇在生成胸片報告時就把每個發現連同定位框一起輸出，EviGround-CT 則在胸部 CT 報告寫完之後，另用一個以整句為查詢的 3D 驗證器替每個陽性發現找證據遮罩，兩篇代表「生成時定位」與「生成後查核」兩種把報告句連回影像的做法: [EviGround-CT：CT 報告逐句送去定位查核，參考遮罩並不完整](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
 
 ## 實務的啟發
 

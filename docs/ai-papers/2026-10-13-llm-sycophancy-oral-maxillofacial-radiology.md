@@ -1,7 +1,7 @@
 ---
-title: "說是專科醫師的意見，LLM 就跟著改診斷？五個模型在 200 個口腔顎顏面放射情境下的 sycophancy 測試"
 parent: AI Papers
 nav_exclude: true
+title: "說是專科醫師的意見，五個 LLM 準確率從 58.8% 掉到 35.5%"
 catalog_id: "doi:10.3390/diagnostics16203296"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 說是專科醫師的意見，LLM 就跟著改診斷？五個模型在 200 個口腔顎顏面放射情境下的 sycophancy 測試
+# 說是專科醫師的意見，五個 LLM 準確率從 58.8% 掉到 35.5%
 
 ## 來源
 
@@ -137,9 +137,9 @@ sycophancy 指模型傾向附和使用者的想法，即使因此犧牲正確性
 
 ## 與書庫其他文章的關係
 
-牙科全景片的 prompt injection 評估測的是畫進影像像素裡的指令，本篇測的是寫在提問裡的錯誤診斷與權威歸屬；兩篇都在牙科放射情境中顯示，影像以外的文字會改變模型的判讀，前者的攻擊者是外部輸入，後者則可能就是提問的臨床人員自己: [影像上多一行字，VLM 就改口說「沒有異常」：四個模型在牙科全景片上的 prompt injection 攻防評估](2026-10-07-dental-vlm-image-prompt-injection.md)
+牙科全景片的 prompt injection 評估測的是畫進影像像素裡的指令，本篇測的是寫在提問裡的錯誤診斷與權威歸屬；兩篇都在牙科放射情境中顯示，影像以外的文字會改變模型的判讀，前者的攻擊者是外部輸入，後者則可能就是提問的臨床人員自己: [影像上多一行字，四個 VLM 都改口說「沒有異常」](2026-10-07-dental-vlm-image-prompt-injection.md)
 
-本篇把錯誤診斷與權威身分寫進提問，該研究則用不帶欺騙意圖、只改變臨床線索的轉診文字，在同一張腦部 MRI 切面上逐級改寫，顯示多模態 LLM 的答案主要隨文字而非確診診斷改變: [轉診單上一句話，就決定多模態 LLM 怎麼讀 MRI？膠質瘤 vs 腦膿瘍：四個模型的 text-driven span 0.79–1.00，叫它忽略文字也只有一個模型降到 0.04](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
+本篇把錯誤診斷與權威身分寫進提問，該研究則用不帶欺騙意圖、只改變臨床線索的轉診文字，在同一張腦部 MRI 切面上逐級改寫，顯示多模態 LLM 的答案主要隨文字而非確診診斷改變: [轉診單一句話就改變 MRI 判讀，叫模型忽略只有一個做得到](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
 
 ## 實務的啟發
 

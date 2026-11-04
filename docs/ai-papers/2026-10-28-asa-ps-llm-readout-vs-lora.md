@@ -1,7 +1,7 @@
 ---
-title: "不生成理由、只讀 A–D 選項的機率：Qwen3.5-9B 分 ASA 身體狀態，比生成式提示快約 64 倍，再用 1,000 個在地標籤調三個門檻，κ 只比 LoRA 低約 0.02，標籤再多 LoRA 仍會拉開"
 parent: AI Papers
 nav_exclude: true
+title: "只讀選項機率打 ASA 分級：快約 64 倍，κ 只比 LoRA 低 0.02"
 catalog_id: "doi:10.64898/2026.10.20.26366028"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 不生成理由、只讀 A–D 選項的機率：Qwen3.5-9B 分 ASA 身體狀態，比生成式提示快約 64 倍，再用 1,000 個在地標籤調三個門檻，κ 只比 LoRA 低約 0.02，標籤再多 LoRA 仍會拉開
+# 只讀選項機率打 ASA 分級：快約 64 倍，κ 只比 LoRA 低 0.02
 
 ## 來源
 
@@ -158,13 +158,13 @@ ASA-PS 是麻醉前評估常用的四級（本文合併 V 級後）病人整體�
 
 ## 與書庫其他文章的關係
 
-RadKev 把「一次前向傳遞給出每個選項機率」的 decision model 拿去做放射科專科化並比較延遲，本篇則在麻醉 ASA 分級上直接比較這種 readout、生成式提示與 LoRA 的 κ、延遲與標籤成本，兩篇都顯示 decision model 的速度優勢明確、但準確度結論依賴實作與資料: [不生成文字、直接給每個選項機率：RadKev 把 decision model 專科化到放射科，15 項任務平均多 4.9 點，換到外院報告卻沒有進步](2026-10-15-radkev-radiology-decision-model.md)
+RadKev 把「一次前向傳遞給出每個選項機率」的 decision model 拿去做放射科專科化並比較延遲，本篇則在麻醉 ASA 分級上直接比較這種 readout、生成式提示與 LoRA 的 κ、延遲與標籤成本，兩篇都顯示 decision model 的速度優勢明確、但準確度結論依賴實作與資料: [RadKev：放射專科化後平均多 4.9 點，換一家醫院就沒了](2026-10-15-radkev-radiology-decision-model.md)
 
-病歷時間關係抽取那篇比較 prompting 與 QLoRA 等調適方式在資料充足與每類一例時的差距，本篇則把同一個問題延伸到「需要多少在地標籤 LoRA 才划算」，在 ASA 分級上找到約 270 個標籤的交叉點: [病歷時間關係抽取該怎麼調模型？i2b2 2012 上只調 query／value 的 QLoRA 讓 LLaMA3.1-8B 達 89.15% micro-F1，但每類只給一例時沒有一種做法超過 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
+病歷時間關係抽取那篇比較 prompting 與 QLoRA 等調適方式在資料充足與每類一例時的差距，本篇則把同一個問題延伸到「需要多少在地標籤 LoRA 才划算」，在 ASA 分級上找到約 270 個標籤的交叉點: [病歷時間關係抽取：QLoRA 達 89.15%，每類一例時沒有一種破 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
 
-NIHSS 逐字稿那篇同樣比較選項式 decision model 與生成式 LLM 的準確率、延遲與成本，但資料是 LLM 生成的合成檢查對話，並以 confidence 分流做 hybrid 模擬；本篇則在真實術前資料上加入少量標籤校準與 LoRA 的比較: [從床邊檢查逐字稿直接打 NIHSS：112 個合成中風案例上，LLM 項目準確率 99.0%、decision model Jev 94.4% 但快約 40 倍；病例、逐字稿與答案卷都由 LLM 產生，人工審查尚未完成](2026-10-29-nihss-transcript-decision-model-vs-llm.md)
+NIHSS 逐字稿那篇同樣比較選項式 decision model 與生成式 LLM 的準確率、延遲與成本，但資料是 LLM 生成的合成檢查對話，並以 confidence 分流做 hybrid 模擬；本篇則在真實術前資料上加入少量標籤校準與 LoRA 的比較: [從逐字稿直接打 NIHSS：快 40 倍，但病例全由 LLM 生成](2026-10-29-nihss-transcript-decision-model-vs-llm.md)
 
-mNGS 致病菌判讀那篇同樣以 LoRA 微調 Qwen 讀結構化臨床欄位，並與梯度提升樹等傳統基線在相同列上比較；它顯示樹模型改用相同的加權訓練資料後，LLM 的 AP 優勢從 0.118 縮到 0.027，與本篇「LLM 的優勢取決於比較條件」的結論互相呼應: [mNGS 報告上幾百個微生物，哪個才是致病菌？微調 Qwen3-8B 重現臨床判讀：保留集召回 92.44%、2025 年新一批 84.49%，但比樹模型多抓到的每個致病菌，要多付約 3 個假陽性](2026-10-30-mngs-llm-culprit-pathogen-adjudication.md)
+mNGS 致病菌判讀那篇同樣以 LoRA 微調 Qwen 讀結構化臨床欄位，並與梯度提升樹等傳統基線在相同列上比較；它顯示樹模型改用相同的加權訓練資料後，LLM 的 AP 優勢從 0.118 縮到 0.027，與本篇「LLM 的優勢取決於比較條件」的結論互相呼應: [mNGS 報告哪個才是致病菌？多抓一個要多付約 3 個假陽性](2026-10-30-mngs-llm-culprit-pathogen-adjudication.md)
 
 ## 實務的啟發
 

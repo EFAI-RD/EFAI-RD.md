@@ -1,7 +1,7 @@
 ---
-title: "報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估"
 parent: AI Papers
 nav_exclude: true
+title: "報告讀起來愈順，就寫得愈對嗎？RadVLM 的分節評估"
 catalog_id: "doi:10.3389/fdgth.2026.1882716"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估
+# 報告讀起來愈順，就寫得愈對嗎？RadVLM 的分節評估
 
 ## 來源
 
@@ -161,29 +161,29 @@ Impression 層級的表現看起來好一些：BERTScore-F1 平均 0.4981，CheX
 
 ## 與書庫其他文章的關係
 
-MAIRA-2 提出有定位的報告生成與 RadFact 這類事實層級評分，本篇則反過來量測「語意相似度能不能替代結構保真度」，兩篇合起來說明報告生成的評估為何不能只留一個總分: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md)
+MAIRA-2 提出有定位的報告生成與 RadFact 這類事實層級評分，本篇則反過來量測「語意相似度能不能替代結構保真度」，兩篇合起來說明報告生成的評估為何不能只留一個總分: [MAIRA-2：胸片報告文字對了，定位不一定對](2026-09-15-maira-2-grounded-reporting.md)
 
-CORAL 用概念瓶頸與空間先驗讓報告的每一句都能回推依據，本篇則顯示在沒有這類結構約束時，流暢的 Impression 與正確的 Findings 可以相當程度地脫鉤: [CORAL：先找病灶、再說臨床概念，能讓醫療影像報告更可檢視嗎？](2026-09-17-coral-concept-grounded-report-generation.md)
+CORAL 用概念瓶頸與空間先驗讓報告的每一句都能回推依據，本篇則顯示在沒有這類結構約束時，流暢的 Impression 與正確的 Findings 可以相當程度地脫鉤: [CORAL：先定位病灶再寫報告，讓影像報告可被檢視](2026-09-17-coral-concept-grounded-report-generation.md)
 
-醫療 LLM 的評估落差研究指出臨床級證據供給偏低，本篇提供一個指標層級的具體案例——自動指標之間的高相關，不代表它們指向同一個臨床事實: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md)
+醫療 LLM 的評估落差研究指出臨床級證據供給偏低，本篇提供一個指標層級的具體案例——自動指標之間的高相關，不代表它們指向同一個臨床事實: [醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊](2026-09-17-medical-llm-evaluation-gap.md)
 
-本篇把單次報告拆成 Findings 與 Impression 兩軸評分，該研究則把比較對象換成同一病人的前後兩份報告，兩篇都在追問一個彙總分數蓋掉了哪一段: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md)
+本篇把單次報告拆成 Findings 與 Impression 兩軸評分，該研究則把比較對象換成同一病人的前後兩份報告，兩篇都在追問一個彙總分數蓋掉了哪一段: [序列胸片報告的時序判讀：七個 LLM 分得出「新出現」嗎](2026-09-22-llm-temporal-change-cxr-reports.md)
 
-本篇評估機器產生的報告是否臨床忠實，該研究評估機器能否挑出人類寫出的報告中的錯誤，兩篇是報告品管的一體兩面: [中文放射科報告的真實錯誤：八個 LLM 與八位人類讀者，誰抓得出來？](2026-09-22-llm-chinese-radiology-report-error-detection.md)
+本篇評估機器產生的報告是否臨床忠實，該研究評估機器能否挑出人類寫出的報告中的錯誤，兩篇是報告品管的一體兩面: [1,363 份中文放射報告的真實錯誤：八個 LLM 對八位人類讀者](2026-09-22-llm-chinese-radiology-report-error-detection.md)
 
-本篇顯示語意相似度不能代理結構保真度，該研究則顯示歸因圖的「好看程度」不能代理忠實度，兩篇是同一個問題在文字端與影像端的版本: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
+本篇顯示語意相似度不能代理結構保真度，該研究則顯示歸因圖的「好看程度」不能代理忠實度，兩篇是同一個問題在文字端與影像端的版本: [乳癌病理報告的區域級歸因：影像該在哪一步被擋下來](2026-09-23-gralis-report-histology-attribution.md)
 
-本篇顯示語意相似度不能代理結構保真度，該研究則顯示影像敏感的 biomarker 輸出不能代理影像對最終治療決策的貢獻，兩篇都在拆穿「一個高分代理了另一件事」的假設: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
+本篇顯示語意相似度不能代理結構保真度，該研究則顯示影像敏感的 biomarker 輸出不能代理影像對最終治療決策的貢獻，兩篇都在拆穿「一個高分代理了另一件事」的假設: [抽掉 OCT 影像，VLM 的 anti-VEGF 建議還剩多少依據](2026-09-23-vlm-oct-image-dependence-audit.md)
 
-ORION-CMR 以整份報告層級的 81.4% 相符率作為評估結果，與本篇的分節粒度形成對照: [掃完約 90 秒就吐出結構化報告：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀，臨床驗證只在單一中心](2026-09-24-orion-cmr-on-scanner-reporting.md)
+ORION-CMR 以整份報告層級的 81.4% 相符率作為評估結果，與本篇的分節粒度形成對照: [ORION-CMR：掃完約 90 秒出結構化報告，驗證只在單一中心](2026-09-24-orion-cmr-on-scanner-reporting.md)
 
-該研究比較九種預訓練目標時，BLEU／ROUGE 與 RadGraph-F1 的排序並不一致，是本篇「語意相似度不能代替臨床保真度」在編碼器比較上的另一個實例: [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md)
+該研究比較九種預訓練目標時，BLEU／ROUGE 與 RadGraph-F1 的排序並不一致，是本篇「語意相似度不能代替臨床保真度」在編碼器比較上的另一個實例: [胸片編碼器該學全域還是局部？九種預訓練目標、五項任務](2026-09-30-cxr-vlp-granularity-controlled-study.md)
 
-本篇顯示流暢不等於臨床忠實，該研究則指出一種更難從流暢度察覺的失真：句子出自真實放射科報告，只是屬於另一位病人: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
+本篇顯示流暢不等於臨床忠實，該研究則指出一種更難從流暢度察覺的失真：句子出自真實放射科報告，只是屬於另一位病人: [相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
-本篇顯示語意相似度不能代理臨床保真度，該研究在醫療問答上也看到 BERTScore 等指標與準確率反向，並改用實體覆蓋率作為替代: [答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md)
+本篇顯示語意相似度不能代理臨床保真度，該研究在醫療問答上也看到 BERTScore 等指標與準確率反向，並改用實體覆蓋率作為替代: [EntQA：實體覆蓋率排得出模型好壞，逐題訊號幾乎沒有](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md)
 
-本篇顯示語意相似度不能代理結構保真度，該研究改用結構化 checklist 加 LLM 查核來判定胸片報告句是否成立，發現「checklist 未提到的發現」如何解讀仍會改變量到的分數: [「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6 個百分點（rule-based 查核；換成 MedGemma-4B 是 11.8），但換一個查核模型或格式，量到的增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
+本篇顯示語意相似度不能代理結構保真度，該研究改用結構化 checklist 加 LLM 查核來判定胸片報告句是否成立，發現「checklist 未提到的發現」如何解讀仍會改變量到的分數: [「沒提到」算不算「沒有」？換一個查核模型，增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
 
 ## 實務的啟發
 

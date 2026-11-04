@@ -1,7 +1,7 @@
 ---
-title: "癌症登記缺了 54% 的轉移欄位，病歷補得回來嗎？NSCLC 病歷上，零樣本 MedGemma、Llama 3.1 與微調 GatorTron 的比較"
 parent: AI Papers
 nav_exclude: true
+title: "癌症登記缺了 54% 轉移欄位，三種 LLM 從病歷補得回來嗎"
 catalog_id: "doi:10.2196/99573"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 癌症登記缺了 54% 的轉移欄位，病歷補得回來嗎？NSCLC 病歷上，零樣本 MedGemma、Llama 3.1 與微調 GatorTron 的比較
+# 癌症登記缺了 54% 轉移欄位，三種 LLM 從病歷補得回來嗎
 
 ## 來源
 
@@ -153,15 +153,15 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-腦 MRI 報告那篇用三個 LLM 是否一致決定自動貼標或退回人工，本篇則比較單一模型從病歷判斷轉移的準確度，兩篇處理的都是用 LLM 從自由文字建立研究隊列時的標籤可靠度: [三個 LLM 都同意才自動貼標：6,718 份腦 MRI 報告分正常／異常，參考集零錯誤的代價是約一半報告退回人工](2026-10-15-llm-consensus-brain-mri-report-cohort.md)
+腦 MRI 報告那篇用三個 LLM 是否一致決定自動貼標或退回人工，本篇則比較單一模型從病歷判斷轉移的準確度，兩篇處理的都是用 LLM 從自由文字建立研究隊列時的標籤可靠度: [三個 LLM 都同意才自動貼標：零錯誤的代價是一半退回人工](2026-10-15-llm-consensus-brain-mri-report-cohort.md)
 
-老年照護構念基準在四家院所比較規則引擎、GPT-4o 與微調小模型的病歷抽取，本篇則在單一機構的腫瘤病歷上比較微調 encoder 與兩個零樣本開放權重模型，兩篇都顯示參考標準與資料來源會左右「哪種方法較好」的結論: [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
+老年照護構念基準在四家院所比較規則引擎、GPT-4o 與微調小模型的病歷抽取，本篇則在單一機構的腫瘤病歷上比較微調 encoder 與兩個零樣本開放權重模型，兩篇都顯示參考標準與資料來源會左右「哪種方法較好」的結論: [病歷裡的老年照護構念：規則引擎、GPT-4o 與微調小模型各有破法](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
 
-假釋／緩刑偵測那篇完全不用真實病歷標註、只用 LLM 合成資料訓練或提供範例，本篇則比較零樣本模型與以真實病歷標註微調的 GatorTron，兩篇對照可以看出「省掉標註」的兩種做法在真實病歷上各自付出的代價: [一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句合成資料（訓練集 5,305 句），換到 293 份 VA 病歷偵測假釋／緩刑，Llama 3.3-70B 以合成範例 few-shot 達 87% macro-F1、微調的 Llama 3.1-8B 達 81%，encoder 跌到 30%](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
+假釋／緩刑偵測那篇完全不用真實病歷標註、只用 LLM 合成資料訓練或提供範例，本篇則比較零樣本模型與以真實病歷標註微調的 GatorTron，兩篇對照可以看出「省掉標註」的兩種做法在真實病歷上各自付出的代價: [一筆真實標註都不用：合成資料訓練到 87% macro-F1](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
 
-時間關係抽取那篇在 i2b2 出院摘要上把 GatorTron 與 LLaMA3.1-8B、MeLLaMA-13B 放進同一組微調與 PEFT 策略比較，本篇則在真實腫瘤病歷上比較微調 GatorTron-base 與零樣本 LLM，兩篇合起來看可以區分「模型選擇」與「調適方式」各自對病歷抽取表現的影響: [病歷時間關係抽取該怎麼調模型？i2b2 2012 上只調 query／value 的 QLoRA 讓 LLaMA3.1-8B 達 89.15% micro-F1，但每類只給一例時沒有一種做法超過 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
+時間關係抽取那篇在 i2b2 出院摘要上把 GatorTron 與 LLaMA3.1-8B、MeLLaMA-13B 放進同一組微調與 PEFT 策略比較，本篇則在真實腫瘤病歷上比較微調 GatorTron-base 與零樣本 LLM，兩篇合起來看可以區分「模型選擇」與「調適方式」各自對病歷抽取表現的影響: [病歷時間關係抽取：QLoRA 達 89.15%，每類一例時沒有一種破 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
 
-神經外科病歷那篇在德文 MVD 病歷上比較四個雲端與兩個本地 70B 零樣本模型並加上人工稽核者，本篇則在英文腫瘤病歷上比較本地零樣本模型與微調 GatorTron，兩篇都顯示零樣本病歷抽取在罕見、低盛行率的標籤上最不穩定: [零樣本 LLM 讀德文神經外科病歷：最好的雲端模型在術前症狀與病程 F1 高過兩位初階稽核者，46 個術後併發症標籤上最好也只有 0.68](2026-10-21-llm-neurosurgical-notes-extraction-vs-human-auditors.md)
+神經外科病歷那篇在德文 MVD 病歷上比較四個雲端與兩個本地 70B 零樣本模型並加上人工稽核者，本篇則在英文腫瘤病歷上比較本地零樣本模型與微調 GatorTron，兩篇都顯示零樣本病歷抽取在罕見、低盛行率的標籤上最不穩定: [零樣本 LLM 讀德文病歷勝過初階稽核者，併發症那欄只有 0.68](2026-10-21-llm-neurosurgical-notes-extraction-vs-human-auditors.md)
 
 ## 實務的啟發
 

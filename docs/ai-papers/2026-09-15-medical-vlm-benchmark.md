@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "醫療 VLM 走了多遠？七套基準下沒有單一贏家，而原文宣稱的「推理弱於理解」在表中並不成立"
+title: "七套醫療 VLM 基準沒有單一贏家，「推理弱於理解」在表中不成立"
 category: ai-papers
 date: 2026-09-15
 updated: 2026-09-15
@@ -51,7 +51,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 醫療 VLM 走了多遠？七套基準下沒有單一贏家，而原文宣稱的「推理弱於理解」在表中並不成立
+# 七套醫療 VLM 基準沒有單一贏家，「推理弱於理解」在表中不成立
 
 ## 來源
 
@@ -183,13 +183,13 @@ evidence_reviewed: true
 
 提供讀基準前的譜系語言，本篇用七套基準檢驗醫療 VLM 的規模、領域微調與推理落差: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md)
 
-本篇比較 Lingshu 與其他醫療 VLM 的表現，模型原始報告則補充其資料整理、分階段訓練與 RL 消融結果: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
+本篇比較 Lingshu 與其他醫療 VLM 的表現，模型原始報告則補充其資料整理、分階段訓練與 RL 消融結果: [Lingshu 靠合成資料拉高醫療 VQA，強化學習那一步沒加分](2026-09-15-lingshu-medical-vlm.md)
 
-本篇盤點醫療 VLM 在七套基準上的能力，胸片結核篩檢稽核則檢驗這類基準分數在換評估條件後是否還支持同一個排名與操作點: [稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？](2026-09-21-cxr-tb-vlm-portability-audit.md)
+本篇盤點醫療 VLM 在七套基準上的能力，胸片結核篩檢稽核則檢驗這類基準分數在換評估條件後是否還支持同一個排名與操作點: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](2026-09-21-cxr-tb-vlm-portability-audit.md)
 
-本篇評估的是專門訓練的醫療 VLM，膀胱鏡研究則測試完全未做醫療訓練的通用 MLLM 在單一內視鏡任務上的可用操作點: [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](2026-09-21-mllm-cystoscopy-bladder-triage.md)
+本篇評估的是專門訓練的醫療 VLM，膀胱鏡研究則測試完全未做醫療訓練的通用 MLLM 在單一內視鏡任務上的可用操作點: [膀胱鏡交給通用 MLLM：加一層棄答門檻換到多少可靠度](2026-09-21-mllm-cystoscopy-bladder-triage.md)
 
-本篇盤點醫療 VLM 在多套基準上的能力，皮膚病灶研究則提供單一分類任務上的對照點：零樣本 VLM 仍落後有訓練的影像模型二十多個 F1 點: [皮膚病灶良惡性分類：零樣本 VLM、微調 CNN 與凍結特徵，在十個資料設定下差多少？](2026-10-05-derm-generalist-vs-specific-benchmark.md)
+本篇盤點醫療 VLM 在多套基準上的能力，皮膚病灶研究則提供單一分類任務上的對照點：零樣本 VLM 仍落後有訓練的影像模型二十多個 F1 點: [皮膚病灶良惡性：零樣本 VLM 0.66，微調與凍結特徵 0.87 以上](2026-10-05-derm-generalist-vs-specific-benchmark.md)
 
 ## 實務的啟發
 

@@ -1,7 +1,7 @@
 ---
-title: "三個聊天介面零樣本讀 CCTA 報告分 CAD-RADS：DeepSeek-R1 與 ChatGPT-5 約八成、ChatGPT-4o 54%，900 份高風險報告被降到 3 以下的比例 2.6%–14.1%"
 parent: AI Papers
 nav_exclude: true
+title: "零樣本分 CAD-RADS：高風險報告被降級的比例 2.6%–14.1%"
 catalog_id: "doi:10.3389/fcvm.2026.1909068"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 三個聊天介面零樣本讀 CCTA 報告分 CAD-RADS：DeepSeek-R1 與 ChatGPT-5 約八成、ChatGPT-4o 54%，900 份高風險報告被降到 3 以下的比例 2.6%–14.1%
+# 零樣本分 CAD-RADS：高風險報告被降級的比例 2.6%–14.1%
 
 ## 來源
 
@@ -139,13 +139,13 @@ CCTA 可非侵入性地評估冠狀動脈狹窄與動脈粥狀硬化負擔，CAD
 
 ## 與書庫其他文章的關係
 
-兩篇都讓 LLM 從放射報告文字套用分型規則、參考標準也都是醫師依同一份文字判定；頸動脈那篇把 AHA 準則寫進 prompt 並與只下指令的 prompt 對照，本篇只用不含規則的零樣本 prompt、沒有 prompt 對照，因此本篇在 4B／5 的錯誤能否靠寫入規則改善仍未經測試: [把 AHA 分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%：頸動脈斑塊 MRI 報告的 LLM 輔助判讀，四位放射科醫師對文字參考標準的一致率從 69% 升到 85%（8B）與 90%（671B DeepSeek-R1）](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
+兩篇都讓 LLM 從放射報告文字套用分型規則、參考標準也都是醫師依同一份文字判定；頸動脈那篇把 AHA 準則寫進 prompt 並與只下指令的 prompt 對照，本篇只用不含規則的零樣本 prompt、沒有 prompt 對照，因此本篇在 4B／5 的錯誤能否靠寫入規則改善仍未經測試: [分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
 
-本篇作者在 Discussion 提議讓 LLM 只抽血管層級發現、再由規則引擎決定最終類別，該研究正是「規則寫成程式、LLM 只抽參數」的實作，並有拿掉工具的消融可以參考這種拆法的效果: [算分交給程式、LLM 只抽參數：GPT-5.5 先把 55 個醫療計算器寫成驗證過的 Python 工具，Qwen3-8B 負責從病歷填表，MedCalc-Bench Verified 上 86.73%，剩下的錯多半出在讀病歷](2026-10-20-tool-augmented-llm-medical-calculation.md)
+本篇作者在 Discussion 提議讓 LLM 只抽血管層級發現、再由規則引擎決定最終類別，該研究正是「規則寫成程式、LLM 只抽參數」的實作，並有拿掉工具的消融可以參考這種拆法的效果: [算分交給程式、LLM 只抽參數：醫療計算器 86.73%，錯多在讀病歷](2026-10-20-tool-augmented-llm-medical-calculation.md)
 
-兩篇都讓 LLM 只讀放射報告文字、參考標準都由放射科醫師只看同一份文字判定；本篇要 LLM 從 CCTA 報告推出 CAD-RADS 分級並追蹤升降級方向，該研究則要 LLM 找出報告的文字內部錯誤（漏寫、矛盾、側別、錯字等）並分五類評估，兩篇都提醒整體準確率會掩蓋錯誤的方向與類型: [放射報告文字裡的錯，LLM 抓得到嗎？Qwen3 在雲南兩家醫院、14 萬份中文報告上 macro-F1 0.94 與 0.93，挑錯並分類的 recall 0.96 高過三位放射科醫師的 0.45–0.67；但比較集只含有錯的報告，醫師也看不到影像](2026-11-02-llm-radiology-report-error-qa-multicenter.md)
+兩篇都讓 LLM 只讀放射報告文字、參考標準都由放射科醫師只看同一份文字判定；本篇要 LLM 從 CCTA 報告推出 CAD-RADS 分級並追蹤升降級方向，該研究則要 LLM 找出報告的文字內部錯誤（漏寫、矛盾、側別、錯字等）並分五類評估，兩篇都提醒整體準確率會掩蓋錯誤的方向與類型: [14 萬份中文報告挑錯：Qwen3 recall 0.96，醫師最高 0.67](2026-11-02-llm-radiology-report-error-qa-multicenter.md)
 
-本篇作者在 Discussion 提議「LLM 抽發現、規則引擎定類別」，該研究在 CUA、O-RADS 與 K-TIRADS 三套指引上做了一個版本：先由 LLM 把指引編成決策圖，再讓小模型逐節點作答、由程式走完邏輯，但沒有涵蓋 CAD-RADS: [放射指引先由 LLM 編成決策圖、再讓小模型逐節點作答：GDGraph 在 347 個病例文字上把 Jev 從 57.3% 拉到 90.8%，高於 RAG＋GPT-4o 的 80.1%；但病例取自已發表的病例報告並經 LLM 改寫，結果沒有信賴區間](2026-11-02-gdgraph-radiology-guideline-decision-graph.md)
+本篇作者在 Discussion 提議「LLM 抽發現、規則引擎定類別」，該研究在 CUA、O-RADS 與 K-TIRADS 三套指引上做了一個版本：先由 LLM 把指引編成決策圖，再讓小模型逐節點作答、由程式走完邏輯，但沒有涵蓋 CAD-RADS: [放射指引編成決策圖再逐節點作答：Jev 從 57.3% 到 90.8%](2026-11-02-gdgraph-radiology-guideline-decision-graph.md)
 
 ## 實務的啟發
 

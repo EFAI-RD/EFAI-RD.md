@@ -1,7 +1,7 @@
 ---
-title: "EviGen：從長期病歷挑證據、寫理由，再逐步驗證，能讓臨床 LLM 更可稽核嗎？"
 parent: AI Papers
 nav_exclude: true
+title: "EviGen：先把長期病歷縮成可追溯證據，再讓 LLM 寫理由"
 catalog_id: "arxiv:2609.18852"
 editors:
   - "Colbert"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# EviGen：從長期病歷挑證據、寫理由，再逐步驗證，能讓臨床 LLM 更可稽核嗎？
+# EviGen：先把長期病歷縮成可追溯證據，再讓 LLM 寫理由
 
 ## 來源
 
@@ -126,7 +126,7 @@ EviGen 的 mortality accuracy 為 0.800，最高 baseline 是 Qwen3-32B RAG 的 
 
 ## 與書庫其他文章的關係
 
-該文評估模型能否找回支撐醫療概念的句子，EviGen 則把預測性證據選取、帶引文理由與逐步驗證接成一條可稽核管線: [MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？](2026-09-17-medicalbench-concept-extraction.md)
+該文評估模型能否找回支撐醫療概念的句子，EviGen 則把預測性證據選取、帶引文理由與逐步驗證接成一條可稽核管線: [MedicalBench：要 LLM 指出病歷裡那一句，隱性概念就難了](2026-09-17-medicalbench-concept-extraction.md)
 
 ## 實務的啟發
 
