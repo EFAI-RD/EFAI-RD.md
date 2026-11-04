@@ -1,7 +1,7 @@
 ---
-title: "工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準"
 parent: AI Papers
 nav_exclude: true
+title: "MammoClaw：給工具沒用，技能演化後仍可能輸給全猜一類"
 catalog_id: "arxiv:2609.31789"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準
+# MammoClaw：給工具沒用，技能演化後仍可能輸給全猜一類
 
 ## 來源
 
@@ -154,15 +154,15 @@ MammoClaw 由三個部分組成。第一是遵循 ReAct 的代理迴圈：凍結
 
 ## 與書庫其他文章的關係
 
-MedRAX 把分類、分割、定位等既有的影像模型包成工具交給代理調用，MammoClaw 則刻意只給不含學習模組的確定性工具，並發現光給工具不會提升 macro-F1，兩篇一起說明工具代理的效益同時取決於工具本身與代理怎麼用它: [MedRAX：工具代理如何改善胸腔 X 光問答？](2026-09-15-medrax-chest-xray-agent.md)
+MedRAX 把分類、分割、定位等既有的影像模型包成工具交給代理調用，MammoClaw 則刻意只給不含學習模組的確定性工具，並發現光給工具不會提升 macro-F1，兩篇一起說明工具代理的效益同時取決於工具本身與代理怎麼用它: [MedRAX：工具代理拉高胸片問答總分，細項落差還在](2026-09-15-medrax-chest-xray-agent.md)
 
-AgentRx 顯示增加代理角色與對話不會自動改善 ICU 預測，MammoClaw 在乳房攝影上得到相近的訊號：增加工具本身不會改善 macro-F1，有差別的是從失敗軌跡蒸餾出的使用指引: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](2026-09-17-agentrx-multimodal-clinical-prediction.md)
+AgentRx 顯示增加代理角色與對話不會自動改善 ICU 預測，MammoClaw 在乳房攝影上得到相近的訊號：增加工具本身不會改善 macro-F1，有差別的是從失敗軌跡蒸餾出的使用指引: [AgentRx：ICU 預測多加模態有用，多代理協作沒穩定勝出](2026-09-17-agentrx-multimodal-clinical-prediction.md)
 
-VoxelSage 同樣只給代理確定性工具，但沒有做「不給工具」的對照，本篇的 no-tools／tools-only／tools + skills 三組設計正好說明它缺了哪一組實驗: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
+VoxelSage 同樣只給代理確定性工具，但沒有做「不給工具」的對照，本篇的 no-tools／tools-only／tools + skills 三組設計正好說明它缺了哪一組實驗: [VoxelSage：肝腫瘤量測交給程式，成效數字來自二維模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
 
-CARE-MVLM 在同一個影像領域另外檢查答案有沒有依據：它量測證據框是否對應病灶、病灶被抹除後會不會棄答，補上 MammoClaw 只評估 macro-F1 時沒有涵蓋的面向: [把病灶從乳房攝影上抹掉，VLM 會改口說「無法判斷」嗎？CARE-MVLM 用反事實三聯組訓練棄答與證據框](2026-10-07-care-mvlm-mammography-counterfactual-abstention.md)
+CARE-MVLM 在同一個影像領域另外檢查答案有沒有依據：它量測證據框是否對應病灶、病灶被抹除後會不會棄答，補上 MammoClaw 只評估 macro-F1 時沒有涵蓋的面向: [把病灶抹掉，VLM 會改口說無法判斷嗎？四項同時成立只有 4.75%](2026-10-07-care-mvlm-mammography-counterfactual-abstention.md)
 
-CASE 同樣讓代理使用文字技能，但把 recall_skills／write_skill 當成工具之一，並以 RSFT 加 agentic RL 直接更新 8B 模型權重，與 MammoClaw 只改提示詞、不更新模型的路線形成對照: [不把影像餵給模型，讓它自己去調：CASE 在 UK Biobank 縱向 MRI 上訓練 8B 證據蒐集代理，問題是標籤不一定看得見](2026-10-13-case-longitudinal-mri-evidence-agent.md)
+CASE 同樣讓代理使用文字技能，但把 recall_skills／write_skill 當成工具之一，並以 RSFT 加 agentic RL 直接更新 8B 模型權重，與 MammoClaw 只改提示詞、不更新模型的路線形成對照: [CASE：讓 8B 代理自己去調縱向 MRI，但標籤不一定看得見](2026-10-13-case-longitudinal-mri-evidence-agent.md)
 
 ## 實務的啟發
 

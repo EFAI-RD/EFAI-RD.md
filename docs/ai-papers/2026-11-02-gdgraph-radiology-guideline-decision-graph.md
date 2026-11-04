@@ -1,7 +1,7 @@
 ---
-title: "放射指引先由 LLM 編成決策圖、再讓小模型逐節點作答：GDGraph 在 347 個病例文字上把 Jev 從 57.3% 拉到 90.8%，高於 RAG＋GPT-4o 的 80.1%；但病例取自已發表的病例報告並經 LLM 改寫，結果沒有信賴區間"
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
+title: "放射指引編成決策圖再逐節點作答：Jev 從 57.3% 到 90.8%"
 catalog_id: "arxiv:2610.40327"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 放射指引先由 LLM 編成決策圖、再讓小模型逐節點作答：GDGraph 在 347 個病例文字上把 Jev 從 57.3% 拉到 90.8%，高於 RAG＋GPT-4o 的 80.1%；但病例取自已發表的病例報告並經 LLM 改寫，結果沒有信賴區間
+# 放射指引編成決策圖再逐節點作答：Jev 從 57.3% 到 90.8%
 
 ## 來源
 
@@ -162,13 +162,13 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-兩篇都把臨床規則從 LLM 的自由生成裡抽出來交給程式執行：該研究由 LLM 為 55 個醫療計算器各寫一支 Python 工具、小模型只抽參數，本篇由 LLM 把整份放射指引編成決策圖、小模型只回答節點問題；兩篇的「規則放在程式」都比同一小模型直接作答高出二十幾到三十幾個百分點，但該研究有拿掉工具的消融，本篇沒有拆解各編譯步驟: [算分交給程式、LLM 只抽參數：GPT-5.5 先把 55 個醫療計算器寫成驗證過的 Python 工具，Qwen3-8B 負責從病歷填表，MedCalc-Bench Verified 上 86.73%，剩下的錯多半出在讀病歷](2026-10-20-tool-augmented-llm-medical-calculation.md)
+兩篇都把臨床規則從 LLM 的自由生成裡抽出來交給程式執行：該研究由 LLM 為 55 個醫療計算器各寫一支 Python 工具、小模型只抽參數，本篇由 LLM 把整份放射指引編成決策圖、小模型只回答節點問題；兩篇的「規則放在程式」都比同一小模型直接作答高出二十幾到三十幾個百分點，但該研究有拿掉工具的消融，本篇沒有拆解各編譯步驟: [算分交給程式、LLM 只抽參數：醫療計算器 86.73%，錯多在讀病歷](2026-10-20-tool-augmented-llm-medical-calculation.md)
 
-頸動脈斑塊那篇把 AHA 分型規則寫進 prompt、仍由 LLM 自己套規則，本篇則把指引編成可執行的決策圖、由程式走完布林邏輯，兩篇並讀可對照「規則放在 prompt」與「規則放在圖與程式」兩種把放射分型規則交給 LLM 的做法: [把 AHA 分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%：頸動脈斑塊 MRI 報告的 LLM 輔助判讀，四位放射科醫師對文字參考標準的一致率從 69% 升到 85%（8B）與 90%（671B DeepSeek-R1）](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
+頸動脈斑塊那篇把 AHA 分型規則寫進 prompt、仍由 LLM 自己套規則，本篇則把指引編成可執行的決策圖、由程式走完布林邏輯，兩篇並讀可對照「規則放在 prompt」與「規則放在圖與程式」兩種把放射分型規則交給 LLM 的做法: [分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
 
-該研究的作者在 Discussion 提議讓 LLM 只抽血管層級發現、再由規則引擎決定 CAD-RADS 類別，本篇是把這種拆法推到整份指引的一個實作，但評估的是 CUA、O-RADS 與 K-TIRADS 三套指引，不含 CAD-RADS: [三個聊天介面零樣本讀 CCTA 報告分 CAD-RADS：DeepSeek-R1 與 ChatGPT-5 約八成、ChatGPT-4o 54%，900 份高風險報告被降到 3 以下的比例 2.6%–14.1%](2026-10-22-llm-cad-rads-ccta-report-classification.md)
+該研究的作者在 Discussion 提議讓 LLM 只抽血管層級發現、再由規則引擎決定 CAD-RADS 類別，本篇是把這種拆法推到整份指引的一個實作，但評估的是 CUA、O-RADS 與 K-TIRADS 三套指引，不含 CAD-RADS: [零樣本分 CAD-RADS：高風險報告被降級的比例 2.6%–14.1%](2026-10-22-llm-cad-rads-ccta-report-classification.md)
 
-兩篇都把附件腫塊的超音波文字描述交給 LLM：該研究要 GPT-5 判良惡性、以手術病理為答案並對照 IOTA 規則、ADNEX 與專家，本篇則要模型依 O-RADS US v2022 給風險類別、部分參考標籤由套用指引推得，衡量的是對指引的遵循而不是診斷準確度: [把超音波描述交給 ChatGPT 判良惡性：300 顆附件腫塊，和 IOTA 規則、ADNEX 與專家差多少？](2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md)
+兩篇都把附件腫塊的超音波文字描述交給 LLM：該研究要 GPT-5 判良惡性、以手術病理為答案並對照 IOTA 規則、ADNEX 與專家，本篇則要模型依 O-RADS US v2022 給風險類別、部分參考標籤由套用指引推得，衡量的是對指引的遵循而不是診斷準確度: [只給超音波文字，GPT-5 判良惡性追得上 IOTA 與專家嗎](2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md)
 
 ## 實務的啟發
 

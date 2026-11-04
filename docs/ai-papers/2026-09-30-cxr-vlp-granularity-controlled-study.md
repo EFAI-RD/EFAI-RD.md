@@ -1,7 +1,7 @@
 ---
-title: "胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗"
 parent: AI Papers
 nav_exclude: true
+title: "胸片編碼器該學全域還是局部？九種預訓練目標、五項任務"
 catalog_id: "arxiv:2609.31985"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗
+# 胸片編碼器該學全域還是局部？九種預訓練目標、五項任務
 
 ## 來源
 
@@ -167,15 +167,15 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-MAIRA-2 把區域定位直接寫進報告生成的輸出與評分，本研究則把定位訊號放在上游的預訓練目標，檢驗它對凍結編碼器的下游任務各有多少幫助: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md)
+MAIRA-2 把區域定位直接寫進報告生成的輸出與評分，本研究則把定位訊號放在上游的預訓練目標，檢驗它對凍結編碼器的下游任務各有多少幫助: [MAIRA-2：胸片報告文字對了，定位不一定對](2026-09-15-maira-2-grounded-reporting.md)
 
-本研究的報告生成結果中，BLEU／ROUGE 與 RadGraph-F1 的排序並不一致，正是該研究「語意相似度不能代替臨床保真度」的另一個實例: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
+本研究的報告生成結果中，BLEU／ROUGE 與 RadGraph-F1 的排序並不一致，正是該研究「語意相似度不能代替臨床保真度」的另一個實例: [報告讀起來愈順，就寫得愈對嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
 
-兩篇都在追問胸片視覺編碼器的分數從何而來：該研究改換評估條件、檢驗現成醫療 VLM 的結論是否還站得住，本研究則固定評估條件、只改換預訓練目標: [稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？](2026-09-21-cxr-tb-vlm-portability-audit.md)
+兩篇都在追問胸片視覺編碼器的分數從何而來：該研究改換評估條件、檢驗現成醫療 VLM 的結論是否還站得住，本研究則固定評估條件、只改換預訓練目標: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](2026-09-21-cxr-tb-vlm-portability-audit.md)
 
-本研究把區域監督放在預訓練目標、比較凍結編碼器在各粒度任務的表現，CoRE 則固定一個凍結的胸片編碼器，在下游以 Chest ImaGenome 的區域框與 region–finding 標籤做 prompt tuning: [CoRE：把胸片標籤拆成 252 個「部位－發現」配對，以共現分組的 prompt 與區域證據調整凍結的 EVA-X，2.09M 可訓練參數下 macro AUROC 比 ML-VPT 高 0.0147](2026-10-29-core-cxr-region-finding-cooccurrence.md)
+本研究把區域監督放在預訓練目標、比較凍結編碼器在各粒度任務的表現，CoRE 則固定一個凍結的胸片編碼器，在下游以 Chest ImaGenome 的區域框與 region–finding 標籤做 prompt tuning: [CoRE：胸片標籤拆成 252 個部位－發現配對，2.09M 參數調贏基線](2026-10-29-core-cxr-region-finding-cooccurrence.md)
 
-本研究在胸片上比較九種不同粒度的圖文預訓練目標，BERD-CLIP 則在支氣管鏡上比較三種對比學習的正例定義，兩篇都在固定資料與評估條件下檢驗目標設計本身的影響: [支氣管鏡報告的一句描述能當監督嗎？用 BERD 影像描述微調 BiomedCLIP：零樣本 macro AUPRC 從 0.184 升到 0.255–0.292，5% 病人標籤的線性探測就高過全標籤的 DINOv2 與 Swin-T](2026-10-29-berd-clip-report-supervised-bronchoscopy.md)
+本研究在胸片上比較九種不同粒度的圖文預訓練目標，BERD-CLIP 則在支氣管鏡上比較三種對比學習的正例定義，兩篇都在固定資料與評估條件下檢驗目標設計本身的影響: [支氣管鏡報告當監督：5% 標籤就贏過全標籤的 DINOv2](2026-10-29-berd-clip-report-supervised-bronchoscopy.md)
 
 ## 實務的啟發
 

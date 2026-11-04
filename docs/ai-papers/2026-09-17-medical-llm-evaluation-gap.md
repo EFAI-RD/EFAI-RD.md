@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？"
+title: "醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊"
 category: ai-papers
 date: 2026-09-17
 updated: 2026-09-17
@@ -37,7 +37,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？
+# 醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊
 
 ## 來源
 
@@ -154,31 +154,31 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 ## 與書庫其他文章的關係
 
-該文把本文指出的評估設計缺口具體化為 physician-calibrated judge；它能提高同一量表下的評分可重現性，但不解決模型新鮮度、臨床效益或跨 panel 外推: [PrecepTron：把醫師評分學成 LLM 評審，能讓醫療 AI 評估更可重現嗎？](2026-09-17-preceptron-clinical-ai-evaluation.md)
+該文把本文指出的評估設計缺口具體化為 physician-calibrated judge；它能提高同一量表下的評分可重現性，但不解決模型新鮮度、臨床效益或跨 panel 外推: [PrecepTron：把醫師評分學成院內跑得動的 LLM 評審](2026-09-17-preceptron-clinical-ai-evaluation.md)
 
-該文提供單中心 retrospective benchmark 的具體案例；本篇則顯示 agentic／multi-agent 醫療文獻雖成長最快，trial-grade evidence 的相對供給仍低: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](2026-09-17-agentrx-multimodal-clinical-prediction.md)
+該文提供單中心 retrospective benchmark 的具體案例；本篇則顯示 agentic／multi-agent 醫療文獻雖成長最快，trial-grade evidence 的相對供給仍低: [AgentRx：ICU 預測多加模態有用，多代理協作沒穩定勝出](2026-09-17-agentrx-multimodal-clinical-prediction.md)
 
 該文解釋角色分工與協作機制；本篇補上研究治理視角，提醒 capability、safety 與 prospective evaluation 經常分屬不同文獻群: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
 該則對應監管端把代理式 GenAI 賦能裝置與上市後監測寫進討論框架；本篇則顯示 agentic／multi-agent 醫療文獻成長快、trial-grade 證據相對稀少: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md)
 
-該文把評估落差縮到指標層級——自動指標彼此高度相關，卻不必然指向同一個臨床事實: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
+該文把評估落差縮到指標層級——自動指標彼此高度相關，卻不必然指向同一個臨床事實: [報告讀起來愈順，就寫得愈對嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
 
-該文提供一個臨床相關性被整體分數蓋住的具體案例——accuracy 0.8369 的同一組設定，最不能漏的 new 類 recall 只有 0.5385: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md)
+該文提供一個臨床相關性被整體分數蓋住的具體案例——accuracy 0.8369 的同一組設定，最不能漏的 new 類 recall 只有 0.5385: [序列胸片報告的時序判讀：七個 LLM 分得出「新出現」嗎](2026-09-22-llm-temporal-change-cxr-reports.md)
 
-該研究在錯誤來源這一項補上本文所指的臨床條件——用的是放射科醫師真的改過的 1,551 個錯誤而非人工植入，但仍是單中心回溯設計: [中文放射科報告的真實錯誤：八個 LLM 與八位人類讀者，誰抓得出來？](2026-09-22-llm-chinese-radiology-report-error-detection.md)
+該研究在錯誤來源這一項補上本文所指的臨床條件——用的是放射科醫師真的改過的 1,551 個錯誤而非人工植入，但仍是單中心回溯設計: [1,363 份中文放射報告的真實錯誤：八個 LLM 對八位人類讀者](2026-09-22-llm-chinese-radiology-report-error-detection.md)
 
-一項分配決策的稽核顯示，即使研究設計嚴謹，強制二選一這類實驗室條件仍會量到與部署行為不同的東西: [臨床條件一模一樣時，LLM 先給誰？30,618 次強制二選一的分配稽核](2026-09-22-llm-social-status-resource-allocation.md)
+一項分配決策的稽核顯示，即使研究設計嚴謹，強制二選一這類實驗室條件仍會量到與部署行為不同的東西: [臨床條件完全一樣時 LLM 先給誰？30,618 次強制二選一](2026-09-22-llm-social-status-resource-allocation.md)
 
-該研究提供一個具體案例：一個看起來合格的端到端 AUC，加上一層以理由為條件的受控影像對比之後就不再能支持原來的結論: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
+該研究提供一個具體案例：一個看起來合格的端到端 AUC，加上一層以理由為條件的受控影像對比之後就不再能支持原來的結論: [抽掉 OCT 影像，VLM 的 anti-VEGF 建議還剩多少依據](2026-09-23-vlm-oct-image-dependence-audit.md)
 
-該研究提供一個乾淨的示範：同一批模型在 micro 與 macro 兩種平均下，可用性結論可以相差 0.36 個 F1: [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
+該研究提供一個乾淨的示範：同一批模型在 micro 與 macro 兩種平均下，可用性結論可以相差 0.36 個 F1: [病歷裡的老年照護構念：規則引擎、GPT-4o 與微調小模型各有破法](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
 
-該研究提出在輸出之外讀取模型內部概念活化的評估面向，但其醫師驗證僅 2 位評分者、38 案，屬於本文所說評估設計需要再補強的一例: [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
+該研究提出在輸出之外讀取模型內部概念活化的評估面向，但其醫師驗證僅 2 位評分者、38 案，屬於本文所說評估設計需要再補強的一例: [ICD 章節藏在 LLM 的哪裡？11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
 
-該研究提出一個新的醫療問答指標，但驗證只對選擇題準確率與模型規模做相關、沒有人工判斷參照，正是本文所說評估設計需要補強的一例: [答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md)
+該研究提出一個新的醫療問答指標，但驗證只對選擇題準確率與模型規模做相關、沒有人工判斷參照，正是本文所說評估設計需要補強的一例: [EntQA：實體覆蓋率排得出模型好壞，逐題訊號幾乎沒有](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md)
 
-該研究把本文所說的評估落差落到任務組成層級：一家醫療體系 12.8 萬筆真實提問中文件與行政占 36.2%、診斷只占 3.7%，58 個公開基準對這份組成的 coverage 中位數只有 31%: [臨床人員實際拿 LLM 做什麼？12.8 萬筆提問對照 58 個公開基準：文件工作占最多、診斷只占 3.7%，基準的題目組成對不上](2026-10-13-clinician-llm-use-vs-benchmarks.md)
+該研究把本文所說的評估落差落到任務組成層級：一家醫療體系 12.8 萬筆真實提問中文件與行政占 36.2%、診斷只占 3.7%，58 個公開基準對這份組成的 coverage 中位數只有 31%: [臨床人員實際用 LLM 做什麼？文件工作 36%，診斷只有 3.7%](2026-10-13-clinician-llm-use-vs-benchmarks.md)
 
 ## 實務的啟發
 

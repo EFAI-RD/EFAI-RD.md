@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "CORAL：先找病灶、再說臨床概念，能讓醫療影像報告更可檢視嗎？"
+title: "CORAL：先定位病灶再寫報告，讓影像報告可被檢視"
 category: ai-papers
 date: 2026-09-17
 updated: 2026-09-17
@@ -29,7 +29,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# CORAL：先找病灶、再說臨床概念，能讓醫療影像報告更可檢視嗎？
+# CORAL：先定位病灶再寫報告，讓影像報告可被檢視
 
 ## 來源
 
@@ -162,13 +162,13 @@ IU X-Ray 的診斷 accuracy 已超過 0.96，作者也因此沒有在該資料�
 
 ## 與書庫其他文章的關係
 
-該文把診斷文字與像素級 mask 放進同一模型輸出，與 CORAL 的外部分割器加概念瓶頸路線形成「模型內生 grounding」與「模組化空間先驗」的對照: [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](2026-09-17-medsight-grounded-medical-vlm.md)
+該文把診斷文字與像素級 mask 放進同一模型輸出，與 CORAL 的外部分割器加概念瓶頸路線形成「模型內生 grounding」與「模組化空間先驗」的對照: [MedSIGHT：一邊寫診斷，一邊把病灶分割出來](2026-09-17-medsight-grounded-medical-vlm.md)
 
-CORAL 用概念與空間先驗約束每一句的依據，該研究則量到在缺少這類約束時，流暢的 Impression 與正確的 Findings 會相當程度脫鉤: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
+CORAL 用概念與空間先驗約束每一句的依據，該研究則量到在缺少這類約束時，流暢的 Impression 與正確的 Findings 會相當程度脫鉤: [報告讀起來愈順，就寫得愈對嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
 
-CORAL 把依據建在生成流程之內，該研究則把原始影像擋在報告生成之外、只讓文字端讀結構化的歸因紀錄，兩篇是同一個可檢視目標下的兩種架構選擇: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
+CORAL 把依據建在生成流程之內，該研究則把原始影像擋在報告生成之外、只讓文字端讀結構化的歸因紀錄，兩篇是同一個可檢視目標下的兩種架構選擇: [乳癌病理報告的區域級歸因：影像該在哪一步被擋下來](2026-09-23-gralis-report-histology-attribution.md)
 
-ORION-CMR 把敘述權限縮到只讀確定性結構化量測的語言模型，是比本篇更強的一種報告可檢視性設計: [掃完約 90 秒就吐出結構化報告：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀，臨床驗證只在單一中心](2026-09-24-orion-cmr-on-scanner-reporting.md)
+ORION-CMR 把敘述權限縮到只讀確定性結構化量測的語言模型，是比本篇更強的一種報告可檢視性設計: [ORION-CMR：掃完約 90 秒出結構化報告，驗證只在單一中心](2026-09-24-orion-cmr-on-scanner-reporting.md)
 
 ## 實務的啟發
 

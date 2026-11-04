@@ -1,7 +1,7 @@
 ---
-title: "算分交給程式、LLM 只抽參數：GPT-5.5 先把 55 個醫療計算器寫成驗證過的 Python 工具，Qwen3-8B 負責從病歷填表，MedCalc-Bench Verified 上 86.73%，剩下的錯多半出在讀病歷"
 parent: AI Papers
 nav_exclude: true
+title: "算分交給程式、LLM 只抽參數：醫療計算器 86.73%，錯多在讀病歷"
 catalog_id: "arxiv:2610.21477"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 算分交給程式、LLM 只抽參數：GPT-5.5 先把 55 個醫療計算器寫成驗證過的 Python 工具，Qwen3-8B 負責從病歷填表，MedCalc-Bench Verified 上 86.73%，剩下的錯多半出在讀病歷
+# 算分交給程式、LLM 只抽參數：醫療計算器 86.73%，錯多在讀病歷
 
 ## 來源
 
@@ -157,13 +157,13 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-VoxelSage 把肝腫瘤的幾何量測寫成確定性技能、讓 LLM 只負責調度，本篇則把醫療計算器的公式寫成由 LLM 生成並驗證的 Python 工具、讓 LLM 只負責抽參數，兩篇都是「算的部分交給程式」，但本篇有拿掉工具的消融與 1,100 題基準，VoxelSage 缺少這組對照: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
+VoxelSage 把肝腫瘤的幾何量測寫成確定性技能、讓 LLM 只負責調度，本篇則把醫療計算器的公式寫成由 LLM 生成並驗證的 Python 工具、讓 LLM 只負責抽參數，兩篇都是「算的部分交給程式」，但本篇有拿掉工具的消融與 1,100 題基準，VoxelSage 缺少這組對照: [VoxelSage：肝腫瘤量測交給程式，成效數字來自二維模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
 
-頸動脈斑塊那篇把 AHA 分型規則寫進 prompt、仍由 LLM 自己套規則，本篇則把計算規則寫成程式、LLM 只填輸入，兩篇並讀可對照「規則放在 prompt」與「規則放在程式」兩種把臨床規則交給 LLM 的做法: [把 AHA 分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%：頸動脈斑塊 MRI 報告的 LLM 輔助判讀，四位放射科醫師對文字參考標準的一致率從 69% 升到 85%（8B）與 90%（671B DeepSeek-R1）](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
+頸動脈斑塊那篇把 AHA 分型規則寫進 prompt、仍由 LLM 自己套規則，本篇則把計算規則寫成程式、LLM 只填輸入，兩篇並讀可對照「規則放在 prompt」與「規則放在程式」兩種把臨床規則交給 LLM 的做法: [分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
 
-該研究的作者在 Discussion 提議讓 LLM 只抽冠狀動脈的血管層級發現、再由規則引擎決定 CAD-RADS 類別，與本篇「規則寫成程式、LLM 只抽參數」的做法相同，但該研究本身只測了零樣本直接分類: [三個聊天介面零樣本讀 CCTA 報告分 CAD-RADS：DeepSeek-R1 與 ChatGPT-5 約八成、ChatGPT-4o 54%，900 份高風險報告被降到 3 以下的比例 2.6%–14.1%](2026-10-22-llm-cad-rads-ccta-report-classification.md)
+該研究的作者在 Discussion 提議讓 LLM 只抽冠狀動脈的血管層級發現、再由規則引擎決定 CAD-RADS 類別，與本篇「規則寫成程式、LLM 只抽參數」的做法相同，但該研究本身只測了零樣本直接分類: [零樣本分 CAD-RADS：高風險報告被降級的比例 2.6%–14.1%](2026-10-22-llm-cad-rads-ccta-report-classification.md)
 
-兩篇都把臨床規則從 LLM 的自由生成裡抽出來交給程式執行：本篇由 LLM 為 55 個醫療計算器各寫一支 Python 工具、小模型只抽參數，該研究由 LLM 把整份放射指引編成決策圖、System One 模型只回答節點問題；本篇有拿掉工具的消融，該研究則沒有拆解各編譯步驟的貢獻: [放射指引先由 LLM 編成決策圖、再讓小模型逐節點作答：GDGraph 在 347 個病例文字上把 Jev 從 57.3% 拉到 90.8%，高於 RAG＋GPT-4o 的 80.1%；但病例取自已發表的病例報告並經 LLM 改寫，結果沒有信賴區間](2026-11-02-gdgraph-radiology-guideline-decision-graph.md)
+兩篇都把臨床規則從 LLM 的自由生成裡抽出來交給程式執行：本篇由 LLM 為 55 個醫療計算器各寫一支 Python 工具、小模型只抽參數，該研究由 LLM 把整份放射指引編成決策圖、System One 模型只回答節點問題；本篇有拿掉工具的消融，該研究則沒有拆解各編譯步驟的貢獻: [放射指引編成決策圖再逐節點作答：Jev 從 57.3% 到 90.8%](2026-11-02-gdgraph-radiology-guideline-decision-graph.md)
 
 ## 實務的啟發
 

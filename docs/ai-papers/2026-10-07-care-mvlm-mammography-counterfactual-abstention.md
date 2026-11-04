@@ -1,7 +1,7 @@
 ---
-title: "把病灶從乳房攝影上抹掉，VLM 會改口說「無法判斷」嗎？CARE-MVLM 用反事實三聯組訓練棄答與證據框"
 parent: AI Papers
 nav_exclude: true
+title: "把病灶抹掉，VLM 會改口說無法判斷嗎？四項同時成立只有 4.75%"
 catalog_id: "doi:10.64898/2026.09.23.26363835"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 把病灶從乳房攝影上抹掉，VLM 會改口說「無法判斷」嗎？CARE-MVLM 用反事實三聯組訓練棄答與證據框
+# 把病灶抹掉，VLM 會改口說無法判斷嗎？四項同時成立只有 4.75%
 
 ## 來源
 
@@ -136,11 +136,11 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-MammoClaw 讓凍結的 MLLM 透過確定性工具與演化出的技能讀乳房攝影，只評估答案的 macro-F1；本篇在同一個影像領域另外量測證據框是否對應病灶、以及病灶被移除後會不會棄答，補上 MammoClaw 沒有檢查的「答案有沒有依據」: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
+MammoClaw 讓凍結的 MLLM 透過確定性工具與演化出的技能讀乳房攝影，只評估答案的 macro-F1；本篇在同一個影像領域另外量測證據框是否對應病灶、以及病灶被移除後會不會棄答，補上 MammoClaw 沒有檢查的「答案有沒有依據」: [MammoClaw：給工具沒用，技能演化後仍可能輸給全猜一類](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
 
-OCT 影像依賴稽核在推論端固定理由、替換影像，量測影像對決策的實際貢獻；本篇則把「移除影像證據」做成訓練與評估用的反事實視圖，並以 random removal 對照排除「只是對編輯起反應」，兩篇從稽核端與訓練端處理同一個「答案是否真的依賴影像證據」的問題: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
+OCT 影像依賴稽核在推論端固定理由、替換影像，量測影像對決策的實際貢獻；本篇則把「移除影像證據」做成訓練與評估用的反事實視圖，並以 random removal 對照排除「只是對編輯起反應」，兩篇從稽核端與訓練端處理同一個「答案是否真的依賴影像證據」的問題: [抽掉 OCT 影像，VLM 的 anti-VEGF 建議還剩多少依據](2026-09-23-vlm-oct-image-dependence-audit.md)
 
-本篇用移除病灶的反事實視圖訓練棄答與證據框，ECDD 則不改答案標籤、只要求小型學生模型在證據被移除時對正確答案的 margin 至少下降到教師的一定比例，兩者都以無關區域的同等編輯作對照: [答對了，但有沒有看圖？ECDD 把「遮掉證據後信心掉多少」蒸餾給 3B 醫療 VLM：DME 病灶區域的特異反應從 0.79 升到 2.02，準確率幾乎不變](2026-10-19-ecdd-medical-vlm-evidence-dependency-distillation.md)
+本篇用移除病灶的反事實視圖訓練棄答與證據框，ECDD 則不改答案標籤、只要求小型學生模型在證據被移除時對正確答案的 margin 至少下降到教師的一定比例，兩者都以無關區域的同等編輯作對照: [答對了，但有沒有看圖？ECDD 把證據依賴蒸餾給 3B 醫療 VLM](2026-10-19-ecdd-medical-vlm-evidence-dependency-distillation.md)
 
 ## 實務的啟發
 

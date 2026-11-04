@@ -1,7 +1,7 @@
 ---
-title: "MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？"
 parent: AI Papers
 nav_exclude: true
+title: "MedicalBench：要 LLM 指出病歷裡那一句，隱性概念就難了"
 catalog_id: "arxiv:2605.20197"
 editors:
   - "Colbert"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？
+# MedicalBench：要 LLM 指出病歷裡那一句，隱性概念就難了
 
 ## 來源
 
@@ -103,13 +103,13 @@ MedicalBench 因此把概念抽取改寫為「驗證加定位」：輸入一份�
 
 ## 與書庫其他文章的關係
 
-該文以規則與來源欄維持特徵 provenance，可與 MedicalBench「模型指出病歷證據」的可追溯性對讀: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](2026-09-15-tracing-the-heart.md)
+該文以規則與來源欄維持特徵 provenance，可與 MedicalBench「模型指出病歷證據」的可追溯性對讀: [nMAS：心衰竭特徵工程全程留證據鏈，但只跑了 500 筆假資料](2026-09-15-tracing-the-heart.md)
 
-該文從 MedicalBench 的句級證據定位再往前一步，把預測性檢索、帶引文理由與逐步錯誤標記串成可稽核流程: [EviGen：從長期病歷挑證據、寫理由，再逐步驗證，能讓臨床 LLM 更可稽核嗎？](2026-09-17-evigen-clinical-rationale.md)
+該文從 MedicalBench 的句級證據定位再往前一步，把預測性檢索、帶引文理由與逐步錯誤標記串成可稽核流程: [EviGen：先把長期病歷縮成可追溯證據，再讓 LLM 寫理由](2026-09-17-evigen-clinical-rationale.md)
 
-該研究把同一件事放大到四家院所與 41 個老年照護構念，並加入規則式與 LoRA 微調的對照組，顯示 micro 與 macro 平均會給出截然不同的可用性判斷: [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
+該研究把同一件事放大到四家院所與 41 個老年照護構念，並加入規則式與 LoRA 微調的對照組，顯示 micro 與 macro 平均會給出截然不同的可用性判斷: [病歷裡的老年照護構念：規則引擎、GPT-4o 與微調小模型各有破法](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
 
-MedicalBench 在輸出端要 LLM 指出 ICD 概念的證據句，該研究則用 MIMIC-IV 出院摘要的主要 ICD-9 代碼在模型內部找章節表徵，並以注入實驗檢驗模型是否真的用到它: [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
+MedicalBench 在輸出端要 LLM 指出 ICD 概念的證據句，該研究則用 MIMIC-IV 出院摘要的主要 ICD-9 代碼在模型內部找章節表徵，並以注入實驗檢驗模型是否真的用到它: [ICD 章節藏在 LLM 的哪裡？11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
 
 ## 實務的啟發
 

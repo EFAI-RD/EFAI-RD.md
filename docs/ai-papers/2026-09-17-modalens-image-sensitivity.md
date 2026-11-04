@@ -1,7 +1,7 @@
 ---
-title: "ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？"
 parent: AI Papers
 nav_exclude: true
+title: "ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎"
 catalog_id: "arxiv:2609.15635"
 editors:
   - "Colbert"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？
+# ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎
 
 ## 來源
 
@@ -135,25 +135,25 @@ attention knockout 從 layer 0 開始時，flip rate 由 report-present baseline
 
 ## 與書庫其他文章的關係
 
-MedGemma 1.5 技術報告展示同一基礎模型擴充到多種醫療模態，ModaLens 則直接稽核其 27B／4B 版本在胸片加報告時是否仍對影像交換敏感: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md)
+MedGemma 1.5 技術報告展示同一基礎模型擴充到多種醫療模態，ModaLens 則直接稽核其 27B／4B 版本在胸片加報告時是否仍對影像交換敏感: [MedGemma 1.5：4B 吃下 3D 影像與全切片，代價一併公開](2026-09-16-medgemma-1-5.md)
 
-同樣是拆解「一個分數到底在測什麼」，胸片結核篩檢稽核固定影像而改換提示詞、負類與閾值，與本篇固定文字、只換影像的設計互補: [稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？](2026-09-21-cxr-tb-vlm-portability-audit.md)
+同樣是拆解「一個分數到底在測什麼」，胸片結核篩檢稽核固定影像而改換提示詞、負類與閾值，與本篇固定文字、只換影像的設計互補: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](2026-09-21-cxr-tb-vlm-portability-audit.md)
 
-該研究把同一個提問再推一步：不是交換影像，而是先讓模型自己寫出理由、固定住這段文字後才替換影像，量的是中介被封住後影像還剩多少直接貢獻: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
+該研究把同一個提問再推一步：不是交換影像，而是先讓模型自己寫出理由、固定住這段文字後才替換影像，量的是中介被封住後影像還剩多少直接貢獻: [抽掉 OCT 影像，VLM 的 anti-VEGF 建議還剩多少依據](2026-09-23-vlm-oct-image-dependence-audit.md)
 
-ModaLens 以交換影像量測影像敏感度，該研究則把「輔助資訊到底有沒有幫助」寫成一條可以事前計算的準確度門檻: [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
+ModaLens 以交換影像量測影像敏感度，該研究則把「輔助資訊到底有沒有幫助」寫成一條可以事前計算的準確度門檻: [先分割左心室再估射出分率？一條 10.5% 的天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
 
-ModaLens 量測有報告可讀時模型還看不看影像，該研究則在 RAG 情境下給出同一問題的答案：檢索報告一進 prompt，95% 的生成報告含有從證據逐字抄來的片段: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
+ModaLens 量測有報告可讀時模型還看不看影像，該研究則在 RAG 情境下給出同一問題的答案：檢索報告一進 prompt，95% 的生成報告含有從證據逐字抄來的片段: [相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
-ModaLens 以交換輸入觀察答案變化來推斷模型用了什麼，該研究則直接在 residual stream 注入臨床概念方向，並以隨機方向與 unembedding 對照排除捷徑: [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
+ModaLens 以交換輸入觀察答案變化來推斷模型用了什麼，該研究則直接在 residual stream 注入臨床概念方向，並以隨機方向與 unembedding 對照排除捷徑: [ICD 章節藏在 LLM 的哪裡？11 個開源模型裡找方向、做介入](2026-10-05-clinical-concept-centers-llm.md)
 
-ModaLens 交換影像量測醫療 VLM 是否仍看影像，該研究以模態遮罩消融與配對 bootstrap 顯示：輸入含認知分數時，T1w MRI 對三分類診斷的增益無法與零區分: [阿茲海默症分期的 VLM：caption 拿掉診斷欄位後，MEMOIR-VLM 的 LLM 還贏得過 k-NN 嗎？](2026-10-06-memoir-vlm-alzheimers-rag-vqa.md)
+ModaLens 交換影像量測醫療 VLM 是否仍看影像，該研究以模態遮罩消融與配對 bootstrap 顯示：輸入含認知分數時，T1w MRI 對三分類診斷的增益無法與零區分: [阿茲海默症分期：caption 遮掉診斷欄位後，LLM 輸給 k-NN](2026-10-06-memoir-vlm-alzheimers-rag-vqa.md)
 
-ModaLens 交換影像量測醫療 VLM 在有報告時是否仍看影像，該研究則在取栓後血管攝影的 mTICI 分級上，以只有報告、只有影像、兩者皆有三種條件並對照醫師讀者，顯示 GPT-5 與 MedGemma-1.5（4B）加入影像後一致性幾乎不變: [有手術報告時，GPT-5 的 mTICI 分級追得上醫師；只給 DSA 影像，一致性從 0.87 掉到 0.35：取栓後再灌流分級的多模態模型比較](2026-10-19-lmm-mtici-thrombectomy-dsa-grading.md)
+ModaLens 交換影像量測醫療 VLM 在有報告時是否仍看影像，該研究則在取栓後血管攝影的 mTICI 分級上，以只有報告、只有影像、兩者皆有三種條件並對照醫師讀者，顯示 GPT-5 與 MedGemma-1.5（4B）加入影像後一致性幾乎不變: [有報告時 GPT-5 的 mTICI 追得上醫師，只給影像掉到 0.35](2026-10-19-lmm-mtici-thrombectomy-dsa-grading.md)
 
-ModaLens 在推論端交換影像來量測醫療 VLM 的影像敏感度，ECDD 則把「移除證據後答案支持該下降多少」寫成蒸餾的訓練目標，並以同面積隨機遮罩確認反應集中在問題指定的區域: [答對了，但有沒有看圖？ECDD 把「遮掉證據後信心掉多少」蒸餾給 3B 醫療 VLM：DME 病灶區域的特異反應從 0.79 升到 2.02，準確率幾乎不變](2026-10-19-ecdd-medical-vlm-evidence-dependency-distillation.md)
+ModaLens 在推論端交換影像來量測醫療 VLM 的影像敏感度，ECDD 則把「移除證據後答案支持該下降多少」寫成蒸餾的訓練目標，並以同面積隨機遮罩確認反應集中在問題指定的區域: [答對了，但有沒有看圖？ECDD 把證據依賴蒸餾給 3B 醫療 VLM](2026-10-19-ecdd-medical-vlm-evidence-dependency-distillation.md)
 
-ModaLens 固定文字、只交換影像，該研究則固定影像、只把轉診文字從明顯感染逐級改寫到明顯腫瘤，量到四個多模態 LLM 的答案主要隨文字改變，確診診斷造成的差異平均只有 0.01–0.25: [轉診單上一句話，就決定多模態 LLM 怎麼讀 MRI？膠質瘤 vs 腦膿瘍：四個模型的 text-driven span 0.79–1.00，叫它忽略文字也只有一個模型降到 0.04](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
+ModaLens 固定文字、只交換影像，該研究則固定影像、只把轉診文字從明顯感染逐級改寫到明顯腫瘤，量到四個多模態 LLM 的答案主要隨文字改變，確診診斷造成的差異平均只有 0.01–0.25: [轉診單一句話就改變 MRI 判讀，叫模型忽略只有一個做得到](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
 
 ModaLens 在胸片加報告的情境下交換影像量測醫療 VLM 是否仍看影像，該研究把拿掉切片、換錯切片的對照搬到病理全切片問答，並加上選項位移、NOTA 與改寫三種格式對照: [語言到底替病理 VLM 加了什麼？四個控制實驗：去掉分期的報告文字讓存活 C-index 多 0.016–0.019，zero-shot prompt 沒有勝過線性探測，SlideChat 拿掉切片後答對率只從 74.82% 掉到 74.41%](2026-11-04-pathology-vlm-language-controlled-probes.md)
 

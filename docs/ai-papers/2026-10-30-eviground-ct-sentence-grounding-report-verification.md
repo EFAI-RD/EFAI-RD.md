@@ -1,7 +1,7 @@
 ---
-title: "EviGround-CT：LLM 寫的胸部 CT 報告逐句送去 3D 定位查核，整句當查詢讓 137 個生成發現中有標註支持的比例從 0.263 升到 0.365，但參考遮罩不完整、評估只有 100 例"
 parent: AI Papers
 nav_exclude: true
+title: "EviGround-CT：CT 報告逐句送去定位查核，參考遮罩並不完整"
 catalog_id: "arxiv:2610.33038"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# EviGround-CT：LLM 寫的胸部 CT 報告逐句送去 3D 定位查核，整句當查詢讓 137 個生成發現中有標註支持的比例從 0.263 升到 0.365，但參考遮罩不完整、評估只有 100 例
+# EviGround-CT：CT 報告逐句送去定位查核，參考遮罩並不完整
 
 ## 來源
 
@@ -142,13 +142,13 @@ EviGround-CT 分三段推論：報告生成器從 CT volume 寫出報告；確�
 
 ## 與書庫其他文章的關係
 
-MAIRA-2 在生成胸片報告時就把每個發現連同定位框一起輸出，EviGround-CT 則在胸部 CT 報告寫完之後，另用一個以整句為查詢的 3D 驗證器替每個陽性發現找證據遮罩，兩篇代表「生成時定位」與「生成後查核」兩種把報告句連回影像的做法: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md)
+MAIRA-2 在生成胸片報告時就把每個發現連同定位框一起輸出，EviGround-CT 則在胸部 CT 報告寫完之後，另用一個以整句為查詢的 3D 驗證器替每個陽性發現找證據遮罩，兩篇代表「生成時定位」與「生成後查核」兩種把報告句連回影像的做法: [MAIRA-2：胸片報告文字對了，定位不一定對](2026-09-15-maira-2-grounded-reporting.md)
 
-該研究用 LLM 查核胸片報告句是否成立，並顯示「未提到」的解讀約定會改變量到的分數；EviGround-CT 則用 3D 遮罩對參考標註查核 CT 報告句，同樣面對參考不完整的問題，作者明說 UPR 不能讀成幻覺率，兩篇都提醒報告查核的分數受參考約定左右: [「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6 個百分點（rule-based 查核；換成 MedGemma-4B 是 11.8），但換一個查核模型或格式，量到的增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
+該研究用 LLM 查核胸片報告句是否成立，並顯示「未提到」的解讀約定會改變量到的分數；EviGround-CT 則用 3D 遮罩對參考標註查核 CT 報告句，同樣面對參考不完整的問題，作者明說 UPR 不能讀成幻覺率，兩篇都提醒報告查核的分數受參考約定左右: [「沒提到」算不算「沒有」？換一個查核模型，增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
 
-該研究的 LLM 只檢查放射報告文字內部是否自相矛盾、漏寫或寫錯側別，作者明說無法發現報告與影像不符；EviGround-CT 則把報告的陽性發現句送去 3D 定位、對影像找證據，兩篇分別代表報告品管的「文字內部一致性」與「文字對影像證據」兩個層次: [放射報告文字裡的錯，LLM 抓得到嗎？Qwen3 在雲南兩家醫院、14 萬份中文報告上 macro-F1 0.94 與 0.93，挑錯並分類的 recall 0.96 高過三位放射科醫師的 0.45–0.67；但比較集只含有錯的報告，醫師也看不到影像](2026-11-02-llm-radiology-report-error-qa-multicenter.md)
+該研究的 LLM 只檢查放射報告文字內部是否自相矛盾、漏寫或寫錯側別，作者明說無法發現報告與影像不符；EviGround-CT 則把報告的陽性發現句送去 3D 定位、對影像找證據，兩篇分別代表報告品管的「文字內部一致性」與「文字對影像證據」兩個層次: [14 萬份中文報告挑錯：Qwen3 recall 0.96，醫師最高 0.67](2026-11-02-llm-radiology-report-error-qa-multicenter.md)
 
-EviGround-CT 在 CT 報告寫完後逐句找影像證據，DLoss 則在訓練時就壓低參考報告不支持的診斷詞機率，兩篇分別從「生成後查核」與「訓練時約束」處理 CT 報告裡沒有根據的發現: [DLoss：訓練時把「報告該寫的診斷詞」與「不該出現的診斷詞」分開施壓，六個 3D 腹部 CT 報告模型的 GREEN 平均多 4.05 分、外部資料多 4.28 分，推論不加成本；但評分全靠自動指標，各模型增益從不到 1 分到 14 分不等](2026-11-02-dloss-diagnostic-loss-ct-report-generation.md)
+EviGround-CT 在 CT 報告寫完後逐句找影像證據，DLoss 則在訓練時就壓低參考報告不支持的診斷詞機率，兩篇分別從「生成後查核」與「訓練時約束」處理 CT 報告裡沒有根據的發現: [DLoss：訓練時分開施壓該寫與不該寫的診斷詞，GREEN 多 4 分](2026-11-02-dloss-diagnostic-loss-ct-report-generation.md)
 
 ## 實務的啟發
 

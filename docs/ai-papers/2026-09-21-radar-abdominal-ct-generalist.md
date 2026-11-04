@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "RADAR：把腹部 CT 拆成 18 個器官再對齊報告，通才模型能到專家水準嗎？"
+title: "RADAR：腹部 CT 拆成 18 個器官對齊報告，146 種徵象可查"
 category: ai-papers
 date: 2026-09-21
 updated: 2026-09-21
@@ -32,7 +32,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# RADAR：把腹部 CT 拆成 18 個器官再對齊報告，通才模型能到專家水準嗎？
+# RADAR：腹部 CT 拆成 18 個器官對齊報告，146 種徵象可查
 
 ## 來源
 
@@ -198,15 +198,15 @@ RAD-CT 訓練資料全部來自單一中心（浙大一院，FAHZU），時間�
 
 ## 與書庫其他文章的關係
 
-Lingshu 在本篇 Table 1 中以未微調狀態評估，in-scope 21 項 AUC 為 0.581，可用來對照「通用醫療多模態模型」與「單一模態專精對齊」兩種路線在 3D 腹部 CT 上的落差: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
+Lingshu 在本篇 Table 1 中以未微調狀態評估，in-scope 21 項 AUC 為 0.581，可用來對照「通用醫療多模態模型」與「單一模態專精對齊」兩種路線在 3D 腹部 CT 上的落差: [Lingshu 靠合成資料拉高醫療 VQA，強化學習那一步沒加分](2026-09-15-lingshu-medical-vlm.md)
 
-MedGemma 1.5 同樣被列為 Table 1 的零樣本比較對象（in-scope 0.555），兩篇可對照「原生支援 3D 體積的通用模型」與「以器官分割為前提的專用對齊」各自的評估邊界: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md)
+MedGemma 1.5 同樣被列為 Table 1 的零樣本比較對象（in-scope 0.555），兩篇可對照「原生支援 3D 體積的通用模型」與「以器官分割為前提的專用對齊」各自的評估邊界: [MedGemma 1.5：4B 吃下 3D 影像與全切片，代價一併公開](2026-09-16-medgemma-1-5.md)
 
 該譜系把 CLIP 式圖文對齊列為起點，本篇是同一路線把對齊粒度從整卷影像下推到器官層級後的 3D 實例: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md)
 
-喉咽癌 T 分期那篇同樣先用現成的器官分割把 CT 拆成器官，再讓放射報告逐器官提供侵犯證據，是器官層級圖文對齊從多疾病診斷縮到單一分期任務的例子: [把喉咽 CT 拆成七個器官節點，再讓放射報告逐器官補證據：喉咽癌 T 分期多模態模型在三個外部中心的表現](2026-10-14-laryngopharyngeal-ct-report-t-staging.md)
+喉咽癌 T 分期那篇同樣先用現成的器官分割把 CT 拆成器官，再讓放射報告逐器官提供侵犯證據，是器官層級圖文對齊從多疾病診斷縮到單一分期任務的例子: [喉咽癌 T 分期拆成七個器官節點，外部驗證報告近半是補寫的](2026-10-14-laryngopharyngeal-ct-report-t-staging.md)
 
-DLoss 沿用同一類 TotalSegmentator 器官切分，把腹部 CT 報告拆成器官層級的發現，但用途從疾病分類的圖文對齊換成報告生成的訓練目標，fVLM 是它套用的六個模型之一，評估也用 Merlin 測試集: [DLoss：訓練時把「報告該寫的診斷詞」與「不該出現的診斷詞」分開施壓，六個 3D 腹部 CT 報告模型的 GREEN 平均多 4.05 分、外部資料多 4.28 分，推論不加成本；但評分全靠自動指標，各模型增益從不到 1 分到 14 分不等](2026-11-02-dloss-diagnostic-loss-ct-report-generation.md)
+DLoss 沿用同一類 TotalSegmentator 器官切分，把腹部 CT 報告拆成器官層級的發現，但用途從疾病分類的圖文對齊換成報告生成的訓練目標，fVLM 是它套用的六個模型之一，評估也用 Merlin 測試集: [DLoss：訓練時分開施壓該寫與不該寫的診斷詞，GREEN 多 4 分](2026-11-02-dloss-diagnostic-loss-ct-report-generation.md)
 
 ## 實務的啟發
 

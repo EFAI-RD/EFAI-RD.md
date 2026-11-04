@@ -1,7 +1,7 @@
 ---
-title: "DLoss：訓練時把「報告該寫的診斷詞」與「不該出現的診斷詞」分開施壓，六個 3D 腹部 CT 報告模型的 GREEN 平均多 4.05 分、外部資料多 4.28 分，推論不加成本；但評分全靠自動指標，各模型增益從不到 1 分到 14 分不等"
 parent: AI Papers
 nav_exclude: true
+title: "DLoss：訓練時分開施壓該寫與不該寫的診斷詞，GREEN 多 4 分"
 catalog_id: "arxiv:2610.30980"
 editors:
   - "Clare"
@@ -19,7 +19,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# DLoss：訓練時把「報告該寫的診斷詞」與「不該出現的診斷詞」分開施壓，六個 3D 腹部 CT 報告模型的 GREEN 平均多 4.05 分、外部資料多 4.28 分，推論不加成本；但評分全靠自動指標，各模型增益從不到 1 分到 14 分不等
+# DLoss：訓練時分開施壓該寫與不該寫的診斷詞，GREEN 多 4 分
 
 ## 來源
 
@@ -165,11 +165,11 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-RADAR 先用 TotalSegmentator 把腹部 CT 切成器官、再讓報告逐器官對齊做疾病分類，DLoss 也用同一套器官切分與器官層級的報告發現，但把它用在生成報告的訓練目標上，兩篇都在 Merlin 測試集上評估，fVLM 也同時出現在兩篇的比較中: [RADAR：把腹部 CT 拆成 18 個器官再對齊報告，通才模型能到專家水準嗎？](2026-09-21-radar-abdominal-ct-generalist.md)
+RADAR 先用 TotalSegmentator 把腹部 CT 切成器官、再讓報告逐器官對齊做疾病分類，DLoss 也用同一套器官切分與器官層級的報告發現，但把它用在生成報告的訓練目標上，兩篇都在 Merlin 測試集上評估，fVLM 也同時出現在兩篇的比較中: [RADAR：腹部 CT 拆成 18 個器官對齊報告，146 種徵象可查](2026-09-21-radar-abdominal-ct-generalist.md)
 
-EviGround-CT 在 CT 報告寫完之後，用 3D 驗證器替每個陽性發現句找影像證據，DLoss 則在訓練時直接壓低參考報告不支持的診斷詞機率，兩篇分別從「生成後查核」與「訓練時約束」處理 CT 報告裡沒有根據的發現: [EviGround-CT：LLM 寫的胸部 CT 報告逐句送去 3D 定位查核，整句當查詢讓 137 個生成發現中有標註支持的比例從 0.263 升到 0.365，但參考遮罩不完整、評估只有 100 例](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
+EviGround-CT 在 CT 報告寫完之後，用 3D 驗證器替每個陽性發現句找影像證據，DLoss 則在訓練時直接壓低參考報告不支持的診斷詞機率，兩篇分別從「生成後查核」與「訓練時約束」處理 CT 報告裡沒有根據的發現: [EviGround-CT：CT 報告逐句送去定位查核，參考遮罩並不完整](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
 
-CPVB-RG 靠改影像端的融合模組提升胸片報告的 F1RadGraph，DLoss 則完全不動架構、只換訓練目標，兩篇代表報告生成改進的「改模型」與「改損失」兩條路，也都以 RadGraph 類指標衡量臨床內容: [CPVB-RG：把前後兩張胸片的「變化」與「共同結構」分開處理再寫報告，82M 解碼器對最接近的 prior-aware 基線 PriorRG 在 F1RadGraph 多 0.0090、VLScore 多 0.0582](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
+CPVB-RG 靠改影像端的融合模組提升胸片報告的 F1RadGraph，DLoss 則完全不動架構、只換訓練目標，兩篇代表報告生成改進的「改模型」與「改損失」兩條路，也都以 RadGraph 類指標衡量臨床內容: [CPVB-RG：把胸片的「變化」與「共同結構」分開處理再寫報告](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
 
 ## 實務的啟發
 

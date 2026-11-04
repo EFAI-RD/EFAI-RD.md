@@ -1,7 +1,7 @@
 ---
-title: "一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現"
 parent: AI Papers
 nav_exclude: true
+title: "相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現"
 catalog_id: "arxiv:2609.31733"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現
+# 相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現
 
 ## 來源
 
@@ -142,17 +142,17 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-MAIRA-2 把前次影像與前次報告當作生成輸入、並以 grounding 與事實層級評分約束輸出，本篇則顯示當附上的是「別人的」前例報告且沒有這類約束時，模型會把對方的發現與文字直接帶進報告: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md)
+MAIRA-2 把前次影像與前次報告當作生成輸入、並以 grounding 與事實層級評分約束輸出，本篇則顯示當附上的是「別人的」前例報告且沒有這類約束時，模型會把對方的發現與文字直接帶進報告: [MAIRA-2：胸片報告文字對了，定位不一定對](2026-09-15-maira-2-grounded-reporting.md)
 
-ModaLens 問「有報告可讀時，醫療 VLM 還看不看影像」，本篇給出同一問題在 RAG 情境下的一個 pilot 觀察：檢索報告一進 prompt，生成內容的來源就大幅從影像轉向文字: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？](2026-09-17-modalens-image-sensitivity.md)
+ModaLens 問「有報告可讀時，醫療 VLM 還看不看影像」，本篇給出同一問題在 RAG 情境下的一個 pilot 觀察：檢索報告一進 prompt，生成內容的來源就大幅從影像轉向文字: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎](2026-09-17-modalens-image-sensitivity.md)
 
-RadVLM 的分節評估顯示流暢的報告不等於臨床忠實，本篇的逐字抄寫分析則指出一種特別難從流暢度察覺的失真：句子本身是真實放射科醫師寫的，只是屬於另一位病人: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
+RadVLM 的分節評估顯示流暢的報告不等於臨床忠實，本篇的逐字抄寫分析則指出一種特別難從流暢度察覺的失真：句子本身是真實放射科醫師寫的，只是屬於另一位病人: [報告讀起來愈順，就寫得愈對嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
 
-本篇在胸片 RAG 上觀察到前例報告被抄進生成內容，該研究則在阿茲海默症 VQA 上做了完整的遮罩對照：檢索 caption 帶著診斷欄位時準確率 0.947，遮住後沒有任何 LLM 超過不經文字的 k-NN 多數決: [阿茲海默症分期的 VLM：caption 拿掉診斷欄位後，MEMOIR-VLM 的 LLM 還贏得過 k-NN 嗎？](2026-10-06-memoir-vlm-alzheimers-rag-vqa.md)
+本篇在胸片 RAG 上觀察到前例報告被抄進生成內容，該研究則在阿茲海默症 VQA 上做了完整的遮罩對照：檢索 caption 帶著診斷欄位時準確率 0.947，遮住後沒有任何 LLM 超過不經文字的 k-NN 多數決: [阿茲海默症分期：caption 遮掉診斷欄位後，LLM 輸給 k-NN](2026-10-06-memoir-vlm-alzheimers-rag-vqa.md)
 
-本篇的風險來自放進 prompt 的他人報告，牙科全景片的攻防評估則顯示畫在影像像素裡的指令文字也能蓋過 VLM 原本的判讀，兩篇都指向文字來源壓過影像證據的同一類弱點: [影像上多一行字，VLM 就改口說「沒有異常」：四個模型在牙科全景片上的 prompt injection 攻防評估](2026-10-07-dental-vlm-image-prompt-injection.md)
+本篇的風險來自放進 prompt 的他人報告，牙科全景片的攻防評估則顯示畫在影像像素裡的指令文字也能蓋過 VLM 原本的判讀，兩篇都指向文字來源壓過影像證據的同一類弱點: [影像上多一行字，四個 VLM 都改口說「沒有異常」](2026-10-07-dental-vlm-image-prompt-injection.md)
 
-本篇的前例是別的病人的相似報告，CPVB-RG 的縱向輸入則限定為同一病人時間最接近的前次影像，兩者是「前例從哪裡來」的兩種極端: [CPVB-RG：把前後兩張胸片的「變化」與「共同結構」分開處理再寫報告，82M 解碼器對最接近的 prior-aware 基線 PriorRG 在 F1RadGraph 多 0.0090、VLScore 多 0.0582](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
+本篇的前例是別的病人的相似報告，CPVB-RG 的縱向輸入則限定為同一病人時間最接近的前次影像，兩者是「前例從哪裡來」的兩種極端: [CPVB-RG：把胸片的「變化」與「共同結構」分開處理再寫報告](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
 
 ## 實務的啟發
 

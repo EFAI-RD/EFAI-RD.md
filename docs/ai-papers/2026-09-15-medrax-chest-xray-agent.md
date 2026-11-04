@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "MedRAX：工具代理如何改善胸腔 X 光問答？"
+title: "MedRAX：工具代理拉高胸片問答總分，細項落差還在"
 category: ai-papers
 date: 2026-09-15
 updated: 2026-09-15
@@ -30,7 +30,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# MedRAX：工具代理如何改善胸腔 X 光問答？
+# MedRAX：工具代理拉高胸片問答總分，細項落差還在
 
 ## 來源
 
@@ -179,15 +179,15 @@ Accuracy 與 Recall 單位均為 %，越高越好，評估範圍為上述 114 �
 
 ## 與書庫其他文章的關係
 
-MAIRA-2 在 MedRAX 中提供文字發現的影像定位，兩篇可接續比較定位模型本身的評估與代理如何選用其輸出: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md)
+MAIRA-2 在 MedRAX 中提供文字發現的影像定位，兩篇可接續比較定位模型本身的評估與代理如何選用其輸出: [MAIRA-2：胸片報告文字對了，定位不一定對](2026-09-15-maira-2-grounded-reporting.md)
 
 上述工具關係由 MedRAX §3.2 與 §5.1 記載；本書庫建議先對齊輸入與指標設定，再比較兩篇的報告生成表格。[(ref: main §3.2)](https://arxiv.org/html/2502.02673v2#S3.SS2) [(ref: main §5.1)](https://arxiv.org/html/2502.02673v2#S5.SS1)
 
-MammoClaw 刻意只給代理不含學習模組的確定性工具，結果光給工具並不會提升乳房攝影 BI-RADS 的 macro-F1，與本篇把既有影像模型包成工具的做法對照，可看出工具代理的效益同時取決於工具本身與代理怎麼用它: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
+MammoClaw 刻意只給代理不含學習模組的確定性工具，結果光給工具並不會提升乳房攝影 BI-RADS 的 macro-F1，與本篇把既有影像模型包成工具的做法對照，可看出工具代理的效益同時取決於工具本身與代理怎麼用它: [MammoClaw：給工具沒用，技能演化後仍可能輸給全猜一類](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
 
-VoxelSage 把肝腫瘤 CT 的體積、直徑與距離量測寫成確定性程式技能，並與 LLM 部署在不同服務，和本篇把學習模型包成工具的做法對照，可看出「工具是模型」與「工具是程式」兩種工具代理的設計取捨: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
+VoxelSage 把肝腫瘤 CT 的體積、直徑與距離量測寫成確定性程式技能，並與 LLM 部署在不同服務，和本篇把學習模型包成工具的做法對照，可看出「工具是模型」與「工具是程式」兩種工具代理的設計取捨: [VoxelSage：肝腫瘤量測交給程式，成效數字來自二維模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
 
-本篇示範把影像工具交給代理調度能改善胸片問答，皮膚科代理稽核則指出這類設計的盲點：工具與推理讀同一張影像時，工具輸出可能替錯誤背書，而不是獨立查核: [工具與推理兩條路看的是同一張照片，交叉比對還查得到錯嗎？皮膚科 VLM 代理遇到照片上的注入文字時，先裁切病灶再檢索，讓錯誤中兩條路「錯得一樣」的比例從 43% 升到 71%](2026-11-03-agentic-derm-vlm-fault-coupling.md)
+本篇示範把影像工具交給代理調度能改善胸片問答，皮膚科代理稽核則指出這類設計的盲點：工具與推理讀同一張影像時，工具輸出可能替錯誤背書，而不是獨立查核: [先裁切再檢索，兩條路「錯得一樣」：交叉比對只抓得到 29%](2026-11-03-agentic-derm-vlm-fault-coupling.md)
 
 ## 實務的啟發
 

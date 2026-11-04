@@ -137,7 +137,7 @@ refs:
 
 該則記錄的放射治療生成式 AI 合作，正是本季財報八條亮點中唯一一條帶有 AI 字樣的項目；兩則並讀可以看出同一項合作在不同文件體裁裡的密度差距有多大 —— 該則的公告至少給了一個「前置期 30 天降到 8 天」的數字（即使該數字依其註腳屬於合作之前的既有軟體），本則的季報連一個數字都沒有，而整份 5,251 字文件裡 `artificial intelligence` 只出現一次且位於風險因子段: [放療生成式 AI 合作案：唯一的成效數字來自合作之前](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
 
-該則記錄的 9.45 億美元收購在本則的 capital deployment 段再次出現，並補上「預計 2027 年上半年完成、須經主管機關核准」；更有用的是本則的現金流量表提供了該則缺少的量級脈絡 —— 前九個月 `Purchases of businesses` 合計 22.93 億美元，而全部收購對同期營收的貢獻只有 1.90 億美元，兩則並讀可以看出一樁未完成交易在財報裡的位置與它在新聞稿裡的份量差多少: [GE HealthCare 9.45 億買下自家代工廠，pan-cancer 只做兩種癌](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+該則記錄的 9.45 億美元收購在本則的 capital deployment 段再次出現，並補上「預計 2027 年上半年完成、須經主管機關核准」；更有用的是本則的現金流量表提供了該則缺少的量級脈絡 —— 前九個月 `Purchases of businesses` 合計 22.93 億美元，而全部收購對同期營收的貢獻只有 1.90 億美元，兩則並讀可以看出一樁未完成交易在財報裡的位置與它在新聞稿裡的份量差多少: [GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
 該則花了整篇文章逐字比對的 StarGuide GX 公告，在本則被壓縮成一條沒有任何數字的項目符號（`now 510(k) pending with the U.S. FDA`）；兩則並讀剛好是同一件事的兩種揭露密度 —— 產品公告有 2.67 倍感度與逾 1,000 名病人這類可爭論的數字，季報連機型名稱以外的資訊都沒有，而它所屬的影像分部是三個分部中 Organic 成長最慢的一個: [「逾 1,000 名病人」發生在這五個合作開始之前](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 

@@ -1,7 +1,7 @@
 ---
-title: "MedGPT-oss：20B 模型能靠簡單架構與三階段資料配方追上更大的醫療 VLM 嗎？"
 parent: AI Papers
 nav_exclude: true
+title: "MedGPT-oss：標準架構加三階段資料，20B 追得上嗎"
 catalog_id: "arxiv:2603.00842"
 editors:
   - "Colbert"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# MedGPT-oss：20B 模型能靠簡單架構與三階段資料配方追上更大的醫療 VLM 嗎？
+# MedGPT-oss：標準架構加三階段資料，20B 追得上嗎
 
 ## 來源
 
@@ -111,9 +111,9 @@ MIMIC-CXR 多視角與縱向報告生成中，MedGPT-oss 的 RadGraph-F1、RaTES
 
 ## 與書庫其他文章的關係
 
-MedGemma 1.5 與 MedGPT-oss 都追求可再微調的通用醫療 VLM，但前者原生處理 3D／全切片等高維輸入，後者則把焦點放在開放 20B 語言骨幹、三階段資料配方與情境學習: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md)
+MedGemma 1.5 與 MedGPT-oss 都追求可再微調的通用醫療 VLM，但前者原生處理 3D／全切片等高維輸入，後者則把焦點放在開放 20B 語言骨幹、三階段資料配方與情境學習: [MedGemma 1.5：4B 吃下 3D 影像與全切片，代價一併公開](2026-09-16-medgemma-1-5.md)
 
-Lingshu 是 MedGPT-oss 實驗中的 32B 基線之一；兩篇合讀可比較 shallow-to-deep 醫療適應、強化學習與本研究三階段 curriculum 對不同 benchmark 的影響: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
+Lingshu 是 MedGPT-oss 實驗中的 32B 基線之一；兩篇合讀可比較 shallow-to-deep 醫療適應、強化學習與本研究三階段 curriculum 對不同 benchmark 的影響: [Lingshu 靠合成資料拉高醫療 VQA，強化學習那一步沒加分](2026-09-15-lingshu-medical-vlm.md)
 
 ## 實務的啟發
 

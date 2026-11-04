@@ -1,7 +1,7 @@
 ---
-title: "CPVB-RG：把前後兩張胸片的「變化」與「共同結構」分開處理再寫報告，82M 解碼器對最接近的 prior-aware 基線 PriorRG 在 F1RadGraph 多 0.0090、VLScore 多 0.0582"
 parent: AI Papers
 nav_exclude: true
+title: "CPVB-RG：把胸片的「變化」與「共同結構」分開處理再寫報告"
 catalog_id: "arxiv:2610.28289"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# CPVB-RG：把前後兩張胸片的「變化」與「共同結構」分開處理再寫報告，82M 解碼器對最接近的 prior-aware 基線 PriorRG 在 F1RadGraph 多 0.0090、VLScore 多 0.0582
+# CPVB-RG：把胸片的「變化」與「共同結構」分開處理再寫報告
 
 ## 來源
 
@@ -169,13 +169,13 @@ CPVB 內的 Progression-Guided Focus Attention（PGFA）用兩條 attention 分�
 
 ## 與書庫其他文章的關係
 
-MAIRA-2 是本篇 Table 3 的 7B 對照之一，它把前次影像與前次報告一起餵給 LLM，本篇則只用前次影像加臨床文字、以 82M 解碼器在 F1RadGraph 上高出 0.0200: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md)
+MAIRA-2 是本篇 Table 3 的 7B 對照之一，它把前次影像與前次報告一起餵給 LLM，本篇則只用前次影像加臨床文字、以 82M 解碼器在 F1RadGraph 上高出 0.0200: [MAIRA-2：胸片報告文字對了，定位不一定對](2026-09-15-maira-2-grounded-reporting.md)
 
-該研究只給 LLM 前後兩份報告文字、評分它分不分得出「新出現」，本篇則從影像端設計模組去分離期間變化，但沒有對時序比較語句另外評分，兩篇合起來看正好缺一個「影像端的時序判讀正確率」: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md)
+該研究只給 LLM 前後兩份報告文字、評分它分不分得出「新出現」，本篇則從影像端設計模組去分離期間變化，但沒有對時序比較語句另外評分，兩篇合起來看正好缺一個「影像端的時序判讀正確率」: [序列胸片報告的時序判讀：七個 LLM 分得出「新出現」嗎](2026-09-22-llm-temporal-change-cxr-reports.md)
 
-本篇的縱向輸入限定為同一病人時間最接近的前次影像，該研究則顯示把別的病人的相似前例報告放進 prompt 時，通用 VLM 會把對方的發現抄進報告，兩者是「前例從哪裡來」的兩種極端: [一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
+本篇的縱向輸入限定為同一病人時間最接近的前次影像，該研究則顯示把別的病人的相似前例報告放進 prompt 時，通用 VLM 會把對方的發現抄進報告，兩者是「前例從哪裡來」的兩種極端: [相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現](2026-10-02-rag-induced-hallucination-cxr-report.md)
 
-本篇以改影像端的融合模組提升胸片報告的 F1RadGraph，DLoss 則不動架構、只換訓練目標並套到六個 3D CT 報告模型上，兩篇代表報告生成改進的「改模型」與「改損失」兩條路: [DLoss：訓練時把「報告該寫的診斷詞」與「不該出現的診斷詞」分開施壓，六個 3D 腹部 CT 報告模型的 GREEN 平均多 4.05 分、外部資料多 4.28 分，推論不加成本；但評分全靠自動指標，各模型增益從不到 1 分到 14 分不等](2026-11-02-dloss-diagnostic-loss-ct-report-generation.md)
+本篇以改影像端的融合模組提升胸片報告的 F1RadGraph，DLoss 則不動架構、只換訓練目標並套到六個 3D CT 報告模型上，兩篇代表報告生成改進的「改模型」與「改損失」兩條路: [DLoss：訓練時分開施壓該寫與不該寫的診斷詞，GREEN 多 4 分](2026-11-02-dloss-diagnostic-loss-ct-report-generation.md)
 
 ## 實務的啟發
 

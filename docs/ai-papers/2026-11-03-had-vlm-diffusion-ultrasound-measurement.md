@@ -1,7 +1,7 @@
 ---
-title: "量測值不再逐字吐出：HAD-VLM 讓 VLM 遇到「[」就改用 diffusion 直接輸出卡尺端點與長度，EchoNet-LVH 四項心臟超音波量測 MAE 比逐 token 輸出低 21–38%，但拿掉後處理時並未穩定勝過一個 MLP 回歸頭"
 parent: AI Papers
-nav_order: 2
+nav_order: 3
+title: "量測值不再逐字吐出：HAD-VLM 用 diffusion 輸出卡尺端點"
 catalog_id: "arxiv:2610.32948"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 量測值不再逐字吐出：HAD-VLM 讓 VLM 遇到「[」就改用 diffusion 直接輸出卡尺端點與長度，EchoNet-LVH 四項心臟超音波量測 MAE 比逐 token 輸出低 21–38%，但拿掉後處理時並未穩定勝過一個 MLP 回歸頭
+# 量測值不再逐字吐出：HAD-VLM 用 diffusion 輸出卡尺端點
 
 ## 來源
 
@@ -147,9 +147,9 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-兩篇都在 EchoNet 系列心臟超音波資料上做連續量的預測，分割天花板研究問的是「多給一層左心室分割能讓射出分率回歸準多少」，本篇則問「讓 VLM 用 diffusion 直接輸出卡尺端點與長度，能否比逐 token 寫數字更準」，兩者都把誤差拆到輸出形式與輔助資訊的結構上: [先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
+兩篇都在 EchoNet 系列心臟超音波資料上做連續量的預測，分割天花板研究問的是「多給一層左心室分割能讓射出分率回歸準多少」，本篇則問「讓 VLM 用 diffusion 直接輸出卡尺端點與長度，能否比逐 token 寫數字更準」，兩者都把誤差拆到輸出形式與輔助資訊的結構上: [先分割左心室再估射出分率？一條 10.5% 的天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
 
-VoxelSage 把幾何量測交給確定性程式、LLM 只負責調度，本篇走相反方向，讓語言模型本身產生連續的量測值，兩篇並讀可對照「量測交給工具」與「量測留在模型裡」兩種設計，以及各自缺少的對照組: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
+VoxelSage 把幾何量測交給確定性程式、LLM 只負責調度，本篇走相反方向，讓語言模型本身產生連續的量測值，兩篇並讀可對照「量測交給工具」與「量測留在模型裡」兩種設計，以及各自缺少的對照組: [VoxelSage：肝腫瘤量測交給程式，成效數字來自二維模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
 
 ## 實務的啟發
 

@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？"
+title: "CONCH：零樣本病理分類很強，多類腦瘤就露出邊界"
 category: ai-papers
 date: 2026-09-15
 updated: 2026-09-15
@@ -36,7 +36,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？
+# CONCH：零樣本病理分類很強，多類腦瘤就露出邊界
 
 ## 來源
 
@@ -197,13 +197,13 @@ MI-Zero 的 top-K 平均較適合不同類別形態互斥的任務。作者指�
 
 提供 CLIP→LLaVA→領域基礎→grounded reporting 的譜系語言，本篇是病理領域基礎模型階段的實例與評估邊界: [醫療視覺語言模型：從 CLIP 對齊到有定位報告](../ai-basics/medical-vlm.md)
 
-CONCH 的病理圖文配對與對比／生成目標，可對照 Lingshu 的醫療資料整理、分階段對齊與指令訓練，兩篇的任務與分數應各自解讀: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
+CONCH 的病理圖文配對與對比／生成目標，可對照 Lingshu 的醫療資料整理、分階段對齊與指令訓練，兩篇的任務與分數應各自解讀: [Lingshu 靠合成資料拉高醫療 VQA，強化學習那一步沒加分](2026-09-15-lingshu-medical-vlm.md)
 
-REG 2025 的多個參賽系統把 CONCH 當作 WSI encoder，並進一步比較完整結構化病理報告生成、跨院泛化與數值幻覺: [REG 2025：病理全切片到報告生成，榜單分數抓得到數值幻覺嗎？](2026-09-16-reg-2025-pathology-report-generation.md)
+REG 2025 的多個參賽系統把 CONCH 當作 WSI encoder，並進一步比較完整結構化病理報告生成、跨院泛化與數值幻覺: [REG 2025：報告生成分數上去了，腫瘤比例與分級仍會失真](2026-09-16-reg-2025-pathology-report-generation.md)
 
-CONCH 以病理圖文預訓練換取零樣本遷移能力，該研究則在凍結主幹的遷移設定下顯示歸因方法的名次會隨影像塊尺度整個翻轉，兩篇一起說明病理模型的「可遷移」要分成表現與解釋兩層來談: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
+CONCH 以病理圖文預訓練換取零樣本遷移能力，該研究則在凍結主幹的遷移設定下顯示歸因方法的名次會隨影像塊尺度整個翻轉，兩篇一起說明病理模型的「可遷移」要分成表現與解釋兩層來談: [乳癌病理報告的區域級歸因：影像該在哪一步被擋下來](2026-09-23-gralis-report-histology-attribution.md)
 
-CONCH 代表病理圖文預訓練在 tile 層級的作法，該研究則把爭論點移到送進編碼器的視覺單位本身，兩篇合起來構成病理基礎模型的兩條獨立設計軸: [每次前向傳遞只看一張圖：WILSON 用多倍率 composite 取代數千個 tile，但每張切片會生成 10 張 composite，診斷資訊還剩多少？](2026-09-24-wilson-composite-pathology-foundation-model.md)
+CONCH 代表病理圖文預訓練在 tile 層級的作法，該研究則把爭論點移到送進編碼器的視覺單位本身，兩篇合起來構成病理基礎模型的兩條獨立設計軸: [WILSON：數千個 tile 壓成一張 composite，診斷資訊剩多少](2026-09-24-wilson-composite-pathology-foundation-model.md)
 
 CONCH 以 zero-shot 分類展示病理圖文預訓練的遷移能力，該研究在 CONCH v1 的同一組特徵與相同 pooling 下比較 zero-shot 與監督式線性探測，差距不顯著，顯示語言的價值主要留在預訓練特徵、而非推論時的 prompt: [語言到底替病理 VLM 加了什麼？四個控制實驗：去掉分期的報告文字讓存活 C-index 多 0.016–0.019，zero-shot prompt 沒有勝過線性探測，SlideChat 拿掉切片後答對率只從 74.82% 掉到 74.41%](2026-11-04-pathology-vlm-language-controlled-probes.md)
 

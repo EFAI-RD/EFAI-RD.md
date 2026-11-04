@@ -1,7 +1,7 @@
 ---
-title: "先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板"
 parent: AI Papers
 nav_exclude: true
+title: "先分割左心室再估射出分率？一條 10.5% 的天花板"
 catalog_id: "arxiv:2609.19730"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板
+# 先分割左心室再估射出分率？一條 10.5% 的天花板
 
 ## 來源
 
@@ -140,17 +140,17 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-OCT 影像依賴度稽核問的是「影像在最後那個決定裡出了多少力」，本篇問的是「多給一層分割資訊能不能讓結果更準」，兩篇都在拆解一個輸入是否真的被用上: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
+OCT 影像依賴度稽核問的是「影像在最後那個決定裡出了多少力」，本篇問的是「多給一層分割資訊能不能讓結果更準」，兩篇都在拆解一個輸入是否真的被用上: [抽掉 OCT 影像，VLM 的 anti-VEGF 建議還剩多少依據](2026-09-23-vlm-oct-image-dependence-audit.md)
 
-ModaLens 用交換影像來量測報告條件下的影像敏感度，本篇則把同一類問題換成一個事前可算的門檻，先說明輔助資訊要多準才可能有貢獻: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？](2026-09-17-modalens-image-sensitivity.md)
+ModaLens 用交換影像來量測報告條件下的影像敏感度，本篇則把同一類問題換成一個事前可算的門檻，先說明輔助資訊要多準才可能有貢獻: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎](2026-09-17-modalens-image-sensitivity.md)
 
-MedSIGHT 讓同一個模型同時輸出診斷文字與像素級分割，本篇則提醒分割輔助何時划算：兩篇合起來看，grounding 的價值要看任務對分割誤差的放大倍率: [MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？](2026-09-17-medsight-grounded-medical-vlm.md)
+MedSIGHT 讓同一個模型同時輸出診斷文字與像素級分割，本篇則提醒分割輔助何時划算：兩篇合起來看，grounding 的價值要看任務對分割誤差的放大倍率: [MedSIGHT：一邊寫診斷，一邊把病灶分割出來](2026-09-17-medsight-grounded-medical-vlm.md)
 
-nMAS 的心衰竭特徵工程把射出分率當成上游欄位使用，本篇則處理那個欄位本身的自動量測與其誤差結構: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](2026-09-15-tracing-the-heart.md)
+nMAS 的心衰竭特徵工程把射出分率當成上游欄位使用，本篇則處理那個欄位本身的自動量測與其誤差結構: [nMAS：心衰竭特徵工程全程留證據鏈，但只跑了 500 筆假資料](2026-09-15-tracing-the-heart.md)
 
-ORION-CMR 也用到心室分割，但把它放在產生報告量測值的位置而非回歸模型的輔助輸入，正好是本篇結論的另一面: [掃完約 90 秒就吐出結構化報告：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀，臨床驗證只在單一中心](2026-09-24-orion-cmr-on-scanner-reporting.md)
+ORION-CMR 也用到心室分割，但把它放在產生報告量測值的位置而非回歸模型的輔助輸入，正好是本篇結論的另一面: [ORION-CMR：掃完約 90 秒出結構化報告，驗證只在單一中心](2026-09-24-orion-cmr-on-scanner-reporting.md)
 
-CARA-VL 把預測的解剖佔位圖改放在 VLM 的注意力偏置上，消融顯示移除後 SAX 平均 BA 只少 1.6 個百分點，與本篇「分割輔助增益有限」的結論方向一致: [先教 VLM 看對地方：CARA-VL 用解剖結構導引注意力，心臟 MRI 問答能走多遠？](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md)
+CARA-VL 把預測的解剖佔位圖改放在 VLM 的注意力偏置上，消融顯示移除後 SAX 平均 BA 只少 1.6 個百分點，與本篇「分割輔助增益有限」的結論方向一致: [CARA-VL：用解剖結構導引注意力，3B 模型讀心臟 MRI](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md)
 
 HAD-VLM 同樣在 EchoNet 系列心臟超音波上預測連續量，但改變的是 VLM 的輸出形式而非輔助輸入：讓語言模型以 diffusion 直接輸出卡尺端點與長度，對同骨幹逐 token 生成數字的 MAE 低 21–38%，與本篇一起看可分辨誤差來自輸入資訊還是輸出表示: [量測值不再逐字吐出：HAD-VLM 讓 VLM 遇到「\[」就改用 diffusion 直接輸出卡尺端點與長度，EchoNet-LVH 四項心臟超音波量測 MAE 比逐 token 輸出低 21–38%，但拿掉後處理時並未穩定勝過一個 MLP 回歸頭](2026-11-03-had-vlm-diffusion-ultrasound-measurement.md)
 

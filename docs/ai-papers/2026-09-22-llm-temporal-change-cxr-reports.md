@@ -1,7 +1,7 @@
 ---
-title: "序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？"
 parent: AI Papers
 nav_exclude: true
+title: "序列胸片報告的時序判讀：七個 LLM 分得出「新出現」嗎"
 catalog_id: "doi:10.3389/fdgth.2026.1919939"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？
+# 序列胸片報告的時序判讀：七個 LLM 分得出「新出現」嗎
 
 ## 來源
 
@@ -246,19 +246,19 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-RadVLM 的分節評估把單次報告的 Findings 與 Impression 分開計分，本研究則把比較對象換成同一病人的前後兩份報告，兩篇都在問「一個彙總分數蓋掉了哪一段」: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
+RadVLM 的分節評估把單次報告的 Findings 與 Impression 分開計分，本研究則把比較對象換成同一病人的前後兩份報告，兩篇都在問「一個彙總分數蓋掉了哪一段」: [報告讀起來愈順，就寫得愈對嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
 
-結核篩檢稽核固定影像、改換提示詞與負類來看結論能否留存，本研究固定報告配對、改換模型與提示詞，兩者都顯示提示詞的主效果小、逐類與操作點的效果大: [稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？](2026-09-21-cxr-tb-vlm-portability-audit.md)
+結核篩檢稽核固定影像、改換提示詞與負類來看結論能否留存，本研究固定報告配對、改換模型與提示詞，兩者都顯示提示詞的主效果小、逐類與操作點的效果大: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](2026-09-21-cxr-tb-vlm-portability-audit.md)
 
-證據落差盤點指出醫療 LLM 研究的評估設計普遍偏離臨床，本研究正是一個具體案例：整體準確率看起來可用，最關鍵的 new 類 recall 卻只有一半: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md)
+證據落差盤點指出醫療 LLM 研究的評估設計普遍偏離臨床，本研究正是一個具體案例：整體準確率看起來可用，最關鍵的 new 類 recall 卻只有一半: [醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊](2026-09-17-medical-llm-evaluation-gap.md)
 
-MAIRA-2 把前次影像與前次報告當成生成報告的輸入，本研究則只用文字、把前後兩份報告的比較本身當成被評分的任務: [MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？](2026-09-15-maira-2-grounded-reporting.md)
+MAIRA-2 把前次影像與前次報告當成生成報告的輸入，本研究則只用文字、把前後兩份報告的比較本身當成被評分的任務: [MAIRA-2：胸片報告文字對了，定位不一定對](2026-09-15-maira-2-grounded-reporting.md)
 
-本研究判讀的是同一份報告內部寫錯了什麼，該研究判讀的是前後兩份報告之間變了什麼，兩篇都只給模型報告文字、不給影像: [中文放射科報告的真實錯誤：八個 LLM 與八位人類讀者，誰抓得出來？](2026-09-22-llm-chinese-radiology-report-error-detection.md)
+本研究判讀的是同一份報告內部寫錯了什麼，該研究判讀的是前後兩份報告之間變了什麼，兩篇都只給模型報告文字、不給影像: [1,363 份中文放射報告的真實錯誤：八個 LLM 對八位人類讀者](2026-09-22-llm-chinese-radiology-report-error-detection.md)
 
-該研究把三個 LLM 是否一致本身當成自動貼標與退回人工的訊號，用在腦 MRI 報告的正常／異常分類上；本研究則把七個 LLM 逐一當成獨立判讀者比較，兩篇都只給模型報告文字、不給影像: [三個 LLM 都同意才自動貼標：6,718 份腦 MRI 報告分正常／異常，參考集零錯誤的代價是約一半報告退回人工](2026-10-15-llm-consensus-brain-mri-report-cohort.md)
+該研究把三個 LLM 是否一致本身當成自動貼標與退回人工的訊號，用在腦 MRI 報告的正常／異常分類上；本研究則把七個 LLM 逐一當成獨立判讀者比較，兩篇都只給模型報告文字、不給影像: [三個 LLM 都同意才自動貼標：零錯誤的代價是一半退回人工](2026-10-15-llm-consensus-brain-mri-report-cohort.md)
 
-本研究只給 LLM 報告文字、評分它分不分得出期間變化，CPVB-RG 則在影像端設計模組分離前後影像的變化與共同結構，但沒有對時序比較語句另外評分: [CPVB-RG：把前後兩張胸片的「變化」與「共同結構」分開處理再寫報告，82M 解碼器對最接近的 prior-aware 基線 PriorRG 在 F1RadGraph 多 0.0090、VLScore 多 0.0582](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
+本研究只給 LLM 報告文字、評分它分不分得出期間變化，CPVB-RG 則在影像端設計模組分離前後影像的變化與共同結構，但沒有對時序比較語句另外評分: [CPVB-RG：把胸片的「變化」與「共同結構」分開處理再寫報告](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
 
 ## 實務的啟發
 

@@ -1,7 +1,7 @@
 ---
 parent: AI Papers
 nav_exclude: true
-title: "PrecepTron：把醫師評分學成 LLM 評審，能讓醫療 AI 評估更可重現嗎？"
+title: "PrecepTron：把醫師評分學成院內跑得動的 LLM 評審"
 category: ai-papers
 date: 2026-09-17
 updated: 2026-09-17
@@ -37,7 +37,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# PrecepTron：把醫師評分學成 LLM 評審，能讓醫療 AI 評估更可重現嗎？
+# PrecepTron：把醫師評分學成院內跑得動的 LLM 評審
 
 ## 來源
 
@@ -135,11 +135,11 @@ LoRA 套在 Qwen3-32B 每個 transformer block 的 query、key、value、output�
 
 ## 與書庫其他文章的關係
 
-該文從文獻層級指出評估設計與模型新鮮度的落差；本篇則在單一研究內展示如何用醫師校準 judge 提高評分可重現性，同時保留 panel bias 與臨床效益未驗證的邊界: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](2026-09-17-medical-llm-evaluation-gap.md)
+該文從文獻層級指出評估設計與模型新鮮度的落差；本篇則在單一研究內展示如何用醫師校準 judge 提高評分可重現性，同時保留 panel bias 與臨床效益未驗證的邊界: [醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊](2026-09-17-medical-llm-evaluation-gap.md)
 
-PrecepTron 學醫師怎麼評，EntQA 則刻意不用評審與參考答案、只數回答保留了多少題目實體，而且它的驗證同樣缺少醫師判斷這一層: [答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md)
+PrecepTron 學醫師怎麼評，EntQA 則刻意不用評審與參考答案、只數回答保留了多少題目實體，而且它的驗證同樣缺少醫師判斷這一層: [EntQA：實體覆蓋率排得出模型好壞，逐題訊號幾乎沒有](2026-10-11-entqa-entity-coverage-medical-qa-evaluation.md)
 
-PrecepTron 解決的是怎麼評一個回答，該研究則問該拿哪些題目來評，並估計超過三分之一的真實臨床提問照原樣就答不好，單看正確性的評分抓不到這一層: [臨床人員實際拿 LLM 做什麼？12.8 萬筆提問對照 58 個公開基準：文件工作占最多、診斷只占 3.7%，基準的題目組成對不上](2026-10-13-clinician-llm-use-vs-benchmarks.md)
+PrecepTron 解決的是怎麼評一個回答，該研究則問該拿哪些題目來評，並估計超過三分之一的真實臨床提問照原樣就答不好，單看正確性的評分抓不到這一層: [臨床人員實際用 LLM 做什麼？文件工作 36%，診斷只有 3.7%](2026-10-13-clinician-llm-use-vs-benchmarks.md)
 
 ## 實務的啟發
 

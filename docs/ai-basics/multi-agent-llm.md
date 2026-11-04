@@ -116,13 +116,13 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-該文把角色分工落到 ICU 四模態風險預測，顯示多數決、辯論與 meta-prompting 若只交換壓縮後判斷，未必比單一代理整合完整上下文更可靠: [AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？](../ai-papers/2026-09-17-agentrx-multimodal-clinical-prediction.md)
+該文把角色分工落到 ICU 四模態風險預測，顯示多數決、辯論與 meta-prompting 若只交換壓縮後判斷，未必比單一代理整合完整上下文更可靠: [AgentRx：ICU 預測多加模態有用，多代理協作沒穩定勝出](../ai-papers/2026-09-17-agentrx-multimodal-clinical-prediction.md)
 
-該文從 PubMed evidence map 補上治理視角：agentic／multi-agent 醫療研究成長最快，但 capability、safety 與 trial-grade evaluation 仍常落在分離的文獻群: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md)
+該文從 PubMed evidence map 補上治理視角：agentic／multi-agent 醫療研究成長最快，但 capability、safety 與 trial-grade evaluation 仍常落在分離的文獻群: [醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md)
 
-該文是多代理「專責＋有界稽核」在心衰竭 EHR 特徵工程上的實例: [Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）](../ai-papers/2026-09-15-tracing-the-heart.md)
+該文是多代理「專責＋有界稽核」在心衰竭 EHR 特徵工程上的實例: [nMAS：心衰竭特徵工程全程留證據鏈，但只跑了 500 筆假資料](../ai-papers/2026-09-15-tracing-the-heart.md)
 
-該文以單一 LLM router、確定性安全閘門與結構化工具，提供「代理不一定是多代理」的醫療行政對照案例: [CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？](../ai-papers/2026-09-16-careconnect-healthcare-agent.md)
+該文以單一 LLM router、確定性安全閘門與結構化工具，提供「代理不一定是多代理」的醫療行政對照案例: [CareConnect：把 LLM 擋在診斷之外，只讓它做掛號](../ai-papers/2026-09-16-careconnect-healthcare-agent.md)
 
 該則從預印本平台端說明未核對 LLM 生成內容（含幻覺引用）的投稿後果: [幻覺引用沒抓掉，arXiv 可能禁你投稿一年](../industry-watch/2026-09-15-arxiv-ai-content-policy.md)
 

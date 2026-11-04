@@ -1,7 +1,7 @@
 ---
-title: "答對了，但有沒有看圖？ECDD 把「遮掉證據後信心掉多少」蒸餾給 3B 醫療 VLM：DME 病灶區域的特異反應從 0.79 升到 2.02，準確率幾乎不變"
 parent: AI Papers
 nav_exclude: true
+title: "答對了，但有沒有看圖？ECDD 把證據依賴蒸餾給 3B 醫療 VLM"
 catalog_id: "arxiv:2610.23469"
 editors:
   - "Clare"
@@ -19,7 +19,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 答對了，但有沒有看圖？ECDD 把「遮掉證據後信心掉多少」蒸餾給 3B 醫療 VLM：DME 病灶區域的特異反應從 0.79 升到 2.02，準確率幾乎不變
+# 答對了，但有沒有看圖？ECDD 把證據依賴蒸餾給 3B 醫療 VLM
 
 ## 來源
 
@@ -178,9 +178,9 @@ DME 公開切分為 433／112／134 張訓練／驗證／測試影像、9,779／
 
 ## 與書庫其他文章的關係
 
-ModaLens 在推論端交換影像、量測醫療 VLM 有報告可讀時是否仍對影像敏感；ECDD 則把「移除證據後答案支持該下降多少」變成蒸餾的訓練目標，並以同面積隨機遮罩確認反應集中在問題指定的區域: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？](2026-09-17-modalens-image-sensitivity.md)
+ModaLens 在推論端交換影像、量測醫療 VLM 有報告可讀時是否仍對影像敏感；ECDD 則把「移除證據後答案支持該下降多少」變成蒸餾的訓練目標，並以同面積隨機遮罩確認反應集中在問題指定的區域: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎](2026-09-17-modalens-image-sensitivity.md)
 
-CARE-MVLM 以移除病灶的反事實視圖訓練乳房攝影 VLM 改為棄答並給出證據框，ECDD 則不改答案標籤、只要求學生在證據被移除時對正確答案的 margin 至少下降到教師的一定比例，兩者都以無關區域的同等編輯作對照: [把病灶從乳房攝影上抹掉，VLM 會改口說「無法判斷」嗎？CARE-MVLM 用反事實三聯組訓練棄答與證據框](2026-10-07-care-mvlm-mammography-counterfactual-abstention.md)
+CARE-MVLM 以移除病灶的反事實視圖訓練乳房攝影 VLM 改為棄答並給出證據框，ECDD 則不改答案標籤、只要求學生在證據被移除時對正確答案的 margin 至少下降到教師的一定比例，兩者都以無關區域的同等編輯作對照: [把病灶抹掉，VLM 會改口說無法判斷嗎？四項同時成立只有 4.75%](2026-10-07-care-mvlm-mammography-counterfactual-abstention.md)
 
 ## 實務的啟發
 

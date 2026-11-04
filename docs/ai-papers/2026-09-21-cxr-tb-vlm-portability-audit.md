@@ -1,7 +1,7 @@
 ---
-title: "稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？"
 parent: AI Papers
 nav_exclude: true
+title: "換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住"
 catalog_id: "arxiv:2609.21763"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？
+# 換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住
 
 ## 來源
 
@@ -177,34 +177,34 @@ VinDr-CXR 把替代診斷指名出來後落差更明顯。CheXficient 對 no-fin
 
 ## 與書庫其他文章的關係
 
-本研究稽核的 MedSigLIP 正是該技術報告所屬模型家族的醫療影像文字編碼器，兩篇一篇報能力擴充、一篇問這些能力在換條件後還剩多少: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md)
+本研究稽核的 MedSigLIP 正是該技術報告所屬模型家族的醫療影像文字編碼器，兩篇一篇報能力擴充、一篇問這些能力在換條件後還剩多少: [MedGemma 1.5：4B 吃下 3D 影像與全切片，代價一併公開](2026-09-16-medgemma-1-5.md)
 
-ModaLens 固定文字、只換影像來量測模態依賴，本研究則固定影像、改換提示詞與負類，兩者從不同方向拆解「一個分數到底在測什麼」: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？](2026-09-17-modalens-image-sensitivity.md)
+ModaLens 固定文字、只換影像來量測模態依賴，本研究則固定影像、改換提示詞與負類，兩者從不同方向拆解「一個分數到底在測什麼」: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎](2026-09-17-modalens-image-sensitivity.md)
 
-跨基準的能力盤點回答醫療 VLM 目前走到哪裡，本研究則指出同一批分數換個評估條件後排名與操作點都可能改寫: [醫療 VLM 走了多遠？七套基準下沒有單一贏家，而原文宣稱的「推理弱於理解」在表中並不成立](2026-09-15-medical-vlm-benchmark.md)
+跨基準的能力盤點回答醫療 VLM 目前走到哪裡，本研究則指出同一批分數換個評估條件後排名與操作點都可能改寫: [七套醫療 VLM 基準沒有單一贏家，「推理弱於理解」在表中不成立](2026-09-15-medical-vlm-benchmark.md)
 
-膀胱鏡研究把同一組關注點（提示詞、校準、操作門檻）移到通用多模態 LLM 與內視鏡影像上，並加入棄答層來交換覆蓋率: [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](2026-09-21-mllm-cystoscopy-bladder-triage.md)
+膀胱鏡研究把同一組關注點（提示詞、校準、操作門檻）移到通用多模態 LLM 與內視鏡影像上，並加入棄答層來交換覆蓋率: [膀胱鏡交給通用 MLLM：加一層棄答門檻換到多少可靠度](2026-09-21-mllm-cystoscopy-bladder-triage.md)
 
-該研究把「換提示詞會改變什麼」移到純文字的序列報告判讀上，同樣看到提示詞的平均效果小、逐類與操作點的效果大: [序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？](2026-09-22-llm-temporal-change-cxr-reports.md)
+該研究把「換提示詞會改變什麼」移到純文字的序列報告判讀上，同樣看到提示詞的平均效果小、逐類與操作點的效果大: [序列胸片報告的時序判讀：七個 LLM 分得出「新出現」嗎](2026-09-22-llm-temporal-change-cxr-reports.md)
 
-同樣是「換一個條件還剩下什麼」的稽核方法，該研究固定臨床條件、改換與臨床無關的身分描述，量的是文字分配決策而非影像判讀: [臨床條件一模一樣時，LLM 先給誰？30,618 次強制二選一的分配稽核](2026-09-22-llm-social-status-resource-allocation.md)
+同樣是「換一個條件還剩下什麼」的稽核方法，該研究固定臨床條件、改換與臨床無關的身分描述，量的是文字分配決策而非影像判讀: [臨床條件完全一樣時 LLM 先給誰？30,618 次強制二選一](2026-09-22-llm-social-status-resource-allocation.md)
 
-該研究在臨床端呈現同一個操作點問題：ADNEX model 的 10% 切點換來 98.1% 敏感度與僅 49.7% 特異度，是閾值選擇而非判別力的結果: [把超音波描述交給 ChatGPT 判良惡性：300 顆附件腫塊，和 IOTA 規則、ADNEX 與專家差多少？](2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md)
+該研究在臨床端呈現同一個操作點問題：ADNEX model 的 10% 切點換來 98.1% 敏感度與僅 49.7% 特異度，是閾值選擇而非判別力的結果: [只給超音波文字，GPT-5 判良惡性追得上 IOTA 與專家嗎](2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md)
 
-本研究固定影像、改換提示詞與負類，該研究則固定模型自己生成的理由、只改換影像，兩者從相反方向拆解同一個「這個分數在測什麼」的問題: [抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？](2026-09-23-vlm-oct-image-dependence-audit.md)
+本研究固定影像、改換提示詞與負類，該研究則固定模型自己生成的理由、只改換影像，兩者從相反方向拆解同一個「這個分數在測什麼」的問題: [抽掉 OCT 影像，VLM 的 anti-VEGF 建議還剩多少依據](2026-09-23-vlm-oct-image-dependence-audit.md)
 
-該研究在純文字的病歷抽取上看到同一種可攜性問題：四家院所之間效能變異明顯，且作者點名公開資料集上的成績可能高估泛化: [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
+該研究在純文字的病歷抽取上看到同一種可攜性問題：四家院所之間效能變異明顯，且作者點名公開資料集上的成績可能高估泛化: [病歷裡的老年照護構念：規則引擎、GPT-4o 與微調小模型各有破法](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
 
-兩篇都在追問胸片視覺編碼器的分數從何而來：本研究改換評估條件、檢驗現成醫療 VLM 的結論，該研究則固定評估條件、只改換預訓練目標: [胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗](2026-09-30-cxr-vlp-granularity-controlled-study.md)
+兩篇都在追問胸片視覺編碼器的分數從何而來：本研究改換評估條件、檢驗現成醫療 VLM 的結論，該研究則固定評估條件、只改換預訓練目標: [胸片編碼器該學全域還是局部？九種預訓練目標、五項任務](2026-09-30-cxr-vlp-granularity-controlled-study.md)
 
-該研究同樣評估了 MedSigLIP，但比較的是皮膚科資料集內零樣本 VLM 與有訓練模型的分數，摘要提到的跨資料集測試並未回報，正好對照本研究換評估條件的稽核做法: [皮膚病灶良惡性分類：零樣本 VLM、微調 CNN 與凍結特徵，在十個資料設定下差多少？](2026-10-05-derm-generalist-vs-specific-benchmark.md)
+該研究同樣評估了 MedSigLIP，但比較的是皮膚科資料集內零樣本 VLM 與有訓練模型的分數，摘要提到的跨資料集測試並未回報，正好對照本研究換評估條件的稽核做法: [皮膚病灶良惡性：零樣本 VLM 0.66，微調與凍結特徵 0.87 以上](2026-10-05-derm-generalist-vs-specific-benchmark.md)
 
 
 印尼衛生部正以本地胸片資料訓練結合 MedGemma 與 MedSigLIP 的結核偵測模型，對應每年 5,000 萬人的篩檢目標；本研究的換條件稽核正好說明這種全國規模部署前應先確認哪些條件: [MedGemma 的五個落地案例，只有一個報得出用過幾次](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
 
-本研究說明換一個評估條件，現成醫療視覺語言模型的結論就可能改寫；該則指出若 FAPI-74 上市，PET 判讀面對的是既有以 FDG 為主的模型從未見過的影像分布，兩篇是同一個可攜性問題的兩端: [GE HealthCare 9.45 億買下自家代工廠，pan-cancer 只做兩種癌](../industry-watch/2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+本研究說明換一個評估條件，現成醫療視覺語言模型的結論就可能改寫；該則指出若 FAPI-74 上市，PET 判讀面對的是既有以 FDG 為主的模型從未見過的影像分布，兩篇是同一個可攜性問題的兩端: [GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌](../industry-watch/2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-本研究逐項替換評估條件來檢驗醫療 VLM 的結論，該研究則固定盲化 checklist、只替換 LLM 查核模型與 checklist 格式，同樣看到量到的增益隨評估約定移動: [「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6 個百分點（rule-based 查核；換成 MedGemma-4B 是 11.8），但換一個查核模型或格式，量到的增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
+本研究逐項替換評估條件來檢驗醫療 VLM 的結論，該研究則固定盲化 checklist、只替換 LLM 查核模型與 checklist 格式，同樣看到量到的增益隨評估約定移動: [「沒提到」算不算「沒有」？換一個查核模型，增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
 
 ## 實務的啟發
 

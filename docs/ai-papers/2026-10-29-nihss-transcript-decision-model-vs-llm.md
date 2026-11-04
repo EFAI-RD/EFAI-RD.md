@@ -1,7 +1,7 @@
 ---
-title: "從床邊檢查逐字稿直接打 NIHSS：112 個合成中風案例上，LLM 項目準確率 99.0%、decision model Jev 94.4% 但快約 40 倍；病例、逐字稿與答案卷都由 LLM 產生，人工審查尚未完成"
 parent: AI Papers
 nav_exclude: true
+title: "從逐字稿直接打 NIHSS：快 40 倍，但病例全由 LLM 生成"
 catalog_id: "doi:10.64898/2026.10.23.26366376"
 editors:
   - "Clare"
@@ -19,7 +19,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 從床邊檢查逐字稿直接打 NIHSS：112 個合成中風案例上，LLM 項目準確率 99.0%、decision model Jev 94.4% 但快約 40 倍；病例、逐字稿與答案卷都由 LLM 產生，人工審查尚未完成
+# 從逐字稿直接打 NIHSS：快 40 倍，但病例全由 LLM 生成
 
 ## 來源
 
@@ -149,9 +149,9 @@ examiner-only 分析以 jev-1.14.0 執行；Table 5「Jev，完整逐字稿」�
 
 ## 與書庫其他文章的關係
 
-RadKev 那篇把託管的 Jev 當成放射科選擇題的比較對象之一，本篇則在 NIHSS 逐字稿上把 Jev 與 LLM 正面對照，兩篇都看到 decision model 延遲遠低於 LLM、準確率結論則依任務與資料而變: [不生成文字、直接給每個選項機率：RadKev 把 decision model 專科化到放射科，15 項任務平均多 4.9 點，換到外院報告卻沒有進步](2026-10-15-radkev-radiology-decision-model.md)
+RadKev 那篇把託管的 Jev 當成放射科選擇題的比較對象之一，本篇則在 NIHSS 逐字稿上把 Jev 與 LLM 正面對照，兩篇都看到 decision model 延遲遠低於 LLM、準確率結論則依任務與資料而變: [RadKev：放射專科化後平均多 4.9 點，換一家醫院就沒了](2026-10-15-radkev-radiology-decision-model.md)
 
-ASA 分級那篇在真實術前資料上比較「讀選項機率」的 readout 與生成式提示的 κ、延遲與標籤成本，本篇則在合成逐字稿上比較 decision model 與生成式 LLM 的準確率、延遲與每千次成本，並多了一個以 confidence 分流的 hybrid 模擬: [不生成理由、只讀 A–D 選項的機率：Qwen3.5-9B 分 ASA 身體狀態，比生成式提示快約 64 倍，再用 1,000 個在地標籤調三個門檻，κ 只比 LoRA 低約 0.02，標籤再多 LoRA 仍會拉開](2026-10-28-asa-ps-llm-readout-vs-lora.md)
+ASA 分級那篇在真實術前資料上比較「讀選項機率」的 readout 與生成式提示的 κ、延遲與標籤成本，本篇則在合成逐字稿上比較 decision model 與生成式 LLM 的準確率、延遲與每千次成本，並多了一個以 confidence 分流的 hybrid 模擬: [只讀選項機率打 ASA 分級：快約 64 倍，κ 只比 LoRA 低 0.02](2026-10-28-asa-ps-llm-readout-vs-lora.md)
 
 ## 實務的啟發
 

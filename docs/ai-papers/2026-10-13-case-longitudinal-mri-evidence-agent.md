@@ -1,7 +1,7 @@
 ---
-title: "不把影像餵給模型，讓它自己去調：CASE 在 UK Biobank 縱向 MRI 上訓練 8B 證據蒐集代理，問題是標籤不一定看得見"
 parent: AI Papers
 nav_exclude: true
+title: "CASE：讓 8B 代理自己去調縱向 MRI，但標籤不一定看得見"
 catalog_id: "arxiv:2609.39566"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 不把影像餵給模型，讓它自己去調：CASE 在 UK Biobank 縱向 MRI 上訓練 8B 證據蒐集代理，問題是標籤不一定看得見
+# CASE：讓 8B 代理自己去調縱向 MRI，但標籤不一定看得見
 
 ## 來源
 
@@ -157,13 +157,13 @@ Qwen3.8-Max 是產生 SFT 示範的 teacher；Kimi K2.6 同時是 RSFT 篩選與
 
 ## 與書庫其他文章的關係
 
-MammoClaw 讓凍結的 MLLM 從失敗軌跡歸納文字技能、不更新模型權重，CASE 則把 recall_skills／write_skill 當成代理的工具之一，並改用 RSFT 加 agentic RL 直接更新 8B 模型，兩篇對照了「改提示詞」與「改權重」兩種讓代理學會用工具的路線: [工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
+MammoClaw 讓凍結的 MLLM 從失敗軌跡歸納文字技能、不更新模型權重，CASE 則把 recall_skills／write_skill 當成代理的工具之一，並改用 RSFT 加 agentic RL 直接更新 8B 模型，兩篇對照了「改提示詞」與「改權重」兩種讓代理學會用工具的路線: [MammoClaw：給工具沒用，技能演化後仍可能輸給全猜一類](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
 
-VoxelSage 與 CASE 都把 VISTA3D 分割後的量測交給代理調用，VoxelSage 停在系統測試與模擬器，CASE 則在 4,850 題保留集上與十二個模型比較，但兩篇都沒有臨床人員參與的評估: [量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
+VoxelSage 與 CASE 都把 VISTA3D 分割後的量測交給代理調用，VoxelSage 停在系統測試與模擬器，CASE 則在 4,850 題保留集上與十二個模型比較，但兩篇都沒有臨床人員參與的評估: [VoxelSage：肝腫瘤量測交給程式，成效數字來自二維模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
 
-Lingshu-32B 與 Lingshu-7B 在 CASE 的同工具條件下 Micro 準確率為 49.9% 與 45.5%，可對照 Lingshu 原論文的評估，看醫療 VLM 換成需要自己調閱證據的縱向任務後落在什麼位置: [Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？](2026-09-15-lingshu-medical-vlm.md)
+Lingshu-32B 與 Lingshu-7B 在 CASE 的同工具條件下 Micro 準確率為 49.9% 與 45.5%，可對照 Lingshu 原論文的評估，看醫療 VLM 換成需要自己調閱證據的縱向任務後落在什麼位置: [Lingshu 靠合成資料拉高醫療 VQA，強化學習那一步沒加分](2026-09-15-lingshu-medical-vlm.md)
 
-MedGemma 家族在 CASE 裡同時扮演兩個角色：MedGemma-27B 預先產生代理可調閱的影像報告，MedGemma-1.5-4B 則是受測對象之一，在同工具條件下 Micro 準確率為 40.5%: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md)
+MedGemma 家族在 CASE 裡同時扮演兩個角色：MedGemma-27B 預先產生代理可調閱的影像報告，MedGemma-1.5-4B 則是受測對象之一，在同工具條件下 Micro 準確率為 40.5%: [MedGemma 1.5：4B 吃下 3D 影像與全切片，代價一併公開](2026-09-16-medgemma-1-5.md)
 
 ## 實務的啟發
 

@@ -1,7 +1,7 @@
 ---
-title: "不生成文字、直接給每個選項機率：RadKev 把 decision model 專科化到放射科，15 項任務平均多 4.9 點，換到外院報告卻沒有進步"
 parent: AI Papers
 nav_exclude: true
+title: "RadKev：放射專科化後平均多 4.9 點，換一家醫院就沒了"
 catalog_id: "doi:10.64898/2026.10.07.26364991"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 不生成文字、直接給每個選項機率：RadKev 把 decision model 專科化到放射科，15 項任務平均多 4.9 點，換到外院報告卻沒有進步
+# RadKev：放射專科化後平均多 4.9 點，換一家醫院就沒了
 
 ## 來源
 
@@ -129,13 +129,13 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-中文報告錯誤偵測研究用真實臨床報告比較 LLM 與人類讀者抓錯的能力，本篇的最大增益正好也在報告錯誤偵測，但用的是 LLM 植入錯誤的 ReXErr，兩篇並讀可以看出合成錯誤與真實錯誤的評估落差: [中文放射科報告的真實錯誤：八個 LLM 與八位人類讀者，誰抓得出來？](2026-09-22-llm-chinese-radiology-report-error-detection.md)
+中文報告錯誤偵測研究用真實臨床報告比較 LLM 與人類讀者抓錯的能力，本篇的最大增益正好也在報告錯誤偵測，但用的是 LLM 植入錯誤的 ReXErr，兩篇並讀可以看出合成錯誤與真實錯誤的評估落差: [1,363 份中文放射報告的真實錯誤：八個 LLM 對八位人類讀者](2026-09-22-llm-chinese-radiology-report-error-detection.md)
 
-腦 MRI 報告隊列研究以三個 LLM 一致才自動貼標來換取零錯誤，本篇則用單一 decision model 的答案機率做 coverage at 5% error，兩篇都在處理「哪些報告可以自動判、哪些要退回人工」的取捨: [三個 LLM 都同意才自動貼標：6,718 份腦 MRI 報告分正常／異常，參考集零錯誤的代價是約一半報告退回人工](2026-10-15-llm-consensus-brain-mri-report-cohort.md)
+腦 MRI 報告隊列研究以三個 LLM 一致才自動貼標來換取零錯誤，本篇則用單一 decision model 的答案機率做 coverage at 5% error，兩篇都在處理「哪些報告可以自動判、哪些要退回人工」的取捨: [三個 LLM 都同意才自動貼標：零錯誤的代價是一半退回人工](2026-10-15-llm-consensus-brain-mri-report-cohort.md)
 
-ASA 分級那篇在麻醉術前資料上比較同一種「讀選項機率」的 readout、生成式提示與 LoRA，並發現少量在地標籤調門檻就能讓 κ 接近 LoRA，但換成 OpenJev 實作就不成立，可與本篇的延遲與外院結果對照，看 decision model 的優勢哪些可以跨任務延續: [不生成理由、只讀 A–D 選項的機率：Qwen3.5-9B 分 ASA 身體狀態，比生成式提示快約 64 倍，再用 1,000 個在地標籤調三個門檻，κ 只比 LoRA 低約 0.02，標籤再多 LoRA 仍會拉開](2026-10-28-asa-ps-llm-readout-vs-lora.md)
+ASA 分級那篇在麻醉術前資料上比較同一種「讀選項機率」的 readout、生成式提示與 LoRA，並發現少量在地標籤調門檻就能讓 κ 接近 LoRA，但換成 OpenJev 實作就不成立，可與本篇的延遲與外院結果對照，看 decision model 的優勢哪些可以跨任務延續: [只讀選項機率打 ASA 分級：快約 64 倍，κ 只比 LoRA 低 0.02](2026-10-28-asa-ps-llm-readout-vs-lora.md)
 
-NIHSS 逐字稿那篇把本篇作為比較對象之一的託管 decision model Jev，拿去與 LLM 正面對照從床邊檢查對話逐項打分，Jev 延遲約為 LLM 的四十分之一、準確率較低，且錯誤集中在少數可命名的項目型態: [從床邊檢查逐字稿直接打 NIHSS：112 個合成中風案例上，LLM 項目準確率 99.0%、decision model Jev 94.4% 但快約 40 倍；病例、逐字稿與答案卷都由 LLM 產生，人工審查尚未完成](2026-10-29-nihss-transcript-decision-model-vs-llm.md)
+NIHSS 逐字稿那篇把本篇作為比較對象之一的託管 decision model Jev，拿去與 LLM 正面對照從床邊檢查對話逐項打分，Jev 延遲約為 LLM 的四十分之一、準確率較低，且錯誤集中在少數可命名的項目型態: [從逐字稿直接打 NIHSS：快 40 倍，但病例全由 LLM 生成](2026-10-29-nihss-transcript-decision-model-vs-llm.md)
 
 ## 實務的啟發
 

@@ -1,7 +1,7 @@
 ---
-title: "放射報告文字裡的錯，LLM 抓得到嗎？Qwen3 在雲南兩家醫院、14 萬份中文報告上 macro-F1 0.94 與 0.93，挑錯並分類的 recall 0.96 高過三位放射科醫師的 0.45–0.67；但比較集只含有錯的報告，醫師也看不到影像"
 parent: AI Papers
-nav_order: 4
+nav_order: 5
+title: "14 萬份中文報告挑錯：Qwen3 recall 0.96，醫師最高 0.67"
 catalog_id: "doi:10.2196/106250"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 放射報告文字裡的錯，LLM 抓得到嗎？Qwen3 在雲南兩家醫院、14 萬份中文報告上 macro-F1 0.94 與 0.93，挑錯並分類的 recall 0.96 高過三位放射科醫師的 0.45–0.67；但比較集只含有錯的報告，醫師也看不到影像
+# 14 萬份中文報告挑錯：Qwen3 recall 0.96，醫師最高 0.67
 
 ## 來源
 
@@ -139,11 +139,11 @@ challenge set 上的 error instance–level exact category recall 與平均每�
 
 ## 與書庫其他文章的關係
 
-兩篇都讓 LLM 只讀放射報告文字、參考標準都由放射科醫師只看同一份文字判定；CAD-RADS 那篇要 LLM 從 CCTA 報告推出分級，並把錯誤拆成升級與降級、再對高風險被降級者查 DSA，本篇則要 LLM 找出報告的文字內部錯誤，並把表現拆成五類錯誤各自的 precision 與 recall，兩篇都提醒整體準確率會掩蓋錯誤的方向與類型: [三個聊天介面零樣本讀 CCTA 報告分 CAD-RADS：DeepSeek-R1 與 ChatGPT-5 約八成、ChatGPT-4o 54%，900 份高風險報告被降到 3 以下的比例 2.6%–14.1%](2026-10-22-llm-cad-rads-ccta-report-classification.md)
+兩篇都讓 LLM 只讀放射報告文字、參考標準都由放射科醫師只看同一份文字判定；CAD-RADS 那篇要 LLM 從 CCTA 報告推出分級，並把錯誤拆成升級與降級、再對高風險被降級者查 DSA，本篇則要 LLM 找出報告的文字內部錯誤，並把表現拆成五類錯誤各自的 precision 與 recall，兩篇都提醒整體準確率會掩蓋錯誤的方向與類型: [零樣本分 CAD-RADS：高風險報告被降級的比例 2.6%–14.1%](2026-10-22-llm-cad-rads-ccta-report-classification.md)
 
-本篇的 LLM 只檢查報告文字內部是否自相矛盾、漏寫或寫錯側別，作者明說無法發現報告與影像不符；EviGround-CT 則把報告的陽性發現句送去 3D 定位、對影像找證據，兩篇分別代表報告品管的「文字內部一致性」與「文字對影像證據」兩個層次: [EviGround-CT：LLM 寫的胸部 CT 報告逐句送去 3D 定位查核，整句當查詢讓 137 個生成發現中有標註支持的比例從 0.263 升到 0.365，但參考遮罩不完整、評估只有 100 例](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
+本篇的 LLM 只檢查報告文字內部是否自相矛盾、漏寫或寫錯側別，作者明說無法發現報告與影像不符；EviGround-CT 則把報告的陽性發現句送去 3D 定位、對影像找證據，兩篇分別代表報告品管的「文字內部一致性」與「文字對影像證據」兩個層次: [EviGround-CT：CT 報告逐句送去定位查核，參考遮罩並不完整](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
 
-本篇讓 LLM 找出放射科醫師寫的報告裡的文字錯誤；米蘭乳房影像那篇則讓 ChatGPT-4 把報告改寫成給病人看的 50 字白話版，醫師評為至少正確的只有 72.0%、10.5% 可能誤導，等於指出 LLM 自己產生的病人版報告也是需要這類文字品管的對象: [乳房影像報告交給 ChatGPT-4 改寫成 50 字白話版：314 位病人的 2,965 次評比中 63.3% 選 AI 版，但醫師評為至少「正確」的只有 72%、10.5% 可能誤導，而且全部來自同一組 10 份報告](2026-11-03-llm-breast-report-simplification-patient-preference.md)
+本篇讓 LLM 找出放射科醫師寫的報告裡的文字錯誤；米蘭乳房影像那篇則讓 ChatGPT-4 把報告改寫成給病人看的 50 字白話版，醫師評為至少正確的只有 72.0%、10.5% 可能誤導，等於指出 LLM 自己產生的病人版報告也是需要這類文字品管的對象: [病人 63.3% 選 AI 改寫的乳房報告，醫師只給 72%「正確」](2026-11-03-llm-breast-report-simplification-patient-preference.md)
 
 ## 實務的啟發
 

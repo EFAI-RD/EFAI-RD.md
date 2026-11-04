@@ -173,7 +173,7 @@ Gemma 3 270M 很少迴圈（只有 8.5% 的作答達到 token 上限，Qwen 是 
 
 兩則談的是同一個模型 GPT-6 Astra，揭露姿態卻完全相反：該則記錄 OpenAI 自家公告除了 Terminal-Bench Science 的 68.1% 之外不公布任何絕對分數，外部無法設定門檻；本則是四位外部研究者把 Astra 的每一次輸入、輸出、推理摘要與評估腳本整包放上 GitHub，連失敗的那個實驗也留在裡面: [GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra](2026-10-07-openai-gpt-6-1-sol-launch.md)
 
-兩者對神經網路做的是同一類手術，而誰拿刀不同：該研究以 sparse autoencoder 解出 ICD 章節的概念方向並在 11 個開源模型上做因果介入，方向由既定演算法算出；本則的 Experiment 8 是讓一個通用語言模型自己讀權重、自己指認那條造成迴圈的方向，再從兩層 MLP 的各 64 個輸出欄位把它減掉: [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](../ai-papers/2026-10-05-clinical-concept-centers-llm.md)
+兩者對神經網路做的是同一類手術，而誰拿刀不同：該研究以 sparse autoencoder 解出 ICD 章節的概念方向並在 11 個開源模型上做因果介入，方向由既定演算法算出；本則的 Experiment 8 是讓一個通用語言模型自己讀權重、自己指認那條造成迴圈的方向，再從兩層 MLP 的各 64 個輸出欄位把它減掉: [ICD 章節藏在 LLM 的哪裡？11 個開源模型裡找方向、做介入](../ai-papers/2026-10-05-clinical-concept-centers-llm.md)
 
 該則整理 FDA 對生成式 AI 醫材提出的監管問題，其中一項是上市後變更要如何追溯；本則示範的修改方式剛好把那個問題推到極端 —— 改動 0.016% 的權重、沒有訓練迴圈、沒有資料集、沒有梯度，傳統上用來證明一次變更做了什麼的那些紀錄全都不存在: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](2026-09-17-fda-genai-devices-discussion-paper.md)
 

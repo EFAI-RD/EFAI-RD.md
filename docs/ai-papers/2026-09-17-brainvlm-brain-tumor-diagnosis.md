@@ -1,7 +1,7 @@
 ---
-title: "BrainVLM：從多序列 MRI 到前瞻收案，信心分數能讓腦瘤診斷更可靠嗎？"
 parent: AI Papers
 nav_exclude: true
+title: "BrainVLM：腦瘤診斷做到前瞻收案，證據仍停在診斷指標"
 catalog_id: "arxiv:2609.16597"
 editors:
   - "Colbert"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# BrainVLM：從多序列 MRI 到前瞻收案，信心分數能讓腦瘤診斷更可靠嗎？
+# BrainVLM：腦瘤診斷做到前瞻收案，證據仍停在診斷指標
 
 ## 來源
 
@@ -129,7 +129,7 @@ BrainTumor48K 的 23,231 個 3D MRI cases 中，18,113 個有報告與病理標�
 
 ## 與書庫其他文章的關係
 
-MedGemma 1.5 展示通用醫療 VLM 處理 3D volume 的廣度，BrainVLM 則把多序列腦部 MRI 收斂成專科分類、報告、信心校準與讀者研究，可用來比較通用模型與專科工作流程證據的差異: [MedGemma 1.5：4B 模型如何讀取 3D 影像、全切片與縱向胸片？](2026-09-16-medgemma-1-5.md)
+MedGemma 1.5 展示通用醫療 VLM 處理 3D volume 的廣度，BrainVLM 則把多序列腦部 MRI 收斂成專科分類、報告、信心校準與讀者研究，可用來比較通用模型與專科工作流程證據的差異: [MedGemma 1.5：4B 吃下 3D 影像與全切片，代價一併公開](2026-09-16-medgemma-1-5.md)
 
 ## 實務的啟發
 

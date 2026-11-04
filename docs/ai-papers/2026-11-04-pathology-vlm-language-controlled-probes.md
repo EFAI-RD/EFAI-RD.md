@@ -1,4 +1,7 @@
 ---
+parent: AI Papers
+nav_order: 1
+title: "語言替病理 VLM 加了什麼？拿掉切片，答對率只掉 0.4 個百分點"
 catalog_id: "arxiv:2610.26805"
 editors:
   - "Clare"
@@ -13,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 語言到底替病理 VLM 加了什麼？四個控制實驗：去掉分期的報告文字讓存活 C-index 多 0.016–0.019，zero-shot prompt 沒有勝過線性探測，SlideChat 拿掉切片後答對率只從 74.82% 掉到 74.41%
+# 語言替病理 VLM 加了什麼？拿掉切片，答對率只掉 0.4 個百分點
 
 ## 來源
 
@@ -158,11 +161,11 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-CONCH 論文以 zero-shot 分類展示病理圖文預訓練的遷移能力，本篇在 CONCH v1 的同一組特徵上把 zero-shot 與監督式線性探測放在相同 pooling 下比較，兩者差距不顯著，說明語言的價值主要留在特徵裡、不在推論時的 prompt: [CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？](2026-09-15-conch-pathology-vlm.md)
+CONCH 論文以 zero-shot 分類展示病理圖文預訓練的遷移能力，本篇在 CONCH v1 的同一組特徵上把 zero-shot 與監督式線性探測放在相同 pooling 下比較，兩者差距不顯著，說明語言的價值主要留在特徵裡、不在推論時的 prompt: [CONCH：零樣本病理分類很強，多類腦瘤就露出邊界](2026-09-15-conch-pathology-vlm.md)
 
-REG 2025 從報告生成端指出病理 VLM 的榜單分數抓不到數值幻覺，本篇則從問答端補上另一個評估盲點：切片層級 VQA 的分數可以幾乎不依賴切片，而 REG2025 本身也列在本篇整理的公開基準表中: [REG 2025：病理全切片到報告生成，榜單分數抓得到數值幻覺嗎？](2026-09-16-reg-2025-pathology-report-generation.md)
+REG 2025 從報告生成端指出病理 VLM 的榜單分數抓不到數值幻覺，本篇則從問答端補上另一個評估盲點：切片層級 VQA 的分數可以幾乎不依賴切片，而 REG2025 本身也列在本篇整理的公開基準表中: [REG 2025：報告生成分數上去了，腫瘤比例與分級仍會失真](2026-09-16-reg-2025-pathology-report-generation.md)
 
-ModaLens 在胸片加報告的情境下交換影像來量測醫療 VLM 是否仍看影像，本篇把同一類「拿掉或換掉影像」的對照搬到病理全切片問答，並加上選項位移、NOTA 與改寫三種格式對照: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？](2026-09-17-modalens-image-sensitivity.md)
+ModaLens 在胸片加報告的情境下交換影像來量測醫療 VLM 是否仍看影像，本篇把同一類「拿掉或換掉影像」的對照搬到病理全切片問答，並加上選項位移、NOTA 與改寫三種格式對照: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎](2026-09-17-modalens-image-sensitivity.md)
 
 ## 實務的啟發
 

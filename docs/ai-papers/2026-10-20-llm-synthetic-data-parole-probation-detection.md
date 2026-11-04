@@ -1,7 +1,7 @@
 ---
-title: "一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句合成資料（訓練集 5,305 句），換到 293 份 VA 病歷偵測假釋／緩刑，Llama 3.3-70B 以合成範例 few-shot 達 87% macro-F1、微調的 Llama 3.1-8B 達 81%，encoder 跌到 30%"
 parent: AI Papers
 nav_exclude: true
+title: "一筆真實標註都不用：合成資料訓練到 87% macro-F1"
 catalog_id: "doi:10.2196/104586"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句合成資料（訓練集 5,305 句），換到 293 份 VA 病歷偵測假釋／緩刑，Llama 3.3-70B 以合成範例 few-shot 達 87% macro-F1、微調的 Llama 3.1-8B 達 81%，encoder 跌到 30%
+# 一筆真實標註都不用：合成資料訓練到 87% macro-F1
 
 ## 來源
 
@@ -159,13 +159,13 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-NSCLC 轉移擷取比較的是零樣本開放權重 LLM 與以真實病歷標註微調的 GatorTron，本篇則完全不用真實標註、只用合成資料訓練或提供範例，兩篇合起來看，可以比較「省掉標註」的兩種做法在真實病歷上各自付出的代價: [癌症登記缺了 54% 的轉移欄位，病歷補得回來嗎？NSCLC 病歷上，零樣本 MedGemma、Llama 3.1 與微調 GatorTron 的比較](2026-10-19-llm-nsclc-metastasis-extraction-clinical-notes.md)
+NSCLC 轉移擷取比較的是零樣本開放權重 LLM 與以真實病歷標註微調的 GatorTron，本篇則完全不用真實標註、只用合成資料訓練或提供範例，兩篇合起來看，可以比較「省掉標註」的兩種做法在真實病歷上各自付出的代價: [癌症登記缺了 54% 轉移欄位，三種 LLM 從病歷補得回來嗎](2026-10-19-llm-nsclc-metastasis-extraction-clinical-notes.md)
 
-老年照護構念基準在四家院所以真實標註句比較規則引擎、GPT-4o 與微調小模型，本篇則在單一體系上比較規則、encoder 與 LLM 從合成資料轉移到真實病歷的能力，兩篇都顯示病歷抽取的方法排名會隨資料來源改變: [規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
+老年照護構念基準在四家院所以真實標註句比較規則引擎、GPT-4o 與微調小模型，本篇則在單一體系上比較規則、encoder 與 LLM 從合成資料轉移到真實病歷的能力，兩篇都顯示病歷抽取的方法排名會隨資料來源改變: [病歷裡的老年照護構念：規則引擎、GPT-4o 與微調小模型各有破法](2026-09-24-llm-geriatric-ehr-multisite-benchmark.md)
 
-時間關係抽取那篇在 i2b2 內部測試上各設定約 86%–89% micro-F1，換到 MACCROBAT 病例報告後掉到 48%–62%，本篇則看到合成資料上分數很高的 encoder 換到真實病歷大幅崩落，兩篇都提醒病歷抽取模型的內部測試分數不能直接當成跨資料來源的表現: [病歷時間關係抽取該怎麼調模型？i2b2 2012 上只調 query／value 的 QLoRA 讓 LLaMA3.1-8B 達 89.15% micro-F1，但每類只給一例時沒有一種做法超過 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
+時間關係抽取那篇在 i2b2 內部測試上各設定約 86%–89% micro-F1，換到 MACCROBAT 病例報告後掉到 48%–62%，本篇則看到合成資料上分數很高的 encoder 換到真實病歷大幅崩落，兩篇都提醒病歷抽取模型的內部測試分數不能直接當成跨資料來源的表現: [病歷時間關係抽取：QLoRA 達 89.15%，每類一例時沒有一種破 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
 
-西語精神科概念偵測那篇的 Mistral-small-psych 也只用合成文件微調，但合成句子源自真實標註片段、並以規則式 tNLP 補標，且有同一基礎模型以真實標註微調的結果可直接對照，可補上本篇缺少的「合成資料對真實標註」比較: [西語精神科病歷裡的 109 個症狀概念，開源 LLM 抓得到嗎？11 個模型零樣本 macro-F1 只有 0.20–0.60，LoRA 微調後 0.75–0.86 才與規則式 tNLP 打平；只用合成資料訓練的 Mistral-small-psych 為 0.79，換到另一家醫院 0.73](2026-10-30-llm-psychiatric-concepts-spanish-ehr.md)
+西語精神科概念偵測那篇的 Mistral-small-psych 也只用合成文件微調，但合成句子源自真實標註片段、並以規則式 tNLP 補標，且有同一基礎模型以真實標註微調的結果可直接對照，可補上本篇缺少的「合成資料對真實標註」比較: [西語精神科病歷的 109 個症狀：微調後才追平規則式 tNLP](2026-10-30-llm-psychiatric-concepts-spanish-ehr.md)
 
 ## 實務的啟發
 

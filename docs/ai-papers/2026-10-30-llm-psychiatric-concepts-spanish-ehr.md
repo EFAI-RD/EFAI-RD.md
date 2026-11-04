@@ -1,7 +1,7 @@
 ---
-title: "西語精神科病歷裡的 109 個症狀概念，開源 LLM 抓得到嗎？11 個模型零樣本 macro-F1 只有 0.20–0.60，LoRA 微調後 0.75–0.86 才與規則式 tNLP 打平；只用合成資料訓練的 Mistral-small-psych 為 0.79，換到另一家醫院 0.73"
 parent: AI Papers
 nav_exclude: true
+title: "西語精神科病歷的 109 個症狀：微調後才追平規則式 tNLP"
 catalog_id: "doi:10.2196/93328"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 西語精神科病歷裡的 109 個症狀概念，開源 LLM 抓得到嗎？11 個模型零樣本 macro-F1 只有 0.20–0.60，LoRA 微調後 0.75–0.86 才與規則式 tNLP 打平；只用合成資料訓練的 Mistral-small-psych 為 0.79，換到另一家醫院 0.73
+# 西語精神科病歷的 109 個症狀：微調後才追平規則式 tNLP
 
 ## 來源
 
@@ -153,9 +153,9 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-假釋／緩刑偵測那篇只用 GPT-4o-mini 生成的合成句子訓練、再拿真實 VA 病歷測試，本篇的 Mistral-small-psych 也只用合成文件微調，但合成句子源自真實標註片段、並以規則式 tNLP 補標，且有同一基礎模型以真實標註微調的結果可直接對照，兩篇合起來看可以比較兩種「不釋出病人資料」的合成資料做法各自付出的代價: [一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句合成資料（訓練集 5,305 句），換到 293 份 VA 病歷偵測假釋／緩刑，Llama 3.3-70B 以合成範例 few-shot 達 87% macro-F1、微調的 Llama 3.1-8B 達 81%，encoder 跌到 30%](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
+假釋／緩刑偵測那篇只用 GPT-4o-mini 生成的合成句子訓練、再拿真實 VA 病歷測試，本篇的 Mistral-small-psych 也只用合成文件微調，但合成句子源自真實標註片段、並以規則式 tNLP 補標，且有同一基礎模型以真實標註微調的結果可直接對照，兩篇合起來看可以比較兩種「不釋出病人資料」的合成資料做法各自付出的代價: [一筆真實標註都不用：合成資料訓練到 87% macro-F1](2026-10-20-llm-synthetic-data-parole-probation-detection.md)
 
-時間關係抽取那篇在 i2b2 上比較 standard fine-tuning、hard-／soft-prompting 與 QLoRA 等需要訓練的調適策略，並看到每類只給一例時沒有一種做法超過 60%；本篇則比較不訓練的零樣本／few-shot 提示與 LoRA 微調，兩篇都顯示病歷抽取的表現高度依賴調適方式與標註量，也都在換資料來源後看到表現下降: [病歷時間關係抽取該怎麼調模型？i2b2 2012 上只調 query／value 的 QLoRA 讓 LLaMA3.1-8B 達 89.15% micro-F1，但每類只給一例時沒有一種做法超過 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
+時間關係抽取那篇在 i2b2 上比較 standard fine-tuning、hard-／soft-prompting 與 QLoRA 等需要訓練的調適策略，並看到每類只給一例時沒有一種做法超過 60%；本篇則比較不訓練的零樣本／few-shot 提示與 LoRA 微調，兩篇都顯示病歷抽取的表現高度依賴調適方式與標註量，也都在換資料來源後看到表現下降: [病歷時間關係抽取：QLoRA 達 89.15%，每類一例時沒有一種破 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
 
 ## 實務的啟發
 

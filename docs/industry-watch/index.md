@@ -32,7 +32,7 @@ has_toc: false
 | 2026-10-19 | [那個 62.3% 屬於一位虛構病人，背書的高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md) | Clarence | 2026-10-16 官方新聞稿；論文開放取用，62.3% 為範例病人推算值 |
 | 2026-10-15 | [放療生成式 AI 合作案：唯一的成效數字來自合作之前](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md) | Clarence | 2026-09-23 官方新聞稿；生成式 AI 部分無任何數字 |
 | 2026-10-14 | [Siemens 當天停售四款超音波，公告標題寫的是「聚焦」](2026-10-14-siemens-ultrasound-general-imaging-exit.md) | Clarence | 2026-10-12 官方公告；公告日即停售日，未給被退出業務的任何數字 |
-| 2026-10-13 | [GE HealthCare 9.45 億買下自家代工廠，pan-cancer 只做兩種癌](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md) | Clarence | 2026-10-05 官方新聞稿；交易預計 2027 上半年完成 |
+| 2026-10-13 | [GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md) | Clarence | 2026-10-05 官方新聞稿；交易預計 2027 上半年完成 |
 | 2026-10-13 | [Accela 宣告「放射治療的未來已到來」，註腳說還不能賣](2026-10-13-siemens-accela-radiotherapy-launch.md) | Clarence | 2026-09-27 ASTRO 2026 發表；九個數值全為上下限 |
 | 2026-10-08 | [MedGemma 的五個落地案例，只有一個報得出用過幾次](2026-10-08-medgemma-global-deployment-claims.md) | Clarence | 2026-09-23 官方公告；五案一數字 |
 | 2026-10-07 | [GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra](2026-10-07-openai-gpt-6-1-sol-launch.md) | Clarence | 官方公告未標日期；$2／$10 per M token |

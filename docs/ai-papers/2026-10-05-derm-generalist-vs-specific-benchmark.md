@@ -1,7 +1,7 @@
 ---
-title: "皮膚病灶良惡性分類：零樣本 VLM、微調 CNN 與凍結特徵，在十個資料設定下差多少？"
 parent: AI Papers
 nav_exclude: true
+title: "皮膚病灶良惡性：零樣本 VLM 0.66，微調與凍結特徵 0.87 以上"
 catalog_id: "arxiv:2610.03193"
 editors:
   - "Clare"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# 皮膚病灶良惡性分類：零樣本 VLM、微調 CNN 與凍結特徵，在十個資料設定下差多少？
+# 皮膚病灶良惡性：零樣本 VLM 0.66，微調與凍結特徵 0.87 以上
 
 ## 來源
 
@@ -157,15 +157,15 @@ README 另外說明：使用影像數少於原始總數，是因為缺少標籤�
 
 ## 與書庫其他文章的關係
 
-膀胱鏡研究把通用多模態 LLM 搭配提示詞與棄答門檻用在單一內視鏡任務上，本篇則在七個皮膚科資料集上把同類零樣本 VLM 與有訓練的專用模型並排，顯示沒有任務調整時差距有多大: [膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？](2026-09-21-mllm-cystoscopy-bladder-triage.md)
+膀胱鏡研究把通用多模態 LLM 搭配提示詞與棄答門檻用在單一內視鏡任務上，本篇則在七個皮膚科資料集上把同類零樣本 VLM 與有訓練的專用模型並排，顯示沒有任務調整時差距有多大: [膀胱鏡交給通用 MLLM：加一層棄答門檻換到多少可靠度](2026-09-21-mllm-cystoscopy-bladder-triage.md)
 
-胸片結核篩檢稽核用換評估條件的方式檢驗 MedSigLIP 等醫療 VLM 的結論是否站得住，本篇同樣評估了 MedSigLIP，但比較的是同資料集內三類模型的分數，沒有做跨資料集測試: [稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？](2026-09-21-cxr-tb-vlm-portability-audit.md)
+胸片結核篩檢稽核用換評估條件的方式檢驗 MedSigLIP 等醫療 VLM 的結論是否站得住，本篇同樣評估了 MedSigLIP，但比較的是同資料集內三類模型的分數，沒有做跨資料集測試: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](2026-09-21-cxr-tb-vlm-portability-audit.md)
 
-跨基準盤點顯示醫療 VLM 在多套問答基準上的進展，本篇提供一個對照點：在皮膚病灶良惡性這種單一分類任務上，零樣本 VLM 仍落後有訓練的影像模型二十多個 F1 點: [醫療 VLM 走了多遠？七套基準下沒有單一贏家，而原文宣稱的「推理弱於理解」在表中並不成立](2026-09-15-medical-vlm-benchmark.md)
+跨基準盤點顯示醫療 VLM 在多套問答基準上的進展，本篇提供一個對照點：在皮膚病灶良惡性這種單一分類任務上，零樣本 VLM 仍落後有訓練的影像模型二十多個 F1 點: [七套醫療 VLM 基準沒有單一贏家，「推理弱於理解」在表中不成立](2026-09-15-medical-vlm-benchmark.md)
 
-本篇顯示 BiomedCLIP 等 dual-encoder 未經任務調整時落後有訓練的模型，BERD-CLIP 則示範另一條路：不加影像標註、只用支氣管鏡報告描述對 BiomedCLIP 做領域對齊，再量零樣本與少標籤線性探測能提高多少: [支氣管鏡報告的一句描述能當監督嗎？用 BERD 影像描述微調 BiomedCLIP：零樣本 macro AUPRC 從 0.184 升到 0.255–0.292，5% 病人標籤的線性探測就高過全標籤的 DINOv2 與 Swin-T](2026-10-29-berd-clip-report-supervised-bronchoscopy.md)
+本篇顯示 BiomedCLIP 等 dual-encoder 未經任務調整時落後有訓練的模型，BERD-CLIP 則示範另一條路：不加影像標註、只用支氣管鏡報告描述對 BiomedCLIP 做領域對齊，再量零樣本與少標籤線性探測能提高多少: [支氣管鏡報告當監督：5% 標籤就贏過全標籤的 DINOv2](2026-10-29-berd-clip-report-supervised-bronchoscopy.md)
 
-本篇在 PAD-UFES-20 等乾淨資料上比較 VLM、CNN 與 BiomedCLIP 等凍結特徵的分類分數，皮膚科代理稽核則在同一資料集上以 BiomedCLIP 檢索加 VLM 推理，量測照片被印上誤導文字時兩者是否一起出錯: [工具與推理兩條路看的是同一張照片，交叉比對還查得到錯嗎？皮膚科 VLM 代理遇到照片上的注入文字時，先裁切病灶再檢索，讓錯誤中兩條路「錯得一樣」的比例從 43% 升到 71%](2026-11-03-agentic-derm-vlm-fault-coupling.md)
+本篇在 PAD-UFES-20 等乾淨資料上比較 VLM、CNN 與 BiomedCLIP 等凍結特徵的分類分數，皮膚科代理稽核則在同一資料集上以 BiomedCLIP 檢索加 VLM 推理，量測照片被印上誤導文字時兩者是否一起出錯: [先裁切再檢索，兩條路「錯得一樣」：交叉比對只抓得到 29%](2026-11-03-agentic-derm-vlm-fault-coupling.md)
 
 ## 實務的啟發
 

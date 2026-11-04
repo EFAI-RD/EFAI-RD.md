@@ -1,7 +1,7 @@
 ---
-title: "REG 2025：病理全切片到報告生成，榜單分數抓得到數值幻覺嗎？"
 parent: AI Papers
 nav_exclude: true
+title: "REG 2025：報告生成分數上去了，腫瘤比例與分級仍會失真"
 catalog_id: "arxiv:2609.00866"
 editors:
   - "Colbert"
@@ -16,7 +16,7 @@ evidence_reviewed: true
 
 [Home](../) · [AI Papers](./)
 
-# REG 2025：病理全切片到報告生成，榜單分數抓得到數值幻覺嗎？
+# REG 2025：報告生成分數上去了，腫瘤比例與分級仍會失真
 
 ## 來源
 
@@ -99,11 +99,11 @@ Phase 1 最高分是 ICGI 的 0.8098，該階段平均 0.5915；Phase 2 最高�
 
 ## 與書庫其他文章的關係
 
-CONCH 提供病理圖文表徵並被多個 REG 2025 團隊用作 encoder；REG 2025 則把問題推進到跨院 WSI 的完整結構化報告生成與錯誤評估: [CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？](2026-09-15-conch-pathology-vlm.md)
+CONCH 提供病理圖文表徵並被多個 REG 2025 團隊用作 encoder；REG 2025 則把問題推進到跨院 WSI 的完整結構化報告生成與錯誤評估: [CONCH：零樣本病理分類很強，多類腦瘤就露出邊界](2026-09-15-conch-pathology-vlm.md)
 
-REG 2025 顯示病理報告生成的榜單分數抓不到數值幻覺，該研究則用規則式報告與「語言模型讀不到影像」把這類幻覺的來源直接移除，代價是文字表達力: [不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？](2026-09-23-gralis-report-histology-attribution.md)
+REG 2025 顯示病理報告生成的榜單分數抓不到數值幻覺，該研究則用規則式報告與「語言模型讀不到影像」把這類幻覺的來源直接移除，代價是文字表達力: [乳癌病理報告的區域級歸因：影像該在哪一步被擋下來](2026-09-23-gralis-report-histology-attribution.md)
 
-REG 2025 檢驗既有管線把全切片寫成完整結構化報告的能力與評分盲點，該研究則顯示同一條路能在單次前向傳遞的 composite 上走通，但也暴露 BERTScore 精確率與召回率反向移動的問題: [每次前向傳遞只看一張圖：WILSON 用多倍率 composite 取代數千個 tile，但每張切片會生成 10 張 composite，診斷資訊還剩多少？](2026-09-24-wilson-composite-pathology-foundation-model.md)
+REG 2025 檢驗既有管線把全切片寫成完整結構化報告的能力與評分盲點，該研究則顯示同一條路能在單次前向傳遞的 composite 上走通，但也暴露 BERTScore 精確率與召回率反向移動的問題: [WILSON：數千個 tile 壓成一張 composite，診斷資訊剩多少](2026-09-24-wilson-composite-pathology-foundation-model.md)
 
 REG 2025 從報告生成端指出榜單分數抓不到數值幻覺，該研究則從問答端顯示另一個評估盲點：SlideChat 在 SlideBench-VQA(TCGA) 上拿掉切片後答對率幾乎不變，並把 REG2025 列入病理 VLM 常用公開基準的整理: [語言到底替病理 VLM 加了什麼？四個控制實驗：去掉分期的報告文字讓存活 C-index 多 0.016–0.019，zero-shot prompt 沒有勝過線性探測，SlideChat 拿掉切片後答對率只從 74.82% 掉到 74.41%](2026-11-04-pathology-vlm-language-controlled-probes.md)
 
