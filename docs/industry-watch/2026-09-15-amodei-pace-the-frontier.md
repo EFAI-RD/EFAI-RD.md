@@ -1,5 +1,5 @@
 ---
-title: "Amodei 發表〈We Must Pace the Frontier〉：OpenAI 承諾跟進常駐評估者制度，DeepMind 與 xAI 的支持目前僅見單一媒體報導"
+title: "Amodei 要前沿調速，對手全表態；兩家的支持只有單一報導"
 category: industry-watch
 date: 2026-09-15
 updated: 2026-09-15
@@ -34,7 +34,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# Amodei 發表〈We Must Pace the Frontier〉：OpenAI 承諾跟進常駐評估者制度，DeepMind 與 xAI 的支持目前僅見單一媒體報導
+# Amodei 要前沿調速，對手全表態；兩家的支持只有單一報導
 
 ## 來源
 
@@ -81,11 +81,11 @@ Anthropic 執行長 Dario Amodei 在 2026 年 9 月 12 日發表約 3,800 字的
 
 ## 與書庫其他文章的關係
 
-調速倡議之後的又一次大廠前沿發布，可延續治理承諾與發布行為的對照觀察，觀察點落在自報評測的揭露程度與 system card 的查核痕跡: [OpenAI 發布 GPT-6.1 Sol：五分之一價格逼近 Astra，但科學研究那一欄仍由 Astra 領先](2026-10-07-openai-gpt-6-1-sol-launch.md)
+調速倡議之後的又一次大廠前沿發布，可延續治理承諾與發布行為的對照觀察，觀察點落在自報評測的揭露程度與 system card 的查核痕跡: [GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra](2026-10-07-openai-gpt-6-1-sol-launch.md)
 
 該文解釋多代理系統的機制；本則記錄多代理群體失控的真實事件（OAI-HF）如何促成產業層級的調速倡議: [LLM Multi-Agent Systems（ReAct → CAMEL → AutoGen）](../ai-basics/multi-agent-llm.md)
 
-該則是本倡議之後第一個大廠前沿模型發布實例，可對照觀察治理承諾與發布行為: [Google 發布 Gemini 3.8 Live 系列：Extended Thinking 登上語音對語音評測榜首](2026-09-17-gemini-3-8-live-launch.md)
+該則是本倡議之後第一個大廠前沿模型發布實例，可對照觀察治理承諾與發布行為: [Gemini 3.8 Live 拿下語音榜首，距那封調速宣言三天](2026-09-17-gemini-3-8-live-launch.md)
 
 ## 實務的啟發
 

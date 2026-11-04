@@ -1,5 +1,5 @@
 ---
-title: "GE HealthCare 發表 Allia Celeo 介入影像系統：公告標題寫 AI-powered precision imaging，正文 15 處是「designed to／aim to／with the goal of」，study、trial、evidence 與百分比的命中數都是 0，而唯一具名的 AI 工具落在沒有寫 cleared 的那一句"
+title: "標榜 AI 的介入影像新機，公告裡一個效能數字都沒有"
 category: industry-watch
 date: 2026-11-03
 updated: 2026-11-03
@@ -35,7 +35,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# GE HealthCare 發表 Allia Celeo 介入影像系統：公告標題寫 AI-powered precision imaging，正文 15 處是「designed to／aim to／with the goal of」，study、trial、evidence 與百分比的命中數都是 0，而唯一具名的 AI 工具落在沒有寫 cleared 的那一句
+# 標榜 AI 的介入影像新機，公告裡一個效能數字都沒有
 
 ## 來源
 
@@ -149,11 +149,11 @@ GE HealthCare 在 2026-11-01 發表 Allia Celeo，一台天花板吊掛式的介
 
 ## 與書庫其他文章的關係
 
-兩則都是在國際醫學年會上發表、而同一頁註腳寫著美國 510(k) 仍在審查中的系統，差別在限定條件被放進哪一個層級：該則的註腳同時擋住美國與其他所有市場（尚未在任何市場銷售），本則的註腳只擋美國，歐盟端已有 CE 標章，於是同一句「不能賣」在兩則裡涵蓋的範圍相差一整個歐洲: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
+兩則都是在國際醫學年會上發表、而同一頁註腳寫著美國 510(k) 仍在審查中的系統，差別在限定條件被放進哪一個層級：該則的註腳同時擋住美國與其他所有市場（尚未在任何市場銷售），本則的註腳只擋美國，歐盟端已有 CE 標章，於是同一句「不能賣」在兩則裡涵蓋的範圍相差一整個歐洲: [Accela 宣告「放射治療的未來已到來」，註腳說還不能賣](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-兩則都是 C 臂類取像設備在年會現場的發表，而兩家公司把「證據」放在不同位置又都沒有放進研究：該則的產品頁設了一個標示為 Evidence 的區塊，裡面是假體影像與兩段使用者證言，本則連這樣一個區塊都沒有，整篇公告的 study 與 trial 命中數都是 0，兩則並讀可以看出取像端設備的證據形態仍由各廠商自訂: [Siemens Healthineers 在 DKOU 2026 發表行動式 C 臂 Cios Go ID：兩位醫院人員以現在式描述使用經驗，同一頁三行沒有編號的小字寫著這項產品尚未符合 MDR 2017/745 的全部要求、也尚未商業化供應](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
+兩則都是 C 臂類取像設備在年會現場的發表，而兩家公司把「證據」放在不同位置又都沒有放進研究：該則的產品頁設了一個標示為 Evidence 的區塊，裡面是假體影像與兩段使用者證言，本則連這樣一個區塊都沒有，整篇公告的 study 與 trial 命中數都是 0，兩則並讀可以看出取像端設備的證據形態仍由各廠商自訂: [醫院人員用現在式談使用經驗，小字說這產品還不能買](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
 
-同一家公司相隔十三天的兩次產品發表，自訂的證據門檻卻落在光譜的兩端：該則委託第三方做了有醫師參與的比較研究、公開白皮書並在三個官方頁面引用同一個數字，缺陷在於選擇了哪一組結果進新聞稿；本則連一個可被挑選的數字都不存在，於是連「選擇性報導」這個批評都無從成立: [GE HealthCare 發表 LOGIQ Focus 通用影像超音波系統，並在三個官方頁面引用同一項 Use-Lab 比較研究](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
+同一家公司相隔十三天的兩次產品發表，自訂的證據門檻卻落在光譜的兩端：該則委託第三方做了有醫師參與的比較研究、公開白皮書並在三個官方頁面引用同一個數字，缺陷在於選擇了哪一組結果進新聞稿；本則連一個可被挑選的數字都不存在，於是連「選擇性報導」這個批評都無從成立: [快 26% 比的是自家前代機，對競品那組沒進新聞稿](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
 ## 實務的啟發
 
