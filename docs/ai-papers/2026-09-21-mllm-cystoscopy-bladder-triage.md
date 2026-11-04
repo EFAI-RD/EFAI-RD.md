@@ -1,4 +1,7 @@
 ---
+title: "膀胱鏡影像交給通用多模態 LLM：提示詞與棄答門檻能換到多少可靠度？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.1007/s00345-026-06761-y"
 editors:
   - "Clare"

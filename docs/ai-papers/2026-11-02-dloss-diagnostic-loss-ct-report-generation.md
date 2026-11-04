@@ -1,4 +1,7 @@
 ---
+title: "DLoss：訓練時把「報告該寫的診斷詞」與「不該出現的診斷詞」分開施壓，六個 3D 腹部 CT 報告模型的 GREEN 平均多 4.05 分、外部資料多 4.28 分，推論不加成本；但評分全靠自動指標，各模型增益從不到 1 分到 14 分不等"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.30980"
 editors:
   - "Clare"

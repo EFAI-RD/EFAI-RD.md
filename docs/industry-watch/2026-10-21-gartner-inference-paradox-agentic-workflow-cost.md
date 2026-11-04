@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "推論成本要漲五倍以上，從多少漲起？Gartner 沒寫"
 category: industry-watch
 date: 2026-10-21

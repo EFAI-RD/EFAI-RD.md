@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra"
 category: industry-watch
 date: 2026-10-07

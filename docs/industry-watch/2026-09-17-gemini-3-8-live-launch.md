@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "Gemini 3.8 Live 拿下語音榜首，距那封調速宣言三天"
 category: industry-watch
 date: 2026-09-17

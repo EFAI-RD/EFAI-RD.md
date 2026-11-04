@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "快 26% 比的是自家前代機，對競品那組沒進新聞稿"
 category: industry-watch
 date: 2026-10-21

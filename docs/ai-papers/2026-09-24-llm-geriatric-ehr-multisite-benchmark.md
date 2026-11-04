@@ -1,4 +1,7 @@
 ---
+title: "規則引擎、GPT-4o 與微調小模型，誰讀得懂病歷裡的老年照護？四家院所、41 個構念的基準"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.1038/s44401-026-00114-y"
 editors:
   - "Clare"

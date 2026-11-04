@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "「逾 1,000 名病人」發生在這五個合作開始之前"
 category: industry-watch
 date: 2026-10-29

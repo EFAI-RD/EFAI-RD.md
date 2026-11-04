@@ -1,4 +1,7 @@
 ---
+title: "癌症登記缺了 54% 的轉移欄位，病歷補得回來嗎？NSCLC 病歷上，零樣本 MedGemma、Llama 3.1 與微調 GatorTron 的比較"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.2196/99573"
 editors:
   - "Clare"

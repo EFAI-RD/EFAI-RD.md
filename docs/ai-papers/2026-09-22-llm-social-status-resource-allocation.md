@@ -1,4 +1,7 @@
 ---
+title: "臨床條件一模一樣時，LLM 先給誰？30,618 次強制二選一的分配稽核"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.3390/jpm16090448"
 editors:
   - "Clare"

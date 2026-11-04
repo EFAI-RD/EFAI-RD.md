@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "Siemens 當天停售四款超音波，公告標題寫的是「聚焦」"
 category: industry-watch
 date: 2026-10-14

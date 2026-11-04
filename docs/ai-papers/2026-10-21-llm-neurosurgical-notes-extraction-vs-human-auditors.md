@@ -1,4 +1,7 @@
 ---
+title: "零樣本 LLM 讀德文神經外科病歷：最好的雲端模型在術前症狀與病程 F1 高過兩位初階稽核者，46 個術後併發症標籤上最好也只有 0.68"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.3390/make8100328"
 editors:
   - "Clare"

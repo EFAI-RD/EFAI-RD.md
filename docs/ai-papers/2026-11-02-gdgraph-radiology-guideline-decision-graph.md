@@ -1,4 +1,7 @@
 ---
+title: "放射指引先由 LLM 編成決策圖、再讓小模型逐節點作答：GDGraph 在 347 個病例文字上把 Jev 從 57.3% 拉到 90.8%，高於 RAG＋GPT-4o 的 80.1%；但病例取自已發表的病例報告並經 LLM 改寫，結果沒有信賴區間"
+parent: AI Papers
+nav_order: 5
 catalog_id: "arxiv:2610.40327"
 editors:
   - "Clare"

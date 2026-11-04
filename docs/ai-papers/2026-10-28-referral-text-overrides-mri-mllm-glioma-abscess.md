@@ -1,4 +1,7 @@
 ---
+title: "轉診單上一句話，就決定多模態 LLM 怎麼讀 MRI？膠質瘤 vs 腦膿瘍：四個模型的 text-driven span 0.79–1.00，叫它忽略文字也只有一個模型降到 0.04"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.64898/2026.10.17.26365809"
 editors:
   - "Clare"

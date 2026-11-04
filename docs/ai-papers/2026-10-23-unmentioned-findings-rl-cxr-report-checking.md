@@ -1,4 +1,7 @@
 ---
+title: "「沒提到」算不算「沒有」？RL 訓練的胸片 checklist 讓報告句查核在保留病人上 Y 升 12.6 個百分點（rule-based 查核；換成 MedGemma-4B 是 11.8），但換一個查核模型或格式，量到的增益就跟著變"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.05425"
 editors:
   - "Clare"

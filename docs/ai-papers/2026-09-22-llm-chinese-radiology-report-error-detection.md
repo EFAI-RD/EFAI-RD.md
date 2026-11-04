@@ -1,4 +1,7 @@
 ---
+title: "中文放射科報告的真實錯誤：八個 LLM 與八位人類讀者，誰抓得出來？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.2196/94689"
 editors:
   - "Colbert"

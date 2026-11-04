@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "DeepMind 說把數天縮成一次對話，全文沒量過任何一段時間"
 category: industry-watch
 date: 2026-10-29

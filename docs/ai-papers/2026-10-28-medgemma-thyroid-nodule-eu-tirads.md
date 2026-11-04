@@ -1,4 +1,7 @@
 ---
+title: "甲狀腺結節超音波交給微調 MedGemma 1.5 4B：只給影像與尺寸 AUROC 約 0.89，加上放射科醫師的 11 個描述詞才追平 EU-TIRADS，但 EU-TIRADS 本身就由同一組描述詞推得"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.64898/2026.10.21.26366156"
 editors:
   - "Clare"

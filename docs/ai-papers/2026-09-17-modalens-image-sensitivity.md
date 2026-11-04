@@ -1,4 +1,7 @@
 ---
+title: "ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.15635"
 editors:
   - "Colbert"

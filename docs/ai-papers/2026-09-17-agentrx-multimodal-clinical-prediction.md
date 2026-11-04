@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "AgentRx：多模態 ICU 預測裡，多代理真的比單一代理好嗎？"
 category: ai-papers
 date: 2026-09-17

@@ -1,4 +1,7 @@
 ---
+title: "序列胸片報告的時序判讀：七個 LLM、五種提示詞，分得出「新出現」嗎？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.3389/fdgth.2026.1919939"
 editors:
   - "Clare"

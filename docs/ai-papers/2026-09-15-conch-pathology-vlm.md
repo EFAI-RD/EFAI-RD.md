@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "CONCH：病理圖文預訓練如何轉成零樣本分類，評估又有哪些邊界？"
 category: ai-papers
 date: 2026-09-15

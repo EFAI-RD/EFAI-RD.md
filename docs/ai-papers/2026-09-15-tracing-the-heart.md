@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "Tracing the Heart：證據可追溯的心衰竭特徵工程管線（nMAS）"
 category: ai-papers
 date: 2026-09-15

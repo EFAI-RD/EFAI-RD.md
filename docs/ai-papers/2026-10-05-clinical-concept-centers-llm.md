@@ -1,4 +1,7 @@
 ---
+title: "病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.02829"
 editors:
   - "Clare"

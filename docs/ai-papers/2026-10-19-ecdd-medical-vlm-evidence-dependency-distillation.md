@@ -1,4 +1,7 @@
 ---
+title: "答對了，但有沒有看圖？ECDD 把「遮掉證據後信心掉多少」蒸餾給 3B 醫療 VLM：DME 病灶區域的特異反應從 0.79 升到 2.02，準確率幾乎不變"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.23469"
 editors:
   - "Clare"

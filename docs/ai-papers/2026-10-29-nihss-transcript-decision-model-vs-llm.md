@@ -1,4 +1,7 @@
 ---
+title: "從床邊檢查逐字稿直接打 NIHSS：112 個合成中風案例上，LLM 項目準確率 99.0%、decision model Jev 94.4% 但快約 40 倍；病例、逐字稿與答案卷都由 LLM 產生，人工審查尚未完成"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.64898/2026.10.23.26366376"
 editors:
   - "Clare"

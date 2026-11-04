@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "MedGemma 的五個落地案例，只有一個報得出用過幾次"
 category: industry-watch
 date: 2026-10-08

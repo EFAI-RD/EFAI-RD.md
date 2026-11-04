@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "那個 62.3% 屬於一位虛構病人，背書的高層是論文共同作者"
 category: industry-watch
 date: 2026-10-19

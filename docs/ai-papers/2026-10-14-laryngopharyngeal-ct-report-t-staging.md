@@ -1,4 +1,7 @@
 ---
+title: "把喉咽 CT 拆成七個器官節點，再讓放射報告逐器官補證據：喉咽癌 T 分期多模態模型在三個外部中心的表現"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.06837"
 editors:
   - "Clare"

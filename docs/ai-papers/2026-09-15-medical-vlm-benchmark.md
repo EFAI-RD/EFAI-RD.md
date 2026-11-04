@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "醫療 VLM 走了多遠？七套基準下沒有單一贏家，而原文宣稱的「推理弱於理解」在表中並不成立"
 category: ai-papers
 date: 2026-09-15

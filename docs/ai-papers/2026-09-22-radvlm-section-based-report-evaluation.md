@@ -1,4 +1,7 @@
 ---
+title: "報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.3389/fdgth.2026.1882716"
 editors:
   - "Clare"

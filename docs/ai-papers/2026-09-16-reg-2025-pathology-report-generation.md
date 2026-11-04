@@ -1,4 +1,7 @@
 ---
+title: "REG 2025：病理全切片到報告生成，榜單分數抓得到數值幻覺嗎？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.00866"
 editors:
   - "Colbert"

@@ -1,4 +1,7 @@
 ---
+title: "三個聊天介面零樣本讀 CCTA 報告分 CAD-RADS：DeepSeek-R1 與 ChatGPT-5 約八成、ChatGPT-4o 54%，900 份高風險報告被降到 3 以下的比例 2.6%–14.1%"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.3389/fcvm.2026.1909068"
 editors:
   - "Clare"

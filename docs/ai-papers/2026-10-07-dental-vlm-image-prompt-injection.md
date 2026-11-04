@@ -1,4 +1,7 @@
 ---
+title: "影像上多一行字，VLM 就改口說「沒有異常」：四個模型在牙科全景片上的 prompt injection 攻防評估"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.1038/s41598-026-74077-3"
 editors:
   - "Clare"

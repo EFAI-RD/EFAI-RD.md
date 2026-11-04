@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "「結塊慢 100 倍」出自單一個孔，成功標準是事後才定的"
 category: industry-watch
 date: 2026-10-28

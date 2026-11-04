@@ -1,4 +1,7 @@
 ---
+title: "量測值不再逐字吐出：HAD-VLM 讓 VLM 遇到「[」就改用 diffusion 直接輸出卡尺端點與長度，EchoNet-LVH 四項心臟超音波量測 MAE 比逐 token 輸出低 21–38%，但拿掉後處理時並未穩定勝過一個 MLP 回歸頭"
+parent: AI Papers
+nav_order: 2
 catalog_id: "arxiv:2610.32948"
 editors:
   - "Clare"

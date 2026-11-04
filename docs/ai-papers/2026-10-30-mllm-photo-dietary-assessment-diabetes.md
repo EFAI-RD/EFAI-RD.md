@@ -1,4 +1,7 @@
 ---
+title: "拍一張餐點照片就能算碳水嗎？八個多模態 LLM 在 SNAPMe 1,680 張餐前照片上：最好的 GPT-4o mini 碳水 MAE 13.3 g、只有 57% 的餐落在 ±10 g 內，作者判定還不能拿來算胰島素"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.64898/2026.10.21.26365949"
 editors:
   - "Clare"

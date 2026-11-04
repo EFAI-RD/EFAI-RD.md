@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "Amodei 要前沿調速，對手全表態；兩家的支持只有單一報導"
 category: industry-watch
 date: 2026-09-15

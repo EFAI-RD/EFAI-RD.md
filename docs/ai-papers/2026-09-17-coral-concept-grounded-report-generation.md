@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "CORAL：先找病灶、再說臨床概念，能讓醫療影像報告更可檢視嗎？"
 category: ai-papers
 date: 2026-09-17

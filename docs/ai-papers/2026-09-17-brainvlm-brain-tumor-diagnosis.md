@@ -1,4 +1,7 @@
 ---
+title: "BrainVLM：從多序列 MRI 到前瞻收案，信心分數能讓腦瘤診斷更可靠嗎？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.16597"
 editors:
   - "Colbert"

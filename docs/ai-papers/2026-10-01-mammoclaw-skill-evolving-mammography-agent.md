@@ -1,4 +1,7 @@
 ---
+title: "工具給齊了，凍結的 MLLM 就會讀乳房攝影嗎？MammoClaw 加上工具後 BI-RADS macro-F1 從 0.108 變 0.106，再加失敗軌跡演化的技能到 0.148，依評估集類別分布試算仍可能低於全猜 1 類的基準"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.31789"
 editors:
   - "Clare"

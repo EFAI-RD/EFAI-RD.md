@@ -1,3 +1,10 @@
+---
+title: Industry Watch
+nav_order: 4
+has_children: true
+has_toc: false
+---
+
 [Home](../) · [Industry Watch](./)
 
 # Industry Watch

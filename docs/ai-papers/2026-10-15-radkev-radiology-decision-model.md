@@ -1,4 +1,7 @@
 ---
+title: "不生成文字、直接給每個選項機率：RadKev 把 decision model 專科化到放射科，15 項任務平均多 4.9 點，換到外院報告卻沒有進步"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.64898/2026.10.07.26364991"
 editors:
   - "Clare"

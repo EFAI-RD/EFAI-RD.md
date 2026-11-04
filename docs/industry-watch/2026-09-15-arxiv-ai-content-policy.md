@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "幻覺引用沒抓掉，arXiv 可能禁你投稿一年"
 category: industry-watch
 date: 2026-09-15

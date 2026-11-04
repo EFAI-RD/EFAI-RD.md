@@ -1,4 +1,7 @@
 ---
+title: "CareConnect：把 LLM 擋在診斷之外，醫療掛號代理的安全如何驗證？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2607.05055"
 editors:
   - "Colbert"

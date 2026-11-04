@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "RADAR：把腹部 CT 拆成 18 個器官再對齊報告，通才模型能到專家水準嗎？"
 category: ai-papers
 date: 2026-09-21

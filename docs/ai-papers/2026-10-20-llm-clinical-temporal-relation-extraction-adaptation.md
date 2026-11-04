@@ -1,4 +1,7 @@
 ---
+title: "病歷時間關係抽取該怎麼調模型？i2b2 2012 上只調 query／value 的 QLoRA 讓 LLaMA3.1-8B 達 89.15% micro-F1，但每類只給一例時沒有一種做法超過 60%"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.2196/89957"
 editors:
   - "Clare"

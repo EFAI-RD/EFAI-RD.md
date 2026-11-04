@@ -1,4 +1,7 @@
 ---
+title: "算分交給程式、LLM 只抽參數：GPT-5.5 先把 55 個醫療計算器寫成驗證過的 Python 工具，Qwen3-8B 負責從病歷填表，MedCalc-Bench Verified 上 86.73%，剩下的錯多半出在讀病歷"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.21477"
 editors:
   - "Clare"

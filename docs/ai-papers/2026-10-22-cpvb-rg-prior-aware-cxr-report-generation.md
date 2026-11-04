@@ -1,4 +1,7 @@
 ---
+title: "CPVB-RG：把前後兩張胸片的「變化」與「共同結構」分開處理再寫報告，82M 解碼器對最接近的 prior-aware 基線 PriorRG 在 F1RadGraph 多 0.0090、VLScore 多 0.0582"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.28289"
 editors:
   - "Clare"

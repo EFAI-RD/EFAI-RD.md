@@ -1,4 +1,7 @@
 ---
+title: "不讓報告看見影像：乳癌病理的區域級歸因能撐起一份可稽核的報告嗎？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.3389/fimag.2026.1885292"
 editors:
   - "Clare"

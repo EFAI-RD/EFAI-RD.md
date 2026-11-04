@@ -1,4 +1,6 @@
 ---
+parent: AI Basics
+nav_order: 1
 title: "LLM 多代理系統：從 ReAct 到可對話協作"
 category: ai-basics
 date: 2026-09-15

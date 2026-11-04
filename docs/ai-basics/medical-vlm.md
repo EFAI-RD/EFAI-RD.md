@@ -1,4 +1,6 @@
 ---
+parent: AI Basics
+nav_order: 2
 title: "醫療視覺語言模型：從 CLIP 對齊到有定位報告"
 category: ai-basics
 date: 2026-09-17

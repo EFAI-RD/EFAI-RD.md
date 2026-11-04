@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "MAIRA-2：胸腔 X 光報告的文字正確，定位也正確嗎？"
 category: ai-papers
 date: 2026-09-15

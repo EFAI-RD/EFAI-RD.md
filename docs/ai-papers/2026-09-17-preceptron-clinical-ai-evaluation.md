@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "PrecepTron：把醫師評分學成 LLM 評審，能讓醫療 AI 評估更可重現嗎？"
 category: ai-papers
 date: 2026-09-17

@@ -1,4 +1,7 @@
 ---
+title: "MedGPT-oss：20B 模型能靠簡單架構與三階段資料配方追上更大的醫療 VLM 嗎？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2603.00842"
 editors:
   - "Colbert"

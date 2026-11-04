@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "放療生成式 AI 合作案：唯一的成效數字來自合作之前"
 category: industry-watch
 date: 2026-10-15

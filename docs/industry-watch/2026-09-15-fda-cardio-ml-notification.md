@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "FDA 給心血管 ML 軟體一個條號：通報，不是診斷"
 category: industry-watch
 date: 2026-09-15

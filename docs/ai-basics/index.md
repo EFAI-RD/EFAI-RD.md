@@ -1,3 +1,10 @@
+---
+title: AI Basics
+nav_order: 3
+has_children: true
+has_toc: false
+---
+
 [Home](../) · [AI Basics](./)
 
 # AI Basics

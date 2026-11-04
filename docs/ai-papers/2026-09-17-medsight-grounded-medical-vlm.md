@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "MedSIGHT：醫療 VLM 能否一邊診斷、一邊把病灶分割出來？"
 category: ai-papers
 date: 2026-09-17

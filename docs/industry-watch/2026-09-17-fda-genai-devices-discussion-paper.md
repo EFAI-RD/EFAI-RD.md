@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "GenAI 醫材要怎麼管？FDA 還在問，這不是指引"
 category: industry-watch
 date: 2026-09-17

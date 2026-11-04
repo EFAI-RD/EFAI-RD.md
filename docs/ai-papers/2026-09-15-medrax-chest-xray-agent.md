@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "MedRAX：工具代理如何改善胸腔 X 光問答？"
 category: ai-papers
 date: 2026-09-15
