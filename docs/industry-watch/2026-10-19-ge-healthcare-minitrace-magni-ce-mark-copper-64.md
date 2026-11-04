@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "公告說拿到 CE Mark，自家產品頁寫著 Not CE marked"
 category: industry-watch
 date: 2026-10-19

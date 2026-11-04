@@ -1,4 +1,7 @@
 ---
+title: "不生成理由、只讀 A–D 選項的機率：Qwen3.5-9B 分 ASA 身體狀態，比生成式提示快約 64 倍，再用 1,000 個在地標籤調三個門檻，κ 只比 LoRA 低約 0.02，標籤再多 LoRA 仍會拉開"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.64898/2026.10.20.26366028"
 editors:
   - "Clare"

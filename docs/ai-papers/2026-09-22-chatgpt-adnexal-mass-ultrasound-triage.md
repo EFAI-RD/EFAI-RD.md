@@ -1,4 +1,7 @@
 ---
+title: "把超音波描述交給 ChatGPT 判良惡性：300 顆附件腫塊，和 IOTA 規則、ADNEX 與專家差多少？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.3390/jimaging12090462"
 editors:
   - "Clare"

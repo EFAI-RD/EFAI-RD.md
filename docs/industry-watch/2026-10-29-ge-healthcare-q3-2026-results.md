@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "「各部門都成長」對這一季成立，對前九個月不成立"
 category: industry-watch
 date: 2026-10-29

@@ -1,4 +1,7 @@
 ---
+title: "把 AHA 分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%：頸動脈斑塊 MRI 報告的 LLM 輔助判讀，四位放射科醫師對文字參考標準的一致率從 69% 升到 85%（8B）與 90%（671B DeepSeek-R1）"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.1186/s13244-026-02421-2"
 editors:
   - "Clare"

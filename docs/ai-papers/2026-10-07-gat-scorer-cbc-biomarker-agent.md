@@ -1,4 +1,7 @@
 ---
+title: "病歷不出院，只放出一個打分器：LLM 代理靠它找血球計數生物標記，外部驗證只在部分世代站得住"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.04749"
 editors:
   - "Clare"

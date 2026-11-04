@@ -1,4 +1,7 @@
 ---
+title: "每次前向傳遞只看一張圖：WILSON 用多倍率 composite 取代數千個 tile，但每張切片會生成 10 張 composite，診斷資訊還剩多少？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.25123"
 editors:
   - "Clare"

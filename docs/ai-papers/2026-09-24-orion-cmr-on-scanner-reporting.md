@@ -1,4 +1,7 @@
 ---
+title: "掃完約 90 秒就吐出結構化報告：ORION-CMR 把整條心臟 MRI 判讀搬上掃描儀，臨床驗證只在單一中心"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.23950"
 editors:
   - "Clare"

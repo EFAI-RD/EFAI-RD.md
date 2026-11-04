@@ -1,4 +1,7 @@
 ---
+title: "MedicalBench：讓 LLM 指出病歷證據，隱性概念抽取真的更準嗎？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2605.20197"
 editors:
   - "Colbert"

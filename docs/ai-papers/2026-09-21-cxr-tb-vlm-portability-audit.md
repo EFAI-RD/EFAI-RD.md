@@ -1,4 +1,7 @@
 ---
+title: "稽核胸片結核篩檢的醫療 VLM：換一個評估條件，哪一種結論還站得住？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.21763"
 editors:
   - "Clare"

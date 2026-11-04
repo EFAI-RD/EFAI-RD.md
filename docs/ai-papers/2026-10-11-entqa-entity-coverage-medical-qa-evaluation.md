@@ -1,4 +1,7 @@
 ---
+title: "答對選項，也講到病人的關鍵線索了嗎？EntQA 用實體覆蓋率評醫療問答 LLM：模型層級與準確率同向，逐題訊號很弱"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.1371/journal.pdig.0001752"
 editors:
   - "Clare"

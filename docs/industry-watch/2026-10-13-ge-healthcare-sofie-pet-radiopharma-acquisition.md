@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "GE HealthCare 9.45 億買下自家代工廠，pan-cancer 只做兩種癌"
 category: industry-watch
 date: 2026-10-13

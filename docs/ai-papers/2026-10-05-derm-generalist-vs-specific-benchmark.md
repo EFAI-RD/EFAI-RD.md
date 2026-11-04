@@ -1,4 +1,7 @@
 ---
+title: "皮膚病灶良惡性分類：零樣本 VLM、微調 CNN 與凍結特徵，在十個資料設定下差多少？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.03193"
 editors:
   - "Clare"

@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？"
 category: ai-papers
 date: 2026-09-17

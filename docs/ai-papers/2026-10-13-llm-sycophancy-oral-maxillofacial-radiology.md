@@ -1,4 +1,7 @@
 ---
+title: "說是專科醫師的意見，LLM 就跟著改診斷？五個模型在 200 個口腔顎顏面放射情境下的 sycophancy 測試"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.3390/diagnostics16203296"
 editors:
   - "Clare"

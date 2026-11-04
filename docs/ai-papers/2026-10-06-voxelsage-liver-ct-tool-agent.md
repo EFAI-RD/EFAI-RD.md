@@ -1,4 +1,7 @@
 ---
+title: "量測交給程式、LLM 只負責調度：VoxelSage 的肝腫瘤 CT 工具代理，證據停在系統測試與模擬器"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.37648"
 editors:
   - "Clare"

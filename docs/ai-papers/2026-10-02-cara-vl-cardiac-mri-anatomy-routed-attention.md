@@ -1,4 +1,7 @@
 ---
+title: "先教 VLM 看對地方：CARA-VL 用解剖結構導引注意力，心臟 MRI 問答能走多遠？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.39899"
 editors:
   - "Clare"

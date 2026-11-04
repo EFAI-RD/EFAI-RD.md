@@ -1,4 +1,7 @@
 ---
+title: "阿茲海默症分期的 VLM：caption 拿掉診斷欄位後，MEMOIR-VLM 的 LLM 還贏得過 k-NN 嗎？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.3389/fncom.2026.1902258"
 editors:
   - "Clare"

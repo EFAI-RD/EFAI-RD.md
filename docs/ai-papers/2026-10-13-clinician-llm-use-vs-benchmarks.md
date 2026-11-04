@@ -1,4 +1,7 @@
 ---
+title: "臨床人員實際拿 LLM 做什麼？12.8 萬筆提問對照 58 個公開基準：文件工作占最多、診斷只占 3.7%，基準的題目組成對不上"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.11069"
 editors:
   - "Clare"

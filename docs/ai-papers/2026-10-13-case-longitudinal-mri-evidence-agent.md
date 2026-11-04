@@ -1,4 +1,7 @@
 ---
+title: "不把影像餵給模型，讓它自己去調：CASE 在 UK Biobank 縱向 MRI 上訓練 8B 證據蒐集代理，問題是標籤不一定看得見"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.39566"
 editors:
   - "Clare"

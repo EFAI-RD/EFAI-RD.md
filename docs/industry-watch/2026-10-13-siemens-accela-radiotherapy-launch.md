@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "Accela 宣告「放射治療的未來已到來」，註腳說還不能賣"
 category: industry-watch
 date: 2026-10-13

@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "放射科 AI 想免審，FDA 說不：舊許可不是通行證"
 category: industry-watch
 date: 2026-09-18

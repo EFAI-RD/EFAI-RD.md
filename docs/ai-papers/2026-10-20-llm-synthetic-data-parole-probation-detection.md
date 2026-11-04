@@ -1,4 +1,7 @@
 ---
+title: "一筆真實標註都不用：GPT-4o-mini 生成的 7,579 句合成資料（訓練集 5,305 句），換到 293 份 VA 病歷偵測假釋／緩刑，Llama 3.3-70B 以合成範例 few-shot 達 87% macro-F1、微調的 Llama 3.1-8B 達 81%，encoder 跌到 30%"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.2196/104586"
 editors:
   - "Clare"

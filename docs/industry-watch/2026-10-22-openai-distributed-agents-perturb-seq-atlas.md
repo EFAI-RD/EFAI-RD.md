@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "公告寫「引用逾 700 篇」，它連的論文寫的是「711 倍」"
 category: industry-watch
 date: 2026-10-22

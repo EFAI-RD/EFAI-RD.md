@@ -1,4 +1,7 @@
 ---
+title: "放射報告文字裡的錯，LLM 抓得到嗎？Qwen3 在雲南兩家醫院、14 萬份中文報告上 macro-F1 0.94 與 0.93，挑錯並分類的 recall 0.96 高過三位放射科醫師的 0.45–0.67；但比較集只含有錯的報告，醫師也看不到影像"
+parent: AI Papers
+nav_order: 4
 catalog_id: "doi:10.2196/106250"
 editors:
   - "Clare"

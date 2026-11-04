@@ -1,4 +1,7 @@
 ---
+title: "胸片 VLM 的視覺編碼器該學全域還是局部？九種預訓練目標、五項任務的對照實驗"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.31985"
 editors:
   - "Clare"

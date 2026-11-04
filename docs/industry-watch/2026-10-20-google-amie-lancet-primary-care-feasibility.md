@@ -1,4 +1,6 @@
 ---
+parent: Industry Watch
+nav_exclude: true
 title: "AMIE 的 90% 是前七名命中率，排第一的只有 56%"
 category: industry-watch
 date: 2026-10-20

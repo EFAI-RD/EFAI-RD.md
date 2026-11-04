@@ -1,4 +1,7 @@
 ---
+title: "一篇 pilot 的警訊：相似病例報告進了 prompt，胸片 VLM 會抄進別人的發現"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.31733"
 editors:
   - "Clare"

@@ -1,4 +1,7 @@
 ---
+title: "CoRE：把胸片標籤拆成 252 個「部位－發現」配對，以共現分組的 prompt 與區域證據調整凍結的 EVA-X，2.09M 可訓練參數下 macro AUROC 比 ML-VPT 高 0.0147"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.30584"
 editors:
   - "Clare"

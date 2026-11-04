@@ -1,4 +1,7 @@
 ---
+title: "EviGround-CT：LLM 寫的胸部 CT 報告逐句送去 3D 定位查核，整句當查詢讓 137 個生成發現中有標註支持的比例從 0.263 升到 0.365，但參考遮罩不完整、評估只有 100 例"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2610.33038"
 editors:
   - "Clare"

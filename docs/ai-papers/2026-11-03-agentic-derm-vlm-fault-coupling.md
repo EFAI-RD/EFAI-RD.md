@@ -1,4 +1,7 @@
 ---
+title: "工具與推理兩條路看的是同一張照片，交叉比對還查得到錯嗎？皮膚科 VLM 代理遇到照片上的注入文字時，先裁切病灶再檢索，讓錯誤中兩條路「錯得一樣」的比例從 43% 升到 71%"
+parent: AI Papers
+nav_order: 3
 catalog_id: "arxiv:2610.40913"
 editors:
   - "Clare"

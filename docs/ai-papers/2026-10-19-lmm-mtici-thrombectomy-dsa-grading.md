@@ -1,4 +1,7 @@
 ---
+title: "有手術報告時，GPT-5 的 mTICI 分級追得上醫師；只給 DSA 影像，一致性從 0.87 掉到 0.35：取栓後再灌流分級的多模態模型比較"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.21203/rs.3.rs-11013237/v1"
 editors:
   - "Clare"

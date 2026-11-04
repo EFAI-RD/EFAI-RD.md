@@ -1,4 +1,7 @@
 ---
+title: "先把左心室框出來，射出分率就會更準嗎？一條 10.5% 的分割天花板"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.19730"
 editors:
   - "Clare"

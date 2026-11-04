@@ -1,4 +1,7 @@
 ---
+title: "mNGS 報告上幾百個微生物，哪個才是致病菌？微調 Qwen3-8B 重現臨床判讀：保留集召回 92.44%、2025 年新一批 84.49%，但比樹模型多抓到的每個致病菌，要多付約 3 個假陽性"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.64898/2026.10.16.26361411"
 editors:
   - "Clare"

@@ -1,4 +1,7 @@
 ---
+title: "EviGen：從長期病歷挑證據、寫理由，再逐步驗證，能讓臨床 LLM 更可稽核嗎？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "arxiv:2609.18852"
 editors:
   - "Colbert"

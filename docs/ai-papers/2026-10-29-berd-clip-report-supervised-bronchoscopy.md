@@ -1,4 +1,7 @@
 ---
+title: "支氣管鏡報告的一句描述能當監督嗎？用 BERD 影像描述微調 BiomedCLIP：零樣本 macro AUPRC 從 0.184 升到 0.255–0.292，5% 病人標籤的線性探測就高過全標籤的 DINOv2 與 Swin-T"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.20944/preprints202610.2687.v1"
 editors:
   - "Clare"

@@ -1,3 +1,8 @@
+---
+title: Home
+nav_order: 1
+---
+
 # EFAI-RD.md
 
 醫療 AI 知識書庫，重點追蹤 **VLM / LLM** 研究與產業動態。

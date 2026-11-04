@@ -1,4 +1,7 @@
 ---
+title: "抽掉影像、留下理由：VLM 在 anti-VEGF 治療決策裡，OCT 到底出了多少力？"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.3390/bioengineering13080912"
 editors:
   - "Clare"

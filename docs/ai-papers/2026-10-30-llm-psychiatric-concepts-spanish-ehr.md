@@ -1,4 +1,7 @@
 ---
+title: "西語精神科病歷裡的 109 個症狀概念，開源 LLM 抓得到嗎？11 個模型零樣本 macro-F1 只有 0.20–0.60，LoRA 微調後 0.75–0.86 才與規則式 tNLP 打平；只用合成資料訓練的 Mistral-small-psych 為 0.79，換到另一家醫院 0.73"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.2196/93328"
 editors:
   - "Clare"

@@ -1,4 +1,7 @@
 ---
+title: "把病灶從乳房攝影上抹掉，VLM 會改口說「無法判斷」嗎？CARE-MVLM 用反事實三聯組訓練棄答與證據框"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.64898/2026.09.23.26363835"
 editors:
   - "Clare"

@@ -1,4 +1,6 @@
 ---
+parent: AI Papers
+nav_exclude: true
 title: "Lingshu：醫療 VLM 如何整合影像、文字與合成資料，RL 又帶來多少改變？"
 category: ai-papers
 date: 2026-09-15

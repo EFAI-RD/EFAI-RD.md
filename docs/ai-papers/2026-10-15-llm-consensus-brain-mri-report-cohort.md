@@ -1,4 +1,7 @@
 ---
+title: "三個 LLM 都同意才自動貼標：6,718 份腦 MRI 報告分正常／異常，參考集零錯誤的代價是約一半報告退回人工"
+parent: AI Papers
+nav_exclude: true
 catalog_id: "doi:10.64898/2026.10.06.26364312"
 editors:
   - "Clare"
