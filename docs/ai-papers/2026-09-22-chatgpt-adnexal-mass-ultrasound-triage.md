@@ -157,11 +157,11 @@ ChatGPT C、D、E 三個加入腹水、acoustic shadow 與 vascularized papillar
 
 兩篇都以網頁介面單次提交的方式稽核商用 LLM 的結構化文字判斷，也都碰到取樣參數不可控、單次抽樣把變異折進點估計的同一個可重現性邊界: [臨床條件一模一樣時，LLM 先給誰？30,618 次強制二選一的分配稽核](2026-09-22-llm-social-status-resource-allocation.md)
 
-本篇稽核的婦科骨盆腔超音波判讀正屬於該則停售的 general imaging 範疇，兩篇合看說明演算法與其賴以取像的硬體分屬兩個市場：本篇的評估問題不會因廠商組合變動而改變，但未來可用的取像平台會: [Siemens Healthineers 即日停售四款一般影像超音波系統：標題寫的是「聚焦」，公告未給被退出業務的任何數字，售後支援也沒有結束日期](../industry-watch/2026-10-14-siemens-ultrasound-general-imaging-exit.md)
+本篇稽核的婦科骨盆腔超音波判讀正屬於該則停售的 general imaging 範疇，兩篇合看說明演算法與其賴以取像的硬體分屬兩個市場：本篇的評估問題不會因廠商組合變動而改變，但未來可用的取像平台會: [Siemens 當天停售四款超音波，公告標題寫的是「聚焦」](../industry-watch/2026-10-14-siemens-ultrasound-general-imaging-exit.md)
 
 兩篇都把醫學影像的文字描述交給 LLM、再與既有的規則式分類方法比較；本篇以手術病理為答案，該研究以報告文字推得的共識分型為答案，並加上放射科醫師在 AI 輔助前後的 reader study，衡量的是對文字共識的一致率而不是診斷準確度: [把 AHA 分型規則寫進 prompt，8B 本地模型從 38.9% 升到 81.5%：頸動脈斑塊 MRI 報告的 LLM 輔助判讀，四位放射科醫師對文字參考標準的一致率從 69% 升到 85%（8B）與 90%（671B DeepSeek-R1）](2026-10-19-llm-carotid-plaque-aha-report-reader-study.md)
 
-本篇稽核的是讀超音波的演算法，該則記錄的是產生超音波影像的機器，而兩者的證據標準落差極大：本篇必須報出 300 顆腫塊的敏感度、特異度與對照方法才能下結論，該則的自動射出分率量測工具在兩個官方頁面上連一個一致性數字都沒有。兩篇並讀說明醫療 AI 的證據要求目前集中在判讀端，而取像端的變異同樣會進到病人的報告裡: [GE HealthCare 發表 LOGIQ Focus 通用影像超音波系統，並在三個官方頁面引用同一項 Use-Lab 比較研究](../industry-watch/2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
+本篇稽核的是讀超音波的演算法，該則記錄的是產生超音波影像的機器，而兩者的證據標準落差極大：本篇必須報出 300 顆腫塊的敏感度、特異度與對照方法才能下結論，該則的自動射出分率量測工具在兩個官方頁面上連一個一致性數字都沒有。兩篇並讀說明醫療 AI 的證據要求目前集中在判讀端，而取像端的變異同樣會進到病人的報告裡: [快 26% 比的是自家前代機，對競品那組沒進新聞稿](../industry-watch/2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
 同樣把超音波病灶的醫師描述交給語言模型、再和既有規則式風險系統比較，差別在於該研究微調 VLM 同時讀甲狀腺結節影像與 11 個描述詞、以細胞學為主要答案，並顯示對照組的門檻選擇（EU-TIRADS ≥4 或 ≥5）會改變模型看起來省下多少抽吸: [甲狀腺結節超音波交給微調 MedGemma 1.5 4B：只給影像與尺寸 AUROC 約 0.89，加上放射科醫師的 11 個描述詞才追平 EU-TIRADS，但 EU-TIRADS 本身就由同一組描述詞推得](2026-10-28-medgemma-thyroid-nodule-eu-tirads.md)
 

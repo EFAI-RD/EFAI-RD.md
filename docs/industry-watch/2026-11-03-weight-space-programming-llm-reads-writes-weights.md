@@ -1,5 +1,5 @@
 ---
-title: "MIT CSAIL 提出 Weight-Space Programming：標題說 LLM 能原生讀寫神經網路權重，而唯一一個行為稽核實驗在「只看權重」時四次全敗；Qwen3.5-0.8B 的 MATH-500 從 7.9% 升到 48.1%，同一張表裡命中 token 上限的比例從 93% 降到 33%，作者自己在附帶實驗寫明這是移除障礙、不是增加能力"
+title: "LLM 直接改權重，數學從 7.9% 到 48.1% —— 但它只是不再迴圈"
 category: industry-watch
 date: 2026-11-03
 updated: 2026-11-03
@@ -38,7 +38,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# MIT CSAIL 提出 Weight-Space Programming：標題說 LLM 能原生讀寫神經網路權重，而唯一一個行為稽核實驗在「只看權重」時四次全敗；Qwen3.5-0.8B 的 MATH-500 從 7.9% 升到 48.1%，同一張表裡命中 token 上限的比例從 93% 降到 33%，作者自己在附帶實驗寫明這是移除障礙、不是增加能力
+# LLM 直接改權重，數學從 7.9% 到 48.1% —— 但它只是不再迴圈
 
 ## 來源
 
@@ -169,11 +169,11 @@ Gemma 3 270M 很少迴圈（只有 8.5% 的作答達到 token 上限，Qwen 是 
 
 ## 與書庫其他文章的關係
 
-兩則談的是同一個模型 GPT-6 Astra，揭露姿態卻完全相反：該則記錄 OpenAI 自家公告除了 Terminal-Bench Science 的 68.1% 之外不公布任何絕對分數，外部無法設定門檻；本則是四位外部研究者把 Astra 的每一次輸入、輸出、推理摘要與評估腳本整包放上 GitHub，連失敗的那個實驗也留在裡面: [OpenAI 發布 GPT-6.1 Sol：五分之一價格逼近 Astra，但科學研究那一欄仍由 Astra 領先](2026-10-07-openai-gpt-6-1-sol-launch.md)
+兩則談的是同一個模型 GPT-6 Astra，揭露姿態卻完全相反：該則記錄 OpenAI 自家公告除了 Terminal-Bench Science 的 68.1% 之外不公布任何絕對分數，外部無法設定門檻；本則是四位外部研究者把 Astra 的每一次輸入、輸出、推理摘要與評估腳本整包放上 GitHub，連失敗的那個實驗也留在裡面: [GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra](2026-10-07-openai-gpt-6-1-sol-launch.md)
 
 兩者對神經網路做的是同一類手術，而誰拿刀不同：該研究以 sparse autoencoder 解出 ICD 章節的概念方向並在 11 個開源模型上做因果介入，方向由既定演算法算出；本則的 Experiment 8 是讓一個通用語言模型自己讀權重、自己指認那條造成迴圈的方向，再從兩層 MLP 的各 64 個輸出欄位把它減掉: [病歷讀進 LLM 之後，ICD 章節藏在模型的哪裡？Clinical Concept Centers 在 11 個開源模型裡找方向、做介入](../ai-papers/2026-10-05-clinical-concept-centers-llm.md)
 
-該則整理 FDA 對生成式 AI 醫材提出的監管問題，其中一項是上市後變更要如何追溯；本則示範的修改方式剛好把那個問題推到極端 —— 改動 0.016% 的權重、沒有訓練迴圈、沒有資料集、沒有梯度，傳統上用來證明一次變更做了什麼的那些紀錄全都不存在: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](2026-09-17-fda-genai-devices-discussion-paper.md)
+該則整理 FDA 對生成式 AI 醫材提出的監管問題，其中一項是上市後變更要如何追溯；本則示範的修改方式剛好把那個問題推到極端 —— 改動 0.016% 的權重、沒有訓練迴圈、沒有資料集、沒有梯度，傳統上用來證明一次變更做了什麼的那些紀錄全都不存在: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](2026-09-17-fda-genai-devices-discussion-paper.md)
 
 ## 實務的啟發
 

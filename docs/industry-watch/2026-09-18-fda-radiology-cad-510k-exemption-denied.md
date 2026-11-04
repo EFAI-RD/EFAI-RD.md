@@ -1,5 +1,5 @@
 ---
-title: "FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證"
+title: "放射科 AI 想免審，FDA 說不：舊許可不是通行證"
 category: industry-watch
 date: 2026-09-18
 updated: 2026-09-18
@@ -44,7 +44,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證
+# 放射科 AI 想免審，FDA 說不：舊許可不是通行證
 
 ## 來源
 
@@ -86,13 +86,13 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-兩則同屬 FDA 對 AI／ML 醫材的監管動作；該則把 De Novo 結果編入 Class II 成文分類、為 510(k) 開 predicate 之門，本則顯示 FDA 不願把門再開大到免除 510(k) 本身: [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](./2026-09-15-fda-cardio-ml-notification.md)
+兩則同屬 FDA 對 AI／ML 醫材的監管動作；該則把 De Novo 結果編入 Class II 成文分類、為 510(k) 開 predicate 之門，本則顯示 FDA 不願把門再開大到免除 510(k) 本身: [FDA 給心血管 ML 軟體一個條號：通報，不是診斷](./2026-09-15-fda-cardio-ml-notification.md)
 
-該則是徵求意見的討論文件，本則是具體請願的駁回定案；兩則對照可見 FDA「探索新框架」與「守住現行關卡」並行: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](./2026-09-17-fda-genai-devices-discussion-paper.md)
+該則是徵求意見的討論文件，本則是具體請願的駁回定案；兩則對照可見 FDA「探索新框架」與「守住現行關卡」並行: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](./2026-09-17-fda-genai-devices-discussion-paper.md)
 
-影像產品能不能到病人身上，同時卡在法規與供應鏈兩道關卡：本則處理前者（美國主管機關對放射科影像產品上市路徑的最終命令），該則處理後者（PET 放射性藥物的半衰期、運送半徑與代工網絡），兩則合看才是完整的可及性圖像: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](./2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+影像產品能不能到病人身上，同時卡在法規與供應鏈兩道關卡：本則處理前者（美國主管機關對放射科影像產品上市路徑的最終命令），該則處理後者（PET 放射性藥物的半衰期、運送半徑與代工網絡），兩則合看才是完整的可及性圖像: [GE HealthCare 9.45 億買下自家代工廠，pan-cancer 只做兩種癌](./2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-本則確認既有 clearance 不會自動延伸到後續產品、510(k) 這道關卡並未放寬，該則則是一個仍在 510(k) 審查中、卻已用「未來已到來」對外發表的放射治療系統，兩則合看可以看出「發表時點」與「可用時點」之間的制度性距離: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
+本則確認既有 clearance 不會自動延伸到後續產品、510(k) 這道關卡並未放寬，該則則是一個仍在 510(k) 審查中、卻已用「未來已到來」對外發表的放射治療系統，兩則合看可以看出「發表時點」與「可用時點」之間的制度性距離: [Accela 宣告「放射治療的未來已到來」，註腳說還不能賣](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
 ## 實務的啟發
 

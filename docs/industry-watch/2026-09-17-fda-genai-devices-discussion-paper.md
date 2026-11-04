@@ -1,5 +1,5 @@
 ---
-title: "FDA 徵求 GenAI 醫材監管意見：討論文件≠指引"
+title: "GenAI 醫材要怎麼管？FDA 還在問，這不是指引"
 category: industry-watch
 date: 2026-09-17
 updated: 2026-09-18
@@ -46,7 +46,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# FDA 徵求 GenAI 醫材監管意見：討論文件≠指引
+# GenAI 醫材要怎麼管？FDA 還在問，這不是指引
 
 ## 來源
 
@@ -90,15 +90,15 @@ FDA 在 2026 年 8 月就 generative AI（GenAI）-enabled medical devices 公�
 
 ## 與書庫其他文章的關係
 
-兩則同屬 CDRH 對 AI／ML 醫材的成文或準則脈絡；該則是已編入 21 CFR 的 Class II **最終命令**，本則是 GenAI 裝置的 **discussion paper／徵求意見**，尚未成為指引或規則: [FDA 將心血管 ML 通知軟體定為 Class II：通報≠診斷](./2026-09-15-fda-cardio-ml-notification.md)
+兩則同屬 CDRH 對 AI／ML 醫材的成文或準則脈絡；該則是已編入 21 CFR 的 Class II **最終命令**，本則是 GenAI 裝置的 **discussion paper／徵求意見**，尚未成為指引或規則: [FDA 給心血管 ML 軟體一個條號：通報，不是診斷](./2026-09-15-fda-cardio-ml-notification.md)
 
 該文說明多代理／工具編排概念；本則補上 FDA 對 agentic GenAI-enabled devices 是否需額外評估的官方徵求問題: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
 該文從文獻地圖顯示 agentic／multi-agent 醫療研究成長快、trial-grade 證據相對稀少；本則對應監管端開始把 agentic 能力與 postmarket monitoring 寫進討論框架: [醫療 LLM 評估落差：研究更嚴謹，為何證據反而更舊？](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md)
 
-本則徵求 GenAI 醫材監管意見、探索未來框架，該則則是 FDA 在具體請願上守住現行 510(k) 關卡的定案: [FDA 駁回放射科 AI 免 510(k) 請願：既有 clearance 不是後續產品的通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
+本則徵求 GenAI 醫材監管意見、探索未來框架，該則則是 FDA 在具體請願上守住現行 510(k) 關卡的定案: [放射科 AI 想免審，FDA 說不：舊許可不是通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
 
-本則整理 FDA 對生成式 AI 醫材提出的監管問題，其中一項是上市後變更要如何追溯；該則示範的修改方式剛好把那個問題推到極端 —— 改動 0.016% 的權重、沒有訓練迴圈、沒有資料集、沒有梯度，傳統上用來證明一次變更做了什麼的那些紀錄全都不存在: [MIT CSAIL 提出 Weight-Space Programming：標題說 LLM 能原生讀寫神經網路權重，而唯一一個行為稽核實驗在「只看權重」時四次全敗；Qwen3.5-0.8B 的 MATH-500 從 7.9% 升到 48.1%，同一張表裡命中 token 上限的比例從 93% 降到 33%，作者自己在附帶實驗寫明這是移除障礙、不是增加能力](2026-11-03-weight-space-programming-llm-reads-writes-weights.md)
+本則整理 FDA 對生成式 AI 醫材提出的監管問題，其中一項是上市後變更要如何追溯；該則示範的修改方式剛好把那個問題推到極端 —— 改動 0.016% 的權重、沒有訓練迴圈、沒有資料集、沒有梯度，傳統上用來證明一次變更做了什麼的那些紀錄全都不存在: [LLM 直接改權重，數學從 7.9% 到 48.1% —— 但它只是不再迴圈](2026-11-03-weight-space-programming-llm-reads-writes-weights.md)
 
 ## 實務的啟發
 

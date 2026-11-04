@@ -1,5 +1,5 @@
 ---
-title: "GE HealthCare 探索放射治療生成式 AI：公告裡唯一的成效數字屬於合作之前的既有軟體，而被引來證明「流程高度分歧」的那篇研究，同一句話寫著前四種路徑涵蓋約八成病例"
+title: "放療生成式 AI 合作案：唯一的成效數字來自合作之前"
 category: industry-watch
 date: 2026-10-15
 updated: 2026-10-15
@@ -39,7 +39,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# GE HealthCare 探索放射治療生成式 AI：公告裡唯一的成效數字屬於合作之前的既有軟體，而被引來證明「流程高度分歧」的那篇研究，同一句話寫著前四種路徑涵蓋約八成病例
+# 放療生成式 AI 合作案：唯一的成效數字來自合作之前
 
 ## 來源
 
@@ -128,15 +128,15 @@ GE HealthCare 在 2026-09-23 宣布與 Mass General Brigham 擴大研究合作�
 
 ## 與書庫其他文章的關係
 
-兩則相隔四天的放射腫瘤科公告來自互為競爭的兩家大廠，而 Mass General Brigham 同時是該則 Accela 七家顧問機構之一與本則的合作對象；兩則並讀可以看出同一家醫學中心的名字如何分別出現在兩種強度不同的宣稱裡 —— 該則把它列為尚未產出結果的顧問機構，本則則以它過去的自研軟體成效作為提要中唯一的數字: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
+兩則相隔四天的放射腫瘤科公告來自互為競爭的兩家大廠，而 Mass General Brigham 同時是該則 Accela 七家顧問機構之一與本則的合作對象；兩則並讀可以看出同一家醫學中心的名字如何分別出現在兩種強度不同的宣稱裡 —— 該則把它列為尚未產出結果的顧問機構，本則則以它過去的自研軟體成效作為提要中唯一的數字: [Accela 宣告「放射治療的未來已到來」，註腳說還不能賣](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-同一家公司相隔十二天的兩則公告指向同一條治療端路線：本則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而該則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+同一家公司相隔十二天的兩則公告指向同一條治療端路線：本則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而該則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [GE HealthCare 9.45 億買下自家代工廠，pan-cancer 只做兩種癌](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-兩則都是標題的效益語氣涵蓋範圍大於內文可核對的數字，差別在於程度：該則五個合作案至少各有一個可指認的進行階段與一個報出的篩檢量，本則的生成式 AI 部分則連一個數字都沒有，唯一的數字屬於合作之前的既有軟體: [Google 公布 MedGemma 全球落地案例：五個合作案裡只有一個報出 MedGemma 已完成的使用量](2026-10-08-medgemma-global-deployment-claims.md)
+兩則都是標題的效益語氣涵蓋範圍大於內文可核對的數字，差別在於程度：該則五個合作案至少各有一個可指認的進行階段與一個報出的篩檢量，本則的生成式 AI 部分則連一個數字都沒有，唯一的數字屬於合作之前的既有軟體: [MedGemma 的五個落地案例，只有一個報得出用過幾次](2026-10-08-medgemma-global-deployment-claims.md)
 
-同一家公司相隔三天的兩則公告剛好是同一個問題的兩端：本則的生成式 AI 部分連一個數字都沒有，該則則有一篇開放取用的同儕審查論文可供逐項回查；但兩則出現了同一個動作 —— 把論文裡帶限定條件的數字抽出來，限定條件留在原處，本則是略去讓步子句的後半段，該則是略去「這是模型對一位虛構病人的推算」: [GE HealthCare 發布密西根大學 End-tidal Control 研究：新聞稿裡的 62.3% 是論文為「典型病人」建構的模型推算值，而出面肯定這項研究的 GE 高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
+同一家公司相隔三天的兩則公告剛好是同一個問題的兩端：本則的生成式 AI 部分連一個數字都沒有，該則則有一篇開放取用的同儕審查論文可供逐項回查；但兩則出現了同一個動作 —— 把論文裡帶限定條件的數字抽出來，限定條件留在原處，本則是略去讓步子句的後半段，該則是略去「這是模型對一位虛構病人的推算」: [那個 62.3% 屬於一位虛構病人，背書的高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
 
-本則的放射治療生成式 AI 合作，在該則的季度財報裡被列為八條 innovation and commercial highlights 之一，而那是整份 5,251 字文件中唯一一條帶有 AI 字樣的項目；兩則並讀可以看出同一項合作在不同文件體裁裡的密度差距 —— 本則至少給出「前置期 30 天降到 8 天」這個可追問的數字，該則的季報連一個數字都沒有，而 `artificial intelligence` 在該文件裡只出現一次且位於風險因子清單: [GE HealthCare 公布 2026 年第三季財報：「各部門都成長、利潤率都擴張」成立於這一季，而同一份文件的前九個月欄位寫著淨利率 −20 個基點、調整後 EBIT 利潤率零變動，Patient Care Solutions 的九個月營收是 −4.0%](2026-10-29-ge-healthcare-q3-2026-results.md)
+本則的放射治療生成式 AI 合作，在該則的季度財報裡被列為八條 innovation and commercial highlights 之一，而那是整份 5,251 字文件中唯一一條帶有 AI 字樣的項目；兩則並讀可以看出同一項合作在不同文件體裁裡的密度差距 —— 本則至少給出「前置期 30 天降到 8 天」這個可追問的數字，該則的季報連一個數字都沒有，而 `artificial intelligence` 在該文件裡只出現一次且位於風險因子清單: [「各部門都成長」對這一季成立，對前九個月不成立](2026-10-29-ge-healthcare-q3-2026-results.md)
 
 ## 實務的啟發
 

@@ -158,7 +158,7 @@ agentic／multi-agent clinical systems 是成長最快的領域（每季 IRR 1.5
 
 該文解釋角色分工與協作機制；本篇補上研究治理視角，提醒 capability、safety 與 prospective evaluation 經常分屬不同文獻群: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
-該則對應監管端把代理式 GenAI 賦能裝置與上市後監測寫進討論框架；本篇則顯示 agentic／multi-agent 醫療文獻成長快、trial-grade 證據相對稀少: [FDA 徵求 GenAI 醫材監管意見：討論文件≠指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md)
+該則對應監管端把代理式 GenAI 賦能裝置與上市後監測寫進討論框架；本篇則顯示 agentic／multi-agent 醫療文獻成長快、trial-grade 證據相對稀少: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md)
 
 該文把評估落差縮到指標層級——自動指標彼此高度相關，卻不必然指向同一個臨床事實: [報告讀起來很順，就代表寫對了嗎？RadVLM 的分節評估](2026-09-22-radvlm-section-based-report-evaluation.md)
 

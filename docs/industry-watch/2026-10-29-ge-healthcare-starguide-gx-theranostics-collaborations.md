@@ -1,5 +1,5 @@
 ---
-title: "GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations"
+title: "「逾 1,000 名病人」發生在這五個合作開始之前"
 category: industry-watch
 date: 2026-10-29
 updated: 2026-10-29
@@ -52,7 +52,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# GE HealthCare 宣布五家機構評估 StarGuide GX：公告裡的「逾 1,000 名病人」是這五個合作開始之前就累積的經驗，而同一條 2.67 倍感度宣稱的量測註腳在六週內多了 with adaptations
+# 「逾 1,000 名病人」發生在這五個合作開始之前
 
 ## 來源
 
@@ -139,17 +139,17 @@ GE HealthCare 在 2026-10-20 的新聞稿宣布，Hadassah Medical Center（以�
 
 ## 與書庫其他文章的關係
 
-同一家公司把一個比較級數字放進公告、而比較對象都是自家前代機的兩個案例，差別在揭露位置：該則的「快 26 percent」在新聞稿正文就寫出比的是自家 LOGIQ P8，讀者在同一段就看得到比較對象；本則正文只寫「2.67 倍」，必須翻到註腳才知道比的是 NM/CT 870 DR 搭 LEHRS collimator，而該機種的產品頁又沒有公布絕對值: [GE HealthCare 發表 LOGIQ Focus 通用影像超音波系統，並在三個官方頁面引用同一項 Use-Lab 比較研究](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
+同一家公司把一個比較級數字放進公告、而比較對象都是自家前代機的兩個案例，差別在揭露位置：該則的「快 26 percent」在新聞稿正文就寫出比的是自家 LOGIQ P8，讀者在同一段就看得到比較對象；本則正文只寫「2.67 倍」，必須翻到註腳才知道比的是 NM/CT 870 DR 搭 LEHRS collimator，而該機種的產品頁又沒有公布絕對值: [快 26% 比的是自家前代機，對競品那組沒進新聞稿](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
-兩則都是在醫學會議現場以臨床人員的使用經驗描述一台產品，而同一頁的小字寫明它在相關市場尚不能商業供應：該則的限制是產品尚未符合 MDR 2017/745 的全部要求、未商業化供應，本則的限制是公告所稱可販售範圍為「部分歐盟成員國」，而受訪的五家機構中只有法國一家在歐盟境內。兩則合看可以看出「現場證言」與「法規小字」在同一頁並存已經是常態: [Siemens Healthineers 在 DKOU 2026 發表行動式 C 臂 Cios Go ID：兩位醫院人員以現在式描述使用經驗，同一頁三行沒有編號的小字寫著這項產品尚未符合 MDR 2017/745 的全部要求、也尚未商業化供應](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
+兩則都是在醫學會議現場以臨床人員的使用經驗描述一台產品，而同一頁的小字寫明它在相關市場尚不能商業供應：該則的限制是產品尚未符合 MDR 2017/745 的全部要求、未商業化供應，本則的限制是公告所稱可販售範圍為「部分歐盟成員國」，而受訪的五家機構中只有法國一家在歐盟境內。兩則合看可以看出「現場證言」與「法規小字」在同一頁並存已經是常態: [醫院人員用現在式談使用經驗，小字說這產品還不能買](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
 
-兩則都是在國際醫學年會發表、而同頁註腳寫明美國 510(k) 仍在審查中的系統，差別在歐洲端的狀態：該則的註腳寫的是尚未在任何市場銷售，本則已取得 CE Mark 並在部分歐盟成員國販售。把兩則放在一起可以看出「發表早於許可」這個做法在不同法規進度下會長成不同的樣子，而註腳的位置與密度則幾乎一致: [Siemens Healthineers 發表 Accela 放射治療系統：標題宣告「未來已到來」，同頁註腳寫明 510(k) 審查中、尚未在任何市場銷售](2026-10-13-siemens-accela-radiotherapy-launch.md)
+兩則都是在國際醫學年會發表、而同頁註腳寫明美國 510(k) 仍在審查中的系統，差別在歐洲端的狀態：該則的註腳寫的是尚未在任何市場銷售，本則已取得 CE Mark 並在部分歐盟成員國販售。把兩則放在一起可以看出「發表早於許可」這個做法在不同法規進度下會長成不同的樣子，而註腳的位置與密度則幾乎一致: [Accela 宣告「放射治療的未來已到來」，註腳說還不能賣](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-兩則都必須離開公告頁、去讀同一家公司的其他頁面才能確定法規與供應狀態，但矛盾出現的位置不同：該則是公司的產品頁與新聞稿對 CE Mark 直接互相牴觸，本則的產品目錄與公告並不牴觸（美國目錄沒有這台機器，正與公告一致），不一致出現在同一家公司前後兩篇新聞稿之間，對同一條感度宣稱的量測方法與同一台機器的可販售範圍給出不同寫法: [GE HealthCare 宣布 MINItrace Magni 取得 CE Mark：公告發出四天後，自家產品頁仍寫著 Not CE marked，而標題並列的 Copper-64 是另一條產線的能力](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
+兩則都必須離開公告頁、去讀同一家公司的其他頁面才能確定法規與供應狀態，但矛盾出現的位置不同：該則是公司的產品頁與新聞稿對 CE Mark 直接互相牴觸，本則的產品目錄與公告並不牴觸（美國目錄沒有這台機器，正與公告一致），不一致出現在同一家公司前後兩篇新聞稿之間，對同一條感度宣稱的量測方法與同一台機器的可販售範圍給出不同寫法: [公告說拿到 CE Mark，自家產品頁寫著 Not CE marked](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
 
-同屬 GE HealthCare 的 theranostics 布局，該則是治療端 —— 花 9.45 億美元買下放射性藥物配送的最後一哩，本則是造影端 —— 把評估鋪到三大洲五家機構；兩則的共同特徵是標題涵蓋面都大於公告內可核對的範圍，該則的 pan-cancer 實際只有兩種癌別的第三期試驗，本則的 next generation of theranostics imaging 實際只有一條倍數宣稱: [GE HealthCare 9.45 億美元收購 SOFIE Biosciences：買下 PET 放射性藥物的「最後一哩」，但 FAPI-74 的第三期試驗只涵蓋兩種癌別](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+同屬 GE HealthCare 的 theranostics 布局，該則是治療端 —— 花 9.45 億美元買下放射性藥物配送的最後一哩，本則是造影端 —— 把評估鋪到三大洲五家機構；兩則的共同特徵是標題涵蓋面都大於公告內可核對的範圍，該則的 pan-cancer 實際只有兩種癌別的第三期試驗，本則的 next generation of theranostics imaging 實際只有一條倍數宣稱: [GE HealthCare 9.45 億買下自家代工廠，pan-cancer 只做兩種癌](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-本則逐字比對了兩份相隔六週的 StarGuide GX 公告，而同一台機器在該則的季度財報裡只剩一條沒有任何數字的項目符號（`now 510(k) pending with the U.S. FDA`）；兩則並讀是同一件事的兩種揭露密度，而該則的分部表顯示 StarGuide GX 所屬的 Advanced Imaging Solutions 是三個分部中 Organic 成長最慢的一個: [GE HealthCare 公布 2026 年第三季財報：「各部門都成長、利潤率都擴張」成立於這一季，而同一份文件的前九個月欄位寫著淨利率 −20 個基點、調整後 EBIT 利潤率零變動，Patient Care Solutions 的九個月營收是 −4.0%](2026-10-29-ge-healthcare-q3-2026-results.md)
+本則逐字比對了兩份相隔六週的 StarGuide GX 公告，而同一台機器在該則的季度財報裡只剩一條沒有任何數字的項目符號（`now 510(k) pending with the U.S. FDA`）；兩則並讀是同一件事的兩種揭露密度，而該則的分部表顯示 StarGuide GX 所屬的 Advanced Imaging Solutions 是三個分部中 Organic 成長最慢的一個: [「各部門都成長」對這一季成立，對前九個月不成立](2026-10-29-ge-healthcare-q3-2026-results.md)
 
 ## 實務的啟發
 

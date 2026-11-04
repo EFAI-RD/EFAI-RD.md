@@ -1,5 +1,5 @@
 ---
-title: "arXiv CS 領域編輯負責人澄清未核對 LLM 內容的處罰：幻覺引用等可致一年禁投；官網條款本身寫的是作者責任、揭露與不得掛名 AI"
+title: "幻覺引用沒抓掉，arXiv 可能禁你投稿一年"
 category: industry-watch
 date: 2026-09-15
 updated: 2026-09-15
@@ -42,7 +42,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# arXiv CS 領域編輯負責人澄清未核對 LLM 內容的處罰：幻覺引用等可致一年禁投；官網條款本身寫的是作者責任、揭露與不得掛名 AI
+# 幻覺引用沒抓掉，arXiv 可能禁你投稿一年
 
 ## 來源
 
