@@ -15,6 +15,7 @@ has_toc: false
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-11-05 | [Google 公開健康 AI 評估框架，及格線留給各家自己訂](2026-11-05-google-health-ai-evaluation-framework.md) | Clarence | 2026-11-04 官方部落格，另有 arXiv:2611.05127 白皮書（2026-11-03）與 Gemini 4 Argon 安全報告；白皮書明寫不設通用數值切點、門檻由各團隊在各自 phase-gate 自訂，被連結的 Table 5.1 高風險情境 98.9 低於前代 Gemini 3.8 Flash 的 99.4 |
 | 2026-11-03 | [LLM 直接改權重，數學從 7.9% 到 48.1% —— 但它只是不再迴圈](2026-11-03-weight-space-programming-llm-reads-writes-weights.md) | Clarence | 2026-11-02 作者自建站研究部落格（單源，無 arXiv／DOI、未經同儕審查，但釋出完整 logs 與編輯後模型）；Experiment 7 僅憑權重四次嘗試全部失敗，放寬為可看注意力圖樣後才成立 |
 | 2026-11-03 | [標榜 AI 的介入影像新機，公告裡一個效能數字都沒有](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md) | Clarence | 2026-11-01 官方新聞稿（單源，待交叉驗證）；文章區 6,005 字元內 %／percent、study、trial、data、evidence 命中數皆為 0，`cleared` 全文兩次都在冠狀動脈與結構性心臟病那一句 |
 | 2026-11-02 | [Microsoft 說開源是為了重現，兩份資料都要另外申請](2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md) | Clarence | 2026-10-22 官方公告，同日論文刊於 Science（FREE ACCESS）；「近四倍準確率」與「一半甚至三分之一成本」分屬四個運作點中的不同者，急診案例組沒有任何運作點符合後者 |

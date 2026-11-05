@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 5
+nav_exclude: true
 title: "醫院人員用現在式談使用經驗，小字說這產品還不能買"
 category: industry-watch
 date: 2026-10-29
