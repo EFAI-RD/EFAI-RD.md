@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 3
+nav_order: 4
 title: "Microsoft 說開源是為了重現，兩份資料都要另外申請"
 category: industry-watch
 date: 2026-11-02
@@ -194,6 +194,8 @@ SDBench 與 MAI-DxO 的時間線如下，全部取自公告頁與論文本身：
 兩則的核心都是「訂標準的人與被評分的系統出自同一方」：該則的成功規格依技術報告自述是在看過結果之後才定下的；本則則是 benchmark、Gatekeeper、Judge 與受測系統 MAI-DxO 由同一個團隊設計，論文的利益揭露列出全體作者皆為 Microsoft 員工並持有股權、八位為相關專利申請案的發明人。差別在於本則把整套評分程式碼開源了，讓外部至少能檢視那把尺怎麼刻: [「結塊慢 100 倍」出自單一個孔，成功標準是事後才定的](2026-10-28-anthropic-drug-development-case-studies.md)
 
 該篇說明多代理編排的概念基礎與拓撲選擇，本則提供這套編排在診斷場景的一組有分母的量測：論文自述跨各家受測模型，DxO 編排讓 CPC 案例的準確率比最小提示基線平均高 7.9 個百分點、急診案例高 4.4 個百分點，而 DxO 的拓撲正是該篇描述的「模擬專家小組互相質疑」那一型: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
+
+兩則都是大廠把自家的健康 AI 評分裝置公開，公開的層級卻不同：本則公開的是一套可執行的 benchmark 與評分程式碼，爭點在訂尺的人與受測的系統出自同一方；該則公開的是訂尺的方法論而刻意不訂刻度，白皮書明寫及格門檻應由各團隊在各自的 phase-gate 自行共同設計，於是外部連「尺有沒有刻歪」都無從判斷: [Google 公開健康 AI 評估框架，及格線留給各家自己訂](2026-11-05-google-health-ai-evaluation-framework.md)
 
 ## 實務的啟發
 

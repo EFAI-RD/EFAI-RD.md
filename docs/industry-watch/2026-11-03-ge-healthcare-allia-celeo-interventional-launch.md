@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 2
+nav_order: 3
 title: "標榜 AI 的介入影像新機，公告裡一個效能數字都沒有"
 category: industry-watch
 date: 2026-11-03
