@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 1
+nav_order: 2
 title: "語言替病理 VLM 加了什麼？拿掉切片，答對率只掉 0.4 個百分點"
 catalog_id: "arxiv:2610.26805"
 editors:
@@ -166,6 +166,8 @@ CONCH 論文以 zero-shot 分類展示病理圖文預訓練的遷移能力，本
 REG 2025 從報告生成端指出病理 VLM 的榜單分數抓不到數值幻覺，本篇則從問答端補上另一個評估盲點：切片層級 VQA 的分數可以幾乎不依賴切片，而 REG2025 本身也列在本篇整理的公開基準表中: [REG 2025：報告生成分數上去了，腫瘤比例與分級仍會失真](2026-09-16-reg-2025-pathology-report-generation.md)
 
 ModaLens 在胸片加報告的情境下交換影像來量測醫療 VLM 是否仍看影像，本篇把同一類「拿掉或換掉影像」的對照搬到病理全切片問答，並加上選項位移、NOTA 與改寫三種格式對照: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎](2026-09-17-modalens-image-sensitivity.md)
+
+MedVTok 以 VQA 準確率比較不同視覺 tokenizer、差距約 1 個百分點，本篇則顯示切片層級 VQA 拿掉切片後答對率幾乎不變，兩篇合讀提醒 VQA 分數差距未必全部來自影像表徵: [MedVTok：影像任務平均領先，接上 LLM 的 VQA 只多 1.1 分](2026-11-05-medvtok-unified-medical-visual-tokenizer.md)
 
 ## 實務的啟發
 

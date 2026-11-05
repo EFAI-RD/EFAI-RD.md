@@ -169,6 +169,8 @@ RADAR 先用 TotalSegmentator 把腹部 CT 切成器官、再讓報告逐器官�
 
 EviGround-CT 在 CT 報告寫完之後，用 3D 驗證器替每個陽性發現句找影像證據，DLoss 則在訓練時直接壓低參考報告不支持的診斷詞機率，兩篇分別從「生成後查核」與「訓練時約束」處理 CT 報告裡沒有根據的發現: [EviGround-CT：CT 報告逐句送去定位查核，參考遮罩並不完整](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
 
+MedVTok 固定 LLM 端的訓練協定、只換凍結的視覺 tokenizer，DLoss 則固定視覺特徵、只改訓練目標，兩篇都以 GREEN 評估 3D CT 報告生成，而 DLoss 比較的 SPECTRE 與 HLIP 正是 MedVTok 用來對齊的兩個 3D 專家編碼器: [MedVTok：影像任務平均領先，接上 LLM 的 VQA 只多 1.1 分](2026-11-05-medvtok-unified-medical-visual-tokenizer.md)
+
 CPVB-RG 靠改影像端的融合模組提升胸片報告的 F1RadGraph，DLoss 則完全不動架構、只換訓練目標，兩篇代表報告生成改進的「改模型」與「改損失」兩條路，也都以 RadGraph 類指標衡量臨床內容: [CPVB-RG：把胸片的「變化」與「共同結構」分開處理再寫報告](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
 
 ## 實務的啟發
