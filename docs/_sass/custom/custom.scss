@@ -1,0 +1,40 @@
+// EFAI-RD 版面覆寫（just-the-docs v0.12.0）
+//
+// 主題預設在 lg（66.5rem）以上會把側欄撐成 calc(50% - 16.75rem)，
+// 並把內文鎖在 max-width: 50rem（800px）且以 .side-bar + .main 的
+// margin-left: max(16.5rem, 50% - 16.75rem) 推到畫面中央。結果是
+// 1680px 的螢幕上側欄佔 564px、內文 800px，右側空掉約 316px。
+//
+// 這裡改成：側欄固定 16.5rem（= 主題自己的 min-width），內文填滿
+// 其餘寬度，左右各留 3rem。
+//
+// 注意：margin-left 必須用 `.side-bar + .main` 覆寫 —— 主題用的就是
+// 這個選擇器，單寫 `.main` 的 specificity 不夠，會被蓋回去。
+// 行動版與 md 以下的排版不受影響。
+
+$efai-nav-width: 16.5rem; // 264px，與主題 $nav-width 一致
+$efai-content-gutter: 3rem; // 48px
+
+// md 以上：內文不再卡在 50rem
+@media (min-width: 50rem) {
+  .main {
+    max-width: none;
+  }
+}
+
+// lg 以上：側欄固定寬度，內文滿版
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: $efai-nav-width;
+  }
+
+  .side-bar + .main {
+    margin-left: $efai-nav-width;
+  }
+
+  .main-content-wrap {
+    max-width: none;
+    padding-right: $efai-content-gutter;
+    padding-left: $efai-content-gutter;
+  }
+}
