@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "先裁切再檢索，兩條路「錯得一樣」：交叉比對只抓得到 29%"
 catalog_id: "arxiv:2610.40913"
 editors:
