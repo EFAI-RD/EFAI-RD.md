@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "14 萬份中文報告挑錯：Qwen3 recall 0.96，醫師最高 0.67"
 catalog_id: "doi:10.2196/106250"
 editors:
