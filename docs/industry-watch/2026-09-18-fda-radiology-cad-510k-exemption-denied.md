@@ -17,6 +17,8 @@ source:
   event_date: "2026-09-17"
   official_url: "https://www.federalregister.gov/documents/2026/09/17/2026-19074/medical-devices-exemption-from-premarket-notification-radiology-computer-aided-detection-andor"
 related_articles:
+  - path: "2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md"
+    relation: "本則記錄 FDA 駁回放射科 CAD 軟體的 510(k) 免除請願、守住這道關卡；該則正好是這道關卡留下的公開產物 —— 因為沒有被免除，兩項功能各留下一份公開的 510(k) summary，外部才讀得到新聞稿沒寫的樣本數、信賴區間與適用族群限制"
   - path: "./2026-09-15-fda-cardio-ml-notification.md"
     relation: "same FDA AI/ML SaMD regulatory track; Class II codification vs 510(k) exemption denial"
   - path: "./2026-09-17-fda-genai-devices-discussion-paper.md"
@@ -95,6 +97,8 @@ evidence_reviewed: true
 影像產品能不能到病人身上，同時卡在法規與供應鏈兩道關卡：本則處理前者（美國主管機關對放射科影像產品上市路徑的最終命令），該則處理後者（PET 放射性藥物的半衰期、運送半徑與代工網絡），兩則合看才是完整的可及性圖像: [GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌](./2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
 本則確認既有 clearance 不會自動延伸到後續產品、510(k) 這道關卡並未放寬，該則則是一個仍在 510(k) 審查中、卻已用「未來已到來」對外發表的放射治療系統，兩則合看可以看出「發表時點」與「可用時點」之間的制度性距離: [Accela 宣告「放射治療的未來已到來」，註腳說還不能賣](2026-10-13-siemens-accela-radiotherapy-launch.md)
+
+本則記錄 FDA 駁回放射科 CAD 軟體的 510(k) 免除請願、守住這道關卡；該則正好是這道關卡留下的公開產物 —— 因為沒有被免除，兩項功能各留下一份公開的 510(k) summary，外部才讀得到新聞稿沒寫的樣本數、信賴區間與適用族群限制: [新聞稿只給 95.2%，FDA 摘要給了 63 人與跨零的區間](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md)
 
 ## 實務的啟發
 

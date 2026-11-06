@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 5
+nav_exclude: true
 title: "Anthropic 說 20 個夥伴，名單逐條數出來是 18 個"
 category: industry-watch
 date: 2026-10-30

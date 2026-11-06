@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 4
+nav_order: 5
 title: "Microsoft 說開源是為了重現，兩份資料都要另外申請"
 category: industry-watch
 date: 2026-11-02
