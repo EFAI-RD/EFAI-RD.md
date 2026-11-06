@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 2
+nav_order: 3
 title: "Google 公開健康 AI 評估框架，及格線留給各家自己訂"
 category: industry-watch
 date: 2026-11-05
@@ -28,6 +28,8 @@ related_articles:
     relation: "兩則都是大廠把自家的健康 AI 評分裝置公開：該則公開的是一套可執行的 benchmark 與評分程式碼，爭點在訂尺與受測者同屬一方；本則公開的是訂尺的方法論而刻意不訂刻度，白皮書明寫及格門檻應由各團隊在各自的 phase-gate 自行共同設計，於是外部連「尺有沒有刻歪」都無從判斷"
   - path: "2026-09-17-fda-genai-devices-discussion-paper.md"
     relation: "同一個問題的兩端：該則是主管機關就生成式 AI 醫材的監管考量徵詢意見，本則是技術供應商主動公開自家的評估方法論並在摘要裡明寫目標讀者包含 regulators，兩則並讀可以看出「誰來定義評估」這件事目前由兩邊各自推進，而本則的框架把量化門檻留空，正好是監管端最需要被填上的欄位"
+  - path: "2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md"
+    relation: "同一家公司相隔一天的兩則發布恰好構成對照：本則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，該則的示範卻是第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，而沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事"
 refs:
   blog:
     title: "We're sharing our framework for building safer and more helpful AI for health.（Google 官方部落格，2026-11-04）"
@@ -128,6 +130,8 @@ Google for Health 在 2026-11-04 發出一篇正文只有三段的部落格，�
 兩則都是大廠把自家的健康 AI 評分裝置公開：該則公開的是一套可執行的 benchmark 與評分程式碼，爭點在訂尺的人與受測的系統出自同一方；本則公開的是訂尺的方法論而刻意不訂刻度，白皮書明寫及格門檻應由各團隊在各自的 phase-gate 自行共同設計，於是外部連「尺有沒有刻歪」都無從判斷: [Microsoft 說開源是為了重現，兩份資料都要另外申請](2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
 
 同一個問題的兩端：該則是主管機關就生成式 AI 醫材的監管考量公開徵詢意見，本則是技術供應商主動公開自家的評估方法論並在摘要裡明寫目標讀者包含 regulators（主管機關），兩則並讀可以看出「誰來定義評估」這件事目前由兩邊各自推進，而本則的框架把量化門檻留空，正好是監管端最需要被填上的那一格: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](2026-09-17-fda-genai-devices-discussion-paper.md)
+
+同一家公司相隔一天的兩則發布恰好構成對照：本則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，該則的示範卻是第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，而沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [DeepMind 藥物設計示範：答案在代理程式動手前就寫好了](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
 
 ## 實務的啟發
 

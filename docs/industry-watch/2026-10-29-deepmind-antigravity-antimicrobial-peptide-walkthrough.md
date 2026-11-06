@@ -27,6 +27,8 @@ related_articles:
     relation: "同一家公司相隔七天的兩則發布，可回查程度相差一整個層級 —— 該則有同儕審查論文、開放預印本與試驗登錄可以逐項對照，問題只出在哪個百分比被挑出來放進標題；本則連一篇預印本都沒有，正文的 peer、paper、arXiv、DOI 命中數皆為零"
   - path: "2026-10-30-anthropic-ai-for-science-foundations-expansion.md"
     relation: "本則的三種加速說法分屬三個官方位置、沒有一個附得出絕對數值，該則的「數月變數小時」與「數週變數小時」是同一種寫法，差別在該則連被加速的工作是哪一項都沒有指明"
+  - path: "2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md"
+    relation: "同一產品線相隔十九天的下一篇科學示範，主題自蛋白質換到小分子，而本則記錄的那個缺口在該則只是換了位置：本則的 in hours 只出現在網頁中繼資料與產品頁、正文一次都沒量過時間，該則把「一小時」正式寫進了正文，但量測方式、樣本數與被壓縮的基準流程定義仍然三項皆無。兩則並讀可以看出同一種加速宣稱如何在版本之間變得更醒目而非更可查"
 refs:
   pr:
     title: "Google DeepMind：Accelerating the search for antimicrobial peptides with Google Antigravity（官方部落格，2026-10-15）"
@@ -175,6 +177,8 @@ UniProt 在同一頁也寫著：`machine learning AI models do make errors. We i
 同一家公司相隔七天的兩則發布，可回查程度相差一整個層級：該則有同儕審查論文、開放預印本與試驗登錄可以逐項對照，爭點只在哪一個百分比被挑進標題；本則的正文裡 `peer`、`paper`、`arXiv`、`DOI` 命中數全部為零，唯一能回查的對象是一個公開資料庫條目。把兩則並讀可以看出「同一家公司的官方發布」不是一種均質的證據等級: [AMIE 的 90% 是前七名命中率，排第一的只有 56%](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
 
 本則的三種加速說法分屬三個官方位置、沒有一個附得出絕對數值；該則的「數月變數小時」與「數週變數小時」是同一種寫法，差別在該則連被加速的工作是哪一項都沒有指明。兩則並讀可以看出相對倍數在缺少分母時，不論出現在效益側或成本側都同樣無法使用: [Anthropic 說 20 個夥伴，名單逐條數出來是 18 個](2026-10-30-anthropic-ai-for-science-foundations-expansion.md)
+
+同一產品線相隔十九天的下一篇科學示範，主題自蛋白質換到小分子，而本則記錄的那個缺口在該則只是換了位置：本則的 in hours 只出現在網頁中繼資料與產品頁、正文一次都沒量過時間，該則把「一小時」正式寫進了正文，但量測方式、樣本數與被壓縮的基準流程定義仍然三項皆無。兩則並讀可以看出同一種加速宣稱如何在版本之間變得更醒目而非更可查: [DeepMind 藥物設計示範：答案在代理程式動手前就寫好了](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
 
 ## 實務的啟發
 
