@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "病人 63.3% 選 AI 改寫的乳房報告，醫師只給 72%「正確」"
 catalog_id: "doi:10.1186/s13244-026-02423-0"
 editors:
@@ -130,6 +130,8 @@ evidence_reviewed: true
 ## 與書庫其他文章的關係
 
 兩篇都讓 LLM 只處理放射報告文字，但方向相反：雲南兩院那篇讓 LLM 替放射科醫師找出既有報告裡的錯，本篇讓 LLM 把報告改寫給病人看，醫師判定只有 72.0% 的改寫版至少正確、10.5% 可能誤導，正好是前一篇那類文字品管可以接手檢查的輸出: [14 萬份中文報告挑錯：Qwen3 recall 0.96，醫師最高 0.67](2026-11-02-llm-radiology-report-error-qa-multicenter.md)
+
+兩篇都讓病人與醫師分別評價病人端的 LLM 輸出，結論互相呼應：本篇病人偏好 AI 改寫版、醫師卻對正確性打折，Google 的看診準備研究則在同一批對話上發現病人自評與醫師評分校正後沒有顯著相關，兩篇都顯示病人偏好不能當作臨床品質的代理指標: [只改系統提示：病人備診感 57%→74%，自評與醫師評分無顯著相關](2026-11-06-llm-visit-preparation-randomized-study.md)
 
 ## 實務的啟發
 
