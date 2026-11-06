@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 3
+nav_order: 4
 title: "LLM 直接改權重，數學從 7.9% 到 48.1% —— 但它只是不再迴圈"
 category: industry-watch
 date: 2026-11-03
