@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "量測值不再逐字吐出：HAD-VLM 用 diffusion 輸出卡尺端點"
 catalog_id: "arxiv:2610.32948"
 editors:

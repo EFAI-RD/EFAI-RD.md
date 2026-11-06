@@ -160,6 +160,8 @@ CXR 只取前 48 小時內的 AP view；同一病人若有多張，取最後一�
 
 MammoClaw 在乳房攝影上得到與本篇相近的訊號：替凍結的代理加上工具本身不會改善 macro-F1，有差別的是從失敗軌跡蒸餾出的使用指引: [MammoClaw：給工具沒用，技能演化後仍可能輸給全猜一類](2026-10-01-mammoclaw-skill-evolving-mammography-agent.md)
 
+本篇建議把病人層級切分與 leakage 稽核列入重現清單，該研究則在 MIMIC 胸片＋EHR 預測上量出不做這一步時，查表就能追平最佳模型: [查表就追平最佳模型：胸片＋EHR 不平衡基準的病人洩漏](2026-11-06-cxr-ehr-imbalance-benchmark-patient-leakage.md)
+
 ## 實務的啟發
 
 1. **先比較同資料、同模型的單一代理 baseline。** 多代理若沒有在同一骨幹、同一模態與同一 test split 上勝過 single-agent，就不應以「可協作」取代實際增益。
