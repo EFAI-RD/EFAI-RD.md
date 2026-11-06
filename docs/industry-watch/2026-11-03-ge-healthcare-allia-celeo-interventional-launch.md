@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 3
+nav_order: 4
 title: "標榜 AI 的介入影像新機，公告裡一個效能數字都沒有"
 category: industry-watch
 date: 2026-11-03
@@ -20,6 +20,8 @@ source:
   official_url: "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-debuts-allia-celeo-a-ceiling-mounted-interventional-system-designed-for-smooth-procedural-flow-and-ai-powered-precision-imaging"
   single_source: true
 related_articles:
+  - path: "2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md"
+    relation: "同一家公司相隔兩天的兩次產品發表，可核對性落在兩端：本則整篇公告沒有任何效能數字，連「選擇了哪一組結果」都無從追問；該則給了兩個百分比，而且因為走的是 510(k) 路徑，同一批數據的完整版本連同樣本數與信賴區間都在 FDA 網站上公開"
   - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
     relation: "兩則都是在國際醫學年會上發表、而同一頁註腳寫著美國 510(k) 仍在審查中的系統，差別在限定條件被放進哪一個層級：該則的註腳同時擋住美國與其他所有市場（尚未在任何市場銷售），本則的註腳只擋美國，歐盟端已有 CE 標章，於是同一句「不能賣」在兩則裡涵蓋的範圍相差一整個歐洲"
   - path: "2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md"
@@ -156,6 +158,8 @@ GE HealthCare 在 2026-11-01 發表 Allia Celeo，一台天花板吊掛式的介
 兩則都是 C 臂類取像設備在年會現場的發表，而兩家公司把「證據」放在不同位置又都沒有放進研究：該則的產品頁設了一個標示為 Evidence 的區塊，裡面是假體影像與兩段使用者證言，本則連這樣一個區塊都沒有，整篇公告的 study 與 trial 命中數都是 0，兩則並讀可以看出取像端設備的證據形態仍由各廠商自訂: [醫院人員用現在式談使用經驗，小字說這產品還不能買](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
 
 同一家公司相隔十三天的兩次產品發表，自訂的證據門檻卻落在光譜的兩端：該則委託第三方做了有醫師參與的比較研究、公開白皮書並在三個官方頁面引用同一個數字，缺陷在於選擇了哪一組結果進新聞稿；本則連一個可被挑選的數字都不存在，於是連「選擇性報導」這個批評都無從成立: [快 26% 比的是自家前代機，對競品那組沒進新聞稿](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
+
+同一家公司相隔兩天的兩次產品發表，可核對性落在兩端：本則整篇公告沒有任何效能數字，連「選擇了哪一組結果」都無從追問；該則給了兩個百分比，而且因為走的是 510(k) 路徑，同一批數據的完整版本連同樣本數與信賴區間都在 FDA 網站上公開: [新聞稿只給 95.2%，FDA 摘要給了 63 人與跨零的區間](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md)
 
 ## 實務的啟發
 

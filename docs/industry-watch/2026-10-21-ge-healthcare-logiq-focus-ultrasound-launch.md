@@ -16,6 +16,8 @@ source:
   event_date: "2026-10-19"
   official_url: "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-expands-general-imaging-ultrasound-portfolio-with-logiq-focus-elevating-everyday-ultrasound-performance"
 related_articles:
+  - path: "2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md"
+    relation: "兩則都是同一家公司把一個比較級結果放進超音波新機公告，而被省略的那一半不同：本則省略的是對競品無時間差異的那一組，該則省略的是樣本數（63 人）與兩組差距的 95% 信賴區間（−18.7 到 15.5 個百分點）"
   - path: "2026-10-14-siemens-ultrasound-general-imaging-exit.md"
     relation: "相隔七天，兩家影像大廠對同一個市場區隔做出方向完全相反的決定，而雙方的公告都沒有提到對方"
   - path: "2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md"
@@ -159,6 +161,8 @@ GE HealthCare 在 2026-10-19 發表 LOGIQ Focus，定位是把高階機種的影
 同一家公司把一個比較級數字放進公告，而比較對象都是自家前代機的兩個案例，差別在揭露位置：本則的「快 26 percent」在新聞稿正文就寫出比的是自家 LOGIQ P8，讀者在同一段就看得到比較對象；該則正文只寫「2.67 倍」，必須翻到註腳才知道比的是 NM/CT 870 DR 搭 LEHRS collimator，而該機種的產品頁又沒有公布絕對值，倍數因此無法還原: [「逾 1,000 名病人」發生在這五個合作開始之前](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
 同一家公司相隔十三天的兩次產品發表，自訂的證據門檻卻落在光譜的兩端：本則委託第三方做了有醫師參與的比較研究、公開白皮書並在三個官方頁面引用同一個數字，缺陷在於選擇了哪一組結果進新聞稿；該則連一個可被挑選的數字都不存在，於是連「選擇性報導」這個批評都無從成立: [標榜 AI 的介入影像新機，公告裡一個效能數字都沒有](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
+
+兩則都是同一家公司把一個比較級結果放進超音波新機公告，而被省略的那一半不同：本則省略的是對競品無時間差異的那一組，該則省略的是樣本數（63 人）與兩組差距的 95% 信賴區間（−18.7 到 15.5 個百分點）: [新聞稿只給 95.2%，FDA 摘要給了 63 人與跨零的區間](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md)
 
 ## 實務的啟發
 
