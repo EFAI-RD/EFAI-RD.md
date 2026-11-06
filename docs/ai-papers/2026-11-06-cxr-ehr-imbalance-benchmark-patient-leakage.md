@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 1
+nav_order: 2
 title: "查表就追平最佳模型：胸片＋EHR 不平衡基準的病人洩漏"
 catalog_id: "arxiv:2611.07950"
 editors:
