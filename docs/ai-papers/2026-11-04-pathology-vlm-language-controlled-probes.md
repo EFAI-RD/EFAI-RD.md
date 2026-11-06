@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 3
+nav_order: 4
 title: "語言替病理 VLM 加了什麼？拿掉切片，答對率只掉 0.4 個百分點"
 catalog_id: "arxiv:2610.26805"
 editors:

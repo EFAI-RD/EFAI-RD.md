@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "病人 63.3% 選 AI 改寫的乳房報告，醫師只給 72%「正確」"
 catalog_id: "doi:10.1186/s13244-026-02423-0"
 editors:
