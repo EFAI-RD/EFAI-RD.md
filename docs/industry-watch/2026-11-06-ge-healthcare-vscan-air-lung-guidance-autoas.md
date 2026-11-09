@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 1
+nav_order: 2
 title: "新聞稿只給 95.2%，FDA 摘要給了 63 人與跨零的區間"
 category: industry-watch
 date: 2026-11-06

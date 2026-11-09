@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 3
+nav_order: 4
 title: "Google 公開健康 AI 評估框架，及格線留給各家自己訂"
 category: industry-watch
 date: 2026-11-05
@@ -30,6 +30,8 @@ related_articles:
     relation: "同一個問題的兩端：該則是主管機關就生成式 AI 醫材的監管考量徵詢意見，本則是技術供應商主動公開自家的評估方法論並在摘要裡明寫目標讀者包含 regulators，兩則並讀可以看出「誰來定義評估」這件事目前由兩邊各自推進，而本則的框架把量化門檻留空，正好是監管端最需要被填上的欄位"
   - path: "2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md"
     relation: "同一家公司相隔一天的兩則發布恰好構成對照：本則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，該則的示範卻是第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，而沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事"
+  - path: "2026-11-09-google-ai-healthcare-professionals-certificate.md"
+    relation: "同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：本則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，該則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻"
 refs:
   blog:
     title: "We're sharing our framework for building safer and more helpful AI for health.（Google 官方部落格，2026-11-04）"
@@ -132,6 +134,8 @@ Google for Health 在 2026-11-04 發出一篇正文只有三段的部落格，�
 同一個問題的兩端：該則是主管機關就生成式 AI 醫材的監管考量公開徵詢意見，本則是技術供應商主動公開自家的評估方法論並在摘要裡明寫目標讀者包含 regulators（主管機關），兩則並讀可以看出「誰來定義評估」這件事目前由兩邊各自推進，而本則的框架把量化門檻留空，正好是監管端最需要被填上的那一格: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](2026-09-17-fda-genai-devices-discussion-paper.md)
 
 同一家公司相隔一天的兩則發布恰好構成對照：本則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，該則的示範卻是第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，而沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [DeepMind 藥物設計示範：答案在代理程式動手前就寫好了](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
+
+同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：本則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，該則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻: [Google 醫療 AI 認證說經領先醫療組織審閱，官方頁無一具名](2026-11-09-google-ai-healthcare-professionals-certificate.md)
 
 ## 實務的啟發
 

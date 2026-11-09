@@ -31,6 +31,8 @@ related_articles:
     relation: "同一家公司相隔七天的兩則發布，可回查程度相差一整個層級：本則有同儕審查論文、開放預印本與試驗登錄可以逐項對照，爭點只在哪一個百分比被挑進標題；該則的正文裡 `peer`、`paper`、`arXiv`、`DOI` 命中數全部為零，唯一能回查的對象是一個公開資料庫條目。把兩則並讀可以看出「同一家公司的官方發布」不是一種均質的證據等級"
   - path: "2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md"
     relation: "兩則都是大廠宣傳一套自家診斷 AI 勝過醫師，而真正決定數字意義的限定條件被留在被連結的論文裡：本則的 90% 實為前七名清單的命中率、排第一名只有 56%；該則的「準確率」是另一個大型語言模型依五級準則給出 4 到 5 分的比例，而被比下去的是單獨作業、只能讀文字的一般科醫師"
+  - path: "2026-11-09-google-ai-healthcare-professionals-certificate.md"
+    relation: "兩則的數字都只給了上限：本則的 90% 是前七名清單的命中率、排第一只有 56%，該則的 5.0 個繼續教育學分同樣是 maximum，而課程頁自己寫醫師只能按實際參與程度申報，公告轉述時兩句都只搬了前半"
 refs:
   blog:
     title: "Google：Study in The Lancet suggests AI could improve patient-physician relationships.（面向一般讀者的官方部落格）"
@@ -154,6 +156,8 @@ Google 在 2026-10-08 以一篇 288 個英文字的部落格，向一般讀者�
 兩則都是大廠宣傳一套自家診斷 AI 勝過醫師，而真正決定數字意義的限定條件被留在被連結的論文裡：本則的 90% 實為前七名清單的命中率、排第一名只有 56%；該則的「準確率」是另一個大型語言模型依五級準則給出 4 到 5 分的比例，而被比下去的是單獨作業、只能讀文字的一般科醫師: [Microsoft 說開源是為了重現，兩份資料都要另外申請](2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
 
 該則是 Google for Health 公開的健康 AI 評估框架白皮書，把 Objective Structured Clinical Examination（OSCE，客觀結構式臨床測驗）式的對話評估列為方法演進的一個階段，所引用的正是本則這條 AMIE 研究路線（Tu 等人 2025 年 Nature 論文，白皮書參考文獻 9）；而本則抓到的「90% 其實是前七名清單命中率」恰好是該框架承認卻刻意不替外部解決的那一類問題 —— 白皮書明寫量化通過門檻應由各團隊在各自的 phase-gate 自行共同設計，於是分母與及格線都留在產品團隊內部: [Google 公開健康 AI 評估框架，及格線留給各家自己訂](2026-11-05-google-health-ai-evaluation-framework.md)
+
+兩則的數字都只給了上限：本則的 90% 是前七名清單的命中率、排第一只有 56%，該則的 5.0 個繼續教育學分同樣是 maximum，而課程頁自己寫醫師只能按實際參與程度申報，公告轉述時兩句都只搬了前半: [Google 醫療 AI 認證說經領先醫療組織審閱，官方頁無一具名](2026-11-09-google-ai-healthcare-professionals-certificate.md)
 
 ## 實務的啟發
 

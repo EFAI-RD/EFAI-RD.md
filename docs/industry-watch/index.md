@@ -15,6 +15,7 @@ has_toc: false
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-11-09 | [Google 醫療 AI 認證說經領先醫療組織審閱，官方頁無一具名](2026-11-09-google-ai-healthcare-professionals-certificate.md) | Clarence | 2026-10-29 官方部落格，另有 grow.google 課程頁與 Coursera 課程頁（內容同源，待獨立驗證）；「reviewed by leading academic and professional organizations」在三個官方頁面中無一具名任何組織，公告具名的四所學校都是採用方；課程時數三頁有三種說法（約四小時／未滿五小時／逐課加總五小時），而學分上限 5.0 附帶「按實際參與程度申報」的條件，公告只搬了上限 |
 | 2026-11-06 | [DeepMind 藥物設計示範：答案在代理程式動手前就寫好了](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md) | Clarence | 2026-11-03 官方部落格（單源，待交叉驗證）；示範案例由公告自己標為 well-known case，MMPA 結論被寫成 as expected，正文 %、accuracy、AUC、RMSE、peer、arXiv、DOI 命中皆為 0，唯一能外部核對的兩個數字是 crizotinib 的 5 與 lorlatinib 的 0 個可旋轉鍵 |
 | 2026-11-06 | [新聞稿只給 95.2%，FDA 摘要給了 63 人與跨零的區間](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md) | Clarence | 2026-11-03 官方新聞稿，另有 FDA 公開的兩份 510(k) summary（Lung Guidance K261042、AutoAS K254161）；新聞稿的 95.2% 對 96.8% 來自 63 位病人，FDA 摘要同時載明兩組差距為 −1.6 個百分點、95% 信賴區間 −18.7 到 15.5 |
 | 2026-11-05 | [Google 公開健康 AI 評估框架，及格線留給各家自己訂](2026-11-05-google-health-ai-evaluation-framework.md) | Clarence | 2026-11-04 官方部落格，另有 arXiv:2611.05127 白皮書（2026-11-03）與 Gemini 4 Argon 安全報告；白皮書明寫不設通用數值切點、門檻由各團隊在各自 phase-gate 自訂，被連結的 Table 5.1 高風險情境 98.9 低於前代 Gemini 3.8 Flash 的 99.4 |
