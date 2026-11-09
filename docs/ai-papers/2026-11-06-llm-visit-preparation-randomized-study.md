@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 1
+nav_order: 2
 title: "只改系統提示：病人備診感 57%→74%，自評與醫師評分無顯著相關"
 catalog_id: "arxiv:2610.41437"
 editors:

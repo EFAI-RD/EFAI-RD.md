@@ -178,6 +178,8 @@ RADAR 的跨族群評估把 Lingshu 列為未微調的比較對象（in-scope 21
 
 CASE 把 Lingshu-32B 與 7B 放進需要自己調閱影像與量測的縱向 MRI 任務，兩者在相同工具條件下的 Micro 準確率為 49.9% 與 45.5%，低於多數通用前沿模型: [CASE：讓 8B 代理自己去調縱向 MRI，但標籤不一定看得見](2026-10-13-case-longitudinal-mri-evidence-agent.md)
 
+NPCBench 把 Lingshu-7B 與 32B 放進鼻咽癌的病理、MRI 分期與照護路徑評估，32B 在 CarePath 的 Care 為 55.3%、同一病人全對的 Strict 只有 2.0%，可補上本篇模型在次專科病程任務上的邊界: [NPCBench：照護題答對近九成，同一位鼻咽癌病人全對最多 23%](2026-11-09-npcbench-nasopharyngeal-carepath-benchmark.md)
+
 ## 實務的啟發
 
 以下是本書庫依上述結果提出的工程建議：
