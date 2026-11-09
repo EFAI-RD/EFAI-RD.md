@@ -157,6 +157,8 @@ evidence_reviewed: true
 
 時間關係抽取那篇在 i2b2 上比較 standard fine-tuning、hard-／soft-prompting 與 QLoRA 等需要訓練的調適策略，並看到每類只給一例時沒有一種做法超過 60%；本篇則比較不訓練的零樣本／few-shot 提示與 LoRA 微調，兩篇都顯示病歷抽取的表現高度依賴調適方式與標註量，也都在換資料來源後看到表現下降: [病歷時間關係抽取：QLoRA 達 89.15%，每類一例時沒有一種破 60%](2026-10-20-llm-clinical-temporal-relation-extraction-adaptation.md)
 
+本篇的 11 個開源 LLM 都以 4-bit 量化在本機執行，但沒有和全精度版本比較；量化 LLM 那篇在生醫文獻基準上系統比較全精度、8-bit 與 4-bit，顯示 4-bit 通常只小幅改變平均分數、8-bit 反而更慢且掉分較多，可用來判斷本篇的表現差異有多少可能來自量化本身: [生醫 LLM 量化：4-bit 省約 68% 記憶體，8-bit 反而最慢](2026-11-09-quantized-llm-biomedical-nlp-evaluation.md)
+
 ## 實務的啟發
 
 - **可借用的做法** — 病歷概念抽取若已有一定量的在地標註，LoRA 微調中型開源模型比零樣本或 few-shot 提示可靠得多；本篇在同一批 109 個概念上，從 0.20–0.74 拉到 0.75–0.86。這是單一國家、精神科場域的結果，換語言或科別前需要複驗。
