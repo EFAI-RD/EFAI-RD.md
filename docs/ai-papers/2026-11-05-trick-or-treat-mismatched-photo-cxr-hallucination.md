@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 3
+nav_order: 4
 title: "配上不相符的胸片，照片幻覺從 25–37.5% 升到 45–57.5%"
 catalog_id: "arxiv:2611.06631"
 editors:
