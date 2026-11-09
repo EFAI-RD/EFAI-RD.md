@@ -37,7 +37,7 @@ MedicalBench 不只問大型語言模型（large language model, LLM）能否從
 
 ## 背景／問題
 
-病歷中的診斷不一定直接寫出名稱：低血紅素可能暗示貧血，BMI 37 可能暗示肥胖；同一概念的證據也可能散落在用藥、處置與病程段落。若系統只做關鍵字對齊，就會漏掉隱性概念，也可能把「排除心肌梗塞」誤判成已確診的心肌梗塞。[(ref: main §1)](https://arxiv.org/html/2605.20197v1#S1) [(ref: main case studies)](https://arxiv.org/html/2605.20197v1#S4.SS6)
+病歷中的診斷不一定直接寫出名稱：低血紅素可能暗示貧血，BMI 37 可能暗示肥胖；同一概念的證據也可能散落在用藥、處置與病程段落。若系統只做關鍵字對齊，就會漏掉隱性概念，也可能因為病歷出現「心肌梗塞」字樣，就把尚未確診、而且指的是陳舊性梗塞的概念判成成立。[(ref: main §1)](https://arxiv.org/html/2605.20197v1#S1) [(ref: main case studies)](https://arxiv.org/html/2605.20197v1#S4.SS6)
 
 MedicalBench 因此把概念抽取改寫為「驗證加定位」：輸入一份出院摘要與一個候選醫療概念，模型必須判斷病歷是否支持它；若支持，還要找出相應句子。這使評估能分開觀察最終判斷與證據回溯，而不是只看一個代碼有沒有猜中。[(ref: main §1)](https://arxiv.org/html/2605.20197v1#S1) [(ref: main §3)](https://arxiv.org/html/2605.20197v1#S3)
 
