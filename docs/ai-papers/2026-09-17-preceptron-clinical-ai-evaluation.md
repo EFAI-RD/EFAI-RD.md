@@ -43,7 +43,7 @@ evidence_reviewed: true
 
 - **團隊：** Harvard Medical School、Beth Israel Deaconess Medical Center、Stanford University、University of Alberta、MIT、Massachusetts General Hospital、Erasmus Medical Center、University of Maryland、VA Maryland Healthcare System、Brigham and Women’s Hospital 等 14 個單位的 17 位作者。[(ref: main p.1)](https://arxiv.org/pdf/2609.12822v1#page=1)
 - **論文：** Thomas A. Buckley et al., *Scaling Clinical Judgment to Evaluate Medical AI*，arXiv:2609.12822v1，2026-09-11。[(ref: arXiv abstract)](https://arxiv.org/abs/2609.12822)
-- **識別碼：** [arXiv:2609.12822](https://arxiv.org/abs/2609.12822)；[DOI: 10.48550/arXiv.2609.12822](https://doi.org/10.48550/arXiv.2609.12822)（arXiv 標示為待註冊）。
+- **識別碼：** [arXiv:2609.12822](https://arxiv.org/abs/2609.12822)；[DOI: 10.48550/arXiv.2609.12822](https://doi.org/10.48550/arXiv.2609.12822)。
 - **原文與資源：** [完整 PDF](https://arxiv.org/pdf/2609.12822v1)、[GRAND-ROUNDS 資料集](https://huggingface.co/datasets/tbuckley/GRAND-ROUNDS)、[PrecepTron 模型集合](https://huggingface.co/collections/tbuckley/preceptron)、[專案頁](https://preceptron.net/)。
 
 **編輯：** Colbert
@@ -77,13 +77,13 @@ held-out 評估同時看兩個指標：一是落在允許誤差內的 accuracy�
 | 任務 | 評分尺度／用途 | 釋出 records |
 |---|---|---:|
 | Grey Matters management | 個別病例、多準則處置評分 | 2,765 |
-| BIDMC ER | 0–5 Bond score；急診不同時間點的鑑別診斷 | 911 |
+| BIDMC ER | 0–5 Bond score；急診不同時間點的鑑別診斷 | 未釋出 |
 | NEJM CPC diagnosis | 0–5 Bond score；鑑別診斷 | 853 |
 | NEJM Healer | 0–10 R-IDEA；臨床推理文件 | 312 |
 | Landmark diagnostic | 19 點結構化診斷推理量表 | 278 |
 | NEJM CPC testing plan | 0–2；檢查計畫，未進主要 judge 實驗 | 131 |
 
-*資料表依官方資料卡與 Methods 重整；records 合計 5,250。部分病例文字受出版社著作權或受保護健康資訊限制而未釋出。[(ref: dataset card)](https://huggingface.co/datasets/tbuckley/GRAND-ROUNDS#benchmarks) [(ref: main p.21)](https://arxiv.org/pdf/2609.12822v1#page=21)*
+*資料表依官方資料卡與 Methods 重整。論文六項任務合計 5,250 筆；官方資料卡只釋出其中五項共 4,339 筆、7,395 個獨立醫師分數，BIDMC 急診任務因含受保護健康資訊整項未釋出。已釋出的五項裡只有 Grey Matters 附完整病例文字，其餘四項的病例文字受出版社著作權或尚未公開而未附。[(ref: dataset card)](https://huggingface.co/datasets/tbuckley/GRAND-ROUNDS#benchmarks) [(ref: main p.21)](https://arxiv.org/pdf/2609.12822v1#page=21)*
 
 ### 2. 校準配方
 
@@ -131,7 +131,7 @@ LoRA 套在 Qwen3-32B 每個 transformer block 的 query、key、value、output�
 2. **會繼承評審偏好與偏誤。** PrecepTron 被明確校準到每篇來源研究的醫師小組，因此重現的是那組人的評分標準，並沒有獨立重判臨床內容。[(ref: main p.14)](https://arxiv.org/pdf/2609.12822v1#page=14)
 3. **小樣本校準可能漏掉 edge cases。** 2–46 個訓練病例方便部署，但稀有量表情境可能沒有出現在校準集；跨任務驗證也不能取代新任務的本地 held-out test。[(ref: main pp.14, 31)](https://arxiv.org/pdf/2609.12822v1#page=14)
 4. **重評不等於重做試驗。** 研究沒有重建原論文的隨機比較、人機互動、臨床流程或病人結果，也沒有證明 judge 對安全性、公平性與臨床效益足夠。[(ref: main p.14)](https://arxiv.org/pdf/2609.12822v1#page=14)
-5. **資料不是全部開放。** NEJM CPC／Healer 病例受著作權限制，BIDMC 急診病例含受保護健康資訊；官方資料卡雖提供回答、醫師分數與參考診斷，但不提供這些完整病例文字。[(ref: dataset card)](https://huggingface.co/datasets/tbuckley/GRAND-ROUNDS#case-text-availability)
+5. **資料不是全部開放。** BIDMC 急診任務含受保護健康資訊，整項未納入公開釋出（公開版只有其餘五項、4,339 筆）；NEJM CPC／Healer 與 Landmark 雖提供回答、醫師分數與參考診斷，但不附病例文字，官方資料卡並註明 Landmark 的 judge 因此無法僅憑該次釋出重跑。[(ref: dataset card)](https://huggingface.co/datasets/tbuckley/GRAND-ROUNDS#case-text-availability)
 
 ## 與書庫其他文章的關係
 
