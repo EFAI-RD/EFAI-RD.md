@@ -165,6 +165,8 @@ MedSIGHT 主張像素級 grounding 能提升診斷品質，該研究則給出一
 
 CARA-VL 同樣在醫療 VLM 中引入分割監督，但只把預測的解剖佔位圖用來導引注意力、不作為輸出，可與 MedSIGHT 的輸出端 grounding 對照: [CARA-VL：用解剖結構導引注意力，3B 模型讀心臟 MRI](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md)
 
+MedSIGHT 在單張影像上同時輸出診斷文字與像素級分割；MedChain-R1 把定位延伸到多張影像之間的比對，改以推理文字監督框的預測，並用換掉推理的控制檢查模型是否依賴它: [MedChain-R1：換上別題的推理，定位 mIoU 掉 12 點](2026-11-10-medchain-r1-sequential-grounding-rationale.md)
+
 ## 實務的啟發
 
 1. **把答案與位置拆成兩個驗收欄位。** 對需定位的用途，同時保存 diagnosis text、region codes、decoded mask 與人工修正；答對病名但定位錯誤，不能算成同一種成功。
