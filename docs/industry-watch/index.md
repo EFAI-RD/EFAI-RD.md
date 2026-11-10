@@ -15,6 +15,7 @@ has_toc: false
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-11-10 | [蛋白質設計 85.1% 是 Mythos 的分數，生科研究者要申請](2026-11-10-anthropic-claude-fable-mythos-5-2-launch.md) | Clarence | 2026-11-09 官方公告，另有同公司 2026-09-17 的 Life Sciences Verification Program 頁（同一家公司兩個官方頁，無獨立第三方驗證）；蛋白質設計 85.1% 與 AAV capsid 二十八比三十四都屬於 Mythos 5.2，而一般可用的 Fable 5.2 會擋下大部分研究生物學任務改由 Opus 5 回答，取用須經 LSVP 審核且 Mythos 高風險授權僅限少數單位；公告「almost all 勝過 Opus 5.5」逐列核對後，唯一例外是 AA-Briefcase v1.1 的 Elo 1785 對 1800 |
 | 2026-11-09 | [Google 醫療 AI 認證說經領先醫療組織審閱，官方頁無一具名](2026-11-09-google-ai-healthcare-professionals-certificate.md) | Clarence | 2026-10-29 官方部落格，另有 grow.google 課程頁與 Coursera 課程頁（內容同源，待獨立驗證）；「reviewed by leading academic and professional organizations」在三個官方頁面中無一具名任何組織，公告具名的四所學校都是採用方；課程時數三頁有三種說法（約四小時／未滿五小時／逐課加總五小時），而學分上限 5.0 附帶「按實際參與程度申報」的條件，公告只搬了上限 |
 | 2026-11-06 | [DeepMind 藥物設計示範：答案在代理程式動手前就寫好了](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md) | Clarence | 2026-11-03 官方部落格（單源，待交叉驗證）；示範案例由公告自己標為 well-known case，MMPA 結論被寫成 as expected，正文 %、accuracy、AUC、RMSE、peer、arXiv、DOI 命中皆為 0，唯一能外部核對的兩個數字是 crizotinib 的 5 與 lorlatinib 的 0 個可旋轉鍵 |
 | 2026-11-06 | [新聞稿只給 95.2%，FDA 摘要給了 63 人與跨零的區間](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md) | Clarence | 2026-11-03 官方新聞稿，另有 FDA 公開的兩份 510(k) summary（Lung Guidance K261042、AutoAS K254161）；新聞稿的 95.2% 對 96.8% 來自 63 位病人，FDA 摘要同時載明兩組差距為 −1.6 個百分點、95% 信賴區間 −18.7 到 15.5 |
