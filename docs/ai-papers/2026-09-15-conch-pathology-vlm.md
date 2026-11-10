@@ -211,6 +211,8 @@ MedVTok 把 CONCH 當作病理模態的專家編碼器、對齊成跨九種模�
 
 上述比較依兩篇各自的訓練設計。[(ref: main 圖文預訓練)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11384335/#S10) [(ref: lingshu §2–3)](https://arxiv.org/html/2506.07044v4#S2) [(ref: lingshu §3)](https://arxiv.org/html/2506.07044v4#S3)
 
+PathXAI 把 CONCH 用在病理報告流程的第一步，以影像塊與診斷提示的相似度排序候選 ROI，再交給組織分割與未微調的 VLM 寫結構化報告，可看出病理圖文表徵在報告生成流程中被拿來做區域篩選: [PathXAI：公開集 finding F1 48.8，全答「有」得 86.3](2026-11-10-pathxai-segmentation-guided-pathology-report.md)
+
 ## 實務的啟發
 
 以下是本書庫提出的實驗建議：
