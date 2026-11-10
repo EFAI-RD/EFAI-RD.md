@@ -63,7 +63,7 @@ evidence_reviewed: true
 
 **輸入怎麼切。** 兩個論元在同一句時，以該句為上下文；跨句時，保留兩個論元所在句之間的完整句段，也就是涵蓋兩者的最小連續句段。論元前後以 [@Subject$] 與 [@Object$] 標記，所有策略都保留這些標記。[(ref: main Methods, Data Preprocessing)](https://medinform.jmir.org/2026/1/e89957)
 
-**Decoder 也用分類頭。** Decoder 的輸入包成「System Message + "Text: " + 原始輸入 + "The temporal relationship between the subject and object is? <Answer>"」，但輸出仍由分類頭給出三類，不是生成標籤文字；論文 Figure 2 標示 soft-prompting 與 LoRA 兩種設定下分類頭都可訓練。[(ref: main Methods, Fine-Tuning Overview; Figure 2; Figure 3)](https://medinform.jmir.org/2026/1/e89957#figure3)
+**Decoder 也用分類頭。** Decoder 的輸入包成「System Message + "Text: " + 原始輸入 + "The temporal relationship between the subject and object is? &lt;Answer&gt;"」，但輸出仍由分類頭給出三類，不是生成標籤文字；論文 Figure 2 標示 soft-prompting 與 LoRA 兩種設定下分類頭都可訓練。[(ref: main Methods, Fine-Tuning Overview; Figure 2; Figure 3)](https://medinform.jmir.org/2026/1/e89957#figure3)
 
 **量化與否。** 依論文 Table 3 註腳，soft-prompting 與 LoRA 等 PEFT 策略搭配量化模型；standard fine-tuning 與 hard-prompting 為全參數訓練，不量化。[(ref: main Table 3)](https://medinform.jmir.org/2026/1/e89957#table3)
 

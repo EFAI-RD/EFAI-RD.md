@@ -105,7 +105,7 @@ REG 2025 顯示病理報告生成的榜單分數抓不到數值幻覺，該研�
 
 REG 2025 檢驗既有管線把全切片寫成完整結構化報告的能力與評分盲點，該研究則顯示同一條路能在單次前向傳遞的 composite 上走通，但也暴露 BERTScore 精確率與召回率反向移動的問題: [WILSON：數千個 tile 壓成一張 composite，診斷資訊剩多少](2026-09-24-wilson-composite-pathology-foundation-model.md)
 
-REG 2025 從報告生成端指出榜單分數抓不到數值幻覺，該研究則從問答端顯示另一個評估盲點：SlideChat 在 SlideBench-VQA(TCGA) 上拿掉切片後答對率幾乎不變，並把 REG2025 列入病理 VLM 常用公開基準的整理: [語言到底替病理 VLM 加了什麼？四個控制實驗：去掉分期的報告文字讓存活 C-index 多 0.016–0.019，zero-shot prompt 沒有勝過線性探測，SlideChat 拿掉切片後答對率只從 74.82% 掉到 74.41%](2026-11-04-pathology-vlm-language-controlled-probes.md)
+REG 2025 從報告生成端指出榜單分數抓不到數值幻覺，該研究則從問答端顯示另一個評估盲點：SlideChat 在 SlideBench-VQA(TCGA) 上拿掉切片後答對率幾乎不變，並把 REG2025 列入病理 VLM 常用公開基準的整理: [語言替病理 VLM 加了什麼？拿掉切片，答對率只掉 0.4 個百分點](2026-11-04-pathology-vlm-language-controlled-probes.md)
 
 REG 2025 指出榜單分數抓不到腫瘤比例與分級失真；PathXAI 以自建的診斷與 finding 指標加上常數控制，顯示公開集的 finding F1 會被「全答存在」超過，病理師之間的分級 κ 也只有 0.036，兩篇都說明病理報告的自動評分需要控制組與病理師參考: [PathXAI：公開集 finding F1 48.8，全答「有」得 86.3](2026-11-10-pathxai-segmentation-guided-pathology-report.md)
 

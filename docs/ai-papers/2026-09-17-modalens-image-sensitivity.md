@@ -155,7 +155,7 @@ ModaLens 在推論端交換影像來量測醫療 VLM 的影像敏感度，ECDD �
 
 ModaLens 固定文字、只交換影像，該研究則固定影像、只把轉診文字從明顯感染逐級改寫到明顯腫瘤，量到四個多模態 LLM 的答案主要隨文字改變，確診診斷造成的差異平均只有 0.01–0.25: [轉診單一句話就改變 MRI 判讀，叫模型忽略只有一個做得到](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
 
-ModaLens 在胸片加報告的情境下交換影像量測醫療 VLM 是否仍看影像，該研究把拿掉切片、換錯切片的對照搬到病理全切片問答，並加上選項位移、NOTA 與改寫三種格式對照: [語言到底替病理 VLM 加了什麼？四個控制實驗：去掉分期的報告文字讓存活 C-index 多 0.016–0.019，zero-shot prompt 沒有勝過線性探測，SlideChat 拿掉切片後答對率只從 74.82% 掉到 74.41%](2026-11-04-pathology-vlm-language-controlled-probes.md)
+ModaLens 在胸片加報告的情境下交換影像量測醫療 VLM 是否仍看影像，該研究把拿掉切片、換錯切片的對照搬到病理全切片問答，並加上選項位移、NOTA 與改寫三種格式對照: [語言替病理 VLM 加了什麼？拿掉切片，答對率只掉 0.4 個百分點](2026-11-04-pathology-vlm-language-controlled-probes.md)
 
 ModaLens 固定報告與問題、交換影像量測醫療 VLM 是否仍看影像，該研究則讓胸片與臨床照片同時在場，量到一種影像指向的診斷會讓模型在另一種影像裡「看見」不存在的發現: [配上不相符的胸片，照片幻覺從 25–37.5% 升到 45–57.5%](2026-11-05-trick-or-treat-mismatched-photo-cxr-hallucination.md)
 

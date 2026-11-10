@@ -64,7 +64,7 @@ evidence_reviewed: true
 
 **對照的五種歸因法。** 全部套在同一個 DenseNet-121 上：GradCAM（取最後一層卷積的梯度，雙線性上採樣到 224 × 224）、GradCAM++（平方梯度加逐通道正規化因子）、KernelSHAP（500 個樣本、SLIC n = 30、Shapley kernel）、LIME（1,000 次擾動、SLIC n = 30、局部線性迴歸器）、Integrated Gradients（50 步、基線 x′ = 0）。[(ref: main §3)](https://www.frontiersin.org/journals/imaging/articles/10.3389/fimag.2026.1885292/full#s3)
 
-**指標定義。** Deletion AUC 依歸因由高到低逐步移除像素（比例 0、0.05、…、1.0，以零基線取代），用梯形法算曲線下面積，愈低愈好。ROAD 以 13 個遮蔽步驟分別做 MoRF（先移除最相關）與 LeRF（先移除最不相關）。SAL 是前 20% 歸因遮罩的集中度，CPT 是 1 − Hₙₒᵣₘ 的緊緻度，完備性殘差 Δφ = |Σᵢφᵢ − (f(x) − f(0))| 衡量與 Shapley efficiency 公理的偏離。ExpiScore 在本文用的是簡化版 (SAL + CPT + CSC)/3，與原始論文的完整式不同、數值不可直接比較。[(ref: main §3)](https://www.frontiersin.org/journals/imaging/articles/10.3389/fimag.2026.1885292/full#s3)
+**指標定義。** Deletion AUC 依歸因由高到低逐步移除像素（比例 0、0.05、…、1.0，以零基線取代），用梯形法算曲線下面積，愈低愈好。ROAD 以 13 個遮蔽步驟分別做 MoRF（先移除最相關）與 LeRF（先移除最不相關）。SAL 是前 20% 歸因遮罩的集中度，CPT 是 1 − Hₙₒᵣₘ 的緊緻度，完備性殘差 Δφ = \|Σᵢφᵢ − (f(x) − f(0))\| 衡量與 Shapley efficiency 公理的偏離。ExpiScore 在本文用的是簡化版 (SAL + CPT + CSC)/3，與原始論文的完整式不同、數值不可直接比較。[(ref: main §3)](https://www.frontiersin.org/journals/imaging/articles/10.3389/fimag.2026.1885292/full#s3)
 
 **專家研究設計。** 四位病理醫師（P1–P4），分三個 block：Block A 在 15 例上做 GRALIS 與 GradCAM 的盲化偏好與李克特評分（Q1 偏好、Q4 一致性、Q5 有用性），該 15 例由 TP 5、TN 4、FP 3、FN 3 組成；Block B 在同一批 15 例上評 GRALIS-Report 本身，分成歸因圖題組（Q6–Q8）與 SOAP 報告題組（Q9–Q13）；Block C 則在 30 例上請受試者自由圈選區域，用來看標註風格的一致性。作者聲明 N = 4 不足以做共識推論，所有數字都是描述性的。[(ref: main §3)](https://www.frontiersin.org/journals/imaging/articles/10.3389/fimag.2026.1885292/full#s3) [(ref: main §4)](https://www.frontiersin.org/journals/imaging/articles/10.3389/fimag.2026.1885292/full#s4)
 
