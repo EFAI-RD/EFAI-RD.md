@@ -180,6 +180,8 @@ CASE 把 Lingshu-32B 與 7B 放進需要自己調閱影像與量測的縱向 MRI
 
 NPCBench 把 Lingshu-7B 與 32B 放進鼻咽癌的病理、MRI 分期與照護路徑評估，32B 在 CarePath 的 Care 為 55.3%、同一病人全對的 Strict 只有 2.0%，可補上本篇模型在次專科病程任務上的邊界: [NPCBench：照護題答對近九成，同一位鼻咽癌病人全對最多 23%](2026-11-09-npcbench-nasopharyngeal-carepath-benchmark.md)
 
+MedChain-R1 把 Lingshu 32B 列為六個候選推理教師之一（最後選用 FlemingVL-38B），並在監督微調後加 GRPO，同樣只得到很小的整體增益: [MedChain-R1：換上別題的推理，定位 mIoU 掉 12 點](2026-11-10-medchain-r1-sequential-grounding-rationale.md)
+
 ## 實務的啟發
 
 以下是本書庫依上述結果提出的工程建議：
