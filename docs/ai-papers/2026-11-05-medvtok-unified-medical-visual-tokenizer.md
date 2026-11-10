@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "MedVTok：影像任務平均領先，接上 LLM 的 VQA 只多 1.1 分"
 catalog_id: "arxiv:2610.35842"
 editors:
