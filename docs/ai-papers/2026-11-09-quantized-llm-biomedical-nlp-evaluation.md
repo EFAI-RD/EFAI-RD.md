@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 2
+nav_order: 3
 title: "生醫 LLM 量化：4-bit 省約 68% 記憶體，8-bit 反而最慢"
 catalog_id: "doi:10.1038/s44401-026-00152-6"
 editors:
