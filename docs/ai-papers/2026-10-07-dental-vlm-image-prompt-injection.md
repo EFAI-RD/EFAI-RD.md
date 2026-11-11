@@ -75,7 +75,7 @@ prompt injection 指的是把指令藏在模型會讀到的資料裡，讓模型
 
 **計分慣例。** ProvDent 的主要計分採保守慣例：每次棄答都算攻擊成功。另以 selective-prediction 慣例報告：棄答的案例從分母移除，另列棄答率。[(ref: main Methods)](https://www.nature.com/articles/s41598-026-74077-3)
 
-**次要指標與統計。** 乾淨影像上報告 sensitivity、specificity、F1、NPV，以及作者定義的 Dental-CHER（臨床傷害加權錯誤率；false negative 權重 4.0、false positive 1.0、拒答 0.5，另做 2.0–6.0 的權重敏感度分析）。每個「模型 × 攻擊類別」格做 McNemar 檢定，16 個主要檢定以 Holm–Bonferroni 校正（α = 0.05）；效果量用 Cohen's g；信賴區間是 10,000 次 percentile bootstrap；次要分析是以影像為隨機效應的 Bayesian variational GLMM（attack_success ~ attack_class × model + (1|image_id)）。檢定力分析以 15 張影像的前導效果量估計，單格最大需求 82 個觀察；實際每格 540 個配對觀察（270 張 × 2 種 payload）。[(ref: main Methods)](https://www.nature.com/articles/s41598-026-74077-3)
+**次要指標與統計。** 乾淨影像上報告 sensitivity、specificity、F1、NPV，以及作者定義的 Dental-CHER（臨床傷害加權錯誤率；false negative 權重 4.0、false positive 1.0、拒答 0.5，另做 2.0–6.0 的權重敏感度分析）。每個「模型 × 攻擊類別」格做 McNemar 檢定，16 個主要檢定以 Holm–Bonferroni 校正（α = 0.05）；效果量用 Cohen's g；信賴區間是 10,000 次 percentile bootstrap；次要分析是以影像為隨機效應的 Bayesian variational GLMM（attack_success ~ attack_class × model + (1\|image_id)）。檢定力分析以 15 張影像的前導效果量估計，單格最大需求 82 個觀察；實際每格 540 個配對觀察（270 張 × 2 種 payload）。[(ref: main Methods)](https://www.nature.com/articles/s41598-026-74077-3)
 
 - **論文未交代** — 正文只描述 prompt 的框架與輸出欄位，沒有列出完整的 system／user prompt、spotlighting 分隔符號與 GPT-4o-mini 判官 prompt 的全文；作者把實作指向公開程式碼庫，本文未核對該庫內容。[(ref: main Methods)](https://www.nature.com/articles/s41598-026-74077-3) [(ref: main Data availability)](https://www.nature.com/articles/s41598-026-74077-3#data-availability)
 - **論文未交代** — 三個商用 API 模型的快照版本、MedGemma 4B 的釋出版本（例如是否為 MedGemma 1.5），以及實驗執行日期；作者在限制中提到模型更新可能改變脆弱程度，但正文沒有提供足以重現同一版本的資訊。[(ref: main Discussion)](https://www.nature.com/articles/s41598-026-74077-3)

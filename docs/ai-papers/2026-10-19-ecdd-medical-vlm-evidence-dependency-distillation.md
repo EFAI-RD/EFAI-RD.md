@@ -57,7 +57,7 @@ ECDD 為每張訓練影像配一張「證據層級對應」的對照影像 A(x)�
 
 ## 方法詳解
 
-- **Margin 與 dependency** — 對模型 M、影像條件 z，margin m_M(z, q) = s_M(y⁺ | z, q) − max_{k≠y⁺} s_M(k | z, q)；dependency D_M(x, q; A) = m_M(x, q) − m_M(A(x), q)。二選一時最強錯誤答案就是另一個選項；兩端的最強錯誤答案可以不同，但候選集合固定。作者選 margin 而非 Top-1 翻轉，是因為答案不變時決策邊界仍可能移動。[(ref: main §3.3)](https://arxiv.org/pdf/2610.23469v1#page=4)
+- **Margin 與 dependency** — 對模型 M、影像條件 z，margin m_M(z, q) = s_M(y⁺ \| z, q) − max_{k≠y⁺} s_M(k \| z, q)；dependency D_M(x, q; A) = m_M(x, q) − m_M(A(x), q)。二選一時最強錯誤答案就是另一個選項；兩端的最強錯誤答案可以不同，但候選集合固定。作者選 margin 而非 Top-1 翻轉，是因為答案不變時決策邊界仍可能移動。[(ref: main §3.3)](https://arxiv.org/pdf/2610.23469v1#page=4)
 - **為什麼一般 KD 管不到** — 只在原圖上計算的任何損失（logits、機率、特徵、attention 或 margin），對學生在 A(x) 上的 margin 都沒有訓練訊號；兩個在原圖上一模一樣的學生，可以在對照圖上有完全不同的反應。[(ref: main §3.4)](https://arxiv.org/pdf/2610.23469v1#page=4)
 - **Lower-bound ECDD loss** — 先取教師 dependency 的正值部分 max{D_T, 0}，再以上限 τ 截斷，得到 D̃_T⁺；L_ECDD = [ReLU(ρ·D̃_T⁺ − D_S)]²，ρ ∈ [0, 1] 控制要求學生達到教師多少比例。這個單邊設計不逼學生複製教師的每個波動。[(ref: main §3.5)](https://arxiv.org/pdf/2610.23469v1#page=5)
 - **目標篩選** — 局部 presence 題只在證據標為「存在」時啟用 ECDD 項；DME 另外只保留「教師在原圖答對、且 D_T⁺ 超過可靠門檻 η = 0.5」的目標，其餘樣本只留原圖監督。[(ref: main §3.5)](https://arxiv.org/pdf/2610.23469v1#page=5) [(ref: main Appendix C.1)](https://arxiv.org/pdf/2610.23469v1#page=12)

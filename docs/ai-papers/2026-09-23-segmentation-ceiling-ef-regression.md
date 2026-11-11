@@ -152,7 +152,7 @@ ORION-CMR 也用到心室分割，但把它放在產生報告量測值的位置�
 
 CARA-VL 把預測的解剖佔位圖改放在 VLM 的注意力偏置上，消融顯示移除後 SAX 平均 BA 只少 1.6 個百分點，與本篇「分割輔助增益有限」的結論方向一致: [CARA-VL：用解剖結構導引注意力，3B 模型讀心臟 MRI](2026-10-02-cara-vl-cardiac-mri-anatomy-routed-attention.md)
 
-HAD-VLM 同樣在 EchoNet 系列心臟超音波上預測連續量，但改變的是 VLM 的輸出形式而非輔助輸入：讓語言模型以 diffusion 直接輸出卡尺端點與長度，對同骨幹逐 token 生成數字的 MAE 低 21–38%，與本篇一起看可分辨誤差來自輸入資訊還是輸出表示: [量測值不再逐字吐出：HAD-VLM 讓 VLM 遇到「\[」就改用 diffusion 直接輸出卡尺端點與長度，EchoNet-LVH 四項心臟超音波量測 MAE 比逐 token 輸出低 21–38%，但拿掉後處理時並未穩定勝過一個 MLP 回歸頭](2026-11-03-had-vlm-diffusion-ultrasound-measurement.md)
+HAD-VLM 同樣在 EchoNet 系列心臟超音波上預測連續量，但改變的是 VLM 的輸出形式而非輔助輸入：讓語言模型以 diffusion 直接輸出卡尺端點與長度，對同骨幹逐 token 生成數字的 MAE 低 21–38%，與本篇一起看可分辨誤差來自輸入資訊還是輸出表示: [量測值不再逐字吐出：HAD-VLM 用 diffusion 輸出卡尺端點](2026-11-03-had-vlm-diffusion-ultrasound-measurement.md)
 
 ## 實務的啟發
 

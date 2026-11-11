@@ -205,7 +205,7 @@ CONCH 以病理圖文預訓練換取零樣本遷移能力，該研究則在凍�
 
 CONCH 代表病理圖文預訓練在 tile 層級的作法，該研究則把爭論點移到送進編碼器的視覺單位本身，兩篇合起來構成病理基礎模型的兩條獨立設計軸: [WILSON：數千個 tile 壓成一張 composite，診斷資訊剩多少](2026-09-24-wilson-composite-pathology-foundation-model.md)
 
-CONCH 以 zero-shot 分類展示病理圖文預訓練的遷移能力，該研究在 CONCH v1 的同一組特徵與相同 pooling 下比較 zero-shot 與監督式線性探測，差距不顯著，顯示語言的價值主要留在預訓練特徵、而非推論時的 prompt: [語言到底替病理 VLM 加了什麼？四個控制實驗：去掉分期的報告文字讓存活 C-index 多 0.016–0.019，zero-shot prompt 沒有勝過線性探測，SlideChat 拿掉切片後答對率只從 74.82% 掉到 74.41%](2026-11-04-pathology-vlm-language-controlled-probes.md)
+CONCH 以 zero-shot 分類展示病理圖文預訓練的遷移能力，該研究在 CONCH v1 的同一組特徵與相同 pooling 下比較 zero-shot 與監督式線性探測，差距不顯著，顯示語言的價值主要留在預訓練特徵、而非推論時的 prompt: [語言替病理 VLM 加了什麼？拿掉切片，答對率只掉 0.4 個百分點](2026-11-04-pathology-vlm-language-controlled-probes.md)
 
 MedVTok 把 CONCH 當作病理模態的專家編碼器、對齊成跨九種模態的通用 tokenizer，但其附錄對照顯示 CONCH 在病理分類與分割上仍高於對齊後的 MedVTok: [MedVTok：影像任務平均領先，接上 LLM 的 VQA 只多 1.1 分](2026-11-05-medvtok-unified-medical-visual-tokenizer.md)
 
