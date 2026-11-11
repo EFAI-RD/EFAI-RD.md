@@ -208,6 +208,8 @@ MedGemma 1.5 同樣被列為 Table 1 的零樣本比較對象（in-scope 0.555�
 
 DLoss 沿用同一類 TotalSegmentator 器官切分，把腹部 CT 報告拆成器官層級的發現，但用途從疾病分類的圖文對齊換成報告生成的訓練目標，fVLM 是它套用的六個模型之一，評估也用 Merlin 測試集: [DLoss：訓練時分開施壓該寫與不該寫的診斷詞，GREEN 多 4 分](2026-11-02-dloss-diagnostic-loss-ct-report-generation.md)
 
+MedHiVE 同樣在腹部 CT 上做器官層級的圖文對比學習，但把報告文字也送進編碼器內的 Soft MoE 路由、下游改做分割與偵測，並在 AMOS 上比較有對齊與沒對齊器官的增益: [MedHiVE：報告只進預訓練，有對齊的器官多 2.7、其餘只多 0.7](2026-11-11-medhive-hierarchical-moe-3d-ct-vlm.md)
+
 ## 實務的啟發
 
 1. **對齊粒度可能比骨幹選擇更值得先試。** 消融中換掉 ViT 損失 0.148，改回 whole-image alignment 損失 0.230。若手上有影像與結構化報告，先檢查「一段文字對應到哪一塊影像」能不能拆得更細，往往比換模型划算。

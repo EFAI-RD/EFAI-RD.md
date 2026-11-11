@@ -173,6 +173,8 @@ MedVTok 固定 LLM 端的訓練協定、只換凍結的視覺 tokenizer，DLoss 
 
 CPVB-RG 靠改影像端的融合模組提升胸片報告的 F1RadGraph，DLoss 則完全不動架構、只換訓練目標，兩篇代表報告生成改進的「改模型」與「改損失」兩條路，也都以 RadGraph 類指標衡量臨床內容: [CPVB-RG：把胸片的「變化」與「共同結構」分開處理再寫報告](2026-10-22-cpvb-rg-prior-aware-cxr-report-generation.md)
 
+MedHiVE 出自部分重疊的作者群，同樣以 Merlin 腹部 CT 與器官層級的報告片段為基礎，也比較 fVLM、BTB3D 與 Merlin，但只在預訓練時用片段對齊影像，下游做分割與 PDAC 偵測而非報告生成: [MedHiVE：報告只進預訓練，有對齊的器官多 2.7、其餘只多 0.7](2026-11-11-medhive-hierarchical-moe-3d-ct-vlm.md)
+
 ## 實務的啟發
 
 - **可借用的做法：把「該寫」與「不該寫」拆成兩個不同形狀的約束** — 對已在微調報告生成模型的團隊，DLoss 的設計（noisy-OR 要求至少出現一次、log-sum-exp 壓住任何一處尖峰）不改架構、推論零成本、訓練成本增幅在 5% 以內，程式碼也已公開，是低成本可試的選項；但本篇的證據是自動指標上的平均增益，要當成「待自己資料驗證的訓練技巧」，不是已證實能減少臨床錯誤的做法。[(ref: main Table 1–2)](https://arxiv.org/html/2610.30980v1#S4.T2)
