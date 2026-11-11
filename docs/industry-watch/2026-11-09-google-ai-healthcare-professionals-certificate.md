@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 2
+nav_order: 3
 title: "Google 醫療 AI 認證說經領先醫療組織審閱，官方頁無一具名"
 category: industry-watch
 date: 2026-11-09

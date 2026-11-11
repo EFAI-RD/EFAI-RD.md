@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 5
+nav_exclude: true
 title: "Google 公開健康 AI 評估框架，及格線留給各家自己訂"
 category: industry-watch
 date: 2026-11-05

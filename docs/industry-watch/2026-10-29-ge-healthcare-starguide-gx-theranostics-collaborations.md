@@ -16,6 +16,8 @@ source:
   event_date: "2026-10-20"
   official_url: "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-announces-five-new-global-clinical-collaborations-to-advance-the-next-generation-of-theranostics-imaging"
 related_articles:
+  - path: "2026-11-11-ge-healthcare-magnus-neuro-alliance.md"
+    relation: "同一家公司兩則「多機構合作」公告的同一種形態：兩則都把機構名字列出來、卻都不列任何一家做出了什麼結果或登錄了哪個試驗編號，差別是本則至少給了一個可追問的倍數宣稱，該則連一個可被追問的數字都沒有產生"
   - path: "2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md"
     relation: "同一家公司把比較級數字放進公告、比較對象是自家前代機的兩個案例，差別在比較對象揭露在正文還是只寫在註腳"
   - path: "2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md"
@@ -152,6 +154,8 @@ GE HealthCare 在 2026-10-20 的新聞稿宣布，Hadassah Medical Center（以�
 同屬 GE HealthCare 的 theranostics 布局，該則是治療端 —— 花 9.45 億美元買下放射性藥物配送的最後一哩，本則是造影端 —— 把評估鋪到三大洲五家機構；兩則的共同特徵是標題涵蓋面都大於公告內可核對的範圍，該則的 pan-cancer 實際只有兩種癌別的第三期試驗，本則的 next generation of theranostics imaging 實際只有一條倍數宣稱: [GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
 本則逐字比對了兩份相隔六週的 StarGuide GX 公告，而同一台機器在該則的季度財報裡只剩一條沒有任何數字的項目符號（`now 510(k) pending with the U.S. FDA`）；兩則並讀是同一件事的兩種揭露密度，而該則的分部表顯示 StarGuide GX 所屬的 Advanced Imaging Solutions 是三個分部中 Organic 成長最慢的一個: [「各部門都成長」對這一季成立，對前九個月不成立](2026-10-29-ge-healthcare-q3-2026-results.md)
+
+同一家公司兩則「多機構合作」公告的同一種形態：兩則都把機構名字列出來、卻都不列任何一家做出了什麼結果或登錄了哪個試驗編號，差別是本則至少給了一個可追問的倍數宣稱，該則連一個可被追問的數字都沒有產生: [GE 談臨床轉譯的神經影像聯盟，註腳寫未獲法規許可](2026-11-11-ge-healthcare-magnus-neuro-alliance.md)
 
 ## 實務的啟發
 
