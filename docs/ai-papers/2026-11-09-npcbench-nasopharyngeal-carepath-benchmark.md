@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "NPCBench：照護題答對近九成，同一位鼻咽癌病人全對最多 23%"
 catalog_id: "arxiv:2611.08369"
 editors:
