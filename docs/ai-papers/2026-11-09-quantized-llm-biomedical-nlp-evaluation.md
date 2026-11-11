@@ -201,6 +201,8 @@ evidence_reviewed: true
 
 西語精神科病歷那篇在病歷文字上直接使用 4-bit 量化（Ollama）的 11 個開源 LLM 做概念偵測與 LoRA 微調，但沒有和全精度比較；本篇則在生醫文獻基準上系統比較全精度、8-bit 與 4-bit，補上「量化本身會讓分數與延遲改變多少」這一層，兩篇合起來看可以分清楚表現差異來自量化還是來自提示與微調: [西語精神科病歷的 109 個症狀：微調後才追平規則式 tNLP](2026-10-30-llm-psychiatric-concepts-spanish-ehr.md)
 
+Guardrail Erosion 把 ClinicalCamel-70B、Med42、HuatuoGPT-o1-70B 等生醫微調模型和各自的 base 配對，在 MedQA 衍生的 MedAbstain 上量測證據被抽掉時的棄答與信心；本篇量的是同類模型在量化前後的分數與成本，兩篇合起來看，評估生醫 LLM 時除了分數，還要看部署設定與微調各自改變了哪些行為: [生醫微調 LLM：證據被抽掉時，25 對有 21 對更少棄答](2026-11-11-guardrail-erosion-biomedical-llm-abstention.md)
+
 ## 實務的啟發
 
 - **可借用的做法** — 若要在院內 GPU 上跑 70B 等級的開源模型，4-bit NF4 是本篇中記憶體與分數折衷最好的設定（約省 68% 峰值記憶體、平均掉分在 0.015 以內）；但這是生醫文獻基準與 A100 上的結果，換到臨床文本或其他硬體前要在自己的任務上複驗。
