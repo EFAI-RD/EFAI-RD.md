@@ -20,6 +20,8 @@ source:
   official_url: "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-debuts-allia-celeo-a-ceiling-mounted-interventional-system-designed-for-smooth-procedural-flow-and-ai-powered-precision-imaging"
   single_source: true
 related_articles:
+  - path: "2026-11-11-ge-healthcare-magnus-neuro-alliance.md"
+    relation: "同一家公司相隔七天的兩則發表，都把整篇公告的可核對數值壓到接近零，差別在被省略的是哪一類數字：本則發表的是已可銷售的介入影像系統，卻沒有任何效能數字；該則連機器規格都只剩一個 3.0T，而九家合作機構裡有幾家真的裝了機器也沒有寫"
   - path: "2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md"
     relation: "同一家公司相隔兩天的兩次產品發表，可核對性落在兩端：本則整篇公告沒有任何效能數字，連「選擇了哪一組結果」都無從追問；該則給了兩個百分比，而且因為走的是 510(k) 路徑，同一批數據的完整版本連同樣本數與信賴區間都在 FDA 網站上公開"
   - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
@@ -160,6 +162,8 @@ GE HealthCare 在 2026-11-01 發表 Allia Celeo，一台天花板吊掛式的介
 同一家公司相隔十三天的兩次產品發表，自訂的證據門檻卻落在光譜的兩端：該則委託第三方做了有醫師參與的比較研究、公開白皮書並在三個官方頁面引用同一個數字，缺陷在於選擇了哪一組結果進新聞稿；本則連一個可被挑選的數字都不存在，於是連「選擇性報導」這個批評都無從成立: [快 26% 比的是自家前代機，對競品那組沒進新聞稿](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
 同一家公司相隔兩天的兩次產品發表，可核對性落在兩端：本則整篇公告沒有任何效能數字，連「選擇了哪一組結果」都無從追問；該則給了兩個百分比，而且因為走的是 510(k) 路徑，同一批數據的完整版本連同樣本數與信賴區間都在 FDA 網站上公開: [新聞稿只給 95.2%，FDA 摘要給了 63 人與跨零的區間](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md)
+
+同一家公司相隔七天的兩則發表，都把整篇公告的可核對數值壓到接近零，差別在被省略的是哪一類數字：本則發表的是已可銷售的介入影像系統，卻沒有任何效能數字；該則連機器規格都只剩一個 3.0T，而九家合作機構裡有幾家真的裝了機器也沒有寫: [GE 談臨床轉譯的神經影像聯盟，註腳寫未獲法規許可](2026-11-11-ge-healthcare-magnus-neuro-alliance.md)
 
 ## 實務的啟發
 

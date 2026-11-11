@@ -19,6 +19,8 @@ source:
   event_date: "2026-10-20"
   official_url: "https://www.siemens-healthineers.com/press/releases/ciosgoid"
 related_articles:
+  - path: "2026-11-11-ge-healthcare-magnus-neuro-alliance.md"
+    relation: "兩則都是正文以臨床語彙描述一台機器、而同頁小字寫明它在市場上還不能供應，差別在小字擋住的範圍：本則擋的是歐盟醫療器材法規（Medical Device Regulation，MDR）2017/745 的商業供應，該則的註腳一次擋掉美國 FDA 與所有其他全球主管機關，並把用途限定為研究"
   - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
     relation: "同一家公司、同一種發表方式，而限定條件的可見度又低了一層：該則的 `510(k) pending` 與「尚未在任何市場銷售」寫在有編號的註腳裡，本則的三行限定在網頁原始碼中的上標只放了一個空白字元，正文連一個可對應的錨點都沒有"
   - path: "2026-10-14-siemens-ultrasound-general-imaging-exit.md"
@@ -133,6 +135,8 @@ refs:
 兩則都是在醫學會議現場以臨床人員的使用經驗描述一台產品，而同一頁的小字寫明它在相關市場尚不能商業供應：本則的限制是產品尚未符合 MDR 2017/745 的全部要求、未商業化供應，該則的限制是公告所稱可販售範圍為「部分歐盟成員國」，而受邀評估的五家機構中只有法國一家在歐盟境內。兩則合看可以看出「現場證言」與「法規小字」在同一頁並存已經是常態: [「逾 1,000 名病人」發生在這五個合作開始之前](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
 兩則都是 C 臂類取像設備在年會現場的發表，而兩家公司把「證據」放在不同位置又都沒有放進研究：本則的產品頁設了一個標示為 `Evidence` 的區塊，裡面是假體影像與兩段使用者證言，該則連這樣一個區塊都沒有，整篇公告的 `study` 與 `trial` 命中數都是 0，兩則並讀可以看出取像端設備的證據形態仍由各廠商自訂: [標榜 AI 的介入影像新機，公告裡一個效能數字都沒有](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
+
+兩則都是正文以臨床語彙描述一台機器、而同頁小字寫明它在市場上還不能供應，差別在小字擋住的範圍：本則擋的是歐盟醫療器材法規（Medical Device Regulation，MDR）2017/745 的商業供應，該則的註腳一次擋掉美國 FDA 與所有其他全球主管機關，並把用途限定為研究: [GE 談臨床轉譯的神經影像聯盟，註腳寫未獲法規許可](2026-11-11-ge-healthcare-magnus-neuro-alliance.md)
 
 ## 實務的啟發
 

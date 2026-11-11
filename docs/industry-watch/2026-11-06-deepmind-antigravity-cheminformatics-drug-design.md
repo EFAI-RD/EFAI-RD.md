@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 4
+nav_order: 5
 title: "DeepMind 藥物設計示範：答案在代理程式動手前就寫好了"
 category: industry-watch
 date: 2026-11-06
