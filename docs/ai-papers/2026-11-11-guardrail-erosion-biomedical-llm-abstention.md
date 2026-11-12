@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 1
+nav_order: 2
 title: "生醫微調 LLM：證據被抽掉時，25 對有 21 對更少棄答"
 catalog_id: "arxiv:2611.08780"
 editors:
