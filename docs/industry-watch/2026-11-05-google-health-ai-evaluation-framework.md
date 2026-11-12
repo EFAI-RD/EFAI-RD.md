@@ -33,7 +33,7 @@ related_articles:
   - path: "2026-11-09-google-ai-healthcare-professionals-certificate.md"
     relation: "同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：本則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，該則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻"
   - path: "2026-11-12-deepmind-alphagenome-2-cell-type-variants.md"
-    relation: "本則的白皮書主張健康 AI 的評估要同時涵蓋 accuracy、safety 與 usefulness 三個領域，該則是同一家公司把一個直接談疾病的模型發布出來時實際給了什麼——只有 accuracy 那一類的四個百分比，safety 與 usefulness 兩個領域在整篇公告裡沒有對應的任何數值，而頁尾寫明該模型未經臨床或診斷用途驗證"
+    relation: "同一家公司相隔一週的兩則發布，本則談健康 AI 該用哪些方法評估、門檻由各團隊自訂，該則是實際發布的模型與它所公布的評估範圍；並讀可以看出本則框架所談的 accuracy／safety／usefulness 三個領域，在一則研究用模型的發布裡各自被交代到什麼程度"
 refs:
   blog:
     title: "We're sharing our framework for building safer and more helpful AI for health.（Google 官方部落格，2026-11-04）"
@@ -139,7 +139,7 @@ Google for Health 在 2026-11-04 發出一篇正文只有三段的部落格，�
 
 同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：本則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，該則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻: [Google 醫療 AI 認證說經領先醫療組織審閱，官方頁無一具名](2026-11-09-google-ai-healthcare-professionals-certificate.md)
 
-本則的白皮書主張健康 AI 的評估要同時涵蓋 accuracy、safety 與 usefulness 三個領域，該則是同一家公司把一個直接談疾病的模型發布出來時實際給了什麼——只有 accuracy 那一類的四個百分比，safety 與 usefulness 兩個領域在整篇公告裡沒有對應的任何數值，而頁尾寫明該模型未經臨床或診斷用途驗證: [AlphaGenome 2 的近兩倍，只出自一個免疫細胞資料集](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
+同一家公司相隔一週的兩則發布，本則談健康 AI 該用哪些方法評估、門檻由各團隊自訂，該則是實際發布的模型與它所公布的評估範圍；並讀可以看出本則框架所談的 accuracy／safety／usefulness 三個領域，在一則研究用模型的發布裡各自被交代到什麼程度: [AlphaGenome 2：變異效應預測從組織平均走到細胞類型](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
 
 ## 實務的啟發
 
