@@ -172,11 +172,11 @@ Google DeepMind 在 2026-11-03 發表 Antigravity 的 `Cheminformatics Skills`�
 
 ## 與書庫其他文章的關係
 
-同一產品線相隔十九天的第二篇科學示範，而兩則的證據缺口只是換了位置、沒有補上 —— 該則的加速宣稱只寫在網頁中繼資料與產品頁上、正文一次都沒量過時間；本則把「一小時」正式寫進了正文第二段，但量測方式、樣本數與被壓縮的基準流程定義仍然三項皆無。兩則並讀可以看出同一種宣稱如何在版本之間變得更醒目而非更可查: [DeepMind 說把數天縮成一次對話，全文沒量過任何一段時間](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
+同一產品線相隔十九天的第二篇科學示範，而兩則的證據缺口只是換了位置、沒有補上 —— 該則的加速宣稱只寫在網頁中繼資料與產品頁上、正文一次都沒量過時間；本則把「一小時」正式寫進了正文第二段，但量測方式、樣本數與被壓縮的基準流程定義仍然三項皆無。兩則並讀可以看出同一種宣稱如何在版本之間變得更醒目而非更可查: [DeepMind 抗菌胜肽示範：代理程式從資料庫走到實驗計畫](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
 
-兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查程度差一整級：該則的爭點在於一個倍數出自單一個孔、成功標準是事後才定的，至少有孔數與成功標準可供爭論；本則在代理程式那一側沒有產生任何數值，連可以爭論的對象都不存在。把兩則並讀可以看出「廠商自報」也分成可被挑錯與無從挑起兩種: [「結塊慢 100 倍」出自單一個孔，成功標準是事後才定的](2026-10-28-anthropic-drug-development-case-studies.md)
+兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查程度差一整級：該則的爭點在於一個倍數出自單一個孔、成功標準是事後才定的，至少有孔數與成功標準可供爭論；本則在代理程式那一側沒有產生任何數值，連可以爭論的對象都不存在。把兩則並讀可以看出「廠商自報」也分成可被挑錯與無從挑起兩種: [Anthropic 公布六個藥物開發組織接入 Claude 的早期成果](2026-10-28-anthropic-drug-development-case-studies.md)
 
-同一家公司相隔一天的兩則發布恰好構成對照：該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，並把量化門檻留給各團隊自訂；本則的示範則是那套框架所指的第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [Google 公開健康 AI 評估框架，及格線留給各家自己訂](2026-11-05-google-health-ai-evaluation-framework.md)
+同一家公司相隔一天的兩則發布恰好構成對照：該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，並把量化門檻留給各團隊自訂；本則的示範則是那套框架所指的第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [Google 健康 AI 評估框架：三個領域、三種方法、17 個維度](2026-11-05-google-health-ai-evaluation-framework.md)
 
 該則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與本則是同一條路線的兩端：本則示範的是代理式平台怎麼串起既有的化學工具，該則是即將被串進去的專用科學模型本身: [AlphaGenome 2：變異效應預測從組織平均走到細胞類型](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
 

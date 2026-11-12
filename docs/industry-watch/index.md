@@ -25,22 +25,22 @@ has_toc: false
 | 2026-11-03 | [LLM 直接改權重，數學從 7.9% 到 48.1% —— 但它只是不再迴圈](2026-11-03-weight-space-programming-llm-reads-writes-weights.md) | Clarence | 2026-11-02 作者自建站研究部落格（單源，無 arXiv／DOI、未經同儕審查，但釋出完整 logs 與編輯後模型）；Experiment 7 僅憑權重四次嘗試全部失敗，放寬為可看注意力圖樣後才成立 |
 | 2026-11-03 | [Allia Celeo：天花板吊掛介入影像機，歐盟 CE、美國待審](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md) | Clarence | 2026-11-01 官方新聞稿（單源，待交叉驗證；官網無產品頁可比對）；Allia 平台繼落地式 Moveo 之後的第二台新機，改為天花板吊掛式，用於心導管室與介入放射手術房；相容工具分兩組——冠狀動脈與結構性心臟病（StentViz、3DStent、Valve ASSIST 2、Mac-Lab）該句寫 cleared 兩次，介入放射與腫瘤（Embo ASSIST AI、Vessel ASSIST、Needle ASSIST）該句未寫；服務端配 OnWatch Predict（24/7 遠端監控＋deep learning 預測非計畫性停機）；星號註腳寫 CE marked、510(k) pending、不得在美國銷售、可能並非所有地區供應。文章區 6,005 字元內 %／percent、study、trial、data、evidence 命中皆為 0，正文 designed to／with the goal of／aim to／intended to 合計 15 次 |
 | 2026-11-02 | [SDBench 與 MAI-DxO：把診斷評估改成逐步問診](2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md) | Clarence | 2026-10-22 官方公告，同日論文刊於 Science（FREE ACCESS）；「近四倍準確率」與「一半甚至三分之一成本」分屬四個運作點中的不同者，急診案例組沒有任何運作點符合後者 |
-| 2026-10-30 | [Anthropic 說 20 個夥伴，名單逐條數出來是 18 個](2026-10-30-anthropic-ai-for-science-foundations-expansion.md) | Clarence | 2026-10-28 官方公告；三份名單的 li 元素逐一計數為 6+6+6=18，而正文、meta description 與 JSON-LD 三處都寫 20 |
+| 2026-10-30 | [Anthropic 把免費 Claude 額度擴大到基金會與研究機構](2026-10-30-anthropic-ai-for-science-foundations-expansion.md) | Clarence | 2026-10-28 官方公告；三份名單的 li 元素逐一計數為 6+6+6=18，而正文、meta description 與 JSON-LD 三處都寫 20 |
 | 2026-10-29 | [GE HealthCare 第三季營收成長 7.2%，全年財測上修](2026-10-29-ge-healthcare-q3-2026-results.md) | Clarence | 2026-10-28 官方新聞稿與同日 SEC Form 8-K；官網 11 張財務表格為點陣圖，數值以 Exhibit 99 的 HTML 表格核對 |
 | 2026-10-29 | [DeepMind 抗菌胜肽示範：代理程式從資料庫走到實驗計畫](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md) | Clarence | 2026-10-15 官方部落格；正文 peer／paper／arXiv／DOI 命中皆為 0，候選分子名稱的 UniProt 證據標籤為 Automatic Annotation (ECO:0008006) Google:ProtNLM |
-| 2026-10-29 | [「逾 1,000 名病人」發生在這五個合作開始之前](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md) | Clarence | 2026-10-20 官方新聞稿；與 2026-09-08 同產品公告逐字並排，四處措辭不同；美國站產品目錄無此機種 |
-| 2026-10-29 | [醫院人員用現在式談使用經驗，小字說這產品還不能買](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md) | Clarence | 2026-10-20 官方新聞稿；產品頁 17 個上標中 16 個是「選配」，Evidence 區塊內容為假體影像與兩段證言 |
+| 2026-10-29 | [StarGuide GX：4D SPECT/CT 交給五家機構評估](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md) | Clarence | 2026-10-20 官方新聞稿；與 2026-09-08 同產品公告逐字並排，四處措辭不同；美國站產品目錄無此機種 |
+| 2026-10-29 | [Cios Go ID：顯示器裝在機身上的行動式 C 臂](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md) | Clarence | 2026-10-20 官方新聞稿；產品頁 17 個上標中 16 個是「選配」，Evidence 區塊內容為假體影像與兩段證言 |
 | 2026-10-28 | [Anthropic 公布六個藥物開發組織接入 Claude 的早期成果](2026-10-28-anthropic-drug-development-case-studies.md) | Clarence | 2026-10-27 官方公告；樣本數與六段利益揭露只存在於同頁可展開面板 |
-| 2026-10-22 | [公告寫「引用逾 700 篇」，它連的論文寫的是「711 倍」](2026-10-22-openai-distributed-agents-perturb-seq-atlas.md) | Clarence | 2026-10-21 官方公告；所依據的 bioRxiv 預印本未經同儕審查，75% 的分母是 20 組配對共 60 次判斷 |
-| 2026-10-21 | [快 26% 比的是自家前代機，對競品那組沒進新聞稿](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md) | Clarence | 2026-10-19 官方新聞稿；「快 26%」比的是自家前代機，同一研究對競品無時間差異 |
-| 2026-10-21 | [推論成本要漲五倍以上，從多少漲起？Gartner 沒寫](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md) | Clarence | 2026-08-17 官方新聞稿；全文無金額、無基準年，正文無百分比 |
+| 2026-10-22 | [1,946 個 AI 代理各讀一個基因擾動，32 分鐘產出全腦圖譜解讀](2026-10-22-openai-distributed-agents-perturb-seq-atlas.md) | Clarence | 2026-10-21 官方公告；所依據的 bioRxiv 預印本未經同儕審查，75% 的分母是 20 組配對共 60 次判斷 |
+| 2026-10-21 | [LOGIQ Focus：把高階影像能力帶進日常超音波檢查](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md) | Clarence | 2026-10-19 官方新聞稿；「快 26%」比的是自家前代機，同一研究對競品無時間差異 |
+| 2026-10-21 | [Gartner 預測代理式工作流程推論成本到 2028 年漲逾五倍](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md) | Clarence | 2026-08-17 官方新聞稿；全文無金額、無基準年，正文無百分比 |
 | 2026-10-20 | [AMIE 看診前先問病史：98 人的 Lancet 可行性研究](2026-10-20-google-amie-lancet-primary-care-feasibility.md) | Clarence | 2026-10-08 官方部落格；同日 The Lancet 線上刊出，試驗登錄 NCT06911398 |
-| 2026-10-19 | [公告說拿到 CE Mark，自家產品頁寫著 Not CE marked](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md) | Clarence | 2026-10-15 官方新聞稿；全頁無百分比、無註腳 |
-| 2026-10-19 | [那個 62.3% 屬於一位虛構病人，背書的高層是論文共同作者](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md) | Clarence | 2026-10-16 官方新聞稿；論文開放取用，62.3% 為範例病人推算值 |
-| 2026-10-15 | [放療生成式 AI 合作案：唯一的成效數字來自合作之前](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md) | Clarence | 2026-09-23 官方新聞稿；生成式 AI 部分無任何數字 |
+| 2026-10-19 | [院內迴旋加速器取得 CE Mark，固態靶平台加 Copper-64](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md) | Clarence | 2026-10-15 官方新聞稿；全頁無百分比、無註腳 |
+| 2026-10-19 | [ETC 自動調控麻醉氣體：密西根大學 12,818 例回溯研究](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md) | Clarence | 2026-10-16 官方新聞稿；論文開放取用，62.3% 為範例病人推算值 |
+| 2026-10-15 | [GE 擴大研究合作，探索放療工作流程的生成式 AI](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md) | Clarence | 2026-09-23 官方新聞稿；生成式 AI 部分無任何數字 |
 | 2026-10-14 | [Siemens 退出一般影像超音波，四款機型當日停售](2026-10-14-siemens-ultrasound-general-imaging-exit.md) | Clarence | 2026-10-12 官方公告；公告日即停售日，未給被退出業務的任何數字 |
 | 2026-10-13 | [GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md) | Clarence | 2026-10-05 官方新聞稿；交易預計 2027 上半年完成 |
-| 2026-10-13 | [Accela 宣告「放射治療的未來已到來」，註腳說還不能賣](2026-10-13-siemens-accela-radiotherapy-launch.md) | Clarence | 2026-09-27 ASTRO 2026 發表；九個數值全為上下限 |
+| 2026-10-13 | [Accela：以 NeoArc 動態弧形治療為核心的放療機](2026-10-13-siemens-accela-radiotherapy-launch.md) | Clarence | 2026-09-27 ASTRO 2026 發表；九個數值全為上下限 |
 | 2026-10-08 | [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md) | Clarence | 2026-09-23 官方公告；五案一數字 |
 | 2026-10-07 | [GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra](2026-10-07-openai-gpt-6-1-sol-launch.md) | Clarence | 官方公告未標日期；$2／$10 per M token |
 | 2026-09-18 | [放射科 AI 想免審，FDA 說不：舊許可不是通行證](2026-09-18-fda-radiology-cad-510k-exemption-denied.md) | Clare | 09-17 最終命令；Harrison.ai 請願遭駁回 |

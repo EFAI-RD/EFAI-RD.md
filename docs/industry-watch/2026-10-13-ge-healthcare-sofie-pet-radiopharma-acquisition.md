@@ -160,7 +160,7 @@ SOFIE 自己公告的兩項第三期試驗如下：
 
 ## 與書庫其他文章的關係
 
-同為大廠公告的逐項核對，兩則的落差出現在同一個位置：該則的標題用現在進行式概括了四個尚未完成的案例，本則的副標題以 `pan-cancer` 概括了兩項只涵蓋胃食道癌與胰臟管腺癌的註冊試驗: [MedGemma 的五個落地案例，只有一個報得出用過幾次](2026-10-08-medgemma-global-deployment-claims.md)
+同為大廠公告的逐項核對，兩則的落差出現在同一個位置：該則的標題用現在進行式概括了四個尚未完成的案例，本則的副標題以 `pan-cancer` 概括了兩項只涵蓋胃食道癌與胰臟管腺癌的註冊試驗: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
 
 兩則都以相對數字呈現成果：該則的五組評測除一個絕對分數外只公布百分點差距與成本倍數，本則只公布「低雙位數成長」與非 GAAP 指標的增益方向而未揭露 SOFIE 的營收，外部同樣無法判斷基準線落在哪裡: [GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra](2026-10-07-openai-gpt-6-1-sol-launch.md)
 
@@ -168,16 +168,16 @@ SOFIE 自己公告的兩項第三期試驗如下：
 
 該研究說明換一個評估條件，現成醫療視覺語言模型的結論就可能改寫；本則指出若 FAPI-74 上市，PET 判讀面對的是既有以 FDG 為主的模型從未見過的影像分布，兩篇是同一個可攜性問題的兩端: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](../ai-papers/2026-09-21-cxr-tb-vlm-portability-audit.md)
 
-同一週內兩家影像大廠的相反方向組合調整：本則是買進一個模態的供應鏈最後一哩，該則是退出一個模態的通用影像市場，兩則合看可以看出大廠正把資源從診斷端的廣度移向治療端的整合深度: [Siemens 當天停售四款超音波，公告標題寫的是「聚焦」](2026-10-14-siemens-ultrasound-general-imaging-exit.md)
+同一週內兩家影像大廠的相反方向組合調整：本則是買進一個模態的供應鏈最後一哩，該則是退出一個模態的通用影像市場，兩則合看可以看出大廠正把資源從診斷端的廣度移向治療端的整合深度: [Siemens 退出一般影像超音波，四款機型當日停售](2026-10-14-siemens-ultrasound-general-imaging-exit.md)
 
 
-同一家公司相隔十二天的另一則公告指向同一條治療端路線：該則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而本則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [放療生成式 AI 合作案：唯一的成效數字來自合作之前](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
+同一家公司相隔十二天的另一則公告指向同一條治療端路線：該則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而本則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [GE 擴大研究合作，探索放療工作流程的生成式 AI](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
 
-同一家公司相隔十天的兩則公告，是同一個短半衰期供應問題的兩種相反解法：本則花 9.45 億美元買下美國的受託製造與配送網絡，把藥送到院方手上；該則宣布一台小型迴旋加速器取得歐洲法規許可，讓院方自己生產。兩則並讀可以看出 GE HealthCare 同時押了外包與自產兩邊，而兩則對自家計畫的規模揭露同樣稀薄: [公告說拿到 CE Mark，自家產品頁寫著 Not CE marked](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
+同一家公司相隔十天的兩則公告，是同一個短半衰期供應問題的兩種相反解法：本則花 9.45 億美元買下美國的受託製造與配送網絡，把藥送到院方手上；該則宣布一台小型迴旋加速器取得歐洲法規許可，讓院方自己生產。兩則並讀可以看出 GE HealthCare 同時押了外包與自產兩邊，而兩則對自家計畫的規模揭露同樣稀薄: [院內迴旋加速器取得 CE Mark，固態靶平台加 Copper-64](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
 
-同屬 GE HealthCare 的 theranostics 布局，本則是治療端 —— 花 9.45 億美元買下放射性藥物配送的最後一哩，該則是造影端 —— 把評估鋪到三大洲五家機構；兩則的共同特徵是標題涵蓋面都大於公告內可核對的範圍，本則的 pan-cancer 實際只有兩種癌別的第三期試驗，該則的 next generation of theranostics imaging 實際只有一條倍數宣稱: [「逾 1,000 名病人」發生在這五個合作開始之前](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
+同屬 GE HealthCare 的 theranostics 布局，本則是治療端 —— 花 9.45 億美元買下放射性藥物配送的最後一哩，該則是造影端 —— 把評估鋪到三大洲五家機構；兩則的共同特徵是標題涵蓋面都大於公告內可核對的範圍，本則的 pan-cancer 實際只有兩種癌別的第三期試驗，該則的 next generation of theranostics imaging 實際只有一條倍數宣稱: [StarGuide GX：4D SPECT/CT 交給五家機構評估](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
-本則的 9.45 億美元收購在該則的季度財報 capital deployment 段再次出現，並補上「預計 2027 年上半年完成、須經主管機關核准」；更有用的是該則的現金流量表提供了本則缺少的量級脈絡 —— 前九個月 `Purchases of businesses, net of cash acquired` 合計 22.93 億美元，而全部收購對同期營收的貢獻只有 1.90 億美元: [「各部門都成長」對這一季成立，對前九個月不成立](2026-10-29-ge-healthcare-q3-2026-results.md)
+本則的 9.45 億美元收購在該則的季度財報 capital deployment 段再次出現，並補上「預計 2027 年上半年完成、須經主管機關核准」；更有用的是該則的現金流量表提供了本則缺少的量級脈絡 —— 前九個月 `Purchases of businesses, net of cash acquired` 合計 22.93 億美元，而全部收購對同期營收的貢獻只有 1.90 億美元: [GE HealthCare 第三季營收成長 7.2%，全年財測上修](2026-10-29-ge-healthcare-q3-2026-results.md)
 
 ## 實務的啟發
 

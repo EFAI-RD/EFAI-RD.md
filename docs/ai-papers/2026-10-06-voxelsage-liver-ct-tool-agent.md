@@ -177,7 +177,7 @@ CASE 同樣把 VISTA3D 分割後的量測交給代理調用，並在 UK Biobank 
 
 該研究同樣讓 LLM 不碰計算，但工具是由 LLM 依擷取到的規則生成、再以訓練例驗證修復的 Python 計算器，並做了拿掉工具改由模型直接作答的消融（最終準確率從 86.73% 降到 69.46%），補上本篇缺少的「工具本身貢獻多少」那組對照: [算分交給程式、LLM 只抽參數：醫療計算器 86.73%，錯多在讀病歷](2026-10-20-tool-augmented-llm-medical-calculation.md)
 
-該則記錄 Gartner 對 agentic workflow 推論成本的預測，並把 inference-tiering、routing 與 orchestration 列為控制成本的處方；本篇的工具代理正是這個處方在醫療影像上的具體樣貌 —— 量測交給確定性程式、LLM 只負責調度，從成本角度看就是把最貴的那一段移出推論，而本篇的證據仍停在系統測試與模擬器，成本與效益都尚未在真實科室被量過: [推論成本要漲五倍以上，從多少漲起？Gartner 沒寫](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
+該則記錄 Gartner 對 agentic workflow 推論成本的預測，並把 inference-tiering、routing 與 orchestration 列為控制成本的處方；本篇的工具代理正是這個處方在醫療影像上的具體樣貌 —— 量測交給確定性程式、LLM 只負責調度，從成本角度看就是把最貴的那一段移出推論，而本篇的證據仍停在系統測試與模擬器，成本與效益都尚未在真實科室被量過: [Gartner 預測代理式工作流程推論成本到 2028 年漲逾五倍](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
 VoxelSage 把量測交給確定性程式，HAD-VLM 則讓 VLM 本身以 diffusion 產生連續的卡尺端點與長度，並與逐 token 輸出、MLP 回歸頭做了對照，兩篇並讀可比較「量測交給工具」與「量測留在模型裡」的取捨: [量測值不再逐字吐出：HAD-VLM 用 diffusion 輸出卡尺端點](2026-11-03-had-vlm-diffusion-ultrasound-measurement.md)
 

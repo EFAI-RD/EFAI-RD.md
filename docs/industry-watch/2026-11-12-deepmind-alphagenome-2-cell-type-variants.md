@@ -134,11 +134,11 @@ Google DeepMind 於 2026-11-11 發布 AlphaGenome 2，一個預測 DNA 序列及
 
 ## 與書庫其他文章的關係
 
-本則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與該則是同一條路線的兩端：該則示範的是代理式平台怎麼串起既有的化學工具，本則是即將被串進去的專用科學模型本身: [DeepMind 藥物設計示範：答案在代理程式動手前就寫好了](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
+本則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與該則是同一條路線的兩端：該則示範的是代理式平台怎麼串起既有的化學工具，本則是即將被串進去的專用科學模型本身: [DeepMind 化學資訊學 Skills：代理程式跑完一輪藥物設計](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
 
-該則提到 Antigravity 可接的三十多個生命科學資料庫中包含 1PB 的 AlphaGenome Atlas，而那個 Atlas 正是本則模型的前一代對全基因體預先算出的產物；兩則合看可見同一條「模型 → 預算好的資產 → 接進代理式平台」的建置順序: [DeepMind 說把數天縮成一次對話，全文沒量過任何一段時間](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
+該則提到 Antigravity 可接的三十多個生命科學資料庫中包含 1PB 的 AlphaGenome Atlas，而那個 Atlas 正是本則模型的前一代對全基因體預先算出的產物；兩則合看可見同一條「模型 → 預算好的資產 → 接進代理式平台」的建置順序: [DeepMind 抗菌胜肽示範：代理程式從資料庫走到實驗計畫](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
 
-同一家公司相隔一週的兩則發布，一則談健康 AI 該用哪些方法評估、門檻由各團隊自訂，一則是實際發布的模型與它所公布的評估範圍；並讀可以看出該框架所談的 accuracy／safety／usefulness 三個領域，在一則研究用模型的發布裡各自被交代到什麼程度: [Google 公開健康 AI 評估框架，及格線留給各家自己訂](2026-11-05-google-health-ai-evaluation-framework.md)
+同一家公司相隔一週的兩則發布，一則談健康 AI 該用哪些方法評估、門檻由各團隊自訂，一則是實際發布的模型與它所公布的評估範圍；並讀可以看出該框架所談的 accuracy／safety／usefulness 三個領域，在一則研究用模型的發布裡各自被交代到什麼程度: [Google 健康 AI 評估框架：三個領域、三種方法、17 個維度](2026-11-05-google-health-ai-evaluation-framework.md)
 
 ## 實務的啟發
 

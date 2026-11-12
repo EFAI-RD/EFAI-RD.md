@@ -208,15 +208,15 @@ Table 5.1 的七列數值，欄序為 Gemini 4 Argon、Gemini 3.8 Flash、Gemini
 
 ## 與書庫其他文章的關係
 
-本則的白皮書把 Objective Structured Clinical Examination（OSCE，客觀結構式臨床測驗）式的對話評估列為方法演進的一個階段，引用的正是該則那條 AMIE 研究路線（Tu 等人 2025 年 Nature 論文，白皮書參考文獻 9）；而該則抓到的落差 —— 90% 是前七名清單命中率、排第一只有 56% —— 恰好屬於白皮書自己承認的那個問題：指標的分母在傳播過程中掉了，而框架把界定分母的責任留給各產品團隊自己訂: [AMIE 的 90% 是前七名命中率，排第一的只有 56%](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
+本則的白皮書把 Objective Structured Clinical Examination（OSCE，客觀結構式臨床測驗）式的對話評估列為方法演進的一個階段，引用的正是該則那條 AMIE 研究路線（Tu 等人 2025 年 Nature 論文，白皮書參考文獻 9）；而該則抓到的落差 —— 90% 是前七名清單命中率、排第一只有 56% —— 恰好屬於白皮書自己承認的那個問題：指標的分母在傳播過程中掉了，而框架把界定分母的責任留給各產品團隊自己訂: [AMIE 看診前先問病史：98 人的 Lancet 可行性研究](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
 
-兩則都是大廠把自家的健康 AI 評分裝置公開：該則公開的是一套可執行的 benchmark 與評分程式碼，爭點在訂尺的人與受測的系統出自同一方；本則公開的是訂尺的方法論而刻意不訂刻度，白皮書明寫及格門檻應由各團隊在各自的 phase-gate 自行共同設計，於是外部連「尺有沒有刻歪」都無從判斷: [Microsoft 說開源是為了重現，兩份資料都要另外申請](2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
+兩則都是大廠把自家的健康 AI 評分裝置公開：該則公開的是一套可執行的 benchmark 與評分程式碼，爭點在訂尺的人與受測的系統出自同一方；本則公開的是訂尺的方法論而刻意不訂刻度，白皮書明寫及格門檻應由各團隊在各自的 phase-gate 自行共同設計，於是外部連「尺有沒有刻歪」都無從判斷: [SDBench 與 MAI-DxO：把診斷評估改成逐步問診](2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
 
 同一個問題的兩端：該則是主管機關就生成式 AI 醫材的監管考量公開徵詢意見，本則是技術供應商主動公開自家的評估方法論並在摘要裡明寫目標讀者包含 regulators（主管機關），兩則並讀可以看出「誰來定義評估」這件事目前由兩邊各自推進，而本則的框架把量化門檻留空，正好是監管端最需要被填上的那一格: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](2026-09-17-fda-genai-devices-discussion-paper.md)
 
-同一家公司相隔一天的兩則發布恰好構成對照：本則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，該則的示範卻是第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，而沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [DeepMind 藥物設計示範：答案在代理程式動手前就寫好了](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
+同一家公司相隔一天的兩則發布恰好構成對照：本則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，該則的示範卻是第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，而沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [DeepMind 化學資訊學 Skills：代理程式跑完一輪藥物設計](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
 
-同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：本則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，該則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻: [Google 醫療 AI 認證說經領先醫療組織審閱，官方頁無一具名](2026-11-09-google-ai-healthcare-professionals-certificate.md)
+同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：本則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，該則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻: [Google 醫療人員 AI 認證：四門課、最多 5.0 CME 學分](2026-11-09-google-ai-healthcare-professionals-certificate.md)
 
 同一家公司相隔一週的兩則發布，本則談健康 AI 該用哪些方法評估、門檻由各團隊自訂，該則是實際發布的模型與它所公布的評估範圍；並讀可以看出本則框架所談的 accuracy／safety／usefulness 三個領域，在一則研究用模型的發布裡各自被交代到什麼程度: [AlphaGenome 2：變異效應預測從組織平均走到細胞類型](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
 
