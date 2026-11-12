@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "PathXAI：公開集 finding F1 48.8，全答「有」得 86.3"
 catalog_id: "arxiv:2611.09117"
 editors:

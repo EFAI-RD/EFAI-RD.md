@@ -181,6 +181,8 @@ CASE 同樣把 VISTA3D 分割後的量測交給代理調用，並在 UK Biobank 
 
 VoxelSage 把量測交給確定性程式，HAD-VLM 則讓 VLM 本身以 diffusion 產生連續的卡尺端點與長度，並與逐 token 輸出、MLP 回歸頭做了對照，兩篇並讀可比較「量測交給工具」與「量測留在模型裡」的取捨: [量測值不再逐字吐出：HAD-VLM 用 diffusion 輸出卡尺端點](2026-11-03-had-vlm-diffusion-ultrasound-measurement.md)
 
+本篇是「LLM 呼叫專門工具」的一個實作，把肝腫瘤量測交給程式執行；該綜述構想的 agentic 放療勾畫系統採同樣的控制器加工具架構，並列出檢索錯誤、理由不實與錯誤串接等失效模式: [放療勾畫綜述：VLM 對 nnU-Net 勝負未定，論點改押 CTV](2026-11-12-radiotherapy-segmentation-review-atlas-to-agentic-vlm.md)
+
 ## 實務的啟發
 
 本篇的定位是可借用的系統設計與量測方法，不是已驗證的術前規劃工具。
