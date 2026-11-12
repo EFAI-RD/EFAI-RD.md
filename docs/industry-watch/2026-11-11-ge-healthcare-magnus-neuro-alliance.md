@@ -9,8 +9,8 @@ tags: [GE-HealthCare, MAGNUS, MRI, neuroimaging, head-only-MR, gradient, diffusi
 catalog_id: "ge-healthcare:magnus-neuro-alliance-2026-11-10"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:
@@ -22,7 +22,7 @@ source:
   single_org: true
 related_articles:
   - path: "2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md"
-    relation: "同一家公司相隔七天的兩則發表，都把整篇公告的可核對數值壓到接近零，差別在被省略的是哪一類數字：該則發表的是已可銷售的介入影像系統，卻沒有任何效能數字；本則連機器規格都只剩一個 3.0T，而九家合作機構裡有幾家真的裝了機器也沒有寫"
+    relation: "同一家公司相隔七天的兩則發表，都處在「可展示但尚未全面可售」的階段，而兩者被擋住的範圍不同：該則的介入影像系統已有 CE 標章、美國 510(k) 審查中；本則的頭部專用 MR 系統限定為研究用途、未獲任何主管機關許可。兩則並讀可以看出同一家公司在不同產品線上的上市節奏"
   - path: "2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md"
     relation: "兩則都是正文以臨床語彙描述一台機器、而同頁小字寫明它在市場上還不能供應，差別在小字擋住的範圍：該則擋的是歐盟醫療器材法規（Medical Device Regulation，MDR）2017/745 的商業供應，本則的註腳一次擋掉美國 FDA 與所有其他全球主管機關，並把用途限定為研究"
   - path: "2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md"
@@ -134,7 +134,7 @@ GE HealthCare 於 2026-11-10 宣布，打算成立一個名為 MAGNUS Neuro Alli
 
 ## 與書庫其他文章的關係
 
-同一家公司相隔七天的兩則發表，都把整篇公告的可核對數值壓到接近零，差別在被省略的是哪一類數字：該則發表的是已可銷售的介入影像系統，卻沒有任何效能數字；本則連機器規格都只剩一個 3.0T，而九家合作機構裡有幾家真的裝了機器也沒有寫: [Allia Celeo：天花板吊掛介入影像機，歐盟 CE、美國待審](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
+同一家公司相隔七天的兩則發表，都處在「可展示但尚未全面可售」的階段，而兩者被擋住的範圍不同：該則的介入影像系統已有 CE 標章、美國 510(k) 審查中；本則的頭部專用 MR 系統限定為研究用途、未獲任何主管機關許可。兩則並讀可以看出同一家公司在不同產品線上的上市節奏: [Allia Celeo：天花板吊掛介入影像機，歐盟 CE、美國待審](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
 
 兩則都是正文以臨床語彙描述一台機器、而同頁小字寫明它在市場上還不能供應，差別在小字擋住的範圍：該則擋的是歐盟醫療器材法規（Medical Device Regulation，MDR）2017/745 的商業供應，本則的註腳一次擋掉美國 FDA 與所有其他全球主管機關，並把用途限定為研究: [Cios Go ID：顯示器裝在機身上的行動式 C 臂](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
 

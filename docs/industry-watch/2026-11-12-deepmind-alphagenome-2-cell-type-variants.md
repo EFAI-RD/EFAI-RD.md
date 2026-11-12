@@ -9,8 +9,8 @@ tags: [Google-DeepMind, AlphaGenome, genomics, variant-effect-prediction, single
 catalog_id: "google-deepmind:alphagenome-2-launch-2026-11-11"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:

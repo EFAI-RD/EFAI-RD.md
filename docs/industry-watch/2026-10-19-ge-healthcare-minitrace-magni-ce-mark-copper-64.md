@@ -39,9 +39,9 @@ refs:
   prlist:
     title: "GE HealthCare：Press Releases（官方新聞稿列表）"
     url: "https://www.gehealthcare.com/en-us/about/newsroom/press-releases"
-status: draft
+status: published
 skill_version: "write-industry-watch@3.1"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [Industry Watch](./)

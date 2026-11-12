@@ -42,9 +42,9 @@ refs:
   sofiepro:
     title: "SOFIE Biosciences：First Patient Dosed in [18F]FAPI-74 Phase 3 Study for Pancreatic Cancer（官方公告，2026-02-11）"
     url: "https://sofie.com/2026/02/11/sofie-biosciences-announces-first-patient-dosed-in-18ffapi-74-phase-3-study-for-pancreatic-cancer/"
-status: draft
+status: published
 skill_version: "write-industry-watch@3.1"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [Industry Watch](./)

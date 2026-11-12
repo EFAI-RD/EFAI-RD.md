@@ -9,8 +9,8 @@ tags: [Google, Google-for-Health, Google-DeepMind, health-AI-evaluation, autorat
 catalog_id: "google:multi-method-health-ai-evaluation-framework-2026-11-04"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:

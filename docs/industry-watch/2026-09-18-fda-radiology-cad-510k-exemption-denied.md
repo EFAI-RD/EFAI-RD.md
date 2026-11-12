@@ -18,7 +18,7 @@ source:
   official_url: "https://www.federalregister.gov/documents/2026/09/17/2026-19074/medical-devices-exemption-from-premarket-notification-radiology-computer-aided-detection-andor"
 related_articles:
   - path: "2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md"
-    relation: "本則記錄 FDA 駁回放射科 CAD 軟體的 510(k) 免除請願、守住這道關卡；該則正好是這道關卡留下的公開產物 —— 因為沒有被免除，兩項功能各留下一份公開的 510(k) summary，外部才讀得到新聞稿沒寫的樣本數、信賴區間與適用族群限制"
+    relation: "本則是 FDA 駁回放射科 CAD／CADt 軟體 510(k) 免除請願的最終決定；該則的兩項功能正是走完這條 510(k) 路徑的產物，因此樣本數、信賴區間與適用族群限制都留在公開的 summary 裡可供查閱。兩則並讀可以看出這道關卡守住之後，外部實際多讀到了什麼"
   - path: "./2026-09-15-fda-cardio-ml-notification.md"
     relation: "same FDA AI/ML SaMD regulatory track; Class II codification vs 510(k) exemption denial"
   - path: "./2026-09-17-fda-genai-devices-discussion-paper.md"
@@ -98,7 +98,7 @@ evidence_reviewed: true
 
 本則確認既有 clearance 不會自動延伸到後續產品、510(k) 這道關卡並未放寬，該則則是一個仍在 510(k) 審查中、卻已用「未來已到來」對外發表的放射治療系統，兩則合看可以看出「發表時點」與「可用時點」之間的制度性距離: [Accela：以 NeoArc 動態弧形治療為核心的放療機](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-本則記錄 FDA 駁回放射科 CAD 軟體的 510(k) 免除請願、守住這道關卡；該則正好是這道關卡留下的公開產物 —— 因為沒有被免除，兩項功能各留下一份公開的 510(k) summary，外部才讀得到新聞稿沒寫的樣本數、信賴區間與適用族群限制: [Vscan Air 新增八區肺部掃描導引與主動脈瓣狹窄提示](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md)
+本則是 FDA 駁回放射科 CAD／CADt 軟體 510(k) 免除請願的最終決定；該則的兩項功能正是走完這條 510(k) 路徑的產物，因此樣本數、信賴區間與適用族群限制都留在公開的 summary 裡可供查閱。兩則並讀可以看出這道關卡守住之後，外部實際多讀到了什麼: [Vscan Air 新增八區肺部掃描導引與主動脈瓣狹窄提示](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md)
 
 ## 實務的啟發
 

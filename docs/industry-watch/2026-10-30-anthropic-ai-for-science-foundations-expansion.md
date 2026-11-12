@@ -9,8 +9,8 @@ tags: [Anthropic, AI-for-Science, research-credits, life-sciences, genomics, com
 catalog_id: "anthropic:ai-for-science-expands-foundations-research-institutions-2026-10-28"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:
@@ -22,7 +22,7 @@ related_articles:
   - path: "2026-10-28-anthropic-drug-development-case-studies.md"
     relation: "同一家公司相隔一天的兩則公告，分屬成果側與取用側，而兩則的可核對物都不在正文：該則的樣本數與利益揭露藏在同頁要點開的面板裡，本則的夥伴總數與正文三份名單對不起來，決定研究者能用到哪一級模型的那段限制則寫在兩個月前的另一頁"
   - path: "2026-10-08-medgemma-global-deployment-claims.md"
-    relation: "兩則都是大廠把「我們支持了多少」寫成一個數字，而逐條點名的清單撐不住那個數字：該則五個合作案裡只有一個報得出已完成的使用量，本則開頭的 20 個夥伴在三份名單裡只數得出 18 個，公告也沒有說另外兩個是誰"
+    relation: "兩則都是大廠公布自己支持了哪些單位：該則是五個醫療落地合作，本則是擴大到基金會與研究機構的免費額度計畫。兩則並讀可以看出把公告的名單逐條點清，是閱讀這類發布最基本也最有用的一個動作"
   - path: "2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md"
     relation: "該則的三種加速說法分屬三個官方位置、沒有一個附得出絕對數值，本則的「數月變數小時」與「數週變數小時」是同一種寫法，差別在本則連被加速的工作是哪一項都沒有指明"
 refs:
@@ -165,7 +165,7 @@ Anthropic 在 2026-10-28 宣布把 AI for Science 計畫從個別研究者擴大
 
 同一家公司相隔一天的兩則公告，分屬成果側與取用側，而兩則的可核對物都不在正文：該則的樣本數與六段利益揭露藏在同頁要點開的面板裡，本則的夥伴總數與正文三份名單對不起來，決定研究者實際能用到哪一級模型的那段限制則寫在兩個月前的另一頁；兩則並讀可以看出同一家公司在同一週內，把關鍵限定條件放在正文以外的兩種不同作法: [Anthropic 公布六個藥物開發組織接入 Claude 的早期成果](2026-10-28-anthropic-drug-development-case-studies.md)
 
-兩則都是大廠把「我們支持了多少」收斂成一個數字，而逐條點名的清單撐不住那個數字：該則五個合作案裡只有一個報得出已完成的使用量，本則開頭的 20 個夥伴在三份名單裡只數得出 18 個，公告也沒有說另外兩個是誰；兩則並讀可以看出清點名單這個最低限度的核對動作，為什麼值得每次都做一遍: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
+兩則都是大廠公布自己支持了哪些單位：該則是五個醫療落地合作，本則是擴大到基金會與研究機構的免費額度計畫。兩則並讀可以看出把公告的名單逐條點清，是閱讀這類發布最基本也最有用的一個動作: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
 
 該則的三種加速說法分屬三個官方位置、沒有一個附得出絕對數值；本則的「數月變數小時」與「數週變數小時」是同一種寫法，差別在本則連被加速的工作是哪一項都沒有指明。兩則並讀可以看出相對倍數在缺少分母時，不論出現在效益側或成本側都同樣無法使用: [DeepMind 抗菌胜肽示範：代理程式從資料庫走到實驗計畫](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
 

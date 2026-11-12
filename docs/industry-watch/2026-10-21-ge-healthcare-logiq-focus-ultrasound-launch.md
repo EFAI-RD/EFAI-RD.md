@@ -23,9 +23,9 @@ related_articles:
   - path: "2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md"
     relation: "同一家公司四天內的兩則公告，自家產品頁與新聞稿的關係一次是互相牴觸、一次是互相補足"
   - path: "../ai-papers/2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md"
-    relation: "該研究稽核的是讀影像的演算法，本則記錄的是產生影像的機器，兩者對「AI 要附什麼證據」的標準落差極大"
+    relation: "該研究稽核的是判讀超音波的演算法，本則記錄的是產生超音波影像的機器，兩者分屬醫療 AI 證據鏈的兩端：判讀端已有明確的敏感度與特異度報告慣例，取像端的評估方式則仍由各廠商自訂，而取像端的變異同樣會進到病人的報告裡"
   - path: "2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md"
-    relation: "兩則都是取像端機台的發表，但廠商替自己設定的證據門檻差距很大：本則委託第三方做了 21 位醫師的比較研究並公開四頁白皮書，該則的產品頁雖有一個標示為 Evidence 的區塊，裡面放的是一張假體影像與兩段使用者證言"
+    relation: "兩則都是取像端機台的發表，而兩家對「證據」的呈現方式差距很大：本則委託第三方執行了 21 位醫師參與的比較研究並公開四頁白皮書，該則的產品頁設有一個標示為 `Evidence` 的區塊，內容為假體影像與兩段使用者證言。兩則並讀可以看出取像端設備的證據形態目前由各廠商自訂"
   - path: "2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md"
     relation: "同一家公司把比較級數字放進公告、比較對象都是自家前代機的兩個案例，差別在比較對象揭露在正文還是只寫在註腳"
 refs:
@@ -41,9 +41,9 @@ refs:
   siemens:
     title: "Siemens Healthineers：Siemens Healthineers Sharpens Ultrasound to Focus on the Future of Procedural Imaging（官方新聞稿，2026-10-12）"
     url: "https://www.siemens-healthineers.com/press/releases/ultrasound"
-status: draft
+status: published
 skill_version: "write-industry-watch@3.1"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [Industry Watch](./)
@@ -178,9 +178,9 @@ GE HealthCare 在 2026-10-19 發表 LOGIQ Focus，一台通用影像（general i
 
 同一家公司四天內的兩則公告，自家產品頁與新聞稿的關係正好相反：該則的產品頁在公告發出四天後仍寫著 `Not CE marked`，與新聞稿的 CE Mark 宣稱**互相牴觸**；本則的產品頁與白皮書則補上了新聞稿**省略**的比較對象與對競品的無差異結果，是互相補足。兩則合看得到同一個操作結論 —— 要知道一則公告實際涵蓋到哪裡，必須離開公告頁去讀同一家公司的其他頁面，而離開之後會看到什麼並不固定: [院內迴旋加速器取得 CE Mark，固態靶平台加 Copper-64](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
 
-該研究稽核的是讀超音波的演算法，本則記錄的是產生超音波影像的機器，而兩者的證據標準落差極大：該研究必須報出 300 顆腫塊的敏感度、特異度與對照方法才能下結論，本則的自動射出分率量測工具在兩個官方頁面上連一個一致性數字都沒有。兩篇並讀說明醫療 AI 的證據要求目前集中在判讀端，而取像端的變異同樣會進到病人的報告裡: [只給超音波文字，GPT-5 判良惡性追得上 IOTA 與專家嗎](../ai-papers/2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md)
+該研究稽核的是判讀超音波的演算法，本則記錄的是產生超音波影像的機器，兩者分屬醫療 AI 證據鏈的兩端：判讀端已有明確的敏感度與特異度報告慣例，取像端的評估方式則仍由各廠商自訂，而取像端的變異同樣會進到病人的報告裡: [只給超音波文字，GPT-5 判良惡性追得上 IOTA 與專家嗎](../ai-papers/2026-09-22-chatgpt-adnexal-mass-ultrasound-triage.md)
 
-兩則都是取像端機台的發表，但廠商替自己設定的證據門檻差距很大：本則委託第三方執行了 21 位醫師參與的比較研究並公開四頁白皮書，缺陷在於對競品無時間差異的那一組結果沒有進新聞稿；該則的產品頁雖然設了一個標示為 `Evidence` 的區塊，裡面放的是一張假體影像與兩段使用者證言，全頁的 `study` 與 `trial` 命中數為 0，兩則並讀可以看出取像端設備的證據形態目前完全由各廠商自訂: [Cios Go ID：顯示器裝在機身上的行動式 C 臂](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
+兩則都是取像端機台的發表，而兩家對「證據」的呈現方式差距很大：本則委託第三方執行了 21 位醫師參與的比較研究並公開四頁白皮書，該則的產品頁設有一個標示為 `Evidence` 的區塊，內容為假體影像與兩段使用者證言。兩則並讀可以看出取像端設備的證據形態目前由各廠商自訂: [Cios Go ID：顯示器裝在機身上的行動式 C 臂](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
 
 同一家公司把一個比較級數字放進公告，而比較對象都是自家前代機的兩個案例，差別在揭露位置：本則的「快 26 percent」在新聞稿正文就寫出比的是自家 LOGIQ P8，讀者在同一段就看得到比較對象；該則正文只寫「2.67 倍」，必須翻到註腳才知道比的是 NM/CT 870 DR 搭 LEHRS collimator，而該機種的產品頁又沒有公布絕對值，倍數因此無法還原: [StarGuide GX：4D SPECT/CT 交給五家機構評估](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 

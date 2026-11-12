@@ -26,7 +26,7 @@ related_articles:
   - path: "2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md"
     relation: "兩則都缺少讀者自行設定驗收門檻所需的那個數字，但缺法相反：本則給了九個全為上下限、沒有典型值也沒有對照機型的規格，該則給的 62.3% 恰恰就是論文算出來的典型值，只是新聞稿沒說它是模型對一位虛構病人的推算，而真正能對照臨床門檻的絕對值留在論文裡"
   - path: "2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md"
-    relation: "同一家公司、同一種發表方式，而本則的限定條件可見度較高：本則的 `510(k) pending` 與「尚未在任何市場銷售」寫在有編號的註腳裡，該則的三行限定在頁面原始碼中的上標只放了一個空白字元，正文沒有任何可對應的錨點"
+    relation: "同一家公司、同一種發表方式，而限定條件的可見度不同：本則的 `510(k) pending` 與「尚未在任何市場銷售」寫在有編號的註腳裡，讀者順著編號就找得到；該則的三行限定寫在頁尾，正文沒有對應的錨點。兩則並讀可以看出「限定條件寫在哪裡」有連續的層級，而不是有或沒有的二分"
   - path: "2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md"
     relation: "兩則都是在國際醫學年會發表、同頁註腳寫明美國 510(k) 仍在審查中的系統，差別在歐洲端的銷售狀態不同"
 refs:
@@ -36,9 +36,9 @@ refs:
   product:
     title: "Siemens Healthineers Cancer Care：Accela（官方產品頁）"
     url: "https://cancercare.siemens-healthineers.com/products/radiotherapy/treatment-delivery/accela"
-status: draft
+status: published
 skill_version: "write-industry-watch@3.1"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [Industry Watch](./)
@@ -151,7 +151,7 @@ Siemens Healthineers 於 2026-09-27 在 ASTRO 2026 發表 Accela，一台由其�
 
 兩則都是「標題宣告法規里程碑、限定條件寫在別處」的案例，但限定條件的位置相反：本則的 `510(k) pending` 與「尚未在任何市場銷售」就寫在同一頁的註腳裡，讀者往下捲就看得到；該則的公告頁一條註腳都沒有，`Not CE marked` 寫在公司自己的產品頁上，必須換一個頁面才會發現: [院內迴旋加速器取得 CE Mark，固態靶平台加 Copper-64](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
 
-同一家公司、同一種發表方式，而兩則的限定條件可見度不同：本則的 `510(k) pending` 與「尚未在任何市場銷售」寫在有編號的註腳裡，讀者順著編號就找得到；該則的三行限定在頁面原始碼中的上標只放了一個空白字元，正文連一個可對應的錨點都沒有，兩則並讀可以看出「限定條件寫在哪裡」這件事有連續的層級，而不是有或沒有的二分: [Cios Go ID：顯示器裝在機身上的行動式 C 臂](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
+同一家公司、同一種發表方式，而限定條件的可見度不同：本則的 `510(k) pending` 與「尚未在任何市場銷售」寫在有編號的註腳裡，讀者順著編號就找得到；該則的三行限定寫在頁尾，正文沒有對應的錨點。兩則並讀可以看出「限定條件寫在哪裡」有連續的層級，而不是有或沒有的二分: [Cios Go ID：顯示器裝在機身上的行動式 C 臂](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
 
 兩則都是在國際醫學年會發表、而同頁註腳寫明美國 510(k) 仍在審查中的系統，差別在歐洲端的狀態：本則的註腳寫的是尚未在任何市場銷售，該則已取得 CE Mark 並在部分歐盟成員國販售。把兩則放在一起可以看出「發表早於許可」這個做法在不同法規進度下會長成不同的樣子，而註腳的位置與密度則幾乎一致: [StarGuide GX：4D SPECT/CT 交給五家機構評估](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 

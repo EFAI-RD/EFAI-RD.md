@@ -9,8 +9,8 @@ tags: [GE-HealthCare, quarterly-results, Advanced-Imaging-Solutions, Pharmaceuti
 catalog_id: "ge-healthcare:q3-2026-financial-results-2026-10-28"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:
@@ -20,7 +20,7 @@ source:
   official_url: "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reports-third-quarter-2026-financial-results"
 related_articles:
   - path: "2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md"
-    relation: "該則的放射治療生成式 AI 合作，正是本季財報八條 innovation and commercial highlights 裡唯一一條帶有 AI 字樣的項目，而本則的逐詞檢索顯示整份 5,251 字的文件裡 AI 只出現兩次、artificial intelligence 一次且位於風險因子段"
+    relation: "該則的放射治療生成式 AI 合作，在本則的季度財報裡被列為八條 innovation and commercial highlights 之一。兩則並讀可以看出同一項合作在技術公告與財務文件兩種體裁裡的詳略差異，以及季報能與不能回答哪些關於產品的問題"
   - path: "2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md"
     relation: "該則的 9.45 億美元收購在本則的 capital deployment 段再次出現並給出預計完成時點，而本則的現金流量表同時顯示前九個月的 purchases of businesses 合計 22.93 億美元、收購對前九個月營收的貢獻為 1.90 億美元"
   - path: "2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md"
@@ -177,7 +177,7 @@ GE HealthCare 在 2026-10-28 公布 2026 年第三季財務結果並調升 2026 
 
 ## 與書庫其他文章的關係
 
-該則記錄的放射治療生成式 AI 合作，正是本季財報八條亮點中唯一一條帶有 AI 字樣的項目；兩則並讀可以看出同一項合作在不同文件體裁裡的密度差距有多大 —— 該則的公告至少給了一個「前置期 30 天降到 8 天」的數字（即使該數字依其註腳屬於合作之前的既有軟體），本則的季報連一個數字都沒有，而整份 5,251 字文件裡 `artificial intelligence` 只出現一次且位於風險因子段: [GE 擴大研究合作，探索放療工作流程的生成式 AI](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
+該則的放射治療生成式 AI 合作，在本則的季度財報裡被列為八條 innovation and commercial highlights 之一。兩則並讀可以看出同一項合作在技術公告與財務文件兩種體裁裡的詳略差異，以及季報能與不能回答哪些關於產品的問題: [GE 擴大研究合作，探索放療工作流程的生成式 AI](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
 
 該則記錄的 9.45 億美元收購在本則的 capital deployment 段再次出現，並補上「預計 2027 年上半年完成、須經主管機關核准」；更有用的是本則的現金流量表提供了該則缺少的量級脈絡 —— 前九個月 `Purchases of businesses` 合計 22.93 億美元，而全部收購對同期營收的貢獻只有 1.90 億美元，兩則並讀可以看出一樁未完成交易在財報裡的位置與它在新聞稿裡的份量差多少: [GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 

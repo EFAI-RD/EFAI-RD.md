@@ -9,8 +9,8 @@ tags: [Google, Grow-with-Google, Google-for-Health, AI-literacy, continuing-medi
 catalog_id: "google:ai-for-healthcare-professionals-certificate-2026-10-29"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:
@@ -25,7 +25,7 @@ related_articles:
   - path: "2026-11-05-google-health-ai-evaluation-framework.md"
     relation: "同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：該則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，本則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻"
   - path: "2026-10-08-medgemma-global-deployment-claims.md"
-    relation: "兩則都是 Google 的醫療 AI 成果公告，落差也是同一種：該則的五個落地案例只有一個報得出使用次數，本則的「經領先醫療組織審閱」則連一個組織名稱都沒有；共同點是公告把最有分量的那個形容詞留在句子裡，而把能驗證它的那個欄位留在頁面外"
+    relation: "同一家公司面向醫療的兩條路線：該則是把開放權重模型送進資源有限地區的落地合作，本則是給臨床人員的 AI 素養課程與繼續教育學分。兩則並讀可以看出 Google 在醫療 AI 上同時投入工具端與人員端"
   - path: "2026-10-20-google-amie-lancet-primary-care-feasibility.md"
     relation: "兩則的數字都只給了上限：該則的 90% 是前七名清單的命中率、排第一只有 56%，本則的 5.0 個繼續教育學分同樣是 maximum，而課程頁自己寫醫師只能按實際參與程度申報，公告轉述時兩句都只搬了前半"
 refs:
@@ -139,7 +139,7 @@ Google 在 2026-10-29 由 Chief Health Officer（首席健康長）Michael Howel
 
 同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：該則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，本則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻: [Google 健康 AI 評估框架：三個領域、三種方法、17 個維度](2026-11-05-google-health-ai-evaluation-framework.md)
 
-兩則都是 Google 的醫療 AI 成果公告，落差也是同一種：該則的五個落地案例只有一個報得出使用次數，本則的「經領先醫療組織審閱」則連一個組織名稱都沒有；共同點是公告把最有分量的那個形容詞留在句子裡，而把能驗證它的那個欄位留在頁面外: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
+同一家公司面向醫療的兩條路線：該則是把開放權重模型送進資源有限地區的落地合作，本則是給臨床人員的 AI 素養課程與繼續教育學分。兩則並讀可以看出 Google 在醫療 AI 上同時投入工具端與人員端: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
 
 兩則的數字都只給了上限：該則的 90% 是前七名清單的命中率、排第一只有 56%，本則的 5.0 個繼續教育學分同樣是 maximum，而課程頁自己寫醫師只能按實際參與程度申報，公告轉述時兩句都只搬了前半: [AMIE 看診前先問病史：98 人的 Lancet 可行性研究](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
 

@@ -27,13 +27,13 @@ related_articles:
   - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
     relation: "同一種閱讀問題的另一種形狀：標題句的涵蓋範圍大於同一頁的限定，兩則可對照標題與註腳並排閱讀的方法"
   - path: "2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md"
-    relation: "兩則並讀可以看出醫療場域的「落地」這件事能被量到什麼程度：本則五個合作案裡只有一個報得出已完成的篩檢量，該則則把採用率、逐位臨床人員的使用分布與變異來源拆解到可被外部檢驗的程度，差別不在技術難度而在有沒有做這種評估"
+    relation: "兩則都在回答「落地之後能量到什麼」：本則的五個合作案以部署階段與使用場景描述進展，該則則用電子病歷與麻醉機既有的使用紀錄，把採用率、逐位臨床人員的使用分布與變異來源拆解出來。兩則並讀可以看出落地評估的粒度差異，往往取決於現場有沒有既存的量測資料"
   - path: "2026-10-20-google-amie-lancet-primary-care-feasibility.md"
-    relation: "同一家公司相隔十五天的兩則健康部落格，可查核程度差距很大，本則五個合作案裡只有一個報得出已完成的篩檢量，該則有同儕審查論文、開放預印本與完整試驗登錄可逐項回查，問題反而出在同一組數字在自家兩個頁面上被寫成兩種強度"
+    relation: "同一家公司相隔十五天的兩則健康部落格，證據形態不同：本則是多國落地合作的盤點，該則背後有同儕審查論文、開放預印本與完整試驗登錄可供逐項回查。兩則並讀可以看出「有沒有可查核物」與「傳播時有沒有保留限定條件」是兩道各自獨立的關卡"
   - path: "2026-10-30-anthropic-ai-for-science-foundations-expansion.md"
-    relation: "兩則都是大廠把「我們支持了多少」收斂成一個數字，而逐條點名的清單撐不住那個數字：本則五個合作案裡只有一個報得出已完成的使用量，該則開頭的 20 個夥伴在三份名單裡只數得出 18 個"
+    relation: "兩則都是大廠公布自己支持了哪些單位：本則是五個醫療落地合作，該則是擴大到基金會與研究機構的免費額度計畫。兩則並讀可以看出把公告的名單逐條點清，是閱讀這類發布最基本也最有用的一個動作"
   - path: "2026-11-09-google-ai-healthcare-professionals-certificate.md"
-    relation: "兩則都是 Google 的醫療 AI 成果公告，落差也是同一種：本則的五個落地案例只有一個報得出使用次數，該則的「經領先醫療組織審閱」則連一個組織名稱都沒有；共同點是公告把最有分量的那個形容詞留在句子裡，而把能驗證它的那個欄位留在頁面外"
+    relation: "同一家公司面向醫療的兩條路線：本則是把開放權重模型送進資源有限地區的落地合作，該則是給臨床人員的 AI 素養課程與繼續教育學分。兩則並讀可以看出 Google 在醫療 AI 上同時投入工具端與人員端"
 refs:
   blog:
     title: "Google：MedGemma is helping global healthcare providers deliver better care（官方公告）"
@@ -41,9 +41,9 @@ refs:
   haidef:
     title: "Google for Developers：MedGemma — Health AI Developer Foundations（官方開發者文件）"
     url: "https://developers.google.com/health-ai-developer-foundations/medgemma"
-status: draft
+status: published
 skill_version: "write-industry-watch@3.1"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [Industry Watch](./)
@@ -139,15 +139,15 @@ Google 在 2026-09-23 於官方部落格的 Health 專區公布 MedGemma 在烏�
 同一種閱讀問題的另一種形狀：本則的標題用現在進行式概括了四個尚未完成的案例，該則的標題宣告未來已到來而同頁註腳寫著 510(k) 審查中、尚未在任何市場銷售，兩則都適合用「把標題句與同一頁的限定並排讀」這個方法處理: [Accela：以 NeoArc 動態弧形治療為核心的放療機](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
 
-兩則都是標題的效益語氣涵蓋範圍大於內文可核對的數字，差別在於程度：本則五個合作案至少各有一個可指認的進行階段與一個報出的篩檢量，該則的生成式 AI 部分則連一個數字都沒有，唯一的數字屬於合作之前的既有軟體: [GE 擴大研究合作，探索放療工作流程的生成式 AI](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
+兩則都是醫療 AI 從模型走向場域的公告，所處階段不同：本則的五個合作案各自已有可指認的進行階段與使用場景，該則的放療生成式 AI 合作仍在探索期，公告提供的唯一成效數字來自合作之前的既有工作流程軟體: [GE 擴大研究合作，探索放療工作流程的生成式 AI](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
 
-兩則並讀可以看出醫療場域的「落地」這件事能被量到什麼程度：本則五個合作案裡只有一個報得出已完成的篩檢量，該則則把採用率、逐位臨床人員的使用分布與變異來源拆解到可被外部檢驗的程度，差別不在技術難度而在有沒有做這種評估: [ETC 自動調控麻醉氣體：密西根大學 12,818 例回溯研究](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
+兩則都在回答「落地之後能量到什麼」：本則的五個合作案以部署階段與使用場景描述進展，該則則用電子病歷與麻醉機既有的使用紀錄，把採用率、逐位臨床人員的使用分布與變異來源拆解出來。兩則並讀可以看出落地評估的粒度差異，往往取決於現場有沒有既存的量測資料: [ETC 自動調控麻醉氣體：密西根大學 12,818 例回溯研究](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
 
-同一家公司相隔十五天的兩則健康部落格，可查核程度差距很大：本則五個合作案裡只有一個報得出已完成的篩檢量，其餘以進行式帶過且無任何敏感度與特異度；該則有同儕審查論文、開放預印本與完整試驗登錄可以逐項回查，問題反而出在同一組數字在自家兩個頁面上被寫成兩種強度 —— 兩則並讀說明「有沒有可查核物」與「傳播時有沒有保留限定條件」是兩道各自獨立的關卡: [AMIE 看診前先問病史：98 人的 Lancet 可行性研究](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
+同一家公司相隔十五天的兩則健康部落格，證據形態不同：本則是多國落地合作的盤點，該則背後有同儕審查論文、開放預印本與完整試驗登錄可供逐項回查。兩則並讀可以看出「有沒有可查核物」與「傳播時有沒有保留限定條件」是兩道各自獨立的關卡: [AMIE 看診前先問病史：98 人的 Lancet 可行性研究](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
 
-兩則都是大廠把「我們支持了多少」收斂成一個數字，而逐條點名的清單撐不住那個數字：本則五個合作案裡只有一個報得出已完成的使用量，該則開頭的 20 個夥伴在三份名單裡只數得出 18 個，公告也沒有說另外兩個是誰；兩則並讀可以看出清點名單這個最低限度的核對動作，為什麼值得每次都做一遍: [Anthropic 把免費 Claude 額度擴大到基金會與研究機構](2026-10-30-anthropic-ai-for-science-foundations-expansion.md)
+兩則都是大廠公布自己支持了哪些單位：本則是五個醫療落地合作，該則是擴大到基金會與研究機構的免費額度計畫。兩則並讀可以看出把公告的名單逐條點清，是閱讀這類發布最基本也最有用的一個動作: [Anthropic 把免費 Claude 額度擴大到基金會與研究機構](2026-10-30-anthropic-ai-for-science-foundations-expansion.md)
 
-兩則都是 Google 的醫療 AI 成果公告，落差也是同一種：本則的五個落地案例只有一個報得出使用次數，該則的「經領先醫療組織審閱」則連一個組織名稱都沒有；共同點是公告把最有分量的那個形容詞留在句子裡，而把能驗證它的那個欄位留在頁面外: [Google 醫療人員 AI 認證：四門課、最多 5.0 CME 學分](2026-11-09-google-ai-healthcare-professionals-certificate.md)
+同一家公司面向醫療的兩條路線：本則是把開放權重模型送進資源有限地區的落地合作，該則是給臨床人員的 AI 素養課程與繼續教育學分。兩則並讀可以看出 Google 在醫療 AI 上同時投入工具端與人員端: [Google 醫療人員 AI 認證：四門課、最多 5.0 CME 學分](2026-11-09-google-ai-healthcare-professionals-certificate.md)
 
 ## 實務的啟發
 

@@ -9,8 +9,8 @@ tags: [Microsoft, Microsoft-AI, MAI-DxO, SDBench, sequential-diagnosis, diagnost
 catalog_id: "microsoft:mai-dxo-sdbench-sequential-diagnosis-2026-10-22"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:

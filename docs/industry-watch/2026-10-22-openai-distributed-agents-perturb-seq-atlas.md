@@ -9,8 +9,8 @@ tags: [OpenAI, PerturbAI, Scripps-Research, GPT-Rosalind, multi-agent, Perturb-s
 catalog_id: "openai:distributed-agents-brain-perturb-seq-atlas-2026-10-21"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:

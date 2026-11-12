@@ -9,8 +9,8 @@ tags: [Anthropic, Claude, drug-development, antibody-engineering, BigHat-Bioscie
 catalog_id: "anthropic:early-progress-drug-development-2026-10-27"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:
@@ -38,7 +38,7 @@ related_articles:
   - path: "2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md"
     relation: "兩則的核心都是「訂標準的人與被評分的系統出自同一方」：本則的成功規格依技術報告自述是在看過結果之後才定下的；該則則是 benchmark、Gatekeeper、Judge 與受測系統 MAI-DxO 由同一個團隊設計，論文的利益揭露列出全體作者皆為 Microsoft 員工並持有股權。差別在於該則把整套評分程式碼開源了，讓外部至少能檢視那把尺怎麼刻"
   - path: "2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md"
-    relation: "兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查程度差一整級：本則的爭點在於一個倍數出自單一個孔、成功標準是事後才定的，至少有孔數與成功標準可供爭論；該則在代理程式那一側沒有產生任何數值，連可以爭論的對象都不存在。兩則並讀可以看出「廠商自報」也分成可被挑錯與無從挑起兩種"
+    relation: "兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查的深度不同：本則同日釋出六份技術報告，公告裡的數字能逐項對照回原始報告；該則以工作流程示範為主，代理程式側未公布模型指標。兩則並讀可以看出「廠商自報」在證據密度上的落差"
 refs:
   pr:
     title: "Anthropic：Early progress on accelerating drug development with Claude（官方公告；六段案例詳述為同頁可展開面板）"
@@ -173,7 +173,7 @@ BigHat 這一案把 Claude 接在抗體先導優化（lead optimization）的設
 
 兩則的核心都是「訂標準的人與被評分的系統出自同一方」：本則的成功規格依技術報告自述是在看過結果之後才定下的；該則則是 benchmark、Gatekeeper、Judge 與受測系統 MAI-DxO 由同一個團隊設計，論文的利益揭露列出全體作者皆為 Microsoft 員工並持有股權。差別在於該則把整套評分程式碼開源了，讓外部至少能檢視那把尺怎麼刻: [SDBench 與 MAI-DxO：把診斷評估改成逐步問診](2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
 
-兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查程度差一整級：本則的爭點在於一個倍數出自單一個孔、成功標準是事後才定的，至少有孔數與成功標準可供爭論；該則在代理程式那一側沒有產生任何數值，連可以爭論的對象都不存在。兩則並讀可以看出「廠商自報」也分成可被挑錯與無從挑起兩種: [DeepMind 化學資訊學 Skills：代理程式跑完一輪藥物設計](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
+兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查的深度不同：本則同日釋出六份技術報告，公告裡的數字能逐項對照回原始報告；該則以工作流程示範為主，代理程式側未公布模型指標。兩則並讀可以看出「廠商自報」在證據密度上的落差: [DeepMind 化學資訊學 Skills：代理程式跑完一輪藥物設計](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
 
 兩則都是同一家公司的生命科學成果，而最關鍵的限定條件都不在正文：本則的樣本數與成功標準訂定時點藏在要點開的面板裡，該則判定 AAV capsid「預測準確」的門檻（兩個模型任一達 Cα RMSD 3 Å 以內）與被寫進提示詞的前人初始化方法，都只寫在第三條註腳: [Fable 與 Mythos 5.2 降價發布，十四列評測、生科須審核](2026-11-10-anthropic-claude-fable-mythos-5-2-launch.md)
 

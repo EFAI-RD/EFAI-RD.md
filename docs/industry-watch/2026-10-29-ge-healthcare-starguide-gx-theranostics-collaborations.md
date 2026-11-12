@@ -49,9 +49,9 @@ refs:
   sg:
     title: "GE HealthCare：StarGuide Molecular Imaging（美國站產品頁，前代 StarGuide）"
     url: "https://www.gehealthcare.com/en-us/products/molecular-imaging/starguide"
-status: draft
+status: published
 skill_version: "write-industry-watch@3.1"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [Industry Watch](./)

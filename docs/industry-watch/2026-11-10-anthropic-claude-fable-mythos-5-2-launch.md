@@ -9,8 +9,8 @@ tags: [Anthropic, Claude-Fable, Claude-Mythos, frontier-model, model-launch, pri
 catalog_id: "anthropic:claude-fable-mythos-5-2-launch-2026-11-09"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:

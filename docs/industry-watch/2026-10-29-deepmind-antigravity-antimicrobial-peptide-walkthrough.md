@@ -9,8 +9,8 @@ tags: [Google-DeepMind, Google-Antigravity, ProtNLM, AlphaFold, UniProt, antimic
 catalog_id: "google-deepmind:antigravity-antimicrobial-peptide-walkthrough-2026-10-15"
 editors:
   - "Clarence"
-status: draft
-evidence_reviewed: false
+status: published
+evidence_reviewed: true
 skill_version: "write-industry-watch@3.1"
 source:
   orgs:

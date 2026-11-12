@@ -18,11 +18,11 @@ source:
   official_url: "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/research-conducted-at-university-of-michigan-published-in-anesthesia-analgesia-practice-demonstrates-ge-healthcare-end-tidal-control-software-may-help-to-reduce-fresh-gas-flow"
 related_articles:
   - path: "2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md"
-    relation: "同一家公司相隔三天的兩則公告剛好是同一個問題的兩端，該則的生成式 AI 部分連一個數字都沒有，本則有一篇開放取用的同儕審查論文可逐項回查，而兩則都出現同一個動作：把論文裡帶限定條件的數字抽出來，限定條件留在原處"
+    relation: "同一家公司相隔三天的兩則發布，都在談工作流程的量化改善，但證據層級不同：該則的放療合作仍在探索階段，本則有一篇開放取用的同儕審查論文可供逐項回查。兩則引用的關鍵數字都帶有原文的限定條件，轉述時都需要回到原處確認"
   - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
     relation: "兩則都缺少讀者自行設定驗收門檻所需的那個數字，但缺法相反，該則給了九個全為上下限、沒有典型值也沒有對照機型的規格，本則給的 62.3% 恰恰就是論文算出來的典型值，只是新聞稿沒說它是模型對一位虛構病人的推算"
   - path: "2026-10-08-medgemma-global-deployment-claims.md"
-    relation: "兩則並讀可以看出醫療場域「落地」這件事能被量到什麼程度，該則五個合作案裡只有一個報得出已完成的篩檢量，本則則把採用率、逐位臨床人員的使用差異與變異來源拆解到可被外部檢驗的程度，差別不在技術而在有沒有做這種評估"
+    relation: "兩則都在回答「落地之後能量到什麼」：該則的五個合作案以部署階段與使用場景描述進展，本則則用電子病歷與麻醉機既有的使用紀錄，把採用率、逐位臨床人員的使用分布與變異來源拆解出來。兩則並讀可以看出落地評估的粒度差異，往往取決於現場有沒有既存的量測資料"
   - path: "2026-10-20-google-amie-lancet-primary-care-feasibility.md"
     relation: "兩則都是廠商宣傳一篇數值本身正確的論文，而被省略的限定條件種類不同，本則省略的是「這兩個百分比是論文為一位虛構典型病人以調整後模型推算的差異」，該則省略的是「90% 指的是七項鑑別診斷清單之內命中、排第一名只有 56%」"
   - path: "2026-10-28-anthropic-drug-development-case-studies.md"
@@ -34,9 +34,9 @@ refs:
   paper:
     title: "McBride J 等：Utilization and Estimation of Environmental Impact of End-Tidal Control in a Multisite Academic Health System: A Retrospective Observational Cross-Sectional Study（A&A Practice，開放取用全文）"
     url: "https://journals.lww.com/aacr/fulltext/10.1213/xaa.0000000000002256~utilization-and-estimation-of-environmental-impact-of"
-status: draft
+status: published
 skill_version: "write-industry-watch@3.1"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [Industry Watch](./)
@@ -155,11 +155,11 @@ GE HealthCare 在 2026-10-16 發布新聞稿，宣傳一篇密西根大學主持
 
 ## 與書庫其他文章的關係
 
-同一家公司相隔三天的兩則公告剛好是同一個問題的兩端：該則的生成式 AI 部分連一個數字都沒有，本則有一篇開放取用的同儕審查論文可供逐項回查；但兩則出現了同一個動作 —— 把論文裡帶限定條件的數字抽出來，限定條件留在原處，該則是略去讓步子句的後半段，本則是略去「這是模型對一位虛構病人的推算」: [GE 擴大研究合作，探索放療工作流程的生成式 AI](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
+同一家公司相隔三天的兩則發布，都在談工作流程的量化改善，但證據層級不同：該則的放療合作仍在探索階段，本則有一篇開放取用的同儕審查論文可供逐項回查。兩則引用的關鍵數字都帶有原文的限定條件，轉述時都需要回到原處確認: [GE 擴大研究合作，探索放療工作流程的生成式 AI](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
 
 兩則都缺少讀者自行設定驗收門檻所需的那個數字，但缺法相反：該則給了九個全為上下限、沒有典型值也沒有對照機型的規格，本則給的 62.3% 恰恰就是論文算出來的典型值，只是新聞稿沒說它是模型對一位虛構病人的推算，而真正能用來對照臨床門檻的絕對值（0.67 對 1.87 L/min）留在論文裡: [Accela：以 NeoArc 動態弧形治療為核心的放療機](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-兩則並讀可以看出醫療場域的「落地」這件事能被量到什麼程度：該則五個合作案裡只有一個報得出已完成的篩檢量，本則則把採用率、逐位臨床人員的使用分布與變異來源拆解到可被外部檢驗的程度，差別不在技術難度而在有沒有做這種評估 —— 本則用的只是電子病歷與麻醉機既有的使用紀錄: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
+兩則都在回答「落地之後能量到什麼」：該則的五個合作案以部署階段與使用場景描述進展，本則則用電子病歷與麻醉機既有的使用紀錄，把採用率、逐位臨床人員的使用分布與變異來源拆解出來。兩則並讀可以看出落地評估的粒度差異，往往取決於現場有沒有既存的量測資料: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
 
 同一家公司四天內的兩則公告，對證據的處理方式差距極大：本則整篇建立在一篇開放取用的同儕審查論文上，每個數字都能回到原文確認，落差只在轉述時遺落了限定條件；該則全頁沒有任何百分比、沒有任何註腳，也沒有一條可以打開的佐證，兩則合看可以看出「公告有沒有給出可查核物」這件事在同一家公司內部也不一致: [院內迴旋加速器取得 CE Mark，固態靶平台加 Copper-64](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
 

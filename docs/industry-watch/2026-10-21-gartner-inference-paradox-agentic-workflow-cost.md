@@ -36,9 +36,9 @@ refs:
   day2:
     title: "Gartner：Gartner IT Symposium/Xpo 2026 Orlando — Day 2 Highlights（官方會議紀要，2026-10-20）"
     url: "https://www.gartner.com/en/newsroom/press-releases/2026-10-20-gartner-it-symposium-xpo-2026-orlando-day-2-highlights"
-status: draft
+status: published
 skill_version: "write-industry-watch@3.1"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [Industry Watch](./)

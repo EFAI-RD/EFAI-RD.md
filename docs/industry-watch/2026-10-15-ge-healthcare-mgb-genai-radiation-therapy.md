@@ -22,11 +22,11 @@ related_articles:
   - path: "2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md"
     relation: "同一家公司相隔十二天的兩則公告指向同一條治療端路線，本則明寫研究成果可能延伸至 MR、CT 與 theranostics 工作流程，而該則買下的正是 theranostics 所需的放射性藥物供應"
   - path: "2026-10-08-medgemma-global-deployment-claims.md"
-    relation: "兩則都是標題的完成式或效益語氣涵蓋範圍大於內文可核對的數字，差別在於該則的五個案例至少各有一個可指認的進行階段，本則的生成式 AI 部分則連一個數字都沒有"
+    relation: "兩則都是醫療 AI 從模型走向場域的公告，所處階段不同：該則的五個合作案各自已有可指認的進行階段與使用場景，本則的放療生成式 AI 合作仍在探索期，公告提供的唯一成效數字來自合作之前的既有工作流程軟體"
   - path: "2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md"
-    relation: "同一家公司相隔三天的兩則公告剛好是同一個問題的兩端：本則的生成式 AI 部分連一個數字都沒有，該則則有一篇開放取用的同儕審查論文可供逐項回查；但兩則出現了同一個動作 —— 把論文裡帶限定條件的數字抽出來，限定條件留在原處，本則是略去讓步子句的後半段，該則是略去「這是模型對一位虛構病人的推算」"
+    relation: "同一家公司相隔三天的兩則發布，都在談工作流程的量化改善，但證據層級不同：本則的放療合作仍在探索階段，該則有一篇開放取用的同儕審查論文可供逐項回查。兩則引用的關鍵數字都帶有原文的限定條件，轉述時都需要回到原處確認"
   - path: "2026-10-29-ge-healthcare-q3-2026-results.md"
-    relation: "本則的放射治療生成式 AI 合作，在該則的季度財報裡被列為八條 innovation and commercial highlights 之一，而那是整份 5,251 字文件中唯一一條帶有 AI 字樣的項目；兩則並讀可以看出同一項合作在不同文件體裁裡的密度差距 —— 本則至少給出「前置期 30 天降到 8 天」這個可追問的數字，該則的季報連一個數字都沒有，而 `artificial intelligence` 在該文件裡只出現一次且位於風險因子清單"
+    relation: "本則的放射治療生成式 AI 合作，在該則的季度財報裡被列為八條 innovation and commercial highlights 之一。兩則並讀可以看出同一項合作在技術公告與財務文件兩種體裁裡的詳略差異，以及季報能與不能回答哪些關於產品的問題"
 refs:
   pr:
     title: "GE HealthCare：GE HealthCare Expands Research Collaboration to Explore Using Generative AI for More Personalized Radiation Therapy（官方新聞稿）"
@@ -34,9 +34,9 @@ refs:
   pm:
     title: "Bakhtiari M.：Utilizing process mining in quality management: A case study in radiation oncology（PLOS Digital Health，新聞稿註腳 3 所引研究）"
     url: "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000647"
-status: draft
+status: published
 skill_version: "write-industry-watch@3.1"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [Industry Watch](./)
@@ -157,11 +157,11 @@ GE HealthCare 在 2026-09-23 宣布與 Mass General Brigham 的研究團隊擴�
 
 同一家公司相隔十二天的兩則公告指向同一條治療端路線：本則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而該則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-兩則都是標題的效益語氣涵蓋範圍大於內文可核對的數字，差別在於程度：該則五個合作案至少各有一個可指認的進行階段與一個報出的篩檢量，本則的生成式 AI 部分則連一個數字都沒有，唯一的數字屬於合作之前的既有軟體: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
+兩則都是醫療 AI 從模型走向場域的公告，所處階段不同：該則的五個合作案各自已有可指認的進行階段與使用場景，本則的放療生成式 AI 合作仍在探索期，公告提供的唯一成效數字來自合作之前的既有工作流程軟體: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
 
-同一家公司相隔三天的兩則公告剛好是同一個問題的兩端：本則的生成式 AI 部分連一個數字都沒有，該則則有一篇開放取用的同儕審查論文可供逐項回查；但兩則出現了同一個動作 —— 把論文裡帶限定條件的數字抽出來，限定條件留在原處，本則是略去讓步子句的後半段，該則是略去「這是模型對一位虛構病人的推算」: [ETC 自動調控麻醉氣體：密西根大學 12,818 例回溯研究](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
+同一家公司相隔三天的兩則發布，都在談工作流程的量化改善，但證據層級不同：本則的放療合作仍在探索階段，該則有一篇開放取用的同儕審查論文可供逐項回查。兩則引用的關鍵數字都帶有原文的限定條件，轉述時都需要回到原處確認: [ETC 自動調控麻醉氣體：密西根大學 12,818 例回溯研究](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
 
-本則的放射治療生成式 AI 合作，在該則的季度財報裡被列為八條 innovation and commercial highlights 之一，而那是整份 5,251 字文件中唯一一條帶有 AI 字樣的項目；兩則並讀可以看出同一項合作在不同文件體裁裡的密度差距 —— 本則至少給出「前置期 30 天降到 8 天」這個可追問的數字，該則的季報連一個數字都沒有，而 `artificial intelligence` 在該文件裡只出現一次且位於風險因子清單: [GE HealthCare 第三季營收成長 7.2%，全年財測上修](2026-10-29-ge-healthcare-q3-2026-results.md)
+本則的放射治療生成式 AI 合作，在該則的季度財報裡被列為八條 innovation and commercial highlights 之一。兩則並讀可以看出同一項合作在技術公告與財務文件兩種體裁裡的詳略差異，以及季報能與不能回答哪些關於產品的問題: [GE HealthCare 第三季營收成長 7.2%，全年財測上修](2026-10-29-ge-healthcare-q3-2026-results.md)
 
 本則公告要在放療工作流程軟體上探索以自然語言彙整病歷、影像與治療計畫的工具，但生成式 AI 部分沒有任何成效數字；該綜述從研究面提出放療 agent 應如何評估，包括中間步驟正確性與失效時是否交回醫師: [放療勾畫綜述：VLM 對 nnU-Net 勝負未定，論點改押 CTV](../ai-papers/2026-11-12-radiotherapy-segmentation-review-atlas-to-agentic-vlm.md)
 

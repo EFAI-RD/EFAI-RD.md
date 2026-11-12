@@ -41,9 +41,9 @@ refs:
   origin:
     title: "Siemens Healthineers：ACUSON Origin Cardiovascular Ultrasound System（官方產品頁）"
     url: "https://www.siemens-healthineers.com/ultrasound/cardiovascular/acuson-origin"
-status: draft
+status: published
 skill_version: "write-industry-watch@3.1"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [Industry Watch](./)
