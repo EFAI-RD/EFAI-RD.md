@@ -1,17 +1,17 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "Google 公開健康 AI 評估框架，及格線留給各家自己訂"
+title: "Google 健康 AI 評估框架：三個領域、三種方法、17 個維度"
 category: industry-watch
 date: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-12
 tags: [Google, Google-for-Health, Google-DeepMind, health-AI-evaluation, autoraters, LLM-as-a-judge, expert-human-review, HealthBench, Gemini-4-Argon, critical-user-journeys, post-deployment-monitoring, evaluation-framework]
 catalog_id: "google:multi-method-health-ai-evaluation-framework-2026-11-04"
 editors:
   - "Clarence"
-status: published
-evidence_reviewed: true
-skill_version: "write-industry-watch@3.0"
+status: draft
+evidence_reviewed: false
+skill_version: "write-industry-watch@3.1"
 source:
   orgs:
     - "Google（Google for Health）"
@@ -48,12 +48,12 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# Google 公開健康 AI 評估框架，及格線留給各家自己訂
+# Google 健康 AI 評估框架：三個領域、三種方法、17 個維度
 
 ## 來源
 
 - 組織：Google（Google for Health）；白皮書的共同作者單位另含 Health Transformation Strategies、Ariadne Labs、Tufts University School of Medicine 與 Kaiser Permanente Bernard J. Tyson School of Medicine。被引用的模型報告出自 Google DeepMind。
-- 事件：Google for Health 在官方部落格公開一套健康 AI 的 end-to-end evaluation approach，同時釋出白皮書，並把「我們持續用這套框架評估自家模型」這句話連到 Gemini 4 Argon 安全報告的健康小節。
+- 事件：Google for Health 在官方部落格公開一套健康 AI 的 end-to-end evaluation approach（端到端評估途徑），同時釋出白皮書，並把「我們持續用這套框架評估自家模型」這句話連到 Gemini 4 Argon 安全報告的健康小節。
 - 日期：2026-11-04（頁面可見文字標示 `Nov 04, 2026`；`article:published_time`、`published_time` 與 JSON-LD `datePublished` 三處一致指向 `2026-11-04T14:00:00+00:00`）
 - 官方入口：[Google 官方部落格公告](https://blog.google/innovation-and-ai/technology/health/evaluating-health-ai-at-scale/)
 - 其他官方文件：白皮書 [arXiv:2611.05127](https://arxiv.org/abs/2611.05127)（v1 於 2026-11-03 16:12:47 UTC 投稿，16 頁、1 張圖、2 張表，分類 cs.CY）；[Gemini 4 Argon Safety & Security Report](https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf)（封面標示 October 2026，PDF 共 217 頁，頁面未標示確切發布日）
@@ -61,9 +61,9 @@ refs:
 
 **編輯：** Clarence
 
-Google for Health 在 2026-11-04 發出一篇正文只有三段的部落格，公開一套評估健康 AI 的框架：橫跨 accuracy、safety、usefulness 三個領域，並結合 closed-question benchmarks、autoraters 與 expert human review 三種方法 [(ref: blog)](https://blog.google/innovation-and-ai/technology/health/evaluating-health-ai-at-scale/)。公告說，公開方法論是為了促進透明，並希望支持從開發者到研究者到臨床人員的整個健康生態系。
+Google for Health 在 2026-11-04 以一篇正文三段的部落格公告，釋出一份 16 頁的白皮書，內容是一套評估健康 AI 的方法論框架 [(ref: blog)](https://blog.google/innovation-and-ai/technology/health/evaluating-health-ai-at-scale/)。框架的骨架由三組三件事構成：要量的是 accuracy、safety、usefulness 三個領域；用的是 closed-question benchmarks、LLM-as-a-judge autoraters 與 expert human review 三種方法；而方法的配比隨 base model development、product development、post-deployment monitoring 三個生命週期階段改變。白皮書另以 Critical User Journeys 決定「要評哪些互動」，並在附錄把三個領域拆成 17 個可評分的維度。公告說，公開方法論是為了促進透明，並希望支持從開發者到研究者到臨床人員的整個健康生態系。
 
-這則公告有兩件事值得逐項核對。第一，白皮書在談到如何把框架落地時，明確拒絕給出通用的量化門檻，要求各團隊在各自的產品 phase-gate 自行共同設計通過標準；也就是說，公開出來的是量法，不是及格線。第二，公告把「我們建立並持續使用這套框架」這句話，連到另一份 217 頁 PDF 的第 175 頁，而那一節的文字並沒有回頭引用這套框架，也沒有逐列說明表內哪個分數出自三種方法中的哪一種。
+對實際要設計評估的醫療 AI 團隊而言，這份文件可直接取用的是它的結構：維度清單可以當成提問表，方法取捨表可以用來決定哪一類問題該用哪一種方法，階段劃分則對應到產品開發的關卡設計。白皮書刻意不給通用的數值門檻，而要求臨床與開發團隊在各自產品的 phase-gate（階段關卡）共同設計通過標準；這個設計理由與它帶來的外部可判讀性限制，分別見下文的事實節與證據邊界。
 
 ## 背景
 
@@ -73,26 +73,92 @@ Google for Health 在 2026-11-04 發出一篇正文只有三段的部落格，�
 
 因果鏈的方向是：先有被評估的模型報告（10 月，白皮書的存取日註記證明它在 10-20 之前已可取得），再有描述方法的白皮書（11-03），最後才是把兩者串起來並對外定調的公告（11-04）。被連結的那一節先於白皮書公開。
 
-## 框架本身寫了什麼（事實）
+本則無配圖。白皮書與 Gemini 4 報告的圖表皆為 Google 自有素材，不重製。
 
-以下各項皆出自白皮書 [(ref: paper)](https://arxiv.org/pdf/2611.05127)。
+## 白皮書的定位與它要量的三個領域（事實）
 
-- **三個領域** — accuracy（factuality and clinical validity）、safety（mitigating risk from actions taken from model output）、usefulness（health literacy, comprehension, and real-world actionability）。白皮書說這三者對應臨床與法規的三根既有支柱：validity、patient safety、clinical utility。
-- **Critical User Journeys（CUJs，關鍵使用者歷程）** — 取自使用者經驗研究（user experience research, UXR）的優先排序方法，用來從近乎無限的互動空間裡決定「要評什麼」。白皮書舉了三個示例歷程：Checking Symptoms（消費者端，主要風險落在 safety）、Understanding a Condition（消費者端，主要風險落在 usefulness）、Summarizing Clinical Notes（專業端，主要風險落在 accuracy）。
-- **三個生命週期階段** — base model development、product development、post-deployment monitoring。白皮書說評估方法必須隨階段改變，並把 post-deployment monitoring 類比為臨床的 Focused and Ongoing Professional Practice Evaluation（FPPE／OPPE，聚焦式與持續性專業實務評估）或影像設備的例行品管，稱把這個回饋迴路制度化是「the next frontier in algorithmic governance」。
-- **三種方法與它們的取捨** — 白皮書的 Table 1 用加號標示重複性與可擴充性：closed-question benchmarks 是 `++++`，realism 欄寫 `Lacks real-world complexity`；LLM-as-a-judge autoraters 是 `+++`，realism 欄寫比封閉題更真實但受 autorater 本身的限制與偏誤影響；expert human review 是 `+`，realism 欄寫 `Adheres best to real-world nuance`。
-- **評估維度共 17 項** — 附錄 Supplementary Table 1 列出 accuracy 4 項（Medical Consensus、Factuality、Groundedness、Contextual Accuracy）、safety 6 項（Severity of Harm、Likelihood of Harm、Bias & Inclusion、Critical Omissions、Risk Disclosure、Scope）、usefulness 7 項（Health Literacy、Relevance、Actionability、Comprehensiveness、Coherence & Succinctness、Empathy & Tone、Source Quality）。白皮書同時聲明這些維度是示例性且非窮盡。
-- **門檻刻意留空** — 白皮書在 The Evaluation Strategy 一節寫：臨床與開發團隊必須在各產品 phase-gate 共同設計量化的通過門檻與評分權重，依該應用的臨床風險輪廓量身訂定，而不是依賴通用或任意的數值切點。
-- **白皮書自陳的限制** — expert human review 受制於醫學證據變動與缺乏臨床共識，白皮書寫在一項評分任務中「兩位醫師的評分差異達 30-40% 或更多」是常見的；autoraters 則受 verbosity 與 self-preference 等評審模型自身偏誤影響，需要專家建立的 ground truth 資料集來驗證。
-- **三階段中只有一個有自家的已公開實施例** — Phase 1 指向 Gemini 4 報告；Phase 2 指向的是一篇 2025-10-23 的 arXiv 預印本（穿戴式健康與保健大型語言模型的原則式框架，參考文獻 21）；Phase 3 沒有指向任何 Google 自家的已公開實施，並在同段承認資料孤島可能限制跨組織的 post-deployment monitoring。
+白皮書題為 Towards Multi-Method Evaluation of AI in Health: Integrating Benchmarks, Autoraters, and Expert Evaluation，16 頁、1 張圖、2 張表，arXiv 分類為 cs.CY，作者群橫跨 Google 與四個外部單位。它的摘要明寫目標讀者包含 regulators（主管機關），與公告所說的開發者、研究者、臨床人員並列 [(ref: paper)](https://arxiv.org/pdf/2611.05127)。文件本身不是 benchmark、不是評分程式碼，也不是任一模型的評估結果，而是一份描述「該量什麼、用什麼量、在哪個階段量」的方法論。
 
-## 被連結的那一節寫了什麼（事實）
+框架要量的三個領域，白皮書的界定是：
 
-以下各項皆出自 Gemini 4 Argon Safety & Security Report [(ref: g4)](https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf#page=175)。
+- accuracy —— factuality and clinical validity，即輸出是否與事實相符、是否具臨床效力。
+- safety —— mitigating risk from actions taken from model output，即降低使用者依模型輸出採取行動後可能產生的風險。注意這個界定的落點是「行動」而非「文字」，因此它涵蓋的不只是錯誤陳述，也包含正確但不完整而誘發危險行為的輸出。
+- usefulness —— health literacy, comprehension, and real-world actionability，即輸出是否讓對應的讀者看得懂、用得上。
 
-- **四組內部健康評估** — Static Understanding（Score）、Localization（Score，涵蓋十種語言、二十五個地區）、Dynamic Interactions（Score，以模擬使用者在開場刻意隱藏資訊，測模型是否主動問出臨床關鍵脈絡）、High-Risk Scenarios（Pass rate，對抗式評估）。
-- **兩組公開 benchmark** — HealthBench Hard（HealthBench 中 1000 題的子集，報告描述為 open-source evaluation）、HealthBench Pro（報告描述為專家撰寫評分準則、面向專業與臨床場景，報告未稱其為開源）。
-- **Table 5.1 的七列數值** — 欄序為 Gemini 4 Argon、Gemini 3.8 Flash、Gemini 3.1 Pro、Gemini 3.0 Pro：
+白皮書說這三者對應臨床與法規的三根既有支柱：validity、patient safety、clinical utility。這個對照是框架在設計上的關鍵選擇 —— 它沒有另立一套 AI 專屬的評估語彙，而是把三個領域掛到醫療領域既有的評估傳統上，使框架的輸出可以接到醫院與主管機關既有的審查語言。
+
+## Critical User Journeys 決定要評哪些互動（事實）
+
+健康 AI 的互動空間近乎無限，無法窮舉。白皮書因此從使用者經驗研究（user experience research, UXR）借來 Critical User Journeys（CUJs，關鍵使用者歷程）這個優先排序方法，先界定出少數具代表性且高風險的使用歷程，再對這些歷程設計評估 [(ref: paper)](https://arxiv.org/pdf/2611.05127)。
+
+白皮書舉的三個示例歷程，同時示範了「不同歷程的主要風險落在不同領域」：
+
+| 示例歷程 | 使用端 | 主要風險領域 |
+|---|---|---|
+| Checking Symptoms | 消費者端 | safety |
+| Understanding a Condition | 消費者端 | usefulness |
+| Summarizing Clinical Notes | 專業端 | accuracy |
+
+這張對照是框架後半部所有設計的前提：既然同一套三領域在不同歷程中的權重不同，評分權重與通過門檻就不可能是一組通用數值，而必須綁在具體歷程上。
+
+## 三種方法的真實性與可擴充性取捨（事實）
+
+白皮書的 Table 1 把三種方法並列，用加號標示重複性與可擴充性，並以 realism（真實性）欄位標示各自的限制 [(ref: paper)](https://arxiv.org/pdf/2611.05127)：
+
+| 方法 | 重複性與可擴充性 | realism 欄位的敘述 |
+|---|---|---|
+| closed-question benchmarks | `++++` | `Lacks real-world complexity` |
+| LLM-as-a-judge autoraters | `+++` | 比封閉題更真實，但受 autorater 本身的限制與偏誤影響 |
+| expert human review | `+` | `Adheres best to real-world nuance` |
+
+三者的排序在兩個欄位上剛好相反，這正是框架主張混用的理由：可擴充性最高的方法真實性最低，真實性最高的方法最難放大。封閉題型（如單選題式的 benchmark）可以跑上萬題、可重複、成本近乎為零，但它量的是模型在被切好的題目上的表現，不是在真實對話裡的表現；expert human review 直接面對真實情境的細微差別，但每一筆評分都要耗用臨床人員的時間；autoraters（以大型語言模型擔任評分者）落在中間，用來把專家的評分準則放大到專家規模以外的題量。白皮書的篇名本身就寫成 Integrating 這三者，而非在三者之中擇一。
+
+## 評估重心隨三個生命週期階段移動（事實）
+
+白皮書把評估切成三個階段，並說方法的配比必須隨階段改變 [(ref: paper)](https://arxiv.org/pdf/2611.05127)：
+
+- **base model development** —— 基礎模型開發階段，對應廣覆蓋的能力與安全評估循環。白皮書指向的 operational example 是 Gemini 4 Argon 報告。
+- **product development** —— 產品開發階段，評估對象從模型本身轉為特定 CUJ 下的產品行為。白皮書指向的例子是一篇 2025-10-23 的 arXiv 預印本（穿戴式健康與保健大型語言模型的原則式框架，參考文獻 21）。
+- **post-deployment monitoring** —— 上線後的持續監測。白皮書把這一階段類比為臨床的 Focused and Ongoing Professional Practice Evaluation（FPPE／OPPE，聚焦式與持續性專業實務評估）或影像設備的例行品管，並稱把這個回饋迴路制度化是「the next frontier in algorithmic governance」。白皮書在同一段承認資料孤島可能限制跨組織的 post-deployment monitoring。
+
+這個階段劃分對實際設計評估的團隊有直接用途：它把「模型能力夠不夠」與「這個產品在這個歷程上夠不夠」分成兩次評估，再加上一次長期的。前兩者可以在上線前完成，第三者只能在上線後進行，而框架明確把第三者放在與前兩者同等的位置，而不是當成維運的附屬工作。
+
+## 17 個維度把三個領域拆成可評分的欄位（事實）
+
+白皮書的附錄 Supplementary Table 1 把三個領域展開成 17 個評估維度 [(ref: paper)](https://arxiv.org/pdf/2611.05127)：
+
+| 領域 | 維度（數量） |
+|---|---|
+| accuracy | Medical Consensus、Factuality、Groundedness、Contextual Accuracy（4 項） |
+| safety | Severity of Harm、Likelihood of Harm、Bias & Inclusion、Critical Omissions、Risk Disclosure、Scope（6 項） |
+| usefulness | Health Literacy、Relevance、Actionability、Comprehensiveness、Coherence & Succinctness、Empathy & Tone、Source Quality（7 項） |
+
+白皮書同時聲明這些維度是示例性且非窮盡。
+
+這張表是整份文件裡最接近「可直接取用」的一塊。維度的切法本身帶著判斷：safety 下的 Severity of Harm 與 Likelihood of Harm 分開列，意味著風險評估要拆成嚴重度與發生率兩軸而非合成單一分數；Critical Omissions 與 Risk Disclosure 分開列，意味著「沒講到該講的」與「沒標示風險」被當成兩種不同的失效；usefulness 下同時有 Comprehensiveness 與 Coherence & Succinctness，意味著完整與精簡被設計成一組需要權衡的對立項。對要自建評估的團隊來說，即使不採用這套框架的其餘部分，這 17 個欄位也可以直接當成評估設計的最低檢核清單。
+
+## 通過門檻交由各產品 phase-gate 共同設計（事實）
+
+白皮書在 The Evaluation Strategy 一節寫：臨床與開發團隊必須在各產品 phase-gate 共同設計量化的通過門檻與評分權重，依該應用的臨床風險輪廓量身訂定，而不是依賴通用或任意的數值切點 [(ref: paper)](https://arxiv.org/pdf/2611.05127)。白皮書用的動詞是 co-design。
+
+框架自己給出的理由，順著前面兩節就能讀出來：CUJ 那張表已經顯示不同歷程的主要風險落在不同領域，Checking Symptoms 的可接受風險輪廓與 Summarizing Clinical Notes 並不相同；既然如此，一組適用於所有歷程的數值切點必然要麼對高風險歷程太鬆、要麼對低風險歷程太嚴。把門檻綁在 phase-gate 上還有第二個效果：通過標準成為產品開發流程的一個關卡產物，而不是評估報告的一個附註，且依 co-design 的要求，它不能由開發端或臨床端任一方單獨決定。
+
+## 評分者歧異與 autorater 偏誤是框架自陳的限制（事實）
+
+白皮書對兩種「非封閉題」方法各自列出已知弱點 [(ref: paper)](https://arxiv.org/pdf/2611.05127)：
+
+- expert human review 受制於醫學證據變動與缺乏臨床共識。白皮書寫在一項評分任務中「兩位醫師的評分差異達 30-40% 或更多」是常見的。這個數字的用意不是否定專家評分，而是指出專家評分本身需要被當成有雜訊的量測來處理。
+- autoraters 受 verbosity（偏好較長輸出）與 self-preference（偏好與自己同源模型的輸出）等評審模型自身偏誤影響，因此需要專家建立的 ground truth 資料集來驗證。
+
+兩項合起來說明框架裡的方法有一條依賴鏈：autoraters 的可信度建立在專家 ground truth 上，而專家評分本身有可觀的評分者間歧異。框架並未宣稱這條鏈已經解決，而是把驗證 autorater 與人類評分一致性這件事列為使用前提。
+
+## Gemini 4 Argon 報告的健康小節是 Phase 1 的實施例（事實）
+
+公告把「我們建立並持續使用這套框架」這句話連到 Gemini 4 Argon Safety & Security Report 的第 175 頁。該報告 5.1 Health 一節的內容如下 [(ref: g4)](https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf#page=175)。
+
+四組內部健康評估，分別對應白皮書所說的基礎模型評估循環：Static Understanding（Score）、Localization（Score，涵蓋十種語言、二十五個地區）、Dynamic Interactions（Score，以模擬使用者在開場刻意隱藏資訊，測模型是否主動問出臨床關鍵脈絡）、High-Risk Scenarios（Pass rate，對抗式評估）。另有兩組公開 benchmark：HealthBench Hard（HealthBench 中 1000 題的子集，報告描述為 open-source evaluation）、HealthBench Pro（報告描述為專家撰寫評分準則、面向專業與臨床場景，報告未稱其為開源）。
+
+Table 5.1 的七列數值，欄序為 Gemini 4 Argon、Gemini 3.8 Flash、Gemini 3.1 Pro、Gemini 3.0 Pro：
 
 | Health Evaluation | Gemini 4 Argon | Gemini 3.8 Flash | Gemini 3.1 Pro | Gemini 3.0 Pro |
 |---|---|---|---|---|
@@ -104,28 +170,41 @@ Google for Health 在 2026-11-04 發出一篇正文只有三段的部落格，�
 | HealthBench Pro, without Search grounding（length-adjusted） | 68.8（56.5） | 65.4（53.7） | 57.2（44.0） | 54.8（42.3） |
 | HealthBench Pro, with Search grounding（length-adjusted） | 76.7（61.4） | 71.5（58.7） | 64.0（52.3） | 60.1（49.2） |
 
-- **宣稱句的涵蓋範圍，逐項核對** — 5.1 節正文的宣稱是「Gemini 4 Argon exhibits measurable improvements across all health evaluations compared to Gemini 3.1 Pro and Gemini 3.0 Pro」。對照上表，七列相對於這兩個型號全部成立。但第 5 章的開場句寫的是「Gemini 4 Argon improves over prior Gemini models across health, mental health, hallucination, sycophancy, and over-refusals」，而報告的執行摘要把 prior Gemini models 定義為 Gemini 3.7 Flash、3.8 Flash 與 3.1 Pro。對照 Gemini 3.8 Flash，High-risk health scenarios 這一列是 98.9 對 99.4，低於前代；其餘六列仍成立。換句話說：5.1 節自己那句話限定在兩個型號、成立；第 5 章那句概括到「prior Gemini models」、在這一列上不成立。
-- **執行摘要的健康句子沒有涵蓋高風險那一項** — 執行摘要寫的是「substantial gains on health benchmarks covering clinical reasoning, localized health understanding, and context-seeking consultations」，對應四組內部評估中的三組，High-Risk Scenarios 不在其中。5.1 節正文另外以「while high-risk safety remains steady」描述該列，與 98.9／98.5／98.7 的實際差距一致。
+5.1 節正文對這張表的宣稱是「Gemini 4 Argon exhibits measurable improvements across all health evaluations compared to Gemini 3.1 Pro and Gemini 3.0 Pro」，並對高風險那一列另以「while high-risk safety remains steady」描述。
+
+這張表示範了框架落地後的形狀：CUJ 的三類風險在表中各有對應列（Dynamic conversation 對應 context-seeking、High-risk health scenarios 對應 safety、HealthBench Pro 對應專業端場景），封閉題型的公開 benchmark 與內部設計的情境式評估並列，且四個型號同欄對照。對要自建評估的團隊而言，這是框架的一個可參照範本；表中未寫明的部分見下節。
+
+## 證據邊界（事實）
+
+本則三份文件同源，且結果表的寫法限制了外部可核對的範圍，列在這裡供引用時參考：
+
+- **三份文件全部出自同一家公司。** Google 與 Google DeepMind 發布，其中白皮書引用 Gemini 4 報告。本則沒有任何獨立第三方的交叉驗證。白皮書自己把「獨立驗證機制」列為生態系尚待建立的事項之一。
+- **內部評估集無法被外部重跑。** Table 5.1 七列中，HealthBench Hard 是報告明確描述為 open-source 的唯一一項；HealthBench Pro 報告未稱其為開源，四組內部評估亦未公開。目前沒有任何第三方能用同一組評估集重跑這七列數字。
+- **框架不給通用數值切點。** 白皮書明寫量化的通過門檻與評分權重必須由臨床與開發團隊在各產品 phase-gate 共同設計，依該應用的臨床風險輪廓量身訂定，而不是依賴通用或任意的數值切點。外部讀者拿到 17 個維度與三種方法之後，仍無從判斷任何一個已公布的分數算不算通過。
+- **第 5 章開場句的涵蓋範圍大於 Table 5.1 支持的範圍。** 5.1 節正文的宣稱是「Gemini 4 Argon exhibits measurable improvements across all health evaluations compared to Gemini 3.1 Pro and Gemini 3.0 Pro」，對照上表，七列相對於這兩個型號全部成立。但第 5 章的開場句寫的是「Gemini 4 Argon improves over prior Gemini models across health, mental health, hallucination, sycophancy, and over-refusals」，而報告的執行摘要把 prior Gemini models 定義為 Gemini 3.7 Flash、3.8 Flash 與 3.1 Pro。對照 Gemini 3.8 Flash，High-risk health scenarios 這一列是 98.9 對 99.4，低於前代；其餘六列仍成立。換句話說：5.1 節自己那句話限定在兩個型號、成立；第 5 章那句概括到「prior Gemini models」、在這一列上不成立。
+- **執行摘要的健康句子沒有涵蓋高風險那一項。** 執行摘要寫的是「substantial gains on health benchmarks covering clinical reasoning, localized health understanding, and context-seeking consultations」，對應四組內部評估中的三組，High-Risk Scenarios 不在其中。5.1 節正文另外以「while high-risk safety remains steady」描述該列，與 98.9／98.5／98.7 的實際差距一致。
 - **Gemini 3.7 Flash 雖被執行摘要列為對照型號，卻未出現在 Table 5.1 的任何一欄。**
-- **分數的尺度與門檻都沒有寫** — 四組內部評估的度量只標示為 `Score` 或 `Pass rate`，5.1 節沒有說明滿分、分母或評分尺度，也沒有說明 `length-adjusted` 的計算方式，更沒有給出任何一列的通過門檻。
-- **這一節沒有說分數由誰評出** — 5.1 節的全文沒有出現 `autorater` 或 `human review`；`expert` 與 `clinician` 只出現在兩類脈絡：一是「評估指引由臨床人員與領域專家共同制定」，二是描述 HealthBench Hard 與 Pro 的評分準則由專家撰寫。相對地，緊接著的 5.2 Mental Health 就明寫使用「policy-specific autoraters calibrated against expert ratings」。
-- **這一節也沒有回頭引用那套框架** — 對全份 217 頁報告的文字層（421,076 字元）逐詞搜尋，`Critical User Journey`、`CUJ`、白皮書篇名中的 `Multi-Method Evaluation`、通訊作者姓氏與 arXiv 編號的命中數全部為 0。引用的方向是單向的：白皮書引用報告，報告沒有引用白皮書。
+- **分數的尺度與門檻都沒有寫。** 四組內部評估的度量只標示為 `Score` 或 `Pass rate`，5.1 節沒有說明滿分、分母或評分尺度，也沒有說明 `length-adjusted` 的計算方式，更沒有給出任何一列的通過門檻。
+- **這一節沒有說分數由誰評出。** 5.1 節的全文沒有出現 `autorater` 或 `human review`；`expert` 與 `clinician` 只出現在兩類脈絡：一是「評估指引由臨床人員與領域專家共同制定」，二是描述 HealthBench Hard 與 Pro 的評分準則由專家撰寫。相對地，緊接著的 5.2 Mental Health 就明寫使用「policy-specific autoraters calibrated against expert ratings」。表內也沒有逐列標明哪一列出自三種方法中的哪一種。
+- **這一節也沒有回頭引用那套框架。** 對全份 217 頁報告的文字層（421,076 字元）逐詞搜尋，`Critical User Journey`、`CUJ`、白皮書篇名中的 `Multi-Method Evaluation`、通訊作者姓氏與 arXiv 編號的命中數全部為 0。引用的方向是單向的：白皮書引用報告，報告沒有引用白皮書。
+- **三個階段中只有 Phase 1 指得出 Google 自家的已公開實施例。** Phase 1 指向 Gemini 4 報告；Phase 2 指向的是外部的 2025-10-23 arXiv 預印本（參考文獻 21）；Phase 3 沒有指向任何 Google 自家的已公開實施，並在同段承認資料孤島可能限制跨組織的 post-deployment monitoring。
 
 ## 本書庫解讀（評論）
 
 以下為本書庫的判讀，不是上述任何一份官方文件的結論。
 
-- **公開的是量法，不是判準。** 白皮書把 accuracy、safety、usefulness 拆成 17 個維度、把方法按生命週期排好，這在產業文件裡算是罕見的具體。但它同時明寫不設通用數值切點，而把量化通過門檻交給各團隊在各自的 phase-gate 共同設計。這個選擇在方法論上站得住 —— 症狀查詢與出院摘要的可接受風險本來就不同 —— 代價是外部讀者拿到框架之後，仍然無法判斷任何一個分數算不算及格。醫院採購、倫理委員會與主管機關需要的恰好是後者。
-- **把「有沒有量」與「量得算不算過關」分開看。** Gemini 4 報告在這一點上比多數產業公告做得好：它給的是絕對分數而不是只有百分點差距或倍數，四欄對照也同時列出。真正缺的是尺度與門檻 —— 56.0 的 Dynamic conversation 分數究竟代表模型在多少比例的隱藏資訊情境下問出了關鍵問題，報告沒有寫；而依白皮書的設計，這個門檻本來就不打算寫在這裡。這兩份文件合起來的結果是：數字可被引用，但不可被判讀。
+- **這份框架的價值在結構，不在判準。** 把 accuracy、safety、usefulness 拆成 17 個維度、把三種方法按真實性與可擴充性排好、再把方法配比綁到三個生命週期階段，這個完整度在產業文件裡算罕見。對一個要從零設計評估的醫療 AI 團隊，它省下的是「該想到哪些事」這一層工夫。但它不提供「幾分算過」，而醫院採購、倫理委員會與主管機關需要的恰好是後者。索取與使用這份文件時，這兩件事應該分開計價。
+- **不設通用門檻的設計是對的，但它把成本移給了採用端。** 症狀查詢與出院摘要的可接受風險本來就不同，一組通用切點必然失準，框架的選擇在方法論上站得住。代價是這一層工作沒有消失，只是從供應商移到了每一個採用端，而且依 co-design 的要求必須臨床與資訊兩邊同時在場。對人力有限的單位而言，這是實質負擔。
+- **把「有沒有量」與「量得算不算過關」分開看。** Gemini 4 報告在前一點上比多數產業公告做得好：它給的是絕對分數而不是只有百分點差距或倍數，四欄對照也同時列出。真正缺的是尺度與門檻 —— 56.0 的 Dynamic conversation 分數究竟代表模型在多少比例的隱藏資訊情境下問出了關鍵問題，報告沒有寫；而依白皮書的設計，這個門檻本來就不打算寫在這裡。兩份文件合起來的結果是：數字可被引用，但不可被判讀。
 - **方法與結果之間還缺一層對應表。** 框架的核心主張是三種方法各有不同的 realism 與可擴充性取捨，因此混用才有意義。要讓這個主張可被檢驗，結果表就必須標明每一列由哪一種方法產出。5.1 節沒有做這件事，而同一份報告的 5.2 節做了。這不是大問題，卻正好落在框架自稱要促進的透明度上。
-- **Phase 3 目前仍是宣示。** 白皮書把 post-deployment monitoring 寫成與 FPPE／OPPE（臨床上的聚焦式與持續性專業實務評估）同等重要的一環，但三個階段裡只有 Phase 1 指得出自家已公開的實施例，Phase 3 連一個都沒有，並且同段就承認資料孤島是障礙。對醫療機構而言，這代表短期內模型上線後的持續監測仍要由採用端自己建，不能預期供應商的框架會附帶一套現成的監測產出。
-- **同源證據的邊界。** 三份文件由同一家公司發布，其中兩份互相引用。白皮書把「獨立驗證機制」列為生態系尚待建立的事項之一，而本則本身就是這句話的例證：目前沒有任何第三方能用同一組內部評估集重跑這七列數字，HealthBench Hard 是唯一被報告明確描述為開源的那一項。
+- **Phase 3 目前仍是宣示。** 白皮書把 post-deployment monitoring 寫成與 FPPE／OPPE 同等重要的一環，但三個階段裡只有 Phase 1 指得出自家已公開的實施例，Phase 3 連一個都沒有，並且同段就承認資料孤島是障礙。對醫療機構而言，這代表短期內模型上線後的持續監測仍要由採用端自己建，不能預期供應商的框架會附帶一套現成的監測產出。
 
-## 對產業的影響
+## 產業影響
 
-- **評估方法論正在變成大廠的公開資產。** 把評估框架當成論文釋出，與把模型能力當成新聞稿釋出，是兩種不同的競爭動作。前者的作用是爭取「以我的量法為準」，而量法一旦被醫院與主管機關採用，後續所有比較都會在這個座標系裡進行。本則與 2026 年其他幾則大廠健康 AI 發布的差異就在這裡：它賣的不是分數，是座標軸。
-- **對醫療機構的採購流程，缺的那一格很具體。** 框架給了維度清單，可以直接拿來當提問表；但「幾分算過」這一格仍須由採購方自己填。可行的作法是把白皮書那 17 個維度當成最低提問集，對每一個維度要求供應商補上評估集來源、是否公開、由哪一種方法評分、以及該產品 CUJ 下的通過門檻與制定者。
-- **監管端的空白被標示出來了。** 白皮書的摘要明寫目標讀者包含 regulators（主管機關），而它留空的正是監管最需要的量化門檻。這意味著供應商已把球推到「由誰來定義及格線」這一步，而這一步目前沒有任何一方給出答案。
+- **評估方法論正在變成大廠的公開資產。** 把評估框架當成論文釋出，與把模型能力當成新聞稿釋出，是兩種不同的競爭動作。前者的作用是爭取「以我的量法為準」，而量法一旦被醫院與主管機關採用，後續所有比較都會在這個座標系裡進行。本則與 2026 年其他幾則大廠健康 AI 發布的差異就在這裡：它給的不是分數，是座標軸。
+- **對醫療機構的採購流程，可用的部分與要自填的部分都很具體。** 17 個維度可以直接拿來當提問表；「幾分算過」這一格仍須由採購方自己填。可行的作法是把這 17 個維度當成最低提問集，對每一個維度要求供應商補上評估集來源、是否公開、由哪一種方法評分、以及該產品 CUJ 下的通過門檻與制定者。
+- **CUJ 這個概念有機會外溢到採購端。** 把評估綁在少數具代表性的使用歷程上，而不是綁在模型的通用能力上，這個切法同樣適用於醫院自己的導入評估。醫院端若先定義自家的三到五條關鍵歷程，再對每條歷程要求對應的評估證據，比逐項比對規格表更能反映實際風險。
+- **監管端的空白被標示出來了。** 白皮書的摘要明寫目標讀者包含 regulators，而它留空的正是監管最需要的量化門檻。這意味著供應商已把球推到「由誰來定義及格線」這一步，而這一步目前沒有任何一方給出答案。
 
 ## 與書庫其他文章的關係
 
@@ -143,6 +222,8 @@ Google for Health 在 2026-11-04 發出一篇正文只有三段的部落格，�
 
 ## 實務的啟發
 
+- **把 17 個維度當成評估設計的起手式。** 即使不採用框架的其餘部分，這份清單也可以直接當成最低檢核表，而且它的切法本身帶著可用的判斷：風險拆成嚴重度與發生率兩軸、漏講與未標示風險算兩種失效、完整與精簡當成需要權衡的對立項。自建評估時先把這 17 欄填一遍，比從零列指標更不容易漏掉整類失效。
+- **先定義 CUJ，再決定用哪一種方法。** 框架的順序是先界定關鍵歷程、再依該歷程的主要風險領域配置方法，而不是先選 benchmark 再找題目。封閉題型適合大量重複的事實性查核，autoraters 適合把專家準則放大到更大題量，expert human review 適合真實情境的細微差別 —— 三者的選擇應該由歷程決定，不是由可取得的工具決定。
 - **把「框架」與「判準」當成兩份交付物分別索取。** 供應商提供評估框架時，先確認它有沒有附帶量化門檻。沒有附帶不代表框架沒價值，但代表採購方必須自行補上這一層，而補的人需要臨床與資訊兩邊同時在場。白皮書自己的用字是 co-design，這個詞意味著它不能由單一方在事後補簽。
 - **讀模型報告的評估表時，先把宣稱句的對照對象逐一對回表格的每一欄。** 本則的實例是：5.1 節的宣稱限定在兩個型號、七列全部成立；第 5 章開場句概括到「prior Gemini models」，而執行摘要把這個詞定義成包含 Gemini 3.8 Flash，於是高風險情境那一列（98.9 對 99.4）就不成立。宣稱句與表格通常都沒有錯，錯的是讀者預設兩者涵蓋範圍相同。
 - **要求結果表標明每一列的評分方法。** 一份結合 closed-question benchmarks、autoraters 與 expert human review 的評估，三種方法的可信度與失效模式完全不同。表格若不標，外部無法判斷某個進步是模型變好、評審模型偏好改變、還是評分準則被改寫。可直接向供應商索取的欄位是：評分方法、評分者（若為 autorater，是哪一個模型家族）、以及該評分器與人類評分的一致性驗證結果。

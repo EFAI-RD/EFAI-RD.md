@@ -1,17 +1,17 @@
 ---
 parent: Industry Watch
 nav_order: 5
-title: "新聞稿只給 95.2%，FDA 摘要給了 63 人與跨零的區間"
+title: "Vscan Air 新增八區肺部掃描導引與主動脈瓣狹窄提示"
 category: industry-watch
 date: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-12
 tags: [GE-HealthCare, Vscan-Air, point-of-care-ultrasound, POCUS, lung-ultrasound, B-lines, aortic-stenosis, AutoAS, Lung-Guidance, 510k, Caption-Health, FDA, confidence-interval, handheld-ultrasound]
 catalog_id: "ge-healthcare:vscan-air-lung-guidance-autoas-2026-11-03"
 editors:
   - "Clarence"
-status: published
-evidence_reviewed: true
-skill_version: "write-industry-watch@3.0"
+status: draft
+evidence_reviewed: false
+skill_version: "write-industry-watch@3.1"
 source:
   orgs:
     - "GE HealthCare（Nasdaq: GEHC）"
@@ -51,7 +51,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# 新聞稿只給 95.2%，FDA 摘要給了 63 人與跨零的區間
+# Vscan Air 新增八區肺部掃描導引與主動脈瓣狹窄提示
 
 ## 來源
 
@@ -64,9 +64,9 @@ refs:
 
 **編輯：** Clarence
 
-GE HealthCare 在 2026-11-03 發出新聞稿，為手持超音波 Vscan Air 增加兩項 AI 輔助功能：Lung Guidance 提供即時掃描導引，協助使用者依標準 8 zone 肺部超音波流程取得具診斷品質的影像；AutoAS 則對已取得的 2D 心臟影像給出「是否提示 moderate-to-severe aortic stenosis（中度至重度主動脈瓣狹窄）」的估計與一個 confidence score [(ref: pr)](https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments)。整篇新聞稿只出現兩個百分比：95.2 與 96.8。
+GE HealthCare 在 2026-11-03 為手持超音波 Vscan Air 增加兩項 AI 輔助功能 [(ref: pr)](https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments)。Lung Guidance 在掃描當下提供即時導引，協助使用者依標準 8 zone 肺部超音波流程把探頭移到各區的正確解剖位置、取得具診斷品質的影像；AutoAS 則對已取得的 2D 心臟影像給出「是否提示 moderate-to-severe aortic stenosis（中度至重度主動脈瓣狹窄）」的估計與一個 confidence score。兩項功能皆已取得 FDA 的 510(k) clearance 與歐盟 CE 標章，既有客戶若持有有效的 Vscan Air Innovation Package 訂閱或授權，依新聞稿預告 `are expected to receive these updates by the end of November 2026`。
 
-這一則值得逐項核對的地方，不在於新聞稿說錯了什麼，而在於它把可核對的部分留在別處。它引用的「validation data」標的是兩個內部文件編號（`UM DOC3172170`、`UM DOC3275253`），外部無從調閱；但同一批數據因為走 510(k) 路徑，完整版本連同樣本數、信賴區間、分區結果與適用族群限制都在 FDA 網站上公開，而新聞稿從頭到尾沒有提到任何一個 K 編號。把兩邊並排讀，差距最大的一項是：新聞稿的 95.2% 對 96.8% 來自 63 位病人，FDA 摘要同時載明兩組差距為 −1.6 個百分點、95% 信賴區間 −18.7 到 15.5。
+對讀者而言，這一則的可用程度高於多數器材公告，原因在送件路徑：兩項功能各自走 510(k) 且未被免除審查，於是同一批數據的完整版本連同樣本數、信賴區間、分區結果與適用族群限制都留在 FDA 的公開摘要裡 —— Lung Guidance 是 K261042，AutoAS 是 K254161。新聞稿引用的「validation data」標的是兩個內部文件編號，外部調不到；但同一批結果換到 FDA 網站上，不需要任何申請程序就能逐項核對。以下的功能描述、臨床試驗設計與效能數值，凡新聞稿與 FDA 文件並存者，一律以 FDA 文件為準。
 
 ## 背景
 
@@ -78,36 +78,47 @@ GE HealthCare 在 2026-11-03 發出新聞稿，為手持超音波 Vscan Air 增�
 - **2026-11-03** — GE HealthCare 發出新聞稿，以 `two new AI-assisted capabilities` 介紹這兩項功能 [(ref: pr)](https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments)。
 - **預告的 2026 年 11 月底** — 新聞稿寫既有客戶若持有有效的 Vscan Air Innovation Package 訂閱或授權，`are expected to receive these updates by the end of November 2026`。
 
-因果鏈的方向是：心臟版本的 De Novo 先為這一類裝置開出 predicate（2019），AutoAS 先取得 clearance（3 月），Lung Guidance 後取得（10 月），最後才是把兩者併成一則「兩項新功能」對外發表（11 月）。新聞稿用的 `new` 對 Lung Guidance 是一個月，對 AutoAS 是七個多月；這一點新聞稿沒有寫，兩份決定函的日期則直接寫在首頁。
+因果鏈的方向是：心臟版本的 De Novo 先為這一類裝置開出 predicate（2019），AutoAS 先取得 clearance（3 月），Lung Guidance 後取得（10 月），最後才是把兩者併成一則「兩項新功能」對外發表（11 月）。
 
-## 新聞稿寫了什麼（事實）
+本則無配圖。新聞稿頁面的產品照片與兩份 FDA 文件中的表格，均為來源方自有素材，不重製。
 
-以下各項皆出自 GE HealthCare 新聞稿 [(ref: pr)](https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments)。
+## 兩項功能各做什麼（事實）
 
-- **適用機型** — 標題與內文寫的是 `on Vscan Air`，而緊接在「two new AI-assisted capabilities」那一句之後的註腳 [1] 全文只有一句：`Only available on Vscan Air SL.`。同一篇的 About Vscan Air 段落說明 Vscan Air 有兩個機型：SL（sector 與 linear 探頭，適用心臟、血管等），CL（curved 與 linear 探頭，適用腹部、婦產科、肌肉骨骼等）。因此標題的涵蓋範圍是整個 Vscan Air 產品名，實際涵蓋的是其中一個機型。
-- **Lung Guidance 的功能描述** — 即時導引使用者把探頭移到 standard 8-zone lung protocol 各區的正確解剖位置；偵測的 landmark 包含 pleural line、A-lines、rib shadows、diaphragm 與 abdomen；符合預設條件時由 AutoCapture 自動錄製；未達標時可用 Save Best Clip 保留該視窗最佳影像；另外支援 `B-line detection and scoring` 與報告功能。
-- **唯一的效能句** — `In validation testing, Lung Guidance enabled non-expert lung ultrasound users to consistently acquire diagnostic-quality lung ultrasound exams, with 95.2 percent success compared with 96.8 percent for expert users, per a descriptive assessment.`。該句的註腳 [2] 是 `Lung Guidance, validation data – UM DOC3172170`，一個內部文件編號。
-- **AutoAS 的功能描述** — 對 Vscan Air SL 取得的標準 2D 心臟影像，給出 moderate-to-severe AS 存在與否的 automated visual estimate，並附一個表示演算法確定程度的 confidence score；需要 parasternal long-axis（PLAX，胸骨旁長軸）、parasternal short-axis at the aortic valve（PSAX-AV，胸骨旁主動脈瓣短軸）與 apical five-chamber（AP5，心尖五腔）這三種標準切面中至少兩種。
-- **AutoAS 的效能句沒有數字** — `AutoAS was trained and validated against a reference panel of expert cardiologists and can reduce the variability of missed AS compared to visual interpretation alone.`，註腳 [4] 同樣是一個內部文件編號 `UM DOC3275253`。全篇沒有給這項宣稱任何量值。
-- **自陳的定位限制** — 註腳 [3] 寫 `AutoAS is intended as a diagnostic aid and not as a standalone diagnostic tool.`，並寫最終臨床決定仍屬判讀醫師，且應結合完整的心臟超音波評估與臨床判斷。
-- **法規狀態** — `Lung Guidance and AutoAS are 510(k) cleared by the U.S. Food and Drug Administration and CE marked`。全篇 `cleared` 只出現這一次，同時涵蓋兩項功能；這與同公司 2026-11-01 介入影像新機那一則「cleared 只涵蓋部分項目」的情形不同，本則沒有這個問題。
-- **新聞稿結尾指向的頁面** — 新聞稿以 `For more information about Vscan Air, visit:` 指向官方手持超音波產品頁。本文核對時，該頁全文沒有出現 Lung Guidance、AutoAS、Caption AI 或 Auto Bladder Volume 任何一項 [(ref: prod)](https://www.gehealthcare.com/en-us/products/ultrasound/handheld-ultrasound)。
-- **未出現在新聞稿的項目** — 兩個 510(k) 編號、兩項功能各自的 clearance 日期、受試者人數、信賴區間、分區結果，以及下節所列的適用族群限制，新聞稿一項都沒有提。
+- **Lung Guidance 的運作方式** — 即時導引使用者把探頭移到 standard 8-zone lung protocol 各區的正確解剖位置；偵測的 landmark 包含 pleural line、A-lines、rib shadows、diaphragm 與 abdomen；符合預設條件時由 AutoCapture 自動錄製，未達標時可用 Save Best Clip 保留該視窗最佳影像；另支援 `B-line detection and scoring` 與報告功能 [(ref: pr)](https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments)。
+- **Lung Guidance 的取像範圍** — 8 個 zone 為 upper anterior（R1, L1）、lower anterior（R2, L2）、upper lateral（R3, L3）、lower lateral（R4, L4），影像型態限 B-mode；也就是前側與側胸，不含背側 [(ref: k261042)](https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261042.pdf)。
+- **Lung Guidance 被授權做的事** — Indications for Use（適應症敘述）寫「intended to assist medical professionals in the **acquisition** of lung ultrasound images」，適用族群為 `indicated for use in patients older than 22 years of age where there is a clinical suspicion of a respiratory condition or disease`，表上只勾選 Adults（22 歲以上）與 Prescription Use；同一段另明寫 `The Lung Guidance product is not intended to automatically capture, detect, or annotate all possible pathology that may be present(ed), and it is not intended to be the sole method to inform clinical decision making.`，結果必須由合格醫師判讀與報告 [(ref: k261042)](https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261042.pdf)。
+- **B-line 功能的來源與身分** — B-line 功能的 reference device（參照裝置）是 GE HealthCare 自家 2017 年的 Venue（K170714）。文件寫 B-line 產出的是 1–10 的計數，再映射到 0–2 的三格分類；subject device 以百分比方式處理 confluent B-lines，reference device 則用計數法。至於即時的 B-line 標註，文件寫 `These annotations are not intended to diagnose B-lines but to guide image acquisition.`，並寫這項功能 `does not modify the primary intended use of ultrasound imaging` [(ref: k261042)](https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261042.pdf)。
+- **AutoAS 的運作方式** — 對 Vscan Air SL 取得的標準 2D 心臟影像，給出 moderate-to-severe AS 存在與否的 automated visual estimate，並附一個表示演算法確定程度的 confidence score；需要 parasternal long-axis（PLAX，胸骨旁長軸）、parasternal short-axis at the aortic valve（PSAX-AV，胸骨旁主動脈瓣短軸）與 apical five-chamber（AP5，心尖五腔）這三種標準切面中至少兩種 [(ref: pr)](https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments)。
+- **AutoAS 被授權做的事** — Indications for Use 寫輸出是 `a suggestion of moderate/severe aortic stenosis along with an associated confidence metric`，可作為 diagnostic aid 協助醫師判斷是否需要進一步評估、包含是否需做完整心臟超音波（2D 與 Doppler）；並寫結果不得單獨用於臨床決策，也不是用來補充或取代完整的心臟超音波檢查。裝置描述另寫 `AutoAS software does not diagnose Aortic Stenosis (AS) but rather indicates the likelihood of AS` [(ref: k254161)](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254161.pdf)。新聞稿的註腳 [3] 寫法一致：`AutoAS is intended as a diagnostic aid and not as a standalone diagnostic tool.`，並寫最終臨床決定仍屬判讀醫師。
+- **適用機型** — 新聞稿標題與內文寫的是 `on Vscan Air`，緊接在「two new AI-assisted capabilities」那一句之後的註腳 [1] 全文只有一句：`Only available on Vscan Air SL.`。同一篇的 About Vscan Air 段落說明 Vscan Air 有兩個機型：SL（sector 與 linear 探頭，適用心臟、血管等），CL（curved 與 linear 探頭，適用腹部、婦產科、肌肉骨骼等）[(ref: pr)](https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments)。
+- **法規狀態的寫法** — 新聞稿寫 `Lung Guidance and AutoAS are 510(k) cleared by the U.S. Food and Drug Administration and CE marked`。全篇 `cleared` 只出現這一次，同時涵蓋兩項功能 [(ref: pr)](https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reinforces-leadership-in-ai-with-lung-guidance-and-autoas-on-vscan-airtm-for-point-of-care-ultrasound-assessments)。
 
-## FDA 的 510(k) summary 寫了什麼（事實）
+## 同一台裝置上的兩條法規路徑（事實）
 
-### Lung Guidance（K261042）
+兩項功能分屬不同條號、不同產品代碼、不同 predicate，各自送件、各自取得 clearance。
 
-以下各項皆出自該份 510(k) summary 與同一份文件內的決定函與 Indications for Use（適應症敘述）表 [(ref: k261042)](https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261042.pdf)。
+| 項目 | Lung Guidance（K261042） | AutoAS（K254161） |
+|---|---|---|
+| Regulation Number | 21 CFR 892.2100 | 21 CFR 892.2060 |
+| Regulation Name | `Radiological acquisition and/or optimization guidance system` | `Radiological computer-assisted diagnostic software for lesions suspicious of cancer` |
+| Class | II | II |
+| Product Code | QJU | POK |
+| Predicate device | Caption Guidance（DEN190040，Caption Health, acquired by GE HealthCare） | EchoGo Pro（K201555，Ultromics Ltd，評估 coronary artery disease 的軟體） |
+| 收文日 | 2026-09-01 | 2026-02-27 |
+| 決定函日期 | 2026-10-02 | 2026-03-27 |
 
-- **分類** — Regulation Number 21 CFR 892.2100，Regulation Name `Radiological acquisition and/or optimization guidance system`，Class II，Product Code QJU。該產品代碼在 FDA 分類資料庫的裝置名稱為 `Image Acquisition And/Or Optimization Guided By Artificial Intelligence`，定義寫明這類裝置的用途是輔助取像與最佳化、對操作者提供回饋以改善影像或訊號品質 [(ref: cls)](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPCD/classification.cfm?ID=QJU)。
-- **Indications for Use 的範圍** — 「intended to assist medical professionals in the **acquisition** of lung ultrasound images」；並明寫 `The Lung Guidance product is not intended to automatically capture, detect, or annotate all possible pathology that may be present(ed), and it is not intended to be the sole method to inform clinical decision making.`，以及結果必須由合格醫師判讀與報告。
-- **取像範圍只到前側胸壁** — 8 個 zone 為 upper anterior（R1, L1）、lower anterior（R2, L2）、upper lateral（R3, L3）、lower lateral（R4, L4），影像型態限 B-mode。
-- **適用族群** — `indicated for use in patients older than 22 years of age where there is a clinical suspicion of a respiratory condition or disease`；Indications for Use 表只勾選 Adults（22 歲以上）與 Prescription Use。
-- **B-line 功能的來源與定位** — B-line 功能的 reference device（參照裝置）是 GE HealthCare 自家 2017 年的 Venue（K170714）。文件寫 B-line 產出的是 1–10 的計數，再映射到 0–2 的三格分類；subject device 以百分比方式處理 confluent B-lines，reference device 則用計數法。至於即時的 B-line 標註，文件寫 `These annotations are not intended to diagnose B-lines but to guide image acquisition.`
-- **樞紐臨床試驗的設計** — 多中心前瞻性試驗，per-protocol 人數 **63 位病人**，兩個美國試驗場所，14 位使用者。每位受試者被掃描兩次：trained healthcare professionals（THCPs，文件界定為未受過專門肺部超音波訓練的醫療人員）在開啟 Lung Guidance 下取像（study exam），專家使用者在不使用 Lung Guidance 下取像（control exam），同一受試者內使用同型探頭以控制儀器因素，兩組掃描者互相盲化。
+- **QJU 這個代碼的定義** — 該產品代碼在 FDA 分類資料庫的裝置名稱為 `Image Acquisition And/Or Optimization Guided By Artificial Intelligence`，定義寫明這類裝置的用途是輔助取像與最佳化、對操作者提供回饋以改善影像或訊號品質 [(ref: cls)](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPCD/classification.cfm?ID=QJU)。
+- **AutoAS 的實質等同比較** — FDA 的比較表把 subject device 與 predicate 的 Classification Name、Product Code 與 Regulation Number 三欄都標為 `Identical`，臨床條件一欄則標為 `Similar`。AutoAS 評估的是主動脈瓣狹窄，而 predicate 的 EchoGo Pro 評估的是冠狀動脈疾病，兩者同掛在字面寫著癌症病灶的 892.2060 條下 [(ref: k254161)](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254161.pdf)。
+- **Breakthrough Device designation（突破性裝置認定）** — K254161 的腳註寫 `AutoAS received Breakthrough Device designation from the U.S. FDA` [(ref: k254161)](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254161.pdf)。
+- **AutoAS 的適用族群** — 適用成人、Prescription Use，並明寫 `The AutoAS product is not intended to be used on patients who have prosthetic valves and/or have had prior valve repair or replacement.` [(ref: k254161)](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254161.pdf)。
+
+## Lung Guidance 的樞紐試驗與臺架測試（事實）
+
+以下各項皆出自 K261042 的 510(k) summary 與同一份文件內的決定函與 Indications for Use 表 [(ref: k261042)](https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261042.pdf)。
+
+- **試驗設計** — 多中心前瞻性試驗，per-protocol 人數 **63 位病人**，**兩個美國試驗場所**，**14 位使用者**。每位受試者被掃描兩次：trained healthcare professionals（THCPs，文件界定為未受過專門肺部超音波訓練的醫療人員）在開啟 Lung Guidance 下取像（study exam），專家使用者在不使用 Lung Guidance 下取像（control exam），同一受試者內使用同型探頭以控制儀器因素，兩組掃描者互相盲化。
 - **判讀方式** — 所有 clip 交由 5 位獨立的肺部超音波專家判讀，每位至少 5 年經驗；判讀者對使用者身分、是否使用 Lung Guidance、場所與其他判讀者的結果皆盲化，且所有 landmark 與 B-line 標註在判讀前移除；主要終點的 ground truth 為多數決。
-- **主要終點與那個區間** — 文件原文：`95.2% of THCP-acquired studies were rated as diagnostic quality, compared with 96.8% for expert-acquired studies. The between-group difference was −1.6 percentage points [95% CI: −18.7 to 15.5]`。文件同時寫明，達到統計顯著的是 THCP 組**對一個預先設定的 benchmark**，不是對專家組。
+- **主要終點** — 文件原文：`95.2% of THCP-acquired studies were rated as diagnostic quality, compared with 96.8% for expert-acquired studies. The between-group difference was −1.6 percentage points [95% CI: −18.7 to 15.5]`。文件同時寫明，達到統計顯著的是 THCP 組**對一個預先設定的 benchmark**，不是對專家組。
 - **分區結果（Effective Sample Size 皆為 63）**：
 
 | 區位 | 達診斷品質比例（%） |
@@ -123,24 +134,39 @@ GE HealthCare 在 2026-11-03 發出新聞稿，為手持超音波 Vscan Air 增�
 | Zone R4 | 90.48 |
 
   文件對這張表的說明是：在 zone 層級，aided THCP 達顯著較高比例者涵蓋各區，`except for the more challenging zone L4`。
+
 - **次要終點為描述性** — 文件明寫次要終點 `no hypothesis testing was performed`。病人層級的整體肺部病理判定一致性（scaled Gwet's AC1）為 80.96%，B-lines 96.2%，pleural effusion 94.02%，non-aerated lung／consolidation 95.67%，lung sliding 95.57%。
 - **兩個實務數字** — THCP 組取得的 1,100 餘段 clip 中，autocapture 比例為 **51%**；全體受試者的平均取像時間為 **19.2 分鐘**（標準差 9.3 分鐘）。文件同時寫下側 zone L4 與 R4 的 autocapture 比例較低、取像時間較長。
-- **人因測試的數字與臨床試驗不同** — 人因測試在 patient model（人體模型）上進行，文件寫跨各區平均 **93%** 的 clip 被 autocapture，專家 96%、非專家 91.5%，L4 為 77%；所有使用者都通過全部關鍵任務，僅有的非關鍵使用錯誤與「B-Line findings report 的判讀」及「依導引放置探頭」有關。
+- **人因測試** — 在 patient model（人體模型）上進行，文件寫跨各區平均 **93%** 的 clip 被 autocapture，專家 96%、非專家 91.5%，L4 為 77%；所有使用者都通過全部關鍵任務，僅有的非關鍵使用錯誤與「B-Line findings report 的判讀」及「依導引放置探頭」有關。
 - **演算法臺架測試（非臨床）** — Landmark 偵測在 20 位病人的 3,078 個 frame 上平均 PPV（positive predictive value，陽性預測值）為 80.66%；品質計量表的整體一致性 93.47%；autocapture 的平均 AUROC（area under the receiver operating characteristic curve，ROC 曲線下面積）91.10%、PPV 91.07；B-line autocapture 的 Balanced Accuracy 70.19%、PPV 96.24%；B-line scoring 的 Gwet's AC2 97.06%；B-line 標註的 Dice Similarity Coefficient 為 **58.88%**，文件寫這個值 `exceeded the performance goals`。
 
-### AutoAS（K254161）
+## AutoAS 的驗證與讀者研究（事實）
 
-以下各項皆出自該份 510(k) summary 與同一份文件內的決定函與 Indications for Use 表 [(ref: k254161)](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254161.pdf)。
+以下各項皆出自 K254161 的 510(k) summary 與同一份文件內的決定函與 Indications for Use 表 [(ref: k254161)](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254161.pdf)。
 
-- **分類與 predicate** — Regulation Number 21 CFR 892.2060，Regulation Name `Radiological computer-assisted diagnostic software for lesions suspicious of cancer`，Class II，Product Code POK。Predicate device 是 Ultromics Ltd 的 EchoGo Pro（K201555），一套評估 coronary artery disease（冠狀動脈疾病）的軟體；FDA 的實質等同比較表把兩者的 Classification Name、Product Code 與 Regulation Number 三欄都標為 `Identical`，臨床條件一欄則標為 `Similar`。
-- **Breakthrough Device designation（突破性裝置認定）** — 文件的腳註寫 `AutoAS received Breakthrough Device designation from the U.S. FDA`。新聞稿沒有提到這一點。
-- **適用族群的排除條款** — `The AutoAS product is not intended to be used on patients who have prosthetic valves and/or have had prior valve repair or replacement.`；適用成人，Prescription Use。新聞稿沒有提到這項排除。
-- **定位** — Indications for Use 寫輸出是 `a suggestion of moderate/severe aortic stenosis along with an associated confidence metric`，可作為 diagnostic aid 協助醫師判斷是否需要進一步評估、包含是否需做完整心臟超音波（2D 與 Doppler）；並寫結果不得單獨用於臨床決策，也不是用來補充或取代完整的心臟超音波檢查。裝置描述另寫 `AutoAS software does not diagnose Aortic Stenosis (AS) but rather indicates the likelihood of AS`。
 - **參考標準** — 3 位 level-III 心臟超音波醫師各自獨立、互相盲化、並對原始判讀結果盲化，依美國心臟超音波學會（American Society of Echocardiography，ASE）的臨床指引以 Aortic Valve Area（AVA，主動脈瓣口面積）判定嚴重度，取多數決。
 - **standalone 效能** — AUROC 93.2%（95% CI 90.5%–95.6%），`statistically significantly greater than the predefined performance target`；specificity（特異度）92.4%（95% CI 86.3%–98.4%）；**sensitivity（敏感度）75.2%（95% CI 67.4%–83.0%）**。文件對後者的描述是 `on par with original reading cardiologists when compared to the same reference panel`。
 - **讀者研究（multi-reader multi-case，MRMC，多判讀者多案例）** — 5 位專家心臟超音波判讀者，資料為 standalone 驗證集的子集，共 **220 個 study、220 位病人、3 個美國機構**；採隨機交叉設計，兩臂之間有 1 個月 wash-out。結果：aided 相對 unaided 的 sensitivity 提升 **+5.5%（95% CI 1.5%–9.5%）**，specificity 維持相當（0.897 對 0.900）；ROC 曲線關鍵區間的 partial AUROC 差距 8.9%（95% CI 1.2%–20.5%）；判讀者間一致性由 unaided 的 81.9% 升至 aided 的 89.0%，參考標準本身為 88.7%。
-- **驗證資料的取像來源** — 該份 summary 描述驗證資料為 two-dimensional transthoracic echocardiography（2D-TTE，二維經胸心臟超音波）study，並把 `device manufacturer`（儀器廠牌）列為效能一致性的次族群參數之一。文件未敘明這些影像是以手持超音波取得，也未提及 Vscan Air。
 - **輸入把關** — clip annotator 判斷影像是否為 B-mode 的 PPV 與 sensitivity 皆為 100%（95% CI 98.5%–100.0%）；在已判定為 B-mode 的影像上，切面分類的 PPV 至少 97.1%（95% CI 94.2%–98.8%）、sensitivity 至少 87.5%（95% CI 83.1%–91.2%）。
+- **驗證資料的取像來源** — 該份 summary 描述驗證資料為 two-dimensional transthoracic echocardiography（2D-TTE，二維經胸心臟超音波）study，並把 `device manufacturer`（儀器廠牌）列為效能一致性的次族群參數之一。
+
+## 證據邊界（事實）
+
+新聞稿與 FDA 文件並存，兩邊可核對的範圍不同。以下逐項列出邊界，供引用本則時參考。
+
+- **新聞稿只給兩個百分比、沒有給分母。** 全篇僅有的兩個百分比出現在同一句：`In validation testing, Lung Guidance enabled non-expert lung ultrasound users to consistently acquire diagnostic-quality lung ultrasound exams, with 95.2 percent success compared with 96.8 percent for expert users, per a descriptive assessment.`，該句的註腳 [2] 是 `Lung Guidance, validation data – UM DOC3172170`，一個外部無從調閱的內部文件編號。分母 63 位病人（per-protocol）只寫在 K261042。
+- **兩組差距的信賴區間跨過零。** FDA 文件載明差距為 −1.6 個百分點、95% CI −18.7 到 15.5；達到統計顯著的是 THCP 組對一個預先設定的 benchmark，不是對專家組。新聞稿的 `per a descriptive assessment` 與這一點相符，但區間本身未出現在新聞稿。
+- **八區中 L4 為 80.95%，且是唯一一區未達 zone 層級的顯著優勢。** 文件的用語是 `except for the more challenging zone L4`；同一區的 autocapture 比例較低、取像時間較長。分區結果未出現在新聞稿。
+- **AutoAS 的效能句沒有任何數字。** 新聞稿原文為 `AutoAS was trained and validated against a reference panel of expert cardiologists and can reduce the variability of missed AS compared to visual interpretation alone.`，註腳 [4] 同樣是一個內部文件編號 `UM DOC3275253`。全篇沒有給這項宣稱任何量值。
+- **兩項功能的 clearance 日期相隔七個多月，新聞稿未寫。** AutoAS 的決定函日期為 2026-03-27，早於本公告逾七個月；Lung Guidance 為 2026-10-02。新聞稿以 `two new AI-assisted capabilities` 併稱兩者，既未提兩個 K 編號，也未提各自的 clearance 日期。
+- **AutoAS 的適用族群排除條款未進新聞稿。** K254161 寫 `The AutoAS product is not intended to be used on patients who have prosthetic valves and/or have had prior valve repair or replacement.`，新聞稿沒有提到這項排除。
+- **AutoAS 的 Breakthrough Device designation 未進新聞稿。** 該認定寫在 K254161 的腳註。
+- **autocapture 的兩個比例來自兩種環境。** 人因測試在人體模型上跨各區平均 93%，樞紐試驗在真實病人身上為 51%（1,100 餘段 clip）。兩者量的不是同一件事。
+- **AutoAS 的驗證影像未敘明取像裝置型態。** 該份 summary 描述驗證資料為 2D-TTE study，把 `device manufacturer` 列為次族群參數之一，未敘明這些影像是以手持超音波取得，也未提及 Vscan Air。
+- **標題涵蓋的產品名大於實際涵蓋的機型。** 新聞稿標題與內文寫 `on Vscan Air`，註腳 [1] 寫 `Only available on Vscan Air SL.`，而 Vscan Air 有 SL 與 CL 兩個機型。
+- **新聞稿結尾指向的產品頁沒有這兩項功能。** 新聞稿以 `For more information about Vscan Air, visit:` 指向官方手持超音波產品頁。本文核對時，該頁全文沒有出現 Lung Guidance、AutoAS、Caption AI 或 Auto Bladder Volume 任何一項 [(ref: prod)](https://www.gehealthcare.com/en-us/products/ultrasound/handheld-ultrasound)。
+- **證據取得的場景與行銷的場景不同。** Lung Guidance 的樞紐試驗受試者限 22 歲以上、取像只涵蓋前側與側胸八區、不含背側；AutoAS 的讀者研究用的是 5 位專家心臟超音波判讀者，而新聞稿描述的使用者是第一線床邊臨床人員。
+- **未出現在新聞稿的項目合計** — 兩個 510(k) 編號、兩項功能各自的 clearance 日期、受試者人數、信賴區間、分區結果，以及上列的適用族群限制與排除條款。
 
 ## 本書庫解讀（評論）
 

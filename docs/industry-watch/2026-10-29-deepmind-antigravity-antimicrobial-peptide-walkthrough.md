@@ -1,17 +1,17 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "DeepMind 說把數天縮成一次對話，全文沒量過任何一段時間"
+title: "DeepMind 抗菌胜肽示範：代理程式從資料庫走到實驗計畫"
 category: industry-watch
 date: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-12
 tags: [Google-DeepMind, Google-Antigravity, ProtNLM, AlphaFold, UniProt, antimicrobial-peptides, bacteriocin, antimicrobial-resistance, drug-discovery, agentic-workflow, automatic-annotation, data-provenance]
 catalog_id: "google-deepmind:antigravity-antimicrobial-peptide-walkthrough-2026-10-15"
 editors:
   - "Clarence"
-status: published
-evidence_reviewed: true
-skill_version: "write-industry-watch@3.0"
+status: draft
+evidence_reviewed: false
+skill_version: "write-industry-watch@3.1"
 source:
   orgs:
     - "Google DeepMind"
@@ -51,7 +51,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# DeepMind 說把數天縮成一次對話，全文沒量過任何一段時間
+# DeepMind 抗菌胜肽示範：代理程式從資料庫走到實驗計畫
 
 ## 來源
 
@@ -64,89 +64,116 @@ refs:
 
 **編輯：** Clarence
 
-Google DeepMind 在 2026-10-15 發布一篇技術示範：研究者在 Antigravity（該公司的代理式開發平台）裡設定一個生物學目標 —— 在 *Streptococcus pseudopneumoniae* 中尋找新的抗菌胜肽 —— 由代理程式跨資料庫查詢、比對結構、讀基因體鄰域、整理文獻，最後產出一份實驗計畫。文章同時發表 `Biomolecular Structure Viewer`，一個嵌進 Antigravity 的 3D 結構檢視器 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
-
-公告正文約 1,390 字。把它逐詞掃過之後，有兩件事值得先講清楚。
-
-第一，這篇文章的賣點是加速，但它沒有量過任何一段時間。正文裡 `hours` 出現 0 次，`days` 出現 1 次，而那一次是「turning days of fragmented database triage into a single collaborative session」—— 舊流程「數天」沒有量測來源，新流程「一次協作對話」也沒有時長。同一頁的 `meta description` 與 `og:description`（亦即搜尋結果與社群預覽會顯示的那一段）寫的卻是 `...prioritize novel antimicrobial peptides **in hours**`，而 `hours` 這個詞在正文中一次都沒有出現。產品頁上這件事又換了第三種寫法：`condensing hours of manual structural analysis into minutes` [(ref: antigravity)](https://antigravity.google/use-cases/science)。三個官方位置、三種說法，沒有一個給得出被壓縮前後的實測值。
-
-第二，被當成成果展示的那個候選分子，是 UniProt 編號 `A0A0U0D591`。回查該條目之後，它的名稱 `Lactococcin 972 family bacteriocin` 在 UniProt 的證據欄位上寫的是 `Automatic Annotation (ECO:0008006) Google:ProtNLM` —— 也就是說，代理程式在資料庫裡「找到一個 bacteriocin」時所讀到的那個名稱，正是 Google 自家模型先前寫進去的 [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。公告本身並未隱瞞 ProtNLM 是 Google 開發的，但它沒有說明這個特定候選分子的名稱來源，而這決定了整條證據鏈該怎麼讀。
+Google DeepMind 在 2026-10-15 發布一篇技術示範：研究者在 Antigravity（該公司的代理式開發平台）裡設定一個生物學目標 —— 在 *Streptococcus pseudopneumoniae* 中尋找新的抗菌胜肽（antimicrobial peptide, AMP）—— 其後的步驟交由代理程式執行：跨資料庫查詢、以序列比對查新穎性、取預測結構做遠源同源比對、讀基因體鄰域、整理文獻形成機制假說，最後產出一份實驗計畫。同一篇文章發表 `Biomolecular Structure Viewer`，一個嵌進 Antigravity 的 3D 結構檢視器 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。對抗菌胜肽探索與研究工作流程而言，本則的實質有三層：一條被完整走過一遍、每一步都有具名資料庫或服務對應的檢索路徑；一個已被篩出並進入 wet-lab validation 的候選分子，連同它在 UniProt 上可逐欄回查的條目；以及底下那套基礎設施 —— 產品頁稱 Antigravity 可對三十多個主要生命科學資料庫立即上手，其中包含 1PB 的 AlphaGenome Atlas [(ref: antigravity)](https://antigravity.google/use-cases/science)。公告可核對的範圍、以及外部回查後發現的落差，集中整理於〈證據邊界（事實）〉一節。
 
 ## 背景
 
-這則公告不是一項監管動作或產品上市，而是一篇把既有資產串起來的技術示範。要理解它的範圍，需要先把四個時間點排清楚，因為它們分屬不同主體、而公告把它們寫成同一件事的不同步驟。
+這則公告不是一項監管動作或產品上市，而是一篇把既有資產串起來的技術示範。它要處理的問題由公告自己界定：抗生素抗藥性（antimicrobial resistance, AMR）`could result in an estimated 10 million annual deaths globally by 2050`，連結指向 GOV.UK 的 `Health matters: antimicrobial resistance`。該頁由 Public Health England 發布，頁面可見的發布日為 `Published 10 December 2015`，內文寫的是「an estimated 10 million deaths every year globally by 2050」以及「a cost of £66 trillion in lost productivity」 [(ref: amr)](https://www.gov.uk/government/publications/health-matters-antimicrobial-resistance/health-matters-antimicrobial-resistance)。
 
-- **2016-02-17** — UniProt 條目 `A0A0U0D591` 首次公開，序列版本 1，此後序列從未更新。該序列來自 *Streptococcus pseudopneumoniae* 菌株 Spain2270 的全基因體散彈定序（whole genome shotgun, WGS）計畫，開放閱讀框編號 `D6867_00595`。條目至今掛著一則 UniProt 的 `Caution`：`The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data` [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。
+要理解示範的範圍，需要先把四個時間點排清楚，因為它們分屬不同主體、而公告把它們寫成同一件事的不同步驟。
+
+- **2016-02-17** — UniProt 條目 `A0A0U0D591` 首次公開，序列版本 1，此後序列從未更新。該序列來自 *Streptococcus pseudopneumoniae* 菌株 Spain2270 的全基因體散彈定序（whole genome shotgun, WGS）計畫，開放閱讀框編號 `D6867_00595` [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。
 - **UniProt release 2022_04 起** — UniProt 開始把 ProtNLM 預測的蛋白質名稱填進原本名為 `uncharacterized protein` 的 TrEMBL 條目。UniProt 官方說明頁寫明 ProtNLM 是「developed by collaborators at Google DeepMind」，並指出這類標註可由 `Automatic Annotation (ECO:0008006) Google:ProtNLM` 這個證據標籤辨識，也可以用搜尋語法 `source:google` 篩出 [(ref: protnlm)](https://www.uniprot.org/help/ProtNLM)。
-- **2026-09-02** — 該條目最近一次標註更新（版本 48）。條目唯一引用的文獻是一筆 2018 年 9 月的資料庫提交紀錄，沒有任何期刊論文 [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。
+- **2026-09-02** — 該條目最近一次標註更新（版本 48）[(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。
 - **2026-10-15** — Google DeepMind 發布本則公告，把這個條目描述為代理程式從數百萬筆資料中篩出的候選，並表示它與同一管線產出的其他數個候選已進入 wet-lab validation [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
 
-換句話說，這條序列在公開資料庫裡已經存在十年又八個月；公告描述的工作是在既有條目上做檢索、結構比對與文獻整理，不是定序或合成出一個新分子。公告沒有寫錯，但它用 `uncover`、`discovery`、`previously uncharacterized` 這組詞描述這段過程，讀者若不回查條目，容易把它讀成一個分子被發現。
+換句話說，這條序列自 2016-02-17 首次公開至公告發布日，已在公開資料庫裡存在十年又八個月（由本文代為計算）。公告描述的工作是在既有條目上做檢索、結構比對與文獻整理，不是定序或合成出一個新分子。
 
-## 事實（可核對）
+本則**沒有配圖**。公告頁內的 ProtNLM 管線圖、六張走查截圖與結構檢視器畫面為 Google DeepMind 自有素材，UniProt 頁面的圖像為 UniProt consortium 自有素材，皆不在此重製。
 
-以下區分**公告宣稱**與**回查 UniProt 官方條目所得**。
+## 從一句生物學目標到一份實驗計畫
 
-### 公告自報的內容
+研究者設定的目標是 `find and computationally validate novel AMPs in Streptococcus pseudopneumoniae`；公告自述這次對話聚焦於 `a narrow amino acid window` [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。接下來的工作以六張投影片呈現（`Slide 1 of 6`），依序為：資料庫篩選、以 EMBL-EBI 的 NCBI-BLAST 服務對 Swiss-Prot 查新穎性、取 AlphaFold 預測結構做遠源同源（remote homology）比對、讀基因體鄰域、整理文獻形成機制假說、產出實驗計畫 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
 
-- **目標與範圍** — 研究者設定的目標是 `find and computationally validate novel AMPs in Streptococcus pseudopneumoniae`（AMP 即 antimicrobial peptide，抗菌胜肽）；公告自述這次對話聚焦於 `a narrow amino acid window` [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
-- **六張投影片的工作流程** — 依序為資料庫篩選、以 EMBL-EBI 的 NCBI-BLAST 服務對 Swiss-Prot 查新穎性、取 AlphaFold 預測結構做遠源同源比對、讀基因體鄰域、整理文獻形成機制假說、產出實驗計畫 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
-- **基因體鄰域** — 公告稱該候選位於一個緊密耦合的 operon 上游，距離一個 ABC transporter permease 僅 6 個鹼基對，鄰近另有一個已標註的 bacteriocin 與一個 XRE 轉錄調控因子。本文未獨立核對這項基因體排列，僅記為公告宣稱 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
-- **機制與活性為預測** — 公告寫的是 `existing evidence suggests a mechanism of action targeting bacterial cell division, and a predicted potency spectrum spanning several drug-resistant pathogens`。這是從文獻推得的假說，不是量測 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
-- **尚未驗證** — 公告自己寫明 `it still requires wet lab validation`，並說候選已進入 wet-lab validation，`where experimental results will provide the ultimate test of the agent's analysis` [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
-- **唯一的量化風險陳述** — `could result in an estimated 10 million annual deaths globally by 2050`，連結指向 GOV.UK 的 `Health matters: antimicrobial resistance`。該頁由 Public Health England 發布，頁面可見的發布日為 `Published 10 December 2015`，內文寫的是「an estimated 10 million deaths every year globally by 2050」以及「a cost of £66 trillion in lost productivity」 [(ref: amr)](https://www.gov.uk/government/publications/health-matters-antimicrobial-resistance/health-matters-antimicrobial-resistance)。
+幾個與研究工作流程直接相關的細節：
 
-### 正文逐詞計數（說明這篇文章沒有包含什麼）
+- **檢索的起點是整個資料庫，終點是一個條目。** 公告把該候選描述為代理程式自數百萬筆資料中篩出的結果，而這一步所用的資料庫是 UniProt [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **新穎性檢查交給外部服務執行。** 這一步透過 EMBL-EBI 的 NCBI-BLAST 服務對 Swiss-Prot 做序列比對；`Swiss-Prot` 與 `BLAST` 在正文中各出現 1 次 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **結構比對用的是預測結構。** 代理程式取 AlphaFold 預測結構做遠源同源比對，公告以 `structural evidence corroborates ProtNLM's prediction` 描述這一步的結果 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **文獻整理階段點名了四個既有的 bacteriocin。** 公告具名提及 Nisin、Darobactin、Dynobactin 與 Lariocidin，作為機制假說的文獻背景 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **同一篇文章發表了結構檢視器。** `Biomolecular Structure Viewer` 嵌在 Antigravity 內，供 3D 結構檢視使用，使結構比對這一步不必離開同一個環境 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
 
-正文約 1,390 字，`<main>` 區塊內有 0 個 `sup` 元素，亦即全文沒有註腳。下列詞彙在正文中的命中數為零：`hours`、`%`、`peer`、`paper`、`arXiv`、`DOI`、`clinical`、`patient`、`benchmark`、`accuracy`、`baseline`、`control`、`MIC`（minimum inhibitory concentration，最小抑菌濃度）、`in vivo`、`validated`。出現的是 `predict` 10 次、`predicted` 4 次、`candidate` 12 次、`validation` 4 次、`wet-lab` 4 次 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。`<main>` 內的連結共 7 個，其中 2 個是同一個 Antigravity 導流連結；其餘指向 GOV.UK、UniProt 首頁、UniProt 的 ProtNLM 說明頁、該候選條目與 AlphaFold 資料庫。**沒有任何連結指向論文、預印本、程式碼或資料**。
+## 被挑出來的候選分子
 
-### 回查 UniProt 條目所得
+代理程式篩出的候選是 UniProt 編號 `A0A0U0D591`。以下為回查 UniProt 官方條目所得 [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)：
 
 | 欄位 | 條目實際內容 |
 |---|---|
-| 條目狀態 | `UniProtKB unreviewed (TrEMBL)`（TrEMBL 為 UniProtKB 未經人工審閱的部分，相對於人工審閱的 Swiss-Prot） |
-| Protein existence | `4: Predicted`（UniProt 五級證據中倒數第二級） |
-| Annotation score | 1（滿分 5） |
-| 名稱證據 | `Automatic Annotation (ECO:0008006) Google:ProtNLM` |
+| 蛋白質名稱 | `Lactococcin 972 family bacteriocin` |
+| 物種與菌株 | *Streptococcus pseudopneumoniae* 菌株 Spain2270（taxonomy id 257758） |
 | 長度／分子量 | 97 個胺基酸／10,408 Da |
+| 開放閱讀框 | `D6867_00595` |
 | 首次公開／序列最後更新 | 皆為 2016-02-17（序列版本 1） |
 | 標註最後更新／條目版本 | 2026-09-02／版本 48 |
-| 文獻 | 僅一筆 2018 年 9 月的資料庫提交，無期刊論文 |
-| Caution | 序列源自 WGS 條目，屬 preliminary data |
 
-公告提到的 97 個胺基酸、Lactococcin 972 家族、*S. pseudopneumoniae* 三項與條目一致 [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。
+公告提到的 97 個胺基酸、Lactococcin 972 家族、*S. pseudopneumoniae* 三項與條目一致。
 
-### 「novel」這個詞涵蓋到哪裡
+公告另就這個候選給出兩項生物學敘述：
 
-公告的原句有明確限定：`confirm this peptide has no meaningful sequence homolog among manually reviewed proteins`。這句話沒有寫錯，但 `manually reviewed` 指的是 Swiss-Prot。以 UniProt 官方 API 查詢當下的規模：
+- **基因體鄰域** — 公告稱該候選位於一個緊密耦合的 operon 上游，距離一個 ABC transporter permease 僅 6 個鹼基對，鄰近另有一個已標註的 bacteriocin 與一個 XRE 轉錄調控因子。本文未獨立核對這項基因體排列，僅記為公告宣稱 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **機制與活性譜為預測** — 公告寫的是 `existing evidence suggests a mechanism of action targeting bacterial cell division, and a predicted potency spectrum spanning several drug-resistant pathogens`。這是從文獻推得的假說，不是量測 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+
+公告自己寫明 `it still requires wet lab validation`，並說該候選與同一管線產出的其他數個候選已進入 wet-lab validation，`where experimental results will provide the ultimate test of the agent's analysis` [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+
+## 新穎性檢查比對的是哪個範圍
+
+公告的原句有明確限定：`confirm this peptide has no meaningful sequence homolog among manually reviewed proteins`。`manually reviewed` 指的是 Swiss-Prot。以 UniProt 官方 API 查詢當下的規模：
 
 - 已審閱（Swiss-Prot）條目：**575,748**
 - 未審閱（TrEMBL）條目：**149,430,635**
 
-亦即這項新穎性檢查的比對範圍約為 UniProtKB 的 0.38%。把範圍放大到全庫之後，同樣以 UniProt API 查得：
+亦即這項新穎性檢查的比對範圍約為 UniProtKB 的 0.38%（由本文代為計算）。把範圍放大到全庫之後，同樣以 UniProt API 查得：
 
 - 與該候選同屬一個 UniRef50 叢集（50% 序列相同度）的條目：**6** 筆；UniRef90 與 UniRef100 叢集則各只有 **1** 筆，表示庫中沒有近乎相同的序列
 - 蛋白質名稱為 `Lactococcin 972 family bacteriocin` 的條目：**929** 筆，其中已審閱者：**0** 筆
 - 其中屬於 *S. pseudopneumoniae*（taxonomy id 257758）者：**3** 筆
 
-所以「在人工審閱的子集中沒有有意義的同源序列」成立；「在整個 UniProtKB 中沒有相似序列」則不成立 —— 同家族名稱底下有 929 筆，50% 相同度層級有 6 筆。公告沒有宣稱後者，但標題與摘要用的是不帶限定的 `novel`。
+所以「在人工審閱的子集中沒有有意義的同源序列」成立；「在整個 UniProtKB 中沒有相似序列」則不成立 —— 同家族名稱底下有 929 筆，50% 相同度層級有 6 筆 [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。
 
-### ProtNLM 的兩個版本，與圖說裡被換掉的那個 2
+## ProtNLM 的兩個版本與條目裡的名稱
+
+`A0A0U0D591` 的蛋白質名稱不是人工審閱寫上去的，它的證據欄位是 `Automatic Annotation (ECO:0008006) Google:ProtNLM` [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。ProtNLM 是 UniProt 用來替原本名為 `uncharacterized protein` 的 TrEMBL 條目填入蛋白質名稱的模型，UniProt 官方說明頁寫明它是「developed by collaborators at Google DeepMind」；公告本身也未隱瞞 ProtNLM 是 Google 開發的 [(ref: protnlm)](https://www.uniprot.org/help/ProtNLM)。
 
 UniProt 官方說明頁把 ProtNLM 與 ProtNLM2 分得很清楚 [(ref: protnlm)](https://www.uniprot.org/help/ProtNLM)：
 
 - **ProtNLM（已整合進條目）** — 只預測蛋白質名稱，模型分數門檻 0.2。全庫以 `source:google` 可篩出 **12,993,526** 筆帶有 ProtNLM 預測名稱的條目，其中已審閱者 **0** 筆。
 - **ProtNLM2（未整合，平行儲存）** — 預測範圍擴及 function comments、subcellular locations、keywords 與 Gene Ontology（GO）terms，門檻降為 0.05，但加掛一套稱為 `Evidencer` 的後處理：以字串比對、`phmmer` 序列相似度（bit score > 25）或 `TM-align` 結構相似度等條件尋找佐證，無法佐證者不顯示。試行版涵蓋約 26,000 筆條目，於 UniProt 2026_02 釋出。
 
-這個區分對本則很關鍵：`A0A0U0D591` 的名稱是**整合進條目**的那一種，走的是 ProtNLM 第一版、只過 0.2 分數門檻的路徑，**沒有**經過 ProtNLM2 的 `Evidencer` 佐證流程。
+本則候選的名稱屬於**整合進條目**的那一種，走的是 ProtNLM 第一版、只過 0.2 分數門檻的路徑，**沒有**經過 ProtNLM2 的 `Evidencer` 佐證流程。
 
-而公告的第一張圖說是這樣寫的：`Overview of the ProtNLM pipeline translating raw amino acid sequences into natural-language biological annotations for unreviewed UniProtKB/TrEMBL entries. The functional annotation scope of the system covers protein names, function comments, subcellular locations, and GO terms, in addition to keywords.` 把它與 UniProt 說明頁對照，這段文字是該頁兩張圖的圖說接起來的：第一句逐字相同；第二句在 UniProt 頁上原文為 `The functional annotation scope of **ProtNLM2**, covering...`，公告把 `ProtNLM2` 換成了 `the system`。結果是，公告用來描述「ProtNLM 管線」能力範圍的那句話，在 UniProt 的原始語境裡描述的是另一個版本 —— 而那個版本的輸出並沒有被整合進本則候選分子所在的條目。
+UniProt 把這件事做成了可查詢的欄位：`Automatic Annotation (ECO:0008006) Google:ProtNLM` 這個證據標籤，加上 `source:google` 搜尋語法，讓任何人都能把模型產生的標註篩出來或排除掉。UniProt 在同一頁也寫著：`machine learning AI models do make errors. We invite users to carefully evaluate these predictions` [(ref: protnlm)](https://www.uniprot.org/help/ProtNLM)。
 
-UniProt 在同一頁也寫著：`machine learning AI models do make errors. We invite users to carefully evaluate these predictions` [(ref: protnlm)](https://www.uniprot.org/help/ProtNLM)。
+## Antigravity 接得到的生命科學資料庫與取用方式
+
+- **資料庫覆蓋面是這套工作流程的基礎設施。** 產品頁宣稱 Antigravity 可對 `more than 30 major life-science databases` 立即上手，包括 `1PB AlphaGenome Atlas`、UniProt、PubChem 與 ChEMBL [(ref: antigravity)](https://antigravity.google/use-cases/science)。本則示範實際用到的是 UniProt 與 AlphaFold Protein Structure Database。
+- **安裝路徑。** 產品頁提供可安裝的 Science 外掛 [(ref: antigravity)](https://antigravity.google/use-cases/science)。
+- **免費方案的規模。** 產品頁寫明將提供 `10,000 scientists` 最高用量級別與 Gemini 4 Argon 模型，免費 [(ref: antigravity)](https://antigravity.google/use-cases/science)。
+- **產品頁的語彙邊界。** 該頁逐詞計數中 `clinical`、`patient`、`medical`、`diagnos`、`regulat`、`FDA` 命中皆為 0 [(ref: antigravity)](https://antigravity.google/use-cases/science)。亦即 Google 在這條產品線上把定位放在研究工作流程，而非臨床或受監管用途。
+
+## 證據邊界（事實）
+
+本則事件為單一組織來源，且公告的寫法限制了外部可核對的範圍。以下把散在各處的限制與落差集中列出，供引用時參考：
+
+- **公告的賣點是加速，而正文沒有量過任何一段時間。** 正文約 1,390 字，`hours` 出現 0 次，`days` 出現 1 次，而那一次是 `turning days of fragmented database triage into a single collaborative session` —— 舊流程「數天」沒有量測來源，新流程「一次協作對話」也沒有時長 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **同一個加速宣稱在三個官方位置有三種寫法。** 同一頁的 `meta description` 與 `og:description`（亦即搜尋結果與社群預覽會顯示的那一段）寫的是 `...prioritize novel antimicrobial peptides in hours`，而 `hours` 這個詞在正文中一次都沒有出現；產品頁上是第三種寫法 `condensing hours of manual structural analysis into minutes`。三個官方位置都沒有給出被壓縮前後的實測值 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/) [(ref: antigravity)](https://antigravity.google/use-cases/science)。
+- **指向外部研究成果與臨床量測的詞彙在正文中零命中。** 下列詞彙在正文中的命中數為零：`hours`、`%`、`peer`、`paper`、`arXiv`、`DOI`、`clinical`、`patient`、`benchmark`、`accuracy`、`baseline`、`control`、`MIC`（minimum inhibitory concentration，最小抑菌濃度）、`in vivo`、`validated`。出現的是 `predict` 10 次、`predicted` 4 次、`candidate` 12 次、`validation` 4 次、`wet-lab` 4 次 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **全文沒有註腳，也沒有任何連結指向論文、預印本、程式碼或資料。** `<main>` 區塊內有 0 個 `sup` 元素；該區塊內的連結共 7 個，其中 2 個是同一個 Antigravity 導流連結，其餘指向 GOV.UK、UniProt 首頁、UniProt 的 ProtNLM 說明頁、該候選條目與 AlphaFold 資料庫 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **成果停在 wet-lab validation 之前。** 公告沒有宣稱任何已量測的抗菌活性，也沒有宣稱任何核准；它的結論句是候選已進入 wet-lab validation，並自述 `it still requires wet lab validation`，未給時程 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **被當成發現起點的那個名稱，是模型寫進資料庫的。** `A0A0U0D591` 的蛋白質名稱 `Lactococcin 972 family bacteriocin`，在 UniProt 的證據欄位上寫的是 `Automatic Annotation (ECO:0008006) Google:ProtNLM`，走的是未經 `Evidencer` 佐證的 ProtNLM 第一版路徑。公告沒有說明這個特定候選分子的名稱來源，而這決定了整條證據鏈該怎麼讀 [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry) [(ref: protnlm)](https://www.uniprot.org/help/ProtNLM)。
+- **條目本身的證據等級偏低。** 條目狀態為 `UniProtKB unreviewed (TrEMBL)`（TrEMBL 為 UniProtKB 未經人工審閱的部分，相對於人工審閱的 Swiss-Prot）；Protein existence 為 `4: Predicted`（UniProt 五級證據中倒數第二級）；Annotation score 1（滿分 5）。條目唯一引用的文獻是一筆 2018 年 9 月的資料庫提交紀錄，沒有任何期刊論文。條目至今掛著一則 UniProt 的 `Caution`：`The sequence shown here is derived from an EMBL/GenBank/DDBJ whole genome shotgun (WGS) entry which is preliminary data` [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。
+- **`novel` 的比對範圍只涵蓋 UniProtKB 的一小部分。** 公告原句限定在 `manually reviewed proteins`，即 575,748 筆已審閱條目，而全庫另有 149,430,635 筆未審閱條目；同家族名稱底下有 929 筆，50% 相同度層級有 6 筆。公告沒有宣稱「全庫無相似序列」，但標題與摘要用的是不帶限定的 `novel` [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。
+- **圖說裡被換掉的那個 2。** 公告的第一張圖說為 `Overview of the ProtNLM pipeline translating raw amino acid sequences into natural-language biological annotations for unreviewed UniProtKB/TrEMBL entries. The functional annotation scope of the system covers protein names, function comments, subcellular locations, and GO terms, in addition to keywords.` 把它與 UniProt 說明頁對照，這段文字是該頁兩張圖的圖說接起來的：第一句逐字相同；第二句在 UniProt 頁上原文為 `The functional annotation scope of **ProtNLM2**, covering...`，公告把 `ProtNLM2` 換成了 `the system`。結果是，公告用來描述「ProtNLM 管線」能力範圍的那句話，在 UniProt 的原始語境裡描述的是另一個版本 —— 而那個版本的輸出並沒有被整合進本則候選分子所在的條目 [(ref: protnlm)](https://www.uniprot.org/help/ProtNLM)。
+- **基因體鄰域未經獨立核對。** 「距離一個 ABC transporter permease 僅 6 個鹼基對」等排列僅記為公告宣稱 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **「發現」一詞涵蓋的實際工作。** 這條序列在公開資料庫裡已存在十年又八個月（由本文代為計算），公告描述的工作是在既有條目上做檢索、結構比對與文獻整理。公告用 `uncover`、`discovery`、`previously uncharacterized` 這組詞描述這段過程；讀者若不回查條目，容易把它讀成一個分子被發現 [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry) [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
+- **事件本身沒有第三方聲明可比對。** 公告與其所連結的 Antigravity 產品頁同屬 Google。來自公告以外的核對來源是 UniProt consortium 維運的條目頁與說明頁，而它們能核對的是候選分子的欄位與 ProtNLM 的機制，不是示範的流程效率 [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。
 
 ## 本書庫解讀（評論）
 
 以下為本書庫的判讀，不是來源結論。
+
+- **這篇文章的定位是產品示範，不是研究成果。** 公告沒有宣稱任何已驗證的抗菌活性，也沒有宣稱任何核准；它的結論句是候選已進入 wet-lab validation。把它當成代理式平台在生命科學工作流程上的能力示範來讀是恰當的；把它當成一個抗菌胜肽被發現來讀則超出了公告自己的主張。
+
+- **示範真正成立的是：這條檢索路徑在一個環境裡接得起來。** 篩選、序列比對、結構比對、基因體鄰域、文獻整理，過去分散在不同網站與本機工具之間，本則把它們收攏在同一次會話裡，並以內建的結構檢視器承接其中的 3D 檢視步驟。這是工具鏈整合的成果，對照的是「研究者要開幾個分頁、換幾套介面」，而不是「發現了什麼」。
 
 - **整條鏈上只有一步來自 Google 以外。** 候選的名稱來自 ProtNLM（Google DeepMind 開發），結構取自 AlphaFold Protein Structure Database（DeepMind 與 EMBL-EBI 共同維運），執行環境是 Antigravity（Google）。唯一完全外部的步驟是透過 EMBL-EBI 的 NCBI-BLAST 服務對 Swiss-Prot 做序列比對。公告寫「structural evidence corroborates ProtNLM's prediction」是誠實的描述，但讀者需要知道：被佐證的那個預測與做佐證的那個結構預測，出自同一個組織的兩個模型。這不使結論無效，它只是把「獨立佐證」的強度降了一級，而公告沒有把這一級標出來。
 
@@ -158,17 +185,17 @@ UniProt 在同一頁也寫著：`machine learning AI models do make errors. We i
 
 - **醫療橋接（二）：相對加速宣稱在臨床工作流程上同樣無法落地。** 「把判讀時間縮短」「把報告產出從數小時縮為數分鐘」是取像端與報告端廠商最常見的宣稱句型，與本則三處說法同構。科室要據此排班、估人力或計算投資回收，需要的是改造前後在相同病例組成下的實測週轉時間、樣本數與量測方式。本則示範了這類宣稱在缺少絕對值時可以同時存在三個版本而彼此不衝突 —— 因為三者都無法被否證。
 
-- **這篇文章本身的定位是產品示範，不是研究成果。** 公告沒有宣稱任何已驗證的抗菌活性，也沒有宣稱任何核准；它的結論句是候選已進入 wet-lab validation。把它當成產品能力的示範來讀是恰當的；把它當成一個抗菌胜肽被發現來讀則超出了公告自己的主張。
-
-## 產業／生態影響
+## 產業影響
 
 - **代理式平台正在把生命科學資料庫當成一級介面。** 產品頁宣稱 Antigravity 可對 `more than 30 major life-science databases` 立即上手，包括 `1PB AlphaGenome Atlas`、UniProt、PubChem 與 ChEMBL，並提供可安裝的 Science 外掛 [(ref: antigravity)](https://antigravity.google/use-cases/science)。這意味著資料庫的欄位品質與出處標示，會直接決定代理式工作流程的輸出品質 —— 而不是只影響人工查詢。
 
+- **抗菌胜肽探索是這類整合最容易見效的題型之一。** 候選的篩選高度依賴跨庫檢索、序列與結構比對、以及基因體脈絡的判讀，而這些資料全部公開可得；本則示範把這幾步接在同一個環境裡走完，並以一份實驗計畫作為交付物。對資源有限的抗藥性研究團隊而言，前段篩選的門檻會因此下降，真正的瓶頸則移到後段的合成與濕式驗證。
+
 - **免費方案的規模值得記錄。** 產品頁寫明將提供 `10,000 scientists` 最高用量級別與 Gemini 4 Argon 模型，免費 [(ref: antigravity)](https://antigravity.google/use-cases/science)。若實際落地，短期內會有相當數量的候選分子與分析流程以同一套工具產生；這對後續的重複性評估既是機會也是風險。
 
-- **模型標註回灌資料庫的循環已經成形。** ProtNLM 以 UniProtKB 的快照訓練，再把預測名稱寫回 UniProtKB 的未審閱部分，目前涵蓋約 1,299 萬筆。UniProt 以 `Evidencer` 這類佐證機制與明確的出處標籤在控制這個循環，而這套機制目前只套用在未整合進條目的 ProtNLM2 預測上。這個治理設計對所有要把模型輸出寫回公共資料資產的領域（包括醫學影像的公開標註集）都有參考價值。
+- **模型標註回灌資料庫的循環已經成形。** ProtNLM 以 UniProtKB 的快照訓練，再把預測名稱寫回 UniProtKB 的未審閱部分，目前涵蓋 12,993,526 筆。UniProt 以 `Evidencer` 這類佐證機制與明確的出處標籤在控制這個循環，而這套機制目前只套用在未整合進條目的 ProtNLM2 預測上 [(ref: protnlm)](https://www.uniprot.org/help/ProtNLM)。這個治理設計對所有要把模型輸出寫回公共資料資產的領域（包括醫學影像的公開標註集）都有參考價值。
 
-- **產品頁的語彙邊界很清楚。** 該頁逐詞計數中 `clinical`、`patient`、`medical`、`diagnos`、`regulat`、`FDA` 命中皆為 0 [(ref: antigravity)](https://antigravity.google/use-cases/science)。亦即 Google 在這條產品線上把定位放在研究工作流程，而非臨床或受監管用途。閱讀時不宜把它往臨床方向外推。
+- **產品線的語彙邊界畫在臨床之前。** 產品頁的 `clinical`、`patient`、`medical`、`diagnos`、`regulat`、`FDA` 命中皆為 0 [(ref: antigravity)](https://antigravity.google/use-cases/science)。亦即 Google 把這條產品線定位在研究工作流程，而非臨床或受監管用途；閱讀時不宜把它往臨床方向外推。
 
 ## 與書庫其他文章的關係
 
@@ -194,6 +221,8 @@ UniProt 在同一頁也寫著：`machine learning AI models do make errors. We i
 
 - **區分「模型提出的假說」與「已量測的結果」，並讓這個區分進到文件裡。** 本則所有生物學結論都是預測：功能來自語言模型、結構來自結構預測、機制與活性譜來自文獻推論。公告自己標示得很清楚，但這些詞在轉述時最容易脫落。內部整理時建議固定分欄登記 —— 預測、佐證方式、是否有濕式實驗結果。
 
+- **把跨庫檢索流程寫成可複查的步驟表，再評估要不要換工具。** 本則示範的六個步驟（篩選、序列比對、結構比對、基因體鄰域、文獻整理、實驗計畫）在多數分子探索專案裡都存在，只是分散在不同介面上。先把現行流程逐步寫下來、標出每一步用的資料庫與產出物，才有辦法判斷代理式平台省掉的是哪幾步的切換成本，以及哪幾步仍然需要人工判讀。
+
 - **若團隊計畫把模型輸出寫回內部的共用資料資產，先設計出處標籤與佐證門檻。** UniProt 的組合值得參考：可查詢的證據標籤、明確的模型分數門檻（ProtNLM 名稱為 0.2、ProtNLM2 為 0.05）、以及一套在顯示前要求外部佐證的後處理流程，而未達佐證條件者不顯示。醫療影像的內部標註庫若要納入模型預測，同一組機制可以直接對應。
 
 ## 後續追蹤
@@ -202,6 +231,7 @@ UniProt 在同一頁也寫著：`machine learning AI models do make errors. We i
 - 這條管線是否產出同儕審查論文或預印本。目前公告正文沒有任何指向論文、資料或程式碼的連結 [(ref: pr)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。
 - UniProt 條目 `A0A0U0D591` 的狀態是否因後續實驗而改變 —— 特別是 Protein existence 是否自 `4: Predicted` 升級，以及名稱的證據標籤是否自 `Google:ProtNLM` 改為人工審閱 [(ref: uniprot)](https://www.uniprot.org/uniprotkb/A0A0U0D591/entry)。
 - ProtNLM2 的 `Evidencer` 是否擴大適用、或其預測是否開始整合進條目本身。目前試行版約 26,000 筆、平行儲存且不整合 [(ref: protnlm)](https://www.uniprot.org/help/ProtNLM)。
+- `Biomolecular Structure Viewer` 與 Science 外掛所接的三十多個生命科學資料庫，實際可用清單與各庫的查詢深度 [(ref: antigravity)](https://antigravity.google/use-cases/science)。
 - Antigravity 的科學工作流程是否出現任何帶絕對數值的效能報告 —— 例如同一項任務在導入前後的實測時間與人數。三個官方位置目前皆無 [(ref: antigravity)](https://antigravity.google/use-cases/science)。
 - 面向 10,000 名科學家的免費方案實際開放規模與條件，以及是否出現第三方對同一管線的重現嘗試 [(ref: antigravity)](https://antigravity.google/use-cases/science)。
 
