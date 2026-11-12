@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 2
+nav_order: 3
 title: "蛋白質設計 85.1% 是 Mythos 的分數，生科研究者要申請"
 category: industry-watch
 date: 2026-11-10
