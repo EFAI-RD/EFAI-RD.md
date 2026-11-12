@@ -29,6 +29,8 @@ related_articles:
     relation: "本則的三種加速說法分屬三個官方位置、沒有一個附得出絕對數值，該則的「數月變數小時」與「數週變數小時」是同一種寫法，差別在該則連被加速的工作是哪一項都沒有指明"
   - path: "2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md"
     relation: "同一產品線相隔十九天的下一篇科學示範，主題自蛋白質換到小分子，而本則記錄的那個缺口在該則只是換了位置：本則的 in hours 只出現在網頁中繼資料與產品頁、正文一次都沒量過時間，該則把「一小時」正式寫進了正文，但量測方式、樣本數與被壓縮的基準流程定義仍然三項皆無。兩則並讀可以看出同一種加速宣稱如何在版本之間變得更醒目而非更可查"
+  - path: "2026-11-12-deepmind-alphagenome-2-cell-type-variants.md"
+    relation: "本則文中被當成 Antigravity 可接的三十多個生命科學資料庫之一、只佔一行的 AlphaGenome Atlas，在該則成了被發布的主體；而兩則的可核對程度正好相反——本則全文沒有任何一個效能量測，該則有四個百分比，但四個全部來自同一個免疫細胞資料集"
 refs:
   pr:
     title: "Google DeepMind：Accelerating the search for antimicrobial peptides with Google Antigravity（官方部落格，2026-10-15）"
@@ -179,6 +181,8 @@ UniProt 在同一頁也寫著：`machine learning AI models do make errors. We i
 本則的三種加速說法分屬三個官方位置、沒有一個附得出絕對數值；該則的「數月變數小時」與「數週變數小時」是同一種寫法，差別在該則連被加速的工作是哪一項都沒有指明。兩則並讀可以看出相對倍數在缺少分母時，不論出現在效益側或成本側都同樣無法使用: [Anthropic 說 20 個夥伴，名單逐條數出來是 18 個](2026-10-30-anthropic-ai-for-science-foundations-expansion.md)
 
 同一產品線相隔十九天的下一篇科學示範，主題自蛋白質換到小分子，而本則記錄的那個缺口在該則只是換了位置：本則的 in hours 只出現在網頁中繼資料與產品頁、正文一次都沒量過時間，該則把「一小時」正式寫進了正文，但量測方式、樣本數與被壓縮的基準流程定義仍然三項皆無。兩則並讀可以看出同一種加速宣稱如何在版本之間變得更醒目而非更可查: [DeepMind 藥物設計示範：答案在代理程式動手前就寫好了](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
+
+本則文中被當成 Antigravity 可接的三十多個生命科學資料庫之一、只佔一行的 AlphaGenome Atlas，在該則成了被發布的主體；而兩則的可核對程度正好相反——本則全文沒有任何一個效能量測，該則有四個百分比，但四個全部來自同一個免疫細胞資料集: [AlphaGenome 2 的近兩倍，只出自一個免疫細胞資料集](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
 
 ## 實務的啟發
 

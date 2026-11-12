@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 1
+nav_order: 2
 title: "GE 談臨床轉譯的神經影像聯盟，註腳寫未獲法規許可"
 category: industry-watch
 date: 2026-11-11

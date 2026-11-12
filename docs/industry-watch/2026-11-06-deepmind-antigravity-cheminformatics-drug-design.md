@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 5
+nav_exclude: true
 title: "DeepMind 藥物設計示範：答案在代理程式動手前就寫好了"
 category: industry-watch
 date: 2026-11-06
@@ -25,6 +25,8 @@ related_articles:
     relation: "兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查程度差一整級 —— 該則的爭點在於一個倍數出自單一個孔、成功標準事後才定，至少有孔數與成功標準可供爭論；本則連一個代理程式端的數值都沒有產生，無從爭起"
   - path: "2026-11-05-google-health-ai-evaluation-framework.md"
     relation: "同一家公司相隔一天的兩則發布恰好構成對照 —— 該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，本則的示範正是那套框架所指的第一種評估的反面：模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值"
+  - path: "2026-11-12-deepmind-alphagenome-2-cell-type-variants.md"
+    relation: "同一家公司相隔六天的兩則科學發布，唯一的案例研究都是一個在示範開始前就已經公開發表的答案：本則的 crizotinib→lorlatinib 被公告自己標為 well-known case，該則的 IBD／ETS2 結論出自 2024-06-05 的 Nature 論文、早於 AlphaGenome 初版上線十二個月"
 refs:
   pr:
     title: "Google DeepMind：Agentic cheminformatics with Google Antigravity（官方部落格，2026-11-03）"
@@ -163,6 +165,8 @@ Google DeepMind 在 2026-11-03 發布一篇技術示範：研究者在 Antigravi
 兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查程度差一整級：該則的爭點在於一個倍數出自單一個孔、成功標準是事後才定的，至少有孔數與成功標準可供爭論；本則在代理程式那一側沒有產生任何數值，連可以爭論的對象都不存在。把兩則並讀可以看出「廠商自報」也分成可被挑錯與無從挑起兩種: [「結塊慢 100 倍」出自單一個孔，成功標準是事後才定的](2026-10-28-anthropic-drug-development-case-studies.md)
 
 同一家公司相隔一天的兩則發布恰好構成對照：該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，並把量化門檻留給各團隊自訂；本則的示範則是那套框架所指的第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [Google 公開健康 AI 評估框架，及格線留給各家自己訂](2026-11-05-google-health-ai-evaluation-framework.md)
+
+同一家公司相隔六天的兩則科學發布，唯一的案例研究都是一個在示範開始前就已經公開發表的答案：本則的 crizotinib→lorlatinib 被公告自己標為 well-known case，該則的 IBD／ETS2 結論出自 2024-06-05 的 Nature 論文、早於 AlphaGenome 初版上線十二個月: [AlphaGenome 2 的近兩倍，只出自一個免疫細胞資料集](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
 
 ## 實務的啟發
 
