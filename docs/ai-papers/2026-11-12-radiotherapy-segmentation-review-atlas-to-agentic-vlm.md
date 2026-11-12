@@ -144,6 +144,7 @@ DbC 的作者把 SegVol、SAT 與 VoxTell 這幾個本篇整理的文字提示�
 VoxelSage 是「LLM 呼叫專門工具」的一個實作，把肝腫瘤量測交給程式執行；本篇 §7 構想的 agentic 勾畫系統採同樣的控制器加工具架構，並列出檢索錯誤、理由不實與錯誤串接等失效模式: [VoxelSage：肝腫瘤量測交給程式，成效數字來自二維模擬器](2026-10-06-voxelsage-liver-ct-tool-agent.md)
 
 GE HealthCare 與 Mass General Brigham 的公告要在放療工作流程軟體上探索以自然語言彙整病歷、影像與治療計畫的工具，但生成式 AI 部分沒有任何成效數字；本篇從研究面提出放療 agent 應如何評估，包括中間步驟正確性與失效時是否交回醫師: [放療生成式 AI 合作案：唯一的成效數字來自合作之前](../industry-watch/2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
+本篇把 counterfactual prompt 與 language ablation 列為提示遵循測試的提案，文字引導分割的稽核則在大腸鏡、乳房超音波與胸片三個公開基準上實際執行這兩類測試，顯示多數文字增益來自從遮罩算出或由標註者寫下的病灶範圍詞: [文字引導分割的增益：只留病灶範圍詞就拿回 84–98%](2026-11-12-extent-leakage-text-guided-segmentation.md)
 
 ## 實務的啟發
 
