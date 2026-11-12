@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 3
+nav_order: 5
 title: "MedChain-R1：換上別題的推理，定位 mIoU 掉 12 點"
 catalog_id: "arxiv:2611.00041"
 editors:
