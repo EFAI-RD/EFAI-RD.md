@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 3
+nav_order: 4
 title: "DbC：先認徵象再組肝病診斷，未見疾病定位六勝、AP 三輸"
 catalog_id: "arxiv:2611.05231"
 editors:
@@ -199,6 +199,8 @@ evidence_reviewed: true
 兩篇都把放射指引寫成可執行的明確規則、讓模型只負責判斷個別條件：GDGraph 由 LLM 把指引編成決策圖、在文字病例上逐節點問答，DbC 則由放射科醫師把指引寫成徵象組合、由影像模型逐 token 畫出各徵象再以 soft minimum 組成診斷圖: [放射指引編成決策圖再逐節點作答：Jev 從 57.3% 到 90.8%](2026-11-02-gdgraph-radiology-guideline-decision-graph.md)
 
 兩篇都在 3D CT 上用 LLM 整理報告、再把影像特徵與文字編碼對齊：MedHiVE 以 Qwen3-30B 把報告拆成器官片段、只在預訓練做整卷與器官層級的對比學習，DbC 則以 Qwen3-Max 從報告抽出病灶的徵象、配合病灶遮罩逐 token 監督 40 個徵象，並以留一疾病檢驗零樣本診斷: [MedHiVE：報告只進預訓練，有對齊的器官多 2.7、其餘只多 0.7](2026-11-11-medhive-hierarchical-moe-3d-ct-vlm.md)
+
+本篇把 SegVol、SAT 與 VoxTell 這幾個文字提示分割模型當成基線，在肝臟 CT 上微調後比較；該綜述則從放療角度整理同一批模型，指出它們理解臨床概念（如外擴邊界）的限制，兩篇並讀可看到同一批模型在診斷與放療兩種用途上的評估: [放療勾畫綜述：VLM 對 nnU-Net 勝負未定，論點改押 CTV](2026-11-12-radiotherapy-segmentation-review-atlas-to-agentic-vlm.md)
 
 ## 實務的啟發
 
