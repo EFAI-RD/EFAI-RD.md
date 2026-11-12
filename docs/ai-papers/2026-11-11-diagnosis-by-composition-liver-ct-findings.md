@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "DbC：先認徵象再組肝病診斷，未見疾病定位六勝、AP 三輸"
 catalog_id: "arxiv:2611.05231"
 editors:

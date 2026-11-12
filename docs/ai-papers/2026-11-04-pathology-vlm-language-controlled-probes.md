@@ -168,6 +168,7 @@ REG 2025 從報告生成端指出病理 VLM 的榜單分數抓不到數值幻覺
 ModaLens 在胸片加報告的情境下交換影像來量測醫療 VLM 是否仍看影像，本篇把同一類「拿掉或換掉影像」的對照搬到病理全切片問答，並加上選項位移、NOTA 與改寫三種格式對照: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎](2026-09-17-modalens-image-sensitivity.md)
 
 MedVTok 以 VQA 準確率比較不同視覺 tokenizer、差距約 1 個百分點，本篇則顯示切片層級 VQA 拿掉切片後答對率幾乎不變，兩篇合讀提醒 VQA 分數差距未必全部來自影像表徵: [MedVTok：影像任務平均領先，接上 LLM 的 VQA 只多 1.1 分](2026-11-05-medvtok-unified-medical-visual-tokenizer.md)
+本篇以拿掉或換掉切片檢驗病理 VLM 是否用到影像，文字引導分割的稽核則逐項刪改文字提示，發現分割增益主要來自 caption 裡洩漏的病灶範圍，兩篇從影像與文字兩端檢驗多模態增益的來源: [文字引導分割的增益：只留病灶範圍詞就拿回 84–98%](2026-11-12-extent-leakage-text-guided-segmentation.md)
 
 ## 實務的啟發
 
