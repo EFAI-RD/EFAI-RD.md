@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "Siemens 當天停售四款超音波，公告標題寫的是「聚焦」"
+title: "Siemens 退出一般影像超音波，四款機型當日停售"
 category: industry-watch
 date: 2026-10-14
 updated: 2026-10-14
@@ -41,14 +41,14 @@ refs:
   origin:
     title: "Siemens Healthineers：ACUSON Origin Cardiovascular Ultrasound System（官方產品頁）"
     url: "https://www.siemens-healthineers.com/ultrasound/cardiovascular/acuson-origin"
-status: published
-skill_version: "write-industry-watch@3.0"
-evidence_reviewed: true
+status: draft
+skill_version: "write-industry-watch@3.1"
+evidence_reviewed: false
 ---
 
 [Home](../) · [Industry Watch](./)
 
-# Siemens 當天停售四款超音波，公告標題寫的是「聚焦」
+# Siemens 退出一般影像超音波，四款機型當日停售
 
 ## 來源
 

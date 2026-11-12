@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌"
+title: "GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利"
 category: industry-watch
 date: 2026-10-13
 updated: 2026-10-13
@@ -42,14 +42,14 @@ refs:
   sofiepro:
     title: "SOFIE Biosciences：First Patient Dosed in [18F]FAPI-74 Phase 3 Study for Pancreatic Cancer（官方公告，2026-02-11）"
     url: "https://sofie.com/2026/02/11/sofie-biosciences-announces-first-patient-dosed-in-18ffapi-74-phase-3-study-for-pancreatic-cancer/"
-status: published
-skill_version: "write-industry-watch@3.0"
-evidence_reviewed: true
+status: draft
+skill_version: "write-industry-watch@3.1"
+evidence_reviewed: false
 ---
 
 [Home](../) · [Industry Watch](./)
 
-# GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌
+# GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利
 
 ## 來源
 
