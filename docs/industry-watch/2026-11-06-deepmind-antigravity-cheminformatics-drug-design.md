@@ -1,17 +1,17 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "DeepMind 藥物設計示範：答案在代理程式動手前就寫好了"
+title: "DeepMind 化學資訊學 Skills：代理程式跑完一輪藥物設計"
 category: industry-watch
 date: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-12
 tags: [Google-DeepMind, Google-Antigravity, cheminformatics, drug-discovery, RDKit, ChEMBL, PubChem, matched-molecular-pair, macrocycle, crizotinib, lorlatinib, scaffold-split, agentic-workflow, retrospective-validation]
 catalog_id: "google-deepmind:antigravity-cheminformatics-walkthrough-2026-11-03"
 editors:
   - "Clarence"
 status: published
 evidence_reviewed: true
-skill_version: "write-industry-watch@3.0"
+skill_version: "write-industry-watch@3.1"
 source:
   orgs:
     - "Google DeepMind"
@@ -22,11 +22,11 @@ related_articles:
   - path: "2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md"
     relation: "同一產品線相隔十九天的第二篇科學示範，而兩則的證據缺口換了位置沒有補上 —— 該則的加速宣稱只寫在網頁中繼資料裡、正文沒量過時間，本則把「一小時」寫進了正文第二段，量測方式、樣本數與基準流程仍然三項皆無"
   - path: "2026-10-28-anthropic-drug-development-case-studies.md"
-    relation: "兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查程度差一整級 —— 該則的爭點在於一個倍數出自單一個孔、成功標準事後才定，至少有孔數與成功標準可供爭論；本則連一個代理程式端的數值都沒有產生，無從爭起"
+    relation: "兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查的深度不同：該則同日釋出六份技術報告，公告裡的數字能逐項對照回原始報告；本則以工作流程示範為主，代理程式側未公布模型指標。兩則並讀可以看出「廠商自報」在證據密度上的落差"
   - path: "2026-11-05-google-health-ai-evaluation-framework.md"
     relation: "同一家公司相隔一天的兩則發布恰好構成對照 —— 該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，本則的示範正是那套框架所指的第一種評估的反面：模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值"
   - path: "2026-11-12-deepmind-alphagenome-2-cell-type-variants.md"
-    relation: "同一家公司相隔六天的兩則科學發布，唯一的案例研究都是一個在示範開始前就已經公開發表的答案：本則的 crizotinib→lorlatinib 被公告自己標為 well-known case，該則的 IBD／ETS2 結論出自 2024-06-05 的 Nature 論文、早於 AlphaGenome 初版上線十二個月"
+    relation: "該則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與本則是同一條路線的兩端：本則示範的是代理式平台怎麼串起既有的化學工具，該則是即將被串進去的專用科學模型本身"
 refs:
   pr:
     title: "Google DeepMind：Agentic cheminformatics with Google Antigravity（官方部落格，2026-11-03）"
@@ -47,7 +47,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# DeepMind 藥物設計示範：答案在代理程式動手前就寫好了
+# DeepMind 化學資訊學 Skills：代理程式跑完一輪藥物設計
 
 ## 來源
 
@@ -60,9 +60,7 @@ refs:
 
 **編輯：** Clarence
 
-Google DeepMind 在 2026-11-03 發布一篇技術示範：研究者在 Antigravity（該公司的代理式開發環境）裡安裝新的 `Cheminformatics Skills`，由代理程式從文獻中抽取化合物、做 matched molecular pair analysis（MMPA，配對分子分析）、訓練活性預測模型，最後提出新的剛性化巨環（macrocycle）分子與合成路線。公告摘要句寫的是，這整段工作 `in just an hour` 完成，而同樣的流程 `typically takes multiple days for a single iteration` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
-
-這篇文章值得記錄的不是它宣稱了什麼，而是它的示範結構：被拿來驗證代理程式的那個化學問題，答案在代理程式開始工作之前就已經寫在同一篇文章裡，而且被作者標示為 `well-known`。
+Google DeepMind 在 2026-11-03 發表 Antigravity 的 `Cheminformatics Skills`，並以一篇技術示範說明它怎麼運作：在這個代理式開發環境裡，代理程式以 RDKit 為計算基礎、接上 ChEMBL 與 PubChem 的資料連線，從文獻中檢索並整理化合物、做 matched molecular pair analysis（MMPA，配對分子分析）、訓練活性預測模型，最後提出新的剛性化巨環（macrocycle）設計與合成路線，產出可匯出至業界標準化學軟體 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。示範選的題材是非小細胞肺癌用藥的剛性化，公告摘要寫這整段工作 `in just an hour` 完成，而同樣的流程 `typically takes multiple days for a single iteration`。對藥物設計與研究工作流程而言，本則的實質有兩層：一組把既有化學資訊學工具接進代理式環境的 Skills，以及一條被完整走過一遍、每個步驟都有具名工具對應的迭代路徑。代理程式那一側沒有公布任何數值，相關的限制與落差整理於〈證據邊界（事實）〉一節。
 
 ## 背景
 
@@ -79,50 +77,64 @@ Google DeepMind 在 2026-11-03 發布一篇技術示範：研究者在 Antigravi
 
 公告選的技術叫 rigidification（剛性化）。依公告的說明：藥物分子常以可旋轉鍵（rotatable bond）連接多個次結構，使分子在溶液中呈現多種構形；要與標靶結合時必須鎖定成單一活性構形，失去的運動自由度會付出熵的代價，削弱結合親和力。醫藥化學家因此加入新的鍵把次結構綁在一起，公告稱之為 `paying the entropic cost in advance` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
 
-公告接著寫明：`Here, we will focus on a well-known case of successful rigidification.` 這個案例是 crizotinib 與 lorlatinib —— 依公告敘述，前者是用於某些非小細胞肺癌（non-small cell lung carcinoma, NSCLC）的第一代小分子酪胺酸激酶抑制劑（tyrosine kinase inhibitor, TKI），後者是第三代 TKI，結構相似但在末端環化，把有效的可旋轉鍵數降為零，因而有較高效價 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
-
-也就是說，在代理程式被要求去搜尋文獻、做 MMPA、訓練模型之前，公告已經先用兩段文字告訴讀者：環化會降低可旋轉鍵數並提高效價，而且這在這個分子對上是已知的成功案例。後面代理程式做出來的 MMPA 結論與此一致 —— 公告對該結論的用詞是 `as expected` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+示範用的分子對是 crizotinib 與 lorlatinib —— 依公告敘述，前者是用於某些非小細胞肺癌（non-small cell lung carcinoma, NSCLC）的第一代小分子酪胺酸激酶抑制劑（tyrosine kinase inhibitor, TKI），後者是第三代 TKI，結構相似但在末端環化，把有效的可旋轉鍵數降為零，因而有較高效價 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。這組分子同時提供了示範的化學主題與可供 MMPA 取用的文獻資料範圍。
 
 本則**沒有配圖**。公告頁內的截圖、互動式檢視器畫面與影片為 Google 自有素材，不在此重製。
 
-## 事實（可核對）
+## Cheminformatics Skills 做了什麼
 
-以下區分**公告宣稱**、**公告正文的語彙邊界**，以及**回查 PubChem 官方計算屬性所得**。
+- **計算基礎是 RDKit，資料面接的是 ChEMBL 與 PubChem。** 公告的原文是 `Grounded in RDKit, the foundational open source cheminformatics toolkit developed over two decades by a global community of contributors, alongside connectors to curated resources from ChEMBL and PubChem, the skills encode domain best practices directly into the agent's workflow.` 也就是說，Skills 本身不是新的化學演算法，而是把既有的開源工具鏈與兩個公共化學資料庫，連同領域慣例一起封裝進代理程式的工作流程 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **語言模型與確定性工具的分工被明確寫出。** 語言模型負責流程編排、資料庫導航與科學推理，分子計算交給確定性的化學工具執行 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。對讀者而言，這決定了哪些步驟的結果可以重跑驗證、哪些步驟取決於模型當下的判斷。
+- **下游接口留在業界既有軟體。** 代理程式的設計產出可匯出至業界標準化學軟體，或接 AlphaFold 與分子動力學模擬做後續分析 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。這條路徑意味著 Skills 的定位是迭代前段的加速器，而不是取代既有的結構與模擬工具。
 
-### 公告自報的內容
+## 示範的工作流程
 
-- **摘要宣稱** — `Using real-world lung cancer treatments, an agent searches through thousands of compounds, performs matched molecular pair analysis, and proposes novel rigidified macrocycles with synthetic routes in just an hour.` 同段開頭寫既有流程 `typically takes multiple days for a single iteration`；文末再寫一次 `Not long ago, the workflow demonstrated here would have taken multiple days and required significant computational expertise` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
-- **技術基礎** — 公告寫 `Grounded in RDKit, the foundational open source cheminformatics toolkit developed over two decades by a global community of contributors, alongside connectors to curated resources from ChEMBL and PubChem, the skills encode domain best practices directly into the agent's workflow.` 分工方式為語言模型負責流程編排、資料庫導航與科學推理，確定性的化學工具負責分子計算 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
-- **檢索與整理** — 圖說寫 `Within minutes, the agent retrieves thousands of compounds, filters out irrelevant molecules (such as buffers and solvents), and documents their sources in a report.`，報告中並指出取得的巨環多數被預測可穿透腦部，公告說明這對易轉移至腦部的目標肺癌是重要性質。化合物數目只寫 `thousands`，未給確切數 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
-- **MMPA 結論** — `The results of the analysis show that cyclization reduces the number of rotatable bonds while generally increasing potency, as expected.` 公告並寫 `The agent had also independently suggested this analysis, as we expect the dataset to include many informative pairs.` 亦即該分析是作者預期會有收穫、而代理程式也提出的同一項 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
-- **模型與驗證** — `The agent also built a large number of potency models using varying feature sets and model architectures, and validated them on a held-out set.` 模型數只寫 `a large number`，held-out set 的規模、切分方式與任何一個評估數值皆未出現 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
-- **切分方式的兩種說法** — 正文說代理程式在有時序資訊時「常」採 chronological split（以較舊化合物訓練、預測較新者），必要時改用 scaffold split；而實際示範的圖說寫的是 `across four different experimental read outs, using a scaffold split to better gauge out-of-distribution performance`。公告未說明這次為何落在後者 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
-- **設計產出** — 代理程式提出新的巨環設計、醫藥化學理由與合成路線，並以前一輪訓練的模型預測各設計的效價；產出可匯出至業界標準化學軟體，或接 AlphaFold 與分子動力學模擬做後續分析。沒有任何一項設計的預測值被寫出來 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
-- **公告自陳的限制** — `Sparse data, inter-lab assay noise, and narrow dynamic ranges limit the predictive precision of even the most powerful models; computational designs are testable hypotheses, not finished drugs.` 以及 `every proposed design must be synthesized and validated experimentally` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
-- **免費方案** — `we're offering 10,000 scientists the highest usage tier in Google Antigravity free of charge for 6 months (onboarded on a rolling basis), subject to eligibility, capacity, and selection` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。同一方案在產品頁上的寫法是 `We're giving 10,000 scientists our highest usage tier in Google Antigravity and our most advanced Gemini 4 Argon model, free of charge.` —— 人數相同，但產品頁全頁沒有出現 `6 months`，也沒有出現任何期限 [(ref: antigravity)](https://antigravity.google/use-cases/science?hl=en)。
+公告把一輪藥物設計迭代拆成四個可辨識的階段，每一段都有對應的引述 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)：
 
-### 公告正文沒有包含什麼
+| 階段 | 公告描述 | 產出物 |
+|---|---|---|
+| 檢索與整理 | `Within minutes, the agent retrieves thousands of compounds, filters out irrelevant molecules (such as buffers and solvents), and documents their sources in a report.` | 一份帶出處的化合物報告 |
+| 配對分子分析（MMPA） | `The results of the analysis show that cyclization reduces the number of rotatable bonds while generally increasing potency, as expected.` | 環化與效價的趨勢結論 |
+| 活性預測建模 | `The agent also built a large number of potency models using varying feature sets and model architectures, and validated them on a held-out set.` | 多組效價模型 |
+| 設計與路線 | 代理程式提出新的巨環設計、醫藥化學理由與合成路線，並以前一輪訓練的模型預測各設計的效價 | 新分子設計與合成路線 |
 
-把公告正文（`<main>` 區塊）逐詞掃過，下列詞彙的命中數為零：`%`、`accuracy`、`AUC`、`RMSE`、`metric`、`peer`、`arXiv`、`DOI`、`preprint`、`code`、`github`、`clinical`、`patient`、`trial`、`FDA`、`regulat`。該區塊內的 `sup` 元素為 0 個，亦即全文沒有註腳 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+幾個與研究工作流程直接相關的細節：
 
-以阿拉伯數字寫出的量，全文只有四處：發布日期的 `3` 與 `2026`、關聯文章區塊的年份，以及免費方案的 `10,000` 與 `6`。亦即**整篇文章裡，沒有任何一個阿拉伯數字是在描述代理程式做出來的東西**。化學量值則以英文數詞寫出：`five`（crizotinib 的可旋轉鍵）、`zero`（lorlatinib）、`four different experimental read outs`（圖說）、RDKit 的 `two decades`、化學結構的 `millions` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **整理階段的過濾對象是實驗雜訊而非化學判斷。** 被濾掉的是 buffers 與 solvents 這類不屬於候選化合物的分子，而每個化合物的出處被寫進報告 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。出處欄位是後續人工覆核的入口。
+- **報告中指出取得的巨環多數被預測可穿透腦部。** 公告說明這對易轉移至腦部的目標肺癌是重要性質 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。這是整篇示範中唯一把分子性質連回臨床情境的段落。
+- **MMPA 這一步是代理程式自己提出的。** 公告寫 `The agent had also independently suggested this analysis, as we expect the dataset to include many informative pairs.` 亦即該分析是作者預期會有收穫、而代理程式也提出的同一項 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **建模的評估設定寫在圖說裡。** 圖說為 `The agent benchmarks multiple machine learning architectures with differing feature sets across four different experimental read outs, using a scaffold split to better gauge out-of-distribution performance.`，亦即跨四種實驗讀值、以 scaffold split 刻意把評估落在訓練時未見過的分子骨架上。正文另述代理程式在有時序資訊時「常」採 chronological split（以較舊化合物訓練、預測較新者），必要時改用 scaffold split [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
 
-`<main>` 內共 20 個連結、去重後 13 個：4 個為社群分享與郵件分享連結，其餘指向 Antigravity 產品頁、兩個 Wikipedia 條目（IUPAC 命名法、Markush structure）、RDKit 官網、ChEMBL、PubChem、一份 Google 表單（免費方案申請）與兩篇同站文章。**沒有任何連結指向論文、預印本、程式碼或資料集** [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+## 可外部核對的化學數值
 
-### 回查 PubChem 所得
-
-公告唯一的兩個化學量值可以逐項回查。PubChem 的 `Rotatable Bond Count` 是該資料庫公開的計算屬性（由 Cactvs 產生），不是實驗量測：
+公告的兩個化學量值可以逐項回查。PubChem 的 `Rotatable Bond Count` 是該資料庫公開的計算屬性（由 Cactvs 產生），不是實驗量測：
 
 | 項目 | 公告寫法 | PubChem 計算屬性 |
 |---|---|---|
 | crizotinib | `there are five major rotatable bonds` | CID `11626560`，`RotatableBondCount` = **5**，分子式 `C21H22Cl2FN5O` |
 | lorlatinib | `cyclized at its end to reduce the effective number of rotatable bonds to zero` | CID `71731823`，`RotatableBondCount` = **0**，分子式 `C21H19FN6O2` |
 
-兩項皆與公告一致 [(ref: pubchem_criz)](https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/crizotinib/property/MolecularFormula,RotatableBondCount,SMILES,IUPACName/JSON) [(ref: pubchem_lorl)](https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/lorlatinib/property/MolecularFormula,RotatableBondCount,SMILES,IUPACName/JSON)。
+兩項皆與公告一致 [(ref: pubchem_criz)](https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/crizotinib/property/MolecularFormula,RotatableBondCount,SMILES,IUPACName/JSON) [(ref: pubchem_lorl)](https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/lorlatinib/property/MolecularFormula,RotatableBondCount,SMILES,IUPACName/JSON)。公告對這組分子的化學描述站得住，而且核對所用的資料庫正是 `Cheminformatics Skills` 自述所連接的資源之一 —— 同一條資料路徑既支撐示範，也支撐外部查核。
 
-這張表要說的不是公告寫錯了，而是相反：**公告裡唯一能被外部逐項核對的兩個數字，描述的是兩個早已上市的分子，不是代理程式**。而且核對它們所用的資料庫，正是公告自述 `Cheminformatics Skills` 所連接的資源之一。
+## 取得方式與免費方案
 
-### 宣稱涵蓋到哪裡
+- **安裝路徑。** Science 外掛可自 Antigravity 應用程式內的 Customizations marketplace 一鍵安裝，產品頁並已列出 `Accelerating cheminformatics` 區塊 [(ref: antigravity)](https://antigravity.google/use-cases/science?hl=en)。
+- **免費方案。** 公告寫 `we're offering 10,000 scientists the highest usage tier in Google Antigravity free of charge for 6 months (onboarded on a rolling basis), subject to eligibility, capacity, and selection` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。這是公告中唯一一個同時帶人數與期限的條件，也是研究團隊實際評估導入時最先會用到的一條。
+
+## 證據邊界（事實）
+
+本則為單一組織來源，且公告的寫法限制了外部可核對的範圍。以下把散在各處的限制與落差集中列出，供引用時參考：
+
+- **示範案例的答案在代理程式動手之前就已寫在同一篇文章裡，並由公告自己標示為已知。** 公告原文為 `Here, we will focus on a well-known case of successful rigidification.`，而在代理程式被要求搜尋文獻、做 MMPA、訓練模型之前，公告已先用兩段文字說明環化會降低可旋轉鍵數並提高效價。後面代理程式做出來的 MMPA 結論與此一致，公告對該結論的用詞是 `as expected` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **代理程式那一側沒有任何數值被公布。** 化合物數只寫 `thousands`，未給確切數；模型數只寫 `a large number`；held-out set 的規模與切分方式未出現；評估數值一個都沒有（沒有 R²、沒有 RMSE、沒有排序相關係數，連「最好的模型比最差的好多少」都沒有）；代理程式提出的巨環設計，沒有任何一項的預測效價被寫出來 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **切分方式有兩種說法，未說明本次為何落在後者。** 正文說有時序資訊時「常」採 chronological split，實際示範的圖說寫的是 `using a scaffold split to better gauge out-of-distribution performance` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **「一小時 vs 數天」沒有量測方式，也沒有基準流程的定義。** 摘要句為 `...proposes novel rigidified macrocycles with synthetic routes in just an hour.`，同段開頭寫既有流程 `typically takes multiple days for a single iteration`；文末再寫一次 `Not long ago, the workflow demonstrated here would have taken multiple days and required significant computational expertise`。三項必要資訊（改造前後同一任務的實測時間、樣本數、量測方式）一項都沒有，被壓縮的「數天」指的是哪一種團隊與哪一條既有流程亦未定義 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **評估與外部驗證相關的詞彙在正文中零命中。** 把公告正文（`<main>` 區塊）逐詞掃過，下列詞彙的命中數為零：`%`、`accuracy`、`AUC`、`RMSE`、`metric`、`peer`、`arXiv`、`DOI`、`preprint`、`code`、`github`、`clinical`、`patient`、`trial`、`FDA`、`regulat`。該區塊內的 `sup` 元素為 0 個，亦即全文沒有註腳 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **以阿拉伯數字寫出的量，沒有一個在描述代理程式的產出。** 全文只有四處：發布日期的 `3` 與 `2026`、關聯文章區塊的年份，以及免費方案的 `10,000` 與 `6`。化學量值則以英文數詞寫出：`five`（crizotinib 的可旋轉鍵）、`zero`（lorlatinib）、`four different experimental read outs`（圖說）、RDKit 的 `two decades`、化學結構的 `millions` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **沒有任何連結指向論文、預印本、程式碼或資料集。** `<main>` 內共 20 個連結、去重後 13 個：4 個為社群分享與郵件分享連結，其餘指向 Antigravity 產品頁、兩個 Wikipedia 條目（IUPAC 命名法、Markush structure）、RDKit 官網、ChEMBL、PubChem、一份 Google 表單（免費方案申請）與兩篇同站文章 [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **同一免費方案在兩個官方位置的條件寫法不一致。** 公告寫 `free of charge for 6 months`、`onboarded on a rolling basis`、`subject to eligibility, capacity, and selection`；產品頁的寫法是 `We're giving 10,000 scientists our highest usage tier in Google Antigravity and our most advanced Gemini 4 Argon model, free of charge.` —— 人數相同，但產品頁全頁沒有出現 `6 months`，也沒有出現任何期限 [(ref: antigravity)](https://antigravity.google/use-cases/science?hl=en)。
+- **公告自陳的限制。** `Sparse data, inter-lab assay noise, and narrow dynamic ranges limit the predictive precision of even the most powerful models; computational designs are testable hypotheses, not finished drugs.` 以及 `every proposed design must be synthesized and validated experimentally` [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。
+- **事件本身沒有第三方聲明可比對。** 公告與其所連結的 Antigravity 產品頁同屬 Google。唯一來自公告以外的核對來源是 PubChem 的計算屬性，而它能核對的只有兩個早已上市分子的可旋轉鍵數 [(ref: pubchem_criz)](https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/crizotinib/property/MolecularFormula,RotatableBondCount,SMILES,IUPACName/JSON)。
 
 逐項核對後，公告的三類陳述可以分開：
 
@@ -134,11 +146,11 @@ Google DeepMind 在 2026-11-03 發布一篇技術示範：研究者在 Antigravi
 
 以下為本書庫的判讀，不是來源結論。
 
-- **這是一次回溯示範（retrospective demonstration），而公告的結構讓它不容易被看出來。** 示範的標準做法是先設問、再讓系統作答、最後與獨立的正確答案比對。本則的順序是：先用兩段文字說明 crizotinib 到 lorlatinib 的剛性化是 `well-known case`、方向是環化降低可旋轉鍵並提高效價，然後讓代理程式去同一批文獻裡做 MMPA，得到同方向的結論，並標為 `as expected`。公告沒有寫錯任何一句，但一個由公告自己標為 `well-known`、且在同一篇文章前段就已向讀者說明方向的結論，被代理程式重新導出時，能證明的是工具鏈接得通，不是它能發現新知識。
+- **這一輪迭代真正示範成立的，是工具鏈接得通。** 示範的標準做法是先設問、再讓系統作答、最後與獨立的正確答案比對。本則的順序是：先用兩段文字說明 crizotinib 到 lorlatinib 的剛性化是 `well-known case`、方向是環化降低可旋轉鍵並提高效價，然後讓代理程式去同一批文獻裡做 MMPA，得到同方向的結論，並標為 `as expected`。公告沒有寫錯任何一句，但一個在示範之前就已向讀者說明方向的結論被重新導出時，能支持的結論是流程可以跑通，不是系統能發現新知識。這是一次回溯示範（retrospective demonstration），而公告的結構讓它不容易被看出來。
 
-- **「一小時 vs 數天」缺的是基準流程的定義，而不只是數字。** 即使拿掉「沒有實測」這一點，這個比較仍然無法使用：被壓縮的「數天」是指一位計算化學家從零開始建管線，還是一個已有內部工具的團隊跑一次既有流程？「一小時」包含不包含安裝外掛、設定資料庫連線、以及人在旁邊審視與重下指令的時間？公告的兩處寫法（`typically takes multiple days for a single iteration`、`would have taken multiple days and required significant computational expertise`）都把主體寫得很寬，寬到任何一種讀法都成立。本書庫在同一產品線的前一則已記錄過同一種寫法出現在網頁中繼資料裡；本則把它移進了正文，但三項必要資訊（改造前後同一任務的實測時間、樣本數、量測方式）一項都沒有補上。
+- **「一小時 vs 數天」缺的是基準流程的定義，而不只是數字。** 即使拿掉「沒有實測」這一點，這個比較仍然無法使用：被壓縮的「數天」是指一位計算化學家從零開始建管線，還是一個已有內部工具的團隊跑一次既有流程？「一小時」包含不包含安裝外掛、設定資料庫連線、以及人在旁邊審視與重下指令的時間？公告的兩處寫法都把主體寫得很寬，寬到任何一種讀法都成立。本書庫在同一產品線的前一則已記錄過同一種寫法出現在網頁中繼資料裡；本則把它移進了正文，但三項必要資訊一項都沒有補上。
 
-- **「validated on a held-out set」是全篇最值得追問的一句。** 公告同時說代理程式建了「大量」模型、用不同特徵集與架構做了 benchmark、並在 held-out set 上驗證。這些詞都是評估語彙，但沒有任何一個隨附的數值 —— 沒有 R²、沒有 RMSE、沒有排序相關係數，連「最好的模型比最差的好多少」都沒有。公告選用 scaffold split 的理由寫得很清楚 —— `to better gauge out-of-distribution performance`，亦即刻意讓評估落在訓練時未見過的分子骨架上。選了較嚴格的評估設定卻一個結果都不公布，讀者無從分辨這是「表現夠好但省略」還是「表現不足以放進公告」。
+- **「validated on a held-out set」是全篇最值得追問的一句。** 公告同時說代理程式建了「大量」模型、用不同特徵集與架構做了 benchmark、並在 held-out set 上驗證。這些詞都是評估語彙，但沒有任何一個隨附的數值。公告選用 scaffold split 的理由寫得很清楚 —— `to better gauge out-of-distribution performance`，亦即刻意讓評估落在訓練時未見過的分子骨架上。選了較嚴格的評估設定卻一個結果都不公布，讀者無從分辨這是「表現夠好但省略」還是「表現不足以放進公告」。
 
 - **切分方式的兩種說法沒有被交代。** 正文說有時序資訊時「常」採 chronological split，示範用的卻是 scaffold split。兩者都是合理選擇，但對於一篇以「技能把領域最佳實務編進代理程式工作流程」為賣點的文章，示範本身落在非預設路徑而未說明原因，削弱了「最佳實務已被編碼」這個宣稱的說服力。
 
@@ -148,7 +160,7 @@ Google DeepMind 在 2026-11-03 發布一篇技術示範：研究者在 Antigravi
 
 - **醫療橋接（二）：「省下幾天」這類宣稱在科室導入評估上與本則同構。** 影像後處理、報告生成與排程工具的廠商宣稱常是同一句型。要據此估人力或投資回收，需要的是改造前後在相同案例組成下的實測週轉時間、樣本數與量測方式三項。本則示範了缺少這三項時會發生什麼：同一段文字可以同時支持「省下數天」與「省下一次迭代」兩種差距極大的讀法，而兩者都無法被否證。
 
-## 產業／生態影響
+## 產業影響
 
 - **代理式平台的科學外掛正在從蛋白質擴到小分子。** 自 2026-10-15 的抗菌胜肽示範到本則的小分子示範，相隔十九天，覆蓋面自 UniProt 與 AlphaFold 擴及 RDKit、ChEMBL 與 PubChem [(ref: pr)](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/) [(ref: amp)](https://deepmind.google/blog/accelerating-antimicrobial-discovery/)。對使用這些公共資料庫的團隊而言，這意味著資料庫欄位的品質與出處標示會直接影響代理式工作流程的輸出，而不只影響人工查詢。
 
@@ -160,13 +172,13 @@ Google DeepMind 在 2026-11-03 發布一篇技術示範：研究者在 Antigravi
 
 ## 與書庫其他文章的關係
 
-同一產品線相隔十九天的第二篇科學示範，而兩則的證據缺口只是換了位置、沒有補上 —— 該則的加速宣稱只寫在網頁中繼資料與產品頁上、正文一次都沒量過時間；本則把「一小時」正式寫進了正文第二段，但量測方式、樣本數與被壓縮的基準流程定義仍然三項皆無。兩則並讀可以看出同一種宣稱如何在版本之間變得更醒目而非更可查: [DeepMind 說把數天縮成一次對話，全文沒量過任何一段時間](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
+同一產品線相隔十九天的第二篇科學示範，而兩則的證據缺口只是換了位置、沒有補上 —— 該則的加速宣稱只寫在網頁中繼資料與產品頁上、正文一次都沒量過時間；本則把「一小時」正式寫進了正文第二段，但量測方式、樣本數與被壓縮的基準流程定義仍然三項皆無。兩則並讀可以看出同一種宣稱如何在版本之間變得更醒目而非更可查: [DeepMind 抗菌胜肽示範：代理程式從資料庫走到實驗計畫](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
 
-兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查程度差一整級：該則的爭點在於一個倍數出自單一個孔、成功標準是事後才定的，至少有孔數與成功標準可供爭論；本則在代理程式那一側沒有產生任何數值，連可以爭論的對象都不存在。把兩則並讀可以看出「廠商自報」也分成可被挑錯與無從挑起兩種: [「結塊慢 100 倍」出自單一個孔，成功標準是事後才定的](2026-10-28-anthropic-drug-development-case-studies.md)
+兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查的深度不同：該則同日釋出六份技術報告，公告裡的數字能逐項對照回原始報告；本則以工作流程示範為主，代理程式側未公布模型指標。兩則並讀可以看出「廠商自報」在證據密度上的落差: [Anthropic 公布六個藥物開發組織接入 Claude 的早期成果](2026-10-28-anthropic-drug-development-case-studies.md)
 
-同一家公司相隔一天的兩則發布恰好構成對照：該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，並把量化門檻留給各團隊自訂；本則的示範則是那套框架所指的第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [Google 公開健康 AI 評估框架，及格線留給各家自己訂](2026-11-05-google-health-ai-evaluation-framework.md)
+同一家公司相隔一天的兩則發布恰好構成對照：該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，並把量化門檻留給各團隊自訂；本則的示範則是那套框架所指的第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [Google 健康 AI 評估框架：三個領域、三種方法、17 個維度](2026-11-05-google-health-ai-evaluation-framework.md)
 
-同一家公司相隔六天的兩則科學發布，唯一的案例研究都是一個在示範開始前就已經公開發表的答案：本則的 crizotinib→lorlatinib 被公告自己標為 well-known case，該則的 IBD／ETS2 結論出自 2024-06-05 的 Nature 論文、早於 AlphaGenome 初版上線十二個月: [AlphaGenome 2 的近兩倍，只出自一個免疫細胞資料集](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
+該則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與本則是同一條路線的兩端：本則示範的是代理式平台怎麼串起既有的化學工具，該則是即將被串進去的專用科學模型本身: [AlphaGenome 2：變異效應預測從組織平均走到細胞類型](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
 
 ## 實務的啟發
 

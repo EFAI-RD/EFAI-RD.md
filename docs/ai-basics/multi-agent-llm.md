@@ -130,11 +130,11 @@ evidence_reviewed: true
 
 該則從監管端點名 agentic GenAI 賦能裝置的額外評估考量；本篇則說明多代理／工具編排的概念基礎: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](../industry-watch/2026-09-17-fda-genai-devices-discussion-paper.md)
 
-該則預測每個 agentic workflow 的推論成本到 2028 年將增加逾五倍，給的理由是更複雜的工作流程用掉遠多於聊天機器人的 token；而本篇說明的 ReAct 迴圈、工具呼叫與多代理協作，正是那些 token 的去處 —— 兩篇並讀可以把一句成本預測還原成一組可指認的架構選擇：要不要讓模型自我質詢、要跑幾輪、要讓幾個代理互相對話: [推論成本要漲五倍以上，從多少漲起？Gartner 沒寫](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
+該則預測每個 agentic workflow 的推論成本到 2028 年將增加逾五倍，給的理由是更複雜的工作流程用掉遠多於聊天機器人的 token；而本篇說明的 ReAct 迴圈、工具呼叫與多代理協作，正是那些 token 的去處 —— 兩篇並讀可以把一句成本預測還原成一組可指認的架構選擇：要不要讓模型自我質詢、要跑幾輪、要讓幾個代理互相對話: [Gartner 預測代理式工作流程推論成本到 2028 年漲逾五倍](../industry-watch/2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
-該則的架構是本篇所述拓撲中最單純的一種 —— 一個基因擾動配一個代理、代理之間完全不對話，合成留到最後一層 —— 而它量到的效益主要來自不讓單一上下文被塞爆：同一個模型在單一代理模式下處理 893 個擾動時只引了 11 筆文獻，分散模式則多出 711 倍，可以當作「多代理未必靠辯論取勝」的對照案例: [公告寫「引用逾 700 篇」，它連的論文寫的是「711 倍」](../industry-watch/2026-10-22-openai-distributed-agents-perturb-seq-atlas.md)
+該則的架構是本篇所述拓撲中最單純的一種 —— 一個基因擾動配一個代理、代理之間完全不對話，合成留到最後一層 —— 而它量到的效益主要來自不讓單一上下文被塞爆：同一個模型在單一代理模式下處理 893 個擾動時只引了 11 筆文獻，分散模式則多出 711 倍，可以當作「多代理未必靠辯論取勝」的對照案例: [1,946 個 AI 代理各讀一個基因擾動，32 分鐘產出全腦圖譜解讀](../industry-watch/2026-10-22-openai-distributed-agents-perturb-seq-atlas.md)
 
-該則是本篇所述「模擬專家小組互相質疑」這一型拓撲在診斷場景的一組有分母的量測：論文自述跨各家受測模型，該編排讓 NEJM CPC 案例的準確率比同一模型的最小提示基線平均高 7.9 個百分點、急診案例高 4.4 個百分點，可以當作「編排本身值多少」的參考量: [Microsoft 說開源是為了重現，兩份資料都要另外申請](../industry-watch/2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
+該則是本篇所述「模擬專家小組互相質疑」這一型拓撲在診斷場景的一組有分母的量測：論文自述跨各家受測模型，該編排讓 NEJM CPC 案例的準確率比同一模型的最小提示基線平均高 7.9 個百分點、急診案例高 4.4 個百分點，可以當作「編排本身值多少」的參考量: [SDBench 與 MAI-DxO：把診斷評估改成逐步問診](../industry-watch/2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
 
 ## 實務的啟發
 

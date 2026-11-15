@@ -200,9 +200,9 @@ ModaLens 固定文字、只換影像來量測模態依賴，本研究則固定�
 該研究同樣評估了 MedSigLIP，但比較的是皮膚科資料集內零樣本 VLM 與有訓練模型的分數，摘要提到的跨資料集測試並未回報，正好對照本研究換評估條件的稽核做法: [皮膚病灶良惡性：零樣本 VLM 0.66，微調與凍結特徵 0.87 以上](2026-10-05-derm-generalist-vs-specific-benchmark.md)
 
 
-印尼衛生部正以本地胸片資料訓練結合 MedGemma 與 MedSigLIP 的結核偵測模型，對應每年 5,000 萬人的篩檢目標；本研究的換條件稽核正好說明這種全國規模部署前應先確認哪些條件: [MedGemma 的五個落地案例，只有一個報得出用過幾次](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
+印尼衛生部正以本地胸片資料訓練結合 MedGemma 與 MedSigLIP 的結核偵測模型，對應每年 5,000 萬人的篩檢目標；本研究的換條件稽核正好說明這種全國規模部署前應先確認哪些條件: [MedGemma：開放權重醫療模型，四國五個落地合作案](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
 
-本研究說明換一個評估條件，現成醫療視覺語言模型的結論就可能改寫；該則指出若 FAPI-74 上市，PET 判讀面對的是既有以 FDG 為主的模型從未見過的影像分布，兩篇是同一個可攜性問題的兩端: [GE HealthCare 買下自家代工廠，pan-cancer 只涵蓋兩種癌](../industry-watch/2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+本研究說明換一個評估條件，現成醫療視覺語言模型的結論就可能改寫；該則指出若 FAPI-74 上市，PET 判讀面對的是既有以 FDG 為主的模型從未見過的影像分布，兩篇是同一個可攜性問題的兩端: [GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利](../industry-watch/2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
 本研究逐項替換評估條件來檢驗醫療 VLM 的結論，該研究則固定盲化 checklist、只替換 LLM 查核模型與 checklist 格式，同樣看到量到的增益隨評估約定移動: [「沒提到」算不算「沒有」？換一個查核模型，增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
 

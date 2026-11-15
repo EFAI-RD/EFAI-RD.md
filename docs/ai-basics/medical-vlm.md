@@ -148,7 +148,7 @@ CLIP 展示：用大量圖文對，以對比學習把影像與自然語言拉進
 該文提供譜系之外的變數：不改對齊目標，只改視覺輸入的組織方式，也會改變模型的能力與成本曲線: [WILSON：數千個 tile 壓成一張 composite，診斷資訊剩多少](../ai-papers/2026-09-24-wilson-composite-pathology-foundation-model.md)
 
 
-本譜系的通才醫療多模態路線走進公共衛生場域後，決定成敗的變項從對齊目標換成了下游的驗證能力: [MedGemma 的五個落地案例，只有一個報得出用過幾次](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
+本譜系的通才醫療多模態路線走進公共衛生場域後，決定成敗的變項從對齊目標換成了下游的驗證能力: [MedGemma：開放權重醫療模型，四國五個落地合作案](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
 ## 實務的啟發
 
 1. 先寫清任務輸出：嵌入／分類、開放問答，還是必須附定位的報告——再決定要對齊模型、指令 VLM，還是 grounded 系統。
