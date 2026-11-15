@@ -187,6 +187,7 @@ evidence_reviewed: true
 胸片結核 VLM 的稽核改換提示詞與負類，檢驗醫療 VLM 的結論換條件後還剩多少；本篇則改換資料切分與標籤定義，檢驗胸片＋EHR 不平衡基準的結論，兩篇都得到「排名與勝負會被評估條件改寫」: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](2026-09-21-cxr-tb-vlm-portability-audit.md)
 
 AgentRx 的導讀在 ICU 多模態預測（含 CXR 與 EHR）上把病人層級切分與 leakage 稽核列入重現清單，本篇則實際量出不做這一步時分數會被灌到什麼程度: [AgentRx：ICU 預測多加模態有用，多代理協作沒穩定勝出](2026-09-17-agentrx-multimodal-clinical-prediction.md)
+本篇揭露 EHR 向量即病人識別碼造成的洩漏，文字引導分割的稽核則揭露 caption 尺寸詞由評分遮罩計算的洩漏，兩篇都先用不需學習的對照（查表、只看 caption 的迴歸）量出洩漏程度: [文字引導分割的增益：只留病灶範圍詞就拿回 84–98%](2026-11-12-extent-leakage-text-guided-segmentation.md)
 
 ## 實務的啟發
 

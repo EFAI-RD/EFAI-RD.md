@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 2
+nav_order: 3
 title: "MedHiVE：報告只進預訓練，有對齊的器官多 2.7、其餘只多 0.7"
 catalog_id: "arxiv:2611.08185"
 editors:
