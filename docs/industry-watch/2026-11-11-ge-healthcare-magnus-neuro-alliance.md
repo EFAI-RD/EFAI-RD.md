@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 3
+nav_order: 4
 title: "不談 AI 拼硬體梯度：GE 籌組九機構 MAGNUS 神經影像聯盟解析"
 category: industry-watch
 date: 2026-11-11

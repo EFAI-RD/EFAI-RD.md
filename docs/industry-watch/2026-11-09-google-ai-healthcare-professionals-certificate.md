@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 5
+nav_exclude: true
 title: "給臨床人員、可抵 CME 的四門課：Google 醫療 AI 認證重點整理"
 category: industry-watch
 date: 2026-11-09

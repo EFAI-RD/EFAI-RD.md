@@ -26,6 +26,8 @@ related_articles:
     relation: "兩則合起來是同一個現象的兩端，本則是供給側樣本，掛牌價降到五分之一而每任務成本比依評測落在 1/5 到 1/7 不等；該則則從需求側主張單價下降反而讓更貴的工作流程變得可行，使每個 agentic workflow 的推論成本不降反升"
   - path: "2026-11-16-gemini-4-hydrogen-agentic-execution-model.md"
     relation: "兩則都是以價格與速度為主軸的非旗艦型號發布，揭露方式剛好相反：本則給了相對價格卻在科學那一欄落後自家旗艦，該則給了絕對單價（每百萬 input token 1.50 美元、output 7.50 美元、整個一百萬 token 視窗不跳階），並宣稱指數分數反而高過自家前沿的 Argon —— 不過領先幅度是 1 分，且該頁未標示取數日期"
+  - path: "2026-11-16-openai-biobasicsbench-wet-lab-agents.md"
+    relation: "同一家公司對同一個型號的兩種揭露方式：本則記錄 GPT-6.1 Sol 發布時除 Terminal-Bench Science 的 68.1% 之外不公布任何絕對分數，該則把同一個型號放進 BioBasicsBench，給了 62.0% 與 55.6–68.4% 的 95% 信賴區間，並與其餘六個自家型號並列"
 refs:
   oai:
     title: "OpenAI：Introducing GPT-6.1 Sol（官方公告）"
@@ -142,6 +144,8 @@ OpenAI 發布 GPT-6.1 Sol，把「接近旗艦的能力」與「五分之一的�
 兩則是不同供應商的前沿模型發布，標題句涵蓋範圍的縮水方式相同：本則的標題句只涵蓋四項評測中的三項，該則的 almost all 在逐列核對後落在 AA-Briefcase v1.1 的 Elo 那一列，Opus 5.5 以 1800 對 1785 領先；差別是該則給了絕對分數，外部至少數得出來是哪一列: [要先過審核才拿得到生醫能力：Fable 與 Mythos 5.2 一探究竟](2026-11-10-anthropic-claude-fable-mythos-5-2-launch.md)
 
 兩則都是以價格與速度為主軸的非旗艦型號發布，揭露方式剛好相反：本則給了相對價格卻在科學那一欄落後自家旗艦，該則給了絕對單價（每百萬 input token 1.50 美元、output 7.50 美元、整個一百萬 token 視窗不跳階），並宣稱指數分數反而高過自家前沿的 Argon —— 不過領先幅度是 1 分，且該頁未標示取數日期: [非旗艦卻超過自家 Argon：Gemini 4 Hydrogen 解析](2026-11-16-gemini-4-hydrogen-agentic-execution-model.md)
+
+同一家公司對同一個型號的兩種揭露方式：本則記錄 GPT-6.1 Sol 發布時除 Terminal-Bench Science 的 68.1% 之外不公布任何絕對分數，該則把同一個型號放進 BioBasicsBench，給了 62.0% 與 55.6–68.4% 的 95% 信賴區間，並與其餘六個自家型號並列: [例行實驗判讀只拿 66.7%：OpenAI BioBasicsBench 拆解](2026-11-16-openai-biobasicsbench-wet-lab-agents.md)
 
 ## 實務的啟發
 

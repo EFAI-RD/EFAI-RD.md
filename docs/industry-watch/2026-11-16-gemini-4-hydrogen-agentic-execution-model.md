@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 1
+nav_order: 2
 title: "非旗艦卻超過自家 Argon：Gemini 4 Hydrogen 解析"
 category: industry-watch
 date: 2026-11-16
