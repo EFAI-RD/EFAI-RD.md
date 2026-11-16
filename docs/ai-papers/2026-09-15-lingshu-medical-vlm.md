@@ -185,6 +185,8 @@ MedChain-R1 把 Lingshu 32B 列為六個候選推理教師之一（最後選用 
 
 該稽核在同一個 Qwen2.5-VL-7B 主幹上逐徵象比較，Lingshu-7B 在 ChestX-ray14 與 SIIM-ACR 抓到 67% 與 86% 的氣胸，未微調主幹與 HuatuoGPT-Vision 則一例未抓，補上本篇平均 VQA 分數看不到的逐徵象差異: [胸片 VLM 稽核：兩個模型對 432 例氣胸全答「沒有」](2026-11-16-pneumothorax-silent-failure-medical-vlm.md)
 
+本篇以醫療 VQA 平均分數呈現 Lingshu 的能力；乳房攝影一致性稽核在 EMBED BI-RADS 上發現 Lingshu-7B 的理由有 57.6% 指向正確類別、答案卻只有 10.3%，顯示平均分數之外還需檢查答案與理由是否一致: [拿掉乳房攝影影像，MedGemma 仍以約 95 分信心給 BI-RADS](2026-11-16-mammography-vlm-cross-signal-coherence.md)
+
 ## 實務的啟發
 
 以下是本書庫依上述結果提出的工程建議：

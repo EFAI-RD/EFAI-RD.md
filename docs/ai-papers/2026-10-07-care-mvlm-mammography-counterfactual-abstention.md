@@ -144,6 +144,8 @@ OCT 影像依賴稽核在推論端固定理由、替換影像，量測影像對�
 
 本篇以抹掉病灶的反事實影像檢查 VLM 是否改為棄答；Guardrail Erosion 在純文字的 MedAbstain 上用同樣「抽掉證據、看是否棄答」的邏輯，比較 25 個生醫微調 LLM 與其 base，發現微調後適當棄答多半下降，兩篇都說明棄答率要和證據是否被移除一起解讀: [生醫微調 LLM：證據被抽掉時，25 對有 21 對更少棄答](2026-11-11-guardrail-erosion-biomedical-llm-abstention.md)
 
+本篇以抹掉病灶的反事實視圖訓練乳房攝影 VLM 棄答；乳房攝影一致性稽核則不訓練模型，在加入 NOTA 選項後量測四個現成 VLM，發現 MedGemma-4B 在 BI-RADS 題的影像被換掉時仍 0% 棄答: [拿掉乳房攝影影像，MedGemma 仍以約 95 分信心給 BI-RADS](2026-11-16-mammography-vlm-cross-signal-coherence.md)
+
 ## 實務的啟發
 
 本篇的定位是一套可借用的評估設計，以及一個在單一操作點、只有點估計下看起來有效的訓練做法；它不是可直接部署的棄答機制。
