@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "Vscan Air 新增八區肺部掃描導引與主動脈瓣狹窄提示"
+title: "掌上超音波加肺部導引與瓣膜提示：Vscan Air 510(k) 分析"
 category: industry-watch
 date: 2026-11-06
 updated: 2026-11-12
@@ -51,7 +51,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# Vscan Air 新增八區肺部掃描導引與主動脈瓣狹窄提示
+# 掌上超音波加肺部導引與瓣膜提示：Vscan Air 510(k) 分析
 
 ## 來源
 
@@ -188,11 +188,11 @@ GE HealthCare 在 2026-11-03 為手持超音波 Vscan Air 增加兩項 AI 輔助
 
 ## 與書庫其他文章的關係
 
-同一家公司相隔兩天的兩次產品發表，法規路徑不同使外部可查的證據量也不同：該則的系統仍在美國 510(k) 審查中，公告能提供的是相容性與法規狀態；本則的兩項功能已完成 510(k)，同一批數據的樣本數與信賴區間都在 FDA 網站上公開: [Allia Celeo：天花板吊掛介入影像機，歐盟 CE、美國待審](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
+同一家公司相隔兩天的兩次產品發表，法規路徑不同使外部可查的證據量也不同：該則的系統仍在美國 510(k) 審查中，公告能提供的是相容性與法規狀態；本則的兩項功能已完成 510(k)，同一批數據的樣本數與信賴區間都在 FDA 網站上公開: [歐盟可買、美國待審的吊掛介入機：Allia Celeo 一探究竟](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
 
-兩則都是同一家公司把一個比較級結果放進超音波新機公告，而被省略的那一半不同：該則省略的是對競品無時間差異的那一組，本則省略的是樣本數（63 人）與兩組差距的 95% 信賴區間（−18.7 到 15.5 個百分點）: [LOGIQ Focus：把高階影像能力帶進日常超音波檢查](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
+兩則都是同一家公司把一個比較級結果放進超音波新機公告，而被省略的那一半不同：該則省略的是對競品無時間差異的那一組，本則省略的是樣本數（63 人）與兩組差距的 95% 信賴區間（−18.7 到 15.5 個百分點）: [高階影像能力下放日常機種：LOGIQ Focus 超音波解析](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
-該則是 FDA 駁回放射科 CAD／CADt 軟體 510(k) 免除請願的最終決定；本則的兩項功能正是走完這條 510(k) 路徑的產物，因此樣本數、信賴區間與適用族群限制都留在公開的 summary 裡可供查閱。兩則並讀可以看出這道關卡守住之後，外部實際多讀到了什麼: [放射科 AI 想免審，FDA 說不：舊許可不是通行證](2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
+該則是 FDA 駁回放射科 CAD／CADt 軟體 510(k) 免除請願的最終決定；本則的兩項功能正是走完這條 510(k) 路徑的產物，因此樣本數、信賴區間與適用族群限制都留在公開的 summary 裡可供查閱。兩則並讀可以看出這道關卡守住之後，外部實際多讀到了什麼: [舊許可不是通行證：FDA 駁回放射科 CAD 510(k) 免審解讀](2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
 
 ## 實務的啟發
 

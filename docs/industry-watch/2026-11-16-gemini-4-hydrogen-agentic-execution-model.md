@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_order: 1
-title: "Gemini 4 Hydrogen：主打快速執行，指數分數高過 Argon"
+title: "非旗艦卻超過自家 Argon：Gemini 4 Hydrogen 解析"
 category: industry-watch
 date: 2026-11-16
 tags: [Google, Google-DeepMind, Gemini-4, Gemini-4-Hydrogen, Orchestrator, Google-Antigravity, frontier-model, model-launch, pricing, context-window, agentic-workflow, benchmark, HealthBench-Pro, biosecurity, false-refusal, research-workflow]
@@ -41,7 +41,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# Gemini 4 Hydrogen：主打快速執行，指數分數高過 Argon
+# 非旗艦卻超過自家 Argon：Gemini 4 Hydrogen 解析
 
 ## 來源
 
@@ -156,11 +156,11 @@ Google 在 2026-11-12 發布 Gemini 4 Hydrogen [(ref: launch)](https://blog.goog
 
 ## 與書庫其他文章的關係
 
-該則是研究機構對代理式工作流程推論成本的預測，本則是供應商對同一個成本問題給出的產品答案：Hydrogen 以較低單價承接執行端、Orchestrator 在單一任務中切換模型以省下前沿模型的額度，官方自報平均少用 24% quota: [Gartner 預測代理式工作流程推論成本到 2028 年漲逾五倍](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
+該則是研究機構對代理式工作流程推論成本的預測，本則是供應商對同一個成本問題給出的產品答案：Hydrogen 以較低單價承接執行端、Orchestrator 在單一任務中切換模型以省下前沿模型的額度，官方自報平均少用 24% quota: [代理式工作流程推論成本漲逾五倍：Gartner 2028 預測分析](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
-該則示範的藥物設計代理流程就跑在 Google Antigravity 上，而本則在同一個環境裡改變了模型指派方式：Orchestrator 讓 Carbon 負責規劃、Hydrogen 負責執行，那類多步驟科研流程的成本與延遲結構因此改變: [DeepMind 化學資訊學 Skills：代理程式跑完一輪藥物設計](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
+該則示範的藥物設計代理流程就跑在 Google Antigravity 上，而本則在同一個環境裡改變了模型指派方式：Orchestrator 讓 Carbon 負責規劃、Hydrogen 負責執行，那類多步驟科研流程的成本與延遲結構因此改變: [代理程式串起既有化學工具：DeepMind 藥物設計 Skills 解剖](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
 
-兩則都是以價格與速度為主軸的非旗艦型號發布，揭露方式剛好相反：該則給了相對價格卻在科學那一欄落後自家旗艦，本則給了絕對單價並宣稱指數分數反而高過自家前沿的 Argon: [GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra](2026-10-07-openai-gpt-6-1-sol-launch.md)
+兩則都是以價格與速度為主軸的非旗艦型號發布，揭露方式剛好相反：該則給了相對價格卻在科學那一欄落後自家旗艦，本則給了絕對單價並宣稱指數分數反而高過自家前沿的 Argon: [價格只要五分之一，但科學能力沒跟上：GPT-6.1 Sol 解剖](2026-10-07-openai-gpt-6-1-sol-launch.md)
 
 ## 實務的啟發
 

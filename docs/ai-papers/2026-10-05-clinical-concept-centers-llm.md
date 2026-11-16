@@ -149,7 +149,7 @@ ModaLens 以交換影像、觀察答案變不變來推斷模型實際用了哪�
 
 醫療 LLM 評估落差那篇從文獻層級指出評估多停在輸出與舊模型，本篇提出另一個評估面向：讀模型內部的概念活化，但它的醫師驗證只有 2 位評分者與 38 案，還不足以支撐取代輸出端評估: [醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊](2026-09-17-medical-llm-evaluation-gap.md)
 
-兩者對神經網路做的是同一類手術，而誰拿刀不同：本研究以 sparse autoencoder 解出 ICD 章節的概念方向並在 11 個開源模型上做因果介入，方向由既定演算法算出；該則的 Experiment 8 是讓一個通用語言模型自己讀權重、自己指認那條造成迴圈的方向，再從兩層 MLP 的各 64 個輸出欄位把它減掉: [LLM 直接改權重，數學從 7.9% 到 48.1% —— 但它只是不再迴圈](../industry-watch/2026-11-03-weight-space-programming-llm-reads-writes-weights.md)
+兩者對神經網路做的是同一類手術，而誰拿刀不同：本研究以 sparse autoencoder 解出 ICD 章節的概念方向並在 11 個開源模型上做因果介入，方向由既定演算法算出；該則的 Experiment 8 是讓一個通用語言模型自己讀權重、自己指認那條造成迴圈的方向，再從兩層 MLP 的各 64 個輸出欄位把它減掉: [48.1% 的關鍵實驗放寬過條件：LLM 直接改權重拆解](../industry-watch/2026-11-03-weight-space-programming-llm-reads-writes-weights.md)
 
 ## 實務的啟發
 

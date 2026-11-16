@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_order: 5
-title: "Google 醫療人員 AI 認證：四門課、最多 5.0 CME 學分"
+title: "給臨床人員、可抵 CME 的四門課：Google 醫療 AI 認證重點整理"
 category: industry-watch
 date: 2026-11-09
 updated: 2026-11-12
@@ -42,7 +42,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# Google 醫療人員 AI 認證：四門課、最多 5.0 CME 學分
+# 給臨床人員、可抵 CME 的四門課：Google 醫療 AI 認證重點整理
 
 ## 來源
 
@@ -137,11 +137,11 @@ Google 在 2026-10-29 由 Chief Health Officer（首席健康長）Michael Howel
 
 ## 與書庫其他文章的關係
 
-同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：該則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，本則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻: [Google 健康 AI 評估框架：三個領域、三種方法、17 個維度](2026-11-05-google-health-ai-evaluation-framework.md)
+同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：該則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，本則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻: [給了框架不給門檻：Google 健康 AI 評估三法十七維解讀](2026-11-05-google-health-ai-evaluation-framework.md)
 
-同一家公司面向醫療的兩條路線：該則是把開放權重模型送進資源有限地區的落地合作，本則是給臨床人員的 AI 素養課程與繼續教育學分。兩則並讀可以看出 Google 在醫療 AI 上同時投入工具端與人員端: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
+同一家公司面向醫療的兩條路線：該則是把開放權重模型送進資源有限地區的落地合作，本則是給臨床人員的 AI 素養課程與繼續教育學分。兩則並讀可以看出 Google 在醫療 AI 上同時投入工具端與人員端: [開放權重醫療模型的四國五案：MedGemma 落地現況重點整理](2026-10-08-medgemma-global-deployment-claims.md)
 
-兩則的數字都只給了上限：該則的 90% 是前七名清單的命中率、排第一只有 56%，本則的 5.0 個繼續教育學分同樣是 maximum，而課程頁自己寫醫師只能按實際參與程度申報，公告轉述時兩句都只搬了前半: [AMIE 看診前先問病史：98 人的 Lancet 可行性研究](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
+兩則的數字都只給了上限：該則的 90% 是前七名清單的命中率、排第一只有 56%，本則的 5.0 個繼續教育學分同樣是 maximum，而課程頁自己寫醫師只能按實際參與程度申報，公告轉述時兩句都只搬了前半: [看診前先問病史的 98 人試驗：AMIE Lancet 可行性研究解讀](2026-10-20-google-amie-lancet-primary-care-feasibility.md)
 
 ## 實務的啟發
 

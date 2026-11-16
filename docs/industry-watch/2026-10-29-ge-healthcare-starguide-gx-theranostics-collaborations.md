@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "StarGuide GX：4D SPECT/CT 交給五家機構評估"
+title: "4D SPECT/CT 交五家機構評估：StarGuide GX 一探究竟"
 category: industry-watch
 date: 2026-10-29
 updated: 2026-11-12
@@ -56,7 +56,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# StarGuide GX：4D SPECT/CT 交給五家機構評估
+# 4D SPECT/CT 交五家機構評估：StarGuide GX 一探究竟
 
 ## 來源
 
@@ -164,19 +164,19 @@ GE HealthCare 在 2026-10-20 的新聞稿宣布，Hadassah Medical Center（以�
 
 ## 與書庫其他文章的關係
 
-同一家公司把一個比較級數字放進公告、而比較對象都是自家前代機的兩個案例，差別在揭露位置：該則的「快 26 percent」在新聞稿正文就寫出比的是自家 LOGIQ P8，讀者在同一段就看得到比較對象；本則正文只寫「2.67 倍」，必須翻到註腳才知道比的是 NM/CT 870 DR 搭 LEHRS collimator，而該機種的產品頁又沒有公布絕對值: [LOGIQ Focus：把高階影像能力帶進日常超音波檢查](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
+同一家公司把一個比較級數字放進公告、而比較對象都是自家前代機的兩個案例，差別在揭露位置：該則的「快 26 percent」在新聞稿正文就寫出比的是自家 LOGIQ P8，讀者在同一段就看得到比較對象；本則正文只寫「2.67 倍」，必須翻到註腳才知道比的是 NM/CT 870 DR 搭 LEHRS collimator，而該機種的產品頁又沒有公布絕對值: [高階影像能力下放日常機種：LOGIQ Focus 超音波解析](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
-兩則都是在醫學會議現場以臨床人員的使用經驗描述一台產品，而同一頁的小字寫明它在相關市場尚不能商業供應：該則的限制是產品尚未符合 MDR 2017/745 的全部要求、未商業化供應，本則的限制是公告所稱可販售範圍為「部分歐盟成員國」，而受訪的五家機構中只有法國一家在歐盟境內。兩則合看可以看出「現場證言」與「法規小字」在同一頁並存已經是常態: [Cios Go ID：顯示器裝在機身上的行動式 C 臂](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
+兩則都是在醫學會議現場以臨床人員的使用經驗描述一台產品，而同一頁的小字寫明它在相關市場尚不能商業供應：該則的限制是產品尚未符合 MDR 2017/745 的全部要求、未商業化供應，本則的限制是公告所稱可販售範圍為「部分歐盟成員國」，而受訪的五家機構中只有法國一家在歐盟境內。兩則合看可以看出「現場證言」與「法規小字」在同一頁並存已經是常態: [顯示器裝上機身的行動式 C 臂：Cios Go ID 拆解](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
 
-兩則都是在國際醫學年會發表、而同頁註腳寫明美國 510(k) 仍在審查中的系統，差別在歐洲端的狀態：該則的註腳寫的是尚未在任何市場銷售，本則已取得 CE Mark 並在部分歐盟成員國販售。把兩則放在一起可以看出「發表早於許可」這個做法在不同法規進度下會長成不同的樣子，而註腳的位置與密度則幾乎一致: [Accela：以 NeoArc 動態弧形治療為核心的放療機](2026-10-13-siemens-accela-radiotherapy-launch.md)
+兩則都是在國際醫學年會發表、而同頁註腳寫明美國 510(k) 仍在審查中的系統，差別在歐洲端的狀態：該則的註腳寫的是尚未在任何市場銷售，本則已取得 CE Mark 並在部分歐盟成員國販售。把兩則放在一起可以看出「發表早於許可」這個做法在不同法規進度下會長成不同的樣子，而註腳的位置與密度則幾乎一致: [影像到出束最快 90 秒：Siemens Accela 上市前搶先看](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-兩則都必須離開公告頁、去讀同一家公司的其他頁面才能確定法規與供應狀態，但矛盾出現的位置不同：該則是公司的產品頁與新聞稿對 CE Mark 直接互相牴觸，本則的產品目錄與公告並不牴觸（美國目錄沒有這台機器，正與公告一致），不一致出現在同一家公司前後兩篇新聞稿之間，對同一條感度宣稱的量測方法與同一台機器的可販售範圍給出不同寫法: [院內迴旋加速器取得 CE Mark，固態靶平台加 Copper-64](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
+兩則都必須離開公告頁、去讀同一家公司的其他頁面才能確定法規與供應狀態，但矛盾出現的位置不同：該則是公司的產品頁與新聞稿對 CE Mark 直接互相牴觸，本則的產品目錄與公告並不牴觸（美國目錄沒有這台機器，正與公告一致），不一致出現在同一家公司前後兩篇新聞稿之間，對同一條感度宣稱的量測方法與同一台機器的可販售範圍給出不同寫法: [放射性藥物院內自製：MINItrace 加 Copper-64 解密](2026-10-19-ge-healthcare-minitrace-magni-ce-mark-copper-64.md)
 
-同屬 GE HealthCare 的 theranostics 布局，該則是治療端 —— 花 9.45 億美元買下放射性藥物配送的最後一哩，本則是造影端 —— 把評估鋪到三大洲五家機構；兩則的共同特徵是標題涵蓋面都大於公告內可核對的範圍，該則的 pan-cancer 實際只有兩種癌別的第三期試驗，本則的 next generation of theranostics imaging 實際只有一條倍數宣稱: [GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+同屬 GE HealthCare 的 theranostics 布局，該則是治療端 —— 花 9.45 億美元買下放射性藥物配送的最後一哩，本則是造影端 —— 把評估鋪到三大洲五家機構；兩則的共同特徵是標題涵蓋面都大於公告內可核對的範圍，該則的 pan-cancer 實際只有兩種癌別的第三期試驗，本則的 next generation of theranostics imaging 實際只有一條倍數宣稱: [把自家代工廠買回來：GE 收購 SOFIE 與 FAPI-74 權利解析](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-本則逐字比對了兩份相隔六週的 StarGuide GX 公告，而同一台機器在該則的季度財報裡只剩一條沒有任何數字的項目符號（`now 510(k) pending with the U.S. FDA`）；兩則並讀是同一件事的兩種揭露密度，而該則的分部表顯示 StarGuide GX 所屬的 Advanced Imaging Solutions 是三個分部中 Organic 成長最慢的一個: [GE HealthCare 第三季營收成長 7.2%，全年財測上修](2026-10-29-ge-healthcare-q3-2026-results.md)
+本則逐字比對了兩份相隔六週的 StarGuide GX 公告，而同一台機器在該則的季度財報裡只剩一條沒有任何數字的項目符號（`now 510(k) pending with the U.S. FDA`）；兩則並讀是同一件事的兩種揭露密度，而該則的分部表顯示 StarGuide GX 所屬的 Advanced Imaging Solutions 是三個分部中 Organic 成長最慢的一個: [營收成長 7.2%、全年財測上修：GE 第三季財報分析](2026-10-29-ge-healthcare-q3-2026-results.md)
 
-同一家公司兩則「多機構合作」公告的同一種形態：兩則都把機構名字列出來、卻都不列任何一家做出了什麼結果或登錄了哪個試驗編號，差別是本則至少給了一個可追問的倍數宣稱，該則連一個可被追問的數字都沒有產生: [GE 籌組九家機構神經影像聯盟，圍繞一台研究用高梯度 3.0T MR](2026-11-11-ge-healthcare-magnus-neuro-alliance.md)
+同一家公司兩則「多機構合作」公告的同一種形態：兩則都把機構名字列出來、卻都不列任何一家做出了什麼結果或登錄了哪個試驗編號，差別是本則至少給了一個可追問的倍數宣稱，該則連一個可被追問的數字都沒有產生: [不談 AI 拼硬體梯度：GE 籌組九機構 MAGNUS 神經影像聯盟解析](2026-11-11-ge-healthcare-magnus-neuro-alliance.md)
 
 ## 實務的啟發
 

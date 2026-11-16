@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "GenAI 醫材要怎麼管？FDA 還在問，這不是指引"
+title: "看方向可以、當合規依據不行：FDA GenAI 醫材討論文件解讀"
 category: industry-watch
 date: 2026-09-17
 updated: 2026-09-18
@@ -48,7 +48,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# GenAI 醫材要怎麼管？FDA 還在問，這不是指引
+# 看方向可以、當合規依據不行：FDA GenAI 醫材討論文件解讀
 
 ## 來源
 
@@ -92,17 +92,17 @@ FDA 在 2026 年 8 月就 generative AI（GenAI）-enabled medical devices 公�
 
 ## 與書庫其他文章的關係
 
-兩則同屬 CDRH 對 AI／ML 醫材的成文或準則脈絡；該則是已編入 21 CFR 的 Class II **最終命令**，本則是 GenAI 裝置的 **discussion paper／徵求意見**，尚未成為指引或規則: [FDA 給心血管 ML 軟體一個條號：通報，不是診斷](./2026-09-15-fda-cardio-ml-notification.md)
+兩則同屬 CDRH 對 AI／ML 醫材的成文或準則脈絡；該則是已編入 21 CFR 的 Class II **最終命令**，本則是 GenAI 裝置的 **discussion paper／徵求意見**，尚未成為指引或規則: [AI 只能提醒不能下診斷：FDA 心血管 ML 軟體新條號解析](./2026-09-15-fda-cardio-ml-notification.md)
 
 該文說明多代理／工具編排概念；本則補上 FDA 對 agentic GenAI-enabled devices 是否需額外評估的官方徵求問題: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
 該文從文獻地圖顯示 agentic／multi-agent 醫療研究成長快、trial-grade 證據相對稀少；本則對應監管端開始把 agentic 能力與 postmarket monitoring 寫進討論框架: [醫療 LLM 研究愈來愈嚴謹，評到的模型卻愈來愈舊](../ai-papers/2026-09-17-medical-llm-evaluation-gap.md)
 
-本則徵求 GenAI 醫材監管意見、探索未來框架，該則則是 FDA 在具體請願上守住現行 510(k) 關卡的定案: [放射科 AI 想免審，FDA 說不：舊許可不是通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
+本則徵求 GenAI 醫材監管意見、探索未來框架，該則則是 FDA 在具體請願上守住現行 510(k) 關卡的定案: [舊許可不是通行證：FDA 駁回放射科 CAD 510(k) 免審解讀](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
 
-本則整理 FDA 對生成式 AI 醫材提出的監管問題，其中一項是上市後變更要如何追溯；該則示範的修改方式剛好把那個問題推到極端 —— 改動 0.016% 的權重、沒有訓練迴圈、沒有資料集、沒有梯度，傳統上用來證明一次變更做了什麼的那些紀錄全都不存在: [LLM 直接改權重，數學從 7.9% 到 48.1% —— 但它只是不再迴圈](2026-11-03-weight-space-programming-llm-reads-writes-weights.md)
+本則整理 FDA 對生成式 AI 醫材提出的監管問題，其中一項是上市後變更要如何追溯；該則示範的修改方式剛好把那個問題推到極端 —— 改動 0.016% 的權重、沒有訓練迴圈、沒有資料集、沒有梯度，傳統上用來證明一次變更做了什麼的那些紀錄全都不存在: [48.1% 的關鍵實驗放寬過條件：LLM 直接改權重拆解](2026-11-03-weight-space-programming-llm-reads-writes-weights.md)
 
-同一個問題的兩端：本則是主管機關就生成式 AI 醫材的監管考量公開徵詢意見，該則是技術供應商主動公開自家的健康 AI 評估方法論、並在摘要裡明寫目標讀者包含 regulators（主管機關）。兩則並讀可以看出「誰來定義評估」目前由兩邊各自推進，而該則的框架把量化通過門檻留空，正好是本則徵詢的問題裡最需要被填上的那一格: [Google 健康 AI 評估框架：三個領域、三種方法、17 個維度](2026-11-05-google-health-ai-evaluation-framework.md)
+同一個問題的兩端：本則是主管機關就生成式 AI 醫材的監管考量公開徵詢意見，該則是技術供應商主動公開自家的健康 AI 評估方法論、並在摘要裡明寫目標讀者包含 regulators（主管機關）。兩則並讀可以看出「誰來定義評估」目前由兩邊各自推進，而該則的框架把量化通過門檻留空，正好是本則徵詢的問題裡最需要被填上的那一格: [給了框架不給門檻：Google 健康 AI 評估三法十七維解讀](2026-11-05-google-health-ai-evaluation-framework.md)
 
 ## 實務的啟發
 

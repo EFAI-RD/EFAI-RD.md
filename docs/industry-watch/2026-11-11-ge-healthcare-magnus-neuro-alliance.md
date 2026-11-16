@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_order: 3
-title: "GE 籌組九家機構神經影像聯盟，圍繞一台研究用高梯度 3.0T MR"
+title: "不談 AI 拼硬體梯度：GE 籌組九機構 MAGNUS 神經影像聯盟解析"
 category: industry-watch
 date: 2026-11-11
 updated: 2026-11-12
@@ -38,7 +38,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# GE 籌組九家機構神經影像聯盟，圍繞一台研究用高梯度 3.0T MR
+# 不談 AI 拼硬體梯度：GE 籌組九機構 MAGNUS 神經影像聯盟解析
 
 ## 來源
 
@@ -134,11 +134,11 @@ GE HealthCare 於 2026-11-10 宣布，打算成立一個名為 MAGNUS Neuro Alli
 
 ## 與書庫其他文章的關係
 
-同一家公司相隔七天的兩則發表，都處在「可展示但尚未全面可售」的階段，而兩者被擋住的範圍不同：該則的介入影像系統已有 CE 標章、美國 510(k) 審查中；本則的頭部專用 MR 系統限定為研究用途、未獲任何主管機關許可。兩則並讀可以看出同一家公司在不同產品線上的上市節奏: [Allia Celeo：天花板吊掛介入影像機，歐盟 CE、美國待審](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
+同一家公司相隔七天的兩則發表，都處在「可展示但尚未全面可售」的階段，而兩者被擋住的範圍不同：該則的介入影像系統已有 CE 標章、美國 510(k) 審查中；本則的頭部專用 MR 系統限定為研究用途、未獲任何主管機關許可。兩則並讀可以看出同一家公司在不同產品線上的上市節奏: [歐盟可買、美國待審的吊掛介入機：Allia Celeo 一探究竟](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
 
-兩則都是正文以臨床語彙描述一台機器、而同頁小字寫明它在市場上還不能供應，差別在小字擋住的範圍：該則擋的是歐盟醫療器材法規（Medical Device Regulation，MDR）2017/745 的商業供應，本則的註腳一次擋掉美國 FDA 與所有其他全球主管機關，並把用途限定為研究: [Cios Go ID：顯示器裝在機身上的行動式 C 臂](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
+兩則都是正文以臨床語彙描述一台機器、而同頁小字寫明它在市場上還不能供應，差別在小字擋住的範圍：該則擋的是歐盟醫療器材法規（Medical Device Regulation，MDR）2017/745 的商業供應，本則的註腳一次擋掉美國 FDA 與所有其他全球主管機關，並把用途限定為研究: [顯示器裝上機身的行動式 C 臂：Cios Go ID 拆解](2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md)
 
-同一家公司兩則「多機構合作」公告的同一種形態：兩則都把機構名字列出來、卻都不列任何一家做出了什麼結果或登錄了哪個試驗編號，差別是該則至少給了一個可追問的倍數宣稱，本則連一個可被追問的數字都沒有產生: [StarGuide GX：4D SPECT/CT 交給五家機構評估](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
+同一家公司兩則「多機構合作」公告的同一種形態：兩則都把機構名字列出來、卻都不列任何一家做出了什麼結果或登錄了哪個試驗編號，差別是該則至少給了一個可追問的倍數宣稱，本則連一個可被追問的數字都沒有產生: [4D SPECT/CT 交五家機構評估：StarGuide GX 一探究竟](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
 ## 實務的啟發
 

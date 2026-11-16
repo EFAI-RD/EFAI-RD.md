@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "Gemini 3.8 Live 拿下語音榜首，距那封調速宣言三天"
+title: "一邊聽人說一邊跑工具：Gemini 3.8 Live 語音模型分析"
 category: industry-watch
 date: 2026-09-17
 updated: 2026-09-17
@@ -35,7 +35,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# Gemini 3.8 Live 拿下語音榜首，距那封調速宣言三天
+# 一邊聽人說一邊跑工具：Gemini 3.8 Live 語音模型分析
 
 ## 來源
 
@@ -50,7 +50,7 @@ Google 在 2026 年 9 月 15 日發布兩款「即時語音對話」（live dial
 
 ## 背景
 
-1. **2026-09-12（背景）**：Anthropic 執行長 Dario Amodei 發表〈We Must Pace the Frontier〉，OpenAI 的 Altman 承諾跟進常駐評估者制度，Google DeepMind 的 Hassabis 與 xAI 的 Musk 亦表態支持，惟後兩人的引文僅見於單一媒體報導（本庫已有專文：[Amodei 要前沿調速，對手全表態；兩家的支持只有單一報導](2026-09-15-amodei-pace-the-frontier.md)）。這是本次發布落地時的治理輿論環境——「調速」主張明言不等於停止發布，本則正是檢驗這句話的第一個實例。
+1. **2026-09-12（背景）**：Anthropic 執行長 Dario Amodei 發表〈We Must Pace the Frontier〉，OpenAI 的 Altman 承諾跟進常駐評估者制度，Google DeepMind 的 Hassabis 與 xAI 的 Musk 亦表態支持，惟後兩人的引文僅見於單一媒體報導（本庫已有專文：[一封公開信讓全業表態：Amodei 前沿調速宣言一探究竟](2026-09-15-amodei-pace-the-frontier.md)）。這是本次發布落地時的治理輿論環境——「調速」主張明言不等於停止發布，本則正是檢驗這句話的第一個實例。
 2. **2026-09-15**：Google 於官方部落格發布兩款模型，公布各項評測成績、97 語言自動切換、背景工具執行、SynthID 浮水印與各通路上線時程 [(ref: goog)](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/)。
 3. **2026-09-15（同日）**：第三方評測機構 Artificial Analysis（下稱 AA）的 Speech-to-Speech Index 榜單顯示 Gemini 3.8 Live Extended Thinking (High) 以 82.6 分居首，領先第二名 GPT-Live-1（Astra, medium）的 81.5 與第三名 Grok Voice Think Fast 2.0 High 的 81.3 [(ref: aa)](https://artificialanalysis.ai/speech-to-speech)；科技媒體同日報導並補充 API 定價細節 [(ref: sa)](https://siliconangle.com/2026/09/15/googles-new-speech-model-gemini-3-8-live-supports-real-time-reasoning/)。
 4. **2026-09-15 起（上線）**：開發者可經 Gemini API 與 Google AI Studio 使用；企業版在 Gemini Enterprise 私密預覽；一般使用者端 3.8 Live 進入 Search Live，Extended Thinking 進入 Gemini Live 與 Workspace（Docs、Gmail、Keep，依訂閱方案）[(ref: goog)](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/)。
@@ -79,9 +79,9 @@ Google 在 2026 年 9 月 15 日發布兩款「即時語音對話」（live dial
 
 ## 與書庫其他文章的關係
 
-同為大廠前沿模型發布，但本則的榜首成績可在第三方榜單獨立對照，OpenAI 那則的五組評測則全為廠商自報且多數未給絕對分數，兩者適合並讀以比較發布敘事的可核對程度: [GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra](2026-10-07-openai-gpt-6-1-sol-launch.md)
+同為大廠前沿模型發布，但本則的榜首成績可在第三方榜單獨立對照，OpenAI 那則的五組評測則全為廠商自報且多數未給絕對分數，兩者適合並讀以比較發布敘事的可核對程度: [價格只要五分之一，但科學能力沒跟上：GPT-6.1 Sol 解剖](2026-10-07-openai-gpt-6-1-sol-launch.md)
 
-該則記錄 9/12 的調速倡議；本則是倡議之後第一個大廠前沿模型發布的實例，可作治理承諾與發布行為的對照觀察: [Amodei 要前沿調速，對手全表態；兩家的支持只有單一報導](2026-09-15-amodei-pace-the-frontier.md)
+該則記錄 9/12 的調速倡議；本則是倡議之後第一個大廠前沿模型發布的實例，可作治理承諾與發布行為的對照觀察: [一封公開信讓全業表態：Amodei 前沿調速宣言一探究竟](2026-09-15-amodei-pace-the-frontier.md)
 
 ## 實務的啟發
 

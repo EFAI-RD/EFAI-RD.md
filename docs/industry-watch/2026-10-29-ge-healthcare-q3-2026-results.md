@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "GE HealthCare 第三季營收成長 7.2%，全年財測上修"
+title: "營收成長 7.2%、全年財測上修：GE 第三季財報分析"
 category: industry-watch
 date: 2026-10-29
 updated: 2026-11-12
@@ -41,7 +41,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# GE HealthCare 第三季營收成長 7.2%，全年財測上修
+# 營收成長 7.2%、全年財測上修：GE 第三季財報分析
 
 ## 來源
 
@@ -177,13 +177,13 @@ GE HealthCare 在 2026-10-28 公布 2026 年第三季財務結果並調升 2026 
 
 ## 與書庫其他文章的關係
 
-該則的放射治療生成式 AI 合作，在本則的季度財報裡被列為八條 innovation and commercial highlights 之一。兩則並讀可以看出同一項合作在技術公告與財務文件兩種體裁裡的詳略差異，以及季報能與不能回答哪些關於產品的問題: [GE 擴大研究合作，探索放療工作流程的生成式 AI](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
+該則的放射治療生成式 AI 合作，在本則的季度財報裡被列為八條 innovation and commercial highlights 之一。兩則並讀可以看出同一項合作在技術公告與財務文件兩種體裁裡的詳略差異，以及季報能與不能回答哪些關於產品的問題: [合作先行、產品未到：GE 與 MGB 放療生成式 AI 一探究竟](2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
 
-該則記錄的 9.45 億美元收購在本則的 capital deployment 段再次出現，並補上「預計 2027 年上半年完成、須經主管機關核准」；更有用的是本則的現金流量表提供了該則缺少的量級脈絡 —— 前九個月 `Purchases of businesses` 合計 22.93 億美元，而全部收購對同期營收的貢獻只有 1.90 億美元，兩則並讀可以看出一樁未完成交易在財報裡的位置與它在新聞稿裡的份量差多少: [GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+該則記錄的 9.45 億美元收購在本則的 capital deployment 段再次出現，並補上「預計 2027 年上半年完成、須經主管機關核准」；更有用的是本則的現金流量表提供了該則缺少的量級脈絡 —— 前九個月 `Purchases of businesses` 合計 22.93 億美元，而全部收購對同期營收的貢獻只有 1.90 億美元，兩則並讀可以看出一樁未完成交易在財報裡的位置與它在新聞稿裡的份量差多少: [把自家代工廠買回來：GE 收購 SOFIE 與 FAPI-74 權利解析](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-該則花了整篇文章逐字比對的 StarGuide GX 公告，在本則被壓縮成一條沒有任何數字的項目符號（`now 510(k) pending with the U.S. FDA`）；兩則並讀剛好是同一件事的兩種揭露密度 —— 產品公告有 2.67 倍感度與逾 1,000 名病人這類可爭論的數字，季報連機型名稱以外的資訊都沒有，而它所屬的影像分部是三個分部中 Organic 成長最慢的一個: [StarGuide GX：4D SPECT/CT 交給五家機構評估](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
+該則花了整篇文章逐字比對的 StarGuide GX 公告，在本則被壓縮成一條沒有任何數字的項目符號（`now 510(k) pending with the U.S. FDA`）；兩則並讀剛好是同一件事的兩種揭露密度 —— 產品公告有 2.67 倍感度與逾 1,000 名病人這類可爭論的數字，季報連機型名稱以外的資訊都沒有，而它所屬的影像分部是三個分部中 Organic 成長最慢的一個: [4D SPECT/CT 交五家機構評估：StarGuide GX 一探究竟](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
-該則因為同業公告未揭露被退出業務的規模，把「想要量級就必須等財報或投資人說明會」寫進後續追蹤；本則就是同一個產業裡的那一份財報，而它示範的結果是：財報確實補上了分部層級的金額與利潤率，卻同樣沒有任何單一產品線的數字，亦即「等財報」這個期待只能被部分滿足: [Siemens 退出一般影像超音波，四款機型當日停售](2026-10-14-siemens-ultrasound-general-imaging-exit.md)
+該則因為同業公告未揭露被退出業務的規模，把「想要量級就必須等財報或投資人說明會」寫進後續追蹤；本則就是同一個產業裡的那一份財報，而它示範的結果是：財報確實補上了分部層級的金額與利潤率，卻同樣沒有任何單一產品線的數字，亦即「等財報」這個期待只能被部分滿足: [四款機型當日停售：Siemens 退出一般影像超音波怎麼回事](2026-10-14-siemens-ultrasound-general-imaging-exit.md)
 
 ## 實務的啟發
 

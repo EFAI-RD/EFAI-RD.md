@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "GE 擴大研究合作，探索放療工作流程的生成式 AI"
+title: "合作先行、產品未到：GE 與 MGB 放療生成式 AI 一探究竟"
 category: industry-watch
 date: 2026-10-15
 updated: 2026-11-12
@@ -41,7 +41,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# GE 擴大研究合作，探索放療工作流程的生成式 AI
+# 合作先行、產品未到：GE 與 MGB 放療生成式 AI 一探究竟
 
 ## 來源
 
@@ -153,15 +153,15 @@ GE HealthCare 在 2026-09-23 宣布與 Mass General Brigham 的研究團隊擴�
 
 ## 與書庫其他文章的關係
 
-兩則相隔四天的放射腫瘤科公告來自互為競爭的兩家大廠，而 Mass General Brigham 同時是該則 Accela 七家顧問機構之一與本則的合作對象；兩則並讀可以看出同一家醫學中心的名字如何分別出現在兩種強度不同的宣稱裡 —— 該則把它列為尚未產出結果的顧問機構，本則則以它過去的自研軟體成效作為提要中唯一的數字: [Accela：以 NeoArc 動態弧形治療為核心的放療機](2026-10-13-siemens-accela-radiotherapy-launch.md)
+兩則相隔四天的放射腫瘤科公告來自互為競爭的兩家大廠，而 Mass General Brigham 同時是該則 Accela 七家顧問機構之一與本則的合作對象；兩則並讀可以看出同一家醫學中心的名字如何分別出現在兩種強度不同的宣稱裡 —— 該則把它列為尚未產出結果的顧問機構，本則則以它過去的自研軟體成效作為提要中唯一的數字: [影像到出束最快 90 秒：Siemens Accela 上市前搶先看](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-同一家公司相隔十二天的兩則公告指向同一條治療端路線：本則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而該則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+同一家公司相隔十二天的兩則公告指向同一條治療端路線：本則明寫研究成果可能延伸至 MR、CT 與 theranostics 的 iRT 工作流程能力，而該則買下的正是 theranostics 所需的放射性藥物供應最後一哩，兩則合看可以看出 GE HealthCare 正同時從軟體與供應鏈兩端包夾同一個治療場域: [把自家代工廠買回來：GE 收購 SOFIE 與 FAPI-74 權利解析](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-兩則都是醫療 AI 從模型走向場域的公告，所處階段不同：該則的五個合作案各自已有可指認的進行階段與使用場景，本則的放療生成式 AI 合作仍在探索期，公告提供的唯一成效數字來自合作之前的既有工作流程軟體: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
+兩則都是醫療 AI 從模型走向場域的公告，所處階段不同：該則的五個合作案各自已有可指認的進行階段與使用場景，本則的放療生成式 AI 合作仍在探索期，公告提供的唯一成效數字來自合作之前的既有工作流程軟體: [開放權重醫療模型的四國五案：MedGemma 落地現況重點整理](2026-10-08-medgemma-global-deployment-claims.md)
 
-同一家公司相隔三天的兩則發布，都在談工作流程的量化改善，但證據層級不同：本則的放療合作仍在探索階段，該則有一篇開放取用的同儕審查論文可供逐項回查。兩則引用的關鍵數字都帶有原文的限定條件，轉述時都需要回到原處確認: [ETC 自動調控麻醉氣體：密西根大學 12,818 例回溯研究](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
+同一家公司相隔三天的兩則發布，都在談工作流程的量化改善，但證據層級不同：本則的放療合作仍在探索階段，該則有一篇開放取用的同儕審查論文可供逐項回查。兩則引用的關鍵數字都帶有原文的限定條件，轉述時都需要回到原處確認: [12,818 例回溯分析自動調控麻醉氣體：ETC 密西根研究分析](2026-10-19-ge-healthcare-end-tidal-control-michigan-study.md)
 
-本則的放射治療生成式 AI 合作，在該則的季度財報裡被列為八條 innovation and commercial highlights 之一。兩則並讀可以看出同一項合作在技術公告與財務文件兩種體裁裡的詳略差異，以及季報能與不能回答哪些關於產品的問題: [GE HealthCare 第三季營收成長 7.2%，全年財測上修](2026-10-29-ge-healthcare-q3-2026-results.md)
+本則的放射治療生成式 AI 合作，在該則的季度財報裡被列為八條 innovation and commercial highlights 之一。兩則並讀可以看出同一項合作在技術公告與財務文件兩種體裁裡的詳略差異，以及季報能與不能回答哪些關於產品的問題: [營收成長 7.2%、全年財測上修：GE 第三季財報分析](2026-10-29-ge-healthcare-q3-2026-results.md)
 
 本則公告要在放療工作流程軟體上探索以自然語言彙整病歷、影像與治療計畫的工具，但生成式 AI 部分沒有任何成效數字；該綜述從研究面提出放療 agent 應如何評估，包括中間步驟正確性與失效時是否交回醫師: [放療勾畫綜述：VLM 對 nnU-Net 勝負未定，論點改押 CTV](../ai-papers/2026-11-12-radiotherapy-segmentation-review-atlas-to-agentic-vlm.md)
 
