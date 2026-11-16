@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 3
+nav_order: 4
 title: "Fable 與 Mythos 5.2 降價發布，十四列評測、生科須審核"
 category: industry-watch
 date: 2026-11-10

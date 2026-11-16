@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 2
+nav_order: 3
 title: "GE 籌組九家機構神經影像聯盟，圍繞一台研究用高梯度 3.0T MR"
 category: industry-watch
 date: 2026-11-11

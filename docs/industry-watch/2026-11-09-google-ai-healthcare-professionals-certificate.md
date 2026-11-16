@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 4
+nav_order: 5
 title: "Google 醫療人員 AI 認證：四門課、最多 5.0 CME 學分"
 category: industry-watch
 date: 2026-11-09

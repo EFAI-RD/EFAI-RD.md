@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 5
+nav_exclude: true
 title: "Vscan Air 新增八區肺部掃描導引與主動脈瓣狹窄提示"
 category: industry-watch
 date: 2026-11-06
