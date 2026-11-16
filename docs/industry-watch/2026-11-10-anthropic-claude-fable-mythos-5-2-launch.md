@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 4
+nav_order: 5
 title: "要先過審核才拿得到生醫能力：Fable 與 Mythos 5.2 一探究竟"
 category: industry-watch
 date: 2026-11-10

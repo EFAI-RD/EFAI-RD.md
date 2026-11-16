@@ -29,6 +29,8 @@ related_articles:
     relation: "該則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與本則是同一條路線的兩端：本則示範的是代理式平台怎麼串起既有的化學工具，該則是即將被串進去的專用科學模型本身"
   - path: "2026-11-16-gemini-4-hydrogen-agentic-execution-model.md"
     relation: "本則示範的藥物設計代理流程就跑在 Google Antigravity 上，該則則改變了同一個環境裡的模型指派方式：Orchestrator 讓前沿模型 Carbon 負責探索與規劃、新的執行層 Hydrogen 負責寫修改與跑測試，卡住時再交還 Carbon。本則那類多步驟科研流程的成本與延遲結構因此被重新切分，而這項效益目前仍只有供應商自報的相對值"
+  - path: "2026-11-16-openai-biobasicsbench-wet-lab-agents.md"
+    relation: "兩則都在談代理程式進入實驗科學，揭露形式剛好相反：本則是一場沒有任何分數的示範流程，該則是一組有逐條評分標準與 95% 信賴區間、卻沒有人類基準的分數；合起來正好是「只有敘事」與「只有分數」的兩端"
 refs:
   pr:
     title: "Google DeepMind：Agentic cheminformatics with Google Antigravity（官方部落格，2026-11-03）"
@@ -183,6 +185,8 @@ Google DeepMind 在 2026-11-03 發表 Antigravity 的 `Cheminformatics Skills`�
 該則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與本則是同一條路線的兩端：本則示範的是代理式平台怎麼串起既有的化學工具，該則是即將被串進去的專用科學模型本身: [不拚通用模型拚細胞條件：AlphaGenome 2 變異預測拆解](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
 
 本則示範的藥物設計代理流程就跑在 Google Antigravity 上，該則則改變了同一個環境裡的模型指派方式：Orchestrator 讓前沿模型 Carbon 負責探索與規劃、新的執行層 Hydrogen 負責寫修改與跑測試，卡住時再交還 Carbon。本則那類多步驟科研流程的成本與延遲結構因此被重新切分，而這項效益目前仍只有供應商自報的相對值: [非旗艦卻超過自家 Argon：Gemini 4 Hydrogen 解析](2026-11-16-gemini-4-hydrogen-agentic-execution-model.md)
+
+兩則都在談代理程式進入實驗科學，揭露形式剛好相反：本則是一場沒有任何分數的示範流程，該則是一組有逐條評分標準與 95% 信賴區間、卻沒有人類基準的分數；合起來正好是「只有敘事」與「只有分數」的兩端: [例行實驗判讀只拿 66.7%：OpenAI BioBasicsBench 拆解](2026-11-16-openai-biobasicsbench-wet-lab-agents.md)
 
 ## 實務的啟發
 
