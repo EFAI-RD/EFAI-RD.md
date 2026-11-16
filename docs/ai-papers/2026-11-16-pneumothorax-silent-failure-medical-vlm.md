@@ -176,6 +176,8 @@ ModaLens 以交換影像與 yes/no logit margin 量測 MedGemma 在有報告時�
 
 胸片結核稽核改換提示詞、負類與閾值，檢查醫療 VLM 的結論是否站得住；本篇同樣換提示與解析度，發現氣胸失效在四種提示下都沒有改變: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](2026-09-21-cxr-tb-vlm-portability-audit.md)
 
+本篇在胸片是非題上發現兩個模型對氣胸陽性一律答「沒有」；乳房攝影一致性稽核同樣測 MedGemma-4B 與 Lingshu-7B，改在選擇題中加入 NOTA 選項，發現影像被拿掉後 MedGemma 仍以約 95 分信心給出 BI-RADS 類別: [拿掉乳房攝影影像，MedGemma 仍以約 95 分信心給 BI-RADS](2026-11-16-mammography-vlm-cross-signal-coherence.md)
+
 ## 實務的啟發
 
 1. **評估醫療 VLM 時，逐徵象報 recall 與 specificity。** 作者的主要建議是在平衡的病例上逐一列出每個徵象的表現；Table 2 顯示，整體分數無法區分「每個徵象都普通」和「某個徵象完全為零」。[(ref: main §6)](https://arxiv.org/html/2611.14975v1#S6)
