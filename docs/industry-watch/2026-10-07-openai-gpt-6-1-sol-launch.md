@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra"
+title: "價格只要五分之一，但科學能力沒跟上：GPT-6.1 Sol 解剖"
 category: industry-watch
 date: 2026-10-07
 updated: 2026-10-07
@@ -37,7 +37,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra
+# 價格只要五分之一，但科學能力沒跟上：GPT-6.1 Sol 解剖
 
 ## 來源
 
@@ -125,23 +125,23 @@ OpenAI 發布 GPT-6.1 Sol，把「接近旗艦的能力」與「五分之一的�
 
 ## 與書庫其他文章的關係
 
-同為大廠前沿模型發布，但兩則的可核對程度不同：Gemini 3.8 Live 的榜首成績可在第三方 Artificial Analysis 榜單獨立對照，本則的五組評測則全部是廠商自報且多數未給絕對分數: [Gemini 3.8 Live 拿下語音榜首，距那封調速宣言三天](2026-09-17-gemini-3-8-live-launch.md)
+同為大廠前沿模型發布，但兩則的可核對程度不同：Gemini 3.8 Live 的榜首成績可在第三方 Artificial Analysis 榜單獨立對照，本則的五組評測則全部是廠商自報且多數未給絕對分數: [一邊聽人說一邊跑工具：Gemini 3.8 Live 語音模型分析](2026-09-17-gemini-3-8-live-launch.md)
 
-調速倡議之後又一次前沿發布，可延續「治理承諾與發布行為是否一致」的對照觀察，本則的觀察點落在 system card addendum 與自報評測的揭露程度: [Amodei 要前沿調速，對手全表態；兩家的支持只有單一報導](2026-09-15-amodei-pace-the-frontier.md)
+調速倡議之後又一次前沿發布，可延續「治理承諾與發布行為是否一致」的對照觀察，本則的觀察點落在 system card addendum 與自報評測的揭露程度: [一封公開信讓全業表態：Amodei 前沿調速宣言一探究竟](2026-09-15-amodei-pace-the-frontier.md)
 
 
-同為大廠自報成果的發布敘事：本則的落差在標題句只涵蓋四項評測中的三項，該則的落差在標題用現在進行式概括了四個尚未完成的案例，兩則屬同一種閱讀問題: [MedGemma：開放權重醫療模型，四國五個落地合作案](2026-10-08-medgemma-global-deployment-claims.md)
+同為大廠自報成果的發布敘事：本則的落差在標題句只涵蓋四項評測中的三項，該則的落差在標題用現在進行式概括了四個尚未完成的案例，兩則屬同一種閱讀問題: [開放權重醫療模型的四國五案：MedGemma 落地現況重點整理](2026-10-08-medgemma-global-deployment-claims.md)
 
-兩則都以相對數字呈現成果：本則的五組評測除一個絕對分數外只公布百分點差距與成本倍數，該則只公布「低雙位數成長」與非 GAAP 指標的增益方向而未揭露被收購方的營收，外部同樣無法判斷基準線落在哪裡: [GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
-兩則都缺少可用的比較基準，但缺法相反：本則只公布相對倍數與百分點差距而不給絕對分數，該則給了絕對規格卻沒有任何對照機型，外部因此同樣無法設定驗收門檻: [Accela：以 NeoArc 動態弧形治療為核心的放療機](2026-10-13-siemens-accela-radiotherapy-launch.md)
+兩則都以相對數字呈現成果：本則的五組評測除一個絕對分數外只公布百分點差距與成本倍數，該則只公布「低雙位數成長」與非 GAAP 指標的增益方向而未揭露被收購方的營收，外部同樣無法判斷基準線落在哪裡: [把自家代工廠買回來：GE 收購 SOFIE 與 FAPI-74 權利解析](2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+兩則都缺少可用的比較基準，但缺法相反：本則只公布相對倍數與百分點差距而不給絕對分數，該則給了絕對規格卻沒有任何對照機型，外部因此同樣無法設定驗收門檻: [影像到出束最快 90 秒：Siemens Accela 上市前搶先看](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-兩則合起來正好是同一個現象的兩端：本則是供給側的樣本，掛牌價降到五分之一，但每任務成本比依評測落在 1/5 到 1/7 不等，顯示單價與單位工作成本從來不是同一條曲線；該則則從需求側主張，單價下降反而會讓更貴的工作流程變得可行，使每個 agentic workflow 的推論成本不降反升，而該則同樣只給了倍數、沒有給起算基準: [Gartner 預測代理式工作流程推論成本到 2028 年漲逾五倍](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
+兩則合起來正好是同一個現象的兩端：本則是供給側的樣本，掛牌價降到五分之一，但每任務成本比依評測落在 1/5 到 1/7 不等，顯示單價與單位工作成本從來不是同一條曲線；該則則從需求側主張，單價下降反而會讓更貴的工作流程變得可行，使每個 agentic workflow 的推論成本不降反升，而該則同樣只給了倍數、沒有給起算基準: [代理式工作流程推論成本漲逾五倍：Gartner 2028 預測分析](2026-10-21-gartner-inference-paradox-agentic-workflow-cost.md)
 
-兩則談的是同一個模型 GPT-6 Astra，揭露姿態卻完全相反：本則記錄 OpenAI 自家公告除了 Terminal-Bench Science 的 68.1% 之外不公布任何絕對分數，外部無法設定門檻；該則是四位外部研究者把 Astra 的每一次輸入、輸出、推理摘要與評估腳本整包放上 GitHub，連失敗的那個實驗也留在裡面: [LLM 直接改權重，數學從 7.9% 到 48.1% —— 但它只是不再迴圈](2026-11-03-weight-space-programming-llm-reads-writes-weights.md)
+兩則談的是同一個模型 GPT-6 Astra，揭露姿態卻完全相反：本則記錄 OpenAI 自家公告除了 Terminal-Bench Science 的 68.1% 之外不公布任何絕對分數，外部無法設定門檻；該則是四位外部研究者把 Astra 的每一次輸入、輸出、推理摘要與評估腳本整包放上 GitHub，連失敗的那個實驗也留在裡面: [48.1% 的關鍵實驗放寬過條件：LLM 直接改權重拆解](2026-11-03-weight-space-programming-llm-reads-writes-weights.md)
 
-兩則是不同供應商的前沿模型發布，標題句涵蓋範圍的縮水方式相同：本則的標題句只涵蓋四項評測中的三項，該則的 almost all 在逐列核對後落在 AA-Briefcase v1.1 的 Elo 那一列，Opus 5.5 以 1800 對 1785 領先；差別是該則給了絕對分數，外部至少數得出來是哪一列: [Fable 與 Mythos 5.2 降價發布，十四列評測、生科須審核](2026-11-10-anthropic-claude-fable-mythos-5-2-launch.md)
+兩則是不同供應商的前沿模型發布，標題句涵蓋範圍的縮水方式相同：本則的標題句只涵蓋四項評測中的三項，該則的 almost all 在逐列核對後落在 AA-Briefcase v1.1 的 Elo 那一列，Opus 5.5 以 1800 對 1785 領先；差別是該則給了絕對分數，外部至少數得出來是哪一列: [要先過審核才拿得到生醫能力：Fable 與 Mythos 5.2 一探究竟](2026-11-10-anthropic-claude-fable-mythos-5-2-launch.md)
 
-兩則都是以價格與速度為主軸的非旗艦型號發布，揭露方式剛好相反：本則給了相對價格卻在科學那一欄落後自家旗艦，該則給了絕對單價（每百萬 input token 1.50 美元、output 7.50 美元、整個一百萬 token 視窗不跳階），並宣稱指數分數反而高過自家前沿的 Argon —— 不過領先幅度是 1 分，且該頁未標示取數日期: [Gemini 4 Hydrogen：主打快速執行，指數分數高過 Argon](2026-11-16-gemini-4-hydrogen-agentic-execution-model.md)
+兩則都是以價格與速度為主軸的非旗艦型號發布，揭露方式剛好相反：本則給了相對價格卻在科學那一欄落後自家旗艦，該則給了絕對單價（每百萬 input token 1.50 美元、output 7.50 美元、整個一百萬 token 視窗不跳階），並宣稱指數分數反而高過自家前沿的 Argon —— 不過領先幅度是 1 分，且該頁未標示取數日期: [非旗艦卻超過自家 Argon：Gemini 4 Hydrogen 解析](2026-11-16-gemini-4-hydrogen-agentic-execution-model.md)
 
 ## 實務的啟發
 

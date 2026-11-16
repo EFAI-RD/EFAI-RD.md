@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "FDA 給心血管 ML 軟體一個條號：通報，不是診斷"
+title: "AI 只能提醒不能下診斷：FDA 心血管 ML 軟體新條號解析"
 category: industry-watch
 date: 2026-09-15
 updated: 2026-09-15
@@ -40,7 +40,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# FDA 給心血管 ML 軟體一個條號：通報，不是診斷
+# AI 只能提醒不能下診斷：FDA 心血管 ML 軟體新條號解析
 
 ## 來源
 
@@ -81,9 +81,9 @@ FDA 在 2026 年 9 月把「用機器學習提示單一心血管疾患可能性�
 
 該文同屬心血管／心衰竭 AI 脈絡；本則補上美國對「ML 通知軟體」的成文分類與「通報≠診斷」邊界: [nMAS：心衰竭特徵工程全程留證據鏈，但只跑了 500 筆假資料](../ai-papers/2026-09-15-tracing-the-heart.md)
 
-兩則同屬 CDRH 對 AI／ML 醫材的監管脈絡；該則是 GenAI 裝置的討論文件／徵求意見，本則是已編入 21 CFR 的 Class II 最終命令: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](./2026-09-17-fda-genai-devices-discussion-paper.md)
+兩則同屬 CDRH 對 AI／ML 醫材的監管脈絡；該則是 GenAI 裝置的討論文件／徵求意見，本則是已編入 21 CFR 的 Class II 最終命令: [看方向可以、當合規依據不行：FDA GenAI 醫材討論文件解讀](./2026-09-17-fda-genai-devices-discussion-paper.md)
 
-兩則同屬 FDA 對 AI／ML 醫材的監管動作；本則確立 Class II 成文分類與 predicate 路徑，該則顯示 FDA 拒絕把彈性推進到免除 510(k): [放射科 AI 想免審，FDA 說不：舊許可不是通行證](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
+兩則同屬 FDA 對 AI／ML 醫材的監管動作；本則確立 Class II 成文分類與 predicate 路徑，該則顯示 FDA 拒絕把彈性推進到免除 510(k): [舊許可不是通行證：FDA 駁回放射科 CAD 510(k) 免審解讀](./2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
 
 ## 實務的啟發
 

@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "Cios Go ID：顯示器裝在機身上的行動式 C 臂"
+title: "顯示器裝上機身的行動式 C 臂：Cios Go ID 拆解"
 category: industry-watch
 date: 2026-10-29
 updated: 2026-11-12
@@ -43,7 +43,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# Cios Go ID：顯示器裝在機身上的行動式 C 臂
+# 顯示器裝上機身的行動式 C 臂：Cios Go ID 拆解
 
 ## 來源
 
@@ -133,17 +133,17 @@ Siemens Healthineers 在 2026-10-20 於 DKOU 2026 發表行動式 C 臂平台 Ci
 
 ## 與書庫其他文章的關係
 
-同一家公司、同一種發表方式，而限定條件的可見度不同：該則的 `510(k) pending` 與「尚未在任何市場銷售」寫在有編號的註腳裡，讀者順著編號就找得到；本則的三行限定寫在頁尾，正文沒有對應的錨點。兩則並讀可以看出「限定條件寫在哪裡」有連續的層級，而不是有或沒有的二分: [Accela：以 NeoArc 動態弧形治療為核心的放療機](2026-10-13-siemens-accela-radiotherapy-launch.md)
+同一家公司、同一種發表方式，而限定條件的可見度不同：該則的 `510(k) pending` 與「尚未在任何市場銷售」寫在有編號的註腳裡，讀者順著編號就找得到；本則的三行限定寫在頁尾，正文沒有對應的錨點。兩則並讀可以看出「限定條件寫在哪裡」有連續的層級，而不是有或沒有的二分: [影像到出束最快 90 秒：Siemens Accela 上市前搶先看](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-相隔八天的同一家公司兩則公告剛好互為說明：該則宣布停售四款通用影像超音波、把超音波業務收攏到 procedural imaging 與 image-guided therapy，本則就是同一個方向在另一條產線上的具體產品，而本則具名發言人的職稱正是 `head of Image-Guided Surgery and Robotics`，兩則並讀可以把一則「退出」與一則「發表」看成同一項組合調整的兩端: [Siemens 退出一般影像超音波，四款機型當日停售](2026-10-14-siemens-ultrasound-general-imaging-exit.md)
+相隔八天的同一家公司兩則公告剛好互為說明：該則宣布停售四款通用影像超音波、把超音波業務收攏到 procedural imaging 與 image-guided therapy，本則就是同一個方向在另一條產線上的具體產品，而本則具名發言人的職稱正是 `head of Image-Guided Surgery and Robotics`，兩則並讀可以把一則「退出」與一則「發表」看成同一項組合調整的兩端: [四款機型當日停售：Siemens 退出一般影像超音波怎麼回事](2026-10-14-siemens-ultrasound-general-imaging-exit.md)
 
-兩則都是取像端機台的發表，而兩家對「證據」的呈現方式差距很大：該則委託第三方執行了 21 位醫師參與的比較研究並公開四頁白皮書，本則的產品頁設有一個標示為 `Evidence` 的區塊，內容為假體影像與兩段使用者證言。兩則並讀可以看出取像端設備的證據形態目前由各廠商自訂: [LOGIQ Focus：把高階影像能力帶進日常超音波檢查](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
+兩則都是取像端機台的發表，而兩家對「證據」的呈現方式差距很大：該則委託第三方執行了 21 位醫師參與的比較研究並公開四頁白皮書，本則的產品頁設有一個標示為 `Evidence` 的區塊，內容為假體影像與兩段使用者證言。兩則並讀可以看出取像端設備的證據形態目前由各廠商自訂: [高階影像能力下放日常機種：LOGIQ Focus 超音波解析](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
-兩則都是在醫學會議現場以臨床人員的使用經驗描述一台產品，而同一頁的小字寫明它在相關市場尚不能商業供應：本則的限制是產品尚未符合 MDR 2017/745 的全部要求、未商業化供應，該則的限制是公告所稱可販售範圍為「部分歐盟成員國」，而受邀評估的五家機構中只有法國一家在歐盟境內。兩則合看可以看出「現場證言」與「法規小字」在同一頁並存已經是常態: [StarGuide GX：4D SPECT/CT 交給五家機構評估](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
+兩則都是在醫學會議現場以臨床人員的使用經驗描述一台產品，而同一頁的小字寫明它在相關市場尚不能商業供應：本則的限制是產品尚未符合 MDR 2017/745 的全部要求、未商業化供應，該則的限制是公告所稱可販售範圍為「部分歐盟成員國」，而受邀評估的五家機構中只有法國一家在歐盟境內。兩則合看可以看出「現場證言」與「法規小字」在同一頁並存已經是常態: [4D SPECT/CT 交五家機構評估：StarGuide GX 一探究竟](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
-兩則都是 C 臂類取像設備在國際年會現場的發表，證據的呈現位置不同：本則的產品頁設有 `Evidence` 區塊（內容為假體影像與使用者證言），該則提供的是相容臨床工具清單。兩則並讀可以看出同一品類的發表慣例與各自的側重: [Allia Celeo：天花板吊掛介入影像機，歐盟 CE、美國待審](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
+兩則都是 C 臂類取像設備在國際年會現場的發表，證據的呈現位置不同：本則的產品頁設有 `Evidence` 區塊（內容為假體影像與使用者證言），該則提供的是相容臨床工具清單。兩則並讀可以看出同一品類的發表慣例與各自的側重: [歐盟可買、美國待審的吊掛介入機：Allia Celeo 一探究竟](2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md)
 
-兩則都是正文以臨床語彙描述一台機器、而同頁小字寫明它在市場上還不能供應，差別在小字擋住的範圍：本則擋的是歐盟醫療器材法規（Medical Device Regulation，MDR）2017/745 的商業供應，該則的註腳一次擋掉美國 FDA 與所有其他全球主管機關，並把用途限定為研究: [GE 籌組九家機構神經影像聯盟，圍繞一台研究用高梯度 3.0T MR](2026-11-11-ge-healthcare-magnus-neuro-alliance.md)
+兩則都是正文以臨床語彙描述一台機器、而同頁小字寫明它在市場上還不能供應，差別在小字擋住的範圍：本則擋的是歐盟醫療器材法規（Medical Device Regulation，MDR）2017/745 的商業供應，該則的註腳一次擋掉美國 FDA 與所有其他全球主管機關，並把用途限定為研究: [不談 AI 拼硬體梯度：GE 籌組九機構 MAGNUS 神經影像聯盟解析](2026-11-11-ge-healthcare-magnus-neuro-alliance.md)
 
 ## 實務的啟發
 

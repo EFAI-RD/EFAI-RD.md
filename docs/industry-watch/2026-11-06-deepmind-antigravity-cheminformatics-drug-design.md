@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "DeepMind 化學資訊學 Skills：代理程式跑完一輪藥物設計"
+title: "代理程式串起既有化學工具：DeepMind 藥物設計 Skills 解剖"
 category: industry-watch
 date: 2026-11-06
 updated: 2026-11-12
@@ -49,7 +49,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# DeepMind 化學資訊學 Skills：代理程式跑完一輪藥物設計
+# 代理程式串起既有化學工具：DeepMind 藥物設計 Skills 解剖
 
 ## 來源
 
@@ -174,15 +174,15 @@ Google DeepMind 在 2026-11-03 發表 Antigravity 的 `Cheminformatics Skills`�
 
 ## 與書庫其他文章的關係
 
-同一產品線相隔十九天的第二篇科學示範，而兩則的證據缺口只是換了位置、沒有補上 —— 該則的加速宣稱只寫在網頁中繼資料與產品頁上、正文一次都沒量過時間；本則把「一小時」正式寫進了正文第二段，但量測方式、樣本數與被壓縮的基準流程定義仍然三項皆無。兩則並讀可以看出同一種宣稱如何在版本之間變得更醒目而非更可查: [DeepMind 抗菌胜肽示範：代理程式從資料庫走到實驗計畫](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
+同一產品線相隔十九天的第二篇科學示範，而兩則的證據缺口只是換了位置、沒有補上 —— 該則的加速宣稱只寫在網頁中繼資料與產品頁上、正文一次都沒量過時間；本則把「一小時」正式寫進了正文第二段，但量測方式、樣本數與被壓縮的基準流程定義仍然三項皆無。兩則並讀可以看出同一種宣稱如何在版本之間變得更醒目而非更可查: [代理程式從資料庫走到實驗計畫：DeepMind 抗菌胜肽解剖](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
 
-兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查的深度不同：該則同日釋出六份技術報告，公告裡的數字能逐項對照回原始報告；本則以工作流程示範為主，代理程式側未公布模型指標。兩則並讀可以看出「廠商自報」在證據密度上的落差: [Anthropic 公布六個藥物開發組織接入 Claude 的早期成果](2026-10-28-anthropic-drug-development-case-studies.md)
+兩則是前沿模型供應商相隔七天發布的藥物開發成果，可回查的深度不同：該則同日釋出六份技術報告，公告裡的數字能逐項對照回原始報告；本則以工作流程示範為主，代理程式側未公布模型指標。兩則並讀可以看出「廠商自報」在證據密度上的落差: [藥物開發端的第一批成果：Anthropic 六個合作組織大公開](2026-10-28-anthropic-drug-development-case-studies.md)
 
-同一家公司相隔一天的兩則發布恰好構成對照：該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，並把量化門檻留給各團隊自訂；本則的示範則是那套框架所指的第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [Google 健康 AI 評估框架：三個領域、三種方法、17 個維度](2026-11-05-google-health-ai-evaluation-framework.md)
+同一家公司相隔一天的兩則發布恰好構成對照：該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，並把量化門檻留給各團隊自訂；本則的示範則是那套框架所指的第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [給了框架不給門檻：Google 健康 AI 評估三法十七維解讀](2026-11-05-google-health-ai-evaluation-framework.md)
 
-該則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與本則是同一條路線的兩端：本則示範的是代理式平台怎麼串起既有的化學工具，該則是即將被串進去的專用科學模型本身: [AlphaGenome 2：變異效應預測從組織平均走到細胞類型](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
+該則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與本則是同一條路線的兩端：本則示範的是代理式平台怎麼串起既有的化學工具，該則是即將被串進去的專用科學模型本身: [不拚通用模型拚細胞條件：AlphaGenome 2 變異預測拆解](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
 
-本則示範的藥物設計代理流程就跑在 Google Antigravity 上，該則則改變了同一個環境裡的模型指派方式：Orchestrator 讓前沿模型 Carbon 負責探索與規劃、新的執行層 Hydrogen 負責寫修改與跑測試，卡住時再交還 Carbon。本則那類多步驟科研流程的成本與延遲結構因此被重新切分，而這項效益目前仍只有供應商自報的相對值: [Gemini 4 Hydrogen：主打快速執行，指數分數高過 Argon](2026-11-16-gemini-4-hydrogen-agentic-execution-model.md)
+本則示範的藥物設計代理流程就跑在 Google Antigravity 上，該則則改變了同一個環境裡的模型指派方式：Orchestrator 讓前沿模型 Carbon 負責探索與規劃、新的執行層 Hydrogen 負責寫修改與跑測試，卡住時再交還 Carbon。本則那類多步驟科研流程的成本與延遲結構因此被重新切分，而這項效益目前仍只有供應商自報的相對值: [非旗艦卻超過自家 Argon：Gemini 4 Hydrogen 解析](2026-11-16-gemini-4-hydrogen-agentic-execution-model.md)
 
 ## 實務的啟發
 

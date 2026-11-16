@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "放射科 AI 想免審，FDA 說不：舊許可不是通行證"
+title: "舊許可不是通行證：FDA 駁回放射科 CAD 510(k) 免審解讀"
 category: industry-watch
 date: 2026-09-18
 updated: 2026-09-18
@@ -48,7 +48,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# 放射科 AI 想免審，FDA 說不：舊許可不是通行證
+# 舊許可不是通行證：FDA 駁回放射科 CAD 510(k) 免審解讀
 
 ## 來源
 
@@ -90,15 +90,15 @@ evidence_reviewed: true
 
 ## 與書庫其他文章的關係
 
-兩則同屬 FDA 對 AI／ML 醫材的監管動作；該則把 De Novo 結果編入 Class II 成文分類、為 510(k) 開 predicate 之門，本則顯示 FDA 不願把門再開大到免除 510(k) 本身: [FDA 給心血管 ML 軟體一個條號：通報，不是診斷](./2026-09-15-fda-cardio-ml-notification.md)
+兩則同屬 FDA 對 AI／ML 醫材的監管動作；該則把 De Novo 結果編入 Class II 成文分類、為 510(k) 開 predicate 之門，本則顯示 FDA 不願把門再開大到免除 510(k) 本身: [AI 只能提醒不能下診斷：FDA 心血管 ML 軟體新條號解析](./2026-09-15-fda-cardio-ml-notification.md)
 
-該則是徵求意見的討論文件，本則是具體請願的駁回定案；兩則對照可見 FDA「探索新框架」與「守住現行關卡」並行: [GenAI 醫材要怎麼管？FDA 還在問，這不是指引](./2026-09-17-fda-genai-devices-discussion-paper.md)
+該則是徵求意見的討論文件，本則是具體請願的駁回定案；兩則對照可見 FDA「探索新框架」與「守住現行關卡」並行: [看方向可以、當合規依據不行：FDA GenAI 醫材討論文件解讀](./2026-09-17-fda-genai-devices-discussion-paper.md)
 
-影像產品能不能到病人身上，同時卡在法規與供應鏈兩道關卡：本則處理前者（美國主管機關對放射科影像產品上市路徑的最終命令），該則處理後者（PET 放射性藥物的半衰期、運送半徑與代工網絡），兩則合看才是完整的可及性圖像: [GE 買下自家代工廠 SOFIE，取得 FAPI-74 美國權利](./2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
+影像產品能不能到病人身上，同時卡在法規與供應鏈兩道關卡：本則處理前者（美國主管機關對放射科影像產品上市路徑的最終命令），該則處理後者（PET 放射性藥物的半衰期、運送半徑與代工網絡），兩則合看才是完整的可及性圖像: [把自家代工廠買回來：GE 收購 SOFIE 與 FAPI-74 權利解析](./2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md)
 
-本則確認既有 clearance 不會自動延伸到後續產品、510(k) 這道關卡並未放寬，該則則是一個仍在 510(k) 審查中、卻已用「未來已到來」對外發表的放射治療系統，兩則合看可以看出「發表時點」與「可用時點」之間的制度性距離: [Accela：以 NeoArc 動態弧形治療為核心的放療機](2026-10-13-siemens-accela-radiotherapy-launch.md)
+本則確認既有 clearance 不會自動延伸到後續產品、510(k) 這道關卡並未放寬，該則則是一個仍在 510(k) 審查中、卻已用「未來已到來」對外發表的放射治療系統，兩則合看可以看出「發表時點」與「可用時點」之間的制度性距離: [影像到出束最快 90 秒：Siemens Accela 上市前搶先看](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
-本則是 FDA 駁回放射科 CAD／CADt 軟體 510(k) 免除請願的最終決定；該則的兩項功能正是走完這條 510(k) 路徑的產物，因此樣本數、信賴區間與適用族群限制都留在公開的 summary 裡可供查閱。兩則並讀可以看出這道關卡守住之後，外部實際多讀到了什麼: [Vscan Air 新增八區肺部掃描導引與主動脈瓣狹窄提示](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md)
+本則是 FDA 駁回放射科 CAD／CADt 軟體 510(k) 免除請願的最終決定；該則的兩項功能正是走完這條 510(k) 路徑的產物，因此樣本數、信賴區間與適用族群限制都留在公開的 summary 裡可供查閱。兩則並讀可以看出這道關卡守住之後，外部實際多讀到了什麼: [掌上超音波加肺部導引與瓣膜提示：Vscan Air 510(k) 分析](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md)
 
 ## 實務的啟發
 

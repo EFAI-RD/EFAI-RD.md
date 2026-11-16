@@ -204,7 +204,7 @@ Rubric 定義條件、給分與證據階層；八類特徵各自在類別內把�
 
 提供閱讀 nMAS「專責代理＋有界稽核」時所需的多代理譜系背景: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
-說明美國對「心血管 ML 通知軟體」的成文分類與通報／診斷邊界，可對照研究管線的落地距離: [FDA 給心血管 ML 軟體一個條號：通報，不是診斷](../industry-watch/2026-09-15-fda-cardio-ml-notification.md)
+說明美國對「心血管 ML 通知軟體」的成文分類與通報／診斷邊界，可對照研究管線的落地距離: [AI 只能提醒不能下診斷：FDA 心血管 ML 軟體新條號解析](../industry-watch/2026-09-15-fda-cardio-ml-notification.md)
 
 nMAS 把射出分率當成心衰竭特徵的上游欄位，該研究則處理那個欄位如何從心臟超音波自動量測及其誤差結構: [先分割左心室再估射出分率？一條 10.5% 的天花板](2026-09-23-segmentation-ceiling-ef-regression.md)
 

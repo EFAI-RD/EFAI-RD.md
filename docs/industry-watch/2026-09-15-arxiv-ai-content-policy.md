@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_exclude: true
-title: "幻覺引用沒抓掉，arXiv 可能禁你投稿一年"
+title: "幻覺引用沒抓掉可能禁投一年：arXiv AI 內容政策怎麼回事"
 category: industry-watch
 date: 2026-09-15
 updated: 2026-09-15
@@ -44,7 +44,7 @@ evidence_reviewed: true
 
 [Home](../) · [Industry Watch](./)
 
-# 幻覺引用沒抓掉，arXiv 可能禁你投稿一年
+# 幻覺引用沒抓掉可能禁投一年：arXiv AI 內容政策怎麼回事
 
 ## 來源
 

@@ -1,7 +1,7 @@
 ---
 parent: Industry Watch
 nav_order: 4
-title: "Fable 與 Mythos 5.2 降價發布，十四列評測、生科須審核"
+title: "要先過審核才拿得到生醫能力：Fable 與 Mythos 5.2 一探究竟"
 category: industry-watch
 date: 2026-11-10
 updated: 2026-11-12
@@ -38,7 +38,7 @@ refs:
 
 [Home](../) · [Industry Watch](./)
 
-# Fable 與 Mythos 5.2 降價發布，十四列評測、生科須審核
+# 要先過審核才拿得到生醫能力：Fable 與 Mythos 5.2 一探究竟
 
 ## 來源
 
@@ -164,11 +164,11 @@ Anthropic 在 2026-11-09 發布 Claude Fable 5.2 與 Claude Mythos 5.2 [(ref: la
 
 ## 與書庫其他文章的關係
 
-同一家公司、同一個取用落差的兩次出現：該則發現決定生物與化學研究者能用到哪一級模型的限制寫在兩個月前的另一頁，本則的落差完全相同 —— 生醫評測的數字掛在 Mythos 5.2 名下，而它的取用條件寫在 2026-09-17 的 Life Sciences Verification Program 頁，公告本身只寫了一句可以申請: [Anthropic 把免費 Claude 額度擴大到基金會與研究機構](2026-10-30-anthropic-ai-for-science-foundations-expansion.md)
+同一家公司、同一個取用落差的兩次出現：該則發現決定生物與化學研究者能用到哪一級模型的限制寫在兩個月前的另一頁，本則的落差完全相同 —— 生醫評測的數字掛在 Mythos 5.2 名下，而它的取用條件寫在 2026-09-17 的 Life Sciences Verification Program 頁，公告本身只寫了一句可以申請: [基金會與研究機構可申請免費額度：Anthropic 擴編重點整理](2026-10-30-anthropic-ai-for-science-foundations-expansion.md)
 
-兩則都是同一家公司的生命科學成果，而最關鍵的限定條件都不在正文：該則的樣本數與成功標準訂定時點藏在要點開的面板裡，本則判定 AAV capsid「預測準確」的門檻（兩個模型任一達 Cα RMSD 3 Å 以內）與被寫進提示詞的前人初始化方法，都只寫在第三條註腳: [Anthropic 公布六個藥物開發組織接入 Claude 的早期成果](2026-10-28-anthropic-drug-development-case-studies.md)
+兩則都是同一家公司的生命科學成果，而最關鍵的限定條件都不在正文：該則的樣本數與成功標準訂定時點藏在要點開的面板裡，本則判定 AAV capsid「預測準確」的門檻（兩個模型任一達 Cα RMSD 3 Å 以內）與被寫進提示詞的前人初始化方法，都只寫在第三條註腳: [藥物開發端的第一批成果：Anthropic 六個合作組織大公開](2026-10-28-anthropic-drug-development-case-studies.md)
 
-兩則是不同供應商的前沿模型發布，標題句涵蓋範圍的縮水方式相同：該則的標題句只涵蓋四項評測中的三項，本則的 almost all 在逐列核對後落在 AA-Briefcase v1.1 的 Elo 那一列，Opus 5.5 以 1800 對 1785 領先；差別是本則給了絕對分數，外部至少數得出來是哪一列: [GPT-6.1 Sol 只要五分之一價，科學那一欄仍是 Astra](2026-10-07-openai-gpt-6-1-sol-launch.md)
+兩則是不同供應商的前沿模型發布，標題句涵蓋範圍的縮水方式相同：該則的標題句只涵蓋四項評測中的三項，本則的 almost all 在逐列核對後落在 AA-Briefcase v1.1 的 Elo 那一列，Opus 5.5 以 1800 對 1785 領先；差別是本則給了絕對分數，外部至少數得出來是哪一列: [價格只要五分之一，但科學能力沒跟上：GPT-6.1 Sol 解剖](2026-10-07-openai-gpt-6-1-sol-launch.md)
 
 ## 實務的啟發
 
