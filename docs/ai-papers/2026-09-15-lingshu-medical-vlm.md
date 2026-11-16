@@ -19,6 +19,7 @@ refs:
     title: "How Far Have Medical Vision-Language Models Come? A Comprehensive Benchmarking Study"
     url: "https://arxiv.org/html/2507.11200v2"
 related_articles:
+  - "2026-11-16-pneumothorax-silent-failure-medical-vlm.md"
   - "2026-09-16-medgpt-oss.md"
   - "2026-09-16-medgemma-1-5.md"
   - "2026-09-15-conch-pathology-vlm.md"
@@ -181,6 +182,8 @@ CASE 把 Lingshu-32B 與 7B 放進需要自己調閱影像與量測的縱向 MRI
 NPCBench 把 Lingshu-7B 與 32B 放進鼻咽癌的病理、MRI 分期與照護路徑評估，32B 在 CarePath 的 Care 為 55.3%、同一病人全對的 Strict 只有 2.0%，可補上本篇模型在次專科病程任務上的邊界: [NPCBench：照護題答對近九成，同一位鼻咽癌病人全對最多 23%](2026-11-09-npcbench-nasopharyngeal-carepath-benchmark.md)
 
 MedChain-R1 把 Lingshu 32B 列為六個候選推理教師之一（最後選用 FlemingVL-38B），並在監督微調後加 GRPO，同樣只得到很小的整體增益: [MedChain-R1：換上別題的推理，定位 mIoU 掉 12 點](2026-11-10-medchain-r1-sequential-grounding-rationale.md)
+
+該稽核在同一個 Qwen2.5-VL-7B 主幹上逐徵象比較，Lingshu-7B 在 ChestX-ray14 與 SIIM-ACR 抓到 67% 與 86% 的氣胸，未微調主幹與 HuatuoGPT-Vision 則一例未抓，補上本篇平均 VQA 分數看不到的逐徵象差異: [胸片 VLM 稽核：兩個模型對 432 例氣胸全答「沒有」](2026-11-16-pneumothorax-silent-failure-medical-vlm.md)
 
 ## 實務的啟發
 

@@ -159,6 +159,8 @@ ModaLens 在胸片加報告的情境下交換影像量測醫療 VLM 是否仍看
 
 ModaLens 固定報告與問題、交換影像量測醫療 VLM 是否仍看影像，該研究則讓胸片與臨床照片同時在場，量到一種影像指向的診斷會讓模型在另一種影像裡「看見」不存在的發現: [配上不相符的胸片，照片幻覺從 25–37.5% 升到 45–57.5%](2026-11-05-trick-or-treat-mismatched-photo-cxr-hallucination.md)
 
+ModaLens 以交換影像與 yes/no margin 量測有報告時模型是否仍看影像，該稽核用同類的換病人影像與 margin 分析，問的是模型會不會整個漏掉單一徵象: [胸片 VLM 稽核：兩個模型對 432 例氣胸全答「沒有」](2026-11-16-pneumothorax-silent-failure-medical-vlm.md)
+
 ## 實務的啟發
 
 第一，多模態系統不能只報 joint-input accuracy。至少應加入單模態消融、影像交換、文字交換與矛盾案例，分別量測輸出對每一模態的敏感度；如果 ground truth 來自其中一個模態，還要另外取得不依附該模態的標註。
