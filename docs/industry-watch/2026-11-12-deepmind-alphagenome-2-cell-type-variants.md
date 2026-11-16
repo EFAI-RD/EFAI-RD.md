@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 1
+nav_order: 2
 title: "AlphaGenome 2：變異效應預測從組織平均走到細胞類型"
 category: industry-watch
 date: 2026-11-12

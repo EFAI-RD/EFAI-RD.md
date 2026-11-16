@@ -27,6 +27,8 @@ related_articles:
     relation: "同一家公司相隔一天的兩則發布恰好構成對照 —— 該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，本則的示範正是那套框架所指的第一種評估的反面：模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值"
   - path: "2026-11-12-deepmind-alphagenome-2-cell-type-variants.md"
     relation: "該則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與本則是同一條路線的兩端：本則示範的是代理式平台怎麼串起既有的化學工具，該則是即將被串進去的專用科學模型本身"
+  - path: "2026-11-16-gemini-4-hydrogen-agentic-execution-model.md"
+    relation: "本則示範的藥物設計代理流程就跑在 Google Antigravity 上，該則則改變了同一個環境裡的模型指派方式：Orchestrator 讓前沿模型 Carbon 負責探索與規劃、新的執行層 Hydrogen 負責寫修改與跑測試，卡住時再交還 Carbon。本則那類多步驟科研流程的成本與延遲結構因此被重新切分，而這項效益目前仍只有供應商自報的相對值"
 refs:
   pr:
     title: "Google DeepMind：Agentic cheminformatics with Google Antigravity（官方部落格，2026-11-03）"
@@ -179,6 +181,8 @@ Google DeepMind 在 2026-11-03 發表 Antigravity 的 `Cheminformatics Skills`�
 同一家公司相隔一天的兩則發布恰好構成對照：該則主張健康 AI 的評估要同時涵蓋 closed-question benchmarks、autoraters 與 expert human review 三種方法，並把量化門檻留給各團隊自訂；本則的示範則是那套框架所指的第一種評估的反面 —— 模型被建起來、被宣稱在 held-out set 上驗證過，卻沒有公布任何一個評估數值。兩則並讀可以看出「有評估框架」與「公布評估結果」是兩件事: [Google 健康 AI 評估框架：三個領域、三種方法、17 個維度](2026-11-05-google-health-ai-evaluation-framework.md)
 
 該則公告結尾預告 AlphaGenome 2 Skills 將進入 Google Antigravity，與本則是同一條路線的兩端：本則示範的是代理式平台怎麼串起既有的化學工具，該則是即將被串進去的專用科學模型本身: [AlphaGenome 2：變異效應預測從組織平均走到細胞類型](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
+
+本則示範的藥物設計代理流程就跑在 Google Antigravity 上，該則則改變了同一個環境裡的模型指派方式：Orchestrator 讓前沿模型 Carbon 負責探索與規劃、新的執行層 Hydrogen 負責寫修改與跑測試，卡住時再交還 Carbon。本則那類多步驟科研流程的成本與延遲結構因此被重新切分，而這項效益目前仍只有供應商自報的相對值: [Gemini 4 Hydrogen：主打快速執行，指數分數高過 Argon](2026-11-16-gemini-4-hydrogen-agentic-execution-model.md)
 
 ## 實務的啟發
 

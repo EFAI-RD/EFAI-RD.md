@@ -26,6 +26,8 @@ related_articles:
     relation: "該則提供了本則缺少的絕對量 —— 1,946 個代理、39,185 次論文閱讀、16,445 筆保留引用 —— 並把單一代理與分散代理在同樣模型、提示與工具下直接對跑，是少見把 token 用量與產出品質放在同一張表上的公開材料"
   - path: "2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md"
     relation: "本則預測 agentic workflow 的推論成本到 2028 年增加逾五倍，卻沒有給任何絕對量、也沒有基準年；該則是同一種寫法出現在效益側 —— 三個官方位置給出三種加速說法，而被壓縮前後的實測值一律缺席。兩則並讀可以看出成本與效益在缺少絕對值時的對稱性：都無法被否證，也都無法進入任何採購試算"
+  - path: "2026-11-16-gemini-4-hydrogen-agentic-execution-model.md"
+    relation: "本則預測代理式工作流程的推論成本到 2028 年漲逾五倍卻未給任何絕對量；該則是供應商針對同一個成本問題端出的產品答案 —— 以較低單價的執行層模型承接高頻執行段落，再由 Orchestrator 在單一任務中於前沿模型與執行層之間雙向切換，官方自報平均少用 24% quota、快 19% 完成。兩則並讀可以看出，需求側的成本預測與供給側的節省宣稱同樣只有相對值，而該則那組數字在兩個官方頁上還標了不同的評測版本"
 refs:
   pr:
     title: "Gartner：Gartner Predicts AI Inference Costs Per Agentic Workflow Will Increase More Than Fivefold Through 2028（官方新聞稿）"
@@ -155,6 +157,8 @@ Gartner 在本則開出的處方是 inference-tiering、routing 與 orchestratio
 本則主張 agentic workflow 的推論成本將隨工作流程複雜度上升，卻沒有給任何絕對量；該則提供了一組被量出來的絕對量 —— 1,946 個代理、39,185 次論文閱讀、16,445 筆保留引用 —— 並把單一代理與分散代理在同樣模型、提示與工具下直接對跑，是少見把 token 用量與產出品質放在同一張表上的公開材料，可以當作本則那句預測的具體下界: [1,946 個 AI 代理各讀一個基因擾動，32 分鐘產出全腦圖譜解讀](2026-10-22-openai-distributed-agents-perturb-seq-atlas.md)
 
 本則預測 agentic workflow 的推論成本到 2028 年增加逾五倍，卻沒有給任何絕對量、也沒有基準年；該則是同一種寫法出現在效益側 —— 三個官方位置給出三種加速說法，而被壓縮前後的實測值一律缺席。兩則並讀可以看出成本與效益在缺少絕對值時的對稱性：都無法被否證，也都無法進入任何採購試算: [DeepMind 抗菌胜肽示範：代理程式從資料庫走到實驗計畫](2026-10-29-deepmind-antigravity-antimicrobial-peptide-walkthrough.md)
+
+本則預測代理式工作流程的推論成本到 2028 年漲逾五倍卻未給任何絕對量；該則是供應商針對同一個成本問題端出的產品答案 —— 以較低單價的執行層模型承接高頻執行段落，再由 Orchestrator 在單一任務中於前沿模型與執行層之間雙向切換，官方自報平均少用 24% quota、快 19% 完成。兩則並讀可以看出，需求側的成本預測與供給側的節省宣稱同樣只有相對值，而該則那組數字在兩個官方頁上還標了不同的評測版本: [Gemini 4 Hydrogen：主打快速執行，指數分數高過 Argon](2026-11-16-gemini-4-hydrogen-agentic-execution-model.md)
 
 ## 實務的啟發
 
