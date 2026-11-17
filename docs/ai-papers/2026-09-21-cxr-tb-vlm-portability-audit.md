@@ -157,7 +157,7 @@ VinDr-CXR 用的是 version 1.0.0 測試集的 global image-level 標註，來�
 
 負類換人之後，難度整個改變。固定同一批 TB 影像、把 healthy 控制換成 sick non-TB 控制，四個模型的 AUROC 全部下降，幅度 0.075 至 0.306，四個成對區間都不含 0，Holm 校正後的 permutation p 值都約 0.0004。deferral 也跟著惡化：MedSigLIP 的 AURC 由 0.017 升到 0.447，BioMedCLIP 由 0.046 升到 0.315，CheXficient 由 0.071 升到 0.154。[(ref: main §3.3)](https://arxiv.org/html/2609.21763v1#S3.SS3)
 
-VinDr-CXR 把替代診斷指名出來後落差更明顯。CheXficient 對 no-finding 控制是 0.945，對 pneumonia 是 0.466、對 lung tumor 是 0.372；MedSigLIP 由 0.918 掉到 0.331 與 0.380；BioMedCLIP 由 0.780 掉到 0.334 與 0.306。六個醫療模型的指名疾病點估計都低於 0.5，不過 CheXficient 的 pneumonia 區間（0.404–0.524）含 0.5。分數方向在評估前就固定，事後反轉會定義出一個新的、未驗證的分類器。[(ref: main §3.3)](https://arxiv.org/html/2609.21763v1#S3.SS3) [(ref: main Table 11)](https://arxiv.org/html/2609.21763v1#S3.T11)
+VinDr-CXR 把替代診斷指名出來後落差更明顯。CheXficient 對 no-finding 控制是 0.945，對 pneumonia 是 0.466、對 lung tumor 是 0.372；MedSigLIP 由 0.918 掉到 0.331 與 0.380；BioMedCLIP 由 0.780 掉到 0.334 與 0.306。三個醫療模型對兩種指名疾病的六個點估計都低於 0.5，不過 CheXficient 的 pneumonia 區間（0.404–0.524）含 0.5。分數方向在評估前就固定，事後反轉會定義出一個新的、未驗證的分類器。[(ref: main §3.3)](https://arxiv.org/html/2609.21763v1#S3.SS3) [(ref: main Table 11)](https://arxiv.org/html/2609.21763v1#S3.T11)
 
 指定盛行率會改變分數可靠度的比較，而完全不動分數本身。在 50% 指定 TB 盛行率下，CheXficient 的 Brier 高於 MedSigLIP：Montgomery 高 0.042（95% CI 0.013–0.074）、Shenzhen 高 0.038（0.027–0.050）、TBX11K validation 高 0.024（0.006–0.041）；把盛行率改成 10%，三個世代的點估計排序全部反轉。盛行率也救不了負類問題：CheXficient 在 VinDr-CXR、10% 盛行率下對 no-finding 的 Brier 是 0.039，對 pneumonia 是 0.419，對 lung tumor 是 0.525。[(ref: main §3.4)](https://arxiv.org/html/2609.21763v1#S3.SS4) [(ref: main Table 12)](https://arxiv.org/html/2609.21763v1#S3.T12)
 
