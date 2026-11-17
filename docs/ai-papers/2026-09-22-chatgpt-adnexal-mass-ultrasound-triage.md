@@ -45,9 +45,9 @@ evidence_reviewed: true
 
 ## 方法摘要
 
-這是一項單中心回溯性研究，材料取自 2022 年 8 月至 2025 年 8 月間在 Bari 兩家機構接受術前骨盆超音波並隨後手術的病人。339 次檢查中有 39 例因缺少術前血清 CA125 被排除，最終納入 300 顆附件腫塊；參考標準是手術切除後的組織病理診斷，其中 145 顆良性（48.33%）、155 顆惡性（51.67%）。[(ref: main)](https://www.mdpi.com/2313-433X/12/9/462) [(ref: main Table 5)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t005)
+這是一項回溯性研究，材料取自 2022 年 8 月至 2025 年 8 月間在 Bari 兩家機構接受術前骨盆超音波並隨後手術的病人。339 次檢查中有 39 例因缺少術前血清 CA125 被排除，最終納入 300 顆附件腫塊；參考標準是手術切除後的組織病理診斷，其中 145 顆良性（48.33%）、155 顆惡性（51.67%）。[(ref: main)](https://www.mdpi.com/2313-433X/12/9/462) [(ref: main Table 5)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t005)
 
-一位具 15 年以上婦科超音波經驗的操作者以 IOTA 術語描述每顆腫塊，並同時給出 Simple Rules、ADNEX model 與 subjective assessment 三組判讀。同一份描述另外以純文字送進 ChatGPT（GPT-5）的網頁介面，查詢期間為 2025 年 9 月 2 日至 10 月 13 日。所有方法的敏感度、特異度、PPV、NPV 與正確率都以 Clopper–Pearson 法計算 95% 信賴區間；跨方法的比例差異以 Cochran's Q 檢定，事後兩兩比較用 Sheskin 的配對比例檢定。[(ref: main)](https://www.mdpi.com/2313-433X/12/9/462)
+參與機構各由一位具 15 年以上婦科超音波經驗的操作者執行檢查，以 IOTA 術語描述腫塊，並同時給出 Simple Rules、ADNEX model 與 subjective assessment 三組判讀。同一份描述另外以純文字送進 ChatGPT（GPT-5）的網頁介面，查詢期間為 2025 年 9 月 2 日至 10 月 13 日。所有方法的敏感度、特異度、PPV、NPV 與正確率都以 Clopper–Pearson 法計算 95% 信賴區間；跨方法的比例差異以 Cochran's Q 檢定，事後兩兩比較用 Sheskin 的配對比例檢定。[(ref: main)](https://www.mdpi.com/2313-433X/12/9/462)
 
 關鍵的計分約定是 intention-to-diagnose：任何未明確給出良性或惡性的輸出一律計為錯誤分類——惡性病灶算 false negative，良性病灶算 false positive。
 
@@ -59,11 +59,11 @@ evidence_reviewed: true
 
 執行條件被寫得相當明確，也構成本研究可重現性的邊界。每個案例只在一個全新開啟的獨立對話中提交一次；瀏覽、記憶與所有附加工具都關閉；由於使用的是網頁介面（plus 訂閱），temperature 與 top_p 等取樣參數無法自訂。換句話說，每一格結果都是單次抽樣的結果，run-to-run 的變異沒有被量測。[(ref: main)](https://www.mdpi.com/2313-433X/12/9/462)
 
-三個對照方法的規則也固定在事前：Simple Rules 依 B-rules／M-rules 判讀，兩組規則同時適用或同時不適用時留為 inconclusive；ADNEX model 以 10% 惡性風險為切點；subjective assessment 由該位資深操作者給出。三者與 ChatGPT 讀到的是同一份描述，差別只在判讀機制。
+三個對照方法的規則也固定在事前：Simple Rules 依 B-rules／M-rules 判讀，兩組規則同時適用或同時不適用時留為 inconclusive；ADNEX model 以 10% 惡性風險為切點；subjective assessment 由該機構的資深操作者給出。三者與 ChatGPT 讀到的是同一份描述，差別只在判讀機制。
 
 第二項任務是組織學診斷預測。此時提供的資訊包含形態、大小、color score 與術前 CA125；unilocular 腫塊另加囊內容物描述，multilocular 腫塊另加囊內容物與腔室數目。輸出與組織病理報告、以及專家的推定診斷並列比較。[(ref: main Table 8)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t008)
 
-論文另註明對僅限「明確分類」案例的敏感度分析也有執行，用以檢查 intention-to-diagnose 對結論的影響。
+論文另對僅限「明確分類」的案例做了敏感度分析，結果列在 Table 7B 下半：排除未明確分類後，Simple Rules（n = 226）敏感度 79.8%、特異度 95.9%；ChatGPT A（n = 273）為 79.4%／81.8%；ChatGPT B（n = 287）為 76.5%／79.7%。[(ref: main Table 7B)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t007)
 
 ## 資料與實驗
 
@@ -80,7 +80,7 @@ evidence_reviewed: true
 | 組織病理 | 惡性 | 155 | 51.67% |
 | 腹水 | 有 | 41 | 13.7% |
 
-下表重製論文 Table 6 與 Table 7B 的良惡性判別結果。所有百分比依 intention-to-diagnose 計算，括號內為 Clopper–Pearson 95% 信賴區間。惡性為陽性類別，盛行率固定為 51.67%。[(ref: main Table 6)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t006) [(ref: main Table 7B)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t007)
+下表重製論文 Table 6 與 Table 7B 的良惡性判別結果。所有百分比依 intention-to-diagnose 計算，括號內為 Clopper–Pearson 95% 信賴區間。惡性為陽性類別，盛行率固定為 51.67%。本表只取 Table 7B 上半的 intention-to-diagnose 結果；該表下半另有排除未明確分類後的敏感度分析，數值見「方法詳解」。[(ref: main Table 6)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t006) [(ref: main Table 7B)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t007)
 
 | 方法 | 正確率 | 敏感度 | 特異度 | PPV | NPV |
 |---|---|---|---|---|---|
@@ -92,13 +92,13 @@ evidence_reviewed: true
 
 下表重製論文 Table 7A 的分類計數。每一列的四格加總皆為 300。論文說明 inconclusive 依 intention-to-diagnose 併入 false negative 或 false positive，因此 inconclusive 欄記的是被重新歸類的件數，而不是四格之外的第五群。[(ref: main Table 7A)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t007)
 
-| 方法 | TP | FP | TN | FN | 其中 inconclusive |
+| 方法 | TP | FP | TN | FN | 其中 inconclusive／規則不適用（惡性；良性） |
 |---|---:|---:|---:|---:|---:|
 | Subjective assessment | 145 | 28 | 117 | 10 | 0 |
 | ADNEX model | 152 | 73 | 72 | 3 | 0 |
-| ChatGPT B | 114 | 35 | 110 | 41 | 13 |
-| ChatGPT A | 112 | 37 | 108 | 43 | 27 |
-| IOTA Simple Rules | 83 | 28 | 117 | 72 | 74 |
+| ChatGPT B | 114 | 35 | 110 | 41 | 13（6；7） |
+| ChatGPT A | 112 | 37 | 108 | 43 | 27（14；13） |
+| IOTA Simple Rules | 83 | 28 | 117 | 72 | 74（51；23） |
 
 下表重製論文 Table 8 的組織學診斷分布，三欄分別是病理報告、ChatGPT 的推定診斷與專家的推定診斷；三欄各自加總為 300。[(ref: main Table 8)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t008)
 
@@ -121,7 +121,7 @@ evidence_reviewed: true
 
 ## 結果
 
-在同一批 300 顆腫塊上，資深醫師的 subjective assessment 仍是整體正確率最高的方法（87.3%），其 93.5% 敏感度與 80.7% 特異度沒有明顯的取捨失衡。跨方法的比例差異在 Cochran's Q 檢定下顯著：惡性類別 Q = 108.04、良性類別 Q = 263.25，兩者 p < 0.001；Sheskin 事後檢定給出的最小顯著差異為惡性 10.1%、良性 9.5%。[(ref: main Table 6)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t006)
+在同一批 300 顆腫塊上，資深醫師的 subjective assessment 仍是整體正確率最高的方法（87.3%），其 93.5% 敏感度與 80.7% 特異度沒有明顯的取捨失衡。跨方法的比例差異在 Cochran's Q 檢定下顯著：良性類別 Q = 108.04、惡性類別 Q = 263.25，兩者 p < 0.001；Sheskin 事後檢定給出的最小顯著差異為惡性 10.1%、良性 9.5%。[(ref: main Table 6)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t006)
 
 兩個 ChatGPT 設定落在 73.3%（A）與 74.7%（B），介於 Simple Rules 的 66.7% 與專家的 87.3% 之間。值得注意的是它們的敏感度與特異度相當對稱（A 為 72.3%／74.5%，B 為 73.5%／75.9%），沒有像 ADNEX 那樣把判別力集中在單一方向。[(ref: main Table 7B)](https://www.mdpi.com/2313-433X/12/9/462#jimaging-12-00462-t007)
 
@@ -142,7 +142,7 @@ ChatGPT C、D、E 三個加入腹水、acoustic shadow 與 vascularized papillar
 - 模型無法直接判讀超音波影像，整條路徑依賴專家事先寫好的標準化描述；描述品質本身就是結果的一部分。[(ref: main)](https://www.mdpi.com/2313-433X/12/9/462)
 - 相較於以影像為輸入的 AI 系統，本研究的判別力較低。
 - 每案只用單一提示詞提交一次，未評估輸出變異（output variability）。
-- 單中心回溯性設計，需要多中心前瞻驗證。
+- 回溯性設計，需要前瞻性多中心驗證。
 
 以下是本書庫在核對過程中記下的觀察，屬於解讀而非論文結論：
 
@@ -150,7 +150,7 @@ ChatGPT C、D、E 三個加入腹水、acoustic shadow 與 vascularized papillar
 - 網頁介面無法固定取樣參數、每案又只跑一次，等於把 run-to-run 變異折進了點估計。論文已在限制中承認未評估輸出變異，但所有區間仍是以單次結果計算的抽樣區間，不含模型本身的隨機性。
 - 盛行率是關鍵的解讀邊界。本世代是手術病例序列，惡性比例高達 51.67%，遠高於任何篩檢或一般門診族群；正確率、PPV 與 NPV 都會隨盛行率移動，不能直接搬到未經篩選的族群。
 - 時間差也值得記錄。模型查詢期間為 2025 年 9 月至 10 月，論文 2026 年 9 月刊出，中間約有 11 個月；被稽核的是該時點的 GPT-5 行為，商用模型的後續更新不在本研究觀察範圍內。
-- Simple Rules 的 74 筆 inconclusive 與其 2×2 計數的關係，本文依論文的 intention-to-diagnose 說明理解為「已併入四格」；主文未逐格說明這 74 筆如何分配，因此該欄無法用來重建規則本身的原始判讀分布。
+- Simple Rules 的 74 筆規則不適用已依 intention-to-diagnose 併入四格，Table 7A 並以括號給出分配：偽陽性 28 ＝ 5 ＋ 23、偽陰性 72 ＝ 21 ＋ 51，其中 51 筆落在惡性、23 筆落在良性。換言之，規則本身明確判讀的錯誤只有 5 筆偽陽性與 21 筆偽陰性，其餘全部來自規則不適用。
 
 ## 與書庫其他文章的關係
 
