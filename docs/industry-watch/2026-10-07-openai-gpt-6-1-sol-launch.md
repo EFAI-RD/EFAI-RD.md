@@ -28,6 +28,8 @@ related_articles:
     relation: "兩則都是以價格與速度為主軸的非旗艦型號發布，揭露方式剛好相反：本則給了相對價格卻在科學那一欄落後自家旗艦，該則給了絕對單價（每百萬 input token 1.50 美元、output 7.50 美元、整個一百萬 token 視窗不跳階），並宣稱指數分數反而高過自家前沿的 Argon —— 不過領先幅度是 1 分，且該頁未標示取數日期"
   - path: "2026-11-16-openai-biobasicsbench-wet-lab-agents.md"
     relation: "同一家公司對同一個型號的兩種揭露方式：本則記錄 GPT-6.1 Sol 發布時除 Terminal-Bench Science 的 68.1% 之外不公布任何絕對分數，該則把同一個型號放進 BioBasicsBench，給了 62.0% 與 55.6–68.4% 的 95% 信賴區間，並與其餘六個自家型號並列"
+  - path: "2026-11-17-openai-computer-use-agents-healthcare.md"
+    relation: "同一家公司談便宜型號接得住多少工作的兩則，揭露方式剛好相反：本則只給相對成本比而不給絕對分數，該則給了 GPT-6 Luna 的絕對分數 91.8% 與每題 8.5 美分，卻沒說它跑在評測的哪一種觀察模式下"
 refs:
   oai:
     title: "OpenAI：Introducing GPT-6.1 Sol（官方公告）"
@@ -146,6 +148,8 @@ OpenAI 發布 GPT-6.1 Sol，把「接近旗艦的能力」與「五分之一的�
 兩則都是以價格與速度為主軸的非旗艦型號發布，揭露方式剛好相反：本則給了相對價格卻在科學那一欄落後自家旗艦，該則給了絕對單價（每百萬 input token 1.50 美元、output 7.50 美元、整個一百萬 token 視窗不跳階），並宣稱指數分數反而高過自家前沿的 Argon —— 不過領先幅度是 1 分，且該頁未標示取數日期: [非旗艦卻超過自家 Argon：Gemini 4 Hydrogen 解析](2026-11-16-gemini-4-hydrogen-agentic-execution-model.md)
 
 同一家公司對同一個型號的兩種揭露方式：本則記錄 GPT-6.1 Sol 發布時除 Terminal-Bench Science 的 68.1% 之外不公布任何絕對分數，該則把同一個型號放進 BioBasicsBench，給了 62.0% 與 55.6–68.4% 的 95% 信賴區間，並與其餘六個自家型號並列: [例行實驗判讀只拿 66.7%：OpenAI BioBasicsBench 拆解](2026-11-16-openai-biobasicsbench-wet-lab-agents.md)
+
+同一家公司談便宜型號接得住多少工作的兩則，揭露方式剛好相反：本則只給相對成本比而不給絕對分數，該則給了 GPT-6 Luna 的絕對分數 91.8% 與每題 8.5 美分，卻沒說它跑在評測的哪一種觀察模式下: [API 到不了就改用點擊：OpenAI 醫療 computer use 解析](2026-11-17-openai-computer-use-agents-healthcare.md)
 
 ## 實務的啟發
 
