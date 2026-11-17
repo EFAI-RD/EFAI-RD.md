@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 2
+nav_order: 3
 title: "ARIVE：胸片報告自動指標全拿第一，醫師評分與 Qwen3.5 打平"
 catalog_id: "arxiv:2611.14018"
 editors:

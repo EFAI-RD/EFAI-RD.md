@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "放療勾畫綜述：VLM 對 nnU-Net 勝負未定，論點改押 CTV"
 catalog_id: "arxiv:2611.12085"
 editors:

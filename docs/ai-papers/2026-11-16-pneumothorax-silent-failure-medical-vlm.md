@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 3
+nav_order: 4
 title: "胸片 VLM 稽核：兩個模型對 432 例氣胸全答「沒有」"
 catalog_id: "arxiv:2611.14975"
 editors:
