@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "胸片 VLM 稽核：兩個模型對 432 例氣胸全答「沒有」"
 catalog_id: "arxiv:2611.14975"
 editors:
@@ -177,6 +177,8 @@ ModaLens 以交換影像與 yes/no logit margin 量測 MedGemma 在有報告時�
 胸片結核稽核改換提示詞、負類與閾值，檢查醫療 VLM 的結論是否站得住；本篇同樣換提示與解析度，發現氣胸失效在四種提示下都沒有改變: [換一個評估條件，胸片結核 VLM 的結論還剩幾條站得住](2026-09-21-cxr-tb-vlm-portability-audit.md)
 
 本篇在胸片是非題上發現兩個模型對氣胸陽性一律答「沒有」；乳房攝影一致性稽核同樣測 MedGemma-4B 與 Lingshu-7B，改在選擇題中加入 NOTA 選項，發現影像被拿掉後 MedGemma 仍以約 95 分信心給出 BI-RADS 類別: [拿掉乳房攝影影像，MedGemma 仍以約 95 分信心給 BI-RADS](2026-11-16-mammography-vlm-cross-signal-coherence.md)
+
+本篇在胸片是非題上逐徵象找出氣胸被整個漏掉；雙語放射選擇題研究則把五個通用多模態 LLM 的影像題推理拆成模態、解剖、病灶偵測與定位四段，發現模態與解剖幾乎全對、病灶偵測降到 68.2–88.4%，同樣指出失效集中在病灶層級: [放射選擇題：五個多模態 LLM 都認得模態，病灶偵測只有 68–88%](2026-11-17-mllm-bilingual-radiology-mcq-lesion-detection.md)
 
 ## 實務的啟發
 
