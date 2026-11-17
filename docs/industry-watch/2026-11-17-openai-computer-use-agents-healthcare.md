@@ -26,6 +26,8 @@ related_articles:
     relation: "兩則都把成本當成評測裡與準確率並列的一軸：該則是逐步問診時每個檢查的花費，本則是行政流程每題 8.5 美分；差別在該則的成本與準確率出自同一個公開評測，本則的成本只出現在供應商的公告句裡"
   - path: "2026-11-05-google-health-ai-evaluation-framework.md"
     relation: "該則整理的健康 AI 評估框架主張門檻由各團隊自訂，本則正是一份照那類方法做出來的評估：醫師以五點量表評有用性、以是否可能造成病人傷害評安全性，而公告同樣沒有給任何可供比較的門檻或對照組"
+  - path: "../ai-papers/2026-11-17-healthadminbench-computer-use-agents-admin.md"
+    relation: "本則公告引用該篇評測並自報 GPT-6 Astra 取得 94.3% 的 rubric points，而該篇正是那個評測的方法與完整結果：論文自己報的最高整件工作成功率只有 36.3%，與子項比例差了三、四十個百分點，正好說明本則引用的是哪一種指標"
 refs:
   cua:
     title: "Advancing computer-use agents for healthcare teams（OpenAI 官方公告，2026-11-16）"
@@ -159,6 +161,8 @@ HealthAdminBench 本身的公開資料可以核對到：該評測為 v1.0，作�
 兩則都把成本當成評測裡與準確率並列的一軸：該則是逐步問診時每個檢查的花費，本則是行政流程每題 8.5 美分；差別在該則的成本與準確率出自同一個公開評測，本則的成本只出現在供應商的公告句裡: [把診斷評估改成逐步問診並計成本：SDBench 與 MAI-DxO 解析](2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
 
 該則整理的健康 AI 評估框架主張門檻由各團隊自訂，本則正是一份照那類方法做出來的評估：醫師以五點量表評有用性、以是否可能造成病人傷害評安全性，而公告同樣沒有給任何可供比較的門檻或對照組: [給了框架不給門檻：Google 健康 AI 評估三法十七維解讀](2026-11-05-google-health-ai-evaluation-framework.md)
+
+本則公告引用該篇評測並自報 GPT-6 Astra 取得 94.3% 的 rubric points，而該篇正是那個評測的方法與完整結果：論文自己報的最高整件工作成功率只有 36.3%，與子項比例差了三、四十個百分點，正好說明本則引用的是哪一種指標: [HealthAdminBench：子項 78.4%，整件工作只做完 36.3%](../ai-papers/2026-11-17-healthadminbench-computer-use-agents-admin.md)
 
 ## 實務的啟發
 
