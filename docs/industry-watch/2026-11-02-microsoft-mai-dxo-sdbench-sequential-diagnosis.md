@@ -27,6 +27,8 @@ related_articles:
     relation: "兩則的核心都是「評分的人與被評分的系統出自同一方」：該則的成功規格依技術報告自述是在看過結果之後才定的，本則則是 benchmark、Gatekeeper、Judge 與受測系統 MAI-DxO 全部由同一個團隊設計，論文的利益揭露列出全體作者皆為 Microsoft 員工並持有股權"
   - path: "../ai-basics/multi-agent-llm.md"
     relation: "該篇說明多代理編排的概念基礎與拓撲選擇，本則是這套編排在診斷場景的一個具體量測：論文自述跨各家模型平均讓 CPC 案例準確率比最小提示基線高 7.9 個百分點、ED 案例高 4.4 個百分點，可以當作「編排本身值多少」的一組有分母的數字"
+  - path: "2026-11-17-openai-computer-use-agents-healthcare.md"
+    relation: "兩則都把成本當成評測裡與準確率並列的一軸：本則是逐步問診時每個檢查的花費，該則是行政流程每題 8.5 美分；差別在本則的成本與準確率出自同一個公開評測，該則的成本只出現在供應商的公告句裡"
 refs:
   mai:
     title: "Microsoft AI：Building Medical Superintelligence（官方公告，2026-10-22）"
@@ -202,6 +204,8 @@ MIT 授權的程式碼讓外部能檢視 Gatekeeper 與 Judge 的提示詞、質
 該篇說明多代理編排的概念基礎與拓撲選擇，本則提供這套編排在診斷場景的一組有分母的量測：論文自述跨各家受測模型，DxO 編排讓 CPC 案例的準確率比最小提示基線平均高 7.9 個百分點、急診案例高 4.4 個百分點，而 DxO 的拓撲正是該篇描述的「模擬專家小組互相質疑」那一型: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
 兩則都是大廠把自家的健康 AI 評分裝置公開，公開的層級卻不同：本則公開的是一套可執行的 benchmark 與評分程式碼，爭點在訂尺的人與受測的系統出自同一方；該則公開的是訂尺的方法論而刻意不訂刻度，白皮書明寫及格門檻應由各團隊在各自的 phase-gate 自行共同設計，於是外部連「尺有沒有刻歪」都無從判斷: [給了框架不給門檻：Google 健康 AI 評估三法十七維解讀](2026-11-05-google-health-ai-evaluation-framework.md)
+
+兩則都把成本當成評測裡與準確率並列的一軸：本則是逐步問診時每個檢查的花費，該則是行政流程每題 8.5 美分；差別在本則的成本與準確率出自同一個公開評測，該則的成本只出現在供應商的公告句裡: [API 到不了就改用點擊：OpenAI 醫療 computer use 解析](2026-11-17-openai-computer-use-agents-healthcare.md)
 
 ## 實務的啟發
 

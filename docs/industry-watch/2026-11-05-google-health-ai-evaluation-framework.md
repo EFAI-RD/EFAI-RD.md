@@ -34,6 +34,8 @@ related_articles:
     relation: "同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：本則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，該則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻"
   - path: "2026-11-12-deepmind-alphagenome-2-cell-type-variants.md"
     relation: "同一家公司相隔一週的兩則發布，本則談健康 AI 該用哪些方法評估、門檻由各團隊自訂，該則是實際發布的模型與它所公布的評估範圍；並讀可以看出本則框架所談的 accuracy／safety／usefulness 三個領域，在一則研究用模型的發布裡各自被交代到什麼程度"
+  - path: "2026-11-17-openai-computer-use-agents-healthcare.md"
+    relation: "本則整理的健康 AI 評估框架主張門檻由各團隊自訂，該則正是一份照那類方法做出來的評估：醫師以五點量表評有用性、以是否可能造成病人傷害評安全性，而公告同樣沒有給任何可供比較的門檻或對照組"
 refs:
   blog:
     title: "We're sharing our framework for building safer and more helpful AI for health.（Google 官方部落格，2026-11-04）"
@@ -219,6 +221,8 @@ Table 5.1 的七列數值，欄序為 Gemini 4 Argon、Gemini 3.8 Flash、Gemini
 同一個官方部落格頻道相隔六天的兩則發布，把「誰來判斷模型輸出好不好」推給了相反的兩邊：本則的白皮書明寫量化門檻由各產品團隊在自家 phase-gate 自訂、不設通用數值切點，該則的課程則教臨床人員 evaluate model outputs with your clinical judgment，等於把同一個判斷責任交給第一線使用者，而兩則都沒有給出任何一個可操作的門檻: [給臨床人員、可抵 CME 的四門課：Google 醫療 AI 認證重點整理](2026-11-09-google-ai-healthcare-professionals-certificate.md)
 
 同一家公司相隔一週的兩則發布，本則談健康 AI 該用哪些方法評估、門檻由各團隊自訂，該則是實際發布的模型與它所公布的評估範圍；並讀可以看出本則框架所談的 accuracy／safety／usefulness 三個領域，在一則研究用模型的發布裡各自被交代到什麼程度: [不拚通用模型拚細胞條件：AlphaGenome 2 變異預測拆解](2026-11-12-deepmind-alphagenome-2-cell-type-variants.md)
+
+本則整理的健康 AI 評估框架主張門檻由各團隊自訂，該則正是一份照那類方法做出來的評估：醫師以五點量表評有用性、以是否可能造成病人傷害評安全性，而公告同樣沒有給任何可供比較的門檻或對照組: [API 到不了就改用點擊：OpenAI 醫療 computer use 解析](2026-11-17-openai-computer-use-agents-healthcare.md)
 
 ## 實務的啟發
 
