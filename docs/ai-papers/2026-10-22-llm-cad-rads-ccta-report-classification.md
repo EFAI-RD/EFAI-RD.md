@@ -147,6 +147,8 @@ CCTA 可非侵入性地評估冠狀動脈狹窄與動脈粥狀硬化負擔，CAD
 
 本篇作者在 Discussion 提議「LLM 抽發現、規則引擎定類別」，該研究在 CUA、O-RADS 與 K-TIRADS 三套指引上做了一個版本：先由 LLM 把指引編成決策圖，再讓小模型逐節點作答、由程式走完邏輯，但沒有涵蓋 CAD-RADS: [放射指引編成決策圖再逐節點作答：Jev 從 57.3% 到 90.8%](2026-11-02-gdgraph-radiology-guideline-decision-graph.md)
 
+兩篇都讓 LLM 讀 CCTA 報告文字、參考標準都由放射科醫師依同一份文字判定；本篇看整份報告分 CAD-RADS 時的升降級方向，該研究則把狹窄抽到血管層級，並用抽取時的 token 不確定性分辨讀錯報告與 CCTA 和心導管本身的不一致: [LLM 不確定性抓得出讀錯報告，抓不出 CCTA 與心導管落差](2026-11-17-llm-uncertainty-extraction-vs-clinical-discordance.md)
+
 ## 實務的啟發
 
 - **可借用的量測方法** — 除了整體準確率，再按處置組報告升降級筆數，並對參考標準為高風險、被降級的病例做獨立來源（本篇為 DSA）查核。這種拆法能讓「準確率差不多」的兩個模型顯出不同的錯誤方向：本篇 ChatGPT-5 偏向降級、DeepSeek-R1 在 3 → 4A 偏向升級。

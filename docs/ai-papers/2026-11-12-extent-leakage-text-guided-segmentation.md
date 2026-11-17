@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "文字引導分割的增益：只留病灶範圍詞就拿回 84–98%"
 catalog_id: "arxiv:2611.13970"
 editors:

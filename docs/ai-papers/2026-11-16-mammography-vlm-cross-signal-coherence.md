@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 2
+nav_order: 3
 title: "拿掉乳房攝影影像，MedGemma 仍以約 95 分信心給 BI-RADS"
 catalog_id: "arxiv:2611.12574"
 editors:
