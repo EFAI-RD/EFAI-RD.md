@@ -5,6 +5,8 @@ title: "CareConnect：把 LLM 擋在診斷之外，只讓它做掛號"
 catalog_id: "arxiv:2607.05055"
 editors:
   - "Colbert"
+  - path: "2026-11-17-healthadminbench-computer-use-agents-admin.md"
+    relation: "本篇的設計主張是把 LLM 擋在診斷之外、只讓它做掛號這類行政動作，該篇則顯示就算只做行政，跨系統的整件工作仍有近三分之二無法完成 —— 子項成功率 78.4% 對整件 36.3%"
 refs:
   main:
     title: "Toward Trustworthy Large Language Model Agents in Healthcare"
@@ -113,6 +115,8 @@ CareConnect 有三層。第一層是英文與阿拉伯文的規則式 intent cla
 CareConnect 不是多代理協作，而是單一 LLM router 搭配確定性閘門與八個工具；可與概念文對讀，辨別「代理」不等於「多代理」: [LLM 多代理系統：從 ReAct 到可對話協作](../ai-basics/multi-agent-llm.md)
 
 該研究顯示即使是非診斷的分配決策，模型也會納入與臨床無關的描述，替本篇的確定性閘門設計提供了另一個理由: [臨床條件完全一樣時 LLM 先給誰？30,618 次強制二選一](2026-09-22-llm-social-status-resource-allocation.md)
+
+本篇的設計主張是把 LLM 擋在診斷之外、只讓它做掛號這類行政動作，該篇則顯示就算只做行政，跨系統的整件工作仍有近三分之二無法完成 —— 子項成功率 78.4% 對整件 36.3%: [HealthAdminBench：子項 78.4%，整件工作只做完 36.3%](2026-11-17-healthadminbench-computer-use-agents-admin.md)
 
 ## 實務的啟發
 
