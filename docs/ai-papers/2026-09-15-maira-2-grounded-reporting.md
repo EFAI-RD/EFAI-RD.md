@@ -195,6 +195,8 @@ Lingshu 導讀著重通用醫療 VLM 的資料與訓練，本篇則可接續閱�
 
 本篇在生成胸片報告時就把每個發現連同定位框一起輸出，EviGround-CT 則在胸部 CT 報告寫完之後，另用一個以整句為查詢的 3D 驗證器替每個陽性發現找證據遮罩，兩篇代表「生成時定位」與「生成後查核」兩種把報告句連回影像的做法: [EviGround-CT：CT 報告逐句送去定位查核，參考遮罩並不完整](2026-10-30-eviground-ct-sentence-grounding-report-verification.md)
 
+ARIVE 把本篇列為比較模型之一（MIMIC-CXR 14 項 CheXbert macro F1 0.407 對 0.437）；本篇在輸出端讓每個發現附上定位框，ARIVE 則在推理過程中裁切解剖區域、把區域影像插回上下文後才寫報告，兩篇代表「輸出端定位」與「推理中調閱區域」兩種把報告連回影像的做法: [ARIVE：胸片報告自動指標全拿第一，醫師評分與 Qwen3.5 打平](2026-11-17-arive-anatomy-interleaved-cxr-report.md)
+
 ## 實務的啟發
 
 以下是本書庫提出的研究與工程建議：

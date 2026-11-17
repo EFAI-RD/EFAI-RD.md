@@ -158,6 +158,8 @@ MedSIGHT 讓模型在單張影像上同時寫診斷與輸出像素級分割；Me
 
 Lingshu 是 MedChain-R1 第一階段六個候選推理教師之一（最後選用 FlemingVL-38B）；兩篇也都觀察到在監督微調之後再加強化學習，整體分數幾乎沒有增加: [Lingshu 靠合成資料拉高醫療 VQA，強化學習那一步沒加分](2026-09-15-lingshu-medical-vlm.md)
 
+兩篇都先以推理文字做監督微調、再用含 IoU reward 的 GRPO 強化學習；本篇的 GRPO 在序列定位上只多 0.37 mIoU，ARIVE 的 ACCO 則是胸片報告臨床指標增益的主要來源，但兩者任務與指標不同，不能直接比較幅度: [ARIVE：胸片報告自動指標全拿第一，醫師評分與 Qwen3.5 打平](2026-11-17-arive-anatomy-interleaved-cxr-report.md)
+
 ## 實務的啟發
 
 1. **推理監督的效益要逐任務報告。** 同一個模型、同一份資料，推理監督讓差異偵測多 16 點，卻讓 referring grounding 少 3 點；院內若評估「讓模型先寫推理」的做法，只看平均值會掩蓋任務間相反的效果。[(ref: main Table 17)](https://arxiv.org/html/2611.00041v1#A3.T17)
