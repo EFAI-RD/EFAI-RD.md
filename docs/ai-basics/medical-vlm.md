@@ -149,6 +149,9 @@ CLIP 展示：用大量圖文對，以對比學習把影像與自然語言拉進
 
 
 本譜系的通才醫療多模態路線走進公共衛生場域後，決定成敗的變項從對齊目標換成了下游的驗證能力: [開放權重醫療模型的四國五案：MedGemma 落地現況重點整理](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
+
+Liquid Foundation Models 把對話式 VLM 縮到裝置端：LFM2-VL 以 SigLIP2 編碼器接上以閘控短卷積為主的語言主幹，技術報告自承訓練未使用 grounding 訊號，可作為本譜系中「小模型、無定位」一端的對照: [LFM：名字來自液態時間常數網路，主幹卻是閘控短卷積](liquid-foundation-models.md)
+
 ## 實務的啟發
 
 1. 先寫清任務輸出：嵌入／分類、開放問答，還是必須附定位的報告——再決定要對齊模型、指令 VLM，還是 grounded 系統。
