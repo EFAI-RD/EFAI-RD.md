@@ -187,6 +187,8 @@ MedChain-R1 把 Lingshu 32B 列為六個候選推理教師之一（最後選用 
 
 本篇以醫療 VQA 平均分數呈現 Lingshu 的能力；乳房攝影一致性稽核在 EMBED BI-RADS 上發現 Lingshu-7B 的理由有 57.6% 指向正確類別、答案卻只有 10.3%，顯示平均分數之外還需檢查答案與理由是否一致: [拿掉乳房攝影影像，MedGemma 仍以約 95 分信心給 BI-RADS](2026-11-16-mammography-vlm-cross-signal-coherence.md)
 
+CaseScope 把 Lingshu-7B 放進病理多視野教學個案，十選一單次準確率 33.6%、十種選項順序全對只剩 5.7%，可補上醫療 VQA 平均分數在病理個案診斷上的邊界: [病理多視野診斷：選項輪換十次全對，開放 MLLM 最高 17.9%](2026-11-18-casescope-multi-field-pathology-mllm.md)
+
 ## 實務的啟發
 
 以下是本書庫依上述結果提出的工程建議：

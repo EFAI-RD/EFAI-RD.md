@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "HealthAdminBench：子項 78.4%，整件工作只做完 36.3%"
 category: ai-papers
 date: 2026-11-17

@@ -165,6 +165,8 @@ CARE-MVLM 以移除病灶的反事實視圖訓練乳房攝影 VLM 棄答與給�
 
 Lingshu 原論文以醫療 VQA 平均分數呈現能力，本篇則顯示 Lingshu-7B 在 RSNA 乳腺密度上準確率 49.3% 居四個模型之首，但在 EMBED BI-RADS 上理由有 57.6% 指向正確類別、答案卻只有 10.3%: [Lingshu 靠合成資料拉高醫療 VQA，強化學習那一步沒加分](2026-09-15-lingshu-medical-vlm.md)
 
+本篇以打亂選項發現 40–99% 的答案會改變；CaseScope 在病理多視野診斷上以 CircularEval 要求十種選項順序都答對，開放模型最高只剩 17.9%，把同一種選項順序敏感度寫進主指標: [病理多視野診斷：選項輪換十次全對，開放 MLLM 最高 17.9%](2026-11-18-casescope-multi-field-pathology-mllm.md)
+
 ## 實務的啟發
 
 1. **評估影像 VLM 時，同時檢查答案、信心與理由。** 本篇的 coherence taxonomy 與 NOTA-aware 準確率是可以借用的量測方法；作者的例子顯示，只看答案會把理由自相矛盾的回答算成正確。[(ref: main §3.5)](https://arxiv.org/html/2611.12574v1#S3.SS5) [(ref: main §4.1)](https://arxiv.org/html/2611.12574v1#S4.SS1)
