@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 3
+nav_order: 4
 title: "LLM 不確定性抓得出讀錯報告，抓不出 CCTA 與心導管落差"
 catalog_id: "arxiv:2611.10502"
 editors:
