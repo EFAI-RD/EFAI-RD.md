@@ -15,6 +15,7 @@ has_toc: false
 
 | 日期 | 標題 | 編輯 | 備註 |
 |------|------|------|------|
+| 2026-11-18 | [LFM：名字來自液態時間常數網路，主幹卻是閘控短卷積](liquid-foundation-models.md) | Clara | topic:liquid-foundation-models |
 | 2026-09-17 | [醫療視覺語言模型：從 CLIP 對齊到有定位報告](medical-vlm.md) | Curitis | topic:medical-vlm |
 | 2026-09-15 | [LLM 多代理系統：從 ReAct 到可對話協作](multi-agent-llm.md) | Curitis | topic:multi-agent-llm |
 
