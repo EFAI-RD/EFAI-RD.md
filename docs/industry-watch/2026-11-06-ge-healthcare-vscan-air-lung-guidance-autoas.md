@@ -28,6 +28,8 @@ related_articles:
     relation: "兩則都是同一家公司把一個比較級結果放進超音波新機公告，而被省略的那一半不同：該則省略的是對競品無時間差異的那一組，本則省略的是樣本數（63 人）與兩組差距的 95% 信賴區間（−18.7 到 15.5 個百分點）"
   - path: "2026-09-18-fda-radiology-cad-510k-exemption-denied.md"
     relation: "該則是 FDA 駁回放射科 CAD／CADt 軟體 510(k) 免除請願的最終決定；本則的兩項功能正是走完這條 510(k) 路徑的產物，因此樣本數、信賴區間與適用族群限制都留在公開的 summary 裡可供查閱。兩則並讀可以看出這道關卡守住之後，外部實際多讀到了什麼"
+  - path: "2026-11-18-ge-healthcare-critical-care-suite-3-0-enteric-tube.md"
+    relation: "同一家公司兩則把 510(k) 許可當賣點的新聞稿，揭露取捨相同：本則搬出 95.2% 對 96.8% 兩個點估計而把 FDA 文件裡的信賴區間與分母留在外面，該則搬出十一項數值裡最好的兩項，餘下九項同樣只存在於 FDA 文件"
 refs:
   pr:
     title: "GE HealthCare reinforces leadership in AI with Lung Guidance and AutoAS on Vscan Air for point of care ultrasound assessments（GE HealthCare 官方新聞稿，2026-11-03）"
@@ -193,6 +195,8 @@ GE HealthCare 在 2026-11-03 為手持超音波 Vscan Air 增加兩項 AI 輔助
 兩則都是同一家公司把一個比較級結果放進超音波新機公告，而被省略的那一半不同：該則省略的是對競品無時間差異的那一組，本則省略的是樣本數（63 人）與兩組差距的 95% 信賴區間（−18.7 到 15.5 個百分點）: [高階影像能力下放日常機種：LOGIQ Focus 超音波解析](2026-10-21-ge-healthcare-logiq-focus-ultrasound-launch.md)
 
 該則是 FDA 駁回放射科 CAD／CADt 軟體 510(k) 免除請願的最終決定；本則的兩項功能正是走完這條 510(k) 路徑的產物，因此樣本數、信賴區間與適用族群限制都留在公開的 summary 裡可供查閱。兩則並讀可以看出這道關卡守住之後，外部實際多讀到了什麼: [舊許可不是通行證：FDA 駁回放射科 CAD 510(k) 免審解讀](2026-09-18-fda-radiology-cad-510k-exemption-denied.md)
+
+同一家公司兩則把 510(k) 許可當賣點的新聞稿，揭露取捨相同：本則搬出 95.2% 對 96.8% 兩個點估計而把 FDA 文件裡的信賴區間與分母留在外面，該則搬出十一項數值裡最好的兩項，餘下九項同樣只存在於 FDA 文件: [只標位置不給距離：GE 餵食管 AI K253502 解讀](2026-11-18-ge-healthcare-critical-care-suite-3-0-enteric-tube.md)
 
 ## 實務的啟發
 

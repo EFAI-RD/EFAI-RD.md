@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 1
+nav_order: 2
 title: "API 到不了就改用點擊：OpenAI 醫療 computer use 解析"
 category: industry-watch
 date: 2026-11-17
