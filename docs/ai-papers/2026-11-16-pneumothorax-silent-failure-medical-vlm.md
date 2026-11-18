@@ -180,6 +180,8 @@ ModaLens 以交換影像與 yes/no logit margin 量測 MedGemma 在有報告時�
 
 本篇在胸片是非題上逐徵象找出氣胸被整個漏掉；雙語放射選擇題研究則把五個通用多模態 LLM 的影像題推理拆成模態、解剖、病灶偵測與定位四段，發現模態與解剖幾乎全對、病灶偵測降到 68.2–88.4%，同樣指出失效集中在病灶層級: [放射選擇題：五個多模態 LLM 都認得模態，病灶偵測只有 68–88%](2026-11-17-mllm-bilingual-radiology-mcq-lesion-detection.md)
 
+兩則處理的是同一種影像上兩條不同路線：本篇稽核的通用視覺語言模型對 432 例氣胸全答沒有且不會示警，該則的機上演算法則把能力縮到單一管路並以 954 張影像的專家標註逐項驗證過，而 Critical Care Suite 產品線最早的一張許可正是氣胸分流: [只標位置不給距離：GE 餵食管 AI K253502 解讀](../industry-watch/2026-11-18-ge-healthcare-critical-care-suite-3-0-enteric-tube.md)
+
 ## 實務的啟發
 
 1. **評估醫療 VLM 時，逐徵象報 recall 與 specificity。** 作者的主要建議是在平衡的病例上逐一列出每個徵象的表現；Table 2 顯示，整體分數無法區分「每個徵象都普通」和「某個徵象完全為零」。[(ref: main §6)](https://arxiv.org/html/2611.14975v1#S6)

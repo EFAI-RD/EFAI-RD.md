@@ -25,6 +25,8 @@ related_articles:
     relation: "FDA exploring future AI device framework while holding the current 510(k) line"
   - path: "2026-10-13-siemens-accela-radiotherapy-launch.md"
     relation: "本則確認 510(k) 這道關卡未被放寬，該則是一個仍在審查中卻已對外發表的放射治療系統，可對照發表時點與可用時點的距離"
+  - path: "2026-11-18-ge-healthcare-critical-care-suite-3-0-enteric-tube.md"
+    relation: "本則談 FDA 為何不肯讓放射科 CAD 類裝置免走 510(k)，該則正好是一件落在 CAD 之外的案例：餵食管演算法列的是影像處理代碼 QIH 而非偵測診斷代碼，適應症也明寫不得取代醫療人員判讀"
 refs:
   fr_order:
     title: "Federal Register final order 2026-19074 (91 FR 58817)"
@@ -99,6 +101,8 @@ evidence_reviewed: true
 本則確認既有 clearance 不會自動延伸到後續產品、510(k) 這道關卡並未放寬，該則則是一個仍在 510(k) 審查中、卻已用「未來已到來」對外發表的放射治療系統，兩則合看可以看出「發表時點」與「可用時點」之間的制度性距離: [影像到出束最快 90 秒：Siemens Accela 上市前搶先看](2026-10-13-siemens-accela-radiotherapy-launch.md)
 
 本則是 FDA 駁回放射科 CAD／CADt 軟體 510(k) 免除請願的最終決定；該則的兩項功能正是走完這條 510(k) 路徑的產物，因此樣本數、信賴區間與適用族群限制都留在公開的 summary 裡可供查閱。兩則並讀可以看出這道關卡守住之後，外部實際多讀到了什麼: [掌上超音波加肺部導引與瓣膜提示：Vscan Air 510(k) 分析](2026-11-06-ge-healthcare-vscan-air-lung-guidance-autoas.md)
+
+本則談 FDA 為何不肯讓放射科 CAD 類裝置免走 510(k)，該則正好是一件落在 CAD 之外的案例：餵食管演算法列的是影像處理代碼 QIH 而非偵測診斷代碼，適應症也明寫不得取代醫療人員判讀: [只標位置不給距離：GE 餵食管 AI K253502 解讀](2026-11-18-ge-healthcare-critical-care-suite-3-0-enteric-tube.md)
 
 ## 實務的啟發
 
