@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 1
+nav_order: 2
 title: "CT 品管 VLM：同一個錯誤標頭，晚一輪送到就推翻正確判斷"
 catalog_id: "arxiv:2611.18790"
 editors:
@@ -132,6 +132,8 @@ Tog.：標頭與影像同一 prompt；After：標頭在模型作答後送到；+
 皮膚科代理研究指出工具與推理讀同一張影像時工具輸出未必是獨立查核，本篇則補上另一種代理風險：metadata 以工具結果在模型作答後送到時，仍推翻了 52–99% 已正確偵測的缺陷: [先裁切再檢索，兩條路「錯得一樣」：交叉比對只抓得到 29%](2026-11-03-agentic-derm-vlm-fault-coupling.md)
 
 低劑量 CT 品質研究顯示寫成文字的量測值會主導 MLLM 的品質評分，本篇在另一種 CT 輸入檢查（系列涵蓋範圍）上看到文字型 metadata 的影響，而且影響大小取決於它在對話中的送達位置: [低劑量 CT 品質評分：MLLM 讀量測值追平競賽冠軍，卻高估過度平滑影像](2026-11-18-ldct-iqa-measurement-aware-mllm.md)
+
+VLM 代理瀏覽研究讓模型逐張翻閱整個 CT／MRI 檢查，發現很早寫下的第一個假設在之後看到更多切片時多半不被推翻；本篇則在兩輪對話中看到後到的 metadata 推翻原本判斷，兩篇一起顯示多輪 VLM 流程中證據順序的影響方向取決於設計: [VLM 代理自己翻 CT／MRI：第一個假設錯，最後只有 12% 答對](2026-11-19-vlm-agent-ct-mri-navigation-first-hypothesis.md)
 
 ## 實務的啟發
 
