@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 5
+nav_exclude: true
 title: "不拚通用模型拚細胞條件：AlphaGenome 2 變異預測拆解"
 category: industry-watch
 date: 2026-11-12
