@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 3
+nav_order: 4
 title: "放射選擇題：五個多模態 LLM 都認得模態，病灶偵測只有 68–88%"
 catalog_id: "doi:10.2196/98849"
 editors:

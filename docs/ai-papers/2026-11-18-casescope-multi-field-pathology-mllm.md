@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 2
+nav_order: 3
 title: "病理多視野診斷：選項輪換十次全對，開放 MLLM 最高 17.9%"
 catalog_id: "arxiv:2611.15325"
 editors:

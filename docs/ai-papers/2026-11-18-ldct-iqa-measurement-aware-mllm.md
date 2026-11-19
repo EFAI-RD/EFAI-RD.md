@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 1
+nav_order: 2
 title: "低劑量 CT 品質評分：MLLM 讀量測值追平競賽冠軍，卻高估過度平滑影像"
 catalog_id: "arxiv:2611.08754"
 editors:
@@ -150,6 +150,8 @@ evidence_reviewed: true
 ModaLens 固定報告、只交換影像來量醫療 VLM 是否仍看影像，本篇則在 CT 品質評分上固定影像、只打亂寫成文字的量測值，量到訓練後的 MLLM 仍明顯依賴那段文字（主要是雜訊組）: [ModaLens：有報告可讀時，醫療 VLM 還會看影像嗎](2026-09-17-modalens-image-sensitivity.md)
 
 轉診文字研究顯示一句臨床線索就能改變 MRI 判讀，本篇在影像品質評分上看到同一種文字主導：量測文字能把零樣本 Overall 從 1.370 拉到 2.157，也會把去噪排序帶往偏好過度平滑的方向: [轉診單一句話就改變 MRI 判讀，叫模型忽略只有一個做得到](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
+
+本篇顯示寫成文字的量測值會主導 MLLM 的 CT 品質評分；CT 標頭研究在另一種 CT 輸入檢查（系列涵蓋範圍）上看到文字型 metadata 的影響，且影響大小取決於它在對話中的送達位置: [CT 品管 VLM：同一個錯誤標頭，晚一輪送到就推翻正確判斷](2026-11-19-ct-dicom-header-order-vlm-qc.md)
 
 ## 實務的啟發
 
