@@ -15,9 +15,9 @@ refs:
   code:
     title: "RadioAgent (GitHub; URL listed in paper)"
     url: "https://github.com/bastienLeGuellec/radioagent"
-status: draft
+status: published
 skill_version: "write-ai-paper@3.0"
-evidence_reviewed: false
+evidence_reviewed: true
 ---
 
 [Home](../) · [AI Papers](./)
