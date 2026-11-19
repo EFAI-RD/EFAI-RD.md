@@ -27,6 +27,8 @@ related_articles:
     relation: "兩則都是正文以臨床語彙描述一台機器、而同頁小字寫明它在市場上還不能供應，差別在小字擋住的範圍：該則擋的是歐盟醫療器材法規（Medical Device Regulation，MDR）2017/745 的商業供應，本則的註腳一次擋掉美國 FDA 與所有其他全球主管機關，並把用途限定為研究"
   - path: "2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md"
     relation: "同一家公司兩則「多機構合作」公告的同一種形態：兩則都把機構名字列出來、卻都不列任何一家做出了什麼結果或登錄了哪個試驗編號，差別是該則至少給了一個可追問的倍數宣稱，本則連一個可被追問的數字都沒有產生"
+  - path: "2026-11-19-ge-healthcare-photonova-spectra-pcct-collaborations.md"
+    relation: "該則的光子計數 CT 已取得美國 510(k) 許可，七家機構是在許可之後才展開結構化評估；本則的頭部專用 MR 系統則註明未獲任何主管機關許可、僅供研究。同一家公司的兩種多機構網絡，分別落在法規後與法規前"
 refs:
   release:
     title: "GE HealthCare announces intent to establish MAGNUS Neuro Alliance to unlock new possibilities in MRI for neuroscience（GE HealthCare 官方新聞稿，2026-11-10）"
@@ -140,6 +142,7 @@ GE HealthCare 於 2026-11-10 宣布，打算成立一個名為 MAGNUS Neuro Alli
 
 同一家公司兩則「多機構合作」公告的同一種形態：兩則都把機構名字列出來、卻都不列任何一家做出了什麼結果或登錄了哪個試驗編號，差別是該則至少給了一個可追問的倍數宣稱，本則連一個可被追問的數字都沒有產生: [4D SPECT/CT 交五家機構評估：StarGuide GX 一探究竟](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
+該則的光子計數 CT 已取得美國 510(k) 許可，七家機構是在許可之後才展開結構化評估；本則的頭部專用 MR 系統則註明未獲任何主管機關許可、僅供研究。同一家公司的兩種多機構網絡，分別落在法規後與法規前: [先過審再收證據：GE Photonova Spectra 七機構評估解析](2026-11-19-ge-healthcare-photonova-spectra-pcct-collaborations.md)
 ## 實務的啟發
 
 - **轉述這則消息時，動詞要跟著公告走。** 公告寫的是 announces intent to establish，不是 establishes。在內部簡報或技術雷達上，這一則應該記成「宣布意向」，並在同一行註明機器狀態為研究用、未獲法規許可。只記下聯盟名稱與九家機構，會讓半年後回看的人誤以為這是一個已在運作的合作體。

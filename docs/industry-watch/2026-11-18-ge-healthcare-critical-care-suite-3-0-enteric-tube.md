@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 1
+nav_order: 2
 title: "只標位置不給距離：GE 餵食管 AI K253502 解讀"
 category: industry-watch
 date: 2026-11-18
@@ -27,6 +27,8 @@ related_articles:
     relation: "該則談 FDA 為何不肯讓放射科 CAD 類裝置免走 510(k)，本則正好是一件落在 CAD 之外的案例：餵食管演算法列的是影像處理代碼 QIH 而非偵測診斷代碼，適應症也明寫不得取代醫療人員判讀"
   - path: "../ai-papers/2026-11-16-pneumothorax-silent-failure-medical-vlm.md"
     relation: "兩則處理的是同一種影像上兩條不同路線：該篇稽核的通用視覺語言模型對 432 例氣胸全答沒有且不會示警，本則的機上演算法則把能力縮到單一管路並以 954 張影像的專家標註逐項驗證過，而 Critical Care Suite 產品線最早的一張許可正是氣胸分流"
+  - path: "2026-11-19-ge-healthcare-photonova-spectra-pcct-collaborations.md"
+    relation: "兩則都是同一家公司把深度學習掛在傳統器材代碼下取得許可：本則的餵食管 AI 走影像處理代碼 QIH，該則的光子計數 CT 連同預設的 CNN 重建一起掛在電腦斷層系統代碼 JAK，兩案的 Predetermined Change Control Plan 欄位皆為未授權"
 refs:
   pr:
     title: "GE HealthCare’s Critical Care Suite 3.0 brings first on-device AI for feeding tube detection to X-ray imaging in adult and pediatric care（GE HealthCare 官方新聞稿，2026-11-17）"
@@ -156,6 +158,7 @@ GE 這條產品線的軌跡，顯示大廠在影像 AI 上的擴張方式已經�
 
 兩則處理的是同一種影像上兩條不同路線：該篇稽核的通用視覺語言模型對 432 例氣胸全答沒有且不會示警，本則的機上演算法則把能力縮到單一管路並以 954 張影像的專家標註逐項驗證過，而 Critical Care Suite 產品線最早的一張許可正是氣胸分流: [胸片 VLM 稽核：兩個模型對 432 例氣胸全答「沒有」](../ai-papers/2026-11-16-pneumothorax-silent-failure-medical-vlm.md)
 
+兩則都是同一家公司把深度學習掛在傳統器材代碼下取得許可：本則的餵食管 AI 走影像處理代碼 QIH，該則的光子計數 CT 連同預設的 CNN 重建一起掛在電腦斷層系統代碼 JAK，兩案的 Predetermined Change Control Plan 欄位皆為未授權: [先過審再收證據：GE Photonova Spectra 七機構評估解析](2026-11-19-ge-healthcare-photonova-spectra-pcct-collaborations.md)
 ## 實務的啟發
 
 - **評估機上 AI 時，先問輸出是量值還是標記。** 兩者對工作流程的影響不同：量值可以設門檻、可以寫進規範、可以事後稽核；標記只能輔助目視。本件的輸出屬於後者，導入時應把「誰在什麼時點看這張疊圖、看完做什麼決定」寫清楚，而不是假設它會自動攔下錯置。
