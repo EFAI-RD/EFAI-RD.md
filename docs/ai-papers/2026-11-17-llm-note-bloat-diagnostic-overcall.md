@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "病歷埋入未證實鑑別診斷，下游 LLM 摘要沿用最高 31%"
 catalog_id: "arxiv:2611.10601"
 editors:
