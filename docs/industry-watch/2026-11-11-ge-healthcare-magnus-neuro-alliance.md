@@ -21,6 +21,8 @@ source:
   single_source: true
   single_org: true
 related_articles:
+  - path: "2026-11-20-ge-healthcare-mangaciclanol-lumina-phase2.md"
+    relation: "兩則都是同一家公司尚未取得任何主管機關許可、卻已進入多機構實地使用的中樞神經造影項目，受管制的對象卻不同：本則是一台註明僅供研究、不可販售的頭部專用 MR 硬體，該則是一支受藥品法規管轄、必須走完第三期才可能上市的顯影劑。兩則並讀可以看出同一個造影問題在器材與藥品兩條法規路徑上的進度並不同步"
   - path: "2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md"
     relation: "同一家公司相隔七天的兩則發表，都處在「可展示但尚未全面可售」的階段，而兩者被擋住的範圍不同：該則的介入影像系統已有 CE 標章、美國 510(k) 審查中；本則的頭部專用 MR 系統限定為研究用途、未獲任何主管機關許可。兩則並讀可以看出同一家公司在不同產品線上的上市節奏"
   - path: "2026-10-29-siemens-cios-go-id-mobile-c-arm-dkou.md"
@@ -143,6 +145,8 @@ GE HealthCare 於 2026-11-10 宣布，打算成立一個名為 MAGNUS Neuro Alli
 同一家公司兩則「多機構合作」公告的同一種形態：兩則都把機構名字列出來、卻都不列任何一家做出了什麼結果或登錄了哪個試驗編號，差別是該則至少給了一個可追問的倍數宣稱，本則連一個可被追問的數字都沒有產生: [4D SPECT/CT 交五家機構評估：StarGuide GX 一探究竟](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
 該則的光子計數 CT 已取得美國 510(k) 許可，七家機構是在許可之後才展開結構化評估；本則的頭部專用 MR 系統則註明未獲任何主管機關許可、僅供研究。同一家公司的兩種多機構網絡，分別落在法規後與法規前: [先過審再收證據：GE Photonova Spectra 七機構評估解析](2026-11-19-ge-healthcare-photonova-spectra-pcct-collaborations.md)
+
+兩則都是同一家公司尚未取得任何主管機關許可、卻已進入多機構實地使用的中樞神經造影項目，受管制的對象卻不同：本則是一台註明僅供研究、不可販售的頭部專用 MR 硬體，該則是一支受藥品法規管轄、必須走完第三期才可能上市的顯影劑。兩則並讀可以看出同一個造影問題在器材與藥品兩條法規路徑上的進度並不同步: [同劑量與釓不分高下：GE 錳顯影劑 LUMINA 進三期拆解](2026-11-20-ge-healthcare-mangaciclanol-lumina-phase2.md)
 ## 實務的啟發
 
 - **轉述這則消息時，動詞要跟著公告走。** 公告寫的是 announces intent to establish，不是 establishes。在內部簡報或技術雷達上，這一則應該記成「宣布意向」，並在同一行註明機器狀態為研究用、未獲法規許可。只記下聯盟名稱與九家機構，會讓半年後回看的人誤以為這是一個已在運作的合作體。
