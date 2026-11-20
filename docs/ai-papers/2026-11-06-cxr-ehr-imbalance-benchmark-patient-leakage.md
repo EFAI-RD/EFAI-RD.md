@@ -189,6 +189,8 @@ evidence_reviewed: true
 AgentRx 的導讀在 ICU 多模態預測（含 CXR 與 EHR）上把病人層級切分與 leakage 稽核列入重現清單，本篇則實際量出不做這一步時分數會被灌到什麼程度: [AgentRx：ICU 預測多加模態有用，多代理協作沒穩定勝出](2026-09-17-agentrx-multimodal-clinical-prediction.md)
 本篇揭露 EHR 向量即病人識別碼造成的洩漏，文字引導分割的稽核則揭露 caption 尺寸詞由評分遮罩計算的洩漏，兩篇都先用不需學習的對照（查表、只看 caption 的迴歸）量出洩漏程度: [文字引導分割的增益：只留病灶範圍詞就拿回 84–98%](2026-11-12-extent-leakage-text-guided-segmentation.md)
 
+兩篇都在稽核醫療基準的分數是否被洩漏灌高；本篇的洩漏來自 EHR 向量等同病人識別碼，診斷代理基準那篇的主要來源則是由出院摘要建構的病例文字，而且刪掉診斷名稱也擋不住: [診斷代理基準的後見之明：LLM 讀病例摘要比讀檢傷資料多答對 14 點](2026-11-20-clinical-agent-benchmark-hindsight-case-text.md)
+
 ## 實務的啟發
 
 1. **院內做多模態預測基準時，先跑兩個不需學習的基線。** 本篇的查表與全部判陽性兩條基線，一條揭露「模型在認病人」，一條揭露「模型沒學到東西」，成本幾乎為零；作者的 checklist 也把它們列為必備。[(ref: main §VI)](https://arxiv.org/html/2611.07950v1#S6)

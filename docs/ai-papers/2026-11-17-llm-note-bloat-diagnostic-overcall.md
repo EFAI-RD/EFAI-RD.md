@@ -151,6 +151,8 @@ Diagnostic overcall 的 induced propagation（表 1；除註明外，overcall �
 
 兩篇都在檢查醫療 LLM 面對不可靠上下文時的行為；guardrail 那篇顯示生醫微調模型在證據被抽掉時更少棄答，本篇則顯示 reader 會把病歷中 hedged、未證實的鑑別診斷保留進摘要，而一般品質指標看不出差異: [生醫微調 LLM：證據被抽掉時，25 對有 21 對更少棄答](2026-11-11-guardrail-erosion-biomedical-llm-abstention.md)
 
+兩篇都指出下游 LLM 的表現受病歷文字本身的內容左右；本篇在病歷中刻意埋入未證實的鑑別診斷，看 LLM 摘要是否沿用，診斷代理基準那篇則量出由出院摘要改寫的病例文字讓 LLM 診斷比檢傷資訊多答對 14–20 個百分點: [診斷代理基準的後見之明：LLM 讀病例摘要比讀檢傷資料多答對 14 點](2026-11-20-clinical-agent-benchmark-hindsight-case-text.md)
+
 ## 實務的啟發
 
 - **可借用的量測方法** — 「同位置、等長度的 AI 筆記 vs 複製筆記 vs 樣板」與「只差一個 overcall 的配對病歷」這兩種控制設計，可以直接拿來檢查自家下游 LLM 對病歷中 AI 內容的敏感度；但本研究的 AI 內容是模擬的，真實病歷中的效應大小仍待驗證。
