@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 3
+nav_order: 4
 title: "低劑量 CT 品質評分：MLLM 讀量測值追平競賽冠軍，卻高估過度平滑影像"
 catalog_id: "arxiv:2611.08754"
 editors:
