@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 4
+nav_order: 5
 title: "例行實驗判讀只拿 66.7%：OpenAI BioBasicsBench 拆解"
 category: industry-watch
 date: 2026-11-16

@@ -19,6 +19,8 @@ source:
   event_date: "2026-10-28"
   official_url: "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-reports-third-quarter-2026-financial-results"
 related_articles:
+  - path: "2026-11-20-ge-healthcare-mangaciclanol-lumina-phase2.md"
+    relation: "本則的分部數字給了該則一個量級：顯影劑與放射性藥物分部（PDx）當季 Organic 成長 13.8%、分部利潤率 29.9%，兩項都是三個分部之首，而該則的在研錳基顯影劑 mangaciclanol 正屬於這個分部，其公告中具名發言的也是該分部的負責人"
   - path: "2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md"
     relation: "該則的放射治療生成式 AI 合作，在本則的季度財報裡被列為八條 innovation and commercial highlights 之一。兩則並讀可以看出同一項合作在技術公告與財務文件兩種體裁裡的詳略差異，以及季報能與不能回答哪些關於產品的問題"
   - path: "2026-10-13-ge-healthcare-sofie-pet-radiopharma-acquisition.md"
@@ -185,6 +187,7 @@ GE HealthCare 在 2026-10-28 公布 2026 年第三季財務結果並調升 2026 
 
 該則因為同業公告未揭露被退出業務的規模，把「想要量級就必須等財報或投資人說明會」寫進後續追蹤；本則就是同一個產業裡的那一份財報，而它示範的結果是：財報確實補上了分部層級的金額與利潤率，卻同樣沒有任何單一產品線的數字，亦即「等財報」這個期待只能被部分滿足: [四款機型當日停售：Siemens 退出一般影像超音波怎麼回事](2026-10-14-siemens-ultrasound-general-imaging-exit.md)
 
+本則的分部數字給了該則一個量級：顯影劑與放射性藥物分部（PDx）當季 Organic 成長 13.8%、分部利潤率 29.9%，兩項都是三個分部之首，而該則的在研錳基顯影劑 mangaciclanol 正屬於這個分部，其公告中具名發言的也是該分部的負責人: [同劑量與釓不分高下：GE 錳顯影劑 LUMINA 進三期拆解](2026-11-20-ge-healthcare-mangaciclanol-lumina-phase2.md)
 ## 實務的啟發
 
 - **讀任何廠商的摘要句時，先確認它講的是哪一個期間，再去表格右邊找另一個期間。** 本則的摘要與引言全部描述第三季，而同一張表的九個月欄位在兩項利潤率上給出相反方向。這個檢查只需要幾秒鐘，卻是本則最大的落差來源。同樣的習慣適用於臨床研究的主要分析與次族群分析、以及模型評測的整體指標與分層指標。
