@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "CT 品管 VLM：同一個錯誤標頭，晚一輪送到就推翻正確判斷"
 catalog_id: "arxiv:2611.18790"
 editors:

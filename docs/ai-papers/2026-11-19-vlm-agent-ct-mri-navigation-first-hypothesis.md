@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 3
+nav_order: 4
 title: "VLM 代理自己翻 CT／MRI：第一個假設錯，最後只有 12% 答對"
 catalog_id: "arxiv:2611.23480"
 editors:
@@ -152,6 +152,8 @@ OR 相對於 free navigation（* 相對於 all slices, single request），來�
 CT 標頭研究發現資訊在模型作答後才送到時，後到的來源常推翻原本判斷；本篇在多輪瀏覽中看到幾乎相反的現象：模型很早寫下的第一個假設，在之後看到更多切片時多半不會被推翻，兩篇一起提醒「證據送達順序」在多輪 VLM 流程中的影響方向取決於設計: [CT 品管 VLM：同一個錯誤標頭，晚一輪送到就推翻正確判斷](2026-11-19-ct-dicom-header-order-vlm-qc.md)
 
 轉診文字研究固定 MRI、逐級改寫轉診文字，量到答案主要隨文字改變；本篇以只給切片標籤或只給臨床指示的無影像對照，量到六個 VLM 不看影像也能答對 11–17% 的急診病例，且多數不會指出影像缺失: [轉診單一句話就改變 MRI 判讀，叫模型忽略只有一個做得到](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
+
+本篇量到 VLM 代理很早寫下的第一個假設多半不會被推翻；臨床 LLM 安全綜述則把這類「一旦對答案有信心，後續自我反思就難以修正」的現象（Degeneration of Thought）列為代理錯誤級聯的成因之一，並主張要靠外部可驗證的檢查打斷，而不是由同一個模型自我反思: [臨床 LLM 安全綜述：符號否決層數字亮眼，多來自單一小型研究](2026-11-24-verifiable-logic-neuro-symbolic-review.md)
 
 ## 實務的啟發
 
