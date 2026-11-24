@@ -39,6 +39,8 @@ related_articles:
     relation: "該則是本篇所述拓撲中最單純的一種：一個基因擾動配一個代理、代理之間不對話，效益主要來自不讓單一上下文被塞爆"
   - path: "../industry-watch/2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md"
     relation: "該則是本篇所述「模擬專家小組互相質疑」這一型拓撲在診斷場景的一組有分母的量測：論文自述跨各家受測模型，該編排讓 NEJM CPC 案例的準確率比同一模型的最小提示基線平均高 7.9 個百分點、急診案例高 4.4 個百分點，可以當作「編排本身值多少」的參考量"
+  - path: "../ai-papers/2026-11-24-verifiable-logic-neuro-symbolic-review.md"
+    relation: "該文是臨床 LLM 安全的敘事型綜述，彙整多代理辯論與工具型代理在臨床任務上的失效證據，並提出在代理流程邊界加上符號驗證的概念框架"
 refs:
   react:
     title: "ReAct: Synergizing Reasoning and Acting in Language Models"
@@ -135,6 +137,8 @@ evidence_reviewed: true
 該則的架構是本篇所述拓撲中最單純的一種 —— 一個基因擾動配一個代理、代理之間完全不對話，合成留到最後一層 —— 而它量到的效益主要來自不讓單一上下文被塞爆：同一個模型在單一代理模式下處理 893 個擾動時只引了 11 筆文獻，分散模式則多出 711 倍，可以當作「多代理未必靠辯論取勝」的對照案例: [一個代理讀一個基因：OpenAI 全腦擾動圖譜解讀拆解](../industry-watch/2026-10-22-openai-distributed-agents-perturb-seq-atlas.md)
 
 該則是本篇所述「模擬專家小組互相質疑」這一型拓撲在診斷場景的一組有分母的量測：論文自述跨各家受測模型，該編排讓 NEJM CPC 案例的準確率比同一模型的最小提示基線平均高 7.9 個百分點、急診案例高 4.4 個百分點，可以當作「編排本身值多少」的參考量: [把診斷評估改成逐步問診並計成本：SDBench 與 MAI-DxO 解析](../industry-watch/2026-11-02-microsoft-mai-dxo-sdbench-sequential-diagnosis.md)
+
+該文是一篇臨床 LLM 安全的敘事型綜述，彙整多代理辯論與工具型代理在臨床任務上的失效證據（例如作者轉述 MedAgentAudit 稽核到討論階段代理有 98.42% 的時間只是重複最初觀點），並主張在事實擷取、代理間溝通與工具規劃三個邊界加上符號驗證；其框架仍是未經驗證的概念規格: [臨床 LLM 安全綜述：符號否決層數字亮眼，多來自單一小型研究](../ai-papers/2026-11-24-verifiable-logic-neuro-symbolic-review.md)
 
 ## 實務的啟發
 

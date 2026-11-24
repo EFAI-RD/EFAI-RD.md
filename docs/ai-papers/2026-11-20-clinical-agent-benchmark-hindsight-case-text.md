@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 2
+nav_order: 3
 title: "診斷代理基準的後見之明：LLM 讀病例摘要比讀檢傷資料多答對 14 點"
 catalog_id: "arxiv:2611.22241"
 editors:
@@ -140,6 +140,8 @@ top-1 差值以比例表示（0.010 = 1 個百分點）；A′ 一族為單尾�
 兩篇都指出下游 LLM 的表現被病歷文字本身的內容左右；note bloat 那篇在病歷中刻意埋入未證實的鑑別診斷，看 LLM 摘要是否沿用，本篇則量出由出院摘要改寫的病例文字讓 LLM 診斷比檢傷資訊多答對 14–20 個百分點: [病歷埋入未證實鑑別診斷，下游 LLM 摘要沿用最高 31%](2026-11-17-llm-note-bloat-diagnostic-overcall.md)
 
 兩篇都在稽核醫療基準的分數是否被洩漏灌高；胸片＋EHR 那篇的洩漏來自 EHR 向量等同病人識別碼，本篇的主要來源則是由出院摘要建構的病例文字，而且刪掉診斷名稱也擋不住: [查表就追平最佳模型：胸片＋EHR 不平衡基準的病人洩漏](2026-11-06-cxr-ehr-imbalance-benchmark-patient-leakage.md)
+
+本綜述從另一個角度質疑同一類基準：作者主張只以最終答案計分的臨床評估看不到推理過程中的錯誤，並整理多代理與工具型系統中早期錯誤沿流程放大的 hallucination cascade 證據；本篇則具體量出病例文字本身就能把診斷分數灌高: [臨床 LLM 安全綜述：符號否決層數字亮眼，多來自單一小型研究](2026-11-24-verifiable-logic-neuro-symbolic-review.md)
 
 ## 實務的啟發
 
