@@ -137,6 +137,8 @@ ASA 分級那篇在麻醉術前資料上比較同一種「讀選項機率」的 
 
 NIHSS 逐字稿那篇把本篇作為比較對象之一的託管 decision model Jev，拿去與 LLM 正面對照從床邊檢查對話逐項打分，Jev 延遲約為 LLM 的四十分之一、準確率較低，且錯誤集中在少數可命名的項目型態: [從逐字稿直接打 NIHSS：快 40 倍，但病例全由 LLM 生成](2026-10-29-nihss-transcript-decision-model-vs-llm.md)
 
+本篇把 decision model 用公開放射資料專科化並以答案機率做 coverage at 5% error，病理報告那篇則用未經臨床專科化的開放權重 decision model 在本機抽 25 個欄位，發現同一組權重的 pT 準確率會隨一次送出的題數大幅改變: [病理報告抽取：Nimble 一次問 25 題，pT 準確率只剩 0.49](2026-11-24-decision-models-pathology-report-extraction.md)
+
 ## 實務的啟發
 
 - **可借用的量測方法** — 評估選擇題形式的放射 AI 時，加一組 options-only 對照（拿掉病例、只給選項），並分開報告「訓練過的來源」與「只用於評估的來源」；本篇這兩項分析讓 4.9 點的平均增益能被拆開解讀。
