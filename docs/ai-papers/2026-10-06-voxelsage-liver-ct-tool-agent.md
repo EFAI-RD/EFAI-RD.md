@@ -183,6 +183,8 @@ VoxelSage 把量測交給確定性程式，HAD-VLM 則讓 VLM 本身以 diffusio
 
 本篇是「LLM 呼叫專門工具」的一個實作，把肝腫瘤量測交給程式執行；該綜述構想的 agentic 放療勾畫系統採同樣的控制器加工具架構，並列出檢索錯誤、理由不實與錯誤串接等失效模式: [放療勾畫綜述：VLM 對 nnU-Net 勝負未定，論點改押 CTV](2026-11-12-radiotherapy-segmentation-review-atlas-to-agentic-vlm.md)
 
+LesionAgent 同樣讓 LLM 只負責判斷、把量測與 RECIST 類別交給確定性程式，並補上本篇缺少的對照：以固定規則串接同一批 3D 模型時 56 次追蹤有 33 次誤判惡化，同一個 LLM 在沒有 harness 的 Claude Code 中偵測 F1 只有 41%（LesionAgent 78%）: [LesionAgent：固定規則誤判惡化 33 次，加上代理判讀只剩 2 次](2026-11-24-lesionagent-longitudinal-ct-recist-agent.md)
+
 ## 實務的啟發
 
 本篇的定位是可借用的系統設計與量測方法，不是已驗證的術前規劃工具。
