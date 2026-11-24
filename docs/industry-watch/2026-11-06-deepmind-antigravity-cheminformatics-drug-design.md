@@ -31,6 +31,8 @@ related_articles:
     relation: "本則示範的藥物設計代理流程就跑在 Google Antigravity 上，該則則改變了同一個環境裡的模型指派方式：Orchestrator 讓前沿模型 Carbon 負責探索與規劃、新的執行層 Hydrogen 負責寫修改與跑測試，卡住時再交還 Carbon。本則那類多步驟科研流程的成本與延遲結構因此被重新切分，而這項效益目前仍只有供應商自報的相對值"
   - path: "2026-11-16-openai-biobasicsbench-wet-lab-agents.md"
     relation: "兩則都在談代理程式進入實驗科學，揭露形式剛好相反：本則是一場沒有任何分數的示範流程，該則是一組有逐條評分標準與 95% 信賴區間、卻沒有人類基準的分數；合起來正好是「只有敘事」與「只有分數」的兩端"
+  - path: "2026-11-24-openai-medchembench-medicinal-chemistry.md"
+    relation: "本則示範的是代理程式串接既有化學工具、可反覆計算並改寫提案，該則的受測條件恰好是它的反面——單回合、不給工具、不給回饋、不能追加實驗，而該則論文把代理式軌道列為未來工作"
 refs:
   pr:
     title: "Google DeepMind：Agentic cheminformatics with Google Antigravity（官方部落格，2026-11-03）"
@@ -187,6 +189,8 @@ Google DeepMind 在 2026-11-03 發表 Antigravity 的 `Cheminformatics Skills`�
 本則示範的藥物設計代理流程就跑在 Google Antigravity 上，該則則改變了同一個環境裡的模型指派方式：Orchestrator 讓前沿模型 Carbon 負責探索與規劃、新的執行層 Hydrogen 負責寫修改與跑測試，卡住時再交還 Carbon。本則那類多步驟科研流程的成本與延遲結構因此被重新切分，而這項效益目前仍只有供應商自報的相對值: [非旗艦卻超過自家 Argon：Gemini 4 Hydrogen 解析](2026-11-16-gemini-4-hydrogen-agentic-execution-model.md)
 
 兩則都在談代理程式進入實驗科學，揭露形式剛好相反：本則是一場沒有任何分數的示範流程，該則是一組有逐條評分標準與 95% 信賴區間、卻沒有人類基準的分數；合起來正好是「只有敘事」與「只有分數」的兩端: [例行實驗判讀只拿 66.7%：OpenAI BioBasicsBench 拆解](2026-11-16-openai-biobasicsbench-wet-lab-agents.md)
+
+本則示範的是代理程式串接既有化學工具、可反覆計算並改寫提案，該則的受測條件恰好是它的反面——單回合、不給工具、不給回饋、不能追加實驗，而該則論文把代理式軌道列為未來工作: [分子讀得準、化合物選不準：OpenAI MedChemBench 解析](2026-11-24-openai-medchembench-medicinal-chemistry.md)
 
 ## 實務的啟發
 

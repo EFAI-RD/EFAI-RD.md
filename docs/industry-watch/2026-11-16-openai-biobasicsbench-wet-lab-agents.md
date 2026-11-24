@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 5
+nav_exclude: true
 title: "例行實驗判讀只拿 66.7%：OpenAI BioBasicsBench 拆解"
 category: industry-watch
 date: 2026-11-16
@@ -27,6 +27,8 @@ related_articles:
     relation: "兩則都在談代理程式進入實驗科學，揭露形式剛好相反：該則是一場沒有任何分數的示範流程，本則是一組有逐條評分標準與 95% 信賴區間、卻沒有人類基準的分數"
   - path: "2026-10-07-openai-gpt-6-1-sol-launch.md"
     relation: "同一家公司對同一個型號的兩種揭露方式：該則記錄 GPT-6.1 Sol 發布時除 Terminal-Bench Science 的 68.1% 外不給絕對分數，本則把同一個型號放進 BioBasicsBench，給了 62.0% 與 55.6–68.4% 的 95% 信賴區間"
+  - path: "2026-11-24-openai-medchembench-medicinal-chemistry.md"
+    relation: "同一家公司四天後發布的另一套自家科學評測，揭露程度剛好相反：本則的題目組成與評分細節只有公告一頁，該則另附一份署名論文，使成績的分母、95% bootstrap 區間與四個成分的給分權重可逐項回查"
 refs:
   main:
     title: "Measuring how AI agents handle everyday wet-lab science（OpenAI 官方公告，2026-11-06）"
@@ -175,6 +177,8 @@ OpenAI 在 2026-11-06 發布 BioBasicsBench，一組與生技公司 Ligo 共同�
 兩則都在談代理程式進入實驗科學，揭露形式剛好相反：該則是一場沒有任何分數的示範流程，本則是一組有逐條評分標準與 95% 信賴區間、卻沒有人類基準的分數；合起來正好是「只有敘事」與「只有分數」的兩端: [代理程式串起既有化學工具：DeepMind 藥物設計 Skills 解剖](2026-11-06-deepmind-antigravity-cheminformatics-drug-design.md)
 
 同一家公司對同一個型號的兩種揭露方式：該則記錄 GPT-6.1 Sol 發布時除 Terminal-Bench Science 的 68.1% 之外不公布任何絕對分數，本則把同一個型號放進 BioBasicsBench，給了 62.0% 與 55.6–68.4% 的 95% 信賴區間，並與其餘六個自家型號並列: [價格只要五分之一，但科學能力沒跟上：GPT-6.1 Sol 解剖](2026-10-07-openai-gpt-6-1-sol-launch.md)
+
+同一家公司四天後發布的另一套自家科學評測，揭露程度剛好相反：本則的題目組成與評分細節只有公告一頁，該則另附一份署名論文，使成績的分母、95% bootstrap 區間與四個成分的給分權重可逐項回查: [分子讀得準、化合物選不準：OpenAI MedChemBench 解析](2026-11-24-openai-medchembench-medicinal-chemistry.md)
 
 ## 實務的啟發
 
