@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "VLM 代理自己翻 CT／MRI：第一個假設錯，最後只有 12% 答對"
 catalog_id: "arxiv:2611.23480"
 editors:
@@ -154,6 +154,8 @@ CT 標頭研究發現資訊在模型作答後才送到時，後到的來源常�
 轉診文字研究固定 MRI、逐級改寫轉診文字，量到答案主要隨文字改變；本篇以只給切片標籤或只給臨床指示的無影像對照，量到六個 VLM 不看影像也能答對 11–17% 的急診病例，且多數不會指出影像缺失: [轉診單一句話就改變 MRI 判讀，叫模型忽略只有一個做得到](2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
 
 本篇量到 VLM 代理很早寫下的第一個假設多半不會被推翻；臨床 LLM 安全綜述則把這類「一旦對答案有信心，後續自我反思就難以修正」的現象（Degeneration of Thought）列為代理錯誤級聯的成因之一，並主張要靠外部可驗證的檢查打斷，而不是由同一個模型自我反思: [臨床 LLM 安全綜述：符號否決層數字亮眼，多來自單一小型研究](2026-11-24-verifiable-logic-neuro-symbolic-review.md)
+
+兩篇都讓代理自己在 CT 體積中找東西；本篇的模型自己翻切片、很早寫下的假設多半不會修正，LesionAgent 則把判讀狀態放在 LLM 之外的 lesion registry，並強制每個新病灶與基準期並排比對後才能記錄: [LesionAgent：固定規則誤判惡化 33 次，加上代理判讀只剩 2 次](2026-11-24-lesionagent-longitudinal-ct-recist-agent.md)
 
 ## 實務的啟發
 

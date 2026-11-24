@@ -145,6 +145,8 @@ VoxelSage 是「LLM 呼叫專門工具」的一個實作，把肝腫瘤量測交
 
 GE HealthCare 與 Mass General Brigham 的公告要在放療工作流程軟體上探索以自然語言彙整病歷、影像與治療計畫的工具，但生成式 AI 部分沒有任何成效數字；本篇從研究面提出放療 agent 應如何評估，包括中間步驟正確性與失效時是否交回醫師: [合作先行、產品未到：GE 與 MGB 放療生成式 AI 一探究竟](../industry-watch/2026-10-15-ge-healthcare-mgb-genai-radiation-therapy.md)
 
+本綜述構想以 LLM 控制器呼叫 VoxTell 等 3D 文字提示分割模型、但承認尚無系統實作；LesionAgent 是同一類控制器加工具架構在腫瘤療效判讀上的實作，以 VoxTell 作為偵測工具，並在四個公開縱向 CT 資料集上評估: [LesionAgent：固定規則誤判惡化 33 次，加上代理判讀只剩 2 次](2026-11-24-lesionagent-longitudinal-ct-recist-agent.md)
+
 ## 實務的啟發
 
 - **可借用的評估清單：三種提示遵循測試** — 若團隊要評估任何吃臨床文字的分割或報告模型，counterfactual prompt、language ablation、semantic invariance 三種測試不需要新資料就能做，能直接回答「模型有沒有在用文字」；這是作者的建議，尚無研究依此建立標準，判定門檻需要自己定。[(ref: main §8.4)](https://arxiv.org/html/2611.12085v1#S8.SS4)
