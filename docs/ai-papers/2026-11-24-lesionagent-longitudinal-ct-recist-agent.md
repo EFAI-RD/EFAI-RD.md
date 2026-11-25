@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 2
+nav_order: 3
 title: "LesionAgent：固定規則誤判惡化 33 次，加上代理判讀只剩 2 次"
 catalog_id: "arxiv:2611.27876"
 editors:
