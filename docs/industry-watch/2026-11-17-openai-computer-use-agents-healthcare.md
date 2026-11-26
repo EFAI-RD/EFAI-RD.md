@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 5
+nav_exclude: true
 title: "API 到不了就改用點擊：OpenAI 醫療 computer use 解析"
 category: industry-watch
 date: 2026-11-17
@@ -28,6 +28,8 @@ related_articles:
     relation: "該則整理的健康 AI 評估框架主張門檻由各團隊自訂，本則正是一份照那類方法做出來的評估：醫師以五點量表評有用性、以是否可能造成病人傷害評安全性，而公告同樣沒有給任何可供比較的門檻或對照組"
   - path: "../ai-papers/2026-11-17-healthadminbench-computer-use-agents-admin.md"
     relation: "本則公告引用該篇評測並自報 GPT-6 Astra 取得 94.3% 的 rubric points，而該篇正是那個評測的方法與完整結果：論文自己報的最高整件工作成功率只有 36.3%，與子項比例差了三、四十個百分點，正好說明本則引用的是哪一種指標"
+  - path: "2026-11-26-ge-healthcare-inteleorchestrator-clarity-reporting.md"
+    relation: "兩則都把 AI 放在醫療的文書與行政端而不是判斷端，差別在落點：本則讓代理程式以點擊操作既有醫療軟體完成事前授權與申覆，該則讓 AI 留在閱片畫面內整理脈絡並草擬報告"
 refs:
   cua:
     title: "Advancing computer-use agents for healthcare teams（OpenAI 官方公告，2026-11-16）"
@@ -163,6 +165,8 @@ HealthAdminBench 本身的公開資料可以核對到：該評測為 v1.0，作�
 該則整理的健康 AI 評估框架主張門檻由各團隊自訂，本則正是一份照那類方法做出來的評估：醫師以五點量表評有用性、以是否可能造成病人傷害評安全性，而公告同樣沒有給任何可供比較的門檻或對照組: [給了框架不給門檻：Google 健康 AI 評估三法十七維解讀](2026-11-05-google-health-ai-evaluation-framework.md)
 
 本則公告引用該篇評測並自報 GPT-6 Astra 取得 94.3% 的 rubric points，而該篇正是那個評測的方法與完整結果：論文自己報的最高整件工作成功率只有 36.3%，與子項比例差了三、四十個百分點，正好說明本則引用的是哪一種指標: [HealthAdminBench：子項 78.4%，整件工作只做完 36.3%](../ai-papers/2026-11-17-healthadminbench-computer-use-agents-admin.md)
+
+兩則都把 AI 放在醫療的文書與行政端而不是判斷端，差別在落點：本則讓代理程式以點擊操作既有醫療軟體完成事前授權與申覆，該則讓 AI 留在閱片畫面內整理脈絡並草擬報告: [不碰判讀只做文書：InteleOrchestrator Clarity 拆解](2026-11-26-ge-healthcare-inteleorchestrator-clarity-reporting.md)
 
 ## 實務的啟發
 

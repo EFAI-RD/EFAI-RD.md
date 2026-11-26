@@ -185,6 +185,8 @@ CT 報告修訂規則庫在報告寫完後以獨立影像證據修訂草稿，De
 
 DeCAD 把 Lingshu-7B 列為五個受試醫療 VLM 之一，它在 CT-RATE 直接寫報告的 macro-F1 只有 7.1、逐病問答 24.6，先列發現再寫的微調可升到 30.8；Lingshu-32B 未微調寫報告為 9.3，補上本篇 VQA 平均分數看不到的 3D CT 報告邊界: [Lingshu 靠合成資料拉高醫療 VQA，強化學習那一步沒加分](2026-09-15-lingshu-medical-vlm.md)
 
+本篇處理的是模型「問得出卻寫不出」的判讀到文字落差，該則的產業產品則把同一段切開：判讀留在放射科醫師身上，AI 只把口述與前次報告組成結構化草稿: [不碰判讀只做文書：InteleOrchestrator Clarity 拆解](../industry-watch/2026-11-26-ge-healthcare-inteleorchestrator-clarity-reporting.md)
+
 ## 實務的啟發
 
 - **可借用的設計** — 想提升 CT 報告的發現涵蓋率時，「先輸出陽性發現清單、再以清單與影像為條件寫報告」只改訓練目標、不改架構，在本研究的六個模型上都提高了以標籤計的 macro-F1；成本主要是要從參考報告抽出清單。[(ref: main §3.1)](https://arxiv.org/html/2611.30458v1#S3.SS1) [(ref: main §4.2)](https://arxiv.org/html/2611.30458v1#S4.SS2)
