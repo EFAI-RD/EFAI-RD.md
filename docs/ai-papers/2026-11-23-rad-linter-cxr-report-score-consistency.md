@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "胸片報告對照分類器分數：1.5B 模型 98.5%，規則 80.5%"
 catalog_id: "arxiv:2611.26492"
 editors:
