@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 1
+nav_order: 5
 title: "胸片報告對照分類器分數：1.5B 模型 98.5%，規則 80.5%"
 catalog_id: "arxiv:2611.26492"
 editors:
@@ -127,6 +127,8 @@ Hard items 為 64 個 hard quad 的 256 組配對；隨機猜測的 quad accurac
 兩篇都碰到「沒提到算不算沒有」這個約定；該篇顯示查核模型對未提及的 checklist 發現採不同解讀時，強化學習量到的增益就跟著變，本篇則把未提及與明確否定一起歸入 Omission，且在這一類上規則與微調模型打平，差距只出現在需要解讀措辭的配對: [「沒提到」算不算「沒有」？換一個查核模型，增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
 
 該篇的 LLM 只審閱報告文字內部是否有錯，作者明說無法發現報告與影像不符；本篇則把影像分類器分數當作外部證據交給查核器，補的正是「文字對影像」這一層，但答案改由自動 labeler 與分數門檻產生，沒有放射科醫師判讀: [14 萬份中文報告挑錯：Qwen3 recall 0.96，醫師最高 0.67](2026-11-02-llm-radiology-report-error-qa-multicenter.md)
+
+兩篇都把影像分類器分數當作報告之外的證據；本篇讓微調小模型判斷胸片報告與分數是否一致、只發出旗標，該篇則在胸部 CT 上用學到的門檻規則決定何時依分數與量測修改報告，並顯示直接讓 LLM 依證據改寫反而降低報告品質: [CT 報告修訂規則庫：有影像證據 CE-F1 多 11.5，只看草稿學不到](2026-11-25-ct-report-rulebank-independent-evidence.md)
 
 ## 實務的啟發
 

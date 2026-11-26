@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_exclude: true
 title: "診斷代理基準的後見之明：LLM 讀病例摘要比讀檢傷資料多答對 14 點"
 catalog_id: "arxiv:2611.22241"
 editors:

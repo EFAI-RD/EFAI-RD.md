@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "VLM 代理自己翻 CT／MRI：第一個假設錯，最後只有 12% 答對"
 catalog_id: "arxiv:2611.23480"
 editors:
