@@ -189,6 +189,8 @@ MedChain-R1 把 Lingshu 32B 列為六個候選推理教師之一（最後選用 
 
 CaseScope 把 Lingshu-7B 放進病理多視野教學個案，十選一單次準確率 33.6%、十種選項順序全對只剩 5.7%，可補上醫療 VQA 平均分數在病理個案診斷上的邊界: [病理多視野診斷：選項輪換十次全對，開放 MLLM 最高 17.9%](2026-11-18-casescope-multi-field-pathology-mllm.md)
 
+DeCAD 把 Lingshu-7B 放進 3D CT 報告生成，在 CT-RATE 直接寫報告的 macro-F1 只有 7.1、逐病問答 24.6，先列發現再寫的微調升到 30.8，Lingshu-32B 未微調寫報告為 9.3，補上本篇 VQA 平均分數看不到的 3D CT 報告邊界: [CT 報告模型問得出卻寫不出：先列發現再寫，F1 15.9→39.0](2026-11-26-decad-ct-diagnosis-to-report-gap.md)
+
 ## 實務的啟發
 
 以下是本書庫依上述結果提出的工程建議：

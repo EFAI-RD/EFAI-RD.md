@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 1
+nav_order: 2
 title: "CT 報告修訂規則庫：有影像證據 CE-F1 多 11.5，只看草稿學不到"
 catalog_id: "arxiv:2611.28281"
 editors:
@@ -169,6 +169,8 @@ EviGround-CT 在 CT 報告寫完後用 3D 驗證器逐句找影像證據，只�
 DLoss 在訓練時改損失函數、讓 CT 報告模型少寫沒有根據的診斷詞，本篇則完全不重新訓練報告模型，改在生成之後以影像證據修訂草稿，兩篇分別代表「訓練時約束」與「生成後修訂」，也都以 GREEN 評估: [DLoss：訓練時分開施壓該寫與不該寫的診斷詞，GREEN 多 4 分](2026-11-02-dloss-diagnostic-loss-ct-report-generation.md)
 
 兩篇都把影像分類器的分數當作報告之外的證據；Rad-Linter 讓微調小模型判斷胸片報告與分數是否一致、只發出旗標，本篇則在胸部 CT 上用學到的門檻規則決定何時依分數與量測修改報告，並顯示直接讓 LLM 依證據改寫反而降低報告品質: [胸片報告對照分類器分數：1.5B 模型 98.5%，規則 80.5%](2026-11-23-rad-linter-cxr-report-score-consistency.md)
+
+本篇在報告寫完後以獨立影像證據修訂草稿，DeCAD 則在生成時就先讓模型自己寫出陽性發現清單；兩篇都在 CT-RATE 上以 RadBERT 抽出 18 類異常的 macro-F1 評估，增益都以 recall 上升最明顯: [CT 報告模型問得出卻寫不出：先列發現再寫，F1 15.9→39.0](2026-11-26-decad-ct-diagnosis-to-report-gap.md)
 
 ## 實務的啟發
 

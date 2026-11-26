@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "病理報告抽取：Nimble 一次問 25 題，pT 準確率只剩 0.49"
 catalog_id: "arxiv:2611.20129"
 editors:
