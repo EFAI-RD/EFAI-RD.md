@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 3
+nav_order: 4
 title: "臨床 LLM 安全綜述：符號否決層數字亮眼，多來自單一小型研究"
 catalog_id: "arxiv:2611.25898"
 editors:
