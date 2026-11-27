@@ -177,6 +177,8 @@ pp：影像面積的百分點。[(ref: main Table 3)](https://arxiv.org/html/261
 
 胸片＋EHR 稽核發現 EHR 向量等於病人識別碼、查表就追平最佳模型，本篇則發現 caption 的尺寸詞由評分遮罩算出；兩篇都是基準的輸入帶進了測試時不該有的標籤資訊，也都先用不需學習的對照量出洩漏: [查表就追平最佳模型：胸片＋EHR 不平衡基準的病人洩漏](2026-11-06-cxr-ehr-imbalance-benchmark-patient-leakage.md)
 
+本篇發現 2D 文字引導分割的增益主要來自洩漏的病灶範圍詞；VoxTell 錯誤分析在 3D CT 上用同樣的刪詞對照，發現模型依賴的是位置詞，範圍估計反而是最弱的部分: [CT 報告逐句分割：VoxTell 沒有一例分錯邊，錯在範圍與小病灶](2026-11-27-voxtell-ct-report-sentence-grounding-errors.md)
+
 ## 實務的啟發
 
 1. **評估吃文字的分割或 VLM 模型時，固定報三種 caption 的分數。** empty、mismatched、matched 三組加上 prior share，以及模板 caption 各屬性的 sufficiency／necessity，是作者的第 2 項建議；這組對照不需要新資料，就能分出「描述影像」與「給了答案的大小」。[(ref: main §6.2)](https://arxiv.org/html/2611.13970v1#S6.SS2)

@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 2
+nav_order: 3
 title: "CT 報告模型問得出卻寫不出：先列發現再寫，F1 15.9→39.0"
 catalog_id: "arxiv:2611.30458"
 editors:

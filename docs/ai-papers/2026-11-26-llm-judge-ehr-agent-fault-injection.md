@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 1
+nav_order: 2
 title: "LLM judge 審 EHR 代理：只看最終答案，正確紀錄也誤報 56%"
 catalog_id: "arxiv:2611.33012"
 editors:
