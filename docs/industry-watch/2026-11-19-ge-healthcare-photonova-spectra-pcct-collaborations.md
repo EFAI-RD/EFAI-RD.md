@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 4
+nav_order: 5
 title: "先過審再收證據：GE Photonova Spectra 七機構評估解析"
 category: industry-watch
 date: 2026-11-19
@@ -21,6 +21,8 @@ source:
   single_source: false
   single_org: false
 related_articles:
+  - path: "2026-11-27-siemens-sana-lung-screening-data-partnership.md"
+    relation: "本則的光子計數 CT 已取得美國 510(k) 許可，七家機構是在許可之後才展開結構化評估；該則連受評的軟體都還沒有，醫療機構供應的是訓練階段的輸入。同樣是大廠與醫療機構的結構化合作，分別落在法規後與訓練前"
   - path: "2026-11-11-ge-healthcare-magnus-neuro-alliance.md"
     relation: "同一家公司兩則「多機構研究網絡」公告，分處法規光譜的兩端：該則的頭部專用 MR 系統註明未獲任何主管機關許可、僅供研究，本則的 CT 系統則已取得美國 510(k) 許可並以此為前提展開評估。兩則並讀，可以看出同一套合作形態在「法規前」與「法規後」兩種階段被用來做的事並不相同"
   - path: "2026-11-18-ge-healthcare-critical-care-suite-3-0-enteric-tube.md"
@@ -154,6 +156,8 @@ GE HealthCare 於 2026-11-16 宣布擴大 Photonova Spectra 的全球臨床與�
 兩則都是同一家公司以深度學習為核心、卻循傳統器材路徑取得許可的案例：該則的餵食管 AI 走 QIH 影像處理軟體代碼，本則的光子計數 CT 連同其 CNN 重建演算法一起掛在 JAK 電腦斷層系統代碼下，兩案的 Predetermined Change Control Plan 欄位皆為未授權: [只標位置不給距離：GE 餵食管 AI K253502 解讀](2026-11-18-ge-healthcare-critical-care-suite-3-0-enteric-tube.md)
 
 該篇處理的是在既有 CT 影像上以模型評估品質時，模型會高估過度平滑影像；本則的硬體與重建路徑正好大規模改變 CT 影像的雜訊紋理 —— 光子計數偵測器加上預設開啟的 CNN 去雜訊，意味著既有以能量積分式 CT 訓練的品質評估模型，面對的將是一批分布不同的輸入: [低劑量 CT 品質評分：MLLM 讀量測值追平競賽冠軍，卻高估過度平滑影像](../ai-papers/2026-11-18-ldct-iqa-measurement-aware-mllm.md)
+
+本則的光子計數 CT 已取得美國 510(k) 許可，七家機構是在許可之後才展開結構化評估；該則連受評的軟體都還沒有，醫療機構供應的是訓練階段的輸入。同樣是大廠與醫療機構的結構化合作，分別落在法規後與訓練前: [不只影像還要報告與標註：Siemens 與 Sana 肺癌篩檢合作解析](2026-11-27-siemens-sana-lung-screening-data-partnership.md)
 
 ## 實務的啟發
 
