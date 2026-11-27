@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 2
+nav_order: 3
 title: "不碰判讀只做文書：InteleOrchestrator Clarity 拆解"
 category: industry-watch
 date: 2026-11-26

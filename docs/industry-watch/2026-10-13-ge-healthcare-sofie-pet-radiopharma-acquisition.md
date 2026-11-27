@@ -29,6 +29,8 @@ related_articles:
     relation: "同一家公司 theranostics 布局的治療端與造影端兩則公告，共同點是標題涵蓋面大於公告內可核對的範圍"
   - path: "2026-10-29-ge-healthcare-q3-2026-results.md"
     relation: "本則的 9.45 億美元收購在該則的季度財報 capital deployment 段再次出現，並補上「預計 2027 年上半年完成、須經主管機關核准」；更有用的是該則的現金流量表提供了本則缺少的量級脈絡 —— 前九個月 `Purchases of businesses, net of cash acquired` 合計 22.93 億美元，而全部收購對同期營收的貢獻只有 1.90 億美元"
+  - path: "2026-11-27-ge-healthcare-omni-total-body-pet-ct-510k-pending.md"
+    relation: "PET 這條路徑的上下游兩端：本則買下的是示蹤劑的生產與供應網絡，該則送審的是接收這些示蹤劑的掃描端，而兩則都把新興 theranostic agents 列為主要用途 —— 示蹤劑能否到院，與掃描器能否偵測慢衰變、低活度示蹤劑，是同一個可及性問題的兩側"
 refs:
   gehc:
     title: "GE HealthCare：GE HealthCare to acquire SOFIE Biosciences, establishing a 'final mile' footprint for PET radiopharmaceutical supply in the U.S.（官方新聞稿）"
@@ -178,6 +180,8 @@ SOFIE 自己公告的兩項第三期試驗如下：
 同屬 GE HealthCare 的 theranostics 布局，本則是治療端 —— 花 9.45 億美元買下放射性藥物配送的最後一哩，該則是造影端 —— 把評估鋪到三大洲五家機構；兩則的共同特徵是標題涵蓋面都大於公告內可核對的範圍，本則的 pan-cancer 實際只有兩種癌別的第三期試驗，該則的 next generation of theranostics imaging 實際只有一條倍數宣稱: [4D SPECT/CT 交五家機構評估：StarGuide GX 一探究竟](2026-10-29-ge-healthcare-starguide-gx-theranostics-collaborations.md)
 
 本則的 9.45 億美元收購在該則的季度財報 capital deployment 段再次出現，並補上「預計 2027 年上半年完成、須經主管機關核准」；更有用的是該則的現金流量表提供了本則缺少的量級脈絡 —— 前九個月 `Purchases of businesses, net of cash acquired` 合計 22.93 億美元，而全部收購對同期營收的貢獻只有 1.90 億美元: [營收成長 7.2%、全年財測上修：GE 第三季財報分析](2026-10-29-ge-healthcare-q3-2026-results.md)
+
+PET 這條路徑的上下游兩端：本則買下的是示蹤劑的生產與供應網絡，該則送審的是接收這些示蹤劑的掃描端，而兩則都把新興 theranostic agents 列為主要用途 —— 示蹤劑能否到院，與掃描器能否偵測慢衰變、低活度示蹤劑，是同一個可及性問題的兩側: [一個床位取代五六個：GE 全身 PET/CT Omni 送審解剖](2026-11-27-ge-healthcare-omni-total-body-pet-ct-510k-pending.md)
 
 ## 實務的啟發
 
