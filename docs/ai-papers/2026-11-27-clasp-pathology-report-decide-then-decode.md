@@ -193,6 +193,8 @@ DeCAD 讓 CT 報告模型在寫報告前先輸出陽性發現清單，CLASP 在�
 
 PathXAI 以「全答存在」的常數控制顯示病理報告的 finding F1 會被輕易超過，CLASP 則以「每份報告都寫最常見四個發現」與不經學習的醫院共識報告做同類控制，兩篇都說明病理報告的自動分數需要不靠影像的對照組: [PathXAI：公開集 finding F1 48.8，全答「有」得 86.3](2026-11-10-pathxai-segmentation-guided-pathology-report.md)
 
+本篇的同院共識基準讓 BLEU-4 追上已發表方法；評估指標譜系文從 BLEU 到 GREEN 整理報告指標，並把檢索與共識基準列為報分數時應一併提供的對照: [放射報告評估指標：從 BLEU 到 GREEN，三個新分數都拿同 50 例驗證](../ai-basics/radiology-report-generation-metrics.md)
+
 ## 實務的啟發
 
 - **評估病理報告生成時先放三個不學習的對照** — 同院報告共識、最相似訓練報告，以及「每份都寫最常見發現」；在 PathText-BRCA 上，前者的 BLEU-4 已與已發表方法相當，後者的發現 F1 與受訓模型差不多。沒有贏過這些對照的分數，很難解讀成模型讀懂了切片。[(ref: main §3.1)](https://arxiv.org/html/2611.28576v1#S3.SS1) [(ref: main Table 1)](https://arxiv.org/html/2611.28576v1#S4.T1)

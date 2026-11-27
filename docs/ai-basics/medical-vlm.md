@@ -1,6 +1,6 @@
 ---
 parent: AI Basics
-nav_order: 2
+nav_order: 3
 title: "醫療視覺語言模型：從 CLIP 對齊到有定位報告"
 category: ai-basics
 date: 2026-09-17
@@ -151,6 +151,8 @@ CLIP 展示：用大量圖文對，以對比學習把影像與自然語言拉進
 本譜系的通才醫療多模態路線走進公共衛生場域後，決定成敗的變項從對齊目標換成了下游的驗證能力: [開放權重醫療模型的四國五案：MedGemma 落地現況重點整理](../industry-watch/2026-10-08-medgemma-global-deployment-claims.md)
 
 Liquid Foundation Models 把對話式 VLM 縮到裝置端：LFM2-VL 以 SigLIP2 編碼器接上以閘控短卷積為主的語言主幹，技術報告自承訓練未使用 grounding 訊號，可作為本譜系中「小模型、無定位」一端的對照: [LFM：名字來自液態時間常數網路，主幹卻是閘控短卷積](liquid-foundation-models.md)
+
+本篇整理醫療 VLM 如何走到有定位的報告生成；評估指標譜系文接著整理這些報告產出後如何被打分，以及各指標與放射科醫師的一致性: [放射報告評估指標：從 BLEU 到 GREEN，三個新分數都拿同 50 例驗證](radiology-report-generation-metrics.md)
 
 ## 實務的啟發
 

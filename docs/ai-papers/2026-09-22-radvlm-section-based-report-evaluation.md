@@ -185,6 +185,8 @@ ORION-CMR 以整份報告層級的 81.4% 相符率作為評估結果，與本篇
 
 本篇顯示語意相似度不能代理結構保真度，該研究改用結構化 checklist 加 LLM 查核來判定胸片報告句是否成立，發現「checklist 未提到的發現」如何解讀仍會改變量到的分數: [「沒提到」算不算「沒有」？換一個查核模型，增益就跟著變](2026-10-23-unmentioned-findings-rl-cxr-report-checking.md)
 
+本篇用到的 RadGraph F1、BERTScore 與 CheXbert 相似度，在 AI Basics 的評估指標譜系文中整理了各自比對什麼，以及它們與放射科醫師一致性的數字來自哪一份資料: [放射報告評估指標：從 BLEU 到 GREEN，三個新分數都拿同 50 例驗證](../ai-basics/radiology-report-generation-metrics.md)
+
 ## 實務的啟發
 
 第一，報告生成的驗收要分節分軸，不要只看一個總分。Findings 與 Impression 承擔的工作不同，這份研究顯示兩者的分數在同一批報告上可以往不同方向走：Impression 的可讀性甚至優於放射科醫師的原文，Findings 的實體—關係保真度卻只有 0.25 上下。院內試評時若只報一個彙總的文字相似度，就等於把這個落差平均掉了。
