@@ -1,6 +1,6 @@
 ---
 parent: AI Basics
-nav_order: 3
+nav_order: 4
 title: "LFM：名字來自液態時間常數網路，主幹卻是閘控短卷積"
 category: ai-basics
 date: 2026-11-18
