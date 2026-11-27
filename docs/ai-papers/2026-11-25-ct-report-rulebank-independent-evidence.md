@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "CT 報告修訂規則庫：有影像證據 CE-F1 多 11.5，只看草稿學不到"
 catalog_id: "arxiv:2611.28281"
 editors:

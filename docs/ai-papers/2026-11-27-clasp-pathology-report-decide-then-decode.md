@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 2
+nav_order: 3
 title: "病理報告生成：挑同院舊報告，BLEU-4 就逼近已發表方法"
 catalog_id: "arxiv:2611.28576"
 editors:

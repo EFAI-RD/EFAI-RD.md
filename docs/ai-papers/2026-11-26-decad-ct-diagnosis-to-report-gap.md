@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 4
+nav_order: 5
 title: "CT 報告模型問得出卻寫不出：先列發現再寫，F1 15.9→39.0"
 catalog_id: "arxiv:2611.30458"
 editors:
@@ -188,6 +188,8 @@ DeCAD 把 Lingshu-7B 列為五個受試醫療 VLM 之一，它在 CT-RATE 直接
 本篇處理的是模型「問得出卻寫不出」的判讀到文字落差，該則的產業產品則把同一段切開：判讀留在放射科醫師身上，AI 只把口述與前次報告組成結構化草稿: [不碰判讀只做文書：InteleOrchestrator Clarity 拆解](../industry-watch/2026-11-26-ge-healthcare-inteleorchestrator-clarity-reporting.md)
 
 DeCAD 讓 CT 報告模型在寫報告前先輸出陽性發現清單，CLASP 在病理全切片上於解碼前同時決定句子結構、長度、發現與每個發現放在哪一句；兩篇都顯示「先決定要寫什麼」能提高以標籤計的報告正確性: [病理報告生成：挑同院舊報告，BLEU-4 就逼近已發表方法](2026-11-27-clasp-pathology-report-decide-then-decode.md)
+
+本篇在 CT-RATE 上量到 HuluMed-7B 等模型逐病問答遠勝直接寫報告；DiCT 則用 CT-RATE 體積算出的 DRR 與 Hulu-4B，讓看 CT 的老師模型把判讀蒸餾給只看胸片的學生，評估只有問答與量測、沒有報告生成: [胸片 VLM 向 CT 老師學推理：一個主幹勝過重建 CT，另一個仍落後](2026-11-27-dict-cxr-vlm-ct-teacher-distillation.md)
 
 ## 實務的啟發
 
