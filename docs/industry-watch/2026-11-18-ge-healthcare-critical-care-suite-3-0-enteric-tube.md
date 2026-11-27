@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 5
+nav_exclude: true
 title: "只標位置不給距離：GE 餵食管 AI K253502 解讀"
 category: industry-watch
 date: 2026-11-18

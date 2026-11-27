@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 3
+nav_order: 4
 title: "同劑量與釓不分高下：GE 錳顯影劑 LUMINA 進三期拆解"
 category: industry-watch
 date: 2026-11-20

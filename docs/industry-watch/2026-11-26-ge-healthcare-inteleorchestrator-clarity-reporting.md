@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 1
+nav_order: 2
 title: "不碰判讀只做文書：InteleOrchestrator Clarity 拆解"
 category: industry-watch
 date: 2026-11-26
@@ -21,6 +21,8 @@ source:
   single_source: false
   single_org: true
 related_articles:
+  - path: "2026-11-27-siemens-sana-lung-screening-data-partnership.md"
+    relation: "本則的報告草稿功能把放射報告當成產出端的目標，該則的協議則把放射報告列為要交付給廠商的訓練輸入之一。同一種文件在兩則裡分別站在模型的輸出端與輸入端"
   - path: "../ai-papers/2026-11-25-ct-report-rulebank-independent-evidence.md"
     relation: "該篇以對照實驗指出報告修訂模型只看草稿文字學不到東西、必須有獨立的影像證據才改得準，而 Clarity 的草稿正是只由口述與既有文字組成，公告未提任何影像端輸入"
   - path: "../ai-papers/2026-11-26-decad-ct-diagnosis-to-report-gap.md"
@@ -156,6 +158,8 @@ AMA 另有一段與本則產品定位直接相關：以醫院為執業場域的�
 同一家公司同一個月的兩個 AI 功能走了兩條路：該則的餵食管演算法讀影像、走 510(k) 並在 FDA 文件留下十一項效能數值，本則的報告草稿不讀影像，公告正文的法規與效能用語命中皆為 0: [只標位置不給距離：GE 餵食管 AI K253502 解讀](2026-11-18-ge-healthcare-critical-care-suite-3-0-enteric-tube.md)
 
 兩則都把 AI 放在醫療的文書與行政端而不是判斷端，差別在落點：該則讓代理程式以點擊操作既有醫療軟體完成事前授權與申覆，本則讓 AI 留在閱片畫面內整理脈絡並草擬報告: [API 到不了就改用點擊：OpenAI 醫療 computer use 解析](2026-11-17-openai-computer-use-agents-healthcare.md)
+
+本則的報告草稿功能把放射報告當成產出端的目標，該則的協議則把放射報告列為要交付給廠商的訓練輸入之一。同一種文件在兩則裡分別站在模型的輸出端與輸入端: [不只影像還要報告與標註：Siemens 與 Sana 肺癌篩檢合作解析](2026-11-27-siemens-sana-lung-screening-data-partnership.md)
 
 ## 實務的啟發
 

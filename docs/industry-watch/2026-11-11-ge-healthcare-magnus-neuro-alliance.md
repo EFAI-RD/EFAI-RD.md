@@ -21,6 +21,8 @@ source:
   single_source: true
   single_org: true
 related_articles:
+  - path: "2026-11-27-siemens-sana-lung-screening-data-partnership.md"
+    relation: "兩則都是大廠把多家醫療機構圈成一個供給網，換到的東西卻不同：本則聯盟換到的是九家機構圍繞一台研究用機器的使用與交流意向，該則協議換到的是一家醫院集團的影像、標註與放射報告，以及事後在同一批院所內評估的場域"
   - path: "2026-11-20-ge-healthcare-mangaciclanol-lumina-phase2.md"
     relation: "兩則都是同一家公司尚未取得任何主管機關許可、卻已進入多機構實地使用的中樞神經造影項目，受管制的對象卻不同：本則是一台註明僅供研究、不可販售的頭部專用 MR 硬體，該則是一支受藥品法規管轄、必須走完第三期才可能上市的顯影劑。兩則並讀可以看出同一個造影問題在器材與藥品兩條法規路徑上的進度並不同步"
   - path: "2026-11-03-ge-healthcare-allia-celeo-interventional-launch.md"
@@ -147,6 +149,9 @@ GE HealthCare 於 2026-11-10 宣布，打算成立一個名為 MAGNUS Neuro Alli
 該則的光子計數 CT 已取得美國 510(k) 許可，七家機構是在許可之後才展開結構化評估；本則的頭部專用 MR 系統則註明未獲任何主管機關許可、僅供研究。同一家公司的兩種多機構網絡，分別落在法規後與法規前: [先過審再收證據：GE Photonova Spectra 七機構評估解析](2026-11-19-ge-healthcare-photonova-spectra-pcct-collaborations.md)
 
 兩則都是同一家公司尚未取得任何主管機關許可、卻已進入多機構實地使用的中樞神經造影項目，受管制的對象卻不同：本則是一台註明僅供研究、不可販售的頭部專用 MR 硬體，該則是一支受藥品法規管轄、必須走完第三期才可能上市的顯影劑。兩則並讀可以看出同一個造影問題在器材與藥品兩條法規路徑上的進度並不同步: [同劑量與釓不分高下：GE 錳顯影劑 LUMINA 進三期拆解](2026-11-20-ge-healthcare-mangaciclanol-lumina-phase2.md)
+
+兩則都是大廠把多家醫療機構圈成一個供給網，換到的東西卻不同：本則聯盟換到的是九家機構圍繞一台研究用機器的使用與交流意向，該則協議換到的是一家醫院集團的影像、標註與放射報告，以及事後在同一批院所內評估的場域: [不只影像還要報告與標註：Siemens 與 Sana 肺癌篩檢合作解析](2026-11-27-siemens-sana-lung-screening-data-partnership.md)
+
 ## 實務的啟發
 
 - **轉述這則消息時，動詞要跟著公告走。** 公告寫的是 announces intent to establish，不是 establishes。在內部簡報或技術雷達上，這一則應該記成「宣布意向」，並在同一行註明機器狀態為研究用、未獲法規許可。只記下聯盟名稱與九家機構，會讓半年後回看的人誤以為這是一個已在運作的合作體。
