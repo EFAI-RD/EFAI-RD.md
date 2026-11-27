@@ -1,6 +1,6 @@
 ---
 parent: AI Papers
-nav_order: 5
+nav_exclude: true
 title: "LesionAgent：固定規則誤判惡化 33 次，加上代理判讀只剩 2 次"
 catalog_id: "arxiv:2611.27876"
 editors:
@@ -164,6 +164,8 @@ VoxelSage 同樣把量測交給確定性程式、LLM 只負責調度，但評估
 兩篇都讓代理自己在 CT 體積中找東西；急診 VLM 代理那篇的模型自己翻切片、很早寫下的假設多半不會修正，LesionAgent 則把判讀狀態放在 LLM 之外的 lesion registry，並強制每個新病灶與基準期並排比對後才能記錄: [VLM 代理自己翻 CT／MRI：第一個假設錯，最後只有 12% 答對](2026-11-19-vlm-agent-ct-mri-navigation-first-hypothesis.md)
 
 放療勾畫綜述構想以 LLM 控制器呼叫 VoxTell 等 3D 文字提示分割模型、但承認尚無系統實作；LesionAgent 是同一類控制器加工具架構在腫瘤療效判讀上的實作，並以 VoxTell 作為偵測工具: [放療勾畫綜述：VLM 對 nnU-Net 勝負未定，論點改押 CTV](2026-11-12-radiotherapy-segmentation-review-atlas-to-agentic-vlm.md)
+
+VoxTell 錯誤分析量出 LesionAgent 所用偵測工具 VoxTell 單獨使用時 instance precision 只有 0.131、小病灶常漏，與 LesionAgent 在 VoxTell 候選之外再加自我驗證與跨次比對的設計相呼應: [CT 報告逐句分割：VoxTell 沒有一例分錯邊，錯在範圍與小病灶](2026-11-27-voxtell-ct-report-sentence-grounding-errors.md)
 
 ## 實務的啟發
 
