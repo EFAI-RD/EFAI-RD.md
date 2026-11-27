@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 3
+nav_order: 4
 title: "先過審再收證據：GE Photonova Spectra 七機構評估解析"
 category: industry-watch
 date: 2026-11-19

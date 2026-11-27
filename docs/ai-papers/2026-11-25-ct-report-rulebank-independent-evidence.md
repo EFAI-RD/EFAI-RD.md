@@ -172,6 +172,8 @@ DLoss 在訓練時改損失函數、讓 CT 報告模型少寫沒有根據的診�
 
 本篇在報告寫完後以獨立影像證據修訂草稿，DeCAD 則在生成時就先讓模型自己寫出陽性發現清單；兩篇都在 CT-RATE 上以 RadBERT 抽出 18 類異常的 macro-F1 評估，增益都以 recall 上升最明顯: [CT 報告模型問得出卻寫不出：先列發現再寫，F1 15.9→39.0](2026-11-26-decad-ct-diagnosis-to-report-gap.md)
 
+本篇證明只看草稿文字學不到該改什麼、必須有獨立的影像證據，該則的產業產品恰好把輸入限定為醫師口述與既有文字、不含任何影像端證據，也因此沒有宣稱任何判讀能力: [不碰判讀只做文書：InteleOrchestrator Clarity 拆解](../industry-watch/2026-11-26-ge-healthcare-inteleorchestrator-clarity-reporting.md)
+
 ## 實務的啟發
 
 - **可借用的設計** — 「規則由 LLM 提案、由程式在開發集上驗證與套用、改動可追溯到規則與證據值」的分工，讓修訂行為可以被檢查與審核；對於想用影像工具補強既有報告模型、但不想重訓模型的團隊，這是一個可複製的架構骨架。增益大小則依報告模型而異，本研究在強模型上只多 0.9 點。[(ref: main §3.4)](https://arxiv.org/html/2611.28281v1#S3.SS4) [(ref: main Table 1)](https://arxiv.org/html/2611.28281v1#S3.T1)

@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 1
+nav_order: 2
 title: "分子讀得準、化合物選不準：OpenAI MedChemBench 解析"
 category: industry-watch
 date: 2026-11-24
