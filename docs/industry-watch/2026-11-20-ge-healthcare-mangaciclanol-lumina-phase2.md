@@ -1,6 +1,6 @@
 ---
 parent: Industry Watch
-nav_order: 4
+nav_order: 5
 title: "同劑量與釓不分高下：GE 錳顯影劑 LUMINA 進三期拆解"
 category: industry-watch
 date: 2026-11-20
@@ -27,6 +27,8 @@ related_articles:
     relation: "該則的分部數字給了本則一個量級：顯影劑與放射性藥物分部（PDx）當季 Organic 成長 13.8%、分部利潤率 29.9%，兩項都是三個分部之首，而 mangaciclanol 正是這個分部的在研項目，公告中具名發言的也是該分部的負責人"
   - path: "../ai-papers/2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md"
     relation: "該篇的輸入影像正是對比增強 T1 軸切面，模型要在環狀強化的模稜兩可影像上判斷腫瘤或非腫瘤；本則若最終換掉這類影像所使用的顯影劑，強化程度與對比雜訊比的分布就會改變，而該篇已經證明這類判讀對輸入條件的變動相當敏感"
+  - path: "2026-11-27-ge-healthcare-omni-total-body-pet-ct-510k-pending.md"
+    relation: "同一家公司兩則「尚未取得許可」的造影項目，證據形態卻完全不同：本則的顯影劑已有盲性獨立判讀者的第二期人體結果並登錄了第三期，該則的掃描硬體只有假體測試，公告中 trial 與 peer 的命中皆為 0"
 refs:
   release:
     title: "GE HealthCare's Phase 2 results support advancement of investigational manganese-based MRI contrast agent mangaciclanol into Phase 3 of LUMINA clinical trial（GE HealthCare 官方新聞稿，2026-11-19）"
@@ -135,6 +137,8 @@ GE HealthCare 於 2026-11-19 宣布，其國際多中心試驗 LUMINA 的第二�
 該則的分部數字給了本則一個量級：顯影劑與放射性藥物分部（PDx）當季 Organic 成長 13.8%、分部利潤率 29.9%，兩項都是三個分部之首，而 mangaciclanol 正是這個分部的在研項目，公告中具名發言的也是該分部的負責人: [營收成長 7.2%、全年財測上修：GE 第三季財報分析](2026-10-29-ge-healthcare-q3-2026-results.md)
 
 該篇的輸入影像正是對比增強 T1 軸切面，模型要在環狀強化的模稜兩可影像上判斷腫瘤或非腫瘤；本則若最終換掉這類影像所使用的顯影劑，強化程度與對比雜訊比的分布就會改變，而該篇已經證明這類判讀對輸入條件的變動相當敏感: [轉診單一句話就改變 MRI 判讀，叫模型忽略只有一個做得到](../ai-papers/2026-10-28-referral-text-overrides-mri-mllm-glioma-abscess.md)
+
+同一家公司兩則「尚未取得許可」的造影項目，證據形態卻完全不同：本則的顯影劑已有盲性獨立判讀者的第二期人體結果並登錄了第三期，該則的掃描硬體只有假體測試，公告中 trial 與 peer 的命中皆為 0: [一個床位取代五六個：GE 全身 PET/CT Omni 送審解剖](2026-11-27-ge-healthcare-omni-total-body-pet-ct-510k-pending.md)
 
 ## 實務的啟發
 
