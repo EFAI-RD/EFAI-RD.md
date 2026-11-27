@@ -109,6 +109,8 @@ REG 2025 從報告生成端指出榜單分數抓不到數值幻覺，該研究�
 
 REG 2025 指出榜單分數抓不到腫瘤比例與分級失真；PathXAI 以自建的診斷與 finding 指標加上常數控制，顯示公開集的 finding F1 會被「全答存在」超過，病理師之間的分級 κ 也只有 0.036，兩篇都說明病理報告的自動評分需要控制組與病理師參考: [PathXAI：公開集 finding F1 48.8，全答「有」得 86.3](2026-11-10-pathxai-segmentation-guided-pathology-report.md)
 
+REG 2025 從競賽結果指出榜單分數抓不到數值與分級失真；CLASP 在 PathText-BRCA 上進一步量出 BLEU 主要獎勵醫院格式與報告長度，並把 REG 2025 的排名分數列為附錄評估之一: [病理報告生成：挑同院舊報告，BLEU-4 就逼近已發表方法](2026-11-27-clasp-pathology-report-decide-then-decode.md)
+
 ## 實務的啟發
 
 第一，病理報告生成的驗收表不應只列整體文字分數。本書庫建議把器官、處置、組織型態、分級、腫瘤比例、否定與不確定性拆成 slots，逐欄量測正確、漏報、過度確診與數值誤差；這延伸了作者對 ontology-aware 與 slot-level 指標的建議。[(ref: main §5 metrics)](https://arxiv.org/html/2609.00866v1#S5.p2)
