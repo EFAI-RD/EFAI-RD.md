@@ -172,6 +172,8 @@ MedVTok 以 VQA 準確率比較不同視覺 tokenizer、差距約 1 個百分點
 
 本篇以拿掉切片檢驗切片層級問答，CaseScope 改用同一病灶多視野的教學個案，只留最高倍視野讓開放模型的十選一輪換準確率變動 −7.1 到 +2.1 點、拿掉一行檢體部位最多降 9.4 點，從另一種輸入對照得到相近結論: [病理多視野診斷：選項輪換十次全對，開放 MLLM 最高 17.9%](2026-11-18-casescope-multi-field-pathology-mllm.md)
 
+本篇在問答端發現 SlideChat 拿掉切片後答對率幾乎不變，CLASP 則在報告端發現不給影像的 7B LLM 對所有病人寫同一份報告、BLEU-4 仍與看得到切片的 LLM 相當，並查出 SlideChat 與 WSI-LLaVA 的訓練資料含 PathText-BRCA 的測試報告: [病理報告生成：挑同院舊報告，BLEU-4 就逼近已發表方法](2026-11-27-clasp-pathology-report-decide-then-decode.md)
+
 ## 實務的啟發
 
 - **可借用的量測方法：作者提出的最低對照組** — 評估病理 VLM 時，作者建議至少報告：切片條件 VQA 的 text-only、換錯切片、選項位移與 NOTA 組別並附多數答案基準；改寫與 reframing 下的翻轉比例與一致性；主張文字改善預後時的去分期與只有文字組別；主張 prompt 有用時的同編碼器比較；每個主要比較的信賴區間與 seed；以及六項運算資訊。這些對照每一項的成本都不高，可直接加進內部評估流程。[(ref: main §5 Minimum controls)](https://arxiv.org/html/2610.26805v1#S5)
